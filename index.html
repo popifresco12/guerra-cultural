@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Termómetro de la Guerra Cultural — España</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+  :root {
+    --bg: #0f0f13;
+    --card: #1a1a24;
+    --border: #2a2a3a;
+    --text: #e0e0e0;
+    --muted: #8888a0;
+    --accent-red: #ff4560;
+    --accent-blue: #4590ff;
+    --accent-green: #45d480;
+    --accent-orange: #ff9500;
+    --accent-purple: #a855f7;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, sans-serif;
+    padding: 2rem;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #ff4560, #ff9500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+  }
+  .header .subtitle {
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .header .date {
+    color: var(--accent-green);
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 1rem;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+    transition: border-color 0.2s;
+  }
+  .card:hover { border-color: #444; }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+  }
+  .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .card-tag {
+    font-size: 0.65rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .tag-hot { background: rgba(255,69,96,0.2); color: #ff4560; }
+  .tag-moderate { background: rgba(255,149,0,0.2); color: #ff9500; }
+  .tag-cooling { background: rgba(69,212,128,0.2); color: #45d480; }
+  .tag-stable { background: rgba(168,133,247,0.2); color: #a855f7; }
+  .card-body { font-size: 0.82rem; line-height: 1.6; color: var(--muted); }
+  .card-body strong { color: var(--text); }
+  .card-body .quote {
+    border-left: 2px solid var(--border);
+    padding-left: 0.75rem;
+    margin: 0.5rem 0;
+    font-style: italic;
+    color: var(--muted);
+    font-size: 0.78rem;
+  }
+  .momentum {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.78rem;
+  }
+  .momentum-label { color: var(--muted); }
+  .momentum-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .bar-track {
+    width: 100px;
+    height: 4px;
+    background: var(--border);
+    border-radius: 2px;
+    position: relative;
+  }
+  .bar-fill {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 0.5s;
+  }
+  .bar-left { background: var(--accent-blue); }
+  .bar-right { background: var(--accent-red); }
+  .momentum-text { font-weight: 600; }
+  .momentum-text.m-right { color: var(--accent-red); }
+  .momentum-text.m-left { color: var(--accent-blue); }
+  .momentum-text.m-center { color: var(--accent-orange); }
+  .stats-row {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.78rem;
+  }
+  .stat-item { color: var(--muted); }
+  .stat-item span { color: var(--text); font-weight: 500; }
+  .chart-section {
+    max-width: 1400px;
+    margin: 2rem auto;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+  }
+  .chart-section h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+  .charts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    height: 300px;
+  }
+  .trending-section {
+    max-width: 1400px;
+    margin: 2rem auto;
+  }
+  .trending-section h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+  .trending-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 0.75rem;
+  }
+  .trending-item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .trending-item .topic { font-size: 0.85rem; }
+  .trending-item .change { font-size: 0.8rem; font-weight: 600; }
+  .change.up { color: var(--accent-red); }
+  .change.down { color: var(--accent-blue); }
+  .change.stable { color: var(--accent-green); }
+  .footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.75rem;
+  }
+  .footer a { color: var(--accent-blue); text-decoration: none; }
+  @media (max-width: 768px) {
+    body { padding: 1rem; }
+    .grid { grid-template-columns: 1fr; }
+    .charts-grid { grid-template-columns: 1fr; height: auto; }
+    .header h1 { font-size: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>⚔️ Termómetro de la Guerra Cultural</h1>
+  <div class="subtitle">Análisis de la conversación en X · Enfoque: España</div>
+  <div class="date" id="currentDate"></div>
+</div>
+
+<!-- CHARTS TOP -->
+<div class="chart-section">
+  <h3>📊 Intensidad del debate por tema</h3>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;height:300px">
+    <canvas id="intensityChart"></canvas>
+    <canvas id="momentumChart"></canvas>
+  </div>
+</div>
+
+<!-- HISTORY OVERVIEW -->
+<div class="chart-section" id="historySection" style="display:none">
+  <h3>📈 Evolución semanal</h3>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;height:250px">
+    <canvas id="historyChart"></canvas>
+    <div id="historyAlerts"></div>
+  </div>
+</div>
+
+<!-- TOPIC CARDS -->
+<div class="grid" id="topicGrid"></div>
+
+<!-- TRENDING -->
+<div class="trending-section">
+  <h3>🔥 Temas en auge vs. en declive</h3>
+  <div class="trending-list" id="trendingList"></div>
+</div>
+
+<!-- NEWS / POLÉMICAS RECIENTES -->
+<div class="chart-section">
+  <h3>📰 Polémicas recientes</h3>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem" id="newsGrid"></div>
+</div>
+
+<!-- ACCOUNTS DIRECTORY -->
+<div class="chart-section">
+  <h3>👥 Directorio de cuentas por espectro político</h3>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem" id="accountsGrid"></div>
+</div>
+
+<!-- VIRAL TWEETS -->
+<div class="chart-section">
+  <h3>🔥 Hilos y tuits virales del momento</h3>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem" id="viralGrid"></div>
+</div>
+
+<div class="footer">
+  <p>Datos obtenidos mediante búsqueda en X con Grok (xAI) · Análisis generado por IA · <a href="https://x.com/search?q=guerra+cultural+Espa%C3%B1a&f=live" target="_blank">Ver conversación en directo</a></p>
+  <p style="margin-top:0.5rem;">Las tendencias reflejan el volumen e intensidad del debate en X, no encuestas representativas de la población.</p>
+</div>
+
+<script>
+// Dynamic date
+document.getElementById('currentDate').textContent = '📅 Actualizado: ' + new Date().toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' }) + ' · ' + new Date().toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
+
+// --- HISTORY DATA (loaded from snapshot JSON if exists, else empty) ---
+let historyData = [];
+try {
+  const stored = localStorage.getItem('gc_history');
+  if (stored) historyData = JSON.parse(stored);
+} catch(e) {}
+
+function saveSnapshot(topics) {
+  const snapshot = {
+    date: new Date().toISOString(),
+    topics: topics.map(t => ({
+      id: t.id,
+      name: t.name,
+      intensity: t.intensity,
+      momentumDir: t.momentumDir
+    }))
+  };
+  historyData.push(snapshot);
+  if (historyData.length > 12) historyData = historyData.slice(-12);
+  try { localStorage.setItem('gc_history', JSON.stringify(historyData)); } catch(e) {}
+}
+
+function renderHistory() {
+  const section = document.getElementById('historySection');
+  if (historyData.length < 2) { section.style.display = 'none'; return; }
+  section.style.display = 'block';
+
+  // Alerts: compare last two snapshots
+  const last = historyData[historyData.length - 1];
+  const prev = historyData[historyData.length - 2];
+  const alerts = [];
+  if (last && prev) {
+    last.topics.forEach((t, i) => {
+      const p = prev.topics.find(pt => pt.id === t.id);
+      if (p) {
+        const diff = t.intensity - p.intensity;
+        if (diff >= 15) alerts.push({ name: t.name, diff, dir: t.momentumDir });
+      }
+    });
+  }
+  const alertsDiv = document.getElementById('historyAlerts');
+  if (alerts.length) {
+    alertsDiv.innerHTML = '<div style="font-size:0.85rem;font-weight:600;color:var(--accent-red);margin-bottom:0.5rem">🚨 ALERTAS - Subidas fuertes</div>' +
+      alerts.map(a => `<div style="display:flex;justify-content:space-between;padding:0.4rem 0;border-bottom:1px solid var(--border);font-size:0.8rem">
+        <span>${a.name}</span>
+        <span style="color:var(--accent-red)">+${a.diff} pts</span>
+      </div>`).join('');
+  } else {
+    alertsDiv.innerHTML = '<div style="color:var(--muted);font-size:0.8rem">✅ Sin cambios bruscos respecto al último periodo.</div>';
+  }
+
+  // History chart - last 6 points
+  const labels = historyData.slice(-6).map(s => new Date(s.date).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit' }));
+  const datasets = topics.map(t => {
+    const color = t.intensity >= 80 ? '#ff4560' : t.intensity >= 65 ? '#ff9500' : '#a855f7';
+    return {
+      label: t.name,
+      data: historyData.slice(-6).map(s => {
+        const found = s.topics.find(st => st.id === t.id);
+        return found ? found.intensity : null;
+      }),
+      borderColor: color,
+      backgroundColor: color + '33',
+      borderWidth: 2,
+      pointRadius: 2,
+      tension: 0.3
+    };
+  });
+  new Chart(document.getElementById('historyChart'), {
+    type: 'line',
+    data: { labels, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0', font: { size: 9 } } },
+        y: { grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' }, min: 20, max: 100 }
+      }
+    }
+  });
+}
+
+const topics = [
+  {
+    id: "sanchismo",
+    name: "Sanchismo",
+    icon: "👑",
+    tag: "🔥 Tendencia alta",
+    tagClass: "tag-hot",
+    intensity: 93,
+    momentum: 88,
+    momentumDir: "right",
+    summary: "El sanchismo alcanza su pico de desgaste. Begoña Gómez imputada y sin pasaporte, Rodríguez Zapatero imputado, Ábalos y trama de financiación ilegal. 6 de cada 10 españoles creen que Sánchez debería convocar elecciones. El Gobierno sobrevive en funciones con el apoyo mínimo.",
+    quote: "El sanchismo se desmorona — 6 de cada 10 españoles piden elecciones anticipadas.",
+    details: [
+      ["Volumen en X", "Muy alto - pico histórico"],
+      ["Sentimiento dominante", "Crítico (70-30)"],
+      ["Impulsado por", "PP, Vox, medios conservadores"]
+    ]
+  },
+  {
+    id: "inmigracion",
+    name: "Inmigración",
+    icon: "🚧",
+    tag: "🔥 Tendencia alta",
+    tagClass: "tag-hot",
+    intensity: 91,
+    momentum: 92,
+    momentumDir: "right",
+    summary: "La regularización masiva supera el millón de solicitudes, el doble de lo estimado. La policía denuncia fraude administrativo masivo. España alcanza los 10 millones de residentes extranjeros. Baleares desplaza a Canarias como principal ruta marítima. Debate sobre efecto llamada extremo.",
+    quote: "España supera los 10 millones de extranjeros. El flujo neto es de ~600.000 inmigrantes al año.",
+    details: [
+      ["Volumen en X", "Muy alto"],
+      ["Sentimiento", "Polarizado extremo"],
+      ["Debate clave", "Regularización vs. efecto llamada masivo"]
+    ]
+  },
+  {
+    id: "okupacion",
+    name: "Okupación",
+    icon: "🏠",
+    tag: "🔥 Tendencia alta",
+    tagClass: "tag-hot",
+    intensity: 86,
+    momentum: 78,
+    momentumDir: "right",
+    summary: "El Financial Times destaca que la okupación en España es cien veces mayor que en Francia. Los 'juicios exprés' de la reforma de 2025 aún se perciben insuficientes. Vecinos se organizan ante la pasividad administrativa. Vox intensifica campaña en barrios conflictivos como Barberà del Vallès.",
+    quote: "La okupación en España es cien veces mayor que en Francia, según Financial Times.",
+    details: [
+      ["Volumen en X", "Alto"],
+      ["Sentimiento", "Mayoritariamente crítico"],
+      ["Impulsado por", "VOX, PP, propietarios afectados"]
+    ]
+  },
+  {
+    id: "independentismo",
+    name: "Independentismo / Procés",
+    icon: "🗺️",
+    tag: "🔥 Tendencia alta",
+    tagClass: "tag-hot",
+    intensity: 78,
+    momentum: 65,
+    momentumDir: "right",
+    summary: "El procés unilateral está agotado. Salvador Illa consolida su gobierno con presupuestos. Pero Aliança Catalana de Sílvia Orriols irrumpe con 23-25 escaños en las encuestas del CEO, superando a Junts. El independentismo vira hacia el identitarismo anti-inmigración.",
+    quote: "Aliança Catalana se dispara a 23-25 escaños. Junts se desangra. El independentismo muta.",
+    details: [
+      ["Volumen en X", "Alto"],
+      ["Sentimiento", "Polarizado - reconfiguración"],
+      ["Clave", "Aliança Catalana +23 escaños en encuestas CEO"]
+    ]
+  },
+  {
+    id: "memoria",
+    name: "Memoria Histórica",
+    icon: "📜",
+    tag: "🔥 Tendencia alta",
+    tagClass: "tag-hot",
+    intensity: 83,
+    momentum: 82,
+    momentumDir: "right",
+    summary: "La 'Ley de Nietos' alcanza 2,5 millones de solicitudes. El escándalo de los 1,6 millones de euros pagados a una empresa vinculada a la dictadura cubana para agilizar trámites agita el debate. Vox lo lleva al Parlamento Europeo. El PP denuncia 'fabricación de votantes CERA' para 2027.",
+    quote: "El Gobierno paga 1,6M€ a una empresa vinculada a la dictadura cubana para gestionar nacionalidades.",
+    details: [
+      ["Volumen en X", "Muy alto"],
+      ["Sentimiento", "Mayoritariamente crítico"],
+      ["Debate", "Reparación vs. ingeniería electoral"]
+    ]
+  },
+  {
+    id: "feminismo",
+    name: "Feminismo Radical",
+    icon: "⚡",
+    tag: "🔥 Tendencia moderada",
+    tagClass: "tag-moderate",
+    intensity: 74,
+    momentum: 62,
+    momentumDir: "right",
+    summary: "La polémica ElXokas-Clerss reaviva el debate sobre machismo y feminismo en la nueva generación. El desgaste del feminismo institucional tras el escándalo del 'Solo sí es sí' sigue pesando. La Cass Review erosiona el consenso trans en el feminismo. Crece el backlash entre hombres jóvenes (52% se sienten discriminados).",
+    quote: "El péndulo ha girado: los excesos retóricos y las leyes fallidas generan el mayor backlash al feminismo en décadas.",
+    details: [
+      ["Volumen en X", "Alto - pico por polémica streamers"],
+      ["Sentimiento", "Profundamente dividido"],
+      ["Brecha generacional", "Jóvenes varones se alejan de la izquierda"]
+    ]
+  },
+  {
+    id: "woke",
+    name: "Wokismo / Ideología Woke",
+    icon: "🌿",
+    tag: "🔥 Tendencia moderada",
+    tagClass: "tag-moderate",
+    intensity: 70,
+    momentum: 55,
+    momentumDir: "right",
+    summary: "El wokismo español se describe como 'pastiche decadente' que funde identitarismo, lenguas cooficiales, inmigracionismo y feminismo radical en una misma identidad moralizante. Señales de fatiga social en Occidente, pero en España sigue fuerte en instituciones (universidad, RTVE, administración).",
+    quote: "El wokismo español es un pastiche decadente que funde todas las causas progresistas en una identidad histérica.",
+    details: [
+      ["Volumen en X", "Moderado-alto"],
+      ["Tendencia", "Fatiga social creciente pero institucionalizado"],
+      ["Críticos principales", "Vox, liberales, intelectuales conservadores"]
+    ]
+  },
+  {
+    id: "cultura-cancelacion",
+    name: "Cultura de la Cancelación",
+    icon: "🔇",
+    tag: "📉 En declive",
+    tagClass: "tag-cooling",
+    intensity: 62,
+    momentum: 32,
+    momentumDir: "left",
+    summary: "Entramos en la era 'post-cancelación'. Figuras canceladas años atrás regresan. Bécquer Seguín publica 'El nuevo horizonte de la cultura de la cancelación' analizando el rol de la IA. La sociedad española muestra hartazgo ante el moralismo constante. El término pierde eficacia real.",
+    quote: "La cancelación ya no destruye carreras. Entramos en la era post-cancelación con la IA como nuevo factor.",
+    details: [
+      ["Volumen en X", "Moderado"],
+      ["Tendencia", "A la baja - era post-cancelación"],
+      ["Nuevo factor", "IA generativa como catalizador"]
+    ]
+  },
+  {
+    id: "ley-trans",
+    name: "Ley Trans",
+    icon: "⚧️",
+    tag: "🔥 Tendencia alta",
+    tagClass: "tag-hot",
+    intensity: 79,
+    momentum: 70,
+    momentumDir: "right",
+    summary: "Más de 10.000 cambios registrales desde 2023. La Cass Review del Reino Unido se cita constantemente por críticos como evidencia internacional contra el modelo de autodeterminación. La división feminista se profundiza: transactivismo vs. feminismo radical/materialista. Presión internacional creciente para reformar protección de menores.",
+    quote: "El Informe Cass y la evidencia nórdica cuestionan el modelo afirmativo. Más de 10.000 cambios registrales.",
+    details: [
+      ["Volumen en X", "Alto"],
+      ["Sentimiento", "Polarizado extremo"],
+      ["Efecto Cass", "Erosiona el consenso inicial"]
+    ]
+  },
+  {
+    id: "lenguaje-inclusivo",
+    name: "Lenguaje Inclusivo",
+    icon: "📝",
+    tag: "📉 En declive",
+    tagClass: "tag-cooling",
+    intensity: 52,
+    momentum: 22,
+    momentumDir: "left",
+    summary: "El uso de 'e', 'x', '@' y desdoblamientos no supera el 5% de uso real. Vox eliminó el lenguaje inclusivo oficialmente en las Cortes Valencianas (dic 2025, BOE ene 2026). La RAE mantiene su rechazo firme. La batalla cultural la han ganado los críticos del lenguaje inclusivo radical.",
+    quote: "La batalla la han ganado los críticos. El lenguaje inclusivo radical no supera el 5% de uso real.",
+    details: [
+      ["Volumen en X", "Bajo"],
+      ["Tendencia", "En declive - Vox lo eliminó en Cortes Valencianas"],
+      ["Éxito real", "Solo en instituciones, no en la calle"]
+    ]
+  },
+  {
+    id: "espana-vaciada",
+    name: "España Vaciada",
+    icon: "🏘️",
+    tag: "📌 Estable",
+    tagClass: "tag-stable",
+    intensity: 56,
+    momentum: 42,
+    momentumDir: "center",
+    summary: "El movimiento sigue activo pero sin picos de atención mediática. Se vincula cada vez más al debate de vivienda, inmigración y fondos europeos. El teletrabajo da un respiro limitado. Propuestas de 'nodos de desarrollo' y descentralización real de administraciones. La tendencia de concentración urbana persiste.",
+    quote: "Sin un pack completo (empleo + vivienda + servicios + ocio), la repoblación rural es inviable.",
+    details: [
+      ["Volumen en X", "Moderado-bajo"],
+      ["Tendencia", "Estable"],
+      ["Solución", "Descentralización + servicios públicos"]
+    ]
+  },
+  {
+    id: "facha",
+    name: "Facha / Insulto Político",
+    icon: "🗣️",
+    tag: "📌 Estable",
+    tagClass: "tag-stable",
+    intensity: 68,
+    momentum: 52,
+    momentumDir: "center",
+    summary: "Cayetana Álvarez de Toledo: 'Si hoy no te llaman facha en España, no eres nadie'. El término se inflaciona hasta la irrelevancia: se usa contra cualquiera a la derecha del PSOE, empresarios, periodistas e incluso figuras de centro. La deshumanización del adversario con etiquetas históricas sigue siendo la herramienta principal de polarización afectiva.",
+    quote: "Si hoy no te llaman facha en España, no eres nadie — Cayetana Álvarez de Toledo.",
+    details: [
+      ["Volumen en X", "Muy alto (uso constante)"],
+      ["Efecto", "Polarización afectiva - inflación del término"],
+      ["Asimetría", "Uso mayoritario desde la izquierda"]
+    ]
+  }
+];
+
+// NEWS / POLÉMICAS
+const news = [
+  {
+    title: "ElXokas vs Clerss: la polémica que divide Twitch España",
+    date: "10-13 jul 2026",
+    summary: "Xokas dijo que prefiere 'una mujer que sea un 6' antes que Ester Expósito por sus ideas feministas. Clerss le respondió con un vídeo viral denunciando hipocresía y machismo. Xokas contestó airadamente. El debate sobre feminismo y streamers alcanza a millones de jóvenes.",
+    source: "X / Twitch / YouTube",
+    tags: ["Feminismo", "Streamers", "Generación Z"]
+  },
+  {
+    title: "Regularización masiva supera 1M de solicitudes",
+    date: "jul 2026",
+    summary: "El decreto de Sánchez duplica las previsiones. La policía alerta de fraude administrativo masivo. Excomisarios hablan de efecto llamada 'descontrolado'. Baleares se convierte en la nueva ruta principal de llegadas irregulares.",
+    source: "El Español / OKDIARIO",
+    tags: ["Inmigración", "Sanchismo"]
+  },
+  {
+    title: "Ley de Nietos: escándalo de los 1,6M€ a una empresa cubana",
+    date: "jul 2026",
+    summary: "El Gobierno externaliza la gestión de nacionalidades pagando 1,6 millones a una empresa vinculada a la dictadura cubana. 2,5 millones de solicitudes. Vox lo lleva al Parlamento Europeo. PP denuncia 'fabricación de votantes CERA'.",
+    source: "OKDIARIO / El Debate",
+    tags: ["Memoria Histórica", "Elecciones"]
+  },
+  {
+    title: "Aliança Catalana de Sílvia Orriols irrumpe con 23-25 escaños",
+    date: "jul 2026",
+    summary: "Las encuestas del CEO muestran a Aliança Catalana superando a Junts. Independentismo duro + discurso anti-inmigración. Orriols rompe el tablero independentista tradicional. ERC y Junts pierden terreno frente a la nueva fuerza identitaria.",
+    source: "CEO / El Mundo",
+    tags: ["Independentismo", "Inmigración"]
+  }
+];
+
+// ACCOUNTS DIRECTORY - Twitteros reales españoles
+const accounts = [
+  { handle: "@profsecundario", name: "Profe de historia", category: "Muy derecha", desc: "Hilos documentados. Crítica a hegemonía cultural de izquierda. Ensayístico.", color: "#003399" },
+  { handle: "@dianitanoticias", name: "Dianita", category: "Muy derecha", desc: "Ultra, alineada Vox. Inmigración, soberanía, anti-Sánchez. Directa.", color: "#003399" },
+  { handle: "@billkilgore_", name: "Kilgore de Lezo", category: "Joker 🃏", desc: "Humor satírico, memes, fútbol. Anti-Sánchez pero en modo troll. ~270K.", color: "#996633" },
+  { handle: "@Tagelca", name: "Tage", category: "Derecha", desc: "Crítico con Sánchez y corrupción PSOE. También crítico con oposición débil. ~67K.", color: "#0055cc" },
+  { handle: "@elxokas", name: "ElXokas", category: "Derecha", desc: "Streamer. Anti-woke, anti-Sánchez, crítica a impuestos. Directo y sin filtros.", color: "#0055cc" },
+  { handle: "@TemplarExtre", name: "Templar Extremeño", category: "Derecha", desc: "Cristiano, anti-woke, hispanista. Batalla cultural constante.", color: "#0055cc" },
+  { handle: "@13mescribano", name: "Luis Escribano", category: "Neutro", desc: "Crítica sistémica al sistema partidocrático. Reforma constitucional.", color: "#666699" },
+  { handle: "@VictorLapuente", name: "Víctor Lapuente", category: "Neutro", desc: "Académico. Datos, instituciones, corrupción. Análisis riguroso.", color: "#666699" },
+  { handle: "@EstefMolina_", name: "Estefanía Molina", category: "Neutro", desc: "Politóloga. Ruptura contrato social. Crítica a élites sin dogmatismo.", color: "#666699" },
+  { handle: "@nicolasdepedro", name: "Nicolás de Pedro", category: "Neutro", desc: "Analista RRII. Política exterior, desalineamiento internacional.", color: "#666699" },
+  { handle: "@armesillaconde", name: "Santiago Armesilla", category: "Izquierda", desc: "Socialismo patriótico, marxista heterodoxo. Crítico con PSOE y Vox.", color: "#e84700" },
+  { handle: "@Anujbost", name: "Anuj", category: "Izquierda", desc: "Socialdemócrata crítico. Análisis político desde izquierda independiente.", color: "#e84700" },
+  { handle: "@geoestratego", name: "Pedro Baños", category: "Derecha", desc: "Coronel, geopolítica. Análisis sobre corrupción, inmigración. ~450K.", color: "#0055cc" },
+  { handle: "@elmundotoday", name: "El Mundo Today", category: "Joker 🃏", desc: "Periodismo satírico. Noticias falsas. Pega a todos los bandos.", color: "#996633" },
+  { handle: "@littleragergirl", name: "Abby", category: "Joker 🃏", desc: "Streamer gaming. Sarcástica. No política pero sale en dramas tuiteros.", color: "#996633" },
+  { handle: "@LaBugsBunnyIA", name: "Fábrica de Memes", category: "Joker 🃏", desc: "Fotomontajes y portadas parodia. Crítico con la izquierda. Viral.", color: "#996633" }
+];
+
+// Render news
+const newsGrid = document.getElementById('newsGrid');
+news.forEach(n => {
+  newsGrid.innerHTML += `
+    <div class="card">
+      <div style="font-size:0.75rem;color:var(--accent-orange);margin-bottom:0.5rem;font-weight:600">${n.date}</div>
+      <div style="font-size:0.9rem;font-weight:600;margin-bottom:0.5rem">${n.title}</div>
+      <div class="card-body"><p>${n.summary}</p></div>
+      <div style="margin-top:0.5rem;display:flex;gap:0.4rem;flex-wrap:wrap">
+        ${n.tags.map(t => `<span style="font-size:0.65rem;padding:2px 8px;border-radius:4px;background:rgba(168,133,247,0.15);color:#a855f7">${t}</span>`).join('')}
+      </div>
+      <div style="margin-top:0.5rem;font-size:0.7rem;color:var(--muted)">Fuente: ${n.source}</div>
+    </div>
+  `;
+});
+
+// Render accounts
+const accountsGrid = document.getElementById('accountsGrid');
+accounts.forEach(a => {
+  accountsGrid.innerHTML += `
+    <div class="card" style="padding:0.75rem 1rem">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.25rem">
+        <span style="font-weight:600;font-size:0.9rem"><a href="https://x.com/${a.handle.replace('@','')}" target="_blank" style="color:var(--accent-blue);text-decoration:none">${a.handle}</a></span>
+        <span style="font-size:0.65rem;padding:2px 8px;border-radius:4px;background:${a.color}22;color:${a.color};font-weight:500">${a.category}</span>
+      </div>
+      <div style="font-size:0.75rem;color:var(--text)">${a.name}</div>
+      <div style="font-size:0.72rem;color:var(--muted);margin-top:0.25rem">${a.desc}</div>
+    </div>
+  `;
+});
+
+const trends = [
+  { name: "Inmigración regularización", change: "up", pct: "+18%", detail: "Pico por decreto de regularización masiva" },
+  { name: "Sanchismo / corrupción", change: "up", pct: "+16%", detail: "Begoña Gómez sin pasaporte, Zapatero imputado" },
+  { name: "Ley de Nietos (Memoria)", change: "up", pct: "+14%", detail: "Escándalo 1,6M€ empresa cubana" },
+  { name: "Aliança Catalana", change: "up", pct: "+12%", detail: "Orriols irrumpe con 23-25 escaños en CEO" },
+  { name: "ElXokas polémica", change: "up", pct: "+20%", detail: "Vs Clerss por comentarios sobre Ester Expósito" },
+  { name: "Cultura de la cancelación", change: "down", pct: "-8%", detail: "Era post-cancelación, fatiga social" },
+  { name: "Lenguaje inclusivo", change: "down", pct: "-7%", detail: "Vox lo eliminó en Cortes Valencianas" },
+  { name: "Feminismo radical", change: "stable", pct: "±0%", detail: "Estable pero reavivado por polémica streamers" }
+];
+
+// Render cards
+const grid = document.getElementById('topicGrid');
+topics.forEach(t => {
+  const barWidth = t.momentum;
+  const barColor = t.momentumDir === 'right' ? 'var(--accent-red)' : t.momentumDir === 'left' ? 'var(--accent-blue)' : 'var(--accent-orange)';
+  const momentumText = t.momentumDir === 'right' ? 'Gana la derecha/crítica' : t.momentumDir === 'left' ? 'Gana la izquierda/defensa' : 'Empate técnico';
+  const momentumClass = t.momentumDir === 'right' ? 'm-right' : t.momentumDir === 'left' ? 'm-left' : 'm-center';
+
+  grid.innerHTML += `
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">${t.icon} ${t.name}</div>
+        <span class="card-tag ${t.tagClass}">${t.tag}</span>
+      </div>
+      <div class="card-body">
+        <p>${t.summary}</p>
+        <div class="quote">${t.quote}</div>
+        <div class="stats-row">
+          ${t.details.map(d => `<div class="stat-item">${d[0]}: <span>${d[1]}</span></div>`).join('')}
+        </div>
+      </div>
+      <div class="momentum">
+        <span class="momentum-label">Quién lidera el debate</span>
+        <div class="momentum-bar">
+          <span style="font-size:0.7rem;color:var(--accent-blue)">← Izda</span>
+          <div class="bar-track">
+            <div class="bar-fill" style="width:${barWidth}%;background:${barColor};margin-left:${t.momentumDir === 'right' ? '0' : t.momentumDir === 'left' ? '0' : 'auto'};${t.momentumDir === 'center' ? 'margin:0 auto;' : ''}"></div>
+          </div>
+          <span style="font-size:0.7rem;color:var(--accent-red)">Dcha →</span>
+        </div>
+        <span class="momentum-text ${momentumClass}">${momentumText}</span>
+      </div>
+    </div>
+  `;
+});
+
+// Trending list
+const trendingList = document.getElementById('trendingList');
+trends.forEach(t => {
+  trendingList.innerHTML += `
+    <div class="trending-item">
+      <div>
+        <div class="topic">${t.name}</div>
+        <div style="font-size:0.7rem;color:var(--muted)">${t.detail}</div>
+      </div>
+      <div class="change ${t.change}">${t.pct}</div>
+    </div>
+  `;
+});
+
+// Charts
+new Chart(document.getElementById('intensityChart'), {
+  type: 'bar',
+  data: {
+    labels: topics.map(t => t.name),
+    datasets: [{
+      label: 'Intensidad del debate (0-100)',
+      data: topics.map(t => t.intensity),
+      backgroundColor: topics.map(t =>
+        t.intensity >= 80 ? '#ff4560' : t.intensity >= 65 ? '#ff9500' : t.intensity >= 50 ? '#a855f7' : '#45d480'
+      ),
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    indexAxis: 'y',
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' } },
+      y: { grid: { display: false }, ticks: { color: '#e0e0e0', font: { size: 10 } } }
+    }
+  }
+});
+
+// Momentum Chart: Quién lidera cada debate (0=Izda · 100=Dcha)
+new Chart(document.getElementById('momentumChart'), {
+  type: 'bar',
+  data: {
+    labels: topics.map(t => t.name),
+    datasets: [{
+      label: 'Inclinación (0=Izquierda · 100=Derecha)',
+      data: topics.map(t => t.momentum),
+      backgroundColor: topics.map(t =>
+        t.momentumDir === 'right' ? '#ff456088' : t.momentumDir === 'left' ? '#4590ff88' : '#ff950088'
+      ),
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    indexAxis: 'y',
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' }, min: 0, max: 100 },
+      y: { grid: { display: false }, ticks: { color: '#e0e0e0', font: { size: 9 } } }
+    }
+  }
+});
+
+// --- VIRAL TWEETS ---
+const virals = [
+  { author: "@elxokas", date: "jul 2026", text: "\"Prefiero una mujer que sea un 6 antes que Éster Expósito\" — Comentario que desata la mayor polémica del streaming español en 2026. +2M de visualizaciones en sus directos de respuesta.", engagement: "+2M views", topic: "Feminismo" },
+  { author: "@Clerss_ (Clerss)", date: "10 jul 2026", text: "Vídeo viral denunciando la hipocresía de funar a mujeres influencers mientras streamers hombres con millones de seguidores dicen impunemente comentarios machistas.", engagement: "+500K views", topic: "Feminismo/Streamers" },
+  { author: "@Tagelca", date: "jul 2026", text: "\"En este país no dimite ni mi puta madre. Llámese PSOE, PP, VOX o lo que sea. Somos un puto circo.\" — Crítica a la falta de responsabilidades políticas.", engagement: "+4.1K likes", topic: "Sanchismo" },
+  { author: "@billkilgore_", date: "jul 2026", text: "Video meme futbolístico/político — El follón de papeles que tiene encima de la mesa es histórico. Humor ácido con +39K likes y 1.1M views.", engagement: "+39K likes · 1.1M views", topic: "Humor" },
+  { author: "@dianitanoticias", date: "jul 2026", text: "Sánchez humilla a España ante Trump. Análisis de debilidad internacional del Gobierno en negociación con EEUU.", engagement: "+3.2K likes", topic: "Sanchismo" },
+  { author: "@Tagelca", date: "jul 2026", text: "\"El PSOE se va a la puta mierda\" — Celebra registros en Ferraz por trama de financiación ilegal del partido.", engagement: "+5.8K likes", topic: "Sanchismo" }
+];
+const viralGrid = document.getElementById('viralGrid');
+if (viralGrid) {
+  virals.forEach(v => {
+    viralGrid.innerHTML += `
+      <div class="card">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
+          <span style="font-size:0.8rem;color:var(--accent-blue)">${v.author}</span>
+          <span style="font-size:0.7rem;color:var(--muted)">${v.date}</span>
+        </div>
+        <div class="card-body" style="font-size:0.8rem">${v.text}</div>
+        <div style="margin-top:0.5rem;display:flex;justify-content:space-between;font-size:0.7rem">
+          <span style="color:var(--accent-green)">🔥 ${v.engagement}</span>
+          <span style="color:var(--accent-purple)">${v.topic}</span>
+        </div>
+      </div>
+    `;
+  });
+}
+
+// Save snapshot & render history
+saveSnapshot(topics);
+setTimeout(renderHistory, 500);
+</script>
+</body>
+</html>
