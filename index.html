@@ -264,7 +264,9 @@
 
 <script>
 // Dynamic date
-document.getElementById('currentDate').textContent = '📅 Actualizado: ' + new Date().toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' }) + ' · ' + new Date().toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
+const now = new Date();
+const dayNames = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
+document.getElementById('currentDate').textContent = '📅 Actualizado: ' + dayNames[now.getDay()] + ', ' + now.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' }) + ' · ' + now.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
 
 // --- HISTORY DATA (loaded from snapshot JSON if exists, else empty) ---
 let historyData = [];
@@ -354,15 +356,15 @@ const topics = [
     icon: "👑",
     tag: "🔥 Tendencia alta",
     tagClass: "tag-hot",
-    intensity: 94,
-    momentum: 89,
+    intensity: 95,
+    momentum: 91,
     momentumDir: "right",
-    summary: "Begoña Gómez enviada a juicio oral por corrupción, tráfico de influencias y malversación. Primera vez que la esposa de un presidente en activo se sienta en el banquillo. La Complutense le reclama 113.000€ por apropiación de software. Supuestas cuentas ocultas en Turquía (6,2M$) y República Dominicana (3,7M$). Zapatero y David Sánchez también imputados. El juicio sigue muy vivo.",
-    quote: "Begoña Gómez al banquillo por corrupción y tráfico de influencias — primera esposa de presidente en activo juzgada.",
+    summary: "Begoña Gómez irá a juicio con jurado popular en primavera de 2027 por tráfico de influencias y malversación. Ábalos condenado en firme a 24 años y 3 meses por el caso Koldo. Santos Cerdán (ex número 2 del PSOE) imputado por comisiones en obra pública. David Sánchez condenado a 9 años de inhabilitación. Zapatero también investigado. El entorno del PSOE se desmorona judicialmente. Pedro Sánchez no está imputado personalmente pero el coste político es máximo.",
+    quote: "Ábalos condenado a 24 años y 3 meses. Cerdán imputado. Begoña Gómez a juicio con jurado popular. El PSOE arde por los cuatro costados.",
     details: [
       ["Volumen en X", "Muy alto - pico histórico"],
-      ["Sentimiento dominante", "Crítico (70-30)"],
-      ["Impulsado por", "PP, Vox, medios conservadores"]
+      ["Sentimiento dominante", "Crítico (75-25)"],
+      ["Impulsado por", "Condenas firmes, nuevas imputaciones PSOE"]
     ]
   },
   {
@@ -371,82 +373,82 @@ const topics = [
     icon: "🚧",
     tag: "🔥 Tendencia alta",
     tagClass: "tag-hot",
-    intensity: 92,
-    momentum: 93,
+    intensity: 93,
+    momentum: 94,
     momentumDir: "right",
-    summary: "Regularización masiva supera 1.250.000 solicitudes — el triple de lo anunciado. El Consejo de Estado calificó el decreto de 'coladero'. Plazo cerrado el 30 de junio, fase de resolución colapsada. Policía alerta de fraude administrativo masivo. España alcanza 10 millones de residentes extranjeros. Debate sobre efecto llamada descontrolado.",
-    quote: "El Consejo de Estado calificó la regularización de 'coladero'. 1,25M de solicitudes. Colapso total.",
+    summary: "Regularización extraordinaria cierra con 1.174.978 solicitudes — más del doble de las 500.000 previstas. 822.000 admitidas a trámite. Informe policial revela que al menos 400.000 solicitantes no residían en España antes del proceso, lo que se considera efecto llamada masivo y fraude administrativo. Colapso total de oficinas de extranjería. Debate sobre reemplazo poblacional y presión en servicios públicos.",
+    quote: "Informe policial: 400.000 solicitantes de la regularización no residían en España. Fraude masivo. Efecto llamada descontrolado.",
     details: [
       ["Volumen en X", "Muy alto"],
-      ["Sentimiento", "Polarizado extremo"],
-      ["Debate clave", "Regularización vs. efecto llamada masivo"]
+      ["Sentimiento", "Crítico mayoritario (70-30)"],
+      ["Debate clave", "1,17M solicitudes vs. 500K previstas. Colapso total."]
     ]
   },
   {
     id: "okupacion",
     name: "Okupación",
     icon: "🏠",
-    tag: "🔥 Tendencia alta",
-    tagClass: "tag-hot",
-    intensity: 85,
-    momentum: 76,
+    tag: "🔥 Tendencia moderada",
+    tagClass: "tag-moderate",
+    intensity: 82,
+    momentum: 72,
     momentumDir: "right",
-    summary: "Pareja de jubilados tardó casi 2 años en recuperar su casa okupada. La encontraron destrozada, robada y convertida en estercolero. Los 'juicios exprés' prometidos no se materializan: sin reforma nacional efectiva, los desalojos siguen tardando meses o años. Mafias de okupación vinculadas a inmigración irregular. Vox intensifica campaña.",
-    quote: "Jubilados recuperan su casa tras 2 años: la encontraron destrozada y convertida en estercolero.",
+    summary: "Reformas para agilizar desalojos siguen bloqueadas en el Congreso: la iniciativa del PP acumula 91 prórrogas (casi 30 meses de bloqueo), la de Junts 48 prórrogas. Sin cambios legislativos efectivos. La 'inquiokupación' crece como problema. Nuevas medidas de vivienda del Gobierno endurecen posición de propietarios. Mafias de okupación vinculadas a inmigración irregular según denuncias de Vox y asociaciones de afectados.",
+    quote: "Reformas de desalojo bloqueadas: 91 prórrogas al PP, 48 a Junts. Sin cambios en 30 meses. Propietarios desprotegidos.",
     details: [
       ["Volumen en X", "Alto"],
-      ["Sentimiento", "Mayoritariamente crítico"],
-      ["Impulsado por", "VOX, PP, propietarios afectados"]
+      ["Sentimiento", "Crítico mayoritario"],
+      ["Bloqueo", "91+48 prórrogas parlamentarias"]
     ]
   },
   {
     id: "independentismo",
     name: "Independentismo / Procés",
     icon: "🗺️",
-    tag: "🔥 Tendencia moderada",
-    tagClass: "tag-moderate",
-    intensity: 72,
-    momentum: 62,
+    tag: "🔥 Tendencia alta",
+    tagClass: "tag-hot",
+    intensity: 78,
+    momentum: 68,
     momentumDir: "right",
-    summary: "El procés unilateral está agotado pero el independentismo se reconfigura. Aliança Catalana de Sílvia Orriols mantiene su línea: independencia + control estricto de inmigración. El debate sobre identidad catalana e inmigración sigue muy vivo aunque sin grandes picos mediáticos recientes. Persiste el choque entre constitucionalismo español y soberanismo.",
-    quote: "Aliança Catalana mantiene su línea: independencia + control de inmigración. El procés muta.",
+    summary: "Aliança Catalana de Sílvia Orriols se consolida como segunda fuerza política en Cataluña según encuestas del 27 de julio, superando a ERC y Junts. Inaugura nueva sede nacional en Ripoll. Orriols critica a Junts por traicionar el mandato del 1-O. El independentismo tradicional (ERC y Junts) en caída libre mientras AC capitaliza el descontento con discurso identitario y control de inmigración. El procés muta hacia una derecha independentista.",
+    quote: "Aliança Catalana, segunda fuerza en encuestas (27 julio). Orriols capitaliza el descontento independentista. ERC y Junts se hunden.",
     details: [
-      ["Volumen en X", "Moderado-alto"],
-      ["Sentimiento", "Polarizado - reconfiguración"],
-      ["Clave", "Aliança Catalana mantiene pulso identitario"]
+      ["Volumen en X", "Alto - pico por encuestas"],
+      ["Sentimiento", "Polarizado - reconfiguración del mapa"],
+      ["Clave", "Aliança Catalana segunda fuerza. ERC/Junts a la baja."]
     ]
   },
   {
     id: "memoria",
     name: "Memoria Histórica",
     icon: "📜",
-    tag: "🔥 Tendencia alta",
-    tagClass: "tag-hot",
-    intensity: 81,
-    momentum: 80,
+    tag: "🔥 Tendencia moderada",
+    tagClass: "tag-moderate",
+    intensity: 80,
+    momentum: 76,
     momentumDir: "right",
-    summary: "La 'Ley de Nietos' alcanza cifras masivas: más de un millón de solicitudes desde Latinoamérica, especialmente Argentina, Cuba y Venezuela. El fenómeno 'argeñoles' genera fuerte polémica. Consulados colapsados con esperas de 2 a 4 años. Debate sobre otorgar nacionalidad (y voto) a quienes nunca han vivido en España ni pagado impuestos.",
-    quote: "Un millón de 'argeñoles' buscan el pasaporte español. Consulados colapsados, esperas de 2 a 4 años.",
+    summary: "Plazo de la Ley de Nietos cerró en octubre 2025. Cifras finales: casi un millón de argentinos solicitaron nacionalidad, ~200.000 aprobadas, 600.000 en proceso. Controversia judicial activa: recursos por presunta prevaricación en instrucciones ministeriales que permitieron tramitar fuera de plazo. Denuncias ante la Junta Electoral por derecho a voto de beneficiarios que nunca vivieron en España. Consulados siguen colapsados.",
+    quote: "Un millón de solicitudes de nacionalidad de argentinos. 600.000 expedientes en proceso. Recursos judiciales por presunta prevaricación.",
     details: [
-      ["Volumen en X", "Muy alto"],
-      ["Sentimiento", "Mayoritariamente crítico"],
-      ["Debate", "Reparación vs. ingeniería electoral"]
+      ["Volumen en X", "Alto"],
+      ["Sentimiento", "Crítico mayoritario"],
+      ["Debate", "Fraude procesal y derecho a voto sin residencia"]
     ]
   },
   {
     id: "feminismo",
     name: "Feminismo Radical",
     icon: "⚡",
-    tag: "🔥 Tendencia moderada",
-    tagClass: "tag-moderate",
-    intensity: 72,
-    momentum: 60,
+    tag: "📌 Estable",
+    tagClass: "tag-stable",
+    intensity: 65,
+    momentum: 55,
     momentumDir: "right",
-    summary: "El feminismo radical en España se centra en abolición de prostitución y crítica al transactivismo. La brecha con streamers masculinos (ElXokas, etc.) persiste como choque cultural generacional. La Cass Review erosiona el consenso de la Ley Trans. Crece el backlash entre hombres jóvenes (52% se sienten discriminados). Sin gran polémica nueva en julio.",
-    quote: "Choque cultural persistente entre feminismo abolicionista y streamers. La brecha generacional se ensancha.",
+    summary: "El Ministerio de Igualdad lanzó su primera campaña abolicionista de la prostitución el 29 de junio bajo el lema 'Ya era hora'. Tensión con sectores queer y pro-trabajo sexual que acusan al feminismo abolicionista de moralista. Fractura interna en la izquierda: Bibiana Aído avaló el 'trabajo sexual' en la ONU contra la línea del PSOE. El conflicto trans sigue latente. Sin gran polémica nueva en julio pero la brecha generacional con hombres jóvenes (52% se sienten discriminados) persiste.",
+    quote: "El Ministerio lanza campaña abolicionista pero la fractura interna en la izquierda se ensancha. Guerra feminista en la ONU.",
     details: [
-      ["Volumen en X", "Moderado-alto"],
-      ["Sentimiento", "Profundamente dividido"],
+      ["Volumen en X", "Moderado"],
+      ["Sentimiento", "Dividido - fractura interna"],
       ["Brecha generacional", "Jóvenes varones se alejan de la izquierda"]
     ]
   },
@@ -454,34 +456,34 @@ const topics = [
     id: "woke",
     name: "Wokismo / Ideología Woke",
     icon: "🌿",
-    tag: "🔥 Tendencia moderada",
-    tagClass: "tag-moderate",
-    intensity: 68,
-    momentum: 58,
+    tag: "📌 Estable",
+    tagClass: "tag-stable",
+    intensity: 63,
+    momentum: 56,
     momentumDir: "right",
-    summary: "El wokismo en España sigue muy criticado por su presencia en instituciones (universidad, RTVE, administración). Se le acusa de erosionar el mérito, sustituirlo por victimismo colectivo, y ser incompatible con la inmigración masiva de culturas no occidentales. Fatiga social creciente pero sigue institucionalizado. Sin grandes cambios en julio.",
-    quote: "El wokismo sigue fuerte en instituciones pero crece la fatiga social. La batalla cultural no se detiene.",
+    summary: "Crítica constante al wokismo en instituciones españolas (universidad, administración, justicia). Se le acusa de erosionar la meritocracia sustituyéndola por cuotas, discriminación positiva y criterios subjetivos de inclusión. Crecen las voces que denuncian que se premia la victimización sobre la competencia. El debate sigue intenso en X pero sin grandes novedades legislativas. Fatiga social creciente aunque el wokismo sigue institucionalizado en muchas áreas.",
+    quote: "El wokismo institucional sigue fuerte pero crece el rechazo social a la anti-meritocracia. Batalla cultural enquistada.",
     details: [
-      ["Volumen en X", "Moderado"],
-      ["Tendencia", "Fatiga social creciente pero institucionalizado"],
-      ["Críticos principales", "Vox, liberales, intelectuales conservadores"]
+      ["Volumen en X", "Moderado-alto"],
+      ["Tendencia", "Fatiga social creciente pero enquistado"],
+      ["Críticos", "Vox, liberales, intelectuales conservadores"]
     ]
   },
   {
     id: "cultura-cancelacion",
     name: "Cultura de la Cancelación",
     icon: "🔇",
-    tag: "📉 En declive",
-    tagClass: "tag-cooling",
-    intensity: 60,
-    momentum: 30,
-    momentumDir: "left",
-    summary: "El término pierde eficacia real. La cancelación ya no destruye carreras como antes. Figuras canceladas regresan. La sociedad muestra hartazgo ante el moralismo constante. La IA generativa emerge como nuevo factor. Sin episodios relevantes de cancelación en julio. El debate se desplaza hacia la polarización afectiva tradicional.",
-    quote: "La cancelación ya no destruye carreras. Entramos en la era post-cancelación. El término se agota.",
+    tag: "🔥 Tendencia moderada",
+    tagClass: "tag-moderate",
+    intensity: 72,
+    momentum: 50,
+    momentumDir: "center",
+    summary: "El caso Rosalía reactiva el debate: la cantante fue 'cancelada' en Argentina tras celebrar la victoria de España en el Mundial 2026. Boicot masivo a sus conciertos en Buenos Aires, cancelación de un concierto sinfónico. El boicot se extendió a Aitana. El caso ilustra la era post-cancelación: daño colateral a técnicos y venues, y preguntas sobre si la cancelación es reversible. La polarización afectiva (~70% en España) amplifica cualquier polémica.",
+    quote: "Rosalía cancelada en Argentina por celebrar el Mundial. Boicot a conciertos. El debate post-cancelación se reactiva con fuerza.",
     details: [
-      ["Volumen en X", "Moderado-bajo"],
-      ["Tendencia", "A la baja - era post-cancelación"],
-      ["Nuevo factor", "IA generativa como catalizador"]
+      ["Volumen en X", "Alto - caso Rosalía"],
+      ["Tendencia", "Repunte por boicot internacional"],
+      ["Debate", "Cancelación reversible? Daño colateral económico"]
     ]
   },
   {
@@ -490,15 +492,15 @@ const topics = [
     icon: "⚧️",
     tag: "🔥 Tendencia alta",
     tagClass: "tag-hot",
-    intensity: 78,
-    momentum: 68,
+    intensity: 76,
+    momentum: 66,
     momentumDir: "right",
-    summary: "Estudio revela que el 77% de menores identificados como trans tienen trauma psicológico previo o trastornos de salud mental. La Cass Review y las restricciones nórdicas se citan constantemente como evidencia contra la autodeterminación. Más de 10.000 cambios registrales desde 2023. Presión internacional creciente para reformar. Sin derogación nacional pero comunidades PP endurecen protocolos.",
-    quote: "77% de menores trans tienen trauma previo. La evidencia internacional cuestiona el modelo afirmativo español.",
+    summary: "El estudio del 77% de menores trans con trauma psicológico previo sigue siendo referencia constante en el debate. La Cass Review y las restricciones nórdicas se citan como evidencia contra el modelo afirmativo. Más de 10.000 cambios registrales desde 2023. Presión internacional creciente para reformar. España mantiene la ley intacta pero las comunidades del PP endurecen protocolos. El debate sobre detransición y demandas judiciales gana tracción.",
+    quote: "77% de menores trans con trauma previo. La Cass Review sigue erosionando el modelo afirmativo español. Sin derogación pero presión creciente.",
     details: [
       ["Volumen en X", "Alto"],
       ["Sentimiento", "Polarizado extremo"],
-      ["Efecto Cass", "Erosiona el consenso inicial"]
+      ["Efecto Cass", "Erosiona el consenso inicial. Presión internacional"]
     ]
   },
   {
@@ -507,32 +509,32 @@ const topics = [
     icon: "📝",
     tag: "📉 En declive",
     tagClass: "tag-cooling",
-    intensity: 50,
-    momentum: 20,
+    intensity: 47,
+    momentum: 18,
     momentumDir: "left",
-    summary: "El uso de 'e', 'x', '@' y desdoblamientos no supera el 5% de uso real. Vox eliminó el lenguaje inclusivo oficialmente en las Cortes Valencianas (dic 2025, BOE ene 2026). La RAE mantiene su rechazo firme. La batalla cultural la han ganado los críticos del lenguaje inclusivo radical. Sin novedades significativas en julio.",
-    quote: "La batalla la han ganado los críticos. El lenguaje inclusivo radical no supera el 5% de uso real.",
+    summary: "El uso de 'e', 'x', '@' y desdoblamientos no supera el 5% de uso real. La RAE mantiene su rechazo firme al lenguaje inclusivo no binario. Vox lo ha eliminado de la administración donde gobierna. La sociedad está mayoritariamente harta del debate. El lenguaje inclusivo sobrevive solo en instituciones progresistas y ámbitos académicos muy concretos. Sin novedades significativas en julio. La batalla cultural la tienen perdida sus defensores.",
+    quote: "La RAE sigue firme en su rechazo. Vox lo elimina donde gobierna. La sociedad pasó del tema. Derrota cultural de los defensores.",
     details: [
       ["Volumen en X", "Bajo"],
-      ["Tendencia", "En declive - Vox lo eliminó en Cortes Valencianas"],
-      ["Éxito real", "Solo en instituciones, no en la calle"]
+      ["Tendencia", "En declive - Vox lo eliminó donde gobierna"],
+      ["Éxito real", "Solo en nichos institucionales progresistas"]
     ]
   },
   {
     id: "espana-vaciada",
     name: "España Vaciada",
     icon: "🏘️",
-    tag: "📌 Estable",
-    tagClass: "tag-stable",
-    intensity: 54,
-    momentum: 40,
+    tag: "🔥 Tendencia moderada",
+    tagClass: "tag-moderate",
+    intensity: 62,
+    momentum: 48,
     momentumDir: "center",
-    summary: "El movimiento sigue activo sin grandes picos mediáticos. Se vincula cada vez más al debate de vivienda, inmigración y fondos europeos. El teletrabajo da un respiro limitado. La concentración urbana persiste. Sin acontecimientos relevantes en julio. El problema estructural de despoblación continúa sin soluciones transformadoras.",
-    quote: "Sin un pack completo (empleo + vivienda + servicios + ocio), la repoblación rural es inviable.",
+    summary: "Nuevo mapa demográfico revela que el 97,4% del territorio español está deshabitado o con densidad muy baja. Los incendios forestales récord de 2026 (130.000 hectáreas quemadas) se vinculan directamente con la despoblación rural y el abandono de tierras. El MITECO ha publicado 40M€ en ayudas para proyectos contra la despoblación. La II Estrategia Nacional para la Equidad Territorial marca hoja de ruta. El teletrabajo da un respiro limitado pero insuficiente.",
+    quote: "97,4% del territorio deshabitado o con densidad mínima. Incendios récord vinculados a despoblación rural. 40M€ en ayudas.",
     details: [
-      ["Volumen en X", "Moderado-bajo"],
-      ["Tendencia", "Estable"],
-      ["Solución", "Descentralización + servicios públicos"]
+      ["Volumen en X", "Moderado - repunte por incendios"],
+      ["Tendencia", "Al alza por incendios récord"],
+      ["Solución", "Descentralización + prevención forestal"]
     ]
   },
   {
@@ -541,11 +543,11 @@ const topics = [
     icon: "🗣️",
     tag: "📌 Estable",
     tagClass: "tag-stable",
-    intensity: 70,
-    momentum: 54,
+    intensity: 72,
+    momentum: 52,
     momentumDir: "center",
-    summary: "El término 'facha' sigue como herramienta central de polarización. La izquierda lo usa como atajo moral para descalificar a cualquier crítico. La derecha lo reapropia como seña de identidad ('Buenos días fachas'). La polarización afectiva sigue muy alta. Dos bloques que apenas se reconocen como adversarios legítimos. Sin cambios significativos en julio.",
-    quote: "'Buenos días fachas' — la derecha reapropia el insulto como seña de identidad y desafío.",
+    summary: "El término 'facha' sigue como herramienta central de polarización afectiva en España (~70% de la población percibe crispación). La izquierda lo usa como atajo moral para descalificar a cualquier crítico de sus políticas. La derecha lo reapropia con ironía. El abuso ha vaciado la palabra de significado real. La polarización afectiva sigue muy alta sin señales de mejora. Dos bloques que apenas se reconocen como adversarios legítimos. Sin cambios significativos en julio.",
+    quote: "El 70% de los españoles percibe crispación máxima. 'Facha' sigue como insulto estrella pero se vacía de significado por abuso.",
     details: [
       ["Volumen en X", "Muy alto (uso constante)"],
       ["Efecto", "Polarización afectiva - inflación del término"],
@@ -557,32 +559,39 @@ const topics = [
 // NEWS / POLÉMICAS
 const news = [
   {
-    title: "Begoña Gómez enviada a juicio oral: primera esposa de presidente en activo al banquillo",
-    date: "jun-jul 2026",
-    summary: "El juez Peinado cierra la instrucción y envía a Begoña Gómez a juicio por corrupción, tráfico de influencias, malversación y apropiación indebida. La Complutense le reclama 113.000€. Supuestas cuentas en Turquía (6,2M$) y República Dominicana (3,7M$).",
-    source: "OKDIARIO / El Español / El Confidencial",
+    title: "Ábalos condenado a 24 años y 3 meses: caso Koldo alcanza al núcleo del PSOE",
+    date: "jul 2026",
+    summary: "El Tribunal Supremo condena en firme a José Luis Ábalos (24 años y 3 meses) y a Koldo García (19 años) por corrupción en contratos COVID. Santos Cerdán, ex número 2 del PSOE, imputado por comisiones en obra pública. Begoña Gómez irá a juicio con jurado popular en primavera de 2027.",
+    source: "ABC / El Mundo / El Confidencial",
     tags: ["Sanchismo", "Corrupción"]
   },
   {
-    title: "Regularización masiva supera 1.250.000 solicitudes: colapso total",
+    title: "Regularización extraordinaria: 1.174.978 solicitudes, el doble de lo previsto",
     date: "jul 2026",
-    summary: "El triple de lo anunciado por Sánchez. El Consejo de Estado calificó el decreto de 'coladero'. Policía alerta de fraude administrativo masivo. Fase de resolución colapsada. Efecto llamada descontrolado.",
-    source: "OKDIARIO / El Mundo / COPE",
+    summary: "822.000 admitidas a trámite. Informe policial revela que 400.000 solicitantes no residían en España antes del proceso. Fraude administrativo masivo y efecto llamada descontrolado. Colapso total de oficinas de extranjería.",
+    source: "The Objective / ABC / Policía Nacional",
     tags: ["Inmigración", "Sanchismo"]
   },
   {
-    title: "Ley de Nietos: un millón de 'argeñoles' buscan el pasaporte español",
-    date: "jul 2026",
-    summary: "El fenómeno de solicitudes masivas desde Argentina, Cuba y Venezuela colapsa consulados con esperas de 2 a 4 años. Fuerte polémica sobre otorgar nacionalidad (y voto) a personas que nunca han vivido en España.",
-    source: "El Mundo / ABC",
-    tags: ["Memoria Histórica", "Nacionalidad"]
+    title: "Aliança Catalana, segunda fuerza en Cataluña según encuestas de julio",
+    date: "27 jul 2026",
+    summary: "Sílvia Orriols capitaliza el descontento independentista. AC supera a ERC y Junts en intención de voto. Inaugura nueva sede en Ripoll. El independentismo tradicional se hunde mientras la derecha identitaria crece.",
+    source: "RAC1 / Electodatos",
+    tags: ["Independentismo", "Aliança Catalana"]
   },
   {
-    title: "Estudio: 77% de menores trans tienen trauma psicológico previo",
-    date: "mar-jul 2026",
-    summary: "Investigación revela que la mayoría de menores que inician transición tienen trastornos de salud mental subyacentes. La Cass Review y restricciones nórdicas cuestionan el modelo afirmativo español. Sin derogación nacional.",
-    source: "The Objective / El Debate",
-    tags: ["Ley Trans", "Salud Mental"]
+    title: "Incendios récord en Madrid: Ayuso declara el peor incendio de la historia",
+    date: "27 jul 2026",
+    summary: "Más de 130.000 hectáreas quemadas en 2026. 15 municipios afectados, 2.400 evacuados. Bomberos denuncian precariedad laboral (1.300€/mes) y amenazas de despido por usar vehículos propios. Ayuso pide unidad mientras crece la presión para su dimisión.",
+    source: "El Confidencial / X viral",
+    tags: ["Incendios", "Gestión política"]
+  },
+  {
+    title: "Caso Rosalía: cancelada en Argentina por celebrar el Mundial de España",
+    date: "jul 2026",
+    summary: "Rosalía boicoteada en Buenos Aires tras celebrar la victoria de España sobre Argentina en el Mundial 2026. Cancelación de concierto sinfónico. Boicot extendido a Aitana. El debate post-cancelación se reactiva con fuerza.",
+    source: "ABC / TV Pública Argentina",
+    tags: ["Cultura Cancelación", "Mundial 2026"]
   }
 ];
 
@@ -638,14 +647,14 @@ accounts.forEach(a => {
 });
 
 const trends = [
-  { name: "Sanchismo / Begoña Gómez", change: "up", pct: "+15%", detail: "Juicio oral, cuentas en Turquía y RD" },
-  { name: "Inmigración regularización", change: "up", pct: "+14%", detail: "1,25M solicitudes, colapso administrativo" },
-  { name: "Ley de Nietos (Memoria)", change: "up", pct: "+12%", detail: "Un millón de 'argeñoles' buscan pasaporte" },
-  { name: "Ley Trans / menores", change: "up", pct: "+10%", detail: "77% de menores trans tienen trauma previo" },
-  { name: "Okupación", change: "up", pct: "+8%", detail: "Jubilados esperan 2 años, casa destrozada" },
-  { name: "Cultura de la cancelación", change: "down", pct: "-7%", detail: "Era post-cancelación, fatiga social" },
-  { name: "Lenguaje inclusivo", change: "down", pct: "-5%", detail: "No supera 5% uso real, Vox lo eliminó" },
-  { name: "Feminismo radical", change: "stable", pct: "±0%", detail: "Estable, sin gran polémica nueva en julio" }
+  { name: "Sanchismo / Caso Koldo", change: "up", pct: "+18%", detail: "Ábalos condenado 24 años. Cerdán imputado. Begoña a juicio." },
+  { name: "Inmigración regularización", change: "up", pct: "+15%", detail: "1,17M solicitudes. 400K no residían. Fraude masivo." },
+  { name: "Independentismo / AC", change: "up", pct: "+12%", detail: "Aliança Catalana 2ª fuerza en encuestas. Orriols al alza." },
+  { name: "Incendios forestales", change: "up", pct: "+11%", detail: "Récord 130K ha. Ayuso cuestionada. Bomberos precarios." },
+  { name: "Cultura cancelación (Rosalía)", change: "up", pct: "+9%", detail: "Cancelada en Argentina por el Mundial. Boicot conciertos." },
+  { name: "España Vaciada", change: "up", pct: "+6%", detail: "97,4% territorio deshabitado. Incendios vinculados." },
+  { name: "Lenguaje inclusivo", change: "down", pct: "-4%", detail: "No supera 5% uso real. RAE firme. Vox lo elimina." },
+  { name: "Feminismo radical", change: "stable", pct: "±0%", detail: "Estable. Campaña abolicionista. Fractura interna." }
 ];
 
 // Render cards
@@ -751,12 +760,12 @@ new Chart(document.getElementById('momentumChart'), {
 
 // VIRAL TWEETS
 const virals = [
-  { author: "@dianitanoticias", date: "jul 2026", text: "Begoña Gómez al banquillo por corrupción: primera vez que la esposa de un presidente en activo se sienta como acusada. 6,2M$ en cuentas en Turquía y 3,7M$ en República Dominicana.", engagement: "+4.5K likes", topic: "Sanchismo" },
-  { author: "@profsecundario", date: "jul 2026", text: "Análisis: el wokismo español sustituye el mérito por victimismo colectivo, premia al absentista y castiga al que destaca. La alternativa no es extrema derecha, es volver a la verdad y al mérito.", engagement: "+3.8K likes", topic: "Wokismo" },
-  { author: "@Tagelca", date: "jul 2026", text: "Estudio: 77% de menores identificados como trans tienen trauma psicológico previo. La evidencia internacional cuestiona el modelo afirmativo. España sigue sin reaccionar.", engagement: "+3.2K likes", topic: "Ley Trans" },
-  { author: "@dianitanoticias", date: "jul 2026", text: "\"Buenos días fachas, feliz semana\" — la reapropiación del insulto como seña de identidad y desafío cultural sigue siendo un fenómeno viral.", engagement: "+2.9K likes", topic: "Facha/Polarización" },
-  { author: "@billkilgore_", date: "jul 2026", text: "Meme viral: el follón de papeles de Sánchez cada día es histórico. Humor ácido con decenas de miles de interacciones.", engagement: "+35K likes · 1.1M views", topic: "Humor/Sanchismo" },
-  { author: "@profsecundario", date: "jul 2026", text: "Hilo: cómo el feminismo institucional calla ante la opresión real de mujeres en culturas no occidentales mientras persigue a disidentes conservadores. La hipocresía del progresismo.", engagement: "+2.7K likes", topic: "Feminismo" }
+  { author: "@dianitanoticias", date: "jul 2026", text: "Ábalos condenado a 24 años y 3 meses. Cerdán imputado. Begoña Gómez a juicio con jurado popular. El PSOE no es un partido, es una organización criminal. La podredumbre llega al núcleo de La Moncloa.", engagement: "+6.2K likes", topic: "Sanchismo" },
+  { author: "@profsecundario", date: "jul 2026", text: "La izquierda logró hegemonía cultural en educación y medios durante décadas. La reacción actual es consecuencia inevitable de la sobreexplotación ideológica. El problema no es Vox, es que la hegemonía se rompió por abuso.", engagement: "+5.1K likes", topic: "Guerra Cultural" },
+  { author: "@Tagelca", date: "jul 2026", text: "1.174.978 solicitudes de regularización. 400.000 no residían en España. Eso no es efecto llamada, es efecto puerta abierta. Y quien avisó de esto fue calificado de 'facha' e 'intolerante'. Ahora pagamos todos.", engagement: "+4.8K likes", topic: "Inmigración" },
+  { author: "@billkilgore_", date: "jul 2026", text: "Ayuso: 'peor incendio de la historia de Madrid'. Bomberos: 'ganamos 1.300€, nos amenazan con despedirnos si usamos nuestros coches'. El meme se escribe solo. Madrid arde y ella echa la culpa al cambio climático mientras recorta prevención.", engagement: "+38K likes · 1.3M views", topic: "Humor/Incendios" },
+  { author: "@armesillaconde", date: "jul 2026", text: "El PSOE de Sánchez ha convertido la corrupción en sistema de gobierno. Ábalos, Cerdán, Begoña, David Sánchez... no son casos aislados, son la estructura del partido. El sanchismo es una máquina de captura del Estado.", engagement: "+4.5K likes", topic: "Sanchismo" },
+  { author: "@geoestratego", date: "jul 2026", text: "La regularización masiva de 1,17 millones de personas sin control previo es una bomba demográfica. El 97,4% del territorio ya está vacío y traemos gente sin integrar a ciudades colapsadas. Esto no es solidaridad, es ingeniería social.", engagement: "+5.7K likes", topic: "Inmigración" }
 ];
 const viralGrid = document.getElementById('viralGrid');
 if (viralGrid) {
