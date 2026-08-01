@@ -206,6 +206,7 @@
 </head>
 <body>
 
+<div id="metaBanner" style="display:none;max-width:1400px;margin:0 auto 1rem;background:rgba(255,149,0,0.12);border:1px solid #ff9500;border-radius:8px;padding:0.6rem 1rem;font-size:0.8rem;color:#ff9500"></div>
 <div class="header">
   <h1>⚔️ Termómetro de la Guerra Cultural</h1>
   <div class="subtitle">Análisis de la conversación en X · Enfoque: España</div>
@@ -259,6 +260,7 @@
 
 <div class="footer">
   <p>Datos obtenidos mediante búsqueda en X con Grok (xAI) · Análisis generado por IA · <a href="https://x.com/search?q=guerra+cultural+Espa%C3%B1a&f=live" target="_blank">Ver conversación en directo</a></p>
+  <p id="metaFooter" style="margin-top:0.5rem;color:var(--accent-purple)"></p>
   <p style="margin-top:0.5rem;">Las tendencias reflejan el volumen e intensidad del debate en X, no encuestas representativas de la población.</p>
 </div>
 
@@ -268,28 +270,210 @@ const now = new Date();
 const dayNames = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
 document.getElementById('currentDate').textContent = '📅 Actualizado: ' + dayNames[now.getDay()] + ', ' + now.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' }) + ' · ' + now.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
 
-// --- HISTORY DATA (loaded from snapshot JSON if exists, else empty) ---
-let historyData = [];
-try {
-  const stored = localStorage.getItem('gc_history');
-  if (stored) historyData = JSON.parse(stored);
-} catch(e) {}
+// --- DATA (loaded from data.json; render happens in renderAll()) ---
+let topics = [], news = [], accounts = [], trends = [], virals = [];
 
-function saveSnapshot(topics) {
-  const snapshot = {
-    date: new Date().toISOString(),
-    topics: topics.map(t => ({
-      id: t.id,
-      name: t.name,
-      intensity: t.intensity,
-      momentumDir: t.momentumDir
-    }))
-  };
-  historyData.push(snapshot);
-  if (historyData.length > 12) historyData = historyData.slice(-12);
-  try { localStorage.setItem('gc_history', JSON.stringify(historyData)); } catch(e) {}
+// --- HISTORY (server-side history.json first, localStorage fallback) ---
+let historyData = [];
+async function loadHistory() {
+  try {
+    const res = await fetch('history.json', { cache: 'no-store' });
+    if (res.ok) {
+      const h = await res.json();
+      if (Array.isArray(h) && h.length > 0) { historyData = h; return; }
+    }
+  } catch(e) {}
+  try {
+    const stored = localStorage.getItem('gc_history');
+    if (stored) historyData = JSON.parse(stored);
+  } catch(e) {}
 }
 
+function renderMeta(meta) {
+  if (!meta) return;
+  const banner = document.getElementById('metaBanner');
+  const footer = document.getElementById('metaFooter');
+  if (footer) {
+    footer.textContent = '🔎 Trazabilidad: datos generados ' + (meta.generated_at || '—') +
+      (meta.queries ? ' · ' + meta.queries.length + ' búsquedas en X' : '') +
+      (meta.stale_topics && meta.stale_topics.length ? ' · ⚠️ tópicos con datos previos: ' + meta.stale_topics.join(', ') : '');
+  }
+  if (banner && meta.stale_topics && meta.stale_topics.length) {
+    banner.style.display = 'block';
+    banner.textContent = '⚠️ ' + meta.stale_topics.length + ' tópico(s) sin datos frescos en esta actualización — se muestra el valor anterior: ' + meta.stale_topics.join(', ');
+  }
+}
+
+(async function init() {
+  try {
+    await loadHistory();
+    const res = await fetch('data.json', { cache: 'no-store' });
+    const d = await res.json();
+    topics = d.topics; news = d.news; accounts = d.accounts; trends = d.trends; virals = d.virals;
+    renderMeta(d.meta);
+    renderAll();
+  } catch(e) {
+    document.getElementById('currentDate').textContent = '⚠️ Error cargando data.json: ' + e.message;
+  }
+})();
+
+function renderAll() {
+  // Render news
+  const newsGrid = document.getElementById('newsGrid');
+  news.forEach(n => {
+    newsGrid.innerHTML += `
+      <div class="card">
+        <div style="font-size:0.75rem;color:var(--accent-orange);margin-bottom:0.5rem;font-weight:600">${n.date}</div>
+        <div style="font-size:0.9rem;font-weight:600;margin-bottom:0.5rem">${n.title}</div>
+        <div class="card-body"><p>${n.summary}</p></div>
+        <div style="margin-top:0.5rem;display:flex;gap:0.4rem;flex-wrap:wrap">
+          ${n.tags.map(t => `<span style="font-size:0.65rem;padding:2px 8px;border-radius:4px;background:rgba(168,133,247,0.15);color:#a855f7">${t}</span>`).join('')}
+        </div>
+        <div style="margin-top:0.5rem;font-size:0.7rem;color:var(--muted)">Fuente: ${n.source}</div>
+      </div>
+    `;
+  });
+
+  // Render accounts
+  const accountsGrid = document.getElementById('accountsGrid');
+  accounts.forEach(a => {
+    accountsGrid.innerHTML += `
+      <div class="card" style="padding:0.75rem 1rem">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.25rem">
+          <span style="font-weight:600;font-size:0.9rem"><a href="https://x.com/${a.handle.replace('@','')}" target="_blank" style="color:var(--accent-blue);text-decoration:none">${a.handle}</a></span>
+          <span style="font-size:0.65rem;padding:2px 8px;border-radius:4px;background:${a.color}22;color:${a.color};font-weight:500">${a.category}</span>
+        </div>
+        <div style="font-size:0.75rem;color:var(--text)">${a.name}</div>
+        <div style="font-size:0.72rem;color:var(--muted);margin-top:0.25rem">${a.desc}</div>
+      </div>
+    `;
+  });
+
+  // Render cards
+  const grid = document.getElementById('topicGrid');
+  topics.forEach(t => {
+    const barWidth = t.momentum;
+    const barColor = t.momentumDir === 'right' ? 'var(--accent-red)' : t.momentumDir === 'left' ? 'var(--accent-blue)' : 'var(--accent-orange)';
+    const momentumText = t.momentumDir === 'right' ? 'Gana la derecha/crítica' : t.momentumDir === 'left' ? 'Gana la izquierda/defensa' : 'Empate técnico';
+    const momentumClass = t.momentumDir === 'right' ? 'm-right' : t.momentumDir === 'left' ? 'm-left' : 'm-center';
+
+    grid.innerHTML += `
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">${t.icon} ${t.name}</div>
+          <span class="card-tag ${t.tagClass}">${t.tag}</span>
+        </div>
+        <div class="card-body">
+          <p>${t.summary}</p>
+          <div class="quote">${t.quote}</div>
+          <div class="stats-row">
+            ${t.details.map(d => `<div class="stat-item">${d[0]}: <span>${d[1]}</span></div>`).join('')}
+          </div>
+        </div>
+        <div class="momentum">
+          <span class="momentum-label">Quién lidera el debate</span>
+          <div class="momentum-bar">
+            <span style="font-size:0.7rem;color:var(--accent-blue)">← Izda</span>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:${barWidth}%;background:${barColor};margin-left:${t.momentumDir === 'right' ? '0' : t.momentumDir === 'left' ? '0' : 'auto'};${t.momentumDir === 'center' ? 'margin:0 auto;' : ''}"></div>
+            </div>
+            <span style="font-size:0.7rem;color:var(--accent-red)">Dcha →</span>
+          </div>
+          <span class="momentum-text ${momentumClass}">${momentumText}</span>
+        </div>
+      </div>
+    `;
+  });
+
+  // Trending list
+  const trendingList = document.getElementById('trendingList');
+  trends.forEach(t => {
+    trendingList.innerHTML += `
+      <div class="trending-item">
+        <div>
+          <div class="topic">${t.name}</div>
+          <div style="font-size:0.7rem;color:var(--muted)">${t.detail}</div>
+        </div>
+        <div class="change ${t.change}">${t.pct}</div>
+      </div>
+    `;
+  });
+
+  // Charts
+  new Chart(document.getElementById('intensityChart'), {
+    type: 'bar',
+    data: {
+      labels: topics.map(t => t.name),
+      datasets: [{
+        label: 'Intensidad del debate (0-100)',
+        data: topics.map(t => t.intensity),
+        backgroundColor: topics.map(t =>
+          t.intensity >= 80 ? '#ff4560' : t.intensity >= 65 ? '#ff9500' : t.intensity >= 50 ? '#a855f7' : '#45d480'
+        ),
+        borderRadius: 4,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      indexAxis: 'y',
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' } },
+        y: { grid: { display: false }, ticks: { color: '#e0e0e0', font: { size: 10 } } }
+      }
+    }
+  });
+
+  new Chart(document.getElementById('momentumChart'), {
+    type: 'bar',
+    data: {
+      labels: topics.map(t => t.name),
+      datasets: [{
+        label: 'Inclinación (0=Izquierda · 100=Derecha)',
+        data: topics.map(t => t.momentum),
+        backgroundColor: topics.map(t =>
+          t.momentumDir === 'right' ? '#ff456088' : t.momentumDir === 'left' ? '#4590ff88' : '#ff950088'
+        ),
+        borderRadius: 4,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      indexAxis: 'y',
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' }, min: 0, max: 100 },
+        y: { grid: { display: false }, ticks: { color: '#e0e0e0', font: { size: 9 } } }
+      }
+    }
+  });
+
+  // Viral tweets
+  const viralGrid = document.getElementById('viralGrid');
+  if (viralGrid) {
+    virals.forEach(v => {
+      viralGrid.innerHTML += `
+        <div class="card">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
+            <span style="font-size:0.8rem;color:var(--accent-blue)">${v.author}</span>
+            <span style="font-size:0.7rem;color:var(--muted)">${v.date}</span>
+          </div>
+          <div class="card-body" style="font-size:0.8rem">${v.text}</div>
+          <div style="margin-top:0.5rem;display:flex;justify-content:space-between;font-size:0.7rem">
+            <span style="color:var(--accent-green)">🔥 ${v.engagement}</span>
+            <span style="color:var(--accent-purple)">${v.topic}</span>
+          </div>
+        </div>
+      `;
+    });
+  }
+
+  renderHistory();
+}
+
+// --- HISTORY RENDERING (server history.json + localStorage fallback) ---
 function renderHistory() {
   const section = document.getElementById('historySection');
   if (historyData.length < 2) { section.style.display = 'none'; return; }
@@ -348,447 +532,7 @@ function renderHistory() {
     }
   });
 }
-
-const topics = [
-  {
-    id: "sanchismo",
-    name: "Sanchismo",
-    icon: "👑",
-    tag: "🔥 Tendencia alta",
-    tagClass: "tag-hot",
-    intensity: 96,
-    momentum: 94,
-    momentumDir: "right",
-    summary: "El juez Pedraz abrió el 31 de julio una pieza separada contra el PSOE: autoriza a la UCO a rastrear más de 80 cuentas del partido y de investigados por posibles pagos a la trama de Leire (financiación ilegal y blanqueo). Ekaizer habla de 'preimputación' de facto del partido y apunta a una imputación formal en septiembre. Sigue pesando el informe UCO de Cerdán: 323.000€ en banquetes de Sevilla cargados a tarjetas de la red Koldo. El PSOE se desvincula con 'Cerdán engañó a la gerente'. La crisis de Ceuta copa la agenda, pero las cloacas no se apagan.",
-    quote: "Pedraz abre pieza separada contra el PSOE: la UCO rastreará 80+ cuentas. Ekaizer: 'preimputación' del partido. Cerdán y los 323.000€ en banquetes siguen pesando.",
-    details: [
-      ["Volumen en X", "Muy alto - Ceuta lo eclipsa"],
-      ["Sentimiento dominante", "Crítico (80-20)"],
-      ["Impulsado por", "Pieza Pedraz + informe UCO Cerdán"]
-    ]
-  },
-  {
-    id: "inmigracion",
-    name: "Inmigración",
-    icon: "🚧",
-    tag: "🔥 Tendencia alta",
-    tagClass: "tag-hot",
-    intensity: 99,
-    momentum: 96,
-    momentumDir: "right",
-    summary: "Crisis de seguridad nacional: entre 20.000 y 40.000 entradas en Ceuta el 30-31 de julio (algunas fuentes hablan de 50.000), con solo 55 agentes iniciales y unas 9 horas de respuesta lenta denunciadas. El Gobierno despliega al Ejército, devuelve a miles y Sánchez hace una visita exprés de 105 minutos antes de irse de vacaciones a Lanzarote. Ayuso: 'Sánchez permite la invasión de España por Ceuta para intentar ocultar todos sus juicios'. Abascal: 'INVASIÓN... es un traidor'. El presidente ceutí pide estado de emergencia nacional y la UE ofrece ayuda de Frontex.",
-    quote: "Hasta 40.000 entradas en 48h. 55 agentes para una avalancha. Sánchez, 105 minutos en Ceuta y a Lanzarote. Ayuso: 'permite la invasión para ocultar sus juicios'.",
-    details: [
-      ["Volumen en X", "Máximo absoluto - copa la agenda"],
-      ["Sentimiento", "Crítico dominante (85-15)"],
-      ["Impulsado por", "Asalto masivo + visita exprés + efecto llamada"]
-    ]
-  },
-  {
-    id: "okupacion",
-    name: "Okupación",
-    icon: "🏠",
-    tag: "🔥 Tendencia moderada",
-    tagClass: "tag-moderate",
-    intensity: 68,
-    momentum: 67,
-    momentumDir: "right",
-    summary: "Sin casos explosivos nuevos: el debate sigue anclado en la STS 426/2026 (cortar suministros a un okupa sin título no es coacciones) y en la LO 1/2025, que mete la usurpación en los juicios rápidos. En la práctica los desalojos siguen frenados por la sobrecarga de juzgados y las alegaciones de vulnerabilidad que activan protocolos sociales. El RD-Ley de Vivienda sigue aplazado a septiembre por el veto de Podemos y las exigencias de Junts. Tema estable en segundo plano mientras Ceuta y los incendios copan el debate.",
-    quote: "STS 426/2026 avala cortar suministros a okupas sin título. La LO 1/2025 agiliza juicios rápidos, pero los desalojos siguen durando meses.",
-    details: [
-      ["Volumen en X", "Medio - estable"],
-      ["Sentimiento", "Crítico mayoritario"],
-      ["Clave", "STS 426/2026 + LO 1/2025 + RD-Ley aplazado"]
-    ]
-  },
-  {
-    id: "independentismo",
-    name: "Independentismo / Procés",
-    icon: "🗺️",
-    tag: "🔥 Tendencia alta",
-    tagClass: "tag-hot",
-    intensity: 84,
-    momentum: 80,
-    momentumDir: "right",
-    summary: "Aliança Catalana sigue en ascenso (15-17% en las encuestas que circulan en X) y la crisis de Ceuta refuerza su discurso: Orriols combina independentismo sin complejos con línea dura contra la inmigración y el lema #SalvemCatalunya. ERC y Junts, desencantados, son acusados por AC de haber convertido el procés en una 'industria' (el processisme). El partido planea presentarse al máximo de municipios y promete mayoría +1 para una DUI unilateral. El procés clásico muta en nacionalismo identitario de derechas.",
-    quote: "AC capitaliza la crisis de Ceuta: 'Catalunya para los catalanes'. Orriols en 15-17% y subiendo. ERC y Junts, sin hoja de ruta.",
-    details: [
-      ["Volumen en X", "Alto"],
-      ["Sentimiento", "Polarizado - AC ganando terreno"],
-      ["Clave", "AC + crisis Ceuta + desencanto ERC/Junts"]
-    ]
-  },
-  {
-    id: "memoria",
-    name: "Memoria Histórica",
-    icon: "📜",
-    tag: "🔥 Tendencia moderada",
-    tagClass: "tag-moderate",
-    intensity: 74,
-    momentum: 72,
-    momentumDir: "right",
-    summary: "El Tribunal Supremo ha señalado una vista oral y pública excepcional el 7 de septiembre a las 10:00 para examinar las medidas cautelares de Iustitia Europa y Vox: suspender, auditar o separar del censo ordinario las altas del CERA derivadas de la Ley de Nietos. Es la primera vez que un tribunal analiza en vista pública los efectos electorales de la ley; comparecerán los recurrentes y la JEC. La oposición mantiene la narrativa de la 'caja negra del censo de Sánchez'. El plazo de solicitud acabó en octubre de 2025, pero las altas siguen generándose.",
-    quote: "Vista oral y pública el 7 de septiembre: el TS abre la 'caja negra' del censo CERA. Iustitia Europa y Vox piden suspender las altas.",
-    details: [
-      ["Volumen en X", "Alto - fecha clave 7 sept"],
-      ["Sentimiento", "Crítico"],
-      ["Clave", "Vista TS + CERA + 'caja negra del censo'"]
-    ]
-  },
-  {
-    id: "feminismo",
-    name: "Feminismo Radical",
-    icon: "⚡",
-    tag: "🔥 Tendencia moderada",
-    tagClass: "tag-moderate",
-    intensity: 70,
-    momentum: 52,
-    momentumDir: "center",
-    summary: "Ana Redondo mantiene una línea abolicionista explícita ('en una sociedad democrática e igualitaria no se puede tratar a las mujeres como mercancía'), pero la ley de abolición de la prostitución sigue sin tramitarse. El frente pro-derechos (StopAbolición) contraataca acusando al Ministerio de propaganda y de atacar la 'prostitución libre'. Las abolicionistas preparan el II Congreso Estatal y el Foro de Jerez para septiembre. Debate polarizado y sin avance legislativo a la vista.",
-    quote: "Redondo: 'no se puede tratar a las mujeres como mercancía'. La ley de abolición sigue en el cajón y el frente pro-derechos contraataca.",
-    details: [
-      ["Volumen en X", "Medio-alto"],
-      ["Sentimiento", "Dividido"],
-      ["Clave", "Ley aparcada + choque Redondo-StopAbolición"]
-    ]
-  },
-  {
-    id: "woke",
-    name: "Wokismo / Ideología Woke",
-    icon: "🌿",
-    tag: "🔥 Tendencia moderada",
-    tagClass: "tag-moderate",
-    intensity: 65,
-    momentum: 56,
-    momentumDir: "right",
-    summary: "El backlash sigue sin consolidarse electoralmente pero crece en las redes: se critica a RTVE como 'propaganda progubernamental y woke' y el artículo de Politico ('How Spain went woke — and why that may not last') sigue alimentando el debate. La Ley Trans, las cuotas y el lenguaje inclusivo se usan como prueba de una agenda identitaria desconectada de la mayoría. La crisis de Ceuta y los incendios desplazan el foco, pero la fatiga social con el 'wokismo' se mantiene como trasfondo permanente.",
-    quote: "Politico: 'How Spain went woke — and why that may not last'. La fatiga social persiste, pero Ceuta e incendios copan el debate.",
-    details: [
-      ["Volumen en X", "Moderado"],
-      ["Tendencia", "Backlash latente"],
-      ["Clave", "Crítica a RTVE + fatiga social"]
-    ]
-  },
-  {
-    id: "cultura-cancelacion",
-    name: "Cultura de la Cancelación",
-    icon: "🔇",
-    tag: "🔥 Tendencia alta",
-    tagClass: "tag-hot",
-    intensity: 78,
-    momentum: 48,
-    momentumDir: "center",
-    summary: "Doble frente muy activo. 1) Rosalía: reposteó a Mia Khalifa celebrando la derrota argentina en la final del Mundial, lo que provocó un boicot en Argentina —proveedores cancelando servicios y pedidos de cancelación de sus cuatro shows del LUX Tour en Buenos Aires (1, 2, 4 y 6 de agosto)—; borró el repost y pidió disculpas ('solo tengo amor para Argentina'), pero el escrache continúa. 2) UEFA: las 55 federaciones europeas votaron boicotear las competiciones de la FIFA si Infantino vende el Mundial a inversores privados ('The World Cup is not for sale'), con España co-organizadora de 2030 en el centro.",
-    quote: "Rosalía, cancelada en Argentina por un repost de Mia Khalifa: disculpas, escraches y 4 conciertos en el alambre. UEFA amenaza con boicotear el Mundial.",
-    details: [
-      ["Volumen en X", "Alto - repunte fuerte"],
-      ["Sentimiento", "Polarizado"],
-      ["Clave", "Caso Rosalía + choque UEFA-FIFA"]
-    ]
-  },
-  {
-    id: "ley-trans",
-    name: "Ley Trans",
-    icon: "⚧️",
-    tag: "🔥 Tendencia moderada",
-    tagClass: "tag-moderate",
-    intensity: 66,
-    momentum: 64,
-    momentumDir: "right",
-    summary: "Sin novedades legislativas: la Ley 4/2023 sigue intacta y el debate sobre bloqueadores de pubertad permanece latente, con la Revisión Cass como referencia del escepticismo médico europeo. Madrid (PP) mantiene protocolos más restrictivos para menores y Vox redobla su oposición. En Europa la tendencia es claramente restrictiva (Reino Unido, Suecia, Finlandia, Noruega). El PP reitera que reformará la ley si gobierna. Tema estable, a la espera de que la crisis migratoria deje paso a la agenda cultural.",
-    quote: "Ley Trans intacta mientras Europa restringe: Cass como referencia y Madrid con protocolos más prudentes para menores.",
-    details: [
-      ["Volumen en X", "Moderado"],
-      ["Sentimiento", "Polarizado"],
-      ["Clave", "Latente en España, restrictivo en Europa"]
-    ]
-  },
-  {
-    id: "lenguaje-inclusivo",
-    name: "Lenguaje Inclusivo",
-    icon: "📝",
-    tag: "🔥 Tendencia moderada",
-    tagClass: "tag-moderate",
-    intensity: 72,
-    momentum: 66,
-    momentumDir: "right",
-    summary: "El meme de 'vulnerablos' se ha consolidado como el mayor éxito satírico del verano: circula un compilatorio de lapsus de Sánchez ('emergencia climático', 'los mejores y las mejoras', 'todos somos vulnerablos') y un diálogo viral —'Begoña Gómez es mi mujer' / '¿Algo más, presidente?' / 'Sí... que todos somos vulnerablos'—. La burla es transversal y sirve para ridiculizar el lenguaje inclusivo forzado. La RAE mantiene su rechazo. El 'todes' sigue como marcador tribal.",
-    quote: "'— ¿Algo más, presidente? — Sí... que todos somos vulnerablos.' El lapsus de Sánchez se convierte en el meme del verano.",
-    details: [
-      ["Volumen en X", "Alto - meme consolidado"],
-      ["Sentimiento", "Burlas mayoritarias"],
-      ["Clave", "Compilatorio de lapsus de Sánchez"]
-    ]
-  },
-  {
-    id: "espana-vaciada",
-    name: "España Vaciada",
-    icon: "🏘️",
-    tag: "🔥 Tendencia alta",
-    tagClass: "tag-hot",
-    intensity: 88,
-    momentum: 55,
-    momentumDir: "center",
-    summary: "La ministra cifra en ~180.000 hectáreas quemadas en 2026 con 38 grandes incendios (x6 respecto a 2025); las estimaciones satelitales de EFFIS llegan a 216.000-231.000 ha, con 157.000-172.000 solo en julio, el peor mes de la última década. Se espera una nueva ola de calor con 40°C+ en los primeros días de agosto y avisos de que se puede batir el récord de 2025. Zonas catastróficas declaradas y decenas de miles de evacuados. La oposición critica la respuesta tardía; el Gobierno anuncia un Pacto de Estado.",
-    quote: "180.000 ha oficiales / hasta 231.000 por satélite. 38 GIF y julio, el peor mes de la década. Nueva ola de calor y récord de 2025 en riesgo.",
-    details: [
-      ["Volumen en X", "Muy alto"],
-      ["Tendencia", "Nueva ola de calor"],
-      ["Clave", "180K ha + 38 GIF + récord en riesgo"]
-    ]
-  },
-  {
-    id: "facha",
-    name: "Facha / Insulto Político",
-    icon: "🗣️",
-    tag: "🔥 Tendencia alta",
-    tagClass: "tag-hot",
-    intensity: 78,
-    momentum: 58,
-    momentumDir: "center",
-    summary: "La crisis de Ceuta y los incendios disparan la polarización: 'invasión' vs 'solidaridad', y 'facha' como deslegitimador automático. El abuso del término genera su propia reacción ('se dice tanto lo de facha que ya carece de sentido') y alimenta la tesis de que etiquetar de facha o racista cualquier crítica migratoria radicaliza a sectores de centro. Dos Españas digitales casi impermeables, con la polarización afectiva entre las más altas de Europa. El insulto ya no debate: descalifica.",
-    quote: "'La debacle de España comenzó cuando comenzaron a usar FACHA o RACISTA como insulto.' Dos Españas digitales impermeables, polarización en máximos.",
-    details: [
-      ["Volumen en X", "Alto"],
-      ["Efecto", "Polarización en máximos"],
-      ["Clave", "Ceuta + incendios + abuso del término"]
-    ]
-  }
-];
-
-// NEWS / POLÉMICAS
-const news = [
-  {
-    title: "Pedraz abre pieza separada contra el PSOE: la UCO rastreará más de 80 cuentas por financiación ilegal",
-    date: "31 jul 2026",
-    summary: "El juez autoriza a la Guardia Civil investigar pagos del partido a empresas de la trama de Leire desde 2024, en busca de indicios de financiación ilegal y blanqueo. Ekaizer habla de 'preimputación' de facto del PSOE y apunta a una posible imputación formal en septiembre. El partido se desvincula: Cerdán 'engañó a la gerente'.",
-    source: "X / El Debate / The Objective",
-    tags: ["Sanchismo", "Pedraz", "UCO"]
-  },
-  {
-    title: "Asalto masivo a Ceuta: hasta 40.000 entradas y una visita exprés de Sánchez de 105 minutos",
-    date: "30-31 jul 2026",
-    summary: "Entre 20.000 y 40.000 entradas en 48 horas con solo 55 agentes iniciales. Ejército desplegado, devoluciones masivas y el presidente ceutí pide estado de emergencia nacional. Ayuso: 'permite la invasión para ocultar sus juicios'. Abascal: 'INVASIÓN... es un traidor'. Sánchez se marcha a Lanzarote tras su visita relámpago.",
-    source: "X / OKDiario / Libertad Digital",
-    tags: ["Inmigración", "Ceuta", "Ejército"]
-  },
-  {
-    title: "Rosalía, cancelada en Argentina: boicot a sus conciertos tras repostear a Mia Khalifa",
-    date: "1 ago 2026",
-    summary: "La cantante compartió un vídeo de Mia Khalifa celebrando la derrota argentina en la final del Mundial. Boicot en redes, proveedores que cancelan servicios y pedidos de cancelación de sus cuatro shows del LUX Tour en Buenos Aires (1, 2, 4 y 6 de agosto). Borró el repost y pidió disculpas: 'solo tengo amor para Argentina', pero el escrache continúa.",
-    source: "X / Diario Olé / MDZ",
-    tags: ["Cancelación", "Rosalía", "Mundial"]
-  },
-  {
-    title: "UEFA y sus 55 federaciones votan boicotear la FIFA si Infantino vende el Mundial a inversores",
-    date: "30-31 jul 2026",
-    summary: "'The World Cup is not for sale': las federaciones europeas amenazan con no jugar las competiciones de la FIFA si se transfieren los derechos comerciales del Mundial a capital privado. España, co-organizadora de 2030, queda en el centro de la tormenta. El choque UEFA-FIFA es estructural y puede afectar a los próximos Mundiales.",
-    source: "X / Marca / Nacional",
-    tags: ["Cancelación", "Mundial", "UEFA-FIFA"]
-  },
-  {
-    title: "Incendios 2026: ~180.000 hectáreas oficiales y julio, el peor mes de la última década",
-    date: "1 ago 2026",
-    summary: "38 grandes incendios y x6 de superficie quemada respecto a 2025 según la ministra; EFFIS eleva la cifra a 216.000-231.000 ha por satélite, con 157.000-172.000 solo en julio. Nueva ola de calor con 40°C+ y riesgo de batir el récord de 2025. Zonas catastróficas y decenas de miles de evacuados.",
-    source: "X / Público / EFFIS",
-    tags: ["Incendios", "Clima", "España Vaciada"]
-  }
-];
-
-// ACCOUNTS DIRECTORY
-const accounts = [
-  { handle: "@profsecundario", name: "Profe de historia", category: "Muy derecha", desc: "Hilos documentados. Muy activo en la crisis de Ceuta: 'nuestro gobierno está a las órdenes de Marruecos'.", color: "#003399" },
-  { handle: "@dianitanoticias", name: "Dianita", category: "Muy derecha", desc: "Ultra, alineada Vox. Inmigración, soberanía, anti-Sánchez. Directa.", color: "#003399" },
-  { handle: "@billkilgore_", name: "Kilgore de Lezo", category: "Joker 🃏", desc: "Humor satírico, memes. La sátira 'Felpudo VI' contra Sánchez supera los 12.900 likes. ~280K.", color: "#996633" },
-  { handle: "@Tagelca", name: "Tage", category: "Derecha", desc: "Crítico con Sánchez. Viral en la crisis de Ceuta: +12K likes a los nacionalistas espectadores. ~67K.", color: "#0055cc" },
-  { handle: "@elxokas", name: "ElXokas", category: "Derecha", desc: "Streamer. 'El gobierno os deja solos, los españoles estamos con vosotros' (+21K likes). Anti-woke.", color: "#0055cc" },
-  { handle: "@TemplarExtre", name: "Templar Extremeño", category: "Derecha", desc: "Cristiano, anti-woke, hispanista. Batalla cultural constante.", color: "#0055cc" },
-  { handle: "@13mescribano", name: "Luis Escribano", category: "Neutro", desc: "Crítica sistémica al sistema partidocrático. Reforma constitucional.", color: "#666699" },
-  { handle: "@VictorLapuente", name: "Víctor Lapuente", category: "Neutro", desc: "Académico. Datos, instituciones, corrupción. Análisis riguroso.", color: "#666699" },
-  { handle: "@EstefMolina_", name: "Estefanía Molina", category: "Neutro", desc: "Politóloga. Ruptura contrato social. Crítica a élites sin dogmatismo.", color: "#666699" },
-  { handle: "@nicolasdepedro", name: "Nicolás de Pedro", category: "Neutro", desc: "Analista RRII. Política exterior, desalineamiento internacional.", color: "#666699" },
-  { handle: "@armesillaconde", name: "Santiago Armesilla", category: "Izquierda", desc: "Socialismo patriótico. Defiende la españolidad de Ceuta y Melilla frente a la 'invasión marroquí' (+7K likes).", color: "#e84700" },
-  { handle: "@Anujbost", name: "Anuj", category: "Izquierda", desc: "Socialdemócrata crítico. Análisis político desde izquierda independiente.", color: "#e84700" },
-  { handle: "@geoestratego", name: "Pedro Baños", category: "Derecha", desc: "Coronel, geopolítica. Habla de 'invasión marroquí de Ceuta' y responde a narrativas prorrusas. ~450K.", color: "#0055cc" },
-  { handle: "@elmundotoday", name: "El Mundo Today", category: "Joker 🃏", desc: "Periodismo satírico. Noticias falsas. Pega a todos los bandos.", color: "#996633" },
-  { handle: "@littleragergirl", name: "Abby", category: "Joker 🃏", desc: "Streamer gaming. Sarcástica. No política pero sale en dramas tuiteros.", color: "#996633" },
-  { handle: "@LaBugsBunnyIA", name: "Fábrica de Memes", category: "Joker 🃏", desc: "Fotomontajes y portadas parodia. Crítico con la izquierda. Viral.", color: "#996633" }
-];
-
-// Render news
-const newsGrid = document.getElementById('newsGrid');
-news.forEach(n => {
-  newsGrid.innerHTML += `
-    <div class="card">
-      <div style="font-size:0.75rem;color:var(--accent-orange);margin-bottom:0.5rem;font-weight:600">${n.date}</div>
-      <div style="font-size:0.9rem;font-weight:600;margin-bottom:0.5rem">${n.title}</div>
-      <div class="card-body"><p>${n.summary}</p></div>
-      <div style="margin-top:0.5rem;display:flex;gap:0.4rem;flex-wrap:wrap">
-        ${n.tags.map(t => `<span style="font-size:0.65rem;padding:2px 8px;border-radius:4px;background:rgba(168,133,247,0.15);color:#a855f7">${t}</span>`).join('')}
-      </div>
-      <div style="margin-top:0.5rem;font-size:0.7rem;color:var(--muted)">Fuente: ${n.source}</div>
-    </div>
-  `;
-});
-
-// Render accounts
-const accountsGrid = document.getElementById('accountsGrid');
-accounts.forEach(a => {
-  accountsGrid.innerHTML += `
-    <div class="card" style="padding:0.75rem 1rem">
-      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.25rem">
-        <span style="font-weight:600;font-size:0.9rem"><a href="https://x.com/${a.handle.replace('@','')}" target="_blank" style="color:var(--accent-blue);text-decoration:none">${a.handle}</a></span>
-        <span style="font-size:0.65rem;padding:2px 8px;border-radius:4px;background:${a.color}22;color:${a.color};font-weight:500">${a.category}</span>
-      </div>
-      <div style="font-size:0.75rem;color:var(--text)">${a.name}</div>
-      <div style="font-size:0.72rem;color:var(--muted);margin-top:0.25rem">${a.desc}</div>
-    </div>
-  `;
-});
-
-const trends = [
-  { name: "Inmigración / Crisis de Ceuta", change: "up", pct: "+40%", detail: "Hasta 40.000 entradas en 48h. Visita exprés de Sánchez. Ayuso y Abascal: 'invasión'." },
-  { name: "Cultura de la cancelación / Caso Rosalía", change: "up", pct: "+30%", detail: "Boicot en Argentina a sus conciertos del LUX Tour tras repostear a Mia Khalifa." },
-  { name: "Sanchismo / Pieza Pedraz", change: "up", pct: "+15%", detail: "El juez abre pieza separada contra el PSOE: la UCO rastreará 80+ cuentas." },
-  { name: "Lenguaje inclusivo / 'Vulnerablos'", change: "up", pct: "+10%", detail: "El compilatorio de lapsus de Sánchez ('todos somos vulnerablos') sigue viral." },
-  { name: "Incendios España 2026", change: "up", pct: "+5%", detail: "180K ha oficiales, hasta 231K por satélite. Nueva ola de calor con 40°C+." },
-  { name: "Independentismo / AC", change: "stable", pct: "+3%", detail: "AC en 15-17% y capitaliza la crisis de Ceuta. ERC y Junts sin hoja de ruta." },
-  { name: "Feminismo / Abolición prostitución", change: "stable", pct: "0%", detail: "Ley aparcada. Redondo mantiene la línea abolicionista y StopAbolición contraataca." },
-  { name: "Okupación / Vivienda", change: "down", pct: "-10%", detail: "STS 426/2026 y LO 1/2025 asentadas. RD-Ley de Vivienda aplazado a septiembre." }
-];
-
-// Render cards
-const grid = document.getElementById('topicGrid');
-topics.forEach(t => {
-  const barWidth = t.momentum;
-  const barColor = t.momentumDir === 'right' ? 'var(--accent-red)' : t.momentumDir === 'left' ? 'var(--accent-blue)' : 'var(--accent-orange)';
-  const momentumText = t.momentumDir === 'right' ? 'Gana la derecha/crítica' : t.momentumDir === 'left' ? 'Gana la izquierda/defensa' : 'Empate técnico';
-  const momentumClass = t.momentumDir === 'right' ? 'm-right' : t.momentumDir === 'left' ? 'm-left' : 'm-center';
-
-  grid.innerHTML += `
-    <div class="card">
-      <div class="card-header">
-        <div class="card-title">${t.icon} ${t.name}</div>
-        <span class="card-tag ${t.tagClass}">${t.tag}</span>
-      </div>
-      <div class="card-body">
-        <p>${t.summary}</p>
-        <div class="quote">${t.quote}</div>
-        <div class="stats-row">
-          ${t.details.map(d => `<div class="stat-item">${d[0]}: <span>${d[1]}</span></div>`).join('')}
-        </div>
-      </div>
-      <div class="momentum">
-        <span class="momentum-label">Quién lidera el debate</span>
-        <div class="momentum-bar">
-          <span style="font-size:0.7rem;color:var(--accent-blue)">← Izda</span>
-          <div class="bar-track">
-            <div class="bar-fill" style="width:${barWidth}%;background:${barColor};margin-left:${t.momentumDir === 'right' ? '0' : t.momentumDir === 'left' ? '0' : 'auto'};${t.momentumDir === 'center' ? 'margin:0 auto;' : ''}"></div>
-          </div>
-          <span style="font-size:0.7rem;color:var(--accent-red)">Dcha →</span>
-        </div>
-        <span class="momentum-text ${momentumClass}">${momentumText}</span>
-      </div>
-    </div>
-  `;
-});
-
-// Trending list
-const trendingList = document.getElementById('trendingList');
-trends.forEach(t => {
-  trendingList.innerHTML += `
-    <div class="trending-item">
-      <div>
-        <div class="topic">${t.name}</div>
-        <div style="font-size:0.7rem;color:var(--muted)">${t.detail}</div>
-      </div>
-      <div class="change ${t.change}">${t.pct}</div>
-    </div>
-  `;
-});
-
-// Charts
-new Chart(document.getElementById('intensityChart'), {
-  type: 'bar',
-  data: {
-    labels: topics.map(t => t.name),
-    datasets: [{
-      label: 'Intensidad del debate (0-100)',
-      data: topics.map(t => t.intensity),
-      backgroundColor: topics.map(t =>
-        t.intensity >= 80 ? '#ff4560' : t.intensity >= 65 ? '#ff9500' : t.intensity >= 50 ? '#a855f7' : '#45d480'
-      ),
-      borderRadius: 4,
-    }]
-  },
-  options: {
-    responsive: true,
-    maintainAspectRatio: false,
-    indexAxis: 'y',
-    plugins: { legend: { display: false } },
-    scales: {
-      x: { grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' } },
-      y: { grid: { display: false }, ticks: { color: '#e0e0e0', font: { size: 10 } } }
-    }
-  }
-});
-
-new Chart(document.getElementById('momentumChart'), {
-  type: 'bar',
-  data: {
-    labels: topics.map(t => t.name),
-    datasets: [{
-      label: 'Inclinación (0=Izquierda · 100=Derecha)',
-      data: topics.map(t => t.momentum),
-      backgroundColor: topics.map(t =>
-        t.momentumDir === 'right' ? '#ff456088' : t.momentumDir === 'left' ? '#4590ff88' : '#ff950088'
-      ),
-      borderRadius: 4,
-    }]
-  },
-  options: {
-    responsive: true,
-    maintainAspectRatio: false,
-    indexAxis: 'y',
-    plugins: { legend: { display: false } },
-    scales: {
-      x: { grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' }, min: 0, max: 100 },
-      y: { grid: { display: false }, ticks: { color: '#e0e0e0', font: { size: 9 } } }
-    }
-  }
-});
-
-// VIRAL TWEETS
-const virals = [
-  { author: "@Tagelca", date: "31 jul 2026", text: "Este se pensaba que los de Núcleo Nacional iban a aparecer por Ceuta como los vengadores saliendo de los portales para derrotar a Thanos jsjsjsjsjsjsj", engagement: "+12K likes · 416K views", topic: "Inmigración / Ceuta", link: "https://x.com/Tagelca/status/2083142077169164341" },
-  { author: "@billkilgore_", date: "31 jul 2026", text: "Felpudo VI estaba viendo en Horizonte imágenes de Ceuta con el volumen al mínimo y el ceño muy fruncido. Doña Fictizia sale del baño con su mascarilla de colágeno coreana tecleando compulsivamente el móvil.", engagement: "+12.9K likes · 375K views", topic: "Sanchismo / Ceuta", link: "https://x.com/billkilgore_/status/2082990138041213141" },
-  { author: "@elxokas", date: "31 jul 2026", text: "Esto es SALVAJE. Mucho ánimo a todos habitantes de Ceuta y Melilla. Puede que el gobierno os deje solos pero la mayoría de españoles estamos hasta los cojones y con vosotros.", engagement: "+21K likes", topic: "Inmigración / Ceuta", link: "https://x.com/elxokas/status/2083195239477432655" },
-  { author: "@armesillaconde", date: "31 jul 2026", text: "La gente que dice que Ceuta y Melilla (e incluso Canarias) son colonias de España o es imbécil o es mala gente... Desde el siglo XV son territorio español de pleno derecho. Lo hacen por mero racismo.", engagement: "+7K likes", topic: "Inmigración / Ceuta", link: "https://x.com/armesillaconde/status/2083089052375351674" },
-  { author: "@profsecundario", date: "31 jul 2026", text: "La población de Ceuta prácticamente se duplica en 24 horas tras la entrada masiva de inmigrantes procedentes de Marruecos y Sánchez aplaude 'la cooperación marroquí'. Nuestro gobierno sigue instrucciones de Rabat.", engagement: "Viral", topic: "Inmigración / Ceuta", link: "https://x.com/profsecundario/status/2083155790408413350" },
-  { author: "@geoestratego", date: "31 jul 2026", text: "Faltaba un ucronazi para culpar a Rusia de la invasión marroquí de Ceuta. Ya tardaban...", engagement: "Viral", topic: "Inmigración / Ceuta", link: "https://x.com/geoestratego/status/2083278298944036938" }
-];
-const viralGrid = document.getElementById('viralGrid');
-if (viralGrid) {
-  virals.forEach(v => {
-    viralGrid.innerHTML += `
-      <div class="card">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
-          <span style="font-size:0.8rem;color:var(--accent-blue)">${v.author}</span>
-          <span style="font-size:0.7rem;color:var(--muted)">${v.date}</span>
-        </div>
-        <div class="card-body" style="font-size:0.8rem">${v.text}</div>
-        <div style="margin-top:0.5rem;display:flex;justify-content:space-between;font-size:0.7rem">
-          <span style="color:var(--accent-green)">🔥 ${v.engagement}</span>
-          <span style="color:var(--accent-purple)">${v.topic}</span>
-        </div>
-      </div>
-    `;
-  });
-}
-
-// Save snapshot & render history
-saveSnapshot(topics);
-setTimeout(renderHistory, 500);
 </script>
+
 </body>
 </html>

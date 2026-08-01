@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "generated_at": "2026-07-31T08:20:05+02:00",
+    "source": "cron dbbc4ffc8080 (Guerra Cultural - Informe Semanal)",
+    "queries": [
+      "sanchismo España 2026 (desde 2026-07-28)",
+      "inmigracion España 2026 (desde 2026-07-28)",
+      "okupacion España 2026 (desde 2026-07-28)",
+      "independentismo España 2026 (desde 2026-07-28)",
+      "memoria historica España 2026 (desde 2026-07-28)",
+      "feminismo radical España 2026 (desde 2026-07-28)",
+      "wokismo España 2026 (desde 2026-07-28)",
+      "cultura cancelacion España 2026 (desde 2026-07-28)",
+      "ley trans España 2026 (desde 2026-07-28)",
+      "lenguaje inclusivo España 2026 (desde 2026-07-28)",
+      "espana vaciada incendios 2026 (desde 2026-07-28)",
+      "facha insulto político España 2026 (desde 2026-07-28)"
+    ],
+    "stale_topics": [],
+    "inactive_accounts": []
+  },
+  "topics": [
+    {
+      "id": "sanchismo",
+      "name": "Sanchismo",
+      "icon": "👑",
+      "tag": "🔥 Tendencia alta",
+      "tagClass": "tag-hot",
+      "intensity": 95,
+      "momentum": 94,
+      "momentumDir": "right",
+      "summary": "La UCO sigue destapando las cloacas: Santos Cerdán habría cargado 323.000€ en banquetes de lujo en Sevilla a tarjetas de la red Koldo, se investiga la mayor adjudicación a Servinabar (túneles de Belate, 76M€) y empleadas de Ferraz declaran que las reuniones Cerdán-Leire Díez no se registraban en agenda. A esto se suman los tres indultos por corrupción (Laura Borràs y dos cargos del PSOE) que provocaron indignación incluso interna. El tema sigue en máximos aunque la crisis de Ceuta copa la agenda del 30-31 de julio.",
+      "quote": "UCO: Cerdán cargó 323.000€ de banquetes a tarjetas Koldo. Cloacas en Ferraz. Túnel de Belate 76M€ bajo lupa. 126 investigados.",
+      "details": [
+        [
+          "Volumen en X",
+          "Muy alto - Ceuta desplaza momentáneamente"
+        ],
+        [
+          "Sentimiento dominante",
+          "Crítico (80-20)"
+        ],
+        [
+          "Impulsado por",
+          "Informes UCO + indultos + cloacas Cerdán"
+        ]
+      ]
+    },
+    {
+      "id": "inmigracion",
+      "name": "Inmigración",
+      "icon": "🚧",
+      "tag": "🔥 Tendencia alta",
+      "tagClass": "tag-hot",
+      "intensity": 98,
+      "momentum": 95,
+      "momentumDir": "right",
+      "summary": "Crisis máxima: asalto masivo a Ceuta el 30 de julio con entre 20.000 y 40.000 entradas estimadas en pocos días, y presión también en Melilla (más de 1.000 personas asaltando la valla). El Gobierno despliega al Ejército y Sánchez viaja a Ceuta con Marlaska. Feijóo habla de 'avalancha sin precedentes' y 'crisis de seguridad nacional'; Ayuso acusa a Sánchez de permitirlo para distraer de sus problemas judiciales; Abascal: 'invasión' y 'efecto llamada'. Italia (Meloni) evalúa limitar la libre circulación con España y el TS prohibió los retornos en caliente el 8 de julio.",
+      "quote": "Hasta 40.000 entradas en Ceuta en 48h. Ejército desplegado. Sánchez viaja a la ciudad. Feijóo: 'crisis de seguridad nacional'. Abascal: 'invasión'.",
+      "details": [
+        [
+          "Volumen en X",
+          "Máximo absoluto - copa la agenda"
+        ],
+        [
+          "Sentimiento",
+          "Crítico dominante"
+        ],
+        [
+          "Impulsado por",
+          "Asalto masivo Ceuta + Ejército + efecto llamada"
+        ]
+      ]
+    },
+    {
+      "id": "okupacion",
+      "name": "Okupación",
+      "icon": "🏠",
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 71,
+      "momentum": 69,
+      "momentumDir": "right",
+      "summary": "El Tribunal Supremo fija doctrina: cortar los suministros (luz y agua) a un okupa sin ningún título jurídico no constituye delito de coacciones, un avance relevante para los propietarios. El nuevo Real Decreto-ley de Vivienda queda aplazado a septiembre por el veto de Podemos (reforma de la Ley del Suelo) y las exigencias de Junts. Los desahucios por precario siguen siendo lentos y las empresas de desokupa continúan en auge. Sin casos explosivos nuevos, el tema se mantiene estable en segundo plano.",
+      "quote": "TS: cortar luz y agua a un okupa sin título no es delito de coacciones. RD-Ley de Vivienda aplazado a septiembre por Podemos.",
+      "details": [
+        [
+          "Volumen en X",
+          "Medio-alto - estable"
+        ],
+        [
+          "Sentimiento",
+          "Crítico mayoritario"
+        ],
+        [
+          "Clave",
+          "Doctrina TS suministros + RD-Ley aplazado"
+        ]
+      ]
+    },
+    {
+      "id": "independentismo",
+      "name": "Independentismo / Procés",
+      "icon": "🗺️",
+      "tag": "🔥 Tendencia alta",
+      "tagClass": "tag-hot",
+      "intensity": 83,
+      "momentum": 78,
+      "momentumDir": "right",
+      "summary": "Aliança Catalana sigue al alza en las encuestas y la crisis de Ceuta refuerza su discurso: Orriols combina independentismo con línea dura contra la inmigración (referencias al 'califato') y promete un nuevo procés unilateral si logra mayoría absoluta. ERC y Junts aparecen divididos y sin hoja de ruta desde que perdieron la mayoría independentista en 2024. Los constitucionalistas ven 'la pólvora mojada' del procés clásico pero alertan del nuevo independentismo identitario de derechas que capitaliza el descontento con la inmigración.",
+      "quote": "AC imparable: encuestas al alza + crisis de Ceuta refuerza a Orriols. ERC/Junts divididos. El procés muta a nacionalismo identitario anti-inmigración.",
+      "details": [
+        [
+          "Volumen en X",
+          "Alto"
+        ],
+        [
+          "Sentimiento",
+          "Polarizado - AC ganando terreno"
+        ],
+        [
+          "Clave",
+          "AC + crisis Ceuta + ERC/Junts en caída"
+        ]
+      ]
+    },
+    {
+      "id": "memoria",
+      "name": "Memoria Histórica",
+      "icon": "📜",
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 72,
+      "momentum": 70,
+      "momentumDir": "right",
+      "summary": "El Tribunal Supremo convoca una vista oral y pública el 7 de septiembre para decidir sobre las medidas cautelares de Iustitia Europa y Vox: suspender, auditar o separar del censo ordinario las altas en el CERA derivadas de la Ley de Nietos. La oposición habla de 'caja negra del censo de Sánchez' con fines electorales. Siguen abiertas las diligencias por prevaricación contra Sofía Puente por la gestión de los expedientes. 2,6 millones de solicitudes, solo ~200.000 aprobadas.",
+      "quote": "TS convoca vista pública el 7 de septiembre sobre el censo CERA de la Ley de Nietos. Iustitia Europa y Vox piden suspender las altas.",
+      "details": [
+        [
+          "Volumen en X",
+          "Alto - fecha clave 7 sept"
+        ],
+        [
+          "Sentimiento",
+          "Crítico"
+        ],
+        [
+          "Clave",
+          "Censo CERA + vista TS + Sofía Puente"
+        ]
+      ]
+    },
+    {
+      "id": "feminismo",
+      "name": "Feminismo Radical",
+      "icon": "⚡",
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 73,
+      "momentum": 55,
+      "momentumDir": "center",
+      "summary": "El Periódico confirma que el Gobierno aparca la ley de abolición de la prostitución, la 'ley estrella' del Ministerio de Igualdad: revés para Ana Redondo y decepción en las filas abolicionistas. El movimiento reacciona movilizándose: la PAP prepara el II Congreso Estatal Abolicionista y AFRA Mujeres convoca el Foro Abolicionista de Jerez el 18 de septiembre. Sin ley nacional, el modelo nórdico contra la explotación sexual queda en suspenso y la fractura interna de la izquierda se profundiza.",
+      "quote": "El Gobierno aparca la ley de abolición de la prostitución. Redondo, en retroceso. Las abolicionistas se movilizan: congreso estatal + foro de Jerez.",
+      "details": [
+        [
+          "Volumen en X",
+          "Alto"
+        ],
+        [
+          "Sentimiento",
+          "Dividido - decepción abolicionista"
+        ],
+        [
+          "Clave",
+          "Ley aparcada + movilización abolicionista"
+        ]
+      ]
+    },
+    {
+      "id": "woke",
+      "name": "Wokismo / Ideología Woke",
+      "icon": "🌿",
+      "tag": "📌 Estable",
+      "tagClass": "tag-stable",
+      "intensity": 64,
+      "momentum": 55,
+      "momentumDir": "right",
+      "summary": "El artículo de Politico 'How Spain went woke — and why that may not last' se convierte en catalizador del debate: España pasó de ser un país conservador a vanguardia europea del feminismo de Estado y las políticas identitarias, y ahora se pregunta si el péndulo vuelve. La derecha digital habla de 'wokeismo irracional' y 'socialismo trasnochado'; la izquierda lo enmarca como reacción reaccionaria. La fatiga social, la crisis de Ceuta y el contexto internacional (Meloni, Milei) alimentan el backlash, aún no consolidado electoralmente.",
+      "quote": "Politico: 'How Spain went woke — and why that may not last'. Fatiga social + crisis migratoria alimentan el backlash, aún sin consolidar.",
+      "details": [
+        [
+          "Volumen en X",
+          "Moderado-alto"
+        ],
+        [
+          "Tendencia",
+          "Backlash en curso"
+        ],
+        [
+          "Clave",
+          "Artículo Politico + fatiga social"
+        ]
+      ]
+    },
+    {
+      "id": "cultura-cancelacion",
+      "name": "Cultura de la Cancelación",
+      "icon": "🔇",
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 68,
+      "momentum": 45,
+      "momentumDir": "center",
+      "summary": "Nuevo combustible: la UEFA, con el apoyo de sus 55 federaciones, amenaza con boicotear el Mundial si la FIFA sigue adelante con la venta de parte del torneo a inversores privados ('The World Cup is not for sale'), con España como co-organizadora de 2030 en el centro de la tormenta. En paralelo, campaña de boicot desde sectores marroquíes contra artistas españoles por apoyar a la Roja, respondida por medios españoles como 'miseria moral del resentimiento'. El caso Rosalía queda ya muy atrás y el tema resucita.",
+      "quote": "UEFA amenaza con boicotear el Mundial si FIFA lo vende a inversores. Boicot marroquí a artistas españoles por la Roja. La cancelación resurge.",
+      "details": [
+        [
+          "Volumen en X",
+          "Medio-alto - repunte"
+        ],
+        [
+          "Sentimiento",
+          "Polarizado"
+        ],
+        [
+          "Clave",
+          "Boicot UEFA-FIFA + boicot marroquí a artistas"
+        ]
+      ]
+    },
+    {
+      "id": "ley-trans",
+      "name": "Ley Trans",
+      "icon": "⚧️",
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 67,
+      "momentum": 63,
+      "momentumDir": "right",
+      "summary": "Sin novedades legislativas en España: la Ley 4/2023 sigue intacta y el debate sobre bloqueadores de pubertad permanece latente, con la Revisión Cass como referencia internacional del escepticismo médico (evidencia débil de beneficios, alta comorbilidad con autismo y trauma). Ecuador aprueba castigar con pérdida de patria potestad a quienes induzcan a menores a tratamientos de transición, marcando la tendencia regional restrictiva. Las comunidades del PP mantienen protocolos más prudentes y el PP reitera que reformará la ley si gobierna.",
+      "quote": "Ley Trans intacta mientras el escepticismo médico global crece (Cass). Ecuador castiga inducir a menores a transición. PP: reforma si gobierna.",
+      "details": [
+        [
+          "Volumen en X",
+          "Moderado"
+        ],
+        [
+          "Sentimiento",
+          "Polarizado"
+        ],
+        [
+          "Clave",
+          "Latente en España, tendencia global restrictiva"
+        ]
+      ]
+    },
+    {
+      "id": "lenguaje-inclusivo",
+      "name": "Lenguaje Inclusivo",
+      "icon": "📝",
+      "tag": "📌 Estable",
+      "tagClass": "tag-stable",
+      "intensity": 58,
+      "momentum": 65,
+      "momentumDir": "right",
+      "summary": "Repunte claro por el lapsus de Sánchez del 28 de julio en un acto de Transición Ecológica: 'los mejores y las mejoras', 'todos somos vulnerablos', 'emergencia climático'. El momento se vuelve viral y la burla es transversal: los críticos lo usan como prueba de que forzar el lenguaje inclusivo 'convierte la lengua en un laboratorio ideológico'. La RAE mantiene su rechazo firme y el uso real de 'e', 'x' y '@' sigue por debajo del 5%. El 'todes' se consolida como marcador tribal.",
+      "quote": "Sánchez: 'los mejores y las mejoras', 'todos somos vulnerablos'. El lapsus se vuelve meme masivo. La burla, transversal.",
+      "details": [
+        [
+          "Volumen en X",
+          "Repunte - meme viral"
+        ],
+        [
+          "Sentimiento",
+          "Burlas mayoritarias"
+        ],
+        [
+          "Clave",
+          "Lapsus Sánchez 'vulnerablos'"
+        ]
+      ]
+    },
+    {
+      "id": "espana-vaciada",
+      "name": "España Vaciada",
+      "icon": "🏘️",
+      "tag": "🔥 Tendencia alta",
+      "tagClass": "tag-hot",
+      "intensity": 87,
+      "momentum": 60,
+      "momentumDir": "center",
+      "summary": "Balance devastador: más de 175.000 hectáreas quemadas en 2026 con más de 35 grandes incendios. El fuego de Madrid-Ávila (unas 80.000 ha, más de 50.000 evacuados, emergencia nacional) se dio por controlado el 30 de julio, pero siguen activos focos en Zamora (Fermoselle, 11.000 ha), Castellón (9.300 ha) y León. El Gobierno declara zona catastrófica y propone un Pacto de Estado frente a la emergencia climática; la oposición critica la respuesta tardía ('irse de vacaciones mientras España ardía') y exige 'monte limpio' y prevención real. Nueva ola de calor prevista para el fin de semana.",
+      "quote": "175K ha quemadas en 2026. Madrid-Ávila controlado (80K ha, 50K evacuados). Fermoselle, Castellón y León siguen ardiendo. Zona catastrófica + Pacto de Estado.",
+      "details": [
+        [
+          "Volumen en X",
+          "Muy alto"
+        ],
+        [
+          "Tendencia",
+          "Control parcial - nueva ola de calor"
+        ],
+        [
+          "Clave",
+          "175K ha + zona catastrófica"
+        ]
+      ]
+    },
+    {
+      "id": "facha",
+      "name": "Facha / Insulto Político",
+      "icon": "🗣️",
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 74,
+      "momentum": 56,
+      "momentumDir": "center",
+      "summary": "La polarización se intensifica con las dos crisis simultáneas: los incendios (acusaciones cruzadas de mala gestión y negacionismo climático) y Ceuta ('invasión' vs 'solidaridad'). El insulto 'facha' funciona como deslegitimador previo al debate, y la derecha responde con la narrativa de 'violencia importada': hilos virales documentando agresiones y ataques a aficionados con camiseta de la selección española en el País Vasco, calificados de 'eusko faxistak'. El diálogo brilla por su ausencia en una sociedad fracturada.",
+      "quote": "'Facha' como deslegitimador: incendios + crisis de Ceuta disparan la polarización. Agresiones a aficionados con camiseta de la Roja en el País Vasco.",
+      "details": [
+        [
+          "Volumen en X",
+          "Alto"
+        ],
+        [
+          "Efecto",
+          "Polarización en máximos"
+        ],
+        [
+          "Clave",
+          "Ceuta + incendios + agresiones"
+        ]
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Asalto masivo a Ceuta: hasta 40.000 entradas, el Gobierno despliega al Ejército",
+      "date": "30-31 jul 2026",
+      "summary": "Oleada de entradas masivas en el espigón del Tarajal y en la valla de Melilla. El Gobierno envía al Ejército en apoyo a las Fuerzas de Seguridad y Sánchez viaja a Ceuta con Marlaska. Feijóo habla de 'avalancha sin precedentes' y 'crisis de seguridad nacional'; Abascal de 'invasión'. Italia evalúa limitar la libre circulación con España.",
+      "source": "X / Europa Press / El Mundo",
+      "tags": [
+        "Inmigración",
+        "Ceuta",
+        "Ejército"
+      ]
+    },
+    {
+      "title": "UCO: Cerdán cargó 323.000€ en banquetes a tarjetas de la red Koldo",
+      "date": "31 jul 2026",
+      "summary": "Nuevo informe de la UCO: Santos Cerdán habría cargado banquetes de lujo en Sevilla a tarjetas de la trama durante actos del PSOE. Se investiga la mayor adjudicación a Servinabar (túneles de Belate, 76M€). Empleadas de Ferraz declaran que las reuniones Cerdán-Leire Díez no se registraban en la agenda oficial.",
+      "source": "ABC / El Debate / Moncloa.com",
+      "tags": [
+        "Sanchismo",
+        "UCO",
+        "Cerdán"
+      ]
+    },
+    {
+      "title": "El Supremo convoca vista oral el 7 de septiembre sobre el censo de la Ley de Nietos",
+      "date": "jul 2026",
+      "summary": "El TS examinará en audiencia pública las medidas cautelares de Iustitia Europa y Vox para suspender, auditar o separar del censo ordinario las altas en el CERA derivadas de la Ley de Nietos. La oposición habla de 'caja negra del censo de Sánchez'. Siguen las diligencias por prevaricación contra Sofía Puente.",
+      "source": "El Debate / X",
+      "tags": [
+        "Memoria Histórica",
+        "CERA",
+        "TS"
+      ]
+    },
+    {
+      "title": "UEFA amenaza con boicotear el Mundial si la FIFA lo vende a inversores privados",
+      "date": "30-31 jul 2026",
+      "summary": "La UEFA, con el apoyo de sus 55 federaciones, avisa de que no jugará el Mundial si Infantino sigue adelante con la venta de parte del torneo a inversores externos ('The World Cup is not for sale'). España, co-organizadora del Mundial 2030, queda en el centro de la tormenta junto a la crisis de Ceuta.",
+      "source": "Marca / X",
+      "tags": [
+        "Cancelación",
+        "Mundial",
+        "UEFA-FIFA"
+      ]
+    },
+    {
+      "title": "El lapsus de Sánchez ('vulnerablos', 'las mejoras') se vuelve viral y reabre el debate del lenguaje inclusivo",
+      "date": "28 jul 2026",
+      "summary": "En un acto de Transición Ecológica, Sánchez ensaya el lenguaje inclusivo y termina creando 'los mejores y las mejoras', 'todos somos vulnerablos' y 'emergencia climático'. El momento es ridiculizado de forma transversal y reaviva el debate sobre forzar la lengua como laboratorio ideológico. La RAE mantiene su rechazo.",
+      "source": "OkDiario / X / memes",
+      "tags": [
+        "Lenguaje Inclusivo",
+        "Meme",
+        "Sánchez"
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "handle": "@profsecundario",
+      "name": "Profe de historia",
+      "category": "Muy derecha",
+      "desc": "Hilos documentados. Crítica a hegemonía cultural de izquierda. Ensayístico.",
+      "color": "#003399"
+    },
+    {
+      "handle": "@dianitanoticias",
+      "name": "Dianita",
+      "category": "Muy derecha",
+      "desc": "Ultra, alineada Vox. Inmigración, soberanía, anti-Sánchez. Directa.",
+      "color": "#003399"
+    },
+    {
+      "handle": "@billkilgore_",
+      "name": "Kilgore de Lezo",
+      "category": "Joker 🃏",
+      "desc": "Humor satírico, memes, fútbol. Anti-Sánchez pero en modo troll. ~270K.",
+      "color": "#996633"
+    },
+    {
+      "handle": "@Tagelca",
+      "name": "Tage",
+      "category": "Derecha",
+      "desc": "Crítico con Sánchez y corrupción PSOE. También crítico con oposición débil. ~67K.",
+      "color": "#0055cc"
+    },
+    {
+      "handle": "@elxokas",
+      "name": "ElXokas",
+      "category": "Derecha",
+      "desc": "Streamer. Anti-woke, anti-Sánchez, crítica a impuestos. Directo y sin filtros.",
+      "color": "#0055cc"
+    },
+    {
+      "handle": "@TemplarExtre",
+      "name": "Templar Extremeño",
+      "category": "Derecha",
+      "desc": "Cristiano, anti-woke, hispanista. Batalla cultural constante.",
+      "color": "#0055cc"
+    },
+    {
+      "handle": "@13mescribano",
+      "name": "Luis Escribano",
+      "category": "Neutro",
+      "desc": "Crítica sistémica al sistema partidocrático. Reforma constitucional.",
+      "color": "#666699"
+    },
+    {
+      "handle": "@VictorLapuente",
+      "name": "Víctor Lapuente",
+      "category": "Neutro",
+      "desc": "Académico. Datos, instituciones, corrupción. Análisis riguroso.",
+      "color": "#666699"
+    },
+    {
+      "handle": "@EstefMolina_",
+      "name": "Estefanía Molina",
+      "category": "Neutro",
+      "desc": "Politóloga. Ruptura contrato social. Crítica a élites sin dogmatismo.",
+      "color": "#666699"
+    },
+    {
+      "handle": "@nicolasdepedro",
+      "name": "Nicolás de Pedro",
+      "category": "Neutro",
+      "desc": "Analista RRII. Política exterior, desalineamiento internacional.",
+      "color": "#666699"
+    },
+    {
+      "handle": "@armesillaconde",
+      "name": "Santiago Armesilla",
+      "category": "Izquierda",
+      "desc": "Socialismo patriótico, marxista heterodoxo. Crítico con PSOE y Vox.",
+      "color": "#e84700"
+    },
+    {
+      "handle": "@Anujbost",
+      "name": "Anuj",
+      "category": "Izquierda",
+      "desc": "Socialdemócrata crítico. Análisis político desde izquierda independiente.",
+      "color": "#e84700"
+    },
+    {
+      "handle": "@geoestratego",
+      "name": "Pedro Baños",
+      "category": "Derecha",
+      "desc": "Coronel, geopolítica. Análisis sobre corrupción, inmigración. ~450K.",
+      "color": "#0055cc"
+    },
+    {
+      "handle": "@elmundotoday",
+      "name": "El Mundo Today",
+      "category": "Joker 🃏",
+      "desc": "Periodismo satírico. Noticias falsas. Pega a todos los bandos.",
+      "color": "#996633"
+    },
+    {
+      "handle": "@littleragergirl",
+      "name": "Abby",
+      "category": "Joker 🃏",
+      "desc": "Streamer gaming. Sarcástica. No política pero sale en dramas tuiteros.",
+      "color": "#996633"
+    },
+    {
+      "handle": "@LaBugsBunnyIA",
+      "name": "Fábrica de Memes",
+      "category": "Joker 🃏",
+      "desc": "Fotomontajes y portadas parodia. Crítico con la izquierda. Viral.",
+      "color": "#996633"
+    }
+  ],
+  "trends": [
+    {
+      "name": "Inmigración / Crisis de Ceuta",
+      "change": "up",
+      "pct": "+35%",
+      "detail": "Asalto masivo: hasta 40.000 entradas en 48h. Ejército desplegado. Sánchez viaja a Ceuta."
+    },
+    {
+      "name": "Lenguaje inclusivo / 'Vulnerablos'",
+      "change": "up",
+      "pct": "+25%",
+      "detail": "El lapsus de Sánchez ('mejoras', 'vulnerablos') se vuelve meme viral el 28 jul."
+    },
+    {
+      "name": "Cultura de la cancelación / Boicot Mundial",
+      "change": "up",
+      "pct": "+18%",
+      "detail": "UEFA amenaza con boicotear el Mundial si FIFA lo vende. Boicot marroquí a artistas."
+    },
+    {
+      "name": "Sanchismo / Cloacas UCO",
+      "change": "up",
+      "pct": "+12%",
+      "detail": "UCO: Cerdán cargó 323.000€ de banquetes a tarjetas Koldo. Belate 76M€ bajo lupa."
+    },
+    {
+      "name": "Incendios España 2026",
+      "change": "up",
+      "pct": "+6%",
+      "detail": "175K ha. Emergencia nacional levantada. Zona catastrófica. Nueva ola de calor."
+    },
+    {
+      "name": "Independentismo / AC",
+      "change": "stable",
+      "pct": "+2%",
+      "detail": "AC sigue arriba en encuestas; la crisis de Ceuta refuerza su discurso anti-inmigración."
+    },
+    {
+      "name": "Feminismo / Abolición prostitución",
+      "change": "stable",
+      "pct": "0%",
+      "detail": "Ley aparcada. Las abolicionistas se movilizan para septiembre."
+    },
+    {
+      "name": "Okupación / Vivienda",
+      "change": "down",
+      "pct": "-8%",
+      "detail": "RD-Ley de Vivienda aplazado a septiembre. TS avala cortar suministros a okupas."
+    }
+  ],
+  "virals": [
+    {
+      "author": "@Tagelca",
+      "date": "20 jul 2026",
+      "text": "Lo mejor de todo lo vivido ayer ha sido ver a este trozo de mierda nauseabundo llorar a moco tendido mientras levantábamos la copa del mundo. El tiempo pone a todos en su sitio.",
+      "engagement": "+139K likes · 6.8M views",
+      "topic": "Mundial 2026"
+    },
+    {
+      "author": "@billkilgore_",
+      "date": "19 jul 2026",
+      "text": "Por lo civil o por lo criminal. 19/07/2026",
+      "engagement": "+111K likes · 11M views",
+      "topic": "Mundial 2026"
+    },
+    {
+      "author": "@billkilgore_",
+      "date": "20 jul 2026",
+      "text": "Lo tenías apalabrado con los judíos y por eso programaste el tuit, pero habéis palmado primo. No te pueden pitar penalti si no pisas el área.",
+      "engagement": "+71K likes",
+      "topic": "Mundial / Argentina"
+    },
+    {
+      "author": "@Tagelca",
+      "date": "20 jul 2026",
+      "text": "La que saca Cubarsí ayer en el último minuto, ¿qué fue? Bajó el Espíritu Santo a visitarnos.",
+      "engagement": "+51K likes",
+      "topic": "Mundial 2026"
+    },
+    {
+      "author": "@nicolasdepedro",
+      "date": "30 jul 2026",
+      "text": "Ceuta y Melilla son tan España como Sevilla o Bilbao.",
+      "engagement": "+4.5K likes",
+      "topic": "Inmigración / Ceuta"
+    },
+    {
+      "author": "@Tagelca",
+      "date": "21 jul 2026",
+      "text": "No sacó ni tarjeta amarilla y es posiblemente la tarjeta roja más clara de todo el torneo. Qué barbaridad.",
+      "engagement": "+45K likes",
+      "topic": "Mundial 2026"
+    }
+  ]
+}
