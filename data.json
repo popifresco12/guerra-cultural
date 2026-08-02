@@ -1,22 +1,31 @@
 {
   "meta": {
-    "generated_at": "2026-08-01T08:00:00+02:00",
+    "generated_at": "2026-08-02T08:00:00+02:00",
     "source": "cron dbbc4ffc8080 (Guerra Cultural - Informe Semanal)",
     "queries": [
-      "sanchismo España 2026 (desde 2026-07-29)",
-      "inmigracion España 2026 (desde 2026-07-29)",
-      "okupacion España 2026 (desde 2026-07-29)",
-      "independentismo España 2026 (desde 2026-07-29)",
-      "memoria historica España 2026 (desde 2026-07-29)",
-      "feminismo radical España 2026 (desde 2026-07-29)",
-      "wokismo España 2026 (desde 2026-07-29)",
-      "cultura cancelacion España 2026 (desde 2026-07-29)",
-      "ley trans España 2026 (desde 2026-07-29)",
-      "lenguaje inclusivo España 2026 (desde 2026-07-29)",
-      "espana vaciada incendios 2026 (desde 2026-07-29)",
-      "facha insulto político España 2026 (desde 2026-07-29)"
+      "sanchismo España 2026 (desde 2026-07-30)",
+      "inmigración España 2026 (desde 2026-07-30)",
+      "independentismo España 2026 (desde 2026-07-30)",
+      "cultura cancelación España 2026 (desde 2026-07-30)",
+      "okupación España 2026 vivienda (desde 2026-07-30) [falló: sin créditos xAI]",
+      "memoria histórica España 2026 (desde 2026-07-30) [falló: sin créditos xAI]",
+      "feminismo España 2026 abolición prostitución (desde 2026-07-30) [falló: sin créditos xAI]",
+      "ley trans España 2026 (desde 2026-07-30) [falló: sin créditos xAI]",
+      "wokismo España 2026 (desde 2026-07-30) [falló: sin créditos xAI]",
+      "lenguaje inclusivo España 2026 (desde 2026-07-30) [falló: sin créditos xAI]",
+      "espana vaciada incendios 2026 (desde 2026-07-30) [falló: sin créditos xAI]",
+      "facha insulto político España 2026 (desde 2026-07-30) [falló: sin créditos xAI]"
     ],
-    "stale_topics": [],
+    "stale_topics": [
+      "okupacion",
+      "memoria",
+      "feminismo",
+      "ley-trans",
+      "woke",
+      "lenguaje-inclusivo",
+      "espana-vaciada",
+      "facha"
+    ],
     "inactive_accounts": []
   },
   "topics": [
@@ -26,23 +35,23 @@
       "icon": "👑",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 96,
-      "momentum": 94,
+      "intensity": 97,
+      "momentum": 95,
       "momentumDir": "right",
-      "summary": "El juez Pedraz abrió el 31 de julio una pieza separada contra el PSOE: autoriza a la UCO a rastrear más de 80 cuentas del partido y de investigados por posibles pagos a la trama de Leire (financiación ilegal y blanqueo). Ekaizer habla de 'preimputación' de facto del partido y apunta a una imputación formal en septiembre. Sigue pesando el informe UCO de Cerdán: 323.000€ en banquetes de Sevilla cargados a tarjetas de la red Koldo. El PSOE se desvincula con 'Cerdán engañó a la gerente'. La crisis de Ceuta copa la agenda, pero las cloacas no se apagan.",
-      "quote": "Pedraz abre pieza separada contra el PSOE: la UCO rastreará 80+ cuentas. Ekaizer: 'preimputación' del partido. Cerdán y los 323.000€ en banquetes siguen pesando.",
+      "summary": "La conversación sobre sanchismo se mantiene en máximos: crisis migratoria en Ceuta con hasta 60.000 entradas, incendios récord y la cascada de investigaciones al PSOE (cerca de 123 personas investigadas según los mensajes) consolidan el marco de \"estado fallido\". La moción de confianza no vinculante de junio sigue coleando y el Rey habría expresado su preocupación por la gestión de fronteras.",
+      "quote": "\"8 años de sanchismo... España hundida, hay que echarlos\" — el tono dominante en X es de hartazgo tras casi una década de polarización.",
       "details": [
         [
           "Volumen en X",
-          "Muy alto - Ceuta lo eclipsa"
+          "Muy alto"
         ],
         [
-          "Sentimiento dominante",
-          "Crítico (80-20)"
+          "Sentimiento",
+          "Crítico mayoritario"
         ],
         [
           "Impulsado por",
-          "Pieza Pedraz + informe UCO Cerdán"
+          "Crisis Ceuta + incendios + UCO"
         ]
       ]
     },
@@ -55,20 +64,20 @@
       "intensity": 99,
       "momentum": 96,
       "momentumDir": "right",
-      "summary": "Crisis de seguridad nacional: entre 20.000 y 40.000 entradas en Ceuta el 30-31 de julio (algunas fuentes hablan de 50.000), con solo 55 agentes iniciales y unas 9 horas de respuesta lenta denunciadas. El Gobierno despliega al Ejército, devuelve a miles y Sánchez hace una visita exprés de 105 minutos antes de irse de vacaciones a Lanzarote. Ayuso: 'Sánchez permite la invasión de España por Ceuta para intentar ocultar todos sus juicios'. Abascal: 'INVASIÓN... es un traidor'. El presidente ceutí pide estado de emergencia nacional y la UE ofrece ayuda de Frontex.",
-      "quote": "Hasta 40.000 entradas en 48h. 55 agentes para una avalancha. Sánchez, 105 minutos en Ceuta y a Lanzarote. Ayuso: 'permite la invasión para ocultar sus juicios'.",
+      "summary": "La regularización masiva (RD 316/2026) con más de 1,1 millones de solicitudes y 822.000 permisos concedidos sigue copando el debate, agravada por el asalto a Ceuta (+149% de entradas por tierra) y las declaraciones de Meloni. La crítica pivota sobre el \"efecto llamada\" y la pérdida de control fronterizo.",
+      "quote": "\"La regularización ha creado un fuerte efecto llamada\" — marco central de la crítica al Gobierno en X.",
       "details": [
         [
           "Volumen en X",
-          "Máximo absoluto - copa la agenda"
+          "Máximo"
         ],
         [
           "Sentimiento",
-          "Crítico dominante (85-15)"
+          "Muy crítico"
         ],
         [
           "Impulsado por",
-          "Asalto masivo + visita exprés + efecto llamada"
+          "Regularización + asalto Ceuta"
         ]
       ]
     },
@@ -104,11 +113,11 @@
       "icon": "🗺️",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 84,
-      "momentum": 80,
+      "intensity": 82,
+      "momentum": 78,
       "momentumDir": "right",
-      "summary": "Aliança Catalana sigue en ascenso (15-17% en las encuestas que circulan en X) y la crisis de Ceuta refuerza su discurso: Orriols combina independentismo sin complejos con línea dura contra la inmigración y el lema #SalvemCatalunya. ERC y Junts, desencantados, son acusados por AC de haber convertido el procés en una 'industria' (el processisme). El partido planea presentarse al máximo de municipios y promete mayoría +1 para una DUI unilateral. El procés clásico muta en nacionalismo identitario de derechas.",
-      "quote": "AC capitaliza la crisis de Ceuta: 'Catalunya para los catalanes'. Orriols en 15-17% y subiendo. ERC y Junts, sin hoja de ruta.",
+      "summary": "La amnistía, avalada por el TJUE en julio, entra en fase de aplicación y, según Boye, el Tribunal Supremo \"ya no está en condiciones de retrasarla más\", reavivando el debate. Mientras, el apoyo a la independencia cae al 45-46% y Aliança Catalana (Orriols) crece hasta el 15-23%, girando el procés hacia un independentismo identitario de derechas.",
+      "quote": "\"Si no se hace antes de 2030 ya no se hará\" — el desencanto domina al independentismo tradicional.",
       "details": [
         [
           "Volumen en X",
@@ -116,11 +125,11 @@
         ],
         [
           "Sentimiento",
-          "Polarizado - AC ganando terreno"
+          "Mixto, crítico con el procés"
         ],
         [
-          "Clave",
-          "AC + crisis Ceuta + desencanto ERC/Junts"
+          "Impulsado por",
+          "Amnistía/TJUE + auge Aliança Catalana"
         ]
       ]
     },
@@ -208,23 +217,23 @@
       "icon": "🔇",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 78,
-      "momentum": 48,
+      "intensity": 70,
+      "momentum": 55,
       "momentumDir": "center",
-      "summary": "Doble frente muy activo. 1) Rosalía: reposteó a Mia Khalifa celebrando la derrota argentina en la final del Mundial, lo que provocó un boicot en Argentina —proveedores cancelando servicios y pedidos de cancelación de sus cuatro shows del LUX Tour en Buenos Aires (1, 2, 4 y 6 de agosto)—; borró el repost y pidió disculpas ('solo tengo amor para Argentina'), pero el escrache continúa. 2) UEFA: las 55 federaciones europeas votaron boicotear las competiciones de la FIFA si Infantino vende el Mundial a inversores privados ('The World Cup is not for sale'), con España co-organizadora de 2030 en el centro.",
-      "quote": "Rosalía, cancelada en Argentina por un repost de Mia Khalifa: disculpas, escraches y 4 conciertos en el alambre. UEFA amenaza con boicotear el Mundial.",
+      "summary": "El debate pierde intensidad: el artículo de Politico \"How Spain went woke — and why that may not last\" circula como síntoma de fatiga del tema. El foco se desplaza hacia la cancelación institucional (RTVE) y casos clásicos como Pío Moa, mientras economía, inmigración y vivienda acaparan la conversación.",
+      "quote": "\"El pico woke ya pasó o está retrocediendo\" — consenso creciente en X sobre la fatiga del tema.",
       "details": [
         [
           "Volumen en X",
-          "Alto - repunte fuerte"
+          "Moderado"
         ],
         [
           "Sentimiento",
-          "Polarizado"
+          "Fatiga / retroceso"
         ],
         [
-          "Clave",
-          "Caso Rosalía + choque UEFA-FIFA"
+          "Impulsado por",
+          "Artículo Politico + RTVE + Pío Moa"
         ]
       ]
     },
@@ -390,6 +399,56 @@
       ]
     }
   ],
+  "trends": [
+    {
+      "name": "Inmigración / Crisis de Ceuta",
+      "change": "up",
+      "pct": "+40%",
+      "detail": "Hasta 40.000 entradas en 48h. Visita exprés de Sánchez. Ayuso y Abascal: 'invasión'."
+    },
+    {
+      "name": "Cultura de la cancelación / Caso Rosalía",
+      "change": "up",
+      "pct": "+30%",
+      "detail": "Boicot en Argentina a sus conciertos del LUX Tour tras repostear a Mia Khalifa."
+    },
+    {
+      "name": "Sanchismo / Pieza Pedraz",
+      "change": "up",
+      "pct": "+15%",
+      "detail": "El juez abre pieza separada contra el PSOE: la UCO rastreará 80+ cuentas."
+    },
+    {
+      "name": "Lenguaje inclusivo / 'Vulnerablos'",
+      "change": "up",
+      "pct": "+10%",
+      "detail": "El compilatorio de lapsus de Sánchez ('todos somos vulnerablos') sigue viral."
+    },
+    {
+      "name": "Incendios España 2026",
+      "change": "up",
+      "pct": "+5%",
+      "detail": "180K ha oficiales, hasta 231K por satélite. Nueva ola de calor con 40°C+."
+    },
+    {
+      "name": "Independentismo / AC",
+      "change": "stable",
+      "pct": "+3%",
+      "detail": "AC en 15-17% y capitaliza la crisis de Ceuta. ERC y Junts sin hoja de ruta."
+    },
+    {
+      "name": "Feminismo / Abolición prostitución",
+      "change": "stable",
+      "pct": "0%",
+      "detail": "Ley aparcada. Redondo mantiene la línea abolicionista y StopAbolición contraataca."
+    },
+    {
+      "name": "Okupación / Vivienda",
+      "change": "down",
+      "pct": "-10%",
+      "detail": "STS 426/2026 y LO 1/2025 asentadas. RD-Ley de Vivienda aplazado a septiembre."
+    }
+  ],
   "accounts": [
     {
       "handle": "@profsecundario",
@@ -502,56 +561,6 @@
       "category": "Joker 🃏",
       "desc": "Fotomontajes y portadas parodia. Crítico con la izquierda. Viral.",
       "color": "#996633"
-    }
-  ],
-  "trends": [
-    {
-      "name": "Inmigración / Crisis de Ceuta",
-      "change": "up",
-      "pct": "+40%",
-      "detail": "Hasta 40.000 entradas en 48h. Visita exprés de Sánchez. Ayuso y Abascal: 'invasión'."
-    },
-    {
-      "name": "Cultura de la cancelación / Caso Rosalía",
-      "change": "up",
-      "pct": "+30%",
-      "detail": "Boicot en Argentina a sus conciertos del LUX Tour tras repostear a Mia Khalifa."
-    },
-    {
-      "name": "Sanchismo / Pieza Pedraz",
-      "change": "up",
-      "pct": "+15%",
-      "detail": "El juez abre pieza separada contra el PSOE: la UCO rastreará 80+ cuentas."
-    },
-    {
-      "name": "Lenguaje inclusivo / 'Vulnerablos'",
-      "change": "up",
-      "pct": "+10%",
-      "detail": "El compilatorio de lapsus de Sánchez ('todos somos vulnerablos') sigue viral."
-    },
-    {
-      "name": "Incendios España 2026",
-      "change": "up",
-      "pct": "+5%",
-      "detail": "180K ha oficiales, hasta 231K por satélite. Nueva ola de calor con 40°C+."
-    },
-    {
-      "name": "Independentismo / AC",
-      "change": "stable",
-      "pct": "+3%",
-      "detail": "AC en 15-17% y capitaliza la crisis de Ceuta. ERC y Junts sin hoja de ruta."
-    },
-    {
-      "name": "Feminismo / Abolición prostitución",
-      "change": "stable",
-      "pct": "0%",
-      "detail": "Ley aparcada. Redondo mantiene la línea abolicionista y StopAbolición contraataca."
-    },
-    {
-      "name": "Okupación / Vivienda",
-      "change": "down",
-      "pct": "-10%",
-      "detail": "STS 426/2026 y LO 1/2025 asentadas. RD-Ley de Vivienda aplazado a septiembre."
     }
   ],
   "virals": [
