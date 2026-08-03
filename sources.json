@@ -1,0 +1,660 @@
+[
+ {
+  "claim": "Nuevo frente: una contable de Red.es denuncia ante la Policía haber recibido 'orden directa' de su superior para borrar información relacionada con un empresario amigo de Begoña Gómez, avivando la cadena de escándalos. El Gobierno sigue sin Presupuestos para 2026, bloqueado en minoría y dependiendo de ERC, Junts y Bildu, mientras Sánchez veranea en Lanzarote. En X domina el hartazgo: 'elecciones ya' y acusaciones de parálisis total.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "2026-07-13_08-19-14:p4",
+   "snippet": "**2. 📜 Memoria Histórica se dispara (+4 pts, 83/100) ▲**\nEstalla el escándalo de los **1,6M€ pagados a una empresa vinculada a la dictadura cubana** para gestionar nacionalidades de la Ley de Nietos. 2,5M de solicitudes. Vox lo lleva al Parlamento Europeo. PP denuncia \"fabricación de votantes CERA\".",
+   "date": "2026-07-13",
+   "topic": "memoria",
+   "urls": [],
+   "handles": [],
+   "kind": "report",
+   "confidence": 0.579,
+   "overlap": 1,
+   "overlap_tokens": [
+    "denuncia"
+   ]
+  }
+ },
+ {
+  "claim": "Contable de Red.es denuncia 'orden directa' para borrar información sobre un empresario amigo de Begoña Gómez: el nuevo frente del caso se suma a la parálisis presupuestaria y a las vacaciones de Sánchez.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "2026-07-13_08-19-14:p4",
+   "snippet": "**2. 📜 Memoria Histórica se dispara (+4 pts, 83/100) ▲**\nEstalla el escándalo de los **1,6M€ pagados a una empresa vinculada a la dictadura cubana** para gestionar nacionalidades de la Ley de Nietos. 2,5M de solicitudes. Vox lo lleva al Parlamento Europeo. PP denuncia \"fabricación de votantes CERA\".",
+   "date": "2026-07-13",
+   "topic": "memoria",
+   "urls": [],
+   "handles": [],
+   "kind": "report",
+   "confidence": 0.818,
+   "overlap": 1,
+   "overlap_tokens": [
+    "denuncia"
+   ]
+  }
+ },
+ {
+  "claim": "La regularización masiva (RD 316/2026) cerró su plazo el 30 de junio con más de 1,2 millones de solicitudes, pero el debate no baja: la crisis de Ceuta (hasta 60.000 entradas según cuentas de X) y la presión de varios países europeos —molestos con la política de regularización española— mantienen el foco. El 'efecto llamada' y la pérdida de control fronterizo copan la conversación, con críticas transversales al Gobierno.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:inmigracion:summary",
+   "snippet": "La regularización masiva (RD 316/2026) con más de 1,1 millones de solicitudes y 822.000 permisos concedidos sigue copando el debate, agravada por el asalto a Ceuta (+149% de entradas por tierra) y las declaraciones de Meloni. La crítica pivota sobre el \"efecto llamada\" y la pérdida de control fronterizo.",
+   "date": "2026-08-02",
+   "topic": "inmigracion",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.752,
+   "overlap": 16,
+   "overlap_tokens": [
+    "000",
+    "2026",
+    "316",
+    "ceuta",
+    "control",
+    "debate",
+    "efecto",
+    "entradas",
+    "fronterizo",
+    "llamada",
+    "masiva",
+    "millones",
+    "pérdida",
+    "rd",
+    "regularización",
+    "solicitudes"
+   ]
+  }
+ },
+ {
+  "claim": "Países europeos usan el incidente de Ceuta para presionar a España por su regularización masiva, mientras Marruecos cobra su 'impuesto revolucionario'.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "2026-07-31_08-21-11:p6",
+   "snippet": "- **Okupación** 74 → **71**: RD-Ley de Vivienda aplazado a septiembre (veto Podemos); TS avala cortar suministros a okupas sin título\n- **España Vaciada** 91 → **87**: emergencia nacional de Madrid-Ávila controlada (80K ha, 50K evacuados), pero Fermoselle, Castellón y León siguen ardiendo; 175K ha en 2026\n- **Independentismo** 87 → **83**: AC sigue imparable y la crisis de Ceuta refuerza el discurso de Orriols\n- **Ley Trans** 72 → **67**: sin novedades legislativas, latente (referencia Cass + ley restrictiva en Ecuador)",
+   "date": "2026-07-31",
+   "topic": "independentismo",
+   "urls": [],
+   "handles": [],
+   "kind": "report",
+   "confidence": 0.814,
+   "overlap": 2,
+   "overlap_tokens": [
+    "ceuta",
+    "españa"
+   ]
+  }
+ },
+ {
+  "claim": "Sin casos explosivos nuevos: el debate sigue anclado en la lentitud judicial (desalojos que superan el año), las 14.875 denuncias de 2025 y Cataluña, que concentra el 40% de las okupaciones. El verano devuelve los clásicos: familias que vuelven de vacaciones y encuentran su casa ocupada. Se debate el desalojo inmediato policial sin esperar al juez, mientras la crisis de vivienda (precios y oferta) da contexto estructural al tema.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:okupacion:summary",
+   "snippet": "Sin casos explosivos nuevos: el debate sigue anclado en la STS 426/2026 (cortar suministros a un okupa sin título no es coacciones) y en la LO 1/2025, que mete la usurpación en los juicios rápidos. En la práctica los desalojos siguen frenados por la sobrecarga de juzgados y las alegaciones de vulnerabilidad que activan protocolos sociales. El RD-Ley de Vivienda sigue aplazado a septiembre por el veto de Podemos y las exigencias de Junts. Tema estable en segundo plano mientras Ceuta y los incendios copan el debate.",
+   "date": "2026-08-02",
+   "topic": "okupacion",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.91,
+   "overlap": 10,
+   "overlap_tokens": [
+    "2025",
+    "anclado",
+    "casos",
+    "debate",
+    "desalojos",
+    "explosivos",
+    "nuevos",
+    "sigue",
+    "tema",
+    "vivienda"
+   ]
+  }
+ },
+ {
+  "claim": "Desalojos que tardan más de un año y Cataluña con el 40% de las okupaciones: el debate pide desalojo inmediato, el juzgado sigue siendo el cuello de botella.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:okupacion:summary",
+   "snippet": "Sin casos explosivos nuevos: el debate sigue anclado en la STS 426/2026 (cortar suministros a un okupa sin título no es coacciones) y en la LO 1/2025, que mete la usurpación en los juicios rápidos. En la práctica los desalojos siguen frenados por la sobrecarga de juzgados y las alegaciones de vulnerabilidad que activan protocolos sociales. El RD-Ley de Vivienda sigue aplazado a septiembre por el veto de Podemos y las exigencias de Junts. Tema estable en segundo plano mientras Ceuta y los incendios copan el debate.",
+   "date": "2026-08-02",
+   "topic": "okupacion",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.857,
+   "overlap": 3,
+   "overlap_tokens": [
+    "debate",
+    "desalojos",
+    "sigue"
+   ]
+  }
+ },
+ {
+  "claim": "Aliança Catalana (Orriols) irrumpe con fuerza: las proyecciones la sitúan en 22-26 escaños y en algunos escenarios como primera fuerza independentista, reconfigurando el procés hacia un independentismo identitario y antimigración. Puigdemont prepara un retorno a Cataluña en fecha de alto simbolismo para reactivar la movilización. El apoyo a la independencia se mantiene en el 45-46% y el desencanto con ERC y Junts es profundo.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "2026-07-13_08-19-14:p5",
+   "snippet": "**3. 🗺️ Aliança Catalana irrumpe (78/100, reconfiguración independentista) ▲**\nSílvia Orriols y AC saltan a 23-25 escaños en las encuestas del CEO, superando a Junts. El independentismo clásico (procés unilateral) está agotado, pero muta hacia un identitarismo anti-inmigración que rompe el tablero.",
+   "date": "2026-07-13",
+   "topic": "independentismo",
+   "urls": [],
+   "handles": [],
+   "kind": "report",
+   "confidence": 0.642,
+   "overlap": 10,
+   "overlap_tokens": [
+    "alian",
+    "catalana",
+    "escaños",
+    "hacia",
+    "independentismo",
+    "independentista",
+    "irrumpe",
+    "junts",
+    "orriols",
+    "procés"
+   ]
+  }
+ },
+ {
+  "claim": "AC pasa de 2 a 22-26 escaños en las proyecciones y Puigdemont ultima un retorno simbólico: el independentismo se identitariza.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "2026-07-13_08-19-14:p5",
+   "snippet": "**3. 🗺️ Aliança Catalana irrumpe (78/100, reconfiguración independentista) ▲**\nSílvia Orriols y AC saltan a 23-25 escaños en las encuestas del CEO, superando a Junts. El independentismo clásico (procés unilateral) está agotado, pero muta hacia un identitarismo anti-inmigración que rompe el tablero.",
+   "date": "2026-07-13",
+   "topic": "independentismo",
+   "urls": [],
+   "handles": [],
+   "kind": "report",
+   "confidence": 0.864,
+   "overlap": 3,
+   "overlap_tokens": [
+    "ac",
+    "escaños",
+    "independentismo"
+   ]
+  }
+ },
+ {
+  "claim": "El CERA roza los 2,7 millones de votantes (+375.000 desde 2023, +16%) tras las altas masivas de la Ley de Nietos (2,45 millones de solicitudes). Vox ha pedido formalmente a la Junta Electoral Central suspender las inscripciones y denuncia 'ingeniería electoral' y 'pucherazo'. El Tribunal Supremo mantiene la vista oral del 7 de septiembre sobre las medidas cautelares de Iustitia Europa y Vox.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:memoria:summary",
+   "snippet": "El Tribunal Supremo ha señalado una vista oral y pública excepcional el 7 de septiembre a las 10:00 para examinar las medidas cautelares de Iustitia Europa y Vox: suspender, auditar o separar del censo ordinario las altas del CERA derivadas de la Ley de Nietos. Es la primera vez que un tribunal analiza en vista pública los efectos electorales de la ley; comparecerán los recurrentes y la JEC. La oposición mantiene la narrativa de la 'caja negra del censo de Sánchez'. El plazo de solicitud acabó en octubre de 2025, pero las altas siguen generándose.",
+   "date": "2026-08-02",
+   "topic": "memoria",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.88,
+   "overlap": 16,
+   "overlap_tokens": [
+    "altas",
+    "cautelares",
+    "cera",
+    "europa",
+    "iustitia",
+    "ley",
+    "mantiene",
+    "medidas",
+    "nietos",
+    "oral",
+    "septiembre",
+    "supremo",
+    "suspender",
+    "tribunal",
+    "vista",
+    "vox"
+   ]
+  }
+ },
+ {
+  "claim": "CERA a 2,7M (+16%): Vox pide a la JEC suspender las altas de la Ley de Nietos y denuncia 'ingeniería electoral'. Vista del TS el 7 de septiembre.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:memoria:quote",
+   "snippet": "Vista oral y pública el 7 de septiembre: el TS abre la 'caja negra' del censo CERA. Iustitia Europa y Vox piden suspender las altas.",
+   "date": "2026-08-02",
+   "topic": "memoria",
+   "urls": [],
+   "handles": [],
+   "kind": "quote",
+   "confidence": 0.633,
+   "overlap": 7,
+   "overlap_tokens": [
+    "altas",
+    "cera",
+    "septiembre",
+    "suspender",
+    "ts",
+    "vista",
+    "vox"
+   ]
+  }
+ },
+ {
+  "claim": "Novedad: el Comité Europeo de Derechos Sociales ha admitido una reclamación pionera de UGT para estudiar si la alegalidad de la prostitución deja desprotegidas a las mujeres prostituidas. El frente abolicionista —mayoritario en el feminismo español— lo ve con recelo, temiendo una regularización que legitime la industria; los pro-derechos laborales lo celebran. La ley abolicionista nacional sigue sin tramitarse y la polarización se mantiene alta.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:feminismo:summary",
+   "snippet": "Ana Redondo mantiene una línea abolicionista explícita ('en una sociedad democrática e igualitaria no se puede tratar a las mujeres como mercancía'), pero la ley de abolición de la prostitución sigue sin tramitarse. El frente pro-derechos (StopAbolición) contraataca acusando al Ministerio de propaganda y de atacar la 'prostitución libre'. Las abolicionistas preparan el II Congreso Estatal y el Foro de Jerez para septiembre. Debate polarizado y sin avance legislativo a la vista.",
+   "date": "2026-08-02",
+   "topic": "feminismo",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.924,
+   "overlap": 10,
+   "overlap_tokens": [
+    "abolicionista",
+    "derechos",
+    "frente",
+    "ley",
+    "mantiene",
+    "mujeres",
+    "pro",
+    "prostitución",
+    "sigue",
+    "tramitarse"
+   ]
+  }
+ },
+ {
+  "claim": "UGT lleva a Europa la alegalidad de la prostitución: el Comité Europeo de Derechos Sociales admite la reclamación y reabre el choque abolicionistas vs. pro-derechos.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:feminismo:summary",
+   "snippet": "Ana Redondo mantiene una línea abolicionista explícita ('en una sociedad democrática e igualitaria no se puede tratar a las mujeres como mercancía'), pero la ley de abolición de la prostitución sigue sin tramitarse. El frente pro-derechos (StopAbolición) contraataca acusando al Ministerio de propaganda y de atacar la 'prostitución libre'. Las abolicionistas preparan el II Congreso Estatal y el Foro de Jerez para septiembre. Debate polarizado y sin avance legislativo a la vista.",
+   "date": "2026-08-02",
+   "topic": "feminismo",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.884,
+   "overlap": 4,
+   "overlap_tokens": [
+    "abolicionistas",
+    "derechos",
+    "pro",
+    "prostitución"
+   ]
+  }
+ },
+ {
+  "claim": "La crisis migratoria acelera el backlash: el hilo de Agustín Laje (más de 5.000 likes) sobre el 'engranaje' globalistas-ONG-wokismo-tribunales y las declaraciones de Milei ('Europa compró todas las estupideces del wokismo') viralizan la tesis del fracaso del modelo. La contradicción entre agenda woke y una inmigración no asimilada se repite como argumento. El artículo de Politico 'How Spain went woke — and why that may not last' sigue circulando.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:woke:summary",
+   "snippet": "El backlash sigue sin consolidarse electoralmente pero crece en las redes: se critica a RTVE como 'propaganda progubernamental y woke' y el artículo de Politico ('How Spain went woke — and why that may not last') sigue alimentando el debate. La Ley Trans, las cuotas y el lenguaje inclusivo se usan como prueba de una agenda identitaria desconectada de la mayoría. La crisis de Ceuta y los incendios desplazan el foco, pero la fatiga social con el 'wokismo' se mantiene como trasfondo permanente.",
+   "date": "2026-08-02",
+   "topic": "woke",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.944,
+   "overlap": 17,
+   "overlap_tokens": [
+    "agenda",
+    "and",
+    "artículo",
+    "backlash",
+    "crisis",
+    "how",
+    "last",
+    "may",
+    "not",
+    "politico",
+    "sigue",
+    "spain",
+    "that",
+    "went",
+    "why",
+    "woke",
+    "wokismo"
+   ]
+  }
+ },
+ {
+  "claim": "Milei: 'Europa compró todas las estupideces del wokismo'. Laje: el wokismo como 'deuda histórica' que obliga a abrir fronteras. El backlash se acelera con Ceuta.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:woke:summary",
+   "snippet": "El backlash sigue sin consolidarse electoralmente pero crece en las redes: se critica a RTVE como 'propaganda progubernamental y woke' y el artículo de Politico ('How Spain went woke — and why that may not last') sigue alimentando el debate. La Ley Trans, las cuotas y el lenguaje inclusivo se usan como prueba de una agenda identitaria desconectada de la mayoría. La crisis de Ceuta y los incendios desplazan el foco, pero la fatiga social con el 'wokismo' se mantiene como trasfondo permanente.",
+   "date": "2026-08-02",
+   "topic": "woke",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.89,
+   "overlap": 3,
+   "overlap_tokens": [
+    "backlash",
+    "ceuta",
+    "wokismo"
+   ]
+  }
+ },
+ {
+  "claim": "Fatiga transversal: cada vez más voces (incluidos antiguos defensores) ven la cancelación como herramienta de poder más que de justicia. Circulan anuncios de libros de periodistas sobre 'adoctrinamiento' en universidades y colegios, y los casos Rosalía, Irene Montero o Hasél/Valtònyc se usan como ejemplos de doble vara. Ambos bandos practican versiones de cancelación con herramientas distintas: redes y boicot frente a leyes e instituciones.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:woke:summary",
+   "snippet": "El backlash sigue sin consolidarse electoralmente pero crece en las redes: se critica a RTVE como 'propaganda progubernamental y woke' y el artículo de Politico ('How Spain went woke — and why that may not last') sigue alimentando el debate. La Ley Trans, las cuotas y el lenguaje inclusivo se usan como prueba de una agenda identitaria desconectada de la mayoría. La crisis de Ceuta y los incendios desplazan el foco, pero la fatiga social con el 'wokismo' se mantiene como trasfondo permanente.",
+   "date": "2026-08-02",
+   "topic": "woke",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.82,
+   "overlap": 3,
+   "overlap_tokens": [
+    "fatiga",
+    "redes",
+    "usan"
+   ]
+  }
+ },
+ {
+  "claim": "La cancelación genera más rechazo transversal: 'ambos bandos la practican con herramientas distintas: redes y boicot vs. leyes e instituciones'.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "2026-07-13_08-19-14:p6",
+   "snippet": "**Además**: polémica ElXokas vs Clerss sobre feminismo que divide Twitch España (+20% en tendencia), Inmigración sube a 91/100 con 1M+ solicitudes de regularización, y Cultura de Cancelación sigue en declive (62/100) — era post-cancelación.",
+   "date": "2026-07-13",
+   "topic": "feminismo",
+   "urls": [],
+   "handles": [],
+   "kind": "report",
+   "confidence": 0.804,
+   "overlap": 2,
+   "overlap_tokens": [
+    "cancelación",
+    "vs"
+   ]
+  }
+ },
+ {
+  "claim": "La Ley 4/2023 sigue intacta, pero el uso de bloqueadores de pubertad retrocede en la práctica: muchos centros sanitarios endurecen criterios y priorizan la atención psicológica tras los informes europeos (Cass, Suecia, Finlandia, Noruega). El cambio registral desde los 14 años sigue siendo uno de los marcos más permisivos de Europa. Aparecen demandas de detransicionantes y crece el escepticismo médico en la conversación.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:ley-trans:summary",
+   "snippet": "Sin novedades legislativas: la Ley 4/2023 sigue intacta y el debate sobre bloqueadores de pubertad permanece latente, con la Revisión Cass como referencia del escepticismo médico europeo. Madrid (PP) mantiene protocolos más restrictivos para menores y Vox redobla su oposición. En Europa la tendencia es claramente restrictiva (Reino Unido, Suecia, Finlandia, Noruega). El PP reitera que reformará la ley si gobierna. Tema estable, a la espera de que la crisis migratoria deje paso a la agenda cultural.",
+   "date": "2026-08-02",
+   "topic": "ley-trans",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.878,
+   "overlap": 13,
+   "overlap_tokens": [
+    "2023",
+    "bloqueadores",
+    "cass",
+    "escepticismo",
+    "europa",
+    "finlandia",
+    "intacta",
+    "ley",
+    "médico",
+    "noruega",
+    "pubertad",
+    "sigue",
+    "suecia"
+   ]
+  }
+ },
+ {
+  "claim": "Bloqueadores de pubertad en retroceso en España sin tocar la ley: 'primero no hacer daño' se impone en los protocolos y crecen las demandas de detransicionantes.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:ley-trans:summary",
+   "snippet": "Sin novedades legislativas: la Ley 4/2023 sigue intacta y el debate sobre bloqueadores de pubertad permanece latente, con la Revisión Cass como referencia del escepticismo médico europeo. Madrid (PP) mantiene protocolos más restrictivos para menores y Vox redobla su oposición. En Europa la tendencia es claramente restrictiva (Reino Unido, Suecia, Finlandia, Noruega). El PP reitera que reformará la ley si gobierna. Tema estable, a la espera de que la crisis migratoria deje paso a la agenda cultural.",
+   "date": "2026-08-02",
+   "topic": "ley-trans",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.84,
+   "overlap": 4,
+   "overlap_tokens": [
+    "bloqueadores",
+    "ley",
+    "protocolos",
+    "pubertad"
+   ]
+  }
+ },
+ {
+  "claim": "El meme de 'vulnerablos' se ha agotado y el tema vuelve a su debate estructural: la RAE mantiene su rechazo a 'todes/elle' ('la RAE no lo acepta' se repite en X) y los gobiernos del PP desaconsejan o prohíben el lenguaje inclusivo en documentos oficiales. El desdoblamiento ('todos y todas') es la única forma con aceptación transversal; el 'todes' queda como marcador tribal de nicho activista.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:lenguaje-inclusivo:summary",
+   "snippet": "El meme de 'vulnerablos' se ha consolidado como el mayor éxito satírico del verano: circula un compilatorio de lapsus de Sánchez ('emergencia climático', 'los mejores y las mejoras', 'todos somos vulnerablos') y un diálogo viral —'Begoña Gómez es mi mujer' / '¿Algo más, presidente?' / 'Sí... que todos somos vulnerablos'—. La burla es transversal y sirve para ridiculizar el lenguaje inclusivo forzado. La RAE mantiene su rechazo. El 'todes' sigue como marcador tribal.",
+   "date": "2026-08-02",
+   "topic": "lenguaje-inclusivo",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.908,
+   "overlap": 11,
+   "overlap_tokens": [
+    "inclusivo",
+    "lenguaje",
+    "mantiene",
+    "marcador",
+    "meme",
+    "rae",
+    "rechazo",
+    "todes",
+    "transversal",
+    "tribal",
+    "vulnerablos"
+   ]
+  }
+ },
+ {
+  "claim": "'La RAE no lo acepta': sin meme nuevo, el debate vuelve a la posición académica y a las prohibiciones autonómicas del PP.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:okupacion:summary",
+   "snippet": "Sin casos explosivos nuevos: el debate sigue anclado en la STS 426/2026 (cortar suministros a un okupa sin título no es coacciones) y en la LO 1/2025, que mete la usurpación en los juicios rápidos. En la práctica los desalojos siguen frenados por la sobrecarga de juzgados y las alegaciones de vulnerabilidad que activan protocolos sociales. El RD-Ley de Vivienda sigue aplazado a septiembre por el veto de Podemos y las exigencias de Junts. Tema estable en segundo plano mientras Ceuta y los incendios copan el debate.",
+   "date": "2026-08-02",
+   "topic": "okupacion",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.86,
+   "overlap": 1,
+   "overlap_tokens": [
+    "debate"
+   ]
+  }
+ },
+ {
+  "claim": "El incendio de Burgohondo (Ávila), con más de 50.000 hectáreas, se convierte en uno de los mayores de la historia reciente de España. En total, 173.000-186.000 ha quemadas en 2026 (x5) y España concentra cerca del 40% de toda la superficie arrasada en la UE. Emergencias en León y decenas de miles de evacuados. El abandono rural se señala como combustible: el 70% de los incendios ocurren en zonas con despoblación.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:espana-vaciada:summary",
+   "snippet": "La ministra cifra en ~180.000 hectáreas quemadas en 2026 con 38 grandes incendios (x6 respecto a 2025); las estimaciones satelitales de EFFIS llegan a 216.000-231.000 ha, con 157.000-172.000 solo en julio, el peor mes de la última década. Se espera una nueva ola de calor con 40°C+ en los primeros días de agosto y avisos de que se puede batir el récord de 2025. Zonas catastróficas declaradas y decenas de miles de evacuados. La oposición critica la respuesta tardía; el Gobierno anuncia un Pacto de Estado.",
+   "date": "2026-08-02",
+   "topic": "espana-vaciada",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.889,
+   "overlap": 10,
+   "overlap_tokens": [
+    "000",
+    "2026",
+    "40",
+    "decenas",
+    "evacuados",
+    "hectáreas",
+    "incendios",
+    "miles",
+    "quemadas",
+    "zonas"
+   ]
+  }
+ },
+ {
+  "claim": "Burgohondo (Ávila) supera las 50.000 ha: uno de los mayores incendios de la historia reciente. España concentra el 40% de lo quemado en la UE.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "2026-08-01_08-22-49:p4",
+   "snippet": "**🔥 Temas dominantes**: Inmigración/Ceuta en máximos (99) — 20.000-40.000 entradas en 48h, 55 agentes iniciales, visita exprés de Sánchez (105 min) antes de Lanzarote, Ayuso (\"permite la invasión para ocultar sus juicios\") y Abascal (\"INVASIÓN... es un traidor\"). Incendios: ~180.000 ha oficiales / hasta 231.000 por satélite, julio peor mes de la década, nueva ola de calor.",
+   "date": "2026-08-01",
+   "topic": null,
+   "urls": [],
+   "handles": [],
+   "kind": "report",
+   "confidence": 0.835,
+   "overlap": 3,
+   "overlap_tokens": [
+    "000",
+    "40",
+    "incendios"
+   ]
+  }
+ },
+ {
+  "claim": "El insulto se desgasta: crece la reapropiación explícita ('soy facha y ya no es un insulto, es un halago', 'no es un insulto, es un diagnóstico') y la derecha ya no se ofende. 'Facha' sigue siendo el insulto más usado por volumen, pero ha perdido poder como ataque y funciona como marcador tribal; la respuesta con 'rojo', 'perroflauta' o 'progre de champagne' retroalimenta la dinámica.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:facha:summary",
+   "snippet": "La crisis de Ceuta y los incendios disparan la polarización: 'invasión' vs 'solidaridad', y 'facha' como deslegitimador automático. El abuso del término genera su propia reacción ('se dice tanto lo de facha que ya carece de sentido') y alimenta la tesis de que etiquetar de facha o racista cualquier crítica migratoria radicaliza a sectores de centro. Dos Españas digitales casi impermeables, con la polarización afectiva entre las más altas de Europa. El insulto ya no debate: descalifica.",
+   "date": "2026-08-02",
+   "topic": "facha",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.879,
+   "overlap": 2,
+   "overlap_tokens": [
+    "facha",
+    "insulto"
+   ]
+  }
+ },
+ {
+  "claim": "'Cada vez que me llaman facha, sube un punto mi orgullo': el insulto se reapropia y se convierte en marcador tribal.",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:facha:quote",
+   "snippet": "'La debacle de España comenzó cuando comenzaron a usar FACHA o RACISTA como insulto.' Dos Españas digitales impermeables, polarización en máximos.",
+   "date": "2026-08-02",
+   "topic": "facha",
+   "urls": [],
+   "handles": [],
+   "kind": "quote",
+   "confidence": 0.815,
+   "overlap": 2,
+   "overlap_tokens": [
+    "facha",
+    "insulto"
+   ]
+  }
+ },
+ {
+  "claim": "Una contable de Red.es denuncia ante la Policía una orden de borrar información sobre un empresario amigo de Begoña Gómez",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "2026-07-13_08-19-14:p4",
+   "snippet": "**2. 📜 Memoria Histórica se dispara (+4 pts, 83/100) ▲**\nEstalla el escándalo de los **1,6M€ pagados a una empresa vinculada a la dictadura cubana** para gestionar nacionalidades de la Ley de Nietos. 2,5M de solicitudes. Vox lo lleva al Parlamento Europeo. PP denuncia \"fabricación de votantes CERA\".",
+   "date": "2026-07-13",
+   "topic": "memoria",
+   "urls": [],
+   "handles": [],
+   "kind": "report",
+   "confidence": 0.812,
+   "overlap": 1,
+   "overlap_tokens": [
+    "denuncia"
+   ]
+  }
+ },
+ {
+  "claim": "El incendio de Burgohondo (Ávila) supera las 50.000 hectáreas: uno de los mayores de la historia reciente de España",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:espana-vaciada:summary",
+   "snippet": "La ministra cifra en ~180.000 hectáreas quemadas en 2026 con 38 grandes incendios (x6 respecto a 2025); las estimaciones satelitales de EFFIS llegan a 216.000-231.000 ha, con 157.000-172.000 solo en julio, el peor mes de la última década. Se espera una nueva ola de calor con 40°C+ en los primeros días de agosto y avisos de que se puede batir el récord de 2025. Zonas catastróficas declaradas y decenas de miles de evacuados. La oposición critica la respuesta tardía; el Gobierno anuncia un Pacto de Estado.",
+   "date": "2026-08-02",
+   "topic": "espana-vaciada",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.821,
+   "overlap": 2,
+   "overlap_tokens": [
+    "000",
+    "hectáreas"
+   ]
+  }
+ },
+ {
+  "claim": "El CERA supera los 2,7 millones de votantes y Vox pide a la JEC suspender las altas de la Ley de Nietos",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:memoria:quote",
+   "snippet": "Vista oral y pública el 7 de septiembre: el TS abre la 'caja negra' del censo CERA. Iustitia Europa y Vox piden suspender las altas.",
+   "date": "2026-08-02",
+   "topic": "memoria",
+   "urls": [],
+   "handles": [],
+   "kind": "quote",
+   "confidence": 0.851,
+   "overlap": 4,
+   "overlap_tokens": [
+    "altas",
+    "cera",
+    "suspender",
+    "vox"
+   ]
+  }
+ },
+ {
+  "claim": "UGT lleva a Europa la alegalidad de la prostitución: el Comité Europeo de Derechos Sociales admite su reclamación",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "topic:feminismo:summary",
+   "snippet": "Ana Redondo mantiene una línea abolicionista explícita ('en una sociedad democrática e igualitaria no se puede tratar a las mujeres como mercancía'), pero la ley de abolición de la prostitución sigue sin tramitarse. El frente pro-derechos (StopAbolición) contraataca acusando al Ministerio de propaganda y de atacar la 'prostitución libre'. Las abolicionistas preparan el II Congreso Estatal y el Foro de Jerez para septiembre. Debate polarizado y sin avance legislativo a la vista.",
+   "date": "2026-08-02",
+   "topic": "feminismo",
+   "urls": [],
+   "handles": [],
+   "kind": "summary",
+   "confidence": 0.824,
+   "overlap": 2,
+   "overlap_tokens": [
+    "derechos",
+    "prostitución"
+   ]
+  }
+ },
+ {
+  "claim": "Aliança Catalana irrumpe en las proyecciones con 22-26 escaños y Puigdemont prepara un retorno simbólico",
+  "status": "citada",
+  "citation": {
+   "chunk_id": "2026-07-27_08-23-44:p4",
+   "snippet": "**Suben fuerte (+10-18 puntos de intensidad/volumen):**\n- **Sanchismo (95)** — Ábalos condenado a 24 años y 3 meses. Cerdán imputado. Begoña Gómez a juicio con jurado popular en primavera 2027. Es el pico más alto de todo el panel.\n- **Independentismo (78→↑)** — Aliança Catalana segunda fuerza según encuestas del 27 de julio. Orriols capitaliza el descontento. ERC/Junts se hunden.\n- **Incendios forestales** — Nuevo tema añadido en trends. Récord 130K hectáreas. Ayuso cuestionada. Bomberos denuncian precariedad.\n- **Cultura cancelación (72→↑)** — Caso Rosalía cancelada en Argentina por el Mundial. El debate post-cancelación se reactiva con fuerza.",
+   "date": "2026-07-27",
+   "topic": "sanchismo",
+   "urls": [],
+   "handles": [],
+   "kind": "report",
+   "confidence": 0.776,
+   "overlap": 2,
+   "overlap_tokens": [
+    "alian",
+    "catalana"
+   ]
+  }
+ }
+]
