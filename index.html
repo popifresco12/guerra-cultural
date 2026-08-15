@@ -202,6 +202,13 @@
     .grid { grid-template-columns: 1fr; }
     .charts-grid { grid-template-columns: 1fr; height: auto; }
     .header h1 { font-size: 1.5rem; }
+    /* Fix desborde horizontal en móvil: todos los grids internos a 1 columna */
+    .chart-section div[style*="grid-template-columns"] {
+      grid-template-columns: 1fr !important;
+      height: auto !important;
+    }
+    .chart-section canvas { min-height: 260px; }
+    .trending-list { grid-template-columns: 1fr; }
   }
 </style>
 </head>
