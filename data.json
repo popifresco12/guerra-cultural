@@ -1,23 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-08-08T08:00:00+02:00",
-    "source": "cron dbbc4ffc8080 (Guerra Cultural - Informe Semanal)",
+    "generated_at": "2026-08-15T19:30:00+02:00",
+    "source": "cron a1e7581e363c-2 (Guerra Cultural - Informe Semanal)",
     "queries": [
-      "sanchismo corrupción España 2026 noticias recientes (desde 2026-08-05)",
-      "inmigración España 2026 noticias recientes (desde 2026-08-05)",
-      "independentismo Cataluña España 2026 noticias recientes (desde 2026-08-05)",
-      "cultura cancelación España 2026 noticias recientes (desde 2026-08-05)",
-      "okupación España 2026 vivienda noticias recientes (desde 2026-08-05)",
-      "memoria histórica España 2026 ley nietos CERA noticias recientes (desde 2026-08-05)",
-      "feminismo España 2026 abolición prostitución noticias recientes (desde 2026-08-05)",
-      "ley trans España 2026 menores noticias recientes (desde 2026-08-05)",
-      "wokismo ideología woke España 2026 noticias recientes (desde 2026-08-05)",
-      "lenguaje inclusivo España 2026 noticias recientes (desde 2026-08-05)",
-      "España vaciada despoblación incendios 2026 noticias recientes (desde 2026-08-05)",
-      "facha insulto político España 2026 noticias recientes (desde 2026-08-05)",
-      "actividad cuentas directorio, 8 handles (desde 2026-08-04)",
-      "actividad cuentas directorio, 8 handles (desde 2026-08-04)",
-      "tweets virales billkilgore_ Tagelca profsecundario (desde 2026-08-04)"
+      "sanchismo España UCO Cerdán polémica (desde 2026-08-12)",
+      "inmigración España debate (desde 2026-08-12)",
+      "independentismo procés Cataluña debate (desde 2026-08-12)",
+      "cultura cancelación polémica España (desde 2026-08-12)",
+      "okupación España debate okupas (desde 2026-08-12)",
+      "memoria histórica España polémica (desde 2026-08-12)",
+      "feminismo radical abolicionismo España debate (desde 2026-08-12)",
+      "ley trans España debate (desde 2026-08-12)",
+      "woke ideología wokismo España polémica (desde 2026-08-12)",
+      "lenguaje inclusivo España debate (desde 2026-08-12)",
+      "España vaciada incendios despoblación (desde 2026-08-12)",
+      "facha insulto político España debate (desde 2026-08-12)",
+      "actividad cuentas directorio, lote 1 (8 handles, desde 2026-08-12)",
+      "actividad cuentas directorio, lote 2 (8 handles, desde 2026-08-12)"
     ],
     "stale_topics": [],
     "inactive_accounts": [
@@ -37,23 +36,14 @@
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
       "intensity": 97,
-      "momentum": 94,
+      "momentum": 93,
       "momentumDir": "right",
-      "summary": "Sentencia histórica: José Luis Ábalos condenado a 24 años de cárcel y Koldo García a unos 20 en el caso de las mascarillas, el mayor golpe judicial al sanchismo hasta la fecha. Se suma el informe policial sobre una supuesta red de proxenetismo de menores en saunas vinculadas a la familia de Begoña Gómez, imputada, y la adjudicación de 1.600 millones del proyecto Hispasat-Iris2 que los críticos vinculan al entorno de Sánchez. El Gobierno sigue sin Presupuestos y la conversación en X habla abiertamente de 'gobierno criminal' y 'mafia'.",
-      "quote": "Ábalos condenado a 24 años y Koldo a ~20: la sentencia de las mascarillas se convierte en el mayor golpe judicial al sanchismo, con Begoña Gómez imputada y 1.600M de Hispasat bajo sospecha.",
+      "summary": "Estalla el 'caso de las cloacas del PSOE' o 'caso Leire Díez': la UCO de la Guardia Civil es central en los informes que salpican directamente a Santos Cerdán y se vinculan a la protección de Pedro Sánchez. La conversación en X es máxima y casi unánimemente crítica, con miles de posts y decenas de hilos desde el 12 de agosto. El Gobierno sigue sin Presupuestos y la narrativa de 'mafia' y 'cloacas' domina el debate.",
+      "quote": "La UCO sitúa en el centro de las 'cloacas del PSOE' a Santos Cerdán y el caso Leire Díez: el mayor golpe mediático al sanchismo desde la sentencia de Ábalos.",
       "details": [
-        [
-          "Volumen en X",
-          "Máximo"
-        ],
-        [
-          "Sentimiento",
-          "Crítico mayoritario"
-        ],
-        [
-          "Impulsado por",
-          "Sentencia Koldo-Ábalos + informe Begoña + Hispasat"
-        ]
+        ["Volumen en X", "Máximo"],
+        ["Sentimiento", "Crítico mayoritario"],
+        ["Impulsado por", "Caso cloacas UCO + Leire Díez + Cerdán"]
       ]
     },
     {
@@ -65,47 +55,29 @@
       "intensity": 98,
       "momentum": 95,
       "momentumDir": "right",
-      "summary": "Ceuta sigue desbordada tras la avalancha de finales de julio (Marruecos cifra 14 muertos y 236 heridos) y los médicos de la ciudad piden intervención urgente por riesgo de brotes y 'catástrofe asistencial'. El Gobierno prepara el reparto de 1.342 MENA y la Fiscalía avisa de que actuará contra las autonomías que se nieguen; Vox exige devoluciones inmediatas y varias CCAA del PP muestran resistencia. El ultimátum a Italia por sus controles fronterizos añade tensión diplomática. El 'efecto llamada' copa la conversación.",
-      "quote": "Reparto de 1.342 MENA de Ceuta con la Fiscalía amenazando a las CCAA que se nieguen: la crisis migratoria se convierte en choque institucional entre Gobierno, PP y Vox.",
+      "summary": "Crisis migratoria en Ceuta el 15 de agosto: cientos de migrantes subsaharianos se concentran en la frontera (Castillejos, Tarajal) intentando cruzar a nado o por tierra; Marruecos despliega gases lacrimógenos, porras y helicópteros, y España refuerza con blindados. Residentes denuncian inseguridad creciente, un diputado del PSOE pide la dimisión del delegado del Gobierno, e Italia (Tajani) culpa a Sánchez de incentivar llegadas. La narrativa de 'efecto llamada' y 'arma híbrida de Marruecos' copa la conversación.",
+      "quote": "Ceuta, 15 de agosto: cientos de migrantes intentan cruzar mientras Marruecos dispersa con gases y España despliega blindados; Italia culpa a Sánchez.",
       "details": [
-        [
-          "Volumen en X",
-          "Máximo"
-        ],
-        [
-          "Sentimiento",
-          "Muy crítico"
-        ],
-        [
-          "Impulsado por",
-          "Ceuta desbordada + reparto MENA + ultimátum a Italia"
-        ]
+        ["Volumen en X", "Máximo"],
+        ["Sentimiento", "Muy crítico"],
+        ["Impulsado por", "Crisis Ceuta 15-ago + tanquetas + Tajani"]
       ]
     },
     {
       "id": "okupacion",
       "name": "Okupación",
       "icon": "🏠",
-      "tag": "🔥 Tendencia moderada",
-      "tagClass": "tag-moderate",
-      "intensity": 70,
-      "momentum": 68,
+      "tag": "🔥 Tendencia alta",
+      "tagClass": "tag-hot",
+      "intensity": 83,
+      "momentum": 88,
       "momentumDir": "right",
-      "summary": "Nuevo escándalo viral: las mafias del 'okupa de padrón' empadronan a migrantes irregulares en viviendas okupadas por unos 600 euros, dando apariencia de legalidad y acceso a derechos al tiempo que complica los desalojos (reportaje de COPE del 7 de agosto). Se suma el desmantelamiento de empadronamientos fraudulentos en Ronda (Málaga) y un intento de okupación a martillazos en Arona (Tenerife). La crisis estructural de vivienda (BBVA prevé +12% en 2026) da contexto: falta de oferta y precios al alza.",
-      "quote": "Mafias que empadronan por 600€ en pisos okupados: el fraude del 'okupa de padrón' agita el debate sobre desalojos y la crisis de vivienda.",
+      "summary": "Debate muy activo y polarizado: viral de @Capitana_espana ('un okupa tiene más derechos que el propietario') con miles de likes, quejas por indemnizaciones ridículas (85€ frente a 27.000€ de gastos), y Valencia pionera aprobando que okupas condenados no accedan a vivienda social. Se pide ley de desalojo en 24-48 horas y se mezcla con inmigración y seguridad. Voz minoritaria que minimiza: solo afecta al 0,06% del parque de viviendas.",
+      "quote": "'Un okupa tiene más derechos que el propietario de su propia vivienda': el viral que condensa el hartazgo y pide un cambio radical.",
       "details": [
-        [
-          "Volumen en X",
-          "Medio-alto"
-        ],
-        [
-          "Sentimiento",
-          "Crítico"
-        ],
-        [
-          "Clave",
-          "Fraude empadronamiento + crisis vivienda (+12% BBVA)"
-        ]
+        ["Volumen en X", "Alto"],
+        ["Sentimiento", "Crítico mayoritario"],
+        ["Impulsado por", "Viral Capitana_espana + ley Valencia + desalojos"]
       ]
     },
     {
@@ -114,102 +86,66 @@
       "icon": "🗺️",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 72,
-      "momentum": 58,
+      "intensity": 68,
+      "momentum": 55,
       "momentumDir": "center",
-      "summary": "El independentismo vive su peor momento de reflujo: Illa cumple dos años de presidencia y VilaWeb titula 'dos anys lamentablement perduts', mientras la crisis interna estalla en Girona con la ruptura ERC-Junts, un audio filtrado polémico de ERC y un pacto de abstención con el PSC. El desánimo es palpable ('votamos 2,5 millones por la independencia, ¿dónde estamos?'). Puigdemont sigue como figura simbólica, con el juicio a tres mossos por su regreso del 8-A en el foco. El procés queda reducido a negociación de financiación y competencias.",
-      "quote": "VilaWeb: 'President Illa: dos anys lamentablement perduts'. ERC y Junts se rompen en Girona y el independentismo se consume en su crisis interna.",
+      "summary": "Debate activo pero fragmentado, sin gran estallido: El País Catalunya publica el reportaje de Bellvitge ('el socavón del AVE que alimentó el procés'), circula un hilo federalista elaborado contra la independencia ('error estratégico'), y se discute la radicalización del independentismo hacia el rechazo a la inmigración marroquí. Los unionistas insisten en la ilegalidad del referéndum de 2017 y los independentistas en la 'vía de los hechos'. En modo residual-crítico.",
+      "quote": "Bellvitge, el socavón del AVE que alimentó el 'procés': el reportaje que reabre la narrativa de agravios en un debate fragmentado.",
       "details": [
-        [
-          "Volumen en X",
-          "Medio-alto"
-        ],
-        [
-          "Sentimiento",
-          "Desánimo / división"
-        ],
-        [
-          "Impulsado por",
-          "Crisis Girona + editorial VilaWeb + juicio mossos 8-A"
-        ]
+        ["Volumen en X", "Medio"],
+        ["Sentimiento", "Desánimo / división"],
+        ["Impulsado por", "Reportaje Bellvitge + hilo federalista + deriva antiinmigración"]
       ]
     },
     {
       "id": "memoria",
       "name": "Memoria Histórica",
       "icon": "📜",
-      "tag": "🔥 Tendencia alta",
-      "tagClass": "tag-hot",
-      "intensity": 82,
-      "momentum": 80,
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 75,
+      "momentum": 78,
       "momentumDir": "right",
-      "summary": "El choque judicial por el CERA se intensifica: la JEC rechazó suspender cautelarmente la elaboración del censo pero ha pedido instrucciones sobre en qué provincia deben inscribirse los nuevos electores de la Ley de Nietos, y el Tribunal Supremo ha requerido a la propia JEC toda la documentación tras un nuevo recurso de Iustitia Europa. Circula un hilo muy compartido (7 de agosto) sobre la gestión de Correos y el voto por correo, con la brecha CERA-urna en Extremadura 2025, Aragón y Andalucía 2026 como prueba de la 'ingeniería electoral' denunciada.",
-      "quote": "El TS requiere a la JEC toda la documentación de la Ley de Nietos y crece el debate sobre la brecha CERA-urna en Aragón, Andalucía y Extremadura.",
+      "summary": "El BOE declara el Pazo de Meirás 'lugar de memoria democrática', reavivando la polémica sobre la memoria selectiva, y circula un hilo de alto impacto del historiador Enrique Navarro con discursos de 1933 de Largo Caballero defendiendo la 'dictadura del proletariado' — presentado como lo que la 'sectaria Ley de Memoria' oculta. La izquierda defiende la ley como justicia para las víctimas del franquismo; los críticos denuncian unilateralidad. Pío Moa también resurge como caso de 'cancelado'.",
+      "quote": "Pazo de Meirás declarado lugar de memoria + hilo Largo Caballero 1933: la batalla por la narrativa de la Guerra Civil sigue abierta.",
       "details": [
-        [
-          "Volumen en X",
-          "Alto"
-        ],
-        [
-          "Sentimiento",
-          "Crítico"
-        ],
-        [
-          "Clave",
-          "TS vs JEC + brecha voto exterior + hilo Correos"
-        ]
+        ["Volumen en X", "Medio-alto"],
+        ["Sentimiento", "Polarizado"],
+        ["Impulsado por", "Pazo Meirás + hilo Largo Caballero + Pío Moa"]
       ]
     },
     {
       "id": "feminismo",
       "name": "Feminismo Radical",
       "icon": "⚡",
-      "tag": "🔥 Tendencia moderada",
-      "tagClass": "tag-moderate",
-      "intensity": 70,
-      "momentum": 55,
-      "momentumDir": "center",
-      "summary": "El abolicionismo se moviliza de cara al II Congreso Estatal Abolicionista (Sevilla, 3 de octubre) bajo el lema '#LOASPseráLEY', con mensajes duros como 'si un Estado NO es abolicionista, es un ESTADO PROXENETA'. Se promociona el libro de Beatriz Gimeno 'Alegato contra la prostitución' y Tribuna Feminista critica que 'ladrillo a ladrillo' se consolida el 'búnker del sistema prostitución'. La división abolicionistas vs. regulacionistas sigue abierta mientras el Gobierno presume del blindaje del aborto en la Constitución.",
-      "quote": "El II Congreso Abolicionista (3 oct, Sevilla) moviliza al feminismo radical: 'si un Estado NO es abolicionista, es un ESTADO PROXENETA'.",
+      "tag": "📌 Estable",
+      "tagClass": "tag-stable",
+      "intensity": 62,
+      "momentum": 45,
+      "momentumDir": "left",
+      "summary": "Debate de nicho pero activo entre abolicionistas y regulacionistas de la prostitución: las primeras citan a Amelia Tiganus ('La revuelta de las putas') y el 'consentimiento ilusorio'; las segundas (stopabolicion, Cristina Català) comparan el abolicionismo con el Patronato de Protección a la Mujer de Franco y denuncian que empuja a la clandestinidad. Se mezcla con la trata y la crisis migratoria de Ceuta. Sin novedad legislativa, choque discursivo intenso.",
+      "quote": "'El abolicionismo actual repite el Patronato de Franco': el choque entre radfems y trabajadoras sexuales mantiene el debate de fondo.",
       "details": [
-        [
-          "Volumen en X",
-          "Medio-alto"
-        ],
-        [
-          "Sentimiento",
-          "Dividido"
-        ],
-        [
-          "Clave",
-          "Congreso Sevilla + libro Gimeno + crítica al Gobierno"
-        ]
+        ["Volumen en X", "Bajo-medio"],
+        ["Sentimiento", "Polarizado"],
+        ["Impulsado por", "Amelia Tiganus + stopabolicion + trata/Ceuta"]
       ]
     },
     {
       "id": "woke",
       "name": "Wokismo / Ideología Woke",
       "icon": "🌿",
-      "tag": "🔥 Tendencia moderada",
-      "tagClass": "tag-moderate",
-      "intensity": 78,
-      "momentum": 70,
+      "tag": "🔥 Tendencia alta",
+      "tagClass": "tag-hot",
+      "intensity": 85,
+      "momentum": 90,
       "momentumDir": "right",
-      "summary": "La campaña contra el 'adoctrinamiento' se intensifica: Vox difunde al filósofo José Sánchez Tortosa defendiendo una educación 'libre de wokismo' y la asociación España Contra el Adoctrinamiento ataca los libros de fluidez de género en colegios. El dato de ABC de que uno de cada cinco habitantes de España nació fuera del país se viraliza en círculos conservadores como prueba del 'gran reemplazo' y del fracaso del multiculturalismo. Ceuta se usa como ejemplo de cómo la agenda woke habría invisibilizado problemas reales. El backlash mantiene su ascenso.",
-      "quote": "Uno de cada cinco habitantes nació fuera de España: el dato de ABC se convierte en munición del backlash anti-woke y del 'gran reemplazo'.",
+      "summary": "Debate intenso y mayoritariamente anti-woke: se critica el paso del antirracismo a 'ensalzar minorías como superiores' vía cuotas DEI, se acusa a Sánchez de ser 'líder espiritual del wokismo' y de tener una política exterior 'PRO ideología' pagada por Soros, y un hilo muy citado dice que 'el progresismo woke ha narcotizado a gran parte de la sociedad española' en el contexto de la pérdida de influencia frente a Marruecos. Pocas defensas explícitas.",
+      "quote": "'Cuando se pasó de tratar a las minorías como iguales a ensalzarlas como superiores, ya no es antirracismo, es wokismo': el argumento que domina X.",
       "details": [
-        [
-          "Volumen en X",
-          "Alto"
-        ],
-        [
-          "Sentimiento",
-          "Crítico con el wokismo"
-        ],
-        [
-          "Clave",
-          "Vox aulas + ECA + dato 1/5 extranjeros"
-        ]
+        ["Volumen en X", "Alto"],
+        ["Sentimiento", "Crítico mayoritario"],
+        ["Impulsado por", "Cuotas DEI + Sánchez 'líder woke' + Marruecos"]
       ]
     },
     {
@@ -218,236 +154,171 @@
       "icon": "🔇",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 70,
-      "momentum": 58,
-      "momentumDir": "center",
-      "summary": "El debate se ha vuelto meta: ya no se discute tanto si alguien fue cancelado como si 'la herramienta de cancelar ya no funciona'. El post viral de @EmilioMontilla_ (3.400 likes) ridiculiza a la actriz Susana Abaitua y su queja de que 'la gente ahora se siente respaldada por la extrema derecha', celebrando el fin del 'consenso progre'. El Economista recuerda que la cancelación ya no es solo digital: ser 'funado' puede costar el empleo real. Crece la percepción de fatiga social y de doble vara entre bandos.",
-      "quote": "'Antes podíamos cancelar y arruinarle la vida a todo el que se saliera del discurso oficial. La gente ha dejado de creernos.' El post de EmilioMontilla_ (3.4K likes) resume la fatiga anti-cancelación.",
+      "intensity": 72,
+      "momentum": 75,
+      "momentumDir": "right",
+      "summary": "Sin un gran caso nuevo mediático, pero el debate sigue vivo con Pío Moa como caso emblemático recurrente (el propio Moa publica el 13 de agosto recordando su 'cancelación' tras el éxito de su libro) y el viral de Armesilla sobre el profesor de Cambridge Jason Arday y su campaña de acoso por supuesto plagio (4,2K likes). Se discute la selectividad de la cancelación ('se ataca al que se desvía del discurso gubernamental') y resurge la polémica Rosalía-Picasso.",
+      "quote": "Armesilla sobre el caso Arday (4,2K likes): la 'campaña de acoso' a un profesor de Cambridge por plagio reactiva el debate sobre funas y cancelación selectiva.",
       "details": [
-        [
-          "Volumen en X",
-          "Moderado"
-        ],
-        [
-          "Sentimiento",
-          "Fatiga / rechazo"
-        ],
-        [
-          "Clave",
-          "Viral Abaitua + 'funado' cuesta el empleo"
-        ]
+        ["Volumen en X", "Medio-alto"],
+        ["Sentimiento", "Crítico"],
+        ["Impulsado por", "Caso Arday + Pío Moa + Rosalía/Picasso"]
       ]
     },
     {
       "id": "ley-trans",
       "name": "Ley Trans",
       "icon": "⚧️",
-      "tag": "🔥 Tendencia moderada",
-      "tagClass": "tag-moderate",
-      "intensity": 68,
-      "momentum": 66,
+      "tag": "🔥 Tendencia alta",
+      "tagClass": "tag-hot",
+      "intensity": 84,
+      "momentum": 62,
       "momentumDir": "right",
-      "summary": "El Tribunal Constitucional mantiene la suspensión cautelar de varios preceptos de la reforma de la ley trans valenciana, al considerar que su aplicación podría perjudicar a los menores trans, y el PSPV exige la retirada definitiva de la norma. Los sectores feministas críticos con la autodeterminación de género cargan contra el TC por 'despreciar la prudencia' que introducía la reforma (evaluaciones, plazos de reflexión). La ley estatal de 2023, con autodeterminación registral desde los 14 años, sigue intacta y el debate permanece polarizado.",
-      "quote": "El TC mantiene la suspensión de la reforma trans valenciana: el PSPV pide retirarla y el feminismo crítico acusa al tribunal de ignorar las salvaguardas para menores.",
+      "summary": "Doble frente: el asesinato de Franyel, mujer trans venezolana apuñalada en Marbella, no se trata como violencia machista porque no había rectificado su sexo registral (activistas denuncian que el Estado retrasó 2-3 años el derecho de migrantes trans); y el PP anuncia que quiere reformar la Ley Trans exigiendo informe psicosocial, tildado de 'pathologización' por la izquierda. Vox pide directamente derogarla. El choque entre autodeterminación y sexo registral copa la conversación.",
+      "quote": "Caso Franyel: asesinada en Marbella y no reconocida como víctima de violencia machista por su sexo registral; el PP propone reformar la ley con informe psicosocial.",
       "details": [
-        [
-          "Volumen en X",
-          "Moderado"
-        ],
-        [
-          "Sentimiento",
-          "Polarizado"
-        ],
-        [
-          "Clave",
-          "TC suspende reforma valenciana + ley 2023 intacta"
-        ]
+        ["Volumen en X", "Alto"],
+        ["Sentimiento", "Muy polarizado"],
+        ["Impulsado por", "Caso Franyel + reforma PP + derogación Vox"]
       ]
     },
     {
       "id": "lenguaje-inclusivo",
       "name": "Lenguaje Inclusivo",
       "icon": "📝",
-      "tag": "📌 Estable",
-      "tagClass": "tag-stable",
-      "intensity": 52,
-      "momentum": 55,
+      "tag": "📉 En declive",
+      "tagClass": "tag-cooling",
+      "intensity": 42,
+      "momentum": 52,
       "momentumDir": "center",
-      "summary": "El debate se ha normalizado y descentralizado: sin polémicas nacionales nuevas, la conversación se limita a discusiones lingüísticas de nicho, como el artículo de Jerez Sin Fronteras sobre la viabilidad de femeninos en -e, -r o -l, y a la eterna confusión sobre si la RAE acepta o no 'elle'. Las comunidades del PP mantienen su postura restrictiva en documentos oficiales y colegios. Ya no hay circulares ministeriales ni choques virales: el tema agoniza como gran batalla cultural.",
-      "quote": "Sin polémicas nuevas, el lenguaje inclusivo queda reducido a debates de nicho sobre la RAE y femeninos en -e: la gran batalla cultural se ha enfriado.",
+      "summary": "Sin polémicas nuevas: el debate queda reducido a críticas recurrentes a los desdoblamientos y formas en -e/-x (con la RAE como referencia) y a usos satíricos contra políticos. La única novedad es el proyecto #EclipseInclusivo del CSIC, que nada tiene que ver con género sino con accesibilidad para personas ciegas (Lightsound). El tema sigue en declive en la guerra cultural.",
+      "quote": "El CSIC lanza #EclipseInclusivo (accesibilidad para ciegos) y el debate de género queda reducido a críticas a 'todes' y desdoblamientos.",
       "details": [
-        [
-          "Volumen en X",
-          "Bajo"
-        ],
-        [
-          "Sentimiento",
-          "Burla / indiferencia"
-        ],
-        [
-          "Clave",
-          "Normalización + RAE estática"
-        ]
+        ["Volumen en X", "Bajo"],
+        ["Sentimiento", "Crítico"],
+        ["Impulsado por", "Críticas RAE + sátira política + CSIC"]
       ]
     },
     {
       "id": "espana-vaciada",
       "name": "España Vaciada",
       "icon": "🏘️",
-      "tag": "🔥 Tendencia alta",
-      "tagClass": "tag-hot",
-      "intensity": 93,
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 74,
       "momentum": 60,
       "momentumDir": "center",
-      "summary": "2026 se consolida como una de las peores temporadas de incendios de la historia reciente: entre 194.000 y 222.000 hectáreas quemadas, seis veces más que en 2025, con Ávila, Madrid y Guadalajara como provincias más castigadas. El debate vincula de forma explícita el fuego con la despoblación: el abandono rural convierte los montes en 'bombas de combustible' por falta de gestión y de actividad agroganadera. Toledo acogerá en octubre la reunión del Comité de las Regiones sobre incendios, despoblación y agricultura.",
-      "quote": "Hasta 222.000 ha quemadas (x6 respecto a 2025): el abandono del mundo rural se señala como el combustible de los megaincendios de la España vaciada.",
+      "summary": "Los incendios de Peñas de Riglos (Aragón, 8 pueblos desalojados) y Niebla (Andalucía) reavivan el debate: Aragón Existe y España Vaciada vinculan la despoblación con la gravedad de los fuegos ('sin ganado ni gestión, el monte es combustible'), y el hilo matizado de @arboles_magicos (13 de agosto) recuerda que 'volver al pasado' no es viable y pide un nuevo modelo agroforestal. Análisis con mapas de @crdelaosa muestran 'tierras de nadie' propensas al fuego.",
+      "quote": "Peñas de Riglos y Niebla: la despoblación como causa estructural de los incendios — 'antes de extinguir hay que prevenir' (Aragón Existe).",
       "details": [
-        [
-          "Volumen en X",
-          "Muy alto"
-        ],
-        [
-          "Tendencia",
-          "Megaincendios récord"
-        ],
-        [
-          "Clave",
-          "194-222K ha + vínculo despoblación"
-        ]
+        ["Volumen en X", "Medio-alto"],
+        ["Sentimiento", "Crítico / reivindicativo"],
+        ["Impulsado por", "Incendios Riglos + Niebla + hilo arboles_magicos"]
       ]
     },
     {
       "id": "facha",
       "name": "Facha / Insulto Político",
       "icon": "🗣️",
-      "tag": "🔥 Tendencia moderada",
-      "tagClass": "tag-moderate",
-      "intensity": 72,
-      "momentum": 58,
+      "tag": "📌 Estable",
+      "tagClass": "tag-stable",
+      "intensity": 55,
+      "momentum": 50,
       "momentumDir": "center",
-      "summary": "Sin una polémica gigante concreta, 'facha' sigue como ruido de fondo permanente del debate español: el comodín descalificador que la izquierda usa contra cualquier posición de derechas, aplicado a Vox, al PP e incluso a quien critica la inmigración irregular. La derecha ya no se ofende y lo reivindica con ironía ('Buenos días fachas ☀️', 'me lo tomo con orgullo'). Un usuario resume el momento: 'banalizaron tanto la palabra nazi que ahora usan facha porque no es punible'. 'Facha' y 'rojo' siguen siendo las dos caras del insulto simplificador.",
-      "quote": "'Banalizaron tanto la palabra nazi que ahora usan facha porque no es punible': el insulto se ha convertido en comodín y la derecha lo reivindica con ironía.",
+      "summary": "Debate crónico sobre el uso de 'facha' como insulto comodín: la izquierda lo defiende como descripción de actitudes autoritarias o nostálgicas del franquismo; la derecha lo denuncia como 'insulto que sustituye al debate' y criminaliza la disidencia. Picos de uso cada vez que hay choque parlamentario (Vox/PP). Ambos bandos practican la deshumanización simétrica según los analistas. Sin un detonante nuevo en la semana, se mantiene en modo estable.",
+      "quote": "'Facha' como comodín: la izquierda lo ve como descripción, la derecha como insulto que cierra el debate — una guerra simétrica sin vencedor.",
       "details": [
-        [
-          "Volumen en X",
-          "Alto"
-        ],
-        [
-          "Efecto",
-          "Comodín + reapropiación irónica"
-        ],
-        [
-          "Clave",
-          "Ruido de fondo permanente"
-        ]
+        ["Volumen en X", "Medio"],
+        ["Sentimiento", "Polarizado"],
+        ["Impulsado por", "Choques PSOE/PP-Vox + uso en plenos y redes"]
       ]
     }
   ],
   "news": [
     {
-      "title": "José Luis Ábalos, condenado a 24 años de cárcel y Koldo García a unos 20 en el caso de las mascarillas",
-      "date": "7-8 ago 2026",
-      "summary": "La sentencia del caso Koldo se convierte en el mayor golpe judicial al sanchismo: el exministro de Transportes y exsecretario de Organización del PSOE, condenado a 24 años; su exjefe de gabinete, a unos 20. El caso de las mascarillas irregulares en pandemia sigue siendo el principal ejemplo de la corrupción denunciada.",
-      "source": "X / tribunales",
-      "tags": [
-        "Sanchismo",
-        "Koldo",
-        "Ábalos"
-      ]
+      "title": "Crisis migratoria en Ceuta: Marruecos dispersa con gases y España despliega blindados",
+      "date": "15 ago 2026",
+      "summary": "Cientos de migrantes subsaharianos intentan cruzar la frontera de Ceuta (Castillejos, Tarajal). Marruecos usa gases lacrimógenos, porras y helicópteros; España refuerza con tanquetas. Un diputado del PSOE pide la dimisión del delegado del Gobierno y Tajani (Italia) culpa a Sánchez.",
+      "source": "El Faro de Ceuta / X",
+      "tags": ["Inmigración", "Ceuta", "Marruecos"]
     },
     {
-      "title": "Ceuta: el Gobierno prepara el reparto de 1.342 MENA y la Fiscalía actuará contra las autonomías que se nieguen",
-      "date": "7-8 ago 2026",
-      "summary": "Tras la avalancha de finales de julio (14 muertos y 236 heridos según Marruecos), los médicos de Ceuta piden intervención urgente por riesgo de brotes. El Gobierno repartirá 1.342 menores no acompañados y la Fiscalía advierte a las CCAA que la ley obliga a la solidaridad; Vox exige devoluciones inmediatas.",
-      "source": "X / El Plural / EFE",
-      "tags": [
-        "Inmigración",
-        "Ceuta",
-        "MENA"
-      ]
+      "title": "El 'caso cloacas del PSOE' salpica a Santos Cerdán: la UCO, en el centro",
+      "date": "12-15 ago 2026",
+      "summary": "La UCO de la Guardia Civil protagoniza los informes del caso Leire Díez que vinculan a Santos Cerdán con la protección de Sánchez. La conversación en X sobre las 'cloacas del PSOE' es máxima y casi unánimemente crítica.",
+      "source": "X / medios nacionales",
+      "tags": ["Sanchismo", "Corrupción", "UCO"]
     },
     {
-      "title": "Las mafias del 'okupa de padrón': 600 euros por empadronar a migrantes en viviendas okupadas",
-      "date": "7 ago 2026",
-      "summary": "Un reportaje de COPE destapa el fraude: mafias empadronan ilegalmente a migrantes irregulares en casas ocupadas por unos 600 euros, dando apariencia de legalidad y acceso a derechos al tiempo que complica los desalojos. La Policía desmanteló empadronamientos fraudulentos en Ronda (Málaga).",
-      "source": "COPE / X",
-      "tags": [
-        "Okupación",
-        "Padrón",
-        "Inmigración"
-      ]
+      "title": "Caso Franyel: asesinada una mujer trans en Marbella y no tratada como violencia machista",
+      "date": "13-15 ago 2026",
+      "summary": "Franyel, mujer trans venezolana de 35 años, fue apuñalada por su pareja. No se reconoce como violencia de género porque no rectificó su sexo registral; activistas denuncian que el Estado retrasó 2-3 años el derecho de migrantes trans. El PP anuncia además reforma de la Ley Trans con informe psicosocial.",
+      "source": "X / Público / PTV Málaga",
+      "tags": ["Ley Trans", "Feminismo", "Violencia"]
     },
     {
-      "title": "El TC mantiene la suspensión de la reforma de la ley trans valenciana y el PSPV exige su retirada",
-      "date": "6-7 ago 2026",
-      "summary": "El Tribunal Constitucional mantiene la suspensión cautelar de varios preceptos de la reforma valenciana por posibles perjuicios a menores trans. El PSPV pide la retirada definitiva de la norma, mientras el feminismo crítico con la autodeterminación de género carga contra el TC por ignorar las salvaguardas.",
-      "source": "X / EFE Comunidad Valenciana",
-      "tags": [
-        "Ley Trans",
-        "Valencia",
-        "TC"
-      ]
+      "title": "El Pazo de Meirás, declarado 'lugar de memoria democrática'",
+      "date": "13-14 ago 2026",
+      "summary": "El BOE publica la declaración del antiguo residencia de verano de Franco como lugar de memoria. La izquierda lo celebra; los críticos lo ven como memoria selectiva. Coincide con el hilo viral del historiador Enrique Navarro sobre los discursos de Largo Caballero en 1933.",
+      "source": "BOE / X",
+      "tags": ["Memoria Histórica", "Franquismo"]
     },
     {
-      "title": "Incendios récord en 2026: entre 194.000 y 222.000 hectáreas quemadas, seis veces más que en 2025",
-      "date": "5-7 ago 2026",
-      "summary": "Ávila, Madrid y Guadalajara concentran las peores superficies quemadas en una de las temporadas más devastadoras de la historia reciente. El debate vincula el fuego con la despoblación: el abandono rural convierte los montes en 'bombas de combustible'. Toledo acogerá en octubre la reunión del Comité de las Regiones sobre incendios y despoblación.",
-      "source": "X / DEIA / Telemadrid",
-      "tags": [
-        "Incendios",
-        "España Vaciada",
-        "Clima"
-      ]
+      "title": "Incendios de Peñas de Riglos y Niebla reavivan el debate sobre la España vaciada",
+      "date": "12-15 ago 2026",
+      "summary": "Ocho pueblos desalojados en Riglos (Aragón) y el fuego de Niebla (Andalucía) reactivan el vínculo entre despoblación y fuego: sin ganado ni gestión forestal, el monte se convierte en combustible. Aragón Existe pide prevención estructural.",
+      "source": "Aragón Existe / X",
+      "tags": ["España Vaciada", "Incendios", "Despoblación"]
     }
   ],
   "trends": [
     {
-      "name": "Sanchismo / Sentencia Koldo-Ábalos",
+      "name": "Inmigración / Crisis Ceuta",
       "change": "up",
-      "pct": "+20%",
-      "detail": "Ábalos condenado a 24 años y Koldo a ~20: el mayor golpe judicial al sanchismo, con Begoña Gómez imputada y 1.600M de Hispasat bajo sospecha."
+      "pct": "+40%",
+      "detail": "La crisis del 15 de agosto (cientos de migrantes, gases marroquíes, blindados españoles, Tajani contra Sánchez) dispara la conversación a máximos."
     },
     {
-      "name": "Okupación / Okupas de padrón",
+      "name": "Sanchismo / Cloacas PSOE",
       "change": "up",
-      "pct": "+18%",
-      "detail": "Mafias que empadronan a migrantes por 600€ en pisos okupados (COPE): el fraude se convierte en el nuevo frente del debate."
+      "pct": "+35%",
+      "detail": "El caso Leire Díez y el papel de la UCO con Santos Cerdán desplazan a la sentencia Ábalos como motor del debate anti-sanchismo."
     },
     {
-      "name": "Memoria / CERA vs TS",
+      "name": "Ley Trans / Caso Franyel",
+      "change": "up",
+      "pct": "+25%",
+      "detail": "El asesinato de Franyel y la propuesta del PP de informe psicosocial reavivan la batalla entre autodeterminación y sexo registral."
+    },
+    {
+      "name": "Okupación",
       "change": "up",
       "pct": "+15%",
-      "detail": "El TS requiere a la JEC toda la documentación de la Ley de Nietos y circula el hilo sobre la brecha CERA-urna en Aragón, Andalucía y Extremadura."
+      "detail": "El viral 'el okupa tiene más derechos que el propietario' y la pionera ley valenciana (sin vivienda social para okupas condenados) impulsan el tema."
     },
     {
-      "name": "Inmigración / Reparto MENA",
+      "name": "Memoria Histórica",
       "change": "up",
       "pct": "+12%",
-      "detail": "La Fiscalía actuará contra las CCAA que se nieguen al reparto de 1.342 menores; Vox exige devoluciones y el Gobierno da un ultimátum a Italia."
+      "detail": "Pazo de Meirás como lugar de memoria + hilo viral de Largo Caballero 1933: la guerra narrativa sobre la Guerra Civil sube en agosto."
     },
     {
-      "name": "España Vaciada / Incendios récord",
+      "name": "Woke / Cuotas DEI",
       "change": "up",
-      "pct": "+8%",
-      "detail": "Hasta 222.000 ha quemadas (x6 vs 2025): el abandono rural se consolida como causa estructural del fuego."
-    },
-    {
-      "name": "Woke / Anti-adoctrinamiento",
-      "change": "up",
-      "pct": "+6%",
-      "detail": "Vox y ECA atacan la 'ideología de género' en las aulas y el dato de ABC (1 de cada 5 habitantes nació fuera) alimenta el 'gran reemplazo'."
+      "pct": "+10%",
+      "detail": "Críticas al 'wokismo' como superioridad de minorías y a Sánchez como 'líder espiritual woke', en contexto de pérdida de influencia ante Marruecos."
     },
     {
       "name": "Independentismo / Reflujo",
       "change": "down",
-      "pct": "-15%",
-      "detail": "Crisis ERC-Junts en Girona, audio filtrado y desánimo: VilaWeb habla de 'dos anys lamentablement perduts' con Illa."
+      "pct": "-10%",
+      "detail": "Sin gran estallido: el reportaje de Bellvitge y el hilo federalista mantienen el tema en modo residual-crítico, fragmentado."
     },
     {
-      "name": "Lenguaje inclusivo / Normalización",
+      "name": "Lenguaje inclusivo",
       "change": "down",
-      "pct": "-10%",
-      "detail": "Sin polémicas nuevas: el debate queda reducido a la RAE y a artículos de nicho; la gran batalla cultural se ha enfriado."
+      "pct": "-12%",
+      "detail": "Sin polémicas nuevas: el debate queda en críticas recurrentes a la RAE y a 'todes'; el #EclipseInclusivo del CSIC es accesibilidad, no género."
     }
   ],
   "accounts": [
@@ -455,163 +326,163 @@
       "handle": "@profsecundario",
       "name": "Profe de historia",
       "category": "Muy derecha",
-      "desc": "Hilos documentados. Muy activo: su viral contra el Mundial con Marruecos supera los 10.2K likes.",
+      "desc": "Hilos documentados. Muy activo: violaciones en una ciudad de 83K habitantes, 'alfombra roja al narcotráfico marroquí' y crítica al alarmismo por la fiebre Crimea-Congo.",
       "color": "#003399"
     },
     {
       "handle": "@dianitanoticias",
       "name": "Dianita",
       "category": "Muy derecha",
-      "desc": "Ultra, alineada Vox. Inmigración, soberanía, anti-Sánchez. Directa. Sin actividad detectable en los últimos días.",
+      "desc": "Ultra, alineada Vox. Inmigración, soberanía, anti-Sánchez. Sin actividad detectable esta semana (agosto, baja actividad).",
       "color": "#003399"
     },
     {
       "handle": "@billkilgore_",
       "name": "Kilgore de Lezo",
       "category": "Joker 🃏",
-      "desc": "Humor satírico, memes. Viral en agosto: 'más facha que un Land Rover' (2.3K likes). ~280K.",
+      "desc": "Humor satírico, memes. Muy activo: reply viral 'o que no hay dinero para comprar coches de menos de 20 años' (2,3K likes).",
       "color": "#996633"
     },
     {
       "handle": "@Tagelca",
       "name": "Tage",
       "category": "Derecha",
-      "desc": "Crítico con Sánchez. Muy activo con sarcasmo: 'Sumar está haciendo algo bien' (2.4K likes). ~67K.",
+      "desc": "Crítico con Sánchez. Muy activo con sarcasmo y quotes de fútbol/celebs: '17 años tenía aquí' sobre Diomande (777 likes, 140K views).",
       "color": "#0055cc"
     },
     {
       "handle": "@elxokas",
       "name": "ElXokas",
       "category": "Derecha",
-      "desc": "Streamer. Anti-woke. Sin publicaciones detectables en la última semana: posible cambio de handle o cuenta restringida.",
+      "desc": "Streamer. Anti-woke. Sin publicaciones detectables esta semana: posible handle alternativo o baja actividad veraniega.",
       "color": "#0055cc"
     },
     {
       "handle": "@TemplarExtre",
       "name": "Templar Extremeño",
       "category": "Derecha",
-      "desc": "Cristiano, anti-woke, hispanista. Batalla cultural constante. Sin actividad detectable en los últimos días.",
+      "desc": "Cristiano, anti-woke, hispanista. Batalla cultural constante. Sin actividad detectable esta semana.",
       "color": "#0055cc"
     },
     {
       "handle": "@13mescribano",
       "name": "Luis Escribano",
       "category": "Neutro",
-      "desc": "Crítica sistémica al sistema partidocrático. Activo: sanidad andaluza y 'régimen del 78'.",
+      "desc": "Crítica sistémica al régimen partidocrático del 78. Activo: sanidad andaluza, corrupción y falta de separación de poderes.",
       "color": "#666699"
     },
     {
       "handle": "@VictorLapuente",
       "name": "Víctor Lapuente",
       "category": "Neutro",
-      "desc": "Académico. Datos, instituciones, corrupción. Análisis riguroso. Sin actividad detectable en los últimos días.",
+      "desc": "Académico. Datos, instituciones, corrupción. Análisis riguroso. Sin actividad detectable esta semana.",
       "color": "#666699"
     },
     {
       "handle": "@EstefMolina_",
       "name": "Estefanía Molina",
       "category": "Neutro",
-      "desc": "Politóloga. Muy activa en la crisis de Ceuta: análisis de 414 likes criticando al Gobierno, a la oposición y a la UE.",
+      "desc": "Politóloga. Activa: tribuna en El País sobre el 'momento Aranzadi' de Vox, control del BOE y Ley de Extranjería (123 likes, 15K views).",
       "color": "#666699"
     },
     {
       "handle": "@nicolasdepedro",
       "name": "Nicolás de Pedro",
       "category": "Neutro",
-      "desc": "Analista RRII. Activo: guerra híbrida de Marruecos, Rusia y Bielorrusia en la crisis de Ceuta.",
+      "desc": "Analista RRII. Activo: reforma de inteligencia alemana (95 likes), eclipse visto por la NASA, Talibán y el silencio de UN Women.",
       "color": "#666699"
     },
     {
       "handle": "@armesillaconde",
       "name": "Santiago Armesilla",
       "category": "Izquierda",
-      "desc": "Socialismo patriótico. Muy activo promocionando su docu 'La Verdad Sobre ETA' y el de Podemos (10 de agosto).",
+      "desc": "Socialismo patriótico. Muy activo: viral del caso Arday (profesor de Cambridge acosado por plagio, 4,2K likes) y reactivación de propaganda ISIS en español.",
       "color": "#e84700"
     },
     {
       "handle": "@Anujbost",
       "name": "Anuj",
       "category": "Izquierda",
-      "desc": "Socialdemócrata crítico. Análisis político desde izquierda independiente. Baja actividad política: centrado en streams.",
+      "desc": "Socialdemócrata crítico. Análisis político desde izquierda independiente. Baja actividad política: centrado en streams de Twitch (SoloQChallenge).",
       "color": "#e84700"
     },
     {
       "handle": "@geoestratego",
       "name": "Pedro Baños",
       "category": "Derecha",
-      "desc": "Coronel, geopolítica. El más viral del lote: '60 eurodiputados socialistas comprados por Marruecos' (7K likes). ~450K.",
+      "desc": "Coronel, geopolítica. Activo con sarcasmo: respuesta a Hermann Tertsch ('estoy devastado, hundido...'). ~450K.",
       "color": "#0055cc"
     },
     {
       "handle": "@elmundotoday",
       "name": "El Mundo Today",
       "category": "Joker 🃏",
-      "desc": "Periodismo satírico. Noticias falsas. Pega a todos los bandos. Sin actividad detectable en los últimos días.",
+      "desc": "Periodismo satírico. Noticias falsas. Pega a todos los bandos. Sin actividad detectable esta semana.",
       "color": "#996633"
     },
     {
       "handle": "@littleragergirl",
       "name": "Abby",
       "category": "Joker 🃏",
-      "desc": "Streamer gaming. Sarcástica. No política pero sale en dramas tuiteros. Sin actividad detectable en los últimos días.",
+      "desc": "Streamer gaming. Sarcástica. No política pero sale en dramas tuiteros. Sin actividad detectable esta semana.",
       "color": "#996633"
     },
     {
       "handle": "@LaBugsBunnyIA",
       "name": "Fábrica de Memes",
       "category": "Joker 🃏",
-      "desc": "Fotomontajes y portadas parodia. Crítico con la izquierda. Muy activo contra la Justicia argentina. Viral.",
+      "desc": "Fotomontajes y portadas parodia. Crítico con la izquierda. Muy activo: vídeo viral sobre los gastos de Facundo Moyano (1,4K likes).",
       "color": "#996633"
     }
   ],
   "virals": [
     {
-      "author": "@profsecundario",
-      "date": "4 ago 2026",
-      "text": "Creo que existen pocos casos de aplastante mayoría en España y este es uno de ellos: no queremos organizar un Mundial si es con Marruecos.",
-      "engagement": "10.2K likes · 2.5K reposts · ~99K views",
-      "topic": "Inmigración / Marruecos",
-      "link": "https://x.com/profsecundario/status/2084516608194580959"
-    },
-    {
-      "author": "@geoestratego",
-      "date": "5 ago 2026",
-      "text": "60 eurodiputados socialistas comprados por Marruecos: ¡Dios nos asista! ¿Cómo hemos llegado a estos grados extremos de traición? Españoles, despertemos…",
-      "engagement": "7K likes · 3.6K reposts · 98K views",
-      "topic": "Sanchismo / Marruecos",
-      "link": "https://x.com/geoestratego/status/2085099241727263035"
+      "author": "@armesillaconde",
+      "date": "15 ago 2026",
+      "text": "Post largo y viral sobre la muerte de Jason Arday (profesor de Cambridge), la campaña de acoso por supuesto plagio y el contexto de Nathan Cofnas.",
+      "engagement": "4.3K likes · 794 reposts · 191K views",
+      "topic": "Cultura de la Cancelación",
+      "link": "https://x.com/armesillaconde/status/2088539904657547437"
     },
     {
       "author": "@billkilgore_",
-      "date": "6 ago 2026",
-      "text": "La junta del pañal nos va a vender que este tío, madrileño y más facha que un Land Rover, ha elegido el Barça porque es su sueño desde pequeñito.",
-      "engagement": "2.3K likes · 225 reposts · 97K views",
-      "topic": "Joker / Fútbol",
-      "link": "https://x.com/billkilgore_/status/2085436081395130385"
+      "date": "14 ago 2026",
+      "text": "Reply viral: 'o que no hay dinero para comprar coches de menos de 20 años...' — humor que conecta con la crisis económica.",
+      "engagement": "2.3K likes · 35K views",
+      "topic": "Joker / Economía",
+      "link": "https://x.com/billkilgore_/status/2088398023516684492"
+    },
+    {
+      "author": "@LaBugsBunnyIA",
+      "date": "15 ago 2026",
+      "text": "Vídeo viral sobre los gastos de Facundo Moyano (188 millones en tarjeta en 2026, ingresos e inmunidad gremial).",
+      "engagement": "1.4K likes · 565 reposts · 48K views",
+      "topic": "Joker / Corrupción",
+      "link": "https://x.com/LaBugsBunnyIA/status/2088434608379490639"
     },
     {
       "author": "@armesillaconde",
-      "date": "7 ago 2026",
-      "text": "Promoción de la parte final de su documental 'La Verdad Sobre ETA' (Las Cloacas del Estado): estrenos por país y llamamiento a sus miembros.",
-      "engagement": "Viral en su comunidad",
-      "topic": "Memoria / ETA",
-      "link": "https://x.com/armesillaconde/status/2085780278476214300"
+      "date": "15 ago 2026",
+      "text": "Comentario sobre la reactivación de propaganda ISIS en español y el contexto España-EEUU-Israel.",
+      "engagement": "796 likes · 245 reposts · 16K views",
+      "topic": "Geopolítica",
+      "link": "https://x.com/armesillaconde/status/2088552664489394624"
+    },
+    {
+      "author": "@Tagelca",
+      "date": "14 ago 2026",
+      "text": "Comentario al vídeo de LaLiga sobre Mbappé y Diomande: '17 años tenía aquí' — sarcasmo viral sobre el joven central.",
+      "engagement": "777 likes · 140K views",
+      "topic": "Joker / Fútbol",
+      "link": "https://x.com/Tagelca/status/2088617862067827199"
     },
     {
       "author": "@EstefMolina_",
-      "date": "7 ago 2026",
-      "text": "Análisis de la crisis de Ceuta: el Gobierno traslada el problema a las CCAA, falta rendición de cuentas y el foco se desvía hacia PP y Vox.",
-      "engagement": "414 likes · 120 reposts",
-      "topic": "Inmigración / Ceuta",
-      "link": "https://x.com/EstefMolina_/status/2085672955351040312"
-    },
-    {
-      "author": "@nicolasdepedro",
-      "date": "7 ago 2026",
-      "text": "Rusia aprovecha la crisis de Ceuta para atacar a la UE y criticar a España en materia migratoria: guerra híbrida en el Mediterráneo.",
-      "engagement": "Viral / debate activo",
-      "topic": "Inmigración / Geopolítica",
-      "link": "https://x.com/nicolasdepedro/status/2085772711356187080"
+      "date": "15 ago 2026",
+      "text": "Tribuna en El País sobre el 'momento Aranzadi' de Vox, el control del BOE, la Ley de Extranjería y el contraste con el PP de Feijóo.",
+      "engagement": "123 likes · 22 reposts · 15K views",
+      "topic": "Política / Vox",
+      "link": "https://x.com/EstefMolina_/status/2088559568062201978"
     }
   ]
 }

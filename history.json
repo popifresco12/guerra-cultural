@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-15T19:30:00+02:00",
+    "topics": [
+      {"id": "sanchismo", "name": "Sanchismo", "intensity": 97, "momentumDir": "right"},
+      {"id": "inmigracion", "name": "Inmigración", "intensity": 98, "momentumDir": "right"},
+      {"id": "okupacion", "name": "Okupación", "intensity": 83, "momentumDir": "right"},
+      {"id": "independentismo", "name": "Independentismo / Procés", "intensity": 68, "momentumDir": "center"},
+      {"id": "memoria", "name": "Memoria Histórica", "intensity": 75, "momentumDir": "right"},
+      {"id": "feminismo", "name": "Feminismo Radical", "intensity": 62, "momentumDir": "left"},
+      {"id": "woke", "name": "Wokismo / Ideología Woke", "intensity": 85, "momentumDir": "right"},
+      {"id": "cultura-cancelacion", "name": "Cultura de la Cancelación", "intensity": 72, "momentumDir": "right"},
+      {"id": "ley-trans", "name": "Ley Trans", "intensity": 84, "momentumDir": "right"},
+      {"id": "lenguaje-inclusivo", "name": "Lenguaje Inclusivo", "intensity": 42, "momentumDir": "center"},
+      {"id": "espana-vaciada", "name": "España Vaciada", "intensity": 74, "momentumDir": "center"},
+      {"id": "facha", "name": "Facha / Insulto Político", "intensity": 55, "momentumDir": "center"}
+    ]
+  },
+  {
     "date": "2026-08-01T08:00:00+02:00",
     "topics": [
       {

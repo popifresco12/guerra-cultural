@@ -24,6 +24,7 @@
     color: var(--text);
     font-family: system-ui, -apple-system, sans-serif;
     padding: 2rem;
+    overflow-x: hidden;
   }
   .header {
     text-align: center;
@@ -50,7 +51,7 @@
   }
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(360px, 100%), 1fr));
     gap: 1rem;
     max-width: 1400px;
     margin: 0 auto;
@@ -220,6 +221,7 @@
     <canvas id="intensityChart"></canvas>
     <canvas id="momentumChart"></canvas>
   </div>
+  <div style="font-size:0.72rem;color:var(--muted);margin-top:0.5rem">Cada punto cruza intensidad (eje X) con inclinación del debate (eje Y: abajo izquierda, arriba derecha).</div>
 </div>
 
 <!-- HISTORY OVERVIEW -->
@@ -426,26 +428,47 @@ function renderAll() {
   });
 
   new Chart(document.getElementById('momentumChart'), {
-    type: 'bar',
+    type: 'scatter',
     data: {
-      labels: topics.map(t => t.name),
-      datasets: [{
-        label: 'Inclinación (0=Izquierda · 100=Derecha)',
-        data: topics.map(t => t.momentum),
-        backgroundColor: topics.map(t =>
-          t.momentumDir === 'right' ? '#ff456088' : t.momentumDir === 'left' ? '#4590ff88' : '#ff950088'
-        ),
-        borderRadius: 4,
-      }]
+      datasets: [
+        {
+          label: 'Gana la derecha/crítica',
+          data: topics.filter(t => t.momentumDir === 'right').map(t => ({ x: t.intensity, y: t.momentum })),
+          backgroundColor: '#ff4560aa',
+          borderColor: '#ff4560',
+          pointRadius: 6,
+        },
+        {
+          label: 'Gana la izquierda/defensa',
+          data: topics.filter(t => t.momentumDir === 'left').map(t => ({ x: t.intensity, y: t.momentum })),
+          backgroundColor: '#4590ffaa',
+          borderColor: '#4590ff',
+          pointRadius: 6,
+        },
+        {
+          label: 'Empate técnico',
+          data: topics.filter(t => t.momentumDir === 'center').map(t => ({ x: t.intensity, y: t.momentum })),
+          backgroundColor: '#ff9500aa',
+          borderColor: '#ff9500',
+          pointRadius: 6,
+        },
+      ]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      indexAxis: 'y',
-      plugins: { legend: { display: false } },
+      plugins: {
+        legend: { labels: { color: '#8888a0', boxWidth: 10, font: { size: 10 } } },
+      },
       scales: {
-        x: { grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' }, min: 0, max: 100 },
-        y: { grid: { display: false }, ticks: { color: '#e0e0e0', font: { size: 9 } } }
+        x: {
+          title: { display: true, text: 'Intensidad (0-100)', color: '#8888a0', font: { size: 10 } },
+          grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' }, min: 0, max: 100,
+        },
+        y: {
+          title: { display: true, text: 'Inclinación (0=Izda · 100=Dcha)', color: '#8888a0', font: { size: 10 } },
+          grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' }, min: 0, max: 100,
+        }
       }
     }
   });
