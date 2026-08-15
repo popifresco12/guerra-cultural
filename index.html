@@ -164,13 +164,19 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    height: 300px;
   }
   .history-pair {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    height: 250px;
+  }
+  .chart-box {
+    position: relative;
+    height: 300px;
+  }
+  .chart-box canvas {
+    width: 100% !important;
+    height: 100% !important;
   }
   .trending-section {
     max-width: 1400px;
@@ -214,13 +220,11 @@
     .grid { grid-template-columns: 1fr; }
     .charts-grid { grid-template-columns: 1fr; height: auto; }
     .header h1 { font-size: 1.5rem; }
-    /* Fix desborde horizontal en móvil: apilar a 1 columna con altura por fila */
+    /* Fix desborde horizontal en móvil: apilar a 1 columna */
     .chart-pair, .history-pair {
       grid-template-columns: 1fr !important;
-      height: auto !important;
-      grid-auto-rows: 280px !important;
     }
-    .history-pair > div:not(canvas) { grid-row: auto; }
+    .chart-box { height: 280px; }
     .chart-section div[style*="repeat(auto-fill"] {
       grid-template-columns: 1fr !important;
     }
@@ -241,8 +245,8 @@
 <div class="chart-section">
   <h3>📊 Intensidad del debate por tema</h3>
   <div class="chart-pair">
-    <canvas id="intensityChart"></canvas>
-    <canvas id="momentumChart"></canvas>
+    <div class="chart-box"><canvas id="intensityChart"></canvas></div>
+    <div class="chart-box"><canvas id="momentumChart"></canvas></div>
   </div>
   <div style="font-size:0.72rem;color:var(--muted);margin-top:0.5rem">Cada punto cruza intensidad (eje X) con inclinación del debate (eje Y: abajo izquierda, arriba derecha).</div>
 </div>
@@ -251,7 +255,7 @@
 <div class="chart-section" id="historySection" style="display:none">
   <h3>📈 Evolución semanal</h3>
   <div class="history-pair">
-    <canvas id="historyChart"></canvas>
+    <div class="chart-box"><canvas id="historyChart"></canvas></div>
     <div id="historyAlerts"></div>
   </div>
 </div>
