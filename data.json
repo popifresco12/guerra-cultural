@@ -1,25 +1,25 @@
 {
   "meta": {
-    "generated_at": "2026-08-18T00:45:00+02:00",
+    "generated_at": "2026-08-18T18:54:00+02:00",
     "source": "cron 09f22b3f6f78 (Guerra Cultural - Informe Semanal)",
     "queries": [
-      "sanchismo España UCO Cerdán Sánchez polémica (desde 2026-08-15)",
-      "inmigración España Ceuta debate llegadas (desde 2026-08-15)",
-      "okupación España okupas desalojo debate (desde 2026-08-15)",
-      "independentismo procés Cataluña política (desde 2026-08-15)",
-      "memoria histórica España ley nietos polémica (desde 2026-08-15)",
-      "feminismo abolicionismo España debate prostitución (desde 2026-08-15)",
-      "ley trans España debate reforma PP (desde 2026-08-15)",
-      "woke wokismo España polémica crítica (desde 2026-08-15) [reintento: ideología woke España Ceuta inmigración debate agosto]",
-      "cultura cancelación España funa boicot cancelado polémica (desde 2026-08-15)",
-      "lenguaje inclusivo España atletos RAE debate (desde 2026-08-15)",
-      "España vaciada incendios despoblación (desde 2026-08-15) [reintento: incendios forestales España agosto 2026 hectáreas quemadas]",
-      "facha insulto político España derecha (desde 2026-08-15) [reintento: facha fachosfera debate insulto España agosto]",
+      "sanchismo España 2026 (desde 2026-08-15)",
+      "inmigración España 2026 (desde 2026-08-15)",
+      "okupas España desalojo vivienda debate agosto 2026 (desde 2026-08-15) [reintento: okupación España okupas desalojo debate 2026 degradada]",
+      "procés Junts Puigdemont ERC Cataluña agosto 2026 (desde 2026-08-15) [reintento: independentismo Cataluña 2026 degradada]",
+      "ley de nietos nacionalidad española plazo 2026 (desde 2026-08-15) [reintentos: memoria histórica España ley de nietos polémica 2026 y memoria democrática España polémica franquismo degradadas]",
+      "feminismo abolicionismo España debate prostitución 2026 (desde 2026-08-15)",
+      "ideología woke España polémica crítica agosto 2026 (desde 2026-08-15) [reintento: woke wokismo degradada]",
+      "cultura de la cancelación España 2026 (desde 2026-08-15)",
+      "Franyel caso ley trans violencia de género España 2026 (desde 2026-08-15) [reintentos: ley trans España debate reforma PP 2026 degradadas]",
+      "atletos Pérez-Reverte RAE lenguaje inclusivo viral (desde 2026-08-15) [reintento: lenguaje inclusivo España RAE polémica degradada]",
+      "España vaciada incendios despoblación agosto 2026 (desde 2026-08-15)",
+      "facha insulto político España derecha debate 2026 (desde 2026-08-15) [3 intentos degradados sin citas: valores reutilizados]",
       "actividad de @profsecundario @dianitanoticias @Tagelca @elxokas @TemplarExtre @13mescribano @VictorLapuente @EstefMolina_ @nicolasdepedro @armesillaconde (desde 2026-08-15)",
       "actividad de @Anujbost @geoestratego @billkilgore_ @elmundotoday @littleragergirl @LaBugsBunnyIA (desde 2026-08-15)",
-      "tweets virales de @billkilgore_ @Tagelca @profsecundario @armesillaconde @geoestratego @13mescribano @LaBugsBunnyIA @EstefMolina_ @nicolasdepedro con enlaces y engagement (desde 2026-08-15)"
+      "tweets virales de @billkilgore_ @Tagelca @profsecundario @armesillaconde @geoestratego @13mescribano @LaBugsBunnyIA @EstefMolina_ @nicolasdepedro @Anujbost con enlaces y engagement (desde 2026-08-15)"
     ],
-    "stale_topics": [],
+    "stale_topics": ["facha"],
     "inactive_accounts": ["dianitanoticias", "elxokas", "TemplarExtre", "VictorLapuente", "elmundotoday", "littleragergirl"]
   },
   "topics": [
@@ -29,15 +29,15 @@
       "icon": "👑",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 97,
-      "momentum": 94,
+      "intensity": 96,
+      "momentum": 93,
       "momentumDir": "right",
-      "summary": "El cerco se mantiene al máximo a la espera de los nuevos entregables de la UCO (se habla de septiembre): las notas con las siglas 'PS' y el 'conocimiento de Sánchez' siguen siendo el eje, con Cerdán en prisión preventiva y riesgo de imputación del PSOE como persona jurídica. Se recuerda que es el segundo secretario de Organización consecutivo que cae (Ábalos y Cerdán) y hasta las críticas internas hablan de 'desastre orgánico' y del 'peor secretario general'. El caso cuesta al PSOE ~2,8 puntos (hasta ~27%).",
-      "quote": "Dos 'números 3' consecutivos de Ferraz en los tribunales: el caso Cerdán apunta a que 'quien manejaba los hilos' estaba por encima, con conocimiento de Sánchez.",
+      "summary": "El término 'sanchismo' sigue como etiqueta comodín del rechazo a Sánchez en X: pactos de investidura con independentistas y Bildu, la crisis migratoria de Ceuta/Melilla, el 'desastre marroquí' en política exterior y acusaciones de clientelismo y corrupción ('pegado al poder con loctite'). Se critica el 'efecto llamada', la debilidad frente a Marruecos y la pérdida de soberanía, con 'socialismo es ruina' como consigna recurrente. La defensa progresista es minoritaria en las búsquedas del término, y el cerco UCO sigue de fondo a la espera de los entregables de septiembre.",
+      "quote": "Del 'efecto llamada' al 'desastre marroquí': en X el sanchismo se describe como la 'peor cara de España', con Sánchez 'pegado al poder con loctite'.",
       "details": [
-        ["Volumen en X", "Máximo"],
+        ["Volumen en X", "Muy alto"],
         ["Sentimiento", "Crítico mayoritario"],
-        ["Impulsado por", "Notas UCO 'PS' + espera entregables septiembre + críticas internas PSOE"]
+        ["Impulsado por", "Ceuta/Melilla + pactos + 'desastre marroquí' + caso UCO"]
       ]
     },
     {
@@ -49,29 +49,29 @@
       "intensity": 97,
       "momentum": 93,
       "momentumDir": "right",
-      "summary": "La crisis de Ceuta sigue cronificada y llega al Parlamento: Mónica García (Sanidad) y Elma Saiz (Migraciones) comparecerán en el Congreso a finales de agosto. El Gobierno endurece la retórica (ministros prometen expulsiones) tras la presión interna y de la oposición, que exige emergencia de seguridad nacional y mando único. Los vídeos críticos contra Mónica García ('los migrantes no traen enfermedades') se viralizan, con PP y Vox exigiendo deportaciones inmediatas y la ciudad 'asediada'.",
-      "quote": "Ceuta llega al Congreso: Mónica García y Elma Saiz comparecerán a finales de agosto mientras el Ejecutivo endurece el discurso migratorio.",
+      "summary": "La frontera sur desplaza a Canarias como ruta principal: las entradas irregulares por tierra en Ceuta se disparan un 191% en 2026 (más de 5.000 personas, sin contar la avalancha de julio) y Elma Saiz habilita 1.500 plazas de acogida en Ceuta, ampliables a 4.000. Una sentencia del Tribunal Supremo que restringe las devoluciones exprés a nado y el Pacto Migratorio de la UE (garantías individuales, prohibición de expulsiones colectivas) alimentan las acusaciones de 'efecto llamada'. La derecha exige mando único y emergencia de seguridad nacional, con las comparecencias de Mónica García y Elma Saiz en el Congreso a finales de agosto en el horizonte.",
+      "quote": "Ceuta supera los 5.000 migrantes por vía terrestre (+191% en 2026) mientras una sentencia del TS limita las devoluciones: el 'efecto llamada' copa el debate.",
       "details": [
         ["Volumen en X", "Máximo"],
         ["Sentimiento", "Muy crítico"],
-        ["Impulsado por", "Comparecencias Congreso + 'asedio' Ceuta + vídeo Mónica García"]
+        ["Impulsado por", "+191% entradas Ceuta + plazas acogida + sentencia TS + Pacto UE"]
       ]
     },
     {
       "id": "okupacion",
       "name": "Okupación",
       "icon": "🏠",
-      "tag": "🔥 Tendencia alta",
-      "tagClass": "tag-hot",
-      "intensity": 80,
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 78,
       "momentum": 86,
       "momentumDir": "right",
-      "summary": "El debate continúa con los mismos drivers: los 'rescates' de ~25.000€ denunciados por la Plataforma de Afectados por la Ocupación y la demanda de una ley antiokupas dura (PP+Vox podrían reformar la Constitución). La crítica es casi monolítica en X, con comparaciones de los desalojos españoles (meses/años) con los suizos (días). Voces como Estefanía Molina matizan que el problema real es la falta de oferta y de vivienda protegida, no solo la okupación.",
-      "quote": "Rescates de 25.000€ y desalojos que tardan meses: la Plataforma de Afectados mantiene el pulso mientras se pide una ley antiokupas.",
+      "summary": "La Plataforma de Afectados por la Ocupación (@leyantiocupas) mantiene el pulso con casos como el de Tamara (Elche): tres años para recuperar su casa, ~20.000€ de impagos y hasta 30.000€ en destrozos. El debate se centra en los 'rescates' de ~25.000€ que exigen los okupas para marcharse y en la demanda de desalojo exprés (24 horas para okupas; 3 meses de impago para inquiokupas), con la comparación recurrente con Suiza, donde se resuelve en días. El argumento económico repetido: agilizar desalojos devolvería 'millones de viviendas' al mercado y bajaría los precios.",
+      "quote": "Caso Tamara (Elche): 3 años, 20.000€ de impagos y 30.000€ en destrozos para recuperar su casa — la Plataforma de Afectados exige desalojo exprés de 24 horas.",
       "details": [
         ["Volumen en X", "Alto"],
         ["Sentimiento", "Crítico mayoritario"],
-        ["Impulsado por", "Rescates 25K + ley antiokupas + matices oferta vivienda"]
+        ["Impulsado por", "Caso Tamara + rescates 25K + desalojo 24h + inquiokupación"]
       ]
     },
     {
@@ -80,15 +80,15 @@
       "icon": "🗺️",
       "tag": "📌 Estable",
       "tagClass": "tag-stable",
-      "intensity": 60,
+      "intensity": 62,
       "momentum": 45,
       "momentumDir": "center",
-      "summary": "El independentismo clásico sigue en reflujo: Junts aparece 'en proceso de desaparición' y dividido entre pragmatismo y pureza (con el posible retorno de Puigdemont de fondo), mientras ERC y Junts son acusados de haber abandonado la vía unilateral por los pactos con Madrid. Aliança Catalana (Sílvia Orriols) continúa 'comiendo' espacio al independentismo clásico con su perfil identitario-antiinmigración y ya hace que el procés tradicional rehuya los debates territoriales.",
-      "quote": "Junts 'en proceso de desaparición' y Aliança Catalana comiendo espacio: el independentismo clásico sigue en crisis de credibilidad.",
+      "summary": "El procés toca mínimos: Junts 'se desangra por dentro' pendiente de un 'último y definitivo golpe de efecto' de Puigdemont (en el exilio, con retorno proyectado hacia 2027), mientras sectores independentistas denuncian una operación 'Nova Convergència' o 'sociovergència' para jubilar al líder y pactar con el PSC de cara a 2028. ERC comparte el desgaste, la CUP roza quedarse extraparlamentaria y Aliança Catalana sigue comiendo espacio al independentismo clásico con su perfil identitario-antiinmigración.",
+      "quote": "Junts 'se desangra por dentro' a la espera del golpe de Puigdemont, con una supuesta 'operación sociovergència' para pactar con el PSC: el procés clásico, en mínimos.",
       "details": [
         ["Volumen en X", "Medio"],
         ["Sentimiento", "Escepticismo / polarización"],
-        ["Impulsado por", "Crisis Junts + auge Aliança Catalana + retorno Puigdemont"]
+        ["Impulsado por", "Crisis Junts + sociovergència + ERC desgaste + Aliança Catalana"]
       ]
     },
     {
@@ -97,15 +97,15 @@
       "icon": "📜",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 70,
-      "momentum": 72,
+      "intensity": 68,
+      "momentum": 70,
       "momentumDir": "right",
-      "summary": "La polémica sigue girando en torno a la 'ley de nietos' (plazo cerrado en octubre de 2025) y a las reclamaciones contra la selectividad del relato oficial: hilos sobre el pasado del PSOE (Largo Caballero 1933, chekas, Paracuellos) y el Pazo de Meirás como 'lugar de memoria democrática' circulan como lo que la 'ley sectaria' oculta. La izquierda defiende la ley como justicia para las víctimas del franquismo. Sin un detonante nuevo, el tema se mantiene activo pero estable.",
-      "quote": "La guerra por la narrativa de la Guerra Civil continúa: la 'ley de nietos' cerrada no apaga los hilos sobre lo que el relato oficial 'oculta'.",
+      "summary": "Casi un año después del cierre del plazo de la 'ley de nietos' (22 de octubre de 2025), el debate se centra en la tramitación de los cientos de miles de expedientes presentados a tiempo y en los recursos de inconstitucionalidad pendientes (Vox contra la parte de nacionalidad). La derecha mantiene la crítica a la 'memoria sectaria' y al 'pasaporte de conveniencia', mientras las asociaciones memorialistas defienden la ley como justicia para las víctimas del franquismo y denuncian la saturación consular. Sin un detonante nuevo, el tema se mantiene activo pero sin picos.",
+      "quote": "La 'ley de nietos' cerró en octubre de 2025 pero sigue coleando: cientos de miles de expedientes en curso y recursos de inconstitucionalidad de Vox pendientes.",
       "details": [
         ["Volumen en X", "Medio-alto"],
         ["Sentimiento", "Polarizado"],
-        ["Impulsado por", "Ley de nietos + Pazo Meirás + hilos PSOE 1933"]
+        ["Impulsado por", "Expedientes ley de nietos + recursos Vox + crítica 'memoria sectaria'"]
       ]
     },
     {
@@ -114,15 +114,15 @@
       "icon": "⚡",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 65,
-      "momentum": 40,
+      "intensity": 66,
+      "momentum": 42,
       "momentumDir": "left",
-      "summary": "El choque abolicionismo vs. regulacionismo sigue marcando el pulso sin novedad legislativa: Rosa Cobo ('la mercantilización de los cuerpos de las mujeres no puede ser nunca feminismo') como referente abolicionista, frente a los defensores del 'trabajo sexual'. El debate se entrelaza con la trata, la inmigración (Ceuta) y la crítica al feminismo institucional. La izquierda feminista mantiene el momentum discursivo, aunque el volumen no es de los más altos de la semana.",
-      "quote": "'La mercantilización de los cuerpos de las mujeres no puede ser nunca feminismo' (Rosa Cobo): el abolicionismo sigue marcando el debate.",
+      "summary": "El choque abolicionismo vs. trabajo sexual sigue sin ley integral: el Fórum Política Feminista pide penalizar a los clientes ('puteros') tras las redadas de Soria y Castellón (mujeres hacinadas, drogadas y sometidas a rituales de santería), con Rosa Cobo como referente ('la mercantilización de los cuerpos de las mujeres no puede ser nunca feminismo') y el dato circulante de que 9 de cada 10 mujeres en prostitución son migrantes. Enfrente, @stopabolicion denuncia la financiación pública a entidades abolicionistas (ej. 260.000€ a las Oblatas en Canarias) y defiende el trabajo sexual: 'mis únicas proxenetas son las abolicionistas'.",
+      "quote": "Redadas en Soria y Castellón reavivan la petición del modelo nórdico — penalizar al cliente — mientras @stopabolicion responde: 'mis únicas proxenetas son las abolicionistas'.",
       "details": [
         ["Volumen en X", "Medio"],
         ["Sentimiento", "Polarizado"],
-        ["Impulsado por", "Rosa Cobo + abolicionismo vs regulacionismo + vínculo trata"]
+        ["Impulsado por", "Redadas Soria/Castellón + Fórum Política Feminista + @stopabolicion"]
       ]
     },
     {
@@ -131,15 +131,15 @@
       "icon": "🌿",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 85,
-      "momentum": 91,
+      "intensity": 84,
+      "momentum": 90,
       "momentumDir": "right",
-      "summary": "El anti-woke se alimenta de la crisis de Ceuta: se acusa a los 'tertulianos woke' de negar el efecto llamada y de llamar xenófobo a quien asocia inmigración con delincuencia o enfermedad (el vídeo contra Mónica García 'los migrantes no traen enfermedades' es el ejemplo más compartido). Posts afirman que el desastre es culpa de 'una izquierda desnortada llena de tonterías buenistas e ideología woke' y que PP y PSOE promueven inmigración ilegal + agenda woke. Poca defensa explícita: el anti-woke domina con tracción.",
-      "quote": "Del 'buenismo' a la 'ideología woke': la crisis de Ceuta dispara el cajón de sastre anti-woke, que acusa a los tertulianos de negar el efecto llamada.",
+      "summary": "Sin un detonante único, el anti-woke mantiene un hilo constante de rechazo en X: la agenda DEI (diversidad, equidad, inclusión), la ideología de género, las cuotas, la pérdida del mérito y las políticas migratorias alimentan la crítica desde cuentas liberales-conservadoras y de derecha, que siguen vinculando el 'buenismo' con la crisis de Ceuta. La defensa explícita del 'wokismo' es minoritaria en la conversación; el impulso crítico domina con tracción sostenida.",
+      "quote": "El anti-woke no necesita un evento: la crítica a la agenda DEI, las cuotas y el 'buenismo' migratorio se mantiene como hilo constante en X, con Ceuta como combustible.",
       "details": [
         ["Volumen en X", "Alto"],
         ["Sentimiento", "Crítico mayoritario"],
-        ["Impulsado por", "Ceuta + vídeo Mónica García + tertulianos woke + efecto llamada"]
+        ["Impulsado por", "DEI + ideología de género + cuotas + vínculo con Ceuta"]
       ]
     },
     {
@@ -148,15 +148,15 @@
       "icon": "🔇",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 68,
-      "momentum": 70,
+      "intensity": 70,
+      "momentum": 60,
       "momentumDir": "right",
-      "summary": "Sin funas consumadas de calado, pero con ruido: la funa al streamer JWulen (entorno YouTube España, entre acusaciones de plagio y de no ser 'progre'), los boicots culturales (Eurovisión, granja de pulpos de Nueva Pescanova en Canarias) y el debate jurídico sobre honor vs. libertad de expresión. El caso Arday/Armesilla se diluye: Armesilla sigue activo defendiendo que criticar el judaísmo no es antisemitismo, y Pío Moa publica con normalidad.",
-      "quote": "Funa a JWulen, boicots a Eurovisión y a Pescanova: la cancelación como arma retórica sigue fragmentada, sin linchamientos de calado.",
+      "summary": "La 'cancelación' española de agosto de 2026 es sobre todo un boicot orgánico contra influencers y tiktokers de prensa rosa: 'objetivo cero engagement' — no comentar, no compartir, no darles visibilidad — para que las marcas dejen de pagarles. Hay escepticismo de fondo ('en España no existe ninguna cultura de cancelación real; caen solo cuando dejan de ser rentables') y el debate jurídico sobre honor vs. libertad de expresión (Confilegal) sigue circulando. No es el punitivismo moral clásico: mezcla hartazgo económico y rechazo al postureo.",
+      "quote": "'Objetivo cero engagement': la audiencia española busca la caída de los influencers de lujo con un boicot de atención, no con funas morales.",
       "details": [
         ["Volumen en X", "Medio-alto"],
         ["Sentimiento", "Polarizado"],
-        ["Impulsado por", "Funa JWulen + boicots + debate jurídico honor vs libertad"]
+        ["Impulsado por", "Boicot a influencers + cero engagement + debate honor vs libertad"]
       ]
     },
     {
@@ -165,15 +165,15 @@
       "icon": "⚧️",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 82,
-      "momentum": 62,
+      "intensity": 80,
+      "momentum": 60,
       "momentumDir": "right",
-      "summary": "El debate se mantiene reavivado por la reforma anunciada por el PP (De los Santos): informe psicosocial obligatorio, tildado de 'patologización' por activistas y medios de izquierda ('vergüenza de partido'), mientras Vox va más allá y propone eliminar la ley en su Agenda España. La Plataforma Trans y Mar Cambrollé defienden la autodeterminación plena; las feministas críticas exigen salvaguardas basadas en sexo biológico. El caso Franyel (violencia de género y sexo registral) sigue de fondo.",
-      "quote": "El PP quiere informe psicosocial para reformar la Ley Trans y Vox derogarla: la izquierda lo tilda de 'patologización' y el choque sigue muy polarizado.",
+      "summary": "El asesinato de Franyel, una mujer trans venezolana de 35 años, en San Pedro Alcántara (Marbella), a manos presuntamente de su pareja, reaviva el debate sobre la ley y el sexo registral: el caso vuelve a poner sobre la mesa las salvaguardas basadas en sexo biológico frente a la autodeterminación de género, con la reforma del PP (informe psicosocial obligatorio, tildado de 'patologización') y la petición de Vox de derogar la ley como telón de fondo. La conversación está muy polarizada entre activistas trans y feministas críticas.",
+      "quote": "El caso Franyel (mujer trans asesinada en Marbella) reabre el choque entre autodeterminación y sexo biológico, con la reforma del PP y la derogación de Vox en el horizonte.",
       "details": [
         ["Volumen en X", "Alto"],
         ["Sentimiento", "Muy polarizado"],
-        ["Impulsado por", "Reforma PP + Agenda Vox + caso Franyel"]
+        ["Impulsado por", "Caso Franyel + reforma PP + derogación Vox"]
       ]
     },
     {
@@ -183,14 +183,14 @@
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
       "intensity": 66,
-      "momentum": 60,
+      "momentum": 62,
       "momentumDir": "right",
-      "summary": "La cola del 'atletos' se enfría pero el tema sigue vivo: el tuit original de Pérez-Reverte ('la imbecilidad no tiene límites', con crítica a la RAE que 'se lo traga todo') se mantiene como el más viral, con respuestas del académico ('si me fuera se alegrarían unos cuantos. Por eso sigo allí'). Se recuerda que 'atleta' es género común y que 'atleto' no existe en el diccionario. Sin cambios oficiales de la RAE.",
-      "quote": "'Atletas y atletos. Con la complicidad de los medios (y el silencio de la RAE), la imbecilidad no tiene límites' — Pérez-Reverte mantiene el pulso.",
+      "summary": "El viral de los 'atletos' se consolida: la reportera de TVE Lourdes García Campos usó el desdoblamiento en directo ('atletas y atletos') y Pérez-Reverte respondió con un tuit demoledor contra la RAE ('que se lo traga todo... la imbecilidad no tiene límites') que supera los 21.000 likes y 6.000 reposts. El académico recupera además su artículo 'ni limpia, ni fija, ni da esplendor' contra la pasividad de la Academia, y medios como Infobae, El Confidencial y OKDiario recogen la polémica. 'Atleta' es género común: 'atleto' no existe en el diccionario.",
+      "quote": "21.000 likes al tuit de Pérez-Reverte por el 'atletas y atletos' de TVE: 'cuando 20.000 idiotas digan atleto, la RAE dirá que está documentado'.",
       "details": [
         ["Volumen en X", "Medio-alto"],
         ["Sentimiento", "Crítico mayoritario"],
-        ["Impulsado por", "Pérez-Reverte vs TVE + 'atletos' + crítica a la RAE"]
+        ["Impulsado por", "'Atletos' TVE + tuit Reverte 21K likes + artículo Zendalibros"]
       ]
     },
     {
@@ -200,14 +200,14 @@
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
       "intensity": 87,
-      "momentum": 64,
+      "momentum": 62,
       "momentumDir": "center",
-      "summary": "Cifras récord confirmadas por EFFIS/Copernicus: España supera las 301.968 ha quemadas en 2026 (~44-50% de toda la UE) con 43 grandes incendios forestales, y solo en agosto ~70.000 ha en 75 incendios. Niebla (Huelva, 33.000-45.000 ha, estabilizado) y Peñas de Riglos (Huesca, 13.000-17.000 ha, con UME) siguen marcando la temporada. El abandono rural se consolida como causa estructural: más biomasa sin gestionar, sin pastoreo ni limpieza, y pueblos sin bomberos de proximidad.",
-      "quote": "301.968 ha quemadas en 2026 según EFFIS (43 grandes incendios, ~44-50% del área de la UE): la despoblación como combustible estructural del fuego.",
+      "summary": "La temporada de incendios sigue marcando récords: entre 240.000 y 284.000 ha quemadas en 2026 (cifras variables según fuente), con Peñas de Riglos (Huesca, 16.600-17.000 ha, ~1.000 desalojados y un militar de la UME fallecido en accidente) y Niebla (Huelva, 38.000-45.000 ha, estabilizado) como grandes focos, más La Mierla (Guadalajara) y zonas de Ávila-Madrid-Toledo. El debate insiste en la causa estructural: despoblación y abandono rural —montes sin pastoreo ni gestión— como combustible del fuego, y en la ganadería extensiva como herramienta de prevención.",
+      "quote": "Riglos supera las 17.000 ha con un militar de la UME fallecido y ~1.000 desalojados: el fuego vuelve a señalar a la España vaciada como combustible estructural.",
       "details": [
         ["Volumen en X", "Alto"],
         ["Sentimiento", "Crítico / reivindicativo"],
-        ["Impulsado por", "Récord EFFIS + Niebla + Riglos + gestión forestal"]
+        ["Impulsado por", "Riglos + Niebla + récord ha quemadas + abandono rural"]
       ]
     },
     {
@@ -219,7 +219,7 @@
       "intensity": 57,
       "momentum": 47,
       "momentumDir": "center",
-      "summary": "El término sigue funcionando como descalificativo comodín de la izquierda contra la derecha, Vox, el PP, monárquicos o críticos de la inmigración: se usa para cerrar el debate ('no se debate con fachas') y es asimétrico frente a 'rojo' o 'progre'. Se intensifica en los debates de Ceuta, okupación y sanchismo, con la derecha respondiendo con ironía ('fachita y a mucha honra'). Sin un detonante nuevo, se mantiene en uso cotidiano estable.",
+      "summary": "El término sigue funcionando como descalificativo comodín de la izquierda contra la derecha, Vox, el PP, monárquicos o críticos de la inmigración: se usa para cerrar el debate ('no se debate con fachas') y es asimétrico frente a 'rojo' o 'progre'. Se intensifica en los debates de Ceuta, okupación y sanchismo, con la derecha respondiendo con ironía ('fachita y a mucha honra'). Sin un detonante nuevo, se mantiene en uso cotidiano estable. [Valores reutilizados: 3 búsquedas del periodo sin resultados frescos]",
       "quote": "'Facha' como insulto comodín que cierra el debate: la asimetría con 'rojo' y 'progre' sigue marcando la polarización en X.",
       "details": [
         ["Volumen en X", "Medio"],
@@ -230,89 +230,89 @@
   ],
   "news": [
     {
-      "title": "Incendios 2026: EFFIS registra 301.968 ha quemadas y 43 grandes incendios forestales",
-      "date": "17 ago 2026",
-      "summary": "Según datos EFFIS/Copernicus, España supera las 301.968 ha quemadas en lo que va de año (~44-50% del área quemada de la UE), con 70.384 ha solo en agosto. Niebla (Huelva, 33.000-45.000 ha, estabilizado) y Peñas de Riglos (Huesca, 13.000-17.000 ha) marcan la temporada.",
-      "source": "EFFIS/Copernicus / El Debate / X",
-      "tags": ["España Vaciada", "Incendios"]
-    },
-    {
-      "title": "Ceuta: Mónica García y Elma Saiz comparecerán en el Congreso a finales de agosto",
+      "title": "Ceuta y Melilla desplazan a Canarias como principal puerta de entrada: +191% de entradas irregulares por tierra",
       "date": "17-18 ago 2026",
-      "summary": "La crisis migratoria llega al Parlamento: las ministras de Sanidad y Migraciones deberán dar explicaciones mientras el Gobierno endurece el tono (promesas de expulsiones) y PP y Vox exigen emergencia de seguridad nacional y mando único.",
-      "source": "El Correo / X",
+      "summary": "Según datos del Ministerio del Interior, las entradas irregulares por tierra en Ceuta se disparan un 191% en lo que va de 2026 (más de 5.000 personas, sin contar la avalancha de julio), y Canarias pierde peso relativo como ruta principal de pateras.",
+      "source": "EFE / Interior / X",
       "tags": ["Inmigración", "Ceuta"]
     },
     {
-      "title": "Notas de la UCO: el cerco a Sánchez se mantiene a la espera de nuevos entregables en septiembre",
-      "date": "17 ago 2026",
-      "summary": "Las notas con las siglas 'PS' y el 'conocimiento de Sánchez' siguen siendo el eje del caso Cerdán, con expectativas de nuevos informes de la Guardia Civil en septiembre. Hasta las críticas internas del PSOE hablan de 'desastre orgánico' y del 'peor secretario general'.",
-      "source": "esRadio / El Debate / X",
-      "tags": ["Sanchismo", "UCO", "Corrupción"]
+      "title": "Elma Saiz habilita 1.500 plazas de acogida temporal en Ceuta, ampliables a 4.000",
+      "date": "17-18 ago 2026",
+      "summary": "La ministra de Migraciones anuncia nuevas plazas para aliviar la saturación de los centros de Ceuta 18 días después de la presión migratoria de julio, mientras una sentencia del TS restringe las devoluciones exprés a nado y el Pacto Migratorio de la UE limita las expulsiones colectivas.",
+      "source": "Deia / X",
+      "tags": ["Inmigración", "Ceuta"]
     },
     {
-      "title": "El PP confirma su intención de reformar la Ley Trans con informe psicosocial; Vox pide derogarla",
-      "date": "16-17 ago 2026",
-      "summary": "Las declaraciones del dirigente popular De los Santos reavivan el choque: activistas y medios de izquierda lo tildan de 'patologización', mientras Vox incluye la eliminación de la ley en su Agenda España. El caso Franyel sigue de fondo.",
-      "source": "Público / X",
-      "tags": ["Ley Trans", "PP", "Vox"]
+      "title": "Pérez-Reverte arrasa contra el 'atletas y atletos' de TVE: el tuit supera los 21.000 likes",
+      "date": "16-18 ago 2026",
+      "summary": "La reportera Lourdes García Campos desdobló 'atleta' en directo y el académico respondió cargando contra la RAE ('que se lo traga todo'). El tuit supera 21.000 likes y 6.000 reposts, con una ola de respuestas irónicas ('dentistas y dentistos') y cobertura de Infobae, El Confidencial y OKDiario.",
+      "source": "X (perezreverte) / Infobae",
+      "tags": ["Lenguaje Inclusivo", "RAE"]
     },
     {
-      "title": "Pedro Baños arremete contra Hermann Tertsch: niega haber propuesto entregar Ceuta y Melilla",
-      "date": "17 ago 2026",
-      "summary": "El coronel y analista geoestratego responde con dureza a las acusaciones de Tertsch sobre un vídeo en el que supuestamente defendía ceder las ciudades autónomas a Marruecos, denunciando manipulación y sacadas de contexto. El choque se vuelve viral en la esfera geopolítica.",
-      "source": "X (geoestratego)",
-      "tags": ["Geopolítica", "Ceuta", "Marruecos"]
+      "title": "Asesinada Franyel, mujer trans venezolana de 35 años, en Marbella: el caso reaviva el debate de la ley",
+      "date": "17-18 ago 2026",
+      "summary": "Franyel fue hallada muerta en San Pedro Alcántara (Marbella), presuntamente a manos de su pareja. El caso vuelve a poner sobre la mesa la cuestión del sexo registral y las salvaguardas en la violencia de género, con la reforma del PP y la propuesta de derogación de Vox como telón de fondo.",
+      "source": "X",
+      "tags": ["Ley Trans", "Violencia de género"]
+    },
+    {
+      "title": "Boicot masivo a los influencers de lujo: 'objetivo cero engagement' contra los tiktokers de prensa rosa",
+      "date": "17-18 ago 2026",
+      "summary": "La audiencia española llama a ignorar por completo a los creadores de contenido de lujo para que las marcas dejen de pagarles. Medios como El Español cubren el fenómeno, mientras los escépticos recuerdan que 'en España no existe cultura de cancelación real; caen solo cuando dejan de ser rentables'.",
+      "source": "El Español / X",
+      "tags": ["Cultura de la Cancelación", "Influencers"]
     }
   ],
   "trends": [
     {
-      "name": "España Vaciada / Incendios",
+      "name": "Inmigración / +191% Ceuta",
       "change": "up",
-      "pct": "+15%",
-      "detail": "EFFIS confirma 301.968 ha quemadas y 43 grandes incendios en 2026 (~44-50% del área de la UE): el récord eleva el debate sobre abandono rural y gestión forestal."
+      "pct": "+12%",
+      "detail": "Ceuta y Melilla desplazan a Canarias como ruta principal y las entradas por tierra se disparan un 191%; Elma Saiz habilita 1.500 plazas de acogida ampliables a 4.000."
     },
     {
-      "name": "Woke / Ceuta",
+      "name": "Incendios / Riglos",
       "change": "up",
-      "pct": "+15%",
-      "detail": "La crisis migratoria alimenta el anti-woke: 'tertulianos woke', 'buenismo' y el vídeo de Mónica García ('los migrantes no traen enfermedades') dominan la crítica."
+      "pct": "+8%",
+      "detail": "Peñas de Riglos supera las 17.000 ha con ~1.000 desalojados y un militar de la UME fallecido; Niebla (38.000-45.000 ha) estabilizado. El debate sobre abandono rural se mantiene."
     },
     {
-      "name": "Inmigración / Ceuta crónica",
+      "name": "Cultura de la Cancelación / Boicot influencers",
       "change": "up",
       "pct": "+10%",
-      "detail": "Comparecencias de Mónica García y Elma Saiz en el Congreso a finales de agosto: la crisis se institucionaliza y el Ejecutivo endurece el tono."
+      "detail": "El 'objetivo cero engagement' contra tiktokers de prensa rosa se vuelve orgánico y copa el debate: hartazgo económico y rechazo al postureo, no funas morales."
     },
     {
-      "name": "Sanchismo / Notas UCO",
-      "change": "stable",
-      "pct": "0%",
-      "detail": "El cerco con las siglas 'PS' se mantiene al máximo, pero a la espera de los nuevos entregables de la UCO en septiembre: el tema se estabiliza en el pico."
+      "name": "Ley Trans / Caso Franyel",
+      "change": "up",
+      "pct": "+8%",
+      "detail": "El asesinato de una mujer trans en Marbella reabre el choque autodeterminación vs. sexo biológico, con la reforma del PP y la derogación de Vox en el horizonte."
     },
     {
-      "name": "Okupación / Rescates 25K",
+      "name": "Sanchismo / UCO",
       "change": "stable",
       "pct": "0%",
-      "detail": "Los 'rescates' de la Plataforma de Afectados y la ley antiokupas siguen sin novedad legislativa; el viral del 16-08 aún circula."
-    },
-    {
-      "name": "Cultura de la Cancelación / Funas",
-      "change": "stable",
-      "pct": "0%",
-      "detail": "Funa a JWulen, boicots a Eurovisión y a la granja de pulpos de Pescanova: ruido constante sin linchamientos de calado."
+      "detail": "El cerco se mantiene al máximo pero sin novedades: a la espera de los nuevos entregables de la UCO en septiembre, el tema se estabiliza en el pico."
     },
     {
       "name": "Lenguaje inclusivo / 'Atletos'",
-      "change": "down",
-      "pct": "-10%",
-      "detail": "La cola del viral de Pérez-Reverte se enfría: el tema baja de los picos del 16-08 pero mantiene conversación."
+      "change": "stable",
+      "pct": "0%",
+      "detail": "El tuit de Pérez-Reverte (21K likes) mantiene el tema activo, pero sin novedad institucional de la RAE; el artículo 'ni limpia, ni fija, ni da esplendor' alarga la cola."
     },
     {
       "name": "Independentismo / Junts",
       "change": "down",
       "pct": "-10%",
-      "detail": "Junts 'en proceso de desaparición' y dividido, con Aliança Catalana comiendo espacio: el independentismo clásico sigue en reflujo."
+      "detail": "Junts 'se desangra' pendiente del golpe de Puigdemont y la operación 'sociovergència' refuerza el reflujo del procés clásico hacia fórmulas pactistas."
+    },
+    {
+      "name": "Facha / Insulto político",
+      "change": "stable",
+      "pct": "0%",
+      "detail": "Sin detonante nuevo en el periodo: las búsquedas no devolvieron resultados frescos y se reutilizaron los valores del run anterior (tema en stale_topics)."
     }
   ],
   "accounts": [
@@ -320,7 +320,7 @@
       "handle": "@profsecundario",
       "name": "Profe de historia",
       "category": "Muy derecha",
-      "desc": "Hilos documentados. Muy activo: crítica a Mónica García por Ceuta, vacaciones del Gobierno y la 'hidra' de la corrupción socialista.",
+      "desc": "Hilos documentados. Muy activo: el aumento de menas en Ceuta (de 1.000 a 2.168, 'tierra de milagros') y replies sarcásticos sobre 'neolengua'.",
       "color": "#003399"
     },
     {
@@ -334,14 +334,14 @@
       "handle": "@billkilgore_",
       "name": "Kilgore de Lezo",
       "category": "Joker 🃏",
-      "desc": "Humor satírico, memes. Activo en replies cortos con buen engagement ('la temporada de?' ~7.1K likes).",
+      "desc": "Humor satírico, memes. Activo en replies cortos con buen engagement ('la temporada de que?' ~7.3K likes).",
       "color": "#996633"
     },
     {
       "handle": "@Tagelca",
       "name": "Tage",
       "category": "Derecha",
-      "desc": "Crítico con Sánchez. Activo pero centrado en fútbol/humor (Lamine Yamal, Aubameyang, Ferran Torres) con alto engagement.",
+      "desc": "Crítico con Sánchez. Muy activo en humor/deportes con alto engagement (seleccionador de Egipto ~1.6K likes, 'Downgrade' ~441).",
       "color": "#0055cc"
     },
     {
@@ -362,7 +362,7 @@
       "handle": "@13mescribano",
       "name": "Luis Escribano",
       "category": "Neutro",
-      "desc": "Crítica sistémica al régimen del 78. Activo: exigencia del Cuerpo de Policía Andaluza, minas (Atalaya) y narcotráfico.",
+      "desc": "Crítica sistémica al régimen del 78. Activo: exigencia del Cuerpo de Policía Andaluza (art. 65 Estatuto) contra el narco y críticas a empresas mineras (Atalaya).",
       "color": "#666699"
     },
     {
@@ -376,35 +376,35 @@
       "handle": "@EstefMolina_",
       "name": "Estefanía Molina",
       "category": "Neutro",
-      "desc": "Politóloga. Muy activa: hilo de vivienda que desmonta los 'fondos buitre' (~8% del alquiler), pensiones 2027 y tribuna en El País.",
+      "desc": "Politóloga. Muy activa: hilo sobre devoluciones en Ceuta, Pacto de Migración UE, Marruecos como 'país seguro' y avisos del CNI, además de su libro 'Los hijos de los boomers'.",
       "color": "#666699"
     },
     {
       "handle": "@nicolasdepedro",
       "name": "Nicolás de Pedro",
       "category": "Neutro",
-      "desc": "Analista RRII. Activo (selectivo): Trump-Omán, Taliban y UN Women, eclipse NASA. Curación geo/intel.",
+      "desc": "Analista RRII. Activo (selectivo): Óscar Puente negando organización marroquí de la 'invasión' de Ceuta, Trump-Omán, eclipse NASA en Zaragoza. Curación geo/intel.",
       "color": "#666699"
     },
     {
       "handle": "@armesillaconde",
       "name": "Santiago Armesilla",
       "category": "Izquierda",
-      "desc": "Socialismo patriótico. Muy activo: España como observador en la Unión Africana por Ceuta/Melilla, segunda tesis doctoral y defensa de que criticar el judaísmo no es antisemitismo.",
+      "desc": "Socialismo patriótico. Activo: 90 aniversario del asesinato de García Lorca, IV parte de la saga Epstein y vídeo sobre San Martín y el plan británico secreto.",
       "color": "#e84700"
     },
     {
       "handle": "@Anujbost",
       "name": "Anuj",
       "category": "Izquierda",
-      "desc": "Socialdemócrata crítico. Muy activo: crítica al 'cipayismo' colombiano (~1.7K likes), Marruecos/Ceuta y vivienda (~7.4K likes).",
+      "desc": "Socialdemócrata crítico. Muy activo: tuit de vivienda (~8.1K likes), crítica al 'cipayismo' colombiano (~3.1K) y al artículo de El País sobre agosto (~732).",
       "color": "#e84700"
     },
     {
       "handle": "@geoestratego",
       "name": "Pedro Baños",
       "category": "Derecha",
-      "desc": "Coronel, geopolítica. Muy activo y combativo: choque con Hermann Tertsch negando haber propuesto entregar Ceuta y Melilla a Marruecos.",
+      "desc": "Coronel, geopolítica. Muy activo y confrontacional: defensa feroz ante las acusaciones de haber propuesto entregar Ceuta y Melilla a Marruecos, atacando a Hermann Tertsch (posts de 1.8K-3.8K likes).",
       "color": "#0055cc"
     },
     {
@@ -425,58 +425,58 @@
       "handle": "@LaBugsBunnyIA",
       "name": "Fábrica de Memes",
       "category": "Joker 🃏",
-      "desc": "Fotomontajes y portadas parodia. Activo con vídeos virales (contenido mayoritariamente argentino).",
+      "desc": "Fotomontajes y portadas parodia. Activo con vídeos de política argentina (caso Insaurralde, socio de Facundo Moyano).",
       "color": "#996633"
     }
   ],
   "virals": [
     {
-      "author": "@perezreverte",
-      "date": "15-16 ago 2026",
-      "text": "'Atletas y atletos. Con la complicidad de los medios (y el silencio de la RAE, que se lo traga todo), la imbecilidad no tiene límites': el tuit original del académico que disparó la polémica.",
-      "engagement": "Viral / miles de likes",
-      "topic": "Lenguaje Inclusivo",
-      "link": "https://x.com/perezreverte/status/2089048524214194673"
+      "author": "@Anujbost",
+      "date": "16 ago 2026",
+      "text": "Tuit sobre la vivienda en los años 80 y 2016 que se convierte en el de mayor viralidad de la semana para la cuenta: ~8.100 likes.",
+      "engagement": "~8.1K likes",
+      "topic": "Okupación / Vivienda",
+      "link": "https://x.com/Anujbost/status/2089049653165621604"
     },
     {
-      "author": "@GalvezRivas",
+      "author": "@billkilgore_",
+      "date": "16 ago 2026",
+      "text": "Reply lacónico 'la temporada de que?' que se vuelve viral (~7.3K likes): el humor tuitero como termómetro de la conversación.",
+      "engagement": "~7.3K likes",
+      "topic": "Humor / Joker",
+      "link": "https://x.com/billkilgore_/status/2089024391598231594"
+    },
+    {
+      "author": "@Anujbost",
       "date": "17 ago 2026",
-      "text": "Datos EFFIS/Copernicus: España supera las 301.968 ha quemadas en 2026 con 43 grandes incendios forestales y ~70.000 ha solo en agosto.",
-      "engagement": "Alto engagement",
-      "topic": "España Vaciada",
-      "link": "https://x.com/GalvezRivas/status/2089439874805841969"
+      "text": "Comentario extenso sobre el nuevo presidente de Colombia ('Abelardo'): acusa de cipayismo por aceptar solo ayuda de EE.UU./Israel tras un terremoto y reconocer los Altos del Golán (~3.1K likes).",
+      "engagement": "~3.1K likes",
+      "topic": "Geopolítica / Izquierda",
+      "link": "https://x.com/Anujbost/status/2089406887506645161"
     },
     {
       "author": "@geoestratego",
-      "date": "17 ago 2026",
-      "text": "Choque con Hermann Tertsch: Pedro Baños niega rotundamente haber propuesto entregar Ceuta y Melilla a Marruecos y acusa de sacar de contexto un vídeo.",
-      "engagement": "Cientos a miles de likes",
+      "date": "18 ago 2026",
+      "text": "Respuesta dura a un crítico (@PublioElioAdri1) al que llama traidor, difamador y 'bocachancla', en plena guerra defensiva por las acusaciones de ceder Ceuta y Melilla a Marruecos.",
+      "engagement": "Alto (1.8K-3.8K likes en la saga)",
       "topic": "Geopolítica / Ceuta",
-      "link": "https://x.com/geoestratego/status/2089418738776899691"
+      "link": "https://x.com/geoestratego/status/2089530940796162327"
     },
     {
-      "author": "@profsecundario",
-      "date": "17 ago 2026",
-      "text": "Crítica a Mónica García por las violaciones en Ceuta: 'lo grave es que se sepa', frente a la respuesta 'propagandística' de la ministra.",
-      "engagement": "Alto engagement",
-      "topic": "Inmigración",
-      "link": "https://x.com/profsecundario/status/2089459856633635270"
+      "author": "@Tagelca",
+      "date": "17-18 ago 2026",
+      "text": "Quote sobre la noticia del seleccionador de Egipto desmayado tras una pelea entre sus esposas: 'El primer párrafo de esta noticia es sencillamente sublime' (~1.6K likes).",
+      "engagement": "~1.6K likes",
+      "topic": "Humor / Joker",
+      "link": "https://x.com/Tagelca/status/2089683398520451117"
     },
     {
       "author": "@EstefMolina_",
-      "date": "17 ago 2026",
-      "text": "Hilo de vivienda: desmonta el mito de los 'fondos buitre' (~8% del alquiler) y sitúa el problema en la falta de oferta y la política pública.",
+      "date": "18 ago 2026",
+      "text": "Hilo sobre devoluciones en Ceuta: Pacto de Migración de la UE, Marruecos como 'país seguro' y necesidad de que el Gobierno explique la externalización de fronteras y los avisos del CNI.",
       "engagement": "Buen engagement en hilos analíticos",
-      "topic": "Okupación / Vivienda",
-      "link": "https://x.com/EstefMolina_/status/2089459925017657778"
-    },
-    {
-      "author": "@armesillaconde",
-      "date": "17 ago 2026",
-      "text": "Defiende que criticar el judaísmo/sionismo no es antisemitismo y lo compara con la crítica al Islam: una religión 'etnicista y supremacista'.",
-      "engagement": "Alto engagement",
-      "topic": "Cultura de la Cancelación",
-      "link": "https://x.com/armesillaconde/status/2089393579789590722"
+      "topic": "Inmigración",
+      "link": "https://x.com/EstefMolina_/status/2089755843700965541"
     }
   ]
 }
