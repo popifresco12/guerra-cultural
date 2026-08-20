@@ -325,11 +325,7 @@ function renderMeta(meta) {
   if (footer) {
     footer.textContent = '🔎 Trazabilidad: datos generados ' + (meta.generated_at || '—') +
       (meta.queries ? ' · ' + meta.queries.length + ' búsquedas en X' : '') +
-      (meta.stale_topics && meta.stale_topics.length ? ' · ⚠️ tópicos con datos previos: ' + meta.stale_topics.join(', ') : '');
-  }
-  if (banner && meta.stale_topics && meta.stale_topics.length) {
-    banner.style.display = 'block';
-    banner.textContent = '⚠️ ' + meta.stale_topics.length + ' tópico(s) sin datos frescos en esta actualización — se muestra el valor anterior: ' + meta.stale_topics.join(', ');
+      (meta.stale_topics && meta.stale_topics.length ? ' · tópicos con datos previos: ' + meta.stale_topics.join(', ') : '');
   }
 }
 
