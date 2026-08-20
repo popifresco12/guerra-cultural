@@ -17,6 +17,17 @@
     --accent-green: #45d480;
     --accent-orange: #ff9500;
     --accent-purple: #a855f7;
+    --toggle-bg: #2a2a3a;
+    --toggle-icon: #ffd700;
+  }
+  [data-theme="light"] {
+    --bg: #f4f4f8;
+    --card: #ffffff;
+    --border: #d8d8e4;
+    --text: #1a1a24;
+    --muted: #6a6a80;
+    --toggle-bg: #e0e0ea;
+    --toggle-icon: #b8860b;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -31,7 +42,23 @@
     margin-bottom: 3rem;
     padding-bottom: 2rem;
     border-bottom: 1px solid var(--border);
+    position: relative;
   }
+  .theme-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: var(--toggle-bg);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: var(--toggle-icon);
+    transition: transform 0.2s, background 0.2s;
+  }
+  .theme-toggle:hover { transform: scale(1.1); }
   .header h1 {
     font-size: 2.2rem;
     font-weight: 700;
@@ -237,6 +264,7 @@
 <div id="metaBanner" style="display:none;max-width:1400px;margin:0 auto 1rem;background:rgba(255,149,0,0.12);border:1px solid #ff9500;border-radius:8px;padding:0.6rem 1rem;font-size:0.8rem;color:#ff9500"></div>
 <div class="header">
   <h1>Termómetro de la Guerra Cultural</h1>
+  <button id="themeToggle" class="theme-toggle" title="Cambiar tema" onclick="toggleTheme()">🌙</button>
   <div class="subtitle">Análisis de la conversación en X · Enfoque: España</div>
   <div class="date" id="currentDate"></div>
 </div>
@@ -328,6 +356,35 @@ function renderMeta(meta) {
       (meta.stale_topics && meta.stale_topics.length ? ' · tópicos con datos previos: ' + meta.stale_topics.join(', ') : '');
   }
 }
+
+function chartColors() {
+  const light = document.documentElement.dataset.theme === 'light';
+  return {
+    tick: light ? '#55556a' : '#8888a0',
+    grid: light ? '#d8d8e4' : '#2a2a3a',
+    axis: light ? '#33334a' : '#e0e0e0',
+  };
+}
+
+function toggleTheme() {
+  const html = document.documentElement;
+  const isLight = html.dataset.theme === 'light';
+  html.dataset.theme = isLight ? 'dark' : 'light';
+  localStorage.setItem('theme', html.dataset.theme);
+  document.getElementById('themeToggle').textContent = isLight ? '🌙' : '☀️';
+  // Redibujar gráficos con los colores del nuevo tema
+  if (typeof renderAll === 'function') renderAll();
+}
+
+(function initTheme() {
+  const saved = localStorage.getItem('theme');
+  const prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+  const theme = saved || (prefersLight ? 'light' : 'dark');
+  document.documentElement.dataset.theme = theme;
+  if (theme === 'light') {
+    document.getElementById('themeToggle').textContent = '☀️';
+  }
+})();
 
 (async function init() {
   try {
@@ -444,8 +501,8 @@ function renderAll() {
       indexAxis: 'y',
       plugins: { legend: { display: false } },
       scales: {
-        x: { grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' } },
-        y: { grid: { display: false }, ticks: { color: '#e0e0e0', font: { size: 10 } } }
+        x: { grid: { color: chartColors().grid }, ticks: { color: chartColors().tick } },
+        y: { grid: { display: false }, ticks: { color: chartColors().axis, font: { size: 10 } } }
       }
     }
   });
@@ -481,7 +538,7 @@ function renderAll() {
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { labels: { color: '#8888a0', boxWidth: 10, font: { size: 10 } } },
+        legend: { labels: { color: chartColors().tick, boxWidth: 10, font: { size: 10 } } },
         tooltip: {
           callbacks: {
             label: (ctx) => {
@@ -494,12 +551,12 @@ function renderAll() {
       },
       scales: {
         x: {
-          title: { display: true, text: 'Intensidad (0-100)', color: '#8888a0', font: { size: 10 } },
-          grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' }, min: 0, max: 100,
+          title: { display: true, text: 'Intensidad (0-100)', color: chartColors().tick, font: { size: 10 } },
+          grid: { color: chartColors().grid }, ticks: { color: chartColors().tick }, min: 0, max: 100,
         },
         y: {
-          title: { display: true, text: 'Inclinación (0=Izda · 100=Dcha)', color: '#8888a0', font: { size: 10 } },
-          grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' }, min: 0, max: 100,
+          title: { display: true, text: 'Inclinación (0=Izda · 100=Dcha)', color: chartColors().tick, font: { size: 10 } },
+          grid: { color: chartColors().grid }, ticks: { color: chartColors().tick }, min: 0, max: 100,
         }
       }
     }
@@ -581,8 +638,8 @@ function renderHistory() {
       maintainAspectRatio: false,
       plugins: { legend: { display: false } },
       scales: {
-        x: { grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0', font: { size: 9 } } },
-        y: { grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' }, min: 20, max: 100 }
+        x: { grid: { color: chartColors().grid }, ticks: { color: chartColors().tick, font: { size: 9 } } },
+        y: { grid: { color: chartColors().grid }, ticks: { color: chartColors().tick }, min: 20, max: 100 }
       }
     }
   });
