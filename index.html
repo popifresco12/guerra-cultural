@@ -360,10 +360,29 @@ function renderMeta(meta) {
 function chartColors() {
   const light = document.documentElement.dataset.theme === 'light';
   return {
-    tick: light ? '#55556a' : '#8888a0',
+    tick: light ? '#3a3a52' : '#c8c8e0',
     grid: light ? '#d8d8e4' : '#2a2a3a',
-    axis: light ? '#33334a' : '#e0e0e0',
+    axis: light ? '#1a1a30' : '#ffffff',
   };
+}
+
+function applyChartTheme() {
+  const c = chartColors();
+  const charts = [window.intensityChart, window.momentumChart, window.historyChart];
+  charts.forEach(ch => {
+    if (!ch) return;
+    const sc = ch.options.scales || {};
+    Object.keys(sc).forEach(k => {
+      const ax = sc[k];
+      if (ax.ticks) ax.ticks.color = c.axis;
+      if (ax.grid) ax.grid.color = c.grid;
+      if (ax.title) ax.title.color = c.tick;
+    });
+    if (ch.options.plugins && ch.options.plugins.legend && ch.options.plugins.legend.labels) {
+      ch.options.plugins.legend.labels.color = c.tick;
+    }
+    ch.update();
+  });
 }
 
 function toggleTheme() {
@@ -374,6 +393,7 @@ function toggleTheme() {
   document.getElementById('themeToggle').textContent = isLight ? '🌙' : '☀️';
   // Redibujar gráficos con los colores del nuevo tema
   if (typeof renderAll === 'function') renderAll();
+  applyChartTheme();
 }
 
 (function initTheme() {
@@ -482,7 +502,7 @@ function renderAll() {
   });
 
   // Charts
-  new Chart(document.getElementById('intensityChart'), {
+  window.intensityChart = new Chart(document.getElementById('intensityChart'), {
     type: 'bar',
     data: {
       labels: topics.map(t => t.name),
@@ -518,7 +538,7 @@ function renderAll() {
     }
   });
 
-  new Chart(document.getElementById('momentumChart'), {
+  window.momentumChart = new Chart(document.getElementById('momentumChart'), {
     type: 'scatter',
     data: {
       datasets: [
@@ -641,7 +661,7 @@ function renderHistory() {
       tension: 0.3
     };
   });
-  new Chart(document.getElementById('historyChart'), {
+  window.historyChart = new Chart(document.getElementById('historyChart'), {
     type: 'line',
     data: { labels, datasets },
     options: {
