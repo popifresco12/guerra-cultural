@@ -645,12 +645,15 @@ function renderHistory() {
     alertsDiv.innerHTML = '<div style="color:var(--muted);font-size:0.8rem">✅ Sin cambios bruscos respecto al último periodo.</div>';
   }
 
-  const labels = historyData.slice(-6).map(s => new Date(s.date).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit' }));
+  // Ordenar por fecha ascendente y tomar los 6 más recientes
+  const sortedHistory = [...historyData].sort((a, b) => new Date(a.date) - new Date(b.date));
+  const recent = sortedHistory.slice(-6);
+  const labels = recent.map(s => new Date(s.date).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit' }));
   const datasets = topics.map(t => {
     const color = t.intensity >= 80 ? '#ff4560' : t.intensity >= 65 ? '#ff9500' : '#a855f7';
     return {
       label: t.name,
-      data: historyData.slice(-6).map(s => {
+      data: recent.map(s => {
         const found = s.topics.find(st => st.id === t.id);
         return found ? found.intensity : null;
       }),
