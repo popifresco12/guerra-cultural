@@ -1,5 +1,82 @@
 [
   {
+    "date": "2026-08-24T10:21:00+02:00",
+    "topics": [
+      {
+        "id": "sanchismo",
+        "name": "Sanchismo",
+        "intensity": 95,
+        "momentumDir": "right"
+      },
+      {
+        "id": "inmigracion",
+        "name": "Inmigración",
+        "intensity": 97,
+        "momentumDir": "right"
+      },
+      {
+        "id": "okupacion",
+        "name": "Okupación",
+        "intensity": 70,
+        "momentumDir": "right"
+      },
+      {
+        "id": "independentismo",
+        "name": "Independentismo / Procés",
+        "intensity": 55,
+        "momentumDir": "center"
+      },
+      {
+        "id": "memoria",
+        "name": "Memoria Histórica",
+        "intensity": 52,
+        "momentumDir": "center"
+      },
+      {
+        "id": "feminismo",
+        "name": "Feminismo Radical",
+        "intensity": 72,
+        "momentumDir": "left"
+      },
+      {
+        "id": "woke",
+        "name": "Wokismo / Ideología Woke",
+        "intensity": 82,
+        "momentumDir": "right"
+      },
+      {
+        "id": "cultura-cancelacion",
+        "name": "Cultura de la Cancelación",
+        "intensity": 76,
+        "momentumDir": "right"
+      },
+      {
+        "id": "ley-trans",
+        "name": "Ley Trans",
+        "intensity": 80,
+        "momentumDir": "right"
+      },
+      {
+        "id": "lenguaje-inclusivo",
+        "name": "Lenguaje Inclusivo",
+        "intensity": 72,
+        "momentumDir": "right"
+      },
+      {
+        "id": "espana-vaciada",
+        "name": "España Vaciada",
+        "intensity": 83,
+        "momentumDir": "center"
+      },
+      {
+        "id": "facha",
+        "name": "Facha / Insulto Político",
+        "intensity": 55,
+        "momentumDir": "center"
+      }
+    ]
+  },
+  {
     "date": "2026-08-23T11:25:55+02:00",
     "topics": [
       {
@@ -818,83 +895,6 @@
         "id": "cultura-cancelacion",
         "name": "Cultura de la Cancelación",
         "intensity": 70,
-        "momentumDir": "center"
-      },
-      {
-        "id": "ley-trans",
-        "name": "Ley Trans",
-        "intensity": 66,
-        "momentumDir": "right"
-      },
-      {
-        "id": "lenguaje-inclusivo",
-        "name": "Lenguaje Inclusivo",
-        "intensity": 72,
-        "momentumDir": "right"
-      },
-      {
-        "id": "espana-vaciada",
-        "name": "España Vaciada",
-        "intensity": 88,
-        "momentumDir": "center"
-      },
-      {
-        "id": "facha",
-        "name": "Facha / Insulto Político",
-        "intensity": 78,
-        "momentumDir": "center"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-01T08:00:00+02:00",
-    "topics": [
-      {
-        "id": "sanchismo",
-        "name": "Sanchismo",
-        "intensity": 96,
-        "momentumDir": "right"
-      },
-      {
-        "id": "inmigracion",
-        "name": "Inmigración",
-        "intensity": 99,
-        "momentumDir": "right"
-      },
-      {
-        "id": "okupacion",
-        "name": "Okupación",
-        "intensity": 68,
-        "momentumDir": "right"
-      },
-      {
-        "id": "independentismo",
-        "name": "Independentismo / Procés",
-        "intensity": 84,
-        "momentumDir": "right"
-      },
-      {
-        "id": "memoria",
-        "name": "Memoria Histórica",
-        "intensity": 74,
-        "momentumDir": "right"
-      },
-      {
-        "id": "feminismo",
-        "name": "Feminismo Radical",
-        "intensity": 70,
-        "momentumDir": "center"
-      },
-      {
-        "id": "woke",
-        "name": "Wokismo / Ideología Woke",
-        "intensity": 65,
-        "momentumDir": "right"
-      },
-      {
-        "id": "cultura-cancelacion",
-        "name": "Cultura de la Cancelación",
-        "intensity": 78,
         "momentumDir": "center"
       },
       {
