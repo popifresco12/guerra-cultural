@@ -141,13 +141,15 @@
     gap: 0.5rem;
   }
   .bar-track {
-    width: 100px;
+    width: 150px;
     height: 4px;
     background: var(--border);
     border-radius: 2px;
     position: relative;
   }
   .bar-fill {
+    position: absolute;
+    top: 0;
     height: 100%;
     border-radius: 2px;
     transition: width 0.5s;
@@ -463,10 +465,24 @@ function renderAll() {
 
   // Render cards
   topics.forEach(t => {
-    const barWidth = t.momentum;
-    const barColor = t.momentumDir === 'right' ? 'var(--accent-blue)' : t.momentumDir === 'left' ? 'var(--accent-red)' : 'var(--accent-orange)';
-    const momentumText = t.momentumDir === 'right' ? 'Gana la derecha/crítica' : t.momentumDir === 'left' ? 'Gana la izquierda/defensa' : 'Empate técnico';
-    const momentumClass = t.momentumDir === 'right' ? 'm-right' : t.momentumDir === 'left' ? 'm-left' : 'm-center';
+    // Barra de momentum CENTRADA: el 50% es el origen, crece hacia el lado ganador
+    const dir = t.momentumDir || 'center';
+    const momentumValue = t.momentum ?? 50;
+    const distFromCenter = Math.abs(momentumValue - 50); // 0-50
+    const fillPct = Math.min(100, distFromCenter * 2);   // 0-100% de media barra
+    let barStyle = '';
+    if (dir === 'right') {
+      // Gana la derecha: crece desde el centro hacia la derecha (azul)
+      barStyle = `left:50%;width:${fillPct}%;background:var(--accent-blue)`;
+    } else if (dir === 'left') {
+      // Gana la izquierda: crece desde el centro hacia la izquierda (rojo)
+      barStyle = `right:50%;width:${fillPct}%;background:var(--accent-red)`;
+    } else {
+      // Empate: punto pequeño centrado (naranja)
+      barStyle = `left:50%;transform:translateX(-50%);width:6px;background:var(--accent-orange)`;
+    }
+    const momentumText = dir === 'right' ? 'Gana la derecha' : dir === 'left' ? 'Gana la izquierda' : 'Empate técnico';
+    const momentumClass = dir === 'right' ? 'm-right' : dir === 'left' ? 'm-left' : 'm-center';
 
     grid.innerHTML += `
       <div class="card">
@@ -484,11 +500,11 @@ function renderAll() {
         <div class="momentum">
           <span class="momentum-label">Quién lidera el debate</span>
           <div class="momentum-bar">
-            <span style="font-size:0.7rem;color:var(--accent-blue)">← Izda</span>
+            <span style="font-size:0.7rem;color:var(--accent-red)">← Izda</span>
             <div class="bar-track">
-              <div class="bar-fill" style="width:${barWidth}%;background:${barColor};margin-left:${t.momentumDir === 'right' ? '0' : t.momentumDir === 'left' ? '0' : 'auto'};${t.momentumDir === 'center' ? 'margin:0 auto;' : ''}"></div>
+              <div class="bar-fill" style="${barStyle}"></div>
             </div>
-            <span style="font-size:0.7rem;color:var(--accent-red)">Dcha →</span>
+            <span style="font-size:0.7rem;color:var(--accent-blue)">Dcha →</span>
           </div>
           <span class="momentum-text ${momentumClass}">${momentumText}</span>
         </div>
