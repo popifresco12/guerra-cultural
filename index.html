@@ -264,7 +264,7 @@
 <div id="metaBanner" style="display:none;max-width:1400px;margin:0 auto 1rem;background:rgba(255,149,0,0.12);border:1px solid #ff9500;border-radius:8px;padding:0.6rem 1rem;font-size:0.8rem;color:#ff9500"></div>
 <div class="header">
   <h1>Termómetro de la Guerra Cultural</h1>
-  <button id="themeToggle" class="theme-toggle" title="Cambiar tema" onclick="toggleTheme()">🌙</button>
+  <button id="themeToggle" class="theme-toggle" title="Cambiar tema" onclick="toggleTheme()" style="display:none">🌙</button>
   <div class="subtitle">Análisis de la conversación en X · Enfoque: España</div>
   <div class="date" id="currentDate"></div>
 </div>
@@ -420,8 +420,19 @@ function toggleTheme() {
 })();
 
 function renderAll() {
-  // Render news
+  // Limpiar contenedores primero (evita duplicados al re-renderizar)
   const newsGrid = document.getElementById('newsGrid');
+  const accountsGrid = document.getElementById('accountsGrid');
+  const grid = document.getElementById('topicGrid');
+  const trendingList = document.getElementById('trendingList');
+  const viralGrid = document.getElementById('viralGrid');
+  newsGrid.innerHTML = '';
+  accountsGrid.innerHTML = '';
+  grid.innerHTML = '';
+  trendingList.innerHTML = '';
+  viralGrid.innerHTML = '';
+
+  // Render news
   news.forEach(n => {
     newsGrid.innerHTML += `
       <div class="card">
@@ -437,7 +448,6 @@ function renderAll() {
   });
 
   // Render accounts
-  const accountsGrid = document.getElementById('accountsGrid');
   accounts.forEach(a => {
     accountsGrid.innerHTML += `
       <div class="card" style="padding:0.75rem 1rem">
@@ -452,7 +462,6 @@ function renderAll() {
   });
 
   // Render cards
-  const grid = document.getElementById('topicGrid');
   topics.forEach(t => {
     const barWidth = t.momentum;
     const barColor = t.momentumDir === 'right' ? 'var(--accent-blue)' : t.momentumDir === 'left' ? 'var(--accent-red)' : 'var(--accent-orange)';
@@ -488,7 +497,6 @@ function renderAll() {
   });
 
   // Trending list
-  const trendingList = document.getElementById('trendingList');
   trends.forEach(t => {
     trendingList.innerHTML += `
       <div class="trending-item">
@@ -594,7 +602,6 @@ function renderAll() {
   });
 
   // Viral tweets
-  const viralGrid = document.getElementById('viralGrid');
   if (viralGrid) {
     virals.forEach(v => {
       viralGrid.innerHTML += `
