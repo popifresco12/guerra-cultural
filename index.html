@@ -338,7 +338,18 @@
 </div>
 
 <div class="footer">
-  <p>Datos obtenidos mediante búsqueda en X con Grok (xAI) · Análisis generado por IA · <a href="https://x.com/search?q=guerra+cultural+Espa%C3%B1a&f=live" target="_blank" rel="noopener" aria-label="Ver conversación en directo en X">Ver conversación en directo</a></p>
+  <p>Datos obtenidos mediante búsqueda en X con Grok (xAI) · Análisis generado por IA · <a href="https://x.com/search?q=guerra+cultural+Espa%C3%B1a&f=live" target="_blank" rel="noopener" aria-label="Ver conversación en directo en X">Ver conversación en directo</a> · <a href="#" onclick="document.getElementById('methodology').style.display = document.getElementById('methodology').style.display === 'none' ? 'block' : 'none'; return false;" style="color:var(--accent-blue);text-decoration:none">Metodología</a></p>
+  <div id="methodology" style="display:none;max-width:900px;margin:1.5rem auto 0;text-align:left;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;font-size:0.82rem;line-height:1.7;color:var(--muted)">
+    <h4 style="color:var(--text);margin-bottom:0.75rem">📋 Metodología</h4>
+    <p><strong>Cómo se generan los datos:</strong> este panel se actualiza automáticamente cada día mediante un agente de IA (Hermes) que realiza búsquedas en X con Grok (xAI) por cada tema, con queries específicas y ventana temporal, y luego interpreta los resultados (intensidad, momentum, sentimiento) para generar este análisis.</p>
+    <p style="margin-top:0.5rem"><strong>Qué miden los indicadores:</strong></p>
+    <ul style="margin:0.5rem 0 0.5rem 1.2rem">
+      <li><strong>Intensidad (0-100):</strong> volumen y actividad del debate en X sobre el tema en el periodo analizado.</li>
+      <li><strong>Momentum / Inclinación:</strong> hacia qué lado del espectro (izquierda/derecha) se inclina el discurso dominante en la conversación.</li>
+      <li><strong>Sentimiento:</strong> tono predominante (crítico, polarizado, de apoyo, etc.) según el análisis de las publicaciones.</li>
+    </ul>
+    <p><strong>Limitaciones:</strong> los datos reflejan el volumen e intensidad del debate en X — <strong>no</strong> son encuestas representativas de la población española. X tiene sesgos demográficos propios. El análisis es generado por IA y puede contener errores o sesgos. El directorio de cuentas clasifica por el espectro político percibido de cada cuenta, según su actividad pública.</p>
+  </div>
   <p id="metaFooter" style="margin-top:0.5rem;color:var(--accent-purple)"></p>
   <p style="margin-top:0.5rem;">Las tendencias reflejan el volumen e intensidad del debate en X, no encuestas representativas de la población.</p>
 </div>
