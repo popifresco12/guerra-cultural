@@ -1,0 +1,18 @@
+# Netlify configuration for guerracultural.es
+# Quita el badge "Netlify" flotante y fuerza HTTPS + headers de seguridad
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Sin build command: el sitio es estático (los archivos están en la raíz)
+# (build vacío = Netlify sirve los archivos tal cual)
+
+# Redirect: HTTP -> HTTPS (Netlify lo hace por defecto, pero explícito no está de más)
+[[redirects]]
+  from = "http://guerracultural.es/*"
+  to = "https://guerracultural.es/:splat"
+  status = 301
