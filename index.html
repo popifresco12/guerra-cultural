@@ -42,6 +42,13 @@
     --toggle-icon: #b8860b;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
+  /* Ocultar el badge flotante de Netlify (plan free) si se inyecta */
+  #netlify-badge, .netlify-badge, [data-netlify-badge] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
   body {
     background: var(--bg);
     color: var(--text);
