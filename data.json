@@ -1,26 +1,31 @@
 {
  "meta": {
-  "generated_at": "2026-08-25T08:05:00+02:00",
+  "generated_at": "2026-08-28T03:10:00+02:00",
   "source": "cron 09f22b3f6f78",
   "queries": [
-   "sanchismo Sanchez UCO corrupcion caja B imputacion PSOE Espana agosto 2026 (desde 2026-08-22)",
-   "inmigracion Ceuta cayucos llegadas Espana debate agosto 2026 (desde 2026-08-22)",
-   "Junts Puigdemont ERC Cataluna independentismo Alianca Catalana agosto 2026 (desde 2026-08-22)",
-   "cultura de la cancelacion boicot influencers Espana polemica agosto 2026 (desde 2026-08-22)",
-   "okupacion vivienda desalojo expres Espana agosto 2026 (desde 2026-08-22)",
-   "memoria historica Cuelgamuros exhumaciones Espana agosto 2026 (desde 2026-08-22)",
-   "feminismo abolicionismo LOASP prostitucion Espana agosto 2026 (desde 2026-08-22)",
-   "ley trans menores bloqueadores pubertad Espana polemica agosto 2026 (desde 2026-08-22)",
-   "woke ideologia woke Espana critica cancelacion agosto 2026 (desde 2026-08-22)",
-   "lenguaje inclusivo atletos RAE polemica Espana agosto 2026 (desde 2026-08-22)",
-   "Espana vaciada incendios despoblacion rural agosto 2026 (desde 2026-08-22)",
-   "facha insulto politico derecha izquierda Espana agosto 2026 (desde 2026-08-22)",
-   "incendios forestales Espana vaciada despoblacion rural incendio activo agosto 2026 (desde 2026-08-22) [retry]",
-   "publicaciones recientes y actividad de @profsecundario @dianitanoticias @Tagelca @elxokas @TemplarExtre @geoestratego @13mescribano @VictorLapuente @EstefMolina_ @nicolasdepedro (desde 2026-08-18)",
-   "publicaciones recientes y actividad de @armesillaconde @Anujbost @billkilgore_ @elmundotoday @littleragergirl @LaBugsBunnyIA (desde 2026-08-18)",
-   "tweets virales de @profsecundario @Tagelca @geoestratego @Anujbost @EstefMolina_ @billkilgore_ @armesillaconde @elxokas @13mescribano @LaBugsBunnyIA con enlaces y engagement (desde 2026-08-18)"
+   "sanchismo Sánchez UCO corrupción caja B imputación PSOE España agosto 2026 (desde 2026-08-25) [degraded, retry OK]",
+   "inmigración Ceuta cayucos llegadas España debate agosto 2026 (desde 2026-08-25)",
+   "Junts Puigdemont ERC Cataluña independentismo Aliança Catalana agosto 2026 (desde 2026-08-25)",
+   "cultura de la cancelación boicot influencers España polémica agosto 2026 (desde 2026-08-25)",
+   "caso PSOE UCO Cerdán Leire Díez fontanera Fuentes imputada corrupción España (desde 2026-08-25) [retry]",
+   "okupación vivienda desalojo exprés España polémica agosto 2026 (desde 2026-08-25)",
+   "memoria histórica Cuelgamuros exhumaciones España agosto 2026 (desde 2026-08-25) [degraded]",
+   "feminismo abolicionismo LOASP prostitución España agosto 2026 (desde 2026-08-25)",
+   "ley trans menores bloqueadores pubertad España polémica agosto 2026 (desde 2026-08-25) [degraded]",
+   "ley trans España debate bloqueadores pubertad menores The Objective Cass Review (desde 2026-08-20) [retry degraded]",
+   "Cuelgamuros memoria democrática exhumaciones familias debate España (desde 2026-08-25) [retry OK]",
+   "woke ideología woke España crítica cancelación debate agosto 2026 (desde 2026-08-25)",
+   "lenguaje inclusivo RAE atletos polémica España agosto 2026 (desde 2026-08-25)",
+   "España vaciada incendios despoblación rural agosto 2026 (desde 2026-08-25) [degraded]",
+   "facha insulto político derecha izquierda España agosto 2026 (desde 2026-08-25) [degraded]",
+   "incendios forestales España hectáreas quemadas SOS Rural despoblación agosto 2026 (desde 2026-08-25) [retry degraded]",
+   "uso de facha como insulto político en redes España derecha izquierda (desde 2026-08-25) [retry OK]",
+   "publicaciones recientes y actividad de @profsecundario @dianitanoticias @Tagelca @elxokas @TemplarExtre @geoestratego @13mescribano @VictorLapuente @EstefMolina_ @nicolasdepedro (desde 2026-08-24)",
+   "publicaciones recientes y actividad de @armesillaconde @Anujbost @billkilgore_ @elmundotoday @littleragergirl @LaBugsBunnyIA (desde 2026-08-24)",
+   "tweets virales recientes de @profsecundario @Tagelca @geoestratego @Anujbost @EstefMolina_ @billkilgore_ @armesillaconde @elxokas @13mescribano @LaBugsBunnyIA con enlaces y engagement (desde 2026-08-24)"
   ],
   "stale_topics": [
+   "ley-trans",
    "espana-vaciada"
   ],
   "inactive_accounts": [
@@ -41,8 +46,8 @@
    "intensity": 96,
    "momentum": 92,
    "momentumDir": "right",
-   "summary": "Nuevo frente en el caso PSOE: la gerente del partido Ana María Fuentes queda imputada por falsedad documental y declarará el 9 de septiembre, mientras la UCO y Anticorrupción rastrean 81 cuentas bancarias (al menos 6 del partido) por pagos a Leire Díez 'la fontanera' —4.000 € canalizados vía una sociedad de Gaspar Zarrías, 27.225 € por sociedades interpuestas— y facturas por servicios no prestados por 125.000 €. Los hilos de @EugenioValle64 y @TTiTTulares detallan hasta 300.000 € que habrían intentado sobornar a un fiscal, y Santos Cerdán sigue investigado con indicios. El debate lo domina la crítica anti-sanchista, con el hashtag del régimen y poca defensa visible.",
-   "quote": "81 cuentas rastreadas, la gerente Fuentes imputada y hasta 300.000 € para 'sobornar a un fiscal': el caso PSOE aprieta con la declaración del 9 de septiembre en el horizonte.",
+   "summary": "Nuevo capítulo del caso PSOE: la UCO y Anticorrupción rastrean 81 cuentas bancarias (al menos 6 del partido) y facturas falsas por ~188.000 € 'para proteger a Pedro Sánchez', con el PSOE 'al borde de la imputación' como persona jurídica. La trama se enreda con la detención de Alejandro Hamlyn en Abu Dabi (fraude de IVA de 154 M€ y videollamada con la 'fontanera' Leire Díez ofreciendo información contra el teniente coronel Balas a cambio de impunidad), y la gerente Ana María Fuentes declara el 9 de septiembre — el mismo día en que Sánchez comparecerá en el Congreso por Ceuta. El debate lo domina la crítica anti-sanchista con poco contrapeso visible.",
+   "quote": "Hamlyn detenido en Abu Dabi, facturas falsas por 188.000 € 'para proteger a Sánchez' y el PSOE al borde de la imputación: el 9 de septiembre se cruzan la declaración de Fuentes y la comparecencia de Sánchez.",
    "details": [
     [
      "Volumen en X",
@@ -54,7 +59,7 @@
     ],
     [
      "Impulsado por",
-     "Caso Leire Díez + 81 cuentas + imputación de Fuentes"
+     "Hamlyn + facturas 188K + imputación del partido"
     ]
    ]
   },
@@ -67,8 +72,8 @@
    "intensity": 97,
    "momentum": 92,
    "momentumDir": "right",
-   "summary": "Un mes después del asalto, la crisis de Ceuta sigue abierta: entre 5.000 y 10.000 personas permanecen en la ciudad tras los ~80.000 intentos de entrada, y Sanidad envía 25.000-45.000 dosis de vacunas ante los brotes. Sánchez convoca el Consejo de Seguridad Nacional (24-25 agosto) y crece el repunte de 'pateras-taxi' hacia el Estrecho, con redes que cobran 8.000-9.000 € por persona. El debate sanitario está polarizado: Feijóo pide confinamiento por 'riesgo sanitario' frente a un Gobierno que tacha de xenófoba la asociación de inmigración y enfermedad. Datos globales: ~19.972 llegadas irregulares (-9,4% interanual), con la Península subiendo +31%.",
-   "quote": "Sánchez convoca el Consejo de Seguridad Nacional por Ceuta mientras las 'pateras-taxi' (8.000-9.000 €) reabren la ruta del Estrecho y el choque confinamiento vs. xenofobia sigue polarizando X.",
+   "summary": "El Gobierno declara la 'situación de interés para la Seguridad Nacional' (RD 26 de agosto) con mando único del ministro Ángel Víctor Torres y movilización de Defensa, mientras la crisis de Ceuta encadena nuevos episodios: emboscada a un vehículo del Ejército (4 militares heridos, 12 detenidos), 16 casos de agresiones sexuales según la Fiscalía (17 víctimas, mayoría menores) y vecinos que queman campamentos y bloquean a Cruz Roja. El choque institucional Marlaska-Robles-CNI y la comparecencia de Sánchez el 3 de septiembre mantienen la conversación en máximos, con la oposición exigiendo dimisiones y un sector de la calle ceutí al borde de la escalada.",
+   "quote": "Seguridad Nacional + mando único de Torres, emboscada a militares y quemas de campamentos: Ceuta sigue en máximos con Sánchez citado a comparecer el 3 de septiembre.",
    "details": [
     [
      "Volumen en X",
@@ -80,7 +85,7 @@
     ],
     [
      "Impulsado por",
-     "Consejo Seguridad Nacional + vacunas + pateras-taxi"
+     "Mando único + emboscada + quemas"
     ]
    ]
   },
@@ -90,11 +95,11 @@
    "icon": "🏠",
    "tag": "🔥 Tendencia moderada",
    "tagClass": "tag-moderate",
-   "intensity": 70,
+   "intensity": 72,
    "momentum": 85,
    "momentumDir": "right",
-   "summary": "Sin reforma legislativa a la vista, el debate sigue anclado en la ventana de las 48 horas: el desalojo exprés solo opera si se denuncia de inmediato y la policía acredita flagrante delito; pasado ese plazo, la vía civil alarga los procesos meses. Circulan nuevos vídeos de vecinos desalojando okupas con la Guardia Civil (22 de agosto) y propuestas de un hipotético Gobierno PP-Vox de 'expulsión de okupas en 24 horas en toda España', junto a la queja de que el sistema 'protege más al okupa que al propietario'. El debate se mezcla además con la derogación del RDL 8/2026 sobre alquileres.",
-   "quote": "Sin ley de desalojo exprés, la ventana de 48 horas sigue marcando el debate: desalojos vecinales con Guardia Civil y promesa de 'expulsión en 24 h' para un hipotético Gobierno PP-Vox.",
+   "summary": "Los tribunales 'blindan' la propiedad privada: sentencias recientes anulan frenos al desalojo y aceleran la recuperación de inmuebles, hasta el punto de que Periódico de Baleares (26 de agosto) declara el fin del 'fenómeno' de la okupación privilegiada. El RDL 2/2026 que suspendía desahucios de vulnerables ya fue derogado en febrero, y el debate en X se centra en la ventana de las 48 horas, el vandalismo de okupas que saben que 'tienen los días contados' y la exigencia de desalojo exprés real (24-72 h como Alemania o Francia), con @EstefMolina_ como contrapeso recordando que no todo es okupación 'pura'.",
+   "quote": "'Fin del fenómeno okupa': las sentencias de agosto anulan frenos al desalojo y la derecha exige exprés real (24-72 h), mientras los críticos avisan de desprotección social.",
    "details": [
     [
      "Volumen en X",
@@ -106,7 +111,7 @@
     ],
     [
      "Impulsado por",
-     "Ventana 48h + desalojos + promesa PP-Vox"
+     "Sentencias + RDL 2/2026 + vandalismo"
     ]
    ]
   },
@@ -114,17 +119,17 @@
    "id": "independentismo",
    "name": "Independentismo / Procés",
    "icon": "🗺️",
-   "tag": "📌 Estable",
-   "tagClass": "tag-stable",
-   "intensity": 57,
-   "momentum": 45,
-   "momentumDir": "center",
-   "summary": "Junts y ERC marcan distancias explícitas con Aliança Catalana ('no se puede hacer nada bueno con quien predica odio') mientras la formación de Orriols crece y se frota las manos con la división independentista. El incidente policial de Elche —cargas y requisa de esteladas a aficionados del Barça— dispara las críticas a Marlaska, y el regreso de Puigdemont con la nueva financiación autonómica promete un 'otoño caliente'. Conversación activa y polarizada, aunque sin un hito que dispare el volumen.",
-   "quote": "Junts y ERC blindan la distancia con Aliança Catalana, la requisa de esteladas en Elche tensa el pulso con Marlaska y el regreso de Puigdemont anuncia un 'otoño caliente'.",
+   "tag": "🔥 Tendencia moderada",
+   "tagClass": "tag-moderate",
+   "intensity": 66,
+   "momentum": 62,
+   "momentumDir": "right",
+   "summary": "Terremoto electoral: la encuesta GESOP del 27 de agosto sitúa a Aliança Catalana como segunda fuerza (16,8%, 25-28 escaños), por delante de ERC (16,0%) y muy por encima de Junts (11,5%), que sufre un fuerte desgaste a nueve meses de las municipales. Junts y ERC preparan un frente común para aislar a AC en la Diada del 11 de septiembre mientras la formación de Orriols se frota las manos: el independentismo clásico se reconfigura con AC como actor disruptivo.",
+   "quote": "GESOP: Aliança Catalana (16,8%) supera a ERC y deja a Junts en 11,5% — el independentismo clásico prepara un cordón sanitario para la Diada.",
    "details": [
     [
      "Volumen en X",
-     "Medio"
+     "Medio-alto"
     ],
     [
      "Sentimiento",
@@ -132,7 +137,7 @@
     ],
     [
      "Impulsado por",
-     "Elche + distancia con AC + retorno Puigdemont"
+     "GESOP + frente anti-AC + Diada"
     ]
    ]
   },
@@ -142,11 +147,11 @@
    "icon": "📜",
    "tag": "📌 Estable",
    "tagClass": "tag-stable",
-   "intensity": 50,
+   "intensity": 52,
    "momentum": 55,
    "momentumDir": "center",
-   "summary": "Agosto sigue sin exhumaciones destacadas: las menciones a Cuelgamuros se reducen a un documental, el acceso a las criptas y las dificultades persistentes de las familias para recuperar restos. El tema queda en segundo plano a la espera de novedades judiciales o forenses, con una conversación baja, polarizada y sin grandes titulares.",
-   "quote": "Sin exhumaciones en agosto, Cuelgamuros queda reducido a un documental y a las familias que siguen esperando restos.",
+   "summary": "Sin exhumaciones de alto perfil, el foco se lo lleva el documental de RTVE 'Cuelgamuros: entre lo difícil y lo imposible', que accede por primera vez a las criptas y muestra la magnitud del enterramiento masivo (más de 33.800 cuerpos, muchos emparedados y sin identificar). La ARMH vigila que el protocolo de exhumaciones pacte con las familias, mientras el debate político sigue polarizado entre resignificación y defensa del monumento como lugar de 'reconciliación'.",
+   "quote": "RTVE entra por primera vez en las criptas de Cuelgamuros: 'entre lo difícil y lo imposible', 33.800 cuerpos sin dignificar mantienen el tema en segundo plano.",
    "details": [
     [
      "Volumen en X",
@@ -158,7 +163,7 @@
     ],
     [
      "Impulsado por",
-     "Documental + casos familiares"
+     "Documental RTVE + ARMH"
     ]
    ]
   },
@@ -171,8 +176,8 @@
    "intensity": 72,
    "momentum": 42,
    "momentumDir": "left",
-   "summary": "El abolicionismo se organiza: la Plataforma Estatal convoca el II Congreso Estatal Abolicionista en Sevilla (3 de octubre) y denuncia la explotación sexual en las fiestas de Bilbao (Aste Nagusia) y en el turismo de verano, con las cifras de Igualdad (153.000-184.000 mujeres en prostitución) como telón de fondo. Avanzan ordenanzas municipales (Vigo y zona noroeste) con sanciones a puteros y ayuda a víctimas de trata, y supervivientes como Amelia Tiganus (Hora 25) dan testimonio. Las voces críticas con el abolicionismo (aislamiento, infantilización) siguen presentes pero en minoría.",
-   "quote": "II Congreso Abolicionista en Sevilla (3 oct) y denuncias en Aste Nagusia: la LOASP se organiza mientras las cifras de Igualdad (153-184K mujeres) sostienen el relato.",
+   "summary": "El abolicionismo mantiene la agenda: la Plataforma Estatal (PAP) convoca el II Congreso Estatal Abolicionista en Sevilla (3 de octubre) bajo el lema de la genealogía 'siempre feminista, siempre abolicionista', con #LOASPseráLEY como hashtag de campaña. En lo local, Bilbao (Aste Nagusia) exige fiestas sin explotación sexual y Vigo avanza una ordenanza que penaliza la demanda, con 'España, el país más putero de Europa' como telón de fondo. El regulacionismo y las voces críticas siguen presentes pero en minoría.",
+   "quote": "II Congreso Abolicionista en Sevilla (3 oct) y ordenanza de Vigo contra los puteros: la LOASP sigue como bandera con #LOASPseráLEY.",
    "details": [
     [
      "Volumen en X",
@@ -184,7 +189,7 @@
     ],
     [
      "Impulsado por",
-     "Congreso abolicionista + Aste Nagusia + ordenanzas"
+     "Congreso PAP + Bilbao/Vigo"
     ]
    ]
   },
@@ -195,10 +200,10 @@
    "tag": "🔥 Tendencia alta",
    "tagClass": "tag-hot",
    "intensity": 80,
-   "momentum": 82,
+   "momentum": 84,
    "momentumDir": "right",
-   "summary": "El hilo de @MarieBensimon (23 de agosto, ~746 likes y 308 reposts) sigue siendo el post de referencia: 'la cosa empieza a desinflarse' pero reclama que 'la factura la paguen los experimentadores' por las cancelaciones de profesionales, la presión a padres y la 'experimentación' con menores. El relato anti-woke se extiende al cine, las escuelas y las ONG, pero crecen las voces que minimizan ('no existe wokismo en España', @cesarpinedar) o avisan de que la reacción anti-woke es más peligrosa que el propio fenómeno (@robertinocarles).",
-   "quote": "'La cosa empieza a desinflarse, pero que la factura la paguen los experimentadores': el hilo de @MarieBensimon sigue marcando un debate donde ya aparecen voces que minimizan el 'wokismo' español.",
+   "summary": "El discurso anti-woke se intensifica y se entrelaza con la crisis de Ceuta: la inmigración, la islamización y la Agenda 2030 se suman al relato de un país 'adoctrinado' sin capacidad defensiva, con Vox y perfiles patriotas liderando la conversación. Un hilo de @PelaoTelo2 explica el mecanismo de la cancelación (etiquetar → indignación viral → despido → autocensura) y avisa de que no es exclusiva de la izquierda, mientras @femi_artesanal y @Kaptar introducen matices: condenar el wokismo no justifica combatirlo con censura de Estado.",
+   "quote": "'España, adoctrinada por el woke': la crítica anti-woke se funde con la crisis de Ceuta, aunque crecen las voces que avisan de que la reacción no debe imitar la cancelación.",
    "details": [
     [
      "Volumen en X",
@@ -210,7 +215,7 @@
     ],
     [
      "Impulsado por",
-     "Hilo MarieBensimon + contra-narrativa creciente"
+     "Vox/patriotas + hilo PelaoTelo2 + Ceuta"
     ]
    ]
   },
@@ -218,13 +223,13 @@
    "id": "cultura-cancelacion",
    "name": "Cultura de la Cancelación",
    "icon": "🔇",
-   "tag": "🔥 Tendencia moderada",
-   "tagClass": "tag-moderate",
-   "intensity": 78,
-   "momentum": 62,
+   "tag": "🔥 Tendencia alta",
+   "tagClass": "tag-hot",
+   "intensity": 80,
+   "momentum": 65,
    "momentumDir": "right",
-   "summary": "La 'caída de los influencers' se consolida como fenómeno con nombre propio: EFE lo acuña el 22 de agosto y los casos se acumulan —Erola Jons en La Vuelta (restringida tras sus acercamientos a ciclistas como Pogacar) y el influencer Alberto Alonso (Aruberuto Makoto), acusado de acosar en directo a una joven ebria en Japón, con indignación masiva y cobertura de El Mundo—. El hartazgo por el privilegio, el postureo y la publicidad excesiva mantiene la ola de unfollows y boicots, con el público dividido entre madurez del espectador y moda pasajera.",
-   "quote": "'La caída de los influencers' ya tiene nombre (EFE, 22 ago): Erola Jons en La Vuelta y Alberto Alonso en Japón alimentan la ola de boicots, unfollows y cancelaciones.",
+   "summary": "El boicot a los influencers se consolida como fenómeno con nombre: La Vanguardia titula 'La caída de los influencers en España' y los casos concretos se acumulan — Marta Díaz, Roro (tras La Velada) y Lucía Sánchez (por su maternidad) — con la publicidad encubierta, el privilegio y el paso 'de la autenticidad al código de descuento' (El Obrero) como diana. El movimiento se describe como hartazgo espontáneo de la audiencia más que cancelación ideológica, con el público dividido entre presión legítima del consumidor y 'cultura de la cancelación' exagerada.",
+   "quote": "'La caída de los influencers' ya es portada (Vanguardia, El Debate, THR España): Marta Díaz, Roro y Lucía Sánchez, en el centro del boicot por publicidad encubierta.",
    "details": [
     [
      "Volumen en X",
@@ -236,7 +241,7 @@
     ],
     [
      "Impulsado por",
-     "Casos Erola Jons + Alberto Alonso + hartazgo"
+     "Casos Marta Díaz/Roro/Lucía Sánchez"
     ]
    ]
   },
@@ -249,7 +254,7 @@
    "intensity": 80,
    "momentum": 72,
    "momentumDir": "right",
-   "summary": "El artículo de The Objective (16 de agosto) sobre la 'incertidumbre' admitida por la principal asociación de salud trans sigue circulando como munición central: los críticos lo enlazan con el Cass Review y piden seguir el recule de Reino Unido y los países nórdicos, denunciando la hormonación y los bloqueadores en menores como 'castración química' y la ley como 'sexo como ficción jurídica' que expone a menores con comorbilidades. La defensa visible es casi inexistente en los resultados recientes.",
+   "summary": "Datos reutilizados de la actualización anterior (búsqueda degradada esta semana): el artículo de The Objective (16 de agosto) sobre la 'incertidumbre' admitida por la principal asociación de salud trans sigue circulando como munición central: los críticos lo enlazan con el Cass Review y piden seguir el recule de Reino Unido y los países nórdicos, denunciando la hormonación y los bloqueadores en menores como 'castración química' y la ley como 'sexo como ficción jurídica' que expone a menores con comorbilidades. La defensa visible es casi inexistente en los resultados recientes.",
    "quote": "The Objective sigue circulando como munición: 'incertidumbre' en la hormonación de menores, Cass Review de fondo y #DerogaciónLeyTrans con poca defensa visible.",
    "details": [
     [
@@ -272,15 +277,15 @@
    "icon": "📝",
    "tag": "🔥 Tendencia moderada",
    "tagClass": "tag-moderate",
-   "intensity": 68,
-   "momentum": 70,
+   "intensity": 72,
+   "momentum": 74,
    "momentumDir": "right",
-   "summary": "Sin un detonante nuevo, el debate vuelve a su cauce habitual: la RAE reitera su posición (@RAEinforma, 25 de agosto) contra el inclusivo morfológico y a favor del masculino genérico, y el ejemplo satírico de 'atletos'/'atleto' —un sustantivo epiceno que no necesita marca de género— sigue circulando como burla del inclusivo forzado, aunque con engagement bajo-medio. La conversación queda de fondo, entre quienes ven el inclusivo como imposición ideológica y quienes lo defienden como construcción de realidad.",
-   "quote": "La RAE reitera su postura y 'atletos' sigue como la burla perfecta: un epiceno que no necesita 'género extra' mantiene vivo el eterno choque lingüístico.",
+   "summary": "La polémica de 'atletas y atletos' renace con fuerza: el tuit de Arturo Pérez-Reverte (16 de agosto, +21.000 likes, ~6.000 RT y casi un millón de views) contra el desdoblamiento absurdo —'atleta' es epiceno y no necesita 'atleto'— se convierte en munición masiva, con la RAE acusada de 'tragárselo todo' y de admitir cualquier forma documentada. La sátira ('dentistas y dentistos', 'gilipollas y gilipollos') domina la conversación, con defensores del inclusivo en clara minoría.",
+   "quote": "Pérez-Reverte viraliza 'atletas y atletos' (+21K likes): 'cuando 20.000 idiotas digan atleto, la RAE dirá que está documentado y lo admitirá'.",
    "details": [
     [
      "Volumen en X",
-     "Medio"
+     "Medio-alto"
     ],
     [
      "Sentimiento",
@@ -288,7 +293,7 @@
     ],
     [
      "Impulsado por",
-     "RAE + parodia de 'atletos'"
+     "Tuit Pérez-Reverte + silencio RAE"
     ]
    ]
   },
@@ -324,11 +329,11 @@
    "icon": "🗣️",
    "tag": "📌 Estable",
    "tagClass": "tag-stable",
-   "intensity": 55,
-   "momentum": 52,
+   "intensity": 56,
+   "momentum": 55,
    "momentumDir": "center",
-   "summary": "El análisis de X confirma a 'facha' como insulto de la izquierda contra la derecha: la RAE lo define como sinónimo de 'fascista, ultraderechista', y los posts de la semana lo muestran usado masivamente contra PP, Vox y críticos del Gobierno, mientras la derecha denuncia que se ha vaciado de significado ('el arma del cobarde') y algunos intentan invertirlo ('fachas de la izquierda'). Sin detonante viral único, el término sigue de fondo en los hilos de Ceuta y sanchismo como síntoma de la baja calidad del debate.",
-   "quote": "'Facha': la RAE lo define como sinónimo de 'ultraderechista', la izquierda lo usa como arma comodín y la derecha denuncia su vaciamiento: el insulto estrella sigue en los hilos de Ceuta.",
+   "summary": "El término 'facha' —nacido en la zona republicana hacia 1936 y popularizado por las Juventudes Socialistas Unificadas— sigue siendo el insulto estrella de la izquierda contra la derecha, pero la conversación de la semana muestra a la derecha reaccionando de tres maneras: denunciar su devaluación ('de tanto usarlo, ya significa persona con sentido común'), reclamarlo con ironía ('soy facha y a mucha honra') o señalar la asimetría con 'progre', 'rojo' o 'chavista'. En los hilos de Ceuta y sanchismo el término funciona como atajo moral para cerrar debates sin argumentar.",
+   "quote": "'Facha': de arma de la izquierda a badge de honor irónico de la derecha — la asimetría del insulto estrella se mantiene en los hilos de Ceuta.",
    "details": [
     [
      "Volumen en X",
@@ -340,111 +345,111 @@
     ],
     [
      "Impulsado por",
-     "Uso masivo + queja por vaciamiento + definición RAE"
+     "Devaluación + ironía + asimetría"
     ]
    ]
   }
  ],
  "news": [
   {
-   "title": "Caso PSOE: imputada la gerente Ana María Fuentes y 81 cuentas bajo rastreo de la UCO",
-   "date": "24-25 ago 2026",
-   "summary": "La gerente del PSOE declarará el 9 de septiembre por falsedad documental, mientras la UCO y Anticorrupción rastrean 81 cuentas bancarias (al menos 6 del partido) en el caso de los pagos a Leire Díez 'la fontanera' —4.000 € vía una sociedad de Gaspar Zarrías y 27.225 € por sociedades interpuestas—, con facturas por servicios no prestados por 125.000 € y menciones a hasta 300.000 € para sobornar a un fiscal.",
-   "source": "X (@EugenioValle64, @TTiTTulares) / El Debate",
-   "tags": [
-    "Sanchismo",
-    "UCO"
-   ]
-  },
-  {
-   "title": "Sánchez convoca el Consejo de Seguridad Nacional por Ceuta; Sanidad envía 25.000-45.000 dosis de vacunas",
-   "date": "24-25 ago 2026",
-   "summary": "Un mes después del asalto, el Gobierno activa el órgano de crisis mientras quedan 5.000-10.000 personas en la ciudad y repuntan las 'pateras-taxi' hacia el Estrecho (8.000-9.000 € por persona). Feijóo mantiene la exigencia de confinamiento por 'riesgo sanitario'; el Gobierno tacha de xenófoba la asociación de inmigración y enfermedad.",
-   "source": "El Español / X (@ElFarodeCeuta, @mfan_gc)",
+   "title": "Ceuta: el Gobierno declara la 'situación de interés para la Seguridad Nacional' con mando único de Torres",
+   "date": "25-27 ago 2026",
+   "summary": "El Real Decreto publicado el 26 de agosto activa el mando único coordinado por el ministro Ángel Víctor Torres (hasta el 31 de diciembre, prorrogable) y moviliza recursos de Defensa. La crisis encadena episodios graves: emboscada a un vehículo del Ejército (4 militares heridos, 12 detenidos), 16 casos de agresiones sexuales según la Fiscalía (17 víctimas, mayoría menores) y vecinos que queman campamentos y bloquean camiones de Cruz Roja. Sánchez comparecerá en el Congreso el 3 de septiembre.",
+   "source": "X (@caval100, @gonzaloaranaa, @enriquefmiranda) / El Español",
    "tags": [
     "Inmigración",
     "Ceuta"
    ]
   },
   {
-   "title": "'La caída de los influencers' ya es fenómeno con nombre: Erola Jons (La Vuelta) y Alberto Alonso (Japón) disparan el boicot",
-   "date": "22-25 ago 2026",
-   "summary": "EFE acuña el término el 22 de agosto ante el hartazgo por el privilegio, el postureo y la publicidad excesiva. Los casos concretos: Erola Jons, restringida en La Vuelta por sus acercamientos a ciclistas como Pogacar, y el influencer Alberto Alonso (Aruberuto Makoto), acusado de acosar en directo a una joven ebria en Japón, con indignación masiva y cobertura de El Mundo como acoso, no humor.",
-   "source": "EFE / El Mundo / X",
+   "title": "Caso PSOE: detenido Hamlyn en Abu Dabi, facturas falsas por 188.000 € y el partido 'al borde de la imputación'",
+   "date": "25-27 ago 2026",
+   "summary": "La UCO y Anticorrupción rastrean 81 cuentas bancarias (al menos 6 del PSOE) y una red de facturas falsas por ~188.000 € supuestamente 'para proteger a Pedro Sánchez'. Alejandro Hamlyn, cerebro de un fraude de IVA de 154 M€, fue detenido por Interpol en Abu Dabi tras una videollamada con Leire Díez en la que ofrecía información contra el teniente coronel Balas a cambio de impunidad. La gerente Ana María Fuentes declara el 9 de septiembre, el mismo día de la comparecencia de Sánchez por Ceuta.",
+   "source": "X (@CapitanBitcoin, @AlvaroAranda_, @EmiliAviles) / El Mundo",
    "tags": [
-    "Cultura de la Cancelación",
-    "Influencers"
+    "Sanchismo",
+    "UCO"
    ]
   },
   {
-   "title": "Junts y ERC marcan distancias con Aliança Catalana; la requisa de esteladas en Elche tensa el pulso con Marlaska",
-   "date": "22-25 ago 2026",
-   "summary": "Ambos partidos aseguran que 'no se puede hacer nada bueno con quien predica odio' mientras Orriols crece y Aliança se frota las manos con la división; las cargas policiales y la requisa de esteladas a aficionados del Barça en Elche generan denuncias y cartas de Junts y ERC al ministro del Interior, y el regreso de Puigdemont con la financiación autonómica promete un 'otoño caliente'.",
-   "source": "X (@cetuebc, @PagesReusenc) / El Español",
+   "title": "GESOP: Aliança Catalana sería segunda fuerza (16,8%) y supera a ERC y Junts; frente común para la Diada",
+   "date": "27 ago 2026",
+   "summary": "La encuesta del GESOP da a AC 25-28 escaños por delante de ERC (16,0%) y muy por encima de Junts (11,5%), que sufre un fuerte desgaste a nueve meses de las municipales. Junts y ERC preparan un frente común para aislar a la formación de Orriols en los actos de la Diada del 11 de septiembre, mientras el Govern podría perder su mayoría y se discuten cordones sanitarios.",
+   "source": "X (@larespuesta_es, @ecd_) / El Confidencial Digital",
    "tags": [
     "Independentismo",
     "Aliança Catalana"
    ]
   },
   {
-   "title": "El abolicionismo se organiza: II Congreso Estatal en Sevilla y denuncias de explotación sexual en Aste Nagusia",
-   "date": "22-24 ago 2026",
-   "summary": "La Plataforma Estatal de Organizaciones de Mujeres convoca el congreso abolicionista del 3 de octubre y exige la LOASP, mientras colectivos feministas denuncian la explotación sexual en las fiestas de Bilbao y avanzan ordenanzas municipales (Vigo, noroeste) con sanciones a puteros y ayuda a víctimas. Amelia Tiganus da testimonio en Hora 25.",
-   "source": "X (@Abolicion_Prost, @feministas_cong) / Cadena SER",
+   "title": "'La caída de los influencers' se consolida: boicot a Marta Díaz, Roro y Lucía Sánchez por publicidad encubierta",
+   "date": "24-27 ago 2026",
+   "summary": "La Vanguardia, El Debate y The Hollywood Reporter España cubren el hartazgo colectivo de la audiencia contra el privilegio, la falta de autenticidad y el exceso publicitario. Los casos concretos (Marta Díaz, Roro tras La Velada, Lucía Sánchez) alimentan una ola de boicots y unfollows que algunos califican de presión legítima del consumidor y otros de 'cultura de la cancelación' exagerada.",
+   "source": "La Vanguardia / El Debate / THR España / X",
    "tags": [
-    "Feminismo",
-    "LOASP"
+    "Cultura de la Cancelación",
+    "Influencers"
+   ]
+  },
+  {
+   "title": "Pérez-Reverte viraliza 'atletas y atletos' (+21.000 likes) y la RAE queda en el punto de mira por su 'silencio'",
+   "date": "16-27 ago 2026",
+   "summary": "El tuit del académico contra el desdoblamiento absurdo —'atleta' es epiceno y no necesita 'atleto'— supera los 21.000 likes, ~6.000 retuits y casi un millón de views, y reaviva la polémica del lenguaje inclusivo forzado. 'Cuando 20.000 idiotas digan atleto, la RAE dirá que está documentado y lo admitirá', escribió, acusando a la Academia de 'tragárselo todo'.",
+   "source": "X (@perezreverte) / RAE (@RAEinforma)",
+   "tags": [
+    "Lenguaje Inclusivo",
+    "RAE"
    ]
   }
  ],
  "trends": [
   {
-   "name": "Sanchismo / Caso PSOE",
-   "change": "up",
-   "pct": "+10%",
-   "detail": "Imputación de la gerente Ana María Fuentes, 81 cuentas rastreadas y la 'fontanera' Leire Díez centran la trama a las puertas de la declaración del 9 de septiembre."
-  },
-  {
-   "name": "Cultura cancelación / Caída influencers",
-   "change": "up",
-   "pct": "+15%",
-   "detail": "EFE acuña el fenómeno (22 ago) y los casos Erola Jons en La Vuelta y Alberto Alonso en Japón disparan la ola de boicots, unfollows y cancelaciones."
-  },
-  {
    "name": "Independentismo / Aliança Catalana",
    "change": "up",
-   "pct": "+8%",
-   "detail": "Junts y ERC marcan distancias con AC, la carga policial de Elche y el 'otoño caliente' de Puigdemont reactivan una conversación que dormitaba."
+   "pct": "+20%",
+   "detail": "El GESOP del 27 de agosto (AC 16,8%, segunda fuerza por delante de ERC y Junts) dispara la conversación y convierte la Diada en campo de batalla con el frente común anti-AC."
   },
   {
-   "name": "Ley Trans / Post-Cass",
+   "name": "Lenguaje inclusivo / 'Atletos'",
    "change": "up",
-   "pct": "+6%",
-   "detail": "El artículo de The Objective sobre la 'incertidumbre' de la hormonación en menores sigue circulando como munición principal de los críticos."
+   "pct": "+15%",
+   "detail": "El tuit de Pérez-Reverte (16 ago, +21K likes) revivive una polémica que llevaba semanas en declive: 'atletas y atletos' vuelve a ser munición masiva contra el inclusivo forzado."
+  },
+  {
+   "name": "Sanchismo / Caso PSOE",
+   "change": "up",
+   "pct": "+12%",
+   "detail": "Detención de Hamlyn en Abu Dabi, facturas falsas por 188.000 € y el PSOE 'al borde de la imputación': el 9 de septiembre se cruzan la declaración de Fuentes y la comparecencia de Sánchez."
   },
   {
    "name": "Inmigración / Crisis de Ceuta",
    "change": "up",
+   "pct": "+10%",
+   "detail": "La 'situación de interés para la Seguridad Nacional' con mando único, la emboscada a militares y las quemas de campamentos mantienen el tema en máximos con Sánchez citado el 3 de septiembre."
+  },
+  {
+   "name": "Cultura cancelación / Caída influencers",
+   "change": "up",
+   "pct": "+8%",
+   "detail": "El boicot se consolida con casos con nombre (Marta Díaz, Roro, Lucía Sánchez) y cobertura de Vanguardia, El Debate y THR España: 'de la autenticidad al código de descuento'."
+  },
+  {
+   "name": "Okupación / Desalojos",
+   "change": "up",
    "pct": "+5%",
-   "detail": "El Consejo de Seguridad Nacional convocado por Sánchez, el envío masivo de vacunas y el repunte de 'pateras-taxi' hacia el Estrecho mantienen el tema en máximos."
+   "detail": "Las sentencias de agosto 'blindan' la propiedad privada y aceleran desahucios: Periódico de Baleares declara el fin del 'fenómeno' de la okupación privilegiada."
   },
   {
    "name": "Woke / Backlash",
    "change": "stable",
    "pct": "0%",
-   "detail": "El hilo de MarieBensimon sigue referenciándose, pero las voces que minimizan ('no existe wokismo en España') empiezan a equilibrar la conversación."
-  },
-  {
-   "name": "Lenguaje inclusivo / 'Atletos'",
-   "change": "down",
-   "pct": "-15%",
-   "detail": "Sin nuevo detonante, el ejemplo de 'atletos' queda reducido a la burla satírica con engagement bajo y el debate vuelve a ser de fondo (RAE + masculino genérico)."
+   "detail": "El discurso anti-woke sigue dominante y se funde con la crisis de Ceuta, aunque crecen los matices (PelaoTelo2, femi_artesanal, Kaptar) contra el 'antiwokismo de Estado'."
   },
   {
    "name": "Memoria Histórica / Cuelgamuros",
-   "change": "down",
-   "pct": "-20%",
-   "detail": "Sin exhumaciones en agosto, el tema queda reducido a un documental, el acceso a criptas y casos familiares a la espera de novedades."
+   "change": "stable",
+   "pct": "0%",
+   "detail": "Sin exhumaciones de alto perfil, el documental de RTVE sobre las criptas ('entre lo difícil y lo imposible') y la ARMH mantienen el tema en segundo plano."
   }
  ],
  "accounts": [
@@ -453,162 +458,162 @@
    "name": "Profe de historia",
    "category": "Muy derecha",
    "color": "#003399",
-   "desc": "Muy activo: 'Cada vez soy más consciente de que trabajo para mi familia y para varias familias marroquíes' (~930 likes, 24 ago), 'Para clasista, la Paqui...' (~1.8K likes) y crítica al IMV (~579)."
+   "desc": "Muy activo (27 ago): 'Sánchez odia España mucho más que lo que España odia a Sánchez' (~2.5K likes), homenaje a Isaías Carrasco con pitidos y quotes sobre Ceuta con alto engagement."
   },
   {
    "handle": "@dianitanoticias",
    "name": "Dianita",
    "category": "Muy derecha",
    "color": "#003399",
-   "desc": "Ultra, alineada Vox. Inmigración, soberanía, anti-Sánchez. Sin actividad detectable (6ª semana consecutiva, agosto)."
+   "desc": "Ultra, alineada Vox. Inmigración, soberanía, anti-Sánchez. Sin actividad detectable (7ª semana consecutiva, agosto)."
   },
   {
    "handle": "@billkilgore_",
    "name": "Kilgore de Lezo",
    "category": "Joker 🃏",
    "color": "#996633",
-   "desc": "Humor, memes, fútbol. Activo: post visual con ~14.8K likes (22 ago) y 'me suena la historia si' (~6.1K likes)."
+   "desc": "Humor sarcástico. Activo (27 ago): 'coñitas de Aznar en agosto de 2026' (~2.9K likes) y 'toca trabajar muchachos. Cifras sonrojantes' (~3.7K likes)."
   },
   {
    "handle": "@Tagelca",
    "name": "Tage",
    "category": "Derecha",
    "color": "#0055cc",
-   "desc": "Muy activo en humor con altísimo engagement: viral de Vinicius (~22K likes, 1.33M views, 22 ago) y Ester Expósito en Hollywood (~6.7K likes, 24 ago)."
+   "desc": "Muy activo en humor con altísimo engagement: viral del GTA 6 (~20K likes, 27 ago) y 'Tiesada histórica' de Adama Traoré (~5.4K likes, 623K views)."
   },
   {
    "handle": "@elxokas",
    "name": "ElXokas",
    "category": "Derecha",
    "color": "#0055cc",
-   "desc": "Streamer, anti-woke. Participó en el debate del boicot a influencers y mantiene su línea de crítica a la industria del contenido."
+   "desc": "Streamer, anti-woke. Activo (26 ago): 'Denunciadle la cuenta entre todos se la tiramos abajo a este cerdo' contra @DaniRep (~8.6K likes), en pleno drama de streamers."
   },
   {
    "handle": "@TemplarExtre",
    "name": "Templar Extremeño",
    "category": "Derecha",
    "color": "#0055cc",
-   "desc": "Cristiano, anti-woke, hispanista. Batalla cultural constante. Sin actividad detectable (4ª semana consecutiva, agosto)."
+   "desc": "Cristiano, anti-woke, hispanista. Batalla cultural constante. Sin actividad detectable (5ª semana consecutiva, agosto)."
   },
   {
    "handle": "@13mescribano",
    "name": "Luis Escribano",
    "category": "Neutro",
    "color": "#666699",
-   "desc": "Crítica sistémica al régimen del 78. Continúa denunciando el uso partidista de instituciones y convocando movilizaciones por la sanidad pública."
+   "desc": "Crítica sistémica al régimen del 78. Activo (26 ago): 'el régimen partidocrático del 78 es un cáncer para España' y denuncias sobre Ceuta/Melilla y la falta de democracia real."
   },
   {
    "handle": "@VictorLapuente",
    "name": "Víctor Lapuente",
    "category": "Neutro",
    "color": "#666699",
-   "desc": "Académico. Datos, instituciones, corrupción. Sin actividad detectable (4ª semana consecutiva, agosto)."
+   "desc": "Académico. Datos, instituciones, corrupción. Sin actividad detectable (5ª semana consecutiva, agosto)."
   },
   {
    "handle": "@EstefMolina_",
    "name": "Estefanía Molina",
    "category": "Neutro",
    "color": "#666699",
-   "desc": "Politóloga. Activa: caída de la clase media (~1.7K likes, 21 ago), crisis de Ceuta y mando único (~766, 24 ago) y la marcha de Jon González del debate público."
+   "desc": "Politóloga. Activa (27 ago): 'Juan Manuel Vivas lleva estando desde el día uno al lado de sus vecinos... buena política' (~2.3K likes) y crítica a los argumentarios oficiales sobre desahucios."
   },
   {
    "handle": "@nicolasdepedro",
    "name": "Nicolás de Pedro",
    "category": "Neutro",
    "color": "#666699",
-   "desc": "Analista RRII. Sigue activo en geopolítica, espionaje marroquí y crítica a la gestión exterior del Gobierno."
+   "desc": "Analista RRII. Activo (27 ago): '#CeutaEsEspaña' sobre ministros que blanquearon la trama rusa del procés y ahora se alinean con Marruecos (~211 likes), más análisis de la visita del jefe de la CIA a Moscú."
   },
   {
    "handle": "@armesillaconde",
    "name": "Santiago Armesilla",
    "category": "Izquierda",
    "color": "#e84700",
-   "desc": "Socialismo patriótico. Activo: polémico post sobre tatuajes (~3K likes, 24 ago), crítica a Luis del Pino y anuncios de sus directos de geopolítica."
+   "desc": "Socialismo patriótico. Muy activo (27 ago): 'La guerra con Marruecos ya ha comenzado' por la emboscada en Ceuta (~1.6K likes), 'la insubordinación fundante socialista de China es gloriosa' y promo de YouTube."
   },
   {
    "handle": "@Anujbost",
    "name": "Anuj",
    "category": "Izquierda",
    "color": "#e84700",
-   "desc": "Socialdemócrata crítico. Muy activo: 'El Gobierno tiene que dimitir' por Ceuta/Marruecos (~9K likes, 23 ago) y 'Escoria' contra streamers acosadores (~17K likes, 20 ago)."
+   "desc": "Socialdemócrata crítico. Muy activo en Ceuta: 'Otro ministro más reclama Ceuta y Melilla delante del rey de marruecos... Increíble' (~7.7K likes) y crítica a los 40 días de Sánchez en comparecer (~5.2K)."
   },
   {
    "handle": "@geoestratego",
    "name": "Pedro Baños",
    "category": "Derecha",
    "color": "#0055cc",
-   "desc": "Coronel, geopolítica. Muy activo: espionaje marroquí y 'españoles que actúan en beneficio de Marruecos' (~3.2K likes, 24 ago) y Pakistán declara terrorista a Netanyahu (~2.6K)."
+   "desc": "Coronel, geopolítica. Muy activo (27 ago): hackers 'regalan a España' los datos de 70.000 agentes del espionaje marroquí (~8K likes), aviso del CNI a Marlaska y emboscada a militares (~2K cada uno)."
   },
   {
    "handle": "@elmundotoday",
    "name": "El Mundo Today",
    "category": "Joker 🃏",
    "color": "#996633",
-   "desc": "Periodismo satírico. Pega a todos los bandos. Sin actividad detectable (4ª semana consecutiva, agosto)."
+   "desc": "Periodismo satírico. Pega a todos los bandos. Sin actividad detectable (5ª semana consecutiva, agosto)."
   },
   {
    "handle": "@littleragergirl",
    "name": "Abby",
    "category": "Joker 🃏",
    "color": "#996633",
-   "desc": "Streamer gaming, sarcástica. No política pero sale en dramas tuiteros. Sin actividad detectable (4ª semana consecutiva, agosto)."
+   "desc": "Streamer gaming, sarcástica. No política pero sale en dramas tuiteros. Sin actividad detectable (5ª semana consecutiva, agosto)."
   },
   {
    "handle": "@LaBugsBunnyIA",
    "name": "Fábrica de Memes",
    "category": "Joker 🃏",
    "color": "#996633",
-   "desc": "Memes e investigaciones en vídeo. Activo (24-25 ago), aunque su contenido reciente está centrado en política argentina (Kicillof, usurpaciones, jueces)."
+   "desc": "Memes e investigaciones en vídeo. Activo (27 ago) pero centrado en política argentina: 'MASSA SE RÍE DE VOS' y críticas a CFK por la compra de un departamento."
   }
  ],
  "virals": [
   {
-   "author": "@Tagelca",
-   "date": "22 ago 2026",
-   "text": "'¿Se ha puesto silicona en el ojete? Qué coño es esto': humor futbolero citando la foto de Vinicius Jr., el tuit más viral de la semana.",
-   "engagement": "~22K likes · 620 RTs · 1.33M views",
-   "topic": "Humor / Joker",
-   "link": "https://x.com/Tagelca/status/2091256107830313306"
-  },
-  {
-   "author": "@Anujbost",
-   "date": "20 ago 2026",
-   "text": "'Escoria': condena al influencer que acosó en directo a una joven en Japón (caso Alberto Alonso), uno de los posts más virales del directorio.",
-   "engagement": "~17K likes · 1.8K RTs · 645K views",
+   "author": "@elxokas",
+   "date": "26 ago 2026",
+   "text": "'Denunciadle la cuenta entre todos se la tiramos abajo a este cerdo @DaniRep @illojuan': llamamiento viral del streamer en pleno drama entre creadores, el tuit más viral del directorio.",
+   "engagement": "~8.6K likes · 234K views",
    "topic": "Cultura de la Cancelación",
-   "link": "https://x.com/Anujbost/status/2090441392329814428"
-  },
-  {
-   "author": "@billkilgore_",
-   "date": "22 ago 2026",
-   "text": "Post visual de humor con altísimo engagement, en su línea de memes y respuestas cortas.",
-   "engagement": "~14.8K likes · 757 RTs · 261K views",
-   "topic": "Humor / Joker",
-   "link": "https://x.com/billkilgore_/status/2091267472880251354"
+   "link": "https://x.com/elxokas/status/2092646617568493799"
   },
   {
    "author": "@Anujbost",
-   "date": "23 ago 2026",
-   "text": "Crítica dura al Gobierno por Ceuta/Marruecos: 'El Gobierno tiene que dimitir', citando la reivindicación marroquí de las ciudades autónomas.",
-   "engagement": "~9K likes · 1.7K RTs · 293K views",
+   "date": "24 ago 2026",
+   "text": "'Otro ministro más reclama Ceuta y Melilla delante del rey de marruecos... Increíble': crítica por la gestión exterior del Gobierno durante la crisis de Ceuta.",
+   "engagement": "~7.7K likes · 1.6K RTs · 170K views",
    "topic": "Inmigración / Soberanía",
-   "link": "https://x.com/Anujbost/status/2091528087812948057"
+   "link": "https://x.com/Anujbost/status/2092211495346057346"
+  },
+  {
+   "author": "@Tagelca",
+   "date": "26 ago 2026",
+   "text": "'Tiesada histórica. Solo le falta el andador': humor futbolero citando a Adama Traoré en el Dépor, el viral deportivo de la semana.",
+   "engagement": "~5.4K likes · 623K views",
+   "topic": "Humor / Joker",
+   "link": "https://x.com/Tagelca/status/2092894396433789043"
   },
   {
    "author": "@geoestratego",
-   "date": "24 ago 2026",
-   "text": "Sobre el espionaje marroquí: 'Lo que queremos es que nos regalen la relación de todos los españoles que actúan en beneficio de Marruecos'.",
-   "engagement": "~3.2K likes · 826 RTs · 33K views",
+   "date": "25 ago 2026",
+   "text": "'Sin prisa, que no es un tema importante...': ironía sobre que Sánchez comparezca el 9 de septiembre por Ceuta, un mes después del asalto.",
+   "engagement": "~4.9K likes · 840 RTs · 83K views",
    "topic": "Inmigración / Geopolítica",
-   "link": "https://x.com/geoestratego/status/2091993994020434200"
+   "link": "https://x.com/geoestratego/status/2092537089741001084"
+  },
+  {
+   "author": "@billkilgore_",
+   "date": "27 ago 2026",
+   "text": "'coñitas de Aznar en agosto de 2026.': sarcasmo puro sobre la actualidad política española, en su línea de replies cortos.",
+   "engagement": "~2.9K likes · 28K views",
+   "topic": "Humor / Joker",
+   "link": "https://x.com/billkilgore_/status/2093046672368492805"
   },
   {
    "author": "@profsecundario",
-   "date": "23-24 ago 2026",
-   "text": "'Para clasista, la Paqui. Para racistas, los de Bildu... Para mentirosos, Sánchez': desglose irónico del doble rasero progresista.",
-   "engagement": "~1.9K likes · 569 RTs · 21.5K views",
+   "date": "23 ago 2026",
+   "text": "'No lo dudéis: Sánchez odia España mucho más que lo que España odia a Sánchez.': el post más viral de la semana del profe de historia.",
+   "engagement": "~2.5K likes · 458 RTs · 14K views",
    "topic": "Sanchismo",
-   "link": "https://x.com/profsecundario/status/2091782470337270162"
+   "link": "https://x.com/profsecundario/status/2092336386095329398"
   }
  ]
 }
