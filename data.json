@@ -1,33 +1,37 @@
 {
  "meta": {
-  "generated_at": "2026-08-28T08:18:27+02:00",
+  "generated_at": "2026-08-29T08:15:00+02:00",
   "source": "cron 09f22b3f6f78",
   "queries": [
-   "sanchismo caso PSOE UCO corrupción Sánchez España debate agosto 2026 (desde 2026-08-25)",
-   "inmigración Ceuta cayucos llegadas España debate seguridad agosto 2026 (desde 2026-08-25)",
-   "independentismo Cataluña Junts ERC Aliança Catalana Diada Puigdemont agosto 2026 (desde 2026-08-25) [degraded retry]",
-   "cultura de la cancelación boicot influencers España polémica agosto 2026 (desde 2026-08-25)",
-   "encuesta GESOP Aliança Catalana Orriols segunda fuerza Cataluña elecciones reacción [degraded retry]",
-   "Orriols Aliança Catalana Diada Puigdemont Junts ERC polémica catalana reacción redes (desde 2026-08-25) [retry OK]",
-   "okupación desalojo exprés vivienda okupas España polémica agosto 2026 (desde 2026-08-25)",
-   "memoria histórica Cuelgamuros exhumaciones ley memoria España agosto 2026 (desde 2026-08-25) [degraded]",
-   "Cuelgamuros memoria democrática exhumaciones documental RTVE criptas familias debate España [retry degraded]",
-   "feminismo abolicionismo prostitución LOASP España debate agosto 2026 (desde 2026-08-25) [degraded]",
-   "Congreso abolicionista Sevilla LOASP plataforma estatal Vigo ordenanza puteros Bilbao fiestas [retry OK]",
-   "ley trans menores bloqueadores pubertad España polémica agosto 2026 (desde 2026-08-25) [resultado Colombia, no válido]",
-   "ley trans España debate The Objective Cass Review hormonación menores derogación [retry degraded]",
-   "ideología woke crítica España adoctrinamiento cancelación debate agosto 2026 (desde 2026-08-25)",
-   "lenguaje inclusivo atletos RAE desdoblamiento polémica España agosto 2026 (desde 2026-08-25)",
-   "España vaciada incendios forestales despoblación rural SOS Rural agosto 2026 (desde 2026-08-25) [degraded]",
-   "incendios forestales España hectáreas quemadas Niebla Segorbe Gátova SOS Rural balance agosto 2026 [retry OK]",
-   "facha insulto político derecha izquierda España redes agosto 2026 (desde 2026-08-25)",
-   "publicaciones recientes y actividad de @profsecundario @dianitanoticias @Tagelca @elxokas @TemplarExtre @geoestratego @13mescribano @VictorLapuente @EstefMolina_ @nicolasdepedro (desde 2026-08-25) [failed: spending-limit]",
-   "publicaciones recientes y actividad de @armesillaconde @Anujbost @billkilgore_ @elmundotoday @littleragergirl @LaBugsBunnyIA (desde 2026-08-25) [failed: spending-limit]",
-   "tweets virales recientes de @profsecundario @Tagelca @geoestratego @Anujbost @EstefMolina_ @billkilgore_ @armesillaconde @elxokas @13mescribano @LaBugsBunnyIA con enlaces y engagement (desde 2026-08-25) [failed: spending-limit]"
+   "sanchismo caso PSOE UCO facturas corrupción Sánchez España debate agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
+   "inmigración Ceuta cayucos llegadas España debate seguridad agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
+   "okupación desalojo exprés vivienda okupas España polémica agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
+   "independentismo Cataluña Junts ERC Aliança Catalana Diada Puigdemont agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
+   "memoria histórica Cuelgamuros exhumaciones ley memoria España agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
+   "feminismo abolicionismo prostitución LOASP España debate agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
+   "ideología woke crítica España adoctrinamiento cancelación debate agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
+   "cultura de la cancelación boicot influencers España polémica agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
+   "ley trans menores bloqueadores pubertad España polémica agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
+   "lenguaje inclusivo atletos RAE desdoblamiento polémica España agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
+   "España vaciada incendios forestales despoblación rural SOS Rural agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
+   "facha insulto político derecha izquierda España redes agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
+   "publicaciones recientes y actividad de @profsecundario @dianitanoticias @Tagelca @elxokas @TemplarExtre @geoestratego @13mescribano @VictorLapuente @EstefMolina_ @nicolasdepedro (desde 2026-08-26) [failed: spending-limit]",
+   "publicaciones recientes y actividad de @armesillaconde @Anujbost @billkilgore_ @elmundotoday @littleragergirl @LaBugsBunnyIA (desde 2026-08-26) [failed: spending-limit]",
+   "tweets virales recientes de @profsecundario @Tagelca @geoestratego @Anujbost @EstefMolina_ @billkilgore_ @armesillaconde @elxokas @13mescribano @LaBugsBunnyIA con enlaces y engagement (desde 2026-08-26) [failed: spending-limit]"
   ],
   "stale_topics": [
+   "sanchismo",
+   "inmigracion",
+   "okupacion",
+   "independentismo",
    "memoria",
-   "ley-trans"
+   "feminismo",
+   "woke",
+   "cultura-cancelacion",
+   "ley-trans",
+   "lenguaje-inclusivo",
+   "espana-vaciada",
+   "facha"
   ],
   "inactive_accounts": [
    "dianitanoticias",
@@ -353,104 +357,104 @@
  ],
  "news": [
   {
-   "title": "Ceuta: el Gobierno declara la 'situación de interés para la Seguridad Nacional' y anuncia reformas de Extranjería y Asilo",
-   "date": "25-27 ago 2026",
-   "summary": "El Real Decreto publicado el 26 de agosto activa el mando único coordinado por el ministro Ángel Víctor Torres (hasta el 31 de diciembre, prorrogable) y moviliza recursos de Defensa, mientras el Gobierno anuncia reformas de las leyes de Extranjería y Asilo para agilizar retornos y frenar abusos del asilo. La crisis de Ceuta (60.000-80.000 entradas el 30-31 de julio) sigue muy viva en X con críticas de 'sumisión a Marruecos', temor a un 'gran CETI europeo' y protestas vecinales. Sánchez comparecerá en el Congreso el 3 de septiembre.",
-   "source": "X (@ne_solsticio, @ALMA_EZCURRA, @ConEspSTUTTGART) / El Faro de Ceuta",
+   "title": "Ceuta: Elma Saiz pide permitir el reparto de comida a los migrantes y Marruecos expulsa a 11 detenidos por atacar a militares",
+   "date": "28 ago 2026",
+   "summary": "La ministra de Migraciones pide que se permita la entrega de alimentos en la playa ('contribuye a garantizar la paz social') mientras el 90% de los españoles ve a Marruecos detrás de la invasión según El Mundo. LaSexta confirma la expulsión a Marruecos de 11 de los detenidos por agredir a militares, y Xataka subraya la pregunta sin resolver de por qué España no ha devuelto aún a los migrantes varados.",
+   "source": "RTVE / El Mundo / LaSexta / Xataka",
    "tags": [
     "Inmigración",
     "Ceuta"
    ]
   },
   {
-   "title": "Caso PSOE: la UCO destapa facturas falsas por 188.000 € 'para proteger a Sánchez' y rastrea 81 cuentas",
-   "date": "27 ago 2026",
-   "summary": "Libertad Digital revela (27 de agosto) que la UCO ha destapado una red de facturas falsas por ~188.000 € supuestamente 'para proteger a Pedro Sánchez', en paralelo al rastreo de 81 cuentas bancarias (al menos 6 del PSOE) por Anticorrupción. El partido está 'al borde de la imputación' como persona jurídica y el debate en X se enciende con #SánchezDimisión. El 9 de septiembre se cruzan la declaración de la gerente Ana María Fuentes y la comparecencia de Sánchez por Ceuta.",
-   "source": "X (@EmiliAviles) / Libertad Digital",
+   "title": "Interpol detiene en Abu Dabi al empresario Hamlyn, vinculado a la 'fontanera' del PSOE y a la búsqueda de trapos sucios contra la UCO",
+   "date": "26-27 ago 2026",
+   "summary": "ABC, El Confidencial e Intereconomía confirman la detención del empresario de hidrocarburos Alejandro Hamlyn, al que la 'cloaca del PSOE' recurrió para 'matar' a Balas, junto a Leire Díez. Coincide con el nuevo registro de la UCO en la sede del PSOE y el dardo de Feijóo ('Sánchez no puede seguir ignorando cómo se deshonra la Guardia Civil'), en plena investigación de las facturas falsas por 188.000 €.",
+   "source": "ABC / El Confidencial / Libertad Digital / PP",
    "tags": [
     "Sanchismo",
     "UCO"
    ]
   },
   {
-   "title": "GESOP: Aliança Catalana sería segunda fuerza (16,8%) y Junts se desploma; Orriols convoca al Fossar para la Diada",
-   "date": "27 ago 2026",
-   "summary": "La encuesta del GESOP da a AC 25-28 escaños por delante de ERC (16,0%) y muy por encima de Junts (11,5%), que sufre un fuerte desgaste a nueve meses de las municipales, con el PSC liderando. Orriols convoca a los suyos al Fossar de les Moreres el 10 de septiembre, en vísperas de la Diada, mientras Junts y ERC preparan un cordón sanitario contra la formación de Ripoll y se discuten cordones sanitarios.",
-   "source": "X (@larespuesta_es, @ecd_) / El Confidencial Digital",
+   "title": "Un histórico de Boixos Nois busca 50 'protectores' para el acto de Orriols en el Fossar de les Moreres",
+   "date": "27-28 ago 2026",
+   "summary": "El Periódico revela que un histórico de Boixos Nois recluta seguidores para 'proteger' el acto de Sílvia Orriols del 10 de septiembre, en vísperas de la Diada. El PSC extiende su frente de izquierdas a los ayuntamientos para frenar a Aliança Catalana y Vidal-Quadras vaticina una victoria de AC en las próximas elecciones al Parlament.",
+   "source": "El Periódico / moncloa.com / La Ciutat",
    "tags": [
     "Independentismo",
     "Aliança Catalana"
    ]
   },
   {
-   "title": "'La caída de los influencers' se acelera: Roro pierde casi un millón de seguidores en un mes",
-   "date": "24-27 ago 2026",
-   "summary": "Un análisis de Marketing4eCommerce cifra la sangría: Roro habría perdido casi 1M de seguidores en el último mes, con caídas notables también para Fabiana Sevillano, Natalia Palacios, Carliyo el Nervio y Lola Lolita. Vanguardia, El Debate y The Hollywood Reporter España cubren el boicot por publicidad encubierta, privilegios y falta de autenticidad: 'de la autenticidad al código de descuento'.",
-   "source": "X (@Mkt4eCommerce, @vanguardiacom, @eldebate_com) / Marketing4eCommerce",
+   "title": "La 'caída de los influencers' se consolida con matices: Marketing4eCommerce concluye que 'no es para tanto... excepto para RoRo'",
+   "date": "25-28 ago 2026",
+   "summary": "El análisis de Marketing4eCommerce cifra las pérdidas de seguidores y matiza el alcance del fenómeno, salvo en el caso de RoRo. Ultima Hora, Diario de Mallorca y Flooxer lo enmarcan como seguidores 'más exigentes' que amenazan el negocio de las redes, tras las portadas de Vanguardia y THR de la semana pasada.",
+   "source": "Marketing4eCommerce / Ultima Hora / Diario de Mallorca",
    "tags": [
     "Cultura de la Cancelación",
     "Influencers"
    ]
   },
   {
-   "title": "'Atletas y atletos': la RAE responde con su doctrina mientras las burlas no cesan",
-   "date": "16-27 ago 2026",
-   "summary": "El vídeo de la comentarista deportiva (16 de agosto, +1M de views, 'ESTO YA ES ENFERMEDAD MENTAL.....') y el tuit de Pérez-Reverte (+21.000 likes, ~6.000 reposts, casi 1M de views) mantienen la polémica del desdoblamiento una semana después. La RAE responde recordando su doctrina: el desdoblamiento solo es necesario cuando la distinción de género es relevante (§2.1 de la Nueva gramática), mientras la sátira ('dentistas y dentistos') domina X.",
-   "source": "X (@perezreverte, @RAEinforma, @vicmies1)",
+   "title": "Un jubilado logra desalojar a los okupas de su casa y ahora Hacienda le reclama 12.000 euros en impuestos",
+   "date": "27 ago 2026",
+   "summary": "El Debate relata el caso del jubilado que recuperó su vivienda tras meses de okupación y recibió después una reclamación de Hacienda por 12.000 €, reavivando en X el debate sobre los costes del desalojo para los propietarios. La Voz de Galicia y Onda Cero suman casos locales de okupación frustrada en Oleiros y Aspe.",
+   "source": "El Debate / La Voz de Galicia / Onda Cero",
    "tags": [
-    "Lenguaje Inclusivo",
-    "RAE"
+    "Okupación",
+    "Vivienda"
    ]
   }
  ],
  "trends": [
   {
+   "name": "Sanchismo / Caso UCO",
+   "change": "up",
+   "pct": "+8%",
+   "detail": "Nuevo registro de la UCO en la sede del PSOE, dardo de Feijóo y detención en Abu Dabi del empresario Hamlyn (26-27 ago) mantienen el caso en ebullición tras las facturas falsas de 188.000 €."
+  },
+  {
    "name": "Independentismo / Aliança Catalana",
    "change": "up",
-   "pct": "+18%",
-   "detail": "El GESOP del 27 de agosto (AC 16,8%, segunda fuerza por delante de ERC, Junts al 11,5%) dispara la conversación: Orriols convoca al Fossar el 10-S y Junts/ERC preparan el cordón sanitario para la Diada."
-  },
-  {
-   "name": "Lenguaje inclusivo / 'Atletos'",
-   "change": "up",
-   "pct": "+12%",
-   "detail": "La polémica del desdoblamiento sigue viva: la RAE responde con su doctrina y las burlas ('dentistas y dentistos') mantienen el tema como munición masiva contra el inclusivo forzado."
-  },
-  {
-   "name": "Cultura cancelación / Caída influencers",
-   "change": "up",
    "pct": "+10%",
-   "detail": "El boicot se consolida con cifras: Roro pierde casi 1M de seguidores en un mes y caen también Fabiana Sevillano, Natalia Palacios y Carliyo el Nervio, con portadas en Vanguardia, El Debate y THR."
+   "detail": "Boixos Nois busca 'protectores' para el acto del Fossar de Orriols, el PSC extiende su frente anti-AC a los ayuntamientos y Vidal-Quadras vaticina victoria de AC: la escalada continúa de cara a la Diada."
   },
   {
    "name": "Okupación / Desalojos",
    "change": "up",
    "pct": "+5%",
-   "detail": "El Supremo avala desalojos por precario y las sentencias de agosto aceleran la recuperación de inmuebles: Periódico de Baleares declara 'acabado el fenómeno' de la okupación privilegiada."
+   "detail": "El caso del jubilado que desalojó a los okupas y ahora Hacienda le reclama 12.000 € reaviva la polémica sobre los costes del desalojo exprés para los propietarios."
   },
   {
    "name": "Inmigración / Crisis de Ceuta",
    "change": "stable",
    "pct": "0%",
-   "detail": "La 'situación de interés para la Seguridad Nacional' con mando único de Torres y las reformas de Extranjería/Asilo mantienen el tema en máximos sostenidos hasta la comparecencia de Sánchez el 3 de septiembre."
+   "detail": "La crisis sigue en máximos sostenidos: Elma Saiz pide permitir el reparto de comida a los migrantes, Marruecos expulsa a 11 detenidos por atacar a militares y El Mundo publica que el 90% ve a Marruecos detrás de la invasión."
   },
   {
-   "name": "Sanchismo / Caso PSOE",
+   "name": "Cultura cancelación / Caída influencers",
    "change": "stable",
    "pct": "0%",
-   "detail": "Las facturas falsas por 188.000 € reveladas por Libertad Digital (27 ago) mantienen el caso en ebullición: el 9 de septiembre se cruzan la declaración de Fuentes y la comparecencia de Sánchez."
+   "detail": "El fenómeno se consolida con matices: Marketing4eCommerce cifra las pérdidas y concluye que 'no es para tanto... excepto para RoRo', en pleno debate sobre seguidores más exigentes."
   },
   {
    "name": "España vaciada / Incendios",
    "change": "stable",
    "pct": "0%",
-   "detail": "EFFIS estima ~300.000 ha quemadas y el 46,7% de la superficie de la UE: Niebla (~33.000 ha) y Segorbe-Gátova cierran una temporada récord con la gestión forestal en el centro del debate."
+   "detail": "Copernicus confirma el 46,7% de la superficie quemada de la UE y EcoAvant destaca que el 30% afecta a espacios protegidos: balance provisional de una temporada récord."
+  },
+  {
+   "name": "Memoria histórica / Cuelgamuros",
+   "change": "stable",
+   "pct": "0%",
+   "detail": "Sin novedades de calado: el documental de RTVE sobre las criptas de Cuelgamuros (33.800 cuerpos) se estrenará en el Festival de San Sebastián, con el tema en segundo plano."
   },
   {
    "name": "Woke / Backlash",
    "change": "stable",
    "pct": "0%",
-   "detail": "El discurso anti-woke sigue dominante y fundido con Ceuta y la universidad, aunque crecen los matices (PelaoTelo2, femi_artesanal) contra el 'antiwokismo de Estado'; Foro Madrid prepara su V Encuentro."
+   "detail": "Sin detonante noticioso nuevo en la semana: el discurso anti-woke sigue activo en X pero sin polémica mediática destacada que lo dispare."
   }
  ],
  "accounts": [
@@ -572,31 +576,31 @@
    "author": "@elxokas",
    "date": "26 ago 2026",
    "text": "'Denunciadle la cuenta entre todos se la tiramos abajo a este cerdo @DaniRep @illojuan': llamamiento viral del streamer en pleno drama entre creadores, el tuit más viral del directorio.",
-   "engagement": "~8.6K likes · 234K views",
+   "engagement": "~8.9K likes · 247K views",
    "topic": "Cultura de la Cancelación",
    "link": "https://x.com/elxokas/status/2092646617568493799"
   },
   {
    "author": "@Anujbost",
-   "date": "24 ago 2026",
+   "date": "25 ago 2026",
    "text": "'Otro ministro más reclama Ceuta y Melilla delante del rey de marruecos... Increíble': crítica por la gestión exterior del Gobierno durante la crisis de Ceuta.",
-   "engagement": "~7.7K likes · 1.6K RTs · 170K views",
+   "engagement": "~7.7K likes · 1.6K RTs · 171K views",
    "topic": "Inmigración / Soberanía",
    "link": "https://x.com/Anujbost/status/2092211495346057346"
   },
   {
    "author": "@Tagelca",
-   "date": "26 ago 2026",
+   "date": "27 ago 2026",
    "text": "'Tiesada histórica. Solo le falta el andador': humor futbolero citando a Adama Traoré en el Dépor, el viral deportivo de la semana.",
-   "engagement": "~5.4K likes · 623K views",
+   "engagement": "~5.7K likes · 679K views",
    "topic": "Humor / Joker",
    "link": "https://x.com/Tagelca/status/2092894396433789043"
   },
   {
    "author": "@geoestratego",
-   "date": "25 ago 2026",
+   "date": "26 ago 2026",
    "text": "'Sin prisa, que no es un tema importante...': ironía sobre que Sánchez comparezca el 9 de septiembre por Ceuta, un mes después del asalto.",
-   "engagement": "~4.9K likes · 840 RTs · 83K views",
+   "engagement": "~4.9K likes · 845 RTs · 84K views",
    "topic": "Inmigración / Geopolítica",
    "link": "https://x.com/geoestratego/status/2092537089741001084"
   },
@@ -604,15 +608,15 @@
    "author": "@perezreverte",
    "date": "16 ago 2026",
    "text": "'Atletas y atletos. Con la complicidad de los medios (y el silencio de la RAE, que se lo traga todo), llegamos a un punto en el que la imbecilidad no tiene límites': el tuit del académico, el más viral de la semana sobre lenguaje.",
-   "engagement": "+21K likes · ~6K RTs · ~1M views",
+   "engagement": "+21.5K likes · ~6.3K RTs · ~909K views",
    "topic": "Lenguaje Inclusivo",
    "link": "https://x.com/perezreverte/status/2089048524214194673"
   },
   {
    "author": "@profsecundario",
-   "date": "23 ago 2026",
+   "date": "25 ago 2026",
    "text": "'No lo dudéis: Sánchez odia España mucho más que lo que España odia a Sánchez.': el post más viral de la semana del profe de historia.",
-   "engagement": "~2.5K likes · 458 RTs · 14K views",
+   "engagement": "~2.5K likes · 456 RTs · 14K views",
    "topic": "Sanchismo",
    "link": "https://x.com/profsecundario/status/2092336386095329398"
   }
