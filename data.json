@@ -1,23 +1,23 @@
 {
  "meta": {
-  "generated_at": "2026-08-29T08:15:00+02:00",
+  "generated_at": "2026-08-30T08:14:54+02:00",
   "source": "cron 09f22b3f6f78",
   "queries": [
-   "sanchismo caso PSOE UCO facturas corrupción Sánchez España debate agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
-   "inmigración Ceuta cayucos llegadas España debate seguridad agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
-   "okupación desalojo exprés vivienda okupas España polémica agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
-   "independentismo Cataluña Junts ERC Aliança Catalana Diada Puigdemont agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
-   "memoria histórica Cuelgamuros exhumaciones ley memoria España agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
-   "feminismo abolicionismo prostitución LOASP España debate agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
-   "ideología woke crítica España adoctrinamiento cancelación debate agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
-   "cultura de la cancelación boicot influencers España polémica agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
-   "ley trans menores bloqueadores pubertad España polémica agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
-   "lenguaje inclusivo atletos RAE desdoblamiento polémica España agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
-   "España vaciada incendios forestales despoblación rural SOS Rural agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
-   "facha insulto político derecha izquierda España redes agosto 2026 (desde 2026-08-26) [failed: spending-limit]",
-   "publicaciones recientes y actividad de @profsecundario @dianitanoticias @Tagelca @elxokas @TemplarExtre @geoestratego @13mescribano @VictorLapuente @EstefMolina_ @nicolasdepedro (desde 2026-08-26) [failed: spending-limit]",
-   "publicaciones recientes y actividad de @armesillaconde @Anujbost @billkilgore_ @elmundotoday @littleragergirl @LaBugsBunnyIA (desde 2026-08-26) [failed: spending-limit]",
-   "tweets virales recientes de @profsecundario @Tagelca @geoestratego @Anujbost @EstefMolina_ @billkilgore_ @armesillaconde @elxokas @13mescribano @LaBugsBunnyIA con enlaces y engagement (desde 2026-08-26) [failed: spending-limit]"
+   "sanchismo caso PSOE UCO facturas corrupción Sánchez España debate agosto 2026 (desde 2026-08-27) [failed: spending-limit]",
+   "inmigración Ceuta cayucos llegadas España debate seguridad agosto 2026 (desde 2026-08-27) [failed: spending-limit]",
+   "independentismo Cataluña Aliança Catalana Diada Puigdemont ERC Junts agosto 2026 (desde 2026-08-27) [failed: spending-limit]",
+   "cultura de la cancelación boicot influencers España polémica agosto 2026 (desde 2026-08-27) [failed: spending-limit]",
+   "okupación desalojo exprés vivienda okupas España polémica agosto 2026 (desde 2026-08-27) [failed: spending-limit]",
+   "memoria histórica Cuelgamuros exhumaciones ley memoria España agosto 2026 (desde 2026-08-27) [failed: spending-limit]",
+   "feminismo abolicionismo prostitución LOASP España debate agosto 2026 (desde 2026-08-27) [failed: spending-limit]",
+   "ideología woke crítica España adoctrinamiento cancelación debate agosto 2026 (desde 2026-08-27) [failed: spending-limit]",
+   "ley trans menores bloqueadores pubertad España polémica agosto 2026 (desde 2026-08-27) [failed: spending-limit]",
+   "lenguaje inclusivo atletos RAE desdoblamiento polémica España agosto 2026 (desde 2026-08-27) [failed: spending-limit]",
+   "España vaciada incendios forestales despoblación rural agosto 2026 (desde 2026-08-27) [failed: spending-limit]",
+   "facha insulto político derecha izquierda España redes agosto 2026 (desde 2026-08-27) [failed: spending-limit]",
+   "publicaciones recientes de 16 cuentas del directorio via r.jina.ai profiles (30 ago) [fallback sin x_search]",
+   "virals verificados via api.fxtwitter.com (status IDs reales, 30 ago) [fallback sin x_search]",
+   "noticias frescas via Google News RSS / DDG (30 ago) [fallback sin x_search]"
   ],
   "stale_topics": [
    "sanchismo",
@@ -35,7 +35,6 @@
   ],
   "inactive_accounts": [
    "dianitanoticias",
-   "TemplarExtre",
    "VictorLapuente",
    "elmundotoday",
    "littleragergirl"
@@ -357,104 +356,104 @@
  ],
  "news": [
   {
-   "title": "Ceuta: Elma Saiz pide permitir el reparto de comida a los migrantes y Marruecos expulsa a 11 detenidos por atacar a militares",
-   "date": "28 ago 2026",
-   "summary": "La ministra de Migraciones pide que se permita la entrega de alimentos en la playa ('contribuye a garantizar la paz social') mientras el 90% de los españoles ve a Marruecos detrás de la invasión según El Mundo. LaSexta confirma la expulsión a Marruecos de 11 de los detenidos por agredir a militares, y Xataka subraya la pregunta sin resolver de por qué España no ha devuelto aún a los migrantes varados.",
-   "source": "RTVE / El Mundo / LaSexta / Xataka",
+   "title": "Nueva emboscada en Ceuta: un sargento herido y cuatro detenidos; el Ejército se prepara para más ataques",
+   "date": "29-30 ago 2026",
+   "summary": "Cuatro inmigrantes detenidos por apedrear a una patrulla de militares y herir a un sargento (El País). The Objective informa de que el Ejército de Tierra se prepara para más emboscadas en las calles tras el ataque del jueves, y Feijóo exige la comparecencia de la directora del CNI y anuncia que el PP se personará en la causa.",
+   "source": "El País / The Objective / Gaceta.es",
    "tags": [
     "Inmigración",
     "Ceuta"
    ]
   },
   {
-   "title": "Interpol detiene en Abu Dabi al empresario Hamlyn, vinculado a la 'fontanera' del PSOE y a la búsqueda de trapos sucios contra la UCO",
-   "date": "26-27 ago 2026",
-   "summary": "ABC, El Confidencial e Intereconomía confirman la detención del empresario de hidrocarburos Alejandro Hamlyn, al que la 'cloaca del PSOE' recurrió para 'matar' a Balas, junto a Leire Díez. Coincide con el nuevo registro de la UCO en la sede del PSOE y el dardo de Feijóo ('Sánchez no puede seguir ignorando cómo se deshonra la Guardia Civil'), en plena investigación de las facturas falsas por 188.000 €.",
-   "source": "ABC / El Confidencial / Libertad Digital / PP",
+   "title": "El nuevo curso judicial aumenta la presión al PSOE: causas a Zapatero, Cerdán y Begoña Gómez",
+   "date": "29-30 ago 2026",
+   "summary": "El Correo y EL PAÍS destacan que el PSOE afronta la vuelta de vacaciones con las cuentas de Ferraz bajo dos lupas judiciales, en paralelo a la red de 188.000 € en facturas falsas 'para proteger a Sánchez' destapada por la UCO (Libertad Digital). El caso sigue copando la conversación con la exigencia de dimisión.",
+   "source": "El Correo / EL PAÍS / Libertad Digital",
    "tags": [
     "Sanchismo",
     "UCO"
    ]
   },
   {
-   "title": "Un histórico de Boixos Nois busca 50 'protectores' para el acto de Orriols en el Fossar de les Moreres",
-   "date": "27-28 ago 2026",
-   "summary": "El Periódico revela que un histórico de Boixos Nois recluta seguidores para 'proteger' el acto de Sílvia Orriols del 10 de septiembre, en vísperas de la Diada. El PSC extiende su frente de izquierdas a los ayuntamientos para frenar a Aliança Catalana y Vidal-Quadras vaticina una victoria de AC en las próximas elecciones al Parlament.",
-   "source": "El Periódico / moncloa.com / La Ciutat",
+   "title": "La crisis de la estelada de Elche revitaliza al independentismo ante la Diada; Boixos Nois blinda a Orriols",
+   "date": "28-30 ago 2026",
+   "summary": "MUNDIARIO enmarca la polémica de la estelada de Elche como revulsivo independentista a días de la Diada, mientras un histórico de Boixos Nois busca 50 'protectores' para el acto de Sílvia Orriols en el Fossar de les Moreres (El Periódico) y Bernat Dedéu 'planta' a Orriols en la Diada (Crónica Global).",
+   "source": "MUNDIARIO / El Periódico / Crónica Global",
    "tags": [
     "Independentismo",
     "Aliança Catalana"
    ]
   },
   {
-   "title": "La 'caída de los influencers' se consolida con matices: Marketing4eCommerce concluye que 'no es para tanto... excepto para RoRo'",
-   "date": "25-28 ago 2026",
-   "summary": "El análisis de Marketing4eCommerce cifra las pérdidas de seguidores y matiza el alcance del fenómeno, salvo en el caso de RoRo. Ultima Hora, Diario de Mallorca y Flooxer lo enmarcan como seguidores 'más exigentes' que amenazan el negocio de las redes, tras las portadas de Vanguardia y THR de la semana pasada.",
-   "source": "Marketing4eCommerce / Ultima Hora / Diario de Mallorca",
+   "title": "Los españoles que vigilan (y denuncian) a los 'influencers': 'No hay señales de que se vaya a pinchar la burbuja'",
+   "date": "29-30 ago 2026",
+   "summary": "El Confidencial perfila a los vigilantes de la publicidad encubierta y el privilegio de los creadores, en pleno debate sobre la caída de seguidores (caso Roro, -1M). El fenómeno de la cancelación del 'influencer' se consolida como hartazgo de audiencia más que como boicot ideológico.",
+   "source": "El Confidencial / Onda Vasca",
    "tags": [
     "Cultura de la Cancelación",
     "Influencers"
    ]
   },
   {
-   "title": "Un jubilado logra desalojar a los okupas de su casa y ahora Hacienda le reclama 12.000 euros en impuestos",
-   "date": "27 ago 2026",
-   "summary": "El Debate relata el caso del jubilado que recuperó su vivienda tras meses de okupación y recibió después una reclamación de Hacienda por 12.000 €, reavivando en X el debate sobre los costes del desalojo para los propietarios. La Voz de Galicia y Onda Cero suman casos locales de okupación frustrada en Oleiros y Aspe.",
-   "source": "El Debate / La Voz de Galicia / Onda Cero",
+   "title": "Este verano 2026 será el más caluroso desde que hay registros en la España peninsular; el 30% de lo quemado afecta a espacios protegidos",
+   "date": "28-30 ago 2026",
+   "summary": "EL PAÍS adelanta el balance climático de un verano récord, con el incendio de El Saler ya controlado. EcoAvant cifra en el 30% la superficie quemada en espacios protegidos y LISA News resume las cifras oficiales de una temporada de incendios que reabre el debate del abandono rural.",
+   "source": "EL PAÍS / EcoAvant / Ultima Hora",
    "tags": [
-    "Okupación",
-    "Vivienda"
+    "España Vaciada",
+    "Incendios"
    ]
   }
  ],
  "trends": [
   {
+   "name": "Inmigración / Crisis de Ceuta",
+   "change": "up",
+   "pct": "+12%",
+   "detail": "Nueva emboscada con sargento herido (29 ago), el Ejército se prepara para más ataques y Feijóo exige la comparecencia de la directora del CNI: la tensión escala de nuevo en plena fase de gestión del Real Decreto de Seguridad Nacional."
+  },
+  {
    "name": "Sanchismo / Caso UCO",
    "change": "up",
-   "pct": "+8%",
-   "detail": "Nuevo registro de la UCO en la sede del PSOE, dardo de Feijóo y detención en Abu Dabi del empresario Hamlyn (26-27 ago) mantienen el caso en ebullición tras las facturas falsas de 188.000 €."
+   "pct": "+6%",
+   "detail": "El arranque del curso judicial multiplica los frentes: causas a Zapatero, Cerdán y Begoña Gómez, facturas falsas de 188.000 € y el PP personándose en la causa del CNI."
   },
   {
-   "name": "Independentismo / Aliança Catalana",
+   "name": "Independentismo / Diada",
    "change": "up",
-   "pct": "+10%",
-   "detail": "Boixos Nois busca 'protectores' para el acto del Fossar de Orriols, el PSC extiende su frente anti-AC a los ayuntamientos y Vidal-Quadras vaticina victoria de AC: la escalada continúa de cara a la Diada."
-  },
-  {
-   "name": "Okupación / Desalojos",
-   "change": "up",
-   "pct": "+5%",
-   "detail": "El caso del jubilado que desalojó a los okupas y ahora Hacienda le reclama 12.000 € reaviva la polémica sobre los costes del desalojo exprés para los propietarios."
-  },
-  {
-   "name": "Inmigración / Crisis de Ceuta",
-   "change": "stable",
-   "pct": "0%",
-   "detail": "La crisis sigue en máximos sostenidos: Elma Saiz pide permitir el reparto de comida a los migrantes, Marruecos expulsa a 11 detenidos por atacar a militares y El Mundo publica que el 90% ve a Marruecos detrás de la invasión."
-  },
-  {
-   "name": "Cultura cancelación / Caída influencers",
-   "change": "stable",
-   "pct": "0%",
-   "detail": "El fenómeno se consolida con matices: Marketing4eCommerce cifra las pérdidas y concluye que 'no es para tanto... excepto para RoRo', en pleno debate sobre seguidores más exigentes."
+   "pct": "+9%",
+   "detail": "La crisis de la estelada de Elche revitaliza el relato independentista a días de la Diada, Boixos Nois busca 'protectores' para Orriols en el Fossar y Dedéu la planta: la ultraderecha catalana acapara el foco."
   },
   {
    "name": "España vaciada / Incendios",
+   "change": "up",
+   "pct": "+5%",
+   "detail": "Verano más caluroso registrado en la España peninsular y el 30% de la superficie quemada en espacios protegidos: el balance cierra una temporada récord con el abandono rural de fondo."
+  },
+  {
+   "name": "Cultura cancelación / Influencers",
    "change": "stable",
    "pct": "0%",
-   "detail": "Copernicus confirma el 46,7% de la superficie quemada de la UE y EcoAvant destaca que el 30% afecta a espacios protegidos: balance provisional de una temporada récord."
+   "detail": "El Confidencial perfila a los vigilantes de los influencers y concluye que la burbuja no se pincha: el fenómeno de la caída de seguidores (Roro, -1M) se consolida como hartazgo de audiencia."
+  },
+  {
+   "name": "Okupación / Desalojos",
+   "change": "stable",
+   "pct": "0%",
+   "detail": "El caso del jubilado que desalojó a los okupas y ahora Hacienda le reclama 12.000 € sigue circulando; el Sindicato de la Vivienda atiende 90 casos en Palma, mayoría de alquiler."
+  },
+  {
+   "name": "Lenguaje inclusivo",
+   "change": "down",
+   "pct": "-8%",
+   "detail": "Sin novedades tras la polémica de 'atletas y atletos': la conversación decae en la recta final de agosto, a la espera del nuevo curso."
   },
   {
    "name": "Memoria histórica / Cuelgamuros",
    "change": "stable",
    "pct": "0%",
-   "detail": "Sin novedades de calado: el documental de RTVE sobre las criptas de Cuelgamuros (33.800 cuerpos) se estrenará en el Festival de San Sebastián, con el tema en segundo plano."
-  },
-  {
-   "name": "Woke / Backlash",
-   "change": "stable",
-   "pct": "0%",
-   "detail": "Sin detonante noticioso nuevo en la semana: el discurso anti-woke sigue activo en X pero sin polémica mediática destacada que lo dispare."
+   "detail": "Sin detonante nuevo: el documental de RTVE sobre las criptas de Cuelgamuros (33.800 cuerpos) sigue como referencia de la semana, con el tema en segundo plano."
   }
  ],
  "accounts": [
@@ -463,162 +462,162 @@
    "name": "Profe de historia",
    "category": "Muy derecha",
    "color": "#003399",
-   "desc": "Muy activo (27 ago): 'Sánchez odia España mucho más que lo que España odia a Sánchez' (~2.5K likes), homenaje a Isaías Carrasco con pitidos y quotes sobre Ceuta con alto engagement."
+   "desc": "Activo (30 ago): 'Que el Fiscal General filtre datos de un particular para beneficiar al PSOE no es delito...' (~1.1K likes) y 'Los trabajadores somos unos primos' contra el IMV vs sueldo de 18.000 €."
   },
   {
    "handle": "@dianitanoticias",
    "name": "Dianita",
    "category": "Muy derecha",
    "color": "#003399",
-   "desc": "Ultra, alineada Vox. Inmigración, soberanía, anti-Sánchez. Sin actividad detectable (7ª semana consecutiva, agosto)."
+   "desc": "Ultra, alineada Vox. Inmigración, soberanía, anti-Sánchez. Sin actividad detectable (8ª semana consecutiva, verano)."
   },
   {
    "handle": "@billkilgore_",
    "name": "Kilgore de Lezo",
    "category": "Joker 🃏",
    "color": "#996633",
-   "desc": "Humor sarcástico. Activo (27 ago): 'coñitas de Aznar en agosto de 2026' (~2.9K likes) y 'toca trabajar muchachos. Cifras sonrojantes' (~3.7K likes)."
+   "desc": "Humor sarcástico. Activo (30 ago): 'JOSÉ MOURINHO' (~711 likes) y el viral de julio 'Por lo civil o por lo criminal' (111K likes) sigue circulando."
   },
   {
    "handle": "@Tagelca",
    "name": "Tage",
    "category": "Derecha",
    "color": "#0055cc",
-   "desc": "Muy activo en humor con altísimo engagement: viral del GTA 6 (~20K likes, 27 ago) y 'Tiesada histórica' de Adama Traoré (~5.4K likes, 623K views)."
+   "desc": "Muy activo con altísimo engagement: viral del GTA 6 (~27.2K likes · 715K views) y 'Es el mejor en lo suyo' sobre fútbol (~14.4K likes · 422K views)."
   },
   {
    "handle": "@elxokas",
    "name": "ElXokas",
    "category": "Derecha",
    "color": "#0055cc",
-   "desc": "Streamer, anti-woke. Activo (26 ago): 'Denunciadle la cuenta entre todos se la tiramos abajo a este cerdo' contra @DaniRep (~8.6K likes), en pleno drama de streamers."
+   "desc": "Streamer, anti-woke. Sin posts recientes verificables en el scrape (login wall); última actividad conocida: drama de streamers (26 ago)."
   },
   {
    "handle": "@TemplarExtre",
    "name": "Templar Extremeño",
    "category": "Derecha",
    "color": "#0055cc",
-   "desc": "Cristiano, anti-woke, hispanista. Batalla cultural constante. Sin actividad detectable (5ª semana consecutiva, agosto)."
+   "desc": "Cristiano, hispanista. ¡Vuelve a estar activo (29-30 ago)! Posts sobre Ceuta: 'Grupos Antifas y anarquistas se está movilizando para ayudar a los invasores de Ceuta' y 'Toda mi solidaridad con el pueblo de Ceuta'."
   },
   {
    "handle": "@13mescribano",
    "name": "Luis Escribano",
    "category": "Neutro",
    "color": "#666699",
-   "desc": "Crítica sistémica al régimen del 78. Activo (26 ago): 'el régimen partidocrático del 78 es un cáncer para España' y denuncias sobre Ceuta/Melilla y la falta de democracia real."
+   "desc": "Crítica sistémica al régimen del 78. Sin posts recientes verificables en el scrape (login wall); última actividad conocida: denuncias sobre Ceuta (26 ago)."
   },
   {
    "handle": "@VictorLapuente",
    "name": "Víctor Lapuente",
    "category": "Neutro",
    "color": "#666699",
-   "desc": "Académico. Datos, instituciones, corrupción. Sin actividad detectable (5ª semana consecutiva, agosto)."
+   "desc": "Académico. Datos, instituciones, corrupción. Sin actividad detectable (6ª semana consecutiva, verano)."
   },
   {
    "handle": "@EstefMolina_",
    "name": "Estefanía Molina",
    "category": "Neutro",
    "color": "#666699",
-   "desc": "Politóloga. Activa (27 ago): 'Juan Manuel Vivas lleva estando desde el día uno al lado de sus vecinos... buena política' (~2.3K likes) y crítica a los argumentarios oficiales sobre desahucios."
+   "desc": "Politóloga. Sin posts recientes verificables en el scrape (login wall); última actividad conocida: defensa de Vivas en Ceuta (27 ago)."
   },
   {
    "handle": "@nicolasdepedro",
    "name": "Nicolás de Pedro",
    "category": "Neutro",
    "color": "#666699",
-   "desc": "Analista RRII. Activo (27 ago): '#CeutaEsEspaña' sobre ministros que blanquearon la trama rusa del procés y ahora se alinean con Marruecos (~211 likes), más análisis de la visita del jefe de la CIA a Moscú."
+   "desc": "Analista RRII. Activo (29-30 ago): 'Es increíble. Menuda ignominia' sobre el ministro español de Exteriores ante Marruecos (~162 likes) y la crisis de Perejil como precedente (~88 likes)."
   },
   {
    "handle": "@armesillaconde",
    "name": "Santiago Armesilla",
    "category": "Izquierda",
    "color": "#e84700",
-   "desc": "Socialismo patriótico. Muy activo (27 ago): 'La guerra con Marruecos ya ha comenzado' por la emboscada en Ceuta (~1.6K likes), 'la insubordinación fundante socialista de China es gloriosa' y promo de YouTube."
+   "desc": "Socialismo patriótico. Sin posts recientes verificables en el scrape (login wall); última actividad conocida: 'la guerra con Marruecos ya ha comenzado' (27 ago)."
   },
   {
    "handle": "@Anujbost",
    "name": "Anuj",
    "category": "Izquierda",
    "color": "#e84700",
-   "desc": "Socialdemócrata crítico. Muy activo en Ceuta: 'Otro ministro más reclama Ceuta y Melilla delante del rey de marruecos... Increíble' (~7.7K likes) y crítica a los 40 días de Sánchez en comparecer (~5.2K)."
+   "desc": "Socialdemócrata crítico. Muy activo (29-30 ago): 'Destruye cualquier tipo de confianza... 40 días en comparecer' (~5.2K likes) y 'Felicidades a la gestión del Gobierno' (~1.9K)."
   },
   {
    "handle": "@geoestratego",
    "name": "Pedro Baños",
    "category": "Derecha",
    "color": "#0055cc",
-   "desc": "Coronel, geopolítica. Muy activo (27 ago): hackers 'regalan a España' los datos de 70.000 agentes del espionaje marroquí (~8K likes), aviso del CNI a Marlaska y emboscada a militares (~2K cada uno)."
+   "desc": "Coronel, geopolítica. Muy activo (29 ago): 'Ante noticias como ésta... es traición a la Patria' (~12.3K likes · 178K views) y 'Tiene toda la razón. Lo que no sabemos es para quién' (~7.9K)."
   },
   {
    "handle": "@elmundotoday",
    "name": "El Mundo Today",
    "category": "Joker 🃏",
    "color": "#996633",
-   "desc": "Periodismo satírico. Pega a todos los bandos. Sin actividad detectable (5ª semana consecutiva, agosto)."
+   "desc": "Periodismo satírico. Pega a todos los bandos. Sin actividad detectable (6ª semana consecutiva, verano)."
   },
   {
    "handle": "@littleragergirl",
    "name": "Abby",
    "category": "Joker 🃏",
    "color": "#996633",
-   "desc": "Streamer gaming, sarcástica. No política pero sale en dramas tuiteros. Sin actividad detectable (5ª semana consecutiva, agosto)."
+   "desc": "Streamer gaming, sarcástica. No política pero sale en dramas tuiteros. Sin actividad detectable (6ª semana consecutiva, verano)."
   },
   {
    "handle": "@LaBugsBunnyIA",
    "name": "Fábrica de Memes",
    "category": "Joker 🃏",
    "color": "#996633",
-   "desc": "Memes e investigaciones en vídeo. Activo (27 ago) pero centrado en política argentina: 'MASSA SE RÍE DE VOS' y críticas a CFK por la compra de un departamento."
+   "desc": "Memes e investigaciones en vídeo. Sin posts recientes verificables en el scrape (login wall); última actividad conocida: política argentina (27 ago)."
   }
  ],
  "virals": [
   {
-   "author": "@elxokas",
-   "date": "26 ago 2026",
-   "text": "'Denunciadle la cuenta entre todos se la tiramos abajo a este cerdo @DaniRep @illojuan': llamamiento viral del streamer en pleno drama entre creadores, el tuit más viral del directorio.",
-   "engagement": "~8.9K likes · 247K views",
-   "topic": "Cultura de la Cancelación",
-   "link": "https://x.com/elxokas/status/2092646617568493799"
-  },
-  {
-   "author": "@Anujbost",
-   "date": "25 ago 2026",
-   "text": "'Otro ministro más reclama Ceuta y Melilla delante del rey de marruecos... Increíble': crítica por la gestión exterior del Gobierno durante la crisis de Ceuta.",
-   "engagement": "~7.7K likes · 1.6K RTs · 171K views",
-   "topic": "Inmigración / Soberanía",
-   "link": "https://x.com/Anujbost/status/2092211495346057346"
-  },
-  {
    "author": "@Tagelca",
-   "date": "27 ago 2026",
-   "text": "'Tiesada histórica. Solo le falta el andador': humor futbolero citando a Adama Traoré en el Dépor, el viral deportivo de la semana.",
-   "engagement": "~5.7K likes · 679K views",
+   "date": "29 ago 2026",
+   "text": "'Lo primero que voy a hacer cuando acabe el tutorial del juego es buscarlo por todo el mapa y pegarle un tiro en la sien': el viral del GTA 6, el más compartido de la semana.",
+   "engagement": "~27.2K likes · 987 RTs · 715K views",
    "topic": "Humor / Joker",
-   "link": "https://x.com/Tagelca/status/2092894396433789043"
+   "link": "https://x.com/Tagelca/status/2093602278909292775"
   },
   {
    "author": "@geoestratego",
-   "date": "26 ago 2026",
-   "text": "'Sin prisa, que no es un tema importante...': ironía sobre que Sánchez comparezca el 9 de septiembre por Ceuta, un mes después del asalto.",
-   "engagement": "~4.9K likes · 845 RTs · 84K views",
-   "topic": "Inmigración / Geopolítica",
-   "link": "https://x.com/geoestratego/status/2092537089741001084"
+   "date": "29 ago 2026",
+   "text": "'Ante noticias como ésta ¿vamos a seguir permaneciendo impasibles los españoles? Esto es mucho más que corrupción, es traición a la Patria': reacción al caso UCO.",
+   "engagement": "~12.3K likes · 4.5K RTs · 178K views",
+   "topic": "Sanchismo",
+   "link": "https://x.com/geoestratego/status/2093233612766183537"
   },
   {
-   "author": "@perezreverte",
-   "date": "16 ago 2026",
-   "text": "'Atletas y atletos. Con la complicidad de los medios (y el silencio de la RAE, que se lo traga todo), llegamos a un punto en el que la imbecilidad no tiene límites': el tuit del académico, el más viral de la semana sobre lenguaje.",
-   "engagement": "+21.5K likes · ~6.3K RTs · ~909K views",
-   "topic": "Lenguaje Inclusivo",
-   "link": "https://x.com/perezreverte/status/2089048524214194673"
+   "author": "@Tagelca",
+   "date": "29 ago 2026",
+   "text": "'Es el mejor en lo suyo. Este tío tiene historias preparadas con todos los equipos del fútbol profesional para contar en posibles presentaciones como nuevo fichaje': humor deportivo.",
+   "engagement": "~14.4K likes · 931 RTs · 422K views",
+   "topic": "Humor / Joker",
+   "link": "https://x.com/Tagelca/status/2093442258619998658"
+  },
+  {
+   "author": "@Anujbost",
+   "date": "29 ago 2026",
+   "text": "'Destruye cualquier tipo de confianza en las instituciones que el presidente tarde 40 días en comparecer después de un ataque por parte de otro Estado': crítica a Sánchez por Ceuta.",
+   "engagement": "~5.2K likes · 907 RTs · 199K views",
+   "topic": "Inmigración / Soberanía",
+   "link": "https://x.com/Anujbost/status/2092630299553186127"
+  },
+  {
+   "author": "@Anujbost",
+   "date": "29 ago 2026",
+   "text": "'Felicidades a la gestión del Gobierno, la incompetencia en la gestión de la crisis ha terminado llevando a tensiones entre los migrantes y la población local': balance de la crisis de Ceuta.",
+   "engagement": "~1.9K likes · 252 RTs · 178K views",
+   "topic": "Inmigración",
+   "link": "https://x.com/Anujbost/status/2093074044723569013"
   },
   {
    "author": "@profsecundario",
-   "date": "25 ago 2026",
-   "text": "'No lo dudéis: Sánchez odia España mucho más que lo que España odia a Sánchez.': el post más viral de la semana del profe de historia.",
-   "engagement": "~2.5K likes · 456 RTs · 14K views",
+   "date": "30 ago 2026",
+   "text": "'Que el Fiscal General filtre datos de un particular para beneficiar al PSOE no es delito para el PSOE. Que la Policía y la Guardia Civil informen sobre la situación en Ceuta sí': asimetría denunciada.",
+   "engagement": "~1.1K likes · 446 RTs · 8.8K views",
    "topic": "Sanchismo",
-   "link": "https://x.com/profsecundario/status/2092336386095329398"
+   "link": "https://x.com/profsecundario/status/2093759225969152150"
   }
  ]
 }
