@@ -1,28 +1,26 @@
 {
  "meta": {
-  "generated_at": "2026-09-01T08:20:58+02:00",
+  "generated_at": "2026-09-02T08:05:00+02:00",
   "source": "cron 09f22b3f6f78",
   "queries": [
-   "sanchismo España debate político septiembre 2026 (desde 2026-08-29)",
-   "Ceuta crisis migratoria asaltos valla septiembre 2026 reacción X (desde 2026-08-29)",
-   "Cataluña Diada 2026 independentismo encuestas procés debate (desde 2026-08-29)",
-   "cultura cancelación España septiembre 2026 (desde 2026-08-29)",
-   "okupación España septiembre 2026 okupas vivienda desahucios (desde 2026-08-29)",
-   "memoria histórica España septiembre 2026 ley nietos franquismo (desde 2026-08-29)",
-   "feminismo España septiembre 2026 debate abolicionismo violencia (desde 2026-08-29)",
-   "ley trans España septiembre 2026 debate menores hormonación (desde 2026-08-29)",
-   "woke ideología España septiembre 2026 polémica (desde 2026-08-29)",
-   "lenguaje inclusivo España septiembre 2026 polémica lenguaje (desde 2026-08-29)",
-   "España vaciada España septiembre 2026 despoblación (desde 2026-08-29)",
-   "facha insulto político España septiembre 2026 polémica (desde 2026-08-29)",
+   "sanchismo España debate político septiembre 2026 sondeos PSOE (desde 2026-08-30)",
+   "Ceuta crisis migratoria asaltos valla septiembre 2026 reacción X (desde 2026-08-30)",
+   "Cataluña Diada 2026 independentismo encuestas procés debate (desde 2026-08-30)",
+   "cultura cancelación España septiembre 2026 censura polémica (desde 2026-08-30)",
+   "okupación España septiembre 2026 okupas vivienda desahucios ley (desde 2026-08-30)",
+   "memoria histórica España septiembre 2026 ley nietos franquismo (desde 2026-08-30)",
+   "feminismo España septiembre 2026 debate abolicionismo prostitución (desde 2026-08-30)",
+   "ley trans España septiembre 2026 debate menores terapias conversión senado (desde 2026-08-30)",
+   "woke ideología España septiembre 2026 polémica antiwoke (desde 2026-08-30)",
+   "lenguaje inclusivo España septiembre 2026 polémica lenguaje RAE (desde 2026-08-30)",
+   "España vaciada septiembre 2026 despoblación reto demográfico (desde 2026-08-30)",
+   "facha insulto político España septiembre 2026 polémica derecha (desde 2026-08-30)",
    "actividad cuentas directorio 1/2 (8 handles, desde 2026-08-29)",
    "actividad cuentas directorio 2/2 (8 handles, desde 2026-08-29)",
    "virals cuentas directorio 1/2 con enlaces y engagement (desde 2026-08-29)",
    "virals cuentas directorio 2/2 con enlaces y engagement (desde 2026-08-29)"
   ],
-  "stale_topics": [
-   "lenguaje-inclusivo"
-  ],
+  "stale_topics": [],
   "inactive_accounts": [
    "dianitanoticias",
    "elxokas",
@@ -39,23 +37,23 @@
    "icon": "👑",
    "tag": "🔥 Tendencia alta",
    "tagClass": "tag-hot",
-   "intensity": 96,
-   "momentum": 93,
+   "intensity": 97,
+   "momentum": 94,
    "momentumDir": "right",
-   "summary": "Septiembre arranca con el sanchismo en su peor momento demoscópico: circulan sondeos que hunden al PSOE a ~100 escaños frente a un PP de ~145 y un bloque PP-Vox-verdes de ~208, el IPC escala al 4,3% como 'precio real de ocho años de sanchismo' y se anticipa un 'calvario judicial' (Koldo, Cerdán, entorno familiar). Sánchez anuncia en la SER que el rey visitará Ceuta 'cuando se den las condiciones' y la oposición lo lee como cortina de humo del 'fiasco'. Hasta voces socialistas piden 'reconstruir el PSOE' y el término 'des-sanchificación' gana tracción; el tono es abrumadoramente crítico.",
-   "quote": "Sondeos en X (@criaturina): PSOE ~100 escaños, PP ~145 y bloque PP-Vox-verdes ~208: 'realidad demoscópica del fin del ciclo' — con el IPC al 4,3% y el 'calvario judicial' de septiembre como argumentos del bloque opositor.",
+   "summary": "Septiembre abre con una cascada de sondeos demoledores: Sigma Dos da al PSOE 25,4% (~101 escaños, -20) frente a PP ~33% (143) y un Vox que casi duplica a ~61 escaños, con el bloque derecha en ~204 y el 68,8% pidiendo dimisión o elecciones; Data10 (31 ago) confirma PP 34,3%/145, PSOE 25,4%/100. El terremoto de Ceuta se ceba en el sanchismo: el sondeo municipal Sigma Dos hunde al PSOE ceutí al 5,6% (1 escaño, -15 puntos, al borde de la desaparición) con PP en mayoría absoluta. 'El fin del sanchismo es una realidad demoscópica' es el marco dominante, con 'Ceuta sepulta a Sánchez' como titular recurrente.",
+   "quote": "@electodatos / Sigma Dos (1 sep): el PSOE de Ceuta se hunde al 5,6% y 1 escaño (-15 puntos) frente a un PP al 50,3% en mayoría absoluta — el 'efecto Ceuta' como sentencia demoscópica del sanchismo.",
    "details": [
     [
      "Volumen en X",
-     "Muy alto"
+     "Máximo"
     ],
     [
      "Sentimiento",
-     "Crítico ~90%"
+     "Crítico ~90% / fin de ciclo"
     ],
     [
      "Impulsado por",
-     "Sondeos + Ceuta + calvario judicial"
+     "Sigma Dos + Data10 + sondeo Ceuta"
     ]
    ]
   },
@@ -65,11 +63,11 @@
    "icon": "🚧",
    "tag": "🔥 Tendencia alta",
    "tagClass": "tag-hot",
-   "intensity": 97,
-   "momentum": 93,
+   "intensity": 98,
+   "momentum": 94,
    "momentumDir": "right",
-   "summary": "El 'asalto a Ceuta' del 30-31 de julio (50.000-72.000 personas según Interior) sigue marcando la agenda en septiembre: nuevos incidentes en Loma Colmenar, denuncias de 'seis nuevas violaciones' durante el fin de semana, bomberos y policías protestando con 'Europe Help' y España pidiendo ayuda a Frontex. Sánchez atribuye parte del ruido a 'desinformación' rusa-israelí y de extrema derecha, lo que incendia aún más a la oposición y a los ceutíes. La movilización nacional del 2-S ('Ceuta no se vende, Ceuta se defiende') y el marco dominante de 'invasión' copan el feed.",
-   "quote": "@MaliBa_1991: 'NO ES UNA CRISIS MIGRATORIA, ES UNA INVASIÓN. La confrontación comenzó con la Invasión en Ceuta el día 30 de Julio del 2026' — el marco dominante de la conversación.",
+   "summary": "La crisis de Ceuta escala en revelaciones y movilización: la Policía informa al juez de que gendarmes marroquíes guiaron la entrada masiva ('fin no migratorio'), la Fiscalía confirma 21-23+ agresiones sexuales a mujeres y niñas, y circulan notas del CENIF (28-29 julio) con alertas de 'riesgo alto/extremo' supuestamente ignoradas. La FEMP convoca concentraciones en toda España este 2-S a las 20h bajo 'Ceuta no se vende, Ceuta se defiende' mientras se denuncia la prohibición de la marcha en Madrid; la escuela infantil de Ceuta retrasa el inicio a finales de septiembre. Dezcallar resume el marco dominante: 'no es una crisis migratoria, esto desborda una crisis migratoria'.",
+   "quote": "Jorge Dezcallar, ex-CNI, en La Noche en 24h (citado por @manmalaga): 'No es una crisis migratoria, esto es algo que desborda una crisis migratoria' — el marco de 'invasión organizada por Marruecos' que domina la conversación.",
    "details": [
     [
      "Volumen en X",
@@ -81,7 +79,7 @@
     ],
     [
      "Impulsado por",
-     "Ceuta + Frontex + 2-S"
+     "Gendarmes + violaciones + 2-S"
     ]
    ]
   },
@@ -91,11 +89,11 @@
    "icon": "🏠",
    "tag": "🔥 Tendencia moderada",
    "tagClass": "tag-moderate",
-   "intensity": 78,
-   "momentum": 85,
+   "intensity": 77,
+   "momentum": 83,
    "momentumDir": "right",
-   "summary": "Septiembre llega con el decreto de vivienda aún pendiente y un 'septiembre caliente' para el Ejecutivo: datos difundidos en X sitúan la vivienda usada en ~2.795 €/m² (+74% desde 2018), la oferta de alquiler tradicional en caída (-37% en grandes ciudades) y el alquiler en máximos (~15,3 €/m²), con Amnistía Internacional alertando de casi 1 millón de desalojos acumulados y solo un 1,7% de vivienda social. Virales de vecinos frenando intentos de okupación reavivan la demanda de desalojos exprés y el 'inquiokupación' como miedo transversal.",
-   "quote": "@juanalgracia: vivienda usada de ~1.608 €/m² (2018) a ~2.795 €/m² (ago 2026, +74%), oferta de alquiler -37% y precios en máximos históricos — el balance que la oposición usa contra la Ley de Vivienda.",
+   "summary": "El decreto de vivienda vuelve a la agenda tras el parón estival (topes a alquiler en zonas tensionadas, multas a grandes tenedores, límites a pisos turísticos) con Fotocasa difundiendo cambios 'para caseros e inquilinos' y la derecha acusando al Ejecutivo de 'blanquear' la okupación. La frustración se alimenta de casos virales del 1-2 de septiembre: dos migrantes detenidos al intentar okupar la casa de unos españoles que estaban de vacaciones, okupas en Fernán Núñez (Córdoba) saliendo escoltados por presión vecinal, y propietarios que publican pisos 'con okupas' en Idealista por desesperación. La lentitud judicial (meses o años para desalojar) y el 'inquiokupación' sostienen la demanda de desalojos exprés.",
+   "quote": "@voz_populi: propietarios desesperados usan la nueva categoría de Idealista para vender pisos con okupas ('es devastador') — mientras el Gobierno reactiva un decreto de vivienda que la derecha acusa de 'legalizar la okupación'.",
    "details": [
     [
      "Volumen en X",
@@ -107,7 +105,7 @@
     ],
     [
      "Impulsado por",
-     "Decreto vivienda + datos + virales"
+     "Decreto + casos virales 1-2 S"
     ]
    ]
   },
@@ -117,23 +115,23 @@
    "icon": "🗺️",
    "tag": "🔥 Tendencia moderada",
    "tagClass": "tag-moderate",
-   "intensity": 68,
-   "momentum": 60,
+   "intensity": 70,
+   "momentum": 61,
    "momentumDir": "right",
-   "summary": "La Diada del 11-S se acerca con el independentismo en mínimos: el último CEO citado en X da 45% sí / 52% no a la independencia, y el choque de la semana es el cartel oficial de la Diada de Illa sin la Senyera como símbolo central — acusado de 'catalanofobia' y '155' — además de su anuncio de celebrar la Diada también en Extremadura ('Diada on tour', ironizan). La ANC vende camisetas y buses para la manifestación clásica mientras Aliança Catalana prepara su Diada alternativa en Ripoll.",
-   "quote": "@PoMaOl (CEO): '¿Quiere que Catalunya sea un Estado independiente? 45% sí, 52% no' — el declive del independentismo, con el cartel de la Diada sin Senyera de Illa como nueva polémica.",
+   "summary": "A 9 días de la Diada, la ANC lanza el lema 'Hi soc. Hi som. Independència' con movilizaciones descentralizadas (Barcelona, Girona, Amposta), camisetas a ~15€ y buses desde todo el territorio, mientras el Govern de Illa intenta resignificar la fiesta hacia el 'catalanismo de la Transición' (Sant Boi 1976) — acusado por el independentismo de 'catalanófobo' y de enterrar la Senyera. La estrategia de unidad 'salta por los aires': se reportan tensiones entre independentistas de izquierda y derecha, críticas a ERC/Junts y a Aliança Catalana preparando acto propio. El procés aparece como desgastado, sin Generalitat desde 2024 y sin sondeos frescos favorables en la ventana.",
+   "quote": "ANC: 'Hi soc. Hi som. Independència' — movilización descentralizada para la Diada 2026 (Barcelona, Girona, Amposta) contra una Diada institucional de Illa que el independentismo tilda de 'catalanófoba'.",
    "details": [
     [
      "Volumen en X",
-     "Medio-alto"
+     "Medio-alto (pre-Diada)"
     ],
     [
      "Sentimiento",
-     "Polarizado"
+     "Polarizado / fragmentado"
     ],
     [
      "Impulsado por",
-     "Diada + CEO + cartel sin Senyera"
+     "Diada + ANC + Govern Illa"
     ]
    ]
   },
@@ -141,25 +139,25 @@
    "id": "memoria",
    "name": "Memoria Histórica",
    "icon": "📜",
-   "tag": "📌 Estable",
-   "tagClass": "tag-stable",
-   "intensity": 60,
-   "momentum": 55,
-   "momentumDir": "center",
-   "summary": "La 'ley de nietos' se consolida como arma electoral: la derecha la denuncia como 'pucherazo' (nacionalizaciones masivas en Latinoamérica y 'consulados móviles' en Buenos Aires para acelerar el censo) mientras los consulados acumulan retrasos de hasta tres años en la tramitación. La polémica jurídica sobre la Instrucción de noviembre de 2022 — que amplió de facto el ámbito de la ley — mantiene el debate, con la memoria histórica de fondo pero sin grandes titulares nuevos.",
-   "quote": "@BECAES_: la 'ley de nietos' como instrumento de 'pucherazo' electoral: cientos de miles de nacionalizaciones en Latinoamérica y 'consulados móviles' en Buenos Aires — con retrasos de hasta 3 años en la tramitación.",
+   "tag": "🔥 Tendencia moderada",
+   "tagClass": "tag-moderate",
+   "intensity": 65,
+   "momentum": 63,
+   "momentumDir": "right",
+   "summary": "La 'ley de nietos' entra en fase judicial: el Tribunal Supremo cita como codemandados al Ministerio de la Presidencia (Bolaños) y al INE por los cambios en el censo electoral, tras la demanda impulsada por Iustitia Europa y el abogado Luis María Pardo — con vista prevista en torno al 7 de septiembre y petición de suspensión cautelar de las altas censales. En X circulan datos de municipios donde ya hay más votos potenciales desde el extranjero (sobre todo Latinoamérica) que residentes, alimentando la denuncia de 'pucherazo electoral', mientras el Consulado de Buenos Aires arrastra tres años de retraso en tramitaciones.",
+   "quote": "@larazon_es (1 sep): el Supremo cita como codemandados al Ministerio de la Presidencia y al INE por el censo electoral derivado de la 'ley de nietos', con vista en torno al 7 de septiembre — la batalla judicial como nuevo frente de la polémica.",
    "details": [
     [
      "Volumen en X",
-     "Medio"
+     "Medio-alto"
     ],
     [
      "Sentimiento",
-     "Polarizado"
+     "Polarizado / 'pucherazo'"
     ],
     [
      "Impulsado por",
-     "Ley nietos + retrasos consulados"
+     "Supremo + censo + Buenos Aires"
     ]
    ]
   },
@@ -169,23 +167,23 @@
    "icon": "⚡",
    "tag": "🔥 Tendencia moderada",
    "tagClass": "tag-moderate",
-   "intensity": 68,
+   "intensity": 66,
    "momentum": 56,
    "momentumDir": "right",
-   "summary": "El eje del debate es el pulso abolicionismo vs regulación del trabajo sexual: Noemí Trujillo publica 'Hambre de abolición: un manifiesto' ('Abolición YA. Tolerancia CERO') y los colectivos abolicionistas impulsan ordenanzas municipales (consulta pública en Vigo), mientras el Fórum de Política Feminista acusa a la ministra de Igualdad de no avanzar las leyes contra la trata. De fondo, las denuncias de violaciones en Ceuta se usan contra el 'Gobierno más feminista de la historia' y el feminismo institucional queda sin apoyo espontáneo.",
-   "quote": "@NoemiTrujillo: 'Hambre de abolición: un manifiesto' — 'hay que invalidar el relato literario hegemónico sobre la prostitución y narrarla como violencia estructural. Abolición YA. Tolerancia CERO'.",
+   "summary": "El pulso abolicionismo vs regulación del trabajo sexual sigue sin gran detonante legislativo pero con producción intelectual y guerra de datos: la revista Encrucijadas publica 'Desafiando el abolicionismo' (Tamara Fernández), el Observatorio del Feminismo Español documenta 210.472€ de subvención 2025 a AM FARAXA (Vigo, abolicionista) y Noemí Trujillo sigue promocionando su manifiesto 'Hambre de abolición'. Posts anti-feministas ridiculizando el abolicionismo logran alto engagement, y las violaciones de Ceuta se usan para golpear al 'Gobierno más feminista de la historia' por su gestión.",
+   "quote": "@Encrucijadas (31 ago): 'Desafiando el abolicionismo', de Tamara Fernández — el trabajo sexual 'desde una perspectiva feminista, antipunitivista y centrada en los derechos humanos' frente al abolicionismo dominante.",
    "details": [
     [
      "Volumen en X",
-     "Medio-alto"
+     "Medio"
     ],
     [
      "Sentimiento",
-     "Crítico al feminismo de Estado"
+     "Muy polarizado / cisma"
     ],
     [
      "Impulsado por",
-     "Abolicionismo + Ceuta"
+     "Encrucijadas + subvenciones + Ceuta"
     ]
    ]
   },
@@ -195,11 +193,11 @@
    "icon": "🌿",
    "tag": "🔥 Tendencia alta",
    "tagClass": "tag-hot",
-   "intensity": 80,
-   "momentum": 85,
+   "intensity": 82,
+   "momentum": 86,
    "momentumDir": "right",
-   "summary": "Sin un escándalo puntual, el anti-woke funciona como ruido de fondo amplificado: el post sobre el 'origen del wokismo' (financiación del 15M y creación de Podemos, 'divide y vencerás') y la fusión del término con la crisis de Ceuta (agenda 'globalista' vs soberanía, 'sustitución') dominan el feed, junto a críticas al 'cáncer woke' como 'deber moral'. El progresismo solo aparece como blanco de ataque, y hasta voces críticas proponen abandonar el término por 'embarrado' y hablar de 'identitarismo de izquierda'.",
-   "quote": "@gisbert_ruben: acusa a una figura de haber financiado el 15M y la creación de Podemos, lo que 'desembarcó el wokismo' en España — el origen del término como tema recurrente del anti-woke.",
+   "summary": "El anti-woke encuentra nuevo catalizador intelectual: Miguel Ángel Quintana Paz publica en The Objective (2 sep) 'Llega el wokismo 2, y será peor que el 1', donde el wokismo abandona las obsesiones identitarias para anclarse en 'inmigración masiva e islam', con Ceuta como ejemplo vivo — el post se difunde masivamente con cientos de likes y reposts. La crisis fronteriza se lee como triunfo del 'islamo-izquierdismo': la 'flotilla woke' pro-migrantes, la supuesta censura a las concentraciones del 2-S (#CeutaNoEstáSola contra el 'gobierno globalista woke') y las críticas a que la izquierda 'relativiza' las agresiones para no parecer racista dominan el feed. El progresismo solo aparece como blanco.",
+   "quote": "@quintanapaz (The Objective, 2 sep): 'Llega el wokismo 2, y será peor que el 1' — el 'wokismo 2' se aleja del género y se ancla en inmigración masiva e islam, con Ceuta como ejemplo vivo.",
    "details": [
     [
      "Volumen en X",
@@ -211,7 +209,7 @@
     ],
     [
      "Impulsado por",
-     "Origen 15M/Podemos + Ceuta"
+     "'Wokismo 2' + Ceuta + flotilla"
     ]
    ]
   },
@@ -219,17 +217,17 @@
    "id": "cultura-cancelacion",
    "name": "Cultura de la Cancelación",
    "icon": "🔇",
-   "tag": "📌 Estable",
-   "tagClass": "tag-stable",
-   "intensity": 62,
-   "momentum": 58,
+   "tag": "🔥 Tendencia moderada",
+   "tagClass": "tag-moderate",
+   "intensity": 67,
+   "momentum": 60,
    "momentumDir": "right",
-   "summary": "No hay gran cacería ideológica esta semana: tras la 'cancelación' comercial de agosto (El Show de Paz), el término se diluye en la agenda de Ceuta — críticas a un decreto que supuestamente sancionaría a Guardia Civil y Policía si informan de ciertos hechos y denuncias genéricas de censura/adoctrinamiento cultural. El grueso de la conversación sobre 'cultura de la cancelación' es secundario respecto a la crisis migratoria, con menciones sueltas y poco virales.",
-   "quote": "@PRODUCCIONESQUI: vincula el decreto de Ceuta con 'censura teatral y cinematográfica' y dirigismo cultural — la cancelación como denuncia amplia de sectarismo, sin caso concreto que la monopolice.",
+   "summary": "Tres frentes reactivan el debate de la cancelación: la cancelación de 'El Show de Paz' (Telecinco) con Paz Padilla pidiendo 'respeto' y el presidente de RTVE criticando la 'crueldad' de las redes; la suspensión de la retrospectiva de John Galliano en el Met, que ELLE enmarca como herida abierta de la cancel culture en la moda; y la acusación de que el Gobierno dificulta la concentración de apoyo a Ceuta en Madrid ('del Estado garante de las libertades al Estado represor', 'moción de censura ya'). La cancelación del entretenimiento se cruza con la censura política alrededor de la crisis de Ceuta.",
+   "quote": "@elle_es (1 sep): la suspensión de la retrospectiva de John Galliano en el Met 'reabre la herida de la cultura de la cancelación, la hipocresía del fashion system y el equilibrio entre genio creador y discurso de odio'.",
    "details": [
     [
      "Volumen en X",
-     "Medio"
+     "Medio-alto"
     ],
     [
      "Sentimiento",
@@ -237,7 +235,7 @@
     ],
     [
      "Impulsado por",
-     "Ceuta + censura decretos"
+     "Show de Paz + Galliano + censura 2-S"
     ]
    ]
   },
@@ -247,37 +245,11 @@
    "icon": "⚧️",
    "tag": "📌 Estable",
    "tagClass": "tag-stable",
-   "intensity": 62,
-   "momentum": 65,
+   "intensity": 63,
+   "momentum": 64,
    "momentumDir": "right",
-   "summary": "El foco está en el Senado: la reforma que tipifica las 'terapias de conversión' como delito (penas de 6 meses a 2 años e inhabilitación profesional, con agravantes cuando la víctima es menor) entra en plazo de enmiendas alrededor del 10 de septiembre tras pasar el Congreso en junio. El debate de fondo sigue siendo la Ley 4/2023 y la medicalización de menores (bloqueadores de pubertad, hormonación cruzada), con el modelo afirmativo en el punto de mira de las feministas gender-critical.",
-   "quote": "La reforma de 'terapias de conversión' pasa del Congreso al Senado con plazo de enmiendas el 10 de septiembre: 6 meses a 2 años de prisión e inhabilitación, con agravantes cuando la víctima es menor — el hito legislativo de la semana.",
-   "details": [
-    [
-     "Volumen en X",
-     "Medio"
-    ],
-    [
-     "Sentimiento",
-     "Muy polarizado"
-    ],
-    [
-     "Impulsado por",
-     "Senado + terapias conversión"
-    ]
-   ]
-  },
-  {
-   "id": "lenguaje-inclusivo",
-   "name": "Lenguaje Inclusivo",
-   "icon": "📝",
-   "tag": "📌 Estable",
-   "tagClass": "tag-stable",
-   "intensity": 58,
-   "momentum": 72,
-   "momentumDir": "right",
-   "summary": "El detonante de la semana (anterior run): el Parlamento de Andalucía (PP) formará a su personal en 'lenguaje inclusivo para la igualdad de género' (30 de agosto), lo que dispara una indignación de 85-95% de los posts: 'gasto inútil', 'maltrato al español', 'el PP es infumable e invotable' y llamadas a VOX para contramedidas. La RAE actúa como ancla del rechazo (el masculino genérico es inclusivo; el desdoblamiento es 'artificioso e innecesario'). Defensores del inclusivo casi invisibles en el engagement. Tema en declive estructural con picos puntuales.",
-   "quote": "@joseolfa: 'Todos y todas es un error gramatical… Los zurdos queriendo imponer su lenguaje inclusivo/woke' — tras la polémica por la formación en el Parlamento andaluz.",
+   "summary": "Sin novedades parlamentarias en la ventana: la reforma del Código Penal que tipifica las 'terapias de conversión' como delito (6 meses a 2 años de prisión, incluso con consentimiento, aprobada en el Congreso el 25 de junio) sigue en plazo de enmiendas en el Senado hasta el 10 de septiembre, con el PP abstencionista por 'definiciones vagas' y Vox atacando la libertad de terapia voluntaria. Usuarios critican que la definición es tan amplia que incluiría terapias psicológicas voluntarias para personas con dudas. El debate de fondo sobre la Ley 4/2023 y la medicalización de menores queda en segundo plano.",
+   "quote": "Reforma de 'terapias de conversión': enmiendas en el Senado abiertas hasta el 10 de septiembre — PP denuncia 'definiciones vagas' y usuarios alertan de que alcanzaría terapias psicológicas voluntarias para menores con dudas.",
    "details": [
     [
      "Volumen en X",
@@ -285,11 +257,37 @@
     ],
     [
      "Sentimiento",
-     "Crítico mayoritario"
+     "Muy polarizado"
     ],
     [
      "Impulsado por",
-     "Andalucía + RAE"
+     "Senado (enmiendas hasta 10-S)"
+    ]
+   ]
+  },
+  {
+   "id": "lenguaje-inclusivo",
+   "name": "Lenguaje Inclusivo",
+   "icon": "📝",
+   "tag": "📉 En declive",
+   "tagClass": "tag-cooling",
+   "intensity": 48,
+   "momentum": 63,
+   "momentumDir": "right",
+   "summary": "Sin polémica nueva tras el pico del Parlamento andaluz (30 ago): la conversación se reduce a la RAE respondiendo consultas rutinarias con su doctrina clásica — el masculino gramatical 'engloba a todas las personas' y el desdoblamiento 'solo se justifica cuando la oposición de sexos es relevante en el mensaje' — y a usuarios citando a académicos como Pérez-Reverte contra el abuso de las formas artificiales. Sin hilos virales, sin declaraciones de gobiernos autonómicos y sin choque nuevo: el tema vuelve a su declive estructural con menciones residuales.",
+   "quote": "@RAEinforma (31 ago): 'Salvo que la mención explícita de ambos géneros sea un factor relevante en el mensaje, ese desdoblamiento es innecesario, pues el masculino gramatical engloba a todas las personas' — la doctrina de siempre, sin detonante nuevo.",
+   "details": [
+    [
+     "Volumen en X",
+     "Bajo"
+    ],
+    [
+     "Sentimiento",
+     "Crítico residual"
+    ],
+    [
+     "Impulsado por",
+     "Solo consultas a la RAE"
     ]
    ]
   },
@@ -299,23 +297,23 @@
    "icon": "🏘️",
    "tag": "🔥 Tendencia moderada",
    "tagClass": "tag-moderate",
-   "intensity": 65,
-   "momentum": 55,
+   "intensity": 66,
+   "momentum": 52,
    "momentumDir": "center",
-   "summary": "Septiembre marca el regreso a la 'normalidad despoblada' tras el verano ('ya están las calles vacías de nuevo, apenas 300 habitantes') y el Gobierno aprueba duplicar hasta 80 M€ las ayudas a entidades locales contra la despoblación. Las proyecciones del INE (+4,25M de habitantes hasta 2041, íntegramente por inmigración, con +11,1% de hogares) reabren el debate sobre el futuro del interior, entre iniciativas de repoblación (pueblos temáticos) y la crítica estructural al abandono.",
-   "quote": "@mitecogob: 'El Consejo de Ministros aprueba duplicar hasta 80 millones de euros las ayudas a entidades locales para proyectos frente a la despoblación' — mientras los pueblos vuelven a vaciarse tras el verano.",
+   "summary": "La noticia-símbolo de la semana: una pareja neerlandesa compra el pueblo entero de Bárcena de Bureba (Burgos, 60 casas y más de seis hectáreas) por el precio de un apartamento en ciudad para 'revivir la España Vaciada', mientras reportajes señalan que casi uno de cada cuatro jóvenes se plantea vivir en un pueblo. El Gobierno mantiene los 80 M€ duplicados contra la despoblación y las proyecciones del INE (España ganará 4,25M de habitantes hasta 2041, íntegramente por inmigración, con -1,8M de trabajadores hasta 2050) alimentan los titulares de 'abismo demográfico'. De fondo, críticas a la 'mentalidad pueblerina' hostil con los nuevos pobladores.",
+   "quote": "@larazon_cyl: una pareja neerlandesa compra Bárcena de Bureba (Burgos) entero —60 casas y seis hectáreas por el precio de un piso— para 'revivir la España Vaciada', mientras el INE proyecta -1,8M de trabajadores hasta 2050.",
    "details": [
     [
      "Volumen en X",
-     "Medio-alto"
+     "Medio"
     ],
     [
      "Sentimiento",
-     "Mixto crítico-esperanzador"
+     "Mixto esperanzador-crítico"
     ],
     [
      "Impulsado por",
-     "80 M€ + vaciado estacional"
+     "Bárcena de Bureba + INE"
     ]
    ]
   },
@@ -325,11 +323,11 @@
    "icon": "🗣️",
    "tag": "🔥 Tendencia moderada",
    "tagClass": "tag-moderate",
-   "intensity": 75,
-   "momentum": 65,
+   "intensity": 72,
+   "momentum": 64,
    "momentumDir": "right",
-   "summary": "El insulto resurge con la crisis de Ceuta y el ataque de Vitoria: un vecino que paseaba a su perro es agredido, la derecha lo enmarca como 'inseguridad por inmigración' y denuncia que 'si defiendes a tu ciudad ahora resulta que también eres facha'. La izquierda responde etiquetando de 'fachas, ultras o racistas' a quienes piden deportaciones; el término se consolida como marcador tribal de la polarización, con la reapropiación ('ser facha es un orgullo') de fondo.",
-   "quote": "@manjonei: 'Si defiendes a tu ciudad ahora resulta que también eres facha' — la reacción al etiquetado de la derecha tras el ataque de Vitoria y la crisis de Ceuta.",
+   "summary": "El debate sobre el insulto se reactiva con la tribuna de Javier Pérez Fernández en iLeón/elDiario.es (1 sep), 'Del peligro de llamar facha a todo el mundo': lo que empieza como insulto puede convertirse en seña de identidad del adversario. En el contexto de Ceuta, la derecha denuncia que se llama 'facha' a quien defiende España o critica la inmigración ('Cambiad de derecha por facha y ya tenéis el único argumento de la izquierda'), con el vídeo viral de una ceutí a la que 'no pueden llamar facha' por criticar a todos los partidos. La izquierda mantiene el término contra Vox y la 'extrema derecha', y la reapropiación irónica ('facha = españolazo, a mucha honra') sigue de fondo.",
+   "quote": "Javier Pérez Fernández, 'Del peligro de llamar facha a todo el mundo' (iLeón/elDiario.es, 1 sep): 'lo que empieza como insulto puede convertirse en seña de identidad del adversario' — la tribuna que cataliza el debate de la semana.",
    "details": [
     [
      "Volumen en X",
@@ -341,111 +339,111 @@
     ],
     [
      "Impulsado por",
-     "Vitoria + Ceuta + etiquetado"
+     "Tribuna Pérez + Ceuta + ceutí viral"
     ]
    ]
   }
  ],
  "news": [
   {
-   "title": "Sondeos de septiembre hunden al PSOE a ~100 escaños y el IPC al 4,3% alimenta el relato del 'fin del sanchismo'",
+   "title": "Sondeos de septiembre: PSOE ~100 escaños, Vox casi duplica y el PSOE de Ceuta se hunde al 5,6% (1 escaño)",
    "date": "31 ago-1 sep 2026",
-   "summary": "Circulan encuestas que proyectan un PSOE en torno a 100 escaños frente a un PP de ~145 y un bloque PP-Vox-verdes de ~208. El IPC al 4,3% se atribuye al 'precio real de ocho años de sanchismo' y se anticipa un 'calvario judicial' en septiembre (Koldo, Cerdán, entorno familiar).",
-   "source": "X / The Objective / El Debate",
+   "summary": "Sigma Dos da al PSOE 25,4% (~101 escaños) frente a PP ~33% (143) y Vox al alza (~61), con el 68,8% pidiendo dimisión o elecciones; Data10 confirma PP 34,3%/145 vs PSOE 25,4%/100. El sondeo municipal de Ceuta es un terremoto: PP 50,3% (mayoría absoluta), Vox 21,6% y PSOE al 5,6% con un solo escaño.",
+   "source": "X / El Mundo / Electomanía / Sigma Dos",
    "tags": [
     "Sanchismo",
     "Sondeos"
    ]
   },
   {
-   "title": "Ceuta: nuevos asaltos a campamentos, denuncias de 'seis violaciones' en el fin de semana y España pide ayuda a Frontex",
-   "date": "31 ago-1 sep 2026",
-   "summary": "La crisis del asalto del 30-31 de julio sigue viva: incidentes en Loma Colmenar, policía cargando, bomberos protestando con 'Europe Help' y petición formal de apoyo a Frontex. Sánchez atribuye parte del ruido a 'desinformación' rusa-israelí y la movilización del 2-S ('Ceuta no se vende, Ceuta se defiende') gana fuerza.",
-   "source": "X / El Faro de Ceuta / ABC",
+   "title": "La Policía informa al juez de que gendarmes marroquíes guiaron la entrada masiva en Ceuta y la Fiscalía confirma 21-23+ agresiones sexuales",
+   "date": "1 sep 2026",
+   "summary": "Exclusivas de El Español (difundidas por @nicolasdepedro) señalan que la Policía atribuye a gendarmes marroquíes la dirección de la entrada masiva, 'con fin no migratorio'. La Fiscalía eleva a más de 21 las agresiones sexuales a mujeres y niñas desde el asalto del 30-31 de julio, mientras circulan alertas del CENIF previas al asalto supuestamente ignoradas.",
+   "source": "El Español / SER / La Sexta / X",
    "tags": [
     "Inmigración",
     "Ceuta"
    ]
   },
   {
-   "title": "Illa presenta el cartel oficial de la Diada sin la Senyera y el independentismo habla de 'catalanofobia'",
-   "date": "31 ago 2026",
-   "summary": "El Govern publica el cartel de la Diada 2026 sin la Senyera como símbolo central, lo que desata críticas independentistas ('exterminio de señas de identidad', '155'). Se suma el anuncio de celebrar la Diada también en Extremadura ('Diada on tour'), mientras el CEO da 45% sí / 52% no a la independencia.",
-   "source": "BarnaNews / ABC Barcelona / X",
+   "title": "La FEMP convoca concentraciones en toda España este 2-S en apoyo a Ceuta y se denuncia la prohibición de la marcha de Madrid",
+   "date": "2 sep 2026",
+   "summary": "Cientos de municipios acogen concentraciones a las 20h bajo 'Ceuta no se vende, Ceuta se defiende' / #CeutaNoEstáSola, convocadas por la FEMP. La Delegación del Gobierno y el PP cruzan versiones sobre si se prohibió o no la manifestación de Madrid, y la derecha habla de 'censura' y 'moción de censura ya'.",
+   "source": "EFE / El Faro de Ceuta / El Imparcial / X",
    "tags": [
-    "Independentismo",
-    "Diada"
+    "Ceuta",
+    "Movilización"
    ]
   },
   {
-   "title": "El Senado tramita la tipificación de las 'terapias de conversión' como delito: enmiendas hasta el 10 de septiembre",
-   "date": "31 ago-1 sep 2026",
-   "summary": "La reforma del Código Penal aprobada en el Congreso en junio entra en fase de enmiendas en el Senado: penas de 6 meses a 2 años e inhabilitación, con agravantes con menores. El debate conecta con la Ley Trans y la medicalización de menores, muy polarizado en X.",
-   "source": "X / Congreso",
+   "title": "El Supremo cita como codemandados al Ministerio de la Presidencia y al INE por la 'ley de nietos' y el censo electoral",
+   "date": "1-2 sep 2026",
+   "summary": "La demanda impulsada por Iustitia Europa y el abogado Luis María Pardo contra los cambios censales derivados de la nacionalización masiva avanza: el TS cita a Bolaños e INE, con vista prevista en torno al 7 de septiembre y petición de suspensión cautelar. El Consulado de Buenos Aires acumula tres años de retraso en tramitaciones.",
+   "source": "La Razón / OKDIARIO / Servimedia / X",
    "tags": [
-    "Ley Trans",
-    "Legislación"
+    "Memoria Histórica",
+    "Justicia"
    ]
   },
   {
-   "title": "El Gobierno duplica a 80 M€ las ayudas contra la despoblación mientras los pueblos se vacían tras el verano",
-   "date": "29-31 ago 2026",
-   "summary": "El Consejo de Ministros aprueba duplicar hasta 80 millones las ayudas a entidades locales contra el reto demográfico. En X, el 'vaciado estacional' de septiembre ('apenas 300 habitantes') y las proyecciones del INE (+4,25M de habitantes, solo por inmigración) marcan el debate.",
-   "source": "La Moncloa / INE / X",
+   "title": "Quintana Paz: 'Llega el wokismo 2, y será peor que el 1' — el anti-woke se ancla en inmigración e islam con Ceuta como caso",
+   "date": "2 sep 2026",
+   "summary": "El filósofo Miguel Ángel Quintana Paz publica en The Objective que el 'wokismo 2' abandona las obsesiones de género para abrazar la inmigración masiva y el islam como banderas morales, con Ceuta como 'ejemplo vivo'. El post se difunde masivamente y cataliza la conversación anti-woke de la jornada, cruzada con la 'flotilla solidaria' y la supuesta censura a las concentraciones del 2-S.",
+   "source": "The Objective / X",
    "tags": [
-    "España Vaciada",
-    "Demografía"
+    "Wokismo",
+    "Ceuta"
    ]
   }
  ],
  "trends": [
   {
-   "name": "Sanchismo / Sondeos",
-   "change": "up",
-   "pct": "+18%",
-   "detail": "Los sondeos de septiembre (PSOE ~100, PP ~145, bloque PP-Vox-verdes ~208) y el IPC al 4,3% refuerzan el relato del 'fin del ciclo', con el 'calvario judicial' y la vuelta de informes UCO anticipados."
-  },
-  {
    "name": "Inmigración / Crisis de Ceuta",
    "change": "up",
-   "pct": "+15%",
-   "detail": "Nuevos asaltos, denuncias de violaciones, protestas de bomberos ('Europe Help'), petición de Frontex y la movilización del 2-S mantienen el tema en máximos con el marco de 'invasión'."
+   "pct": "+12%",
+   "detail": "Escalada de revelaciones (gendarmes marroquíes según la Policía, 21-23+ violaciones confirmadas, alertas CENIF ignoradas) y movilización del 2-S en cientos de municipios con el marco de 'invasión' en máximos."
   },
   {
-   "name": "Facha / Insulto político",
+   "name": "Sanchismo / Sondeos",
+   "change": "up",
+   "pct": "+15%",
+   "detail": "Sigma Dos y Data10 hunden al PSOE a ~100 escaños con Vox casi duplicando (~61-63), y el sondeo de Ceuta deja al PSOE local al 5,6% (1 escaño): 'Ceuta sepulta a Sánchez'."
+  },
+  {
+   "name": "Woke / Anti-woke",
    "change": "up",
    "pct": "+10%",
-   "detail": "El ataque de Vitoria y la respuesta a la crisis de Ceuta reactivan el etiquetado ('si defiendes tu ciudad eres facha') como marcador tribal, con la reapropiación del término de fondo."
+   "detail": "El artículo 'Llega el wokismo 2' (Quintana Paz, 2 sep) da nuevo fuelle intelectual al anti-woke, ahora fusionado con inmigración, islam y la crisis de Ceuta."
   },
   {
-   "name": "Okupación / Vivienda",
+   "name": "Memoria / Ley de Nietos",
    "change": "up",
    "pct": "+8%",
-   "detail": "El 'septiembre caliente' de la vivienda: decreto pendiente, datos de +74% en precios desde 2018, -37% de oferta de alquiler y virales de vecinos frenando okupas."
+   "detail": "El Supremo cita como codemandados al Ministerio de la Presidencia y al INE por el censo electoral, con vista el 7-S: la batalla se judicializa y gana tracción."
+  },
+  {
+   "name": "Cultura de la cancelación",
+   "change": "up",
+   "pct": "+6%",
+   "detail": "Tres frentes a la vez: cancelación de 'El Show de Paz', suspensión de la retrospectiva de Galliano en el Met y acusaciones de censura a las concentraciones por Ceuta."
   },
   {
    "name": "Independentismo / Diada",
    "change": "up",
    "pct": "+5%",
-   "detail": "El cartel de la Diada sin Senyera y la 'Diada on tour' en Extremadura calientan la precampaña del 11-S, con el CEO en contra (45-52) y Aliança Catalana preparando acto alternativo."
+   "detail": "A 9 días del 11-S, la ANC lanza 'Hi soc. Hi som. Independència' con movilizaciones en tres ciudades, mientras Illa intenta una Diada catalanista no secesionista y la unidad independentista se resquebraja."
   },
   {
-   "name": "Woke / Anti-woke",
+   "name": "Facha / Insulto político",
    "change": "stable",
-   "pct": "+3%",
-   "detail": "Sin escándalo puntual, el anti-woke se funde con Ceuta ('agenda globalista') y el origen 15M/Podemos como ruido de fondo amplificado; el progresismo solo aparece como blanco."
-  },
-  {
-   "name": "Ley trans",
-   "change": "down",
-   "pct": "-5%",
-   "detail": "El trámite de terapias de conversión en el Senado (enmiendas hasta el 10-S) mantiene el debate en nichos sin viralidad; sin trending masivo."
+   "pct": "+2%",
+   "detail": "La tribuna 'Del peligro de llamar facha a todo el mundo' (1 sep) y el vídeo de la ceutí 'a la que no pueden llamar facha' mantienen el debate sin detonante único."
   },
   {
    "name": "Lenguaje inclusivo",
    "change": "down",
-   "pct": "-10%",
-   "detail": "Sin detonante nuevo tras el pico del Parlamento andaluz (30 ago): el tema vuelve al declive estructural, con la RAE como ancla del rechazo."
+   "pct": "-15%",
+   "detail": "Sin polémica nueva tras el pico del Parlamento andaluz (30 ago): solo consultas rutinarias a la RAE con su doctrina clásica. Declive estructural confirmado."
   }
  ],
  "accounts": [
@@ -454,162 +452,162 @@
    "name": "Profe de historia",
    "category": "Muy derecha",
    "color": "#003399",
-   "desc": "Muy activo (31 ago-1 sep): 'Sánchez ha sido el peor gobernante de la Historia de España' (~5K likes) y 'Primero, la propaganda. Después, defender a los ceutíes'."
+   "desc": "Muy activo (1-2 sep): 'Delincuentes, violadores, terroristas... la única contestación posible es enviar socialistas a Marruecos' y serie sobre la manifestación por Ceuta 'prohibida' ('Se han cagado')."
   },
   {
    "handle": "@dianitanoticias",
    "name": "Dianita",
    "category": "Muy derecha",
    "color": "#003399",
-   "desc": "Ultra, alineada Vox. Inmigración, soberanía, anti-Sánchez. Sin actividad detectable (10ª semana consecutiva, verano)."
+   "desc": "Ultra, alineada Vox. Inmigración, soberanía, anti-Sánchez. Sin actividad detectable (11ª semana consecutiva, verano)."
   },
   {
    "handle": "@billkilgore_",
    "name": "Kilgore de Lezo",
    "category": "Joker 🃏",
    "color": "#996633",
-   "desc": "Humor sarcástico. Activo (30 ago): 'Boomquerque' (~1.6K likes) y 'la brigada boomer se ha ido ahí a ojear temporeros de 2€ la hora' (~3.5K)."
+   "desc": "Humor sarcástico. Activo (30 ago-1 sep): 'Boomquerque' (~1.7K likes) y 'Esto es lo más negrero y esclavista que he escuchado este mes' (~5.4K likes)."
   },
   {
    "handle": "@Tagelca",
    "name": "Tage",
    "category": "Derecha",
    "color": "#0055cc",
-   "desc": "Muy activo con altísimo engagement: Morata en el Leganés (~14.5K likes) y el gol del derbi ('Directo a la escuadra', ~3.2K)."
+   "desc": "Muy activo con altísimo engagement (fútbol/humor): 'Los mandibulazos... a lágrima viva' (~4.2K likes) y polémica por la presentación de un artista israelí en el Elche CF (~549 likes)."
   },
   {
    "handle": "@elxokas",
    "name": "ElXokas",
    "category": "Derecha",
    "color": "#0055cc",
-   "desc": "Streamer, anti-woke. Sin actividad reciente detectable (quietud estival); última actividad conocida: drama de streamers (26 ago)."
+   "desc": "Streamer, anti-woke. Sin actividad reciente detectable (quietud estival continuada)."
   },
   {
    "handle": "@TemplarExtre",
    "name": "Templar Extremeño",
    "category": "Derecha",
    "color": "#0055cc",
-   "desc": "Cristiano, hispanista. Sin actividad detectable en esta ventana (29 ago-1 sep); última actividad conocida: defensa de Ceuta (28 ago)."
+   "desc": "Cristiano, hispanista. Sin actividad detectable en esta ventana (30 ago-2 sep); último registro conocido: defensa de Ceuta (28 ago)."
   },
   {
    "handle": "@13mescribano",
    "name": "Luis Escribano",
    "category": "Neutro",
    "color": "#666699",
-   "desc": "Crítica sistémica al régimen del 78. Activo (31 ago): hilo monarquía/república y partidocracia, y crítica a las listas de espera sanitarias andaluzas (engagement bajo)."
+   "desc": "Crítica sistémica al régimen del 78. Activo (1 sep): hilo sobre intereses USA-Marruecos y 'destrucción de España por el sistema de 1978'; críticas a la libre designación y la sanidad andaluza."
   },
   {
    "handle": "@VictorLapuente",
    "name": "Víctor Lapuente",
    "category": "Neutro",
    "color": "#666699",
-   "desc": "Académico. Datos, instituciones, corrupción. Sin actividad detectable (8ª semana consecutiva, verano)."
+   "desc": "Académico. Datos, instituciones, corrupción. Sin actividad detectable (9ª semana consecutiva, verano)."
   },
   {
    "handle": "@EstefMolina_",
    "name": "Estefanía Molina",
    "category": "Neutro",
    "color": "#666699",
-   "desc": "Politóloga. Muy activa (31 ago): 'La culpa es de los bulos... menos del presidente' (~1.3K likes, 29K views) y crítica a las vacaciones de Sánchez (~606 likes)."
+   "desc": "Politóloga. Activa (1 sep): defiende en RNE el derecho del Rey a ir a Ceuta y critica la 'nueva normalidad' de los drones rusos en Europa del Este."
   },
   {
    "handle": "@nicolasdepedro",
    "name": "Nicolás de Pedro",
    "category": "Neutro",
    "color": "#666699",
-   "desc": "Analista RRII. Activo (29 ago): quote de Cembrero sobre Francia/Rabat y el precedente de Perejil (~109 likes) y Tusk sobre Ucrania."
+   "desc": "Analista RRII. Muy activo (1 sep): difunde las exclusivas de El Español sobre gendarmes marroquíes guiando la entrada en Ceuta y critica al Gobierno por dar 'balón de oxígeno' a la desinformación rusa."
   },
   {
    "handle": "@armesillaconde",
    "name": "Santiago Armesilla",
    "category": "Izquierda",
    "color": "#e84700",
-   "desc": "Socialismo patriótico. Muy activo (31 ago): 'Partido del Sometimiento a la Oligarquía Extranjera' (~1K likes) y directo sobre los 70.000 espías marroquíes hackeados."
+   "desc": "Socialismo patriótico. Activo (30 ago-1 sep): 'Partido del Sometimiento a la Oligarquía Extranjera' (~1K likes) y lanzamiento de su web y tienda (armesilla.org)."
   },
   {
    "handle": "@Anujbost",
    "name": "Anuj",
    "category": "Izquierda",
    "color": "#e84700",
-   "desc": "Socialdemócrata crítico. Muy activo (31 ago): hilo viral sobre la entrevista de Sánchez a la SER ('un completo despropósito... aberrante', ~4.5K likes, 186K views)."
+   "desc": "Socialdemócrata crítico. Activo (31 ago): hilo viral contra la entrevista de Sánchez sobre Ceuta/Marruecos (~4.8K likes, ~200K views) y debate sobre el 'malmenorismo' de la izquierda."
   },
   {
    "handle": "@geoestratego",
    "name": "Pedro Baños",
    "category": "Derecha",
    "color": "#0055cc",
-   "desc": "Coronel, geopolítica. Muy activo (31 ago): vídeo 'Bufff' sobre Ceuta (~5.3K likes · 2K RTs) y 'Jabaroot, haz tu magia' citando a De Prada (~1.4K)."
+   "desc": "Coronel, geopolítica. Muy activo con el mayor engagement del directorio (31 ago): 'Bufff' sobre Ceuta (~6.1K likes · 2.4K RTs · 323K views) y cita a De Prada 'Jabaroot, haz tu magia' (~3.8K)."
   },
   {
    "handle": "@elmundotoday",
    "name": "El Mundo Today",
    "category": "Joker 🃏",
    "color": "#996633",
-   "desc": "Periodismo satírico. Pega a todos los bandos. Sin actividad detectable (8ª semana consecutiva, verano)."
+   "desc": "Periodismo satírico. Pega a todos los bandos. Sin actividad detectable (9ª semana consecutiva, verano)."
   },
   {
    "handle": "@littleragergirl",
    "name": "Abby",
    "category": "Joker 🃏",
    "color": "#996633",
-   "desc": "Streamer gaming, sarcástica. No política pero sale en dramas tuiteros. Sin actividad detectable (8ª semana consecutiva, verano)."
+   "desc": "Streamer gaming, sarcástica. No política pero sale en dramas tuiteros. Sin actividad detectable (9ª semana consecutiva, verano)."
   },
   {
    "handle": "@LaBugsBunnyIA",
    "name": "Fábrica de Memes",
    "category": "Joker 🃏",
    "color": "#996633",
-   "desc": "Memes e investigaciones en vídeo. Activa (1 sep) aunque centrada en política argentina (anti-kirchnerismo, clan Moyano); engagement bajo en la ventana."
+   "desc": "Memes e investigaciones en vídeo. Activa (31 ago-1 sep) pero centrada en política argentina (clan Moyano, Cristina, Carzoglio); engagement muy bajo en la ventana."
   }
  ],
  "virals": [
   {
-   "author": "@profsecundario",
-   "date": "31 ago 2026",
-   "text": "'No hay duda de que Pedro Sánchez ha sido el peor gobernante de la Historia de España…': el profe de historia carga contra el presidente con el balance del verano (Ceuta, corrupción, 'enemigos').",
-   "engagement": "~5.0K likes · 1.4K RTs",
-   "topic": "Sanchismo",
-   "link": "https://x.com/profsecundario/status/2094347003996054001"
-  },
-  {
-   "author": "@Anujbost",
-   "date": "31 ago 2026",
-   "text": "Hilo de crítica a la entrevista de Sánchez en la SER sobre Ceuta y Marruecos: 'un completo despropósito... simplemente aberrante' — el viral de la izquierda crítica, con 186K views.",
-   "engagement": "~4.5K likes · 786 RTs · 186K views",
-   "topic": "Sanchismo / Ceuta",
-   "link": "https://x.com/Anujbost/status/2094383633377222767"
-  },
-  {
-   "author": "@Tagelca",
-   "date": "28 ago 2026",
-   "text": "'Este tío tiene historias preparadas con todos los equipos…': Tage, sobre Morata emocionado en su presentación con el Leganés — el viral de humor de la semana.",
-   "engagement": "~14.5K likes · 937 RTs",
-   "topic": "Humor / Joker",
-   "link": "https://x.com/Tagelca/status/2093442258619998658"
-  },
-  {
    "author": "@geoestratego",
    "date": "31 ago 2026",
-   "text": "'Bufff': el coronel Pedro Baños publica un vídeo largo sobre la crisis de Ceuta y la gestión del Gobierno — uno de los posts con más alcance de la ventana.",
-   "engagement": "~5.3K likes · 2.1K RTs · 277K views",
+   "text": "'Bufff': el coronel Pedro Baños publica un vídeo largo sobre la crisis de Ceuta y la gestión del Gobierno — el post con más alcance de todo el directorio en la ventana.",
+   "engagement": "~6.1K likes · 2.4K RTs · 323K views",
    "topic": "Inmigración / Soberanía",
    "link": "https://x.com/geoestratego/status/2094394467063095586"
   },
   {
-   "author": "@EstefMolina_",
+   "author": "@Anujbost",
    "date": "31 ago 2026",
-   "text": "'La culpa es de los bulos, de las redes, de la extrema derecha internacional, de los algoritmos... menos del presidente': la politóloga, sobre la elusión de responsabilidades del Gobierno en Ceuta.",
-   "engagement": "~1.4K likes · 442 RTs · 29K views",
-   "topic": "Inmigración",
-   "link": "https://x.com/EstefMolina_/status/2094336658007093583"
+   "text": "Hilo de crítica a la entrevista de Sánchez en la SER sobre Ceuta y Marruecos: 'un completo despropósito... simplemente aberrante' — el viral de la izquierda crítica, que sigue creciendo.",
+   "engagement": "~4.8K likes · 830 RTs · 200K views",
+   "topic": "Sanchismo / Ceuta",
+   "link": "https://x.com/Anujbost/status/2094383633377222767"
+  },
+  {
+   "author": "@geoestratego",
+   "date": "31 ago 2026",
+   "text": "Cita a Juan Manuel de Prada ('Jabaroot, haz tu magia') sobre el 'plan' de la tiranía marroquí contra Ceuta y sus mentores — segundo gran viral del coronel en la ventana.",
+   "engagement": "~3.8K likes · 1.7K RTs · 77K views",
+   "topic": "Inmigración / Geopolítica",
+   "link": "https://x.com/geoestratego/status/2094537292643701053"
   },
   {
    "author": "@billkilgore_",
    "date": "30 ago 2026",
-   "text": "'jsjsjdj la brigada boomer se ha ido ahí a ojear temporeros de 2€ la hora a lo Monchi en Turquía': sarcasmo sobre la 'brigada boomer' y el mercado laboral.",
-   "engagement": "~3.5K likes · 293 RTs · 72K views",
+   "text": "'Boomquerque': sarcasmo del humorista sobre la actualidad política — uno de sus replies con más alcance del fin de semana.",
+   "engagement": "~1.7K likes",
    "topic": "Humor / Joker",
-   "link": "https://x.com/billkilgore_/status/2094131224545530085"
+   "link": "https://x.com/billkilgore_/status/2094764530052063682"
+  },
+  {
+   "author": "@armesillaconde",
+   "date": "30 ago 2026",
+   "text": "'Partido del Sometimiento a la Oligarquía Extranjera': Santiago Armesilla carga contra el PSOE a cuenta de la concentración por Ceuta (quote a El Faro de Ceuta).",
+   "engagement": "~1.0K likes · 271 RTs",
+   "topic": "Sanchismo / Ceuta",
+   "link": "https://x.com/armesillaconde/status/2093999172072407268"
+  },
+  {
+   "author": "@Tagelca",
+   "date": "1 sep 2026",
+   "text": "'¿Acaban de presentar a un israelí con un vídeo haciendo de pintor?': Tage cuestiona la presentación de un artista israelí en el Elche CF — la polémica del día en el fútbol.",
+   "engagement": "~549 likes",
+   "topic": "Humor / Polémica",
+   "link": "https://x.com/Tagelca/status/2094893423018848488"
   }
  ]
 }
