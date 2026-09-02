@@ -4,18 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Termómetro de la Guerra Cultural — España</title>
-<meta name="description" content="Análisis diario de la guerra cultural en X (España): intensidad del debate, temas en auge, polémicas recientes y directorio de cuentas por espectro político. Datos generados con IA.">
-<meta name="keywords" content="guerra cultural, España, X, Twitter, debate, política, sanchismo, inmigración, wokismo">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Termómetro de la Guerra Cultural — España">
-<meta property="og:description" content="Análisis diario de la conversación en X: intensidad del debate, tendencias y polémicas. Enfoque: España.">
-<meta property="og:url" content="https://popifresco12.github.io/guerra-cultural/">
-<meta property="og:site_name" content="Termómetro de la Guerra Cultural">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Termómetro de la Guerra Cultural — España">
-<meta name="twitter:description" content="Análisis diario de la conversación en X. Enfoque: España.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌡️</text></svg>">
-<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌡️</text></svg>">
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <style>
   :root {
@@ -29,26 +17,8 @@
     --accent-green: #45d480;
     --accent-orange: #ff9500;
     --accent-purple: #a855f7;
-    --toggle-bg: #2a2a3a;
-    --toggle-icon: #ffd700;
-  }
-  [data-theme="light"] {
-    --bg: #f4f4f8;
-    --card: #ffffff;
-    --border: #d8d8e4;
-    --text: #1a1a24;
-    --muted: #6a6a80;
-    --toggle-bg: #e0e0ea;
-    --toggle-icon: #b8860b;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  /* Ocultar el badge flotante de Netlify (plan free) si se inyecta */
-  #netlify-badge, .netlify-badge, [data-netlify-badge] {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
-  }
   body {
     background: var(--bg);
     color: var(--text);
@@ -56,32 +26,12 @@
     padding: 2rem;
     overflow-x: hidden;
   }
-  @media (min-width: 1600px) {
-    body { padding: 2rem 3rem; }
-    .grid, .chart-section, .trending-section { max-width: 1800px; }
-  }
   .header {
     text-align: center;
     margin-bottom: 3rem;
     padding-bottom: 2rem;
     border-bottom: 1px solid var(--border);
-    position: relative;
   }
-  .theme-toggle {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: var(--toggle-bg);
-    border: 1px solid var(--border);
-    border-radius: 50%;
-    width: 42px;
-    height: 42px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    color: var(--toggle-icon);
-    transition: transform 0.2s, background 0.2s;
-  }
-  .theme-toggle:hover { transform: scale(1.1); }
   .header h1 {
     font-size: 2.2rem;
     font-weight: 700;
@@ -138,16 +88,15 @@
   .tag-moderate { background: rgba(255,149,0,0.2); color: #ff9500; }
   .tag-cooling { background: rgba(69,212,128,0.2); color: #45d480; }
   .tag-stable { background: rgba(168,133,247,0.2); color: #a855f7; }
-  .card-body { font-size: 0.88rem; line-height: 1.7; color: var(--muted); }
+  .card-body { font-size: 0.82rem; line-height: 1.6; color: var(--muted); }
   .card-body strong { color: var(--text); }
   .card-body .quote {
-    border-left: 2px solid var(--accent-orange);
+    border-left: 2px solid var(--border);
     padding-left: 0.75rem;
-    margin: 0.6rem 0;
+    margin: 0.5rem 0;
     font-style: italic;
-    color: var(--text);
-    font-size: 0.84rem;
-    opacity: 0.85;
+    color: var(--muted);
+    font-size: 0.78rem;
   }
   .momentum {
     margin-top: 0.75rem;
@@ -165,33 +114,30 @@
     gap: 0.5rem;
   }
   .bar-track {
-    width: 150px;
+    width: 100px;
     height: 4px;
     background: var(--border);
     border-radius: 2px;
     position: relative;
   }
   .bar-fill {
-    position: absolute;
-    top: 0;
     height: 100%;
     border-radius: 2px;
     transition: width 0.5s;
   }
-  .bar-left { background: var(--accent-red); }
-  .bar-right { background: var(--accent-blue); }
+  .bar-left { background: var(--accent-blue); }
+  .bar-right { background: var(--accent-red); }
   .momentum-text { font-weight: 600; }
-  .momentum-text.m-right { color: var(--accent-blue); }
-  .momentum-text.m-left { color: var(--accent-red); }
+  .momentum-text.m-right { color: var(--accent-red); }
+  .momentum-text.m-left { color: var(--accent-blue); }
   .momentum-text.m-center { color: var(--accent-orange); }
   .stats-row {
     display: flex;
-    gap: 1.25rem;
-    margin-top: 0.85rem;
-    padding-top: 0.85rem;
+    gap: 1rem;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
     border-top: 1px solid var(--border);
-    font-size: 0.82rem;
-    flex-wrap: wrap;
+    font-size: 0.78rem;
   }
   .stat-item { color: var(--muted); }
   .stat-item span { color: var(--text); font-weight: 500; }
@@ -212,7 +158,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    height: 340px;
+    height: 300px;
   }
   .chart-pair {
     display: grid;
@@ -227,9 +173,6 @@
   .chart-box {
     position: relative;
     height: 300px;
-  }
-  .chart-box-tall {
-    height: 420px;
   }
   .chart-box canvas {
     width: 100% !important;
@@ -293,7 +236,7 @@
 
 <div id="metaBanner" style="display:none;max-width:1400px;margin:0 auto 1rem;background:rgba(255,149,0,0.12);border:1px solid #ff9500;border-radius:8px;padding:0.6rem 1rem;font-size:0.8rem;color:#ff9500"></div>
 <div class="header">
-  <h1>Termómetro de la Guerra Cultural</h1>
+  <h1>⚔️ Termómetro de la Guerra Cultural</h1>
   <div class="subtitle">Análisis de la conversación en X · Enfoque: España</div>
   <div class="date" id="currentDate"></div>
 </div>
@@ -302,7 +245,7 @@
 <div class="chart-section">
   <h3>📊 Intensidad del debate por tema</h3>
   <div class="chart-pair">
-    <div class="chart-box chart-box-tall"><canvas id="intensityChart"></canvas></div>
+    <div class="chart-box"><canvas id="intensityChart"></canvas></div>
     <div class="chart-box"><canvas id="momentumChart"></canvas></div>
   </div>
   <div style="font-size:0.72rem;color:var(--muted);margin-top:0.5rem">Cada punto cruza intensidad (eje X) con inclinación del debate (eje Y: abajo izquierda, arriba derecha).</div>
@@ -345,27 +288,28 @@
 </div>
 
 <div class="footer">
-  <p>Datos obtenidos mediante búsqueda en X con Grok (xAI) · Análisis generado por IA · <a href="https://x.com/search?q=guerra+cultural+Espa%C3%B1a&f=live" target="_blank" rel="noopener" aria-label="Ver conversación en directo en X">Ver conversación en directo</a> · <a href="#" onclick="document.getElementById('methodology').style.display = document.getElementById('methodology').style.display === 'none' ? 'block' : 'none'; return false;" style="color:var(--accent-blue);text-decoration:none">Metodología</a></p>
-  <div id="methodology" style="display:none;max-width:900px;margin:1.5rem auto 0;text-align:left;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;font-size:0.82rem;line-height:1.7;color:var(--muted)">
-    <h4 style="color:var(--text);margin-bottom:0.75rem">📋 Metodología</h4>
-    <p><strong>Cómo se generan los datos:</strong> este panel se actualiza automáticamente cada día mediante un agente de IA (Hermes) que realiza búsquedas en X con Grok (xAI) por cada tema, con queries específicas y ventana temporal, y luego interpreta los resultados (intensidad, momentum, sentimiento) para generar este análisis.</p>
-    <p style="margin-top:0.5rem"><strong>Qué miden los indicadores:</strong></p>
-    <ul style="margin:0.5rem 0 0.5rem 1.2rem">
-      <li><strong>Intensidad (0-100):</strong> volumen y actividad del debate en X sobre el tema en el periodo analizado.</li>
-      <li><strong>Momentum / Inclinación:</strong> hacia qué lado del espectro (izquierda/derecha) se inclina el discurso dominante en la conversación.</li>
-      <li><strong>Sentimiento:</strong> tono predominante (crítico, polarizado, de apoyo, etc.) según el análisis de las publicaciones.</li>
-    </ul>
-    <p><strong>Limitaciones:</strong> los datos reflejan el volumen e intensidad del debate en X — <strong>no</strong> son encuestas representativas de la población española. X tiene sesgos demográficos propios. El análisis es generado por IA y puede contener errores o sesgos. El directorio de cuentas clasifica por el espectro político percibido de cada cuenta, según su actividad pública.</p>
-  </div>
+  <p>Datos obtenidos mediante búsqueda en X con Grok (xAI) · Análisis generado por IA · <a href="https://x.com/search?q=guerra+cultural+Espa%C3%B1a&f=live" target="_blank">Ver conversación en directo</a></p>
   <p id="metaFooter" style="margin-top:0.5rem;color:var(--accent-purple)"></p>
   <p style="margin-top:0.5rem;">Las tendencias reflejan el volumen e intensidad del debate en X, no encuestas representativas de la población.</p>
 </div>
 
 <script>
-// Dynamic date
-const now = new Date();
+// Dynamic date — se pinta en renderMeta() con meta.generated_at real (no la hora local del visitante)
 const dayNames = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
-document.getElementById('currentDate').textContent = '📅 Actualizado: ' + dayNames[now.getDay()] + ', ' + now.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' }) + ' · ' + now.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
+
+function fmtRelTime(isoStr) {
+  // devuelve "hace X horas" / "hace X minutos" desde generated_at hasta ahora
+  const gen = new Date(isoStr);
+  if (isNaN(gen.getTime())) return isoStr || '—';
+  const diffMs = Date.now() - gen.getTime();
+  const mins = Math.floor(diffMs / 60000);
+  if (mins < 1) return 'hace menos de 1 minuto';
+  if (mins < 60) return 'hace ' + mins + ' minuto' + (mins !== 1 ? 's' : '');
+  const hours = Math.floor(mins / 60);
+  if (hours < 24) return 'hace ' + hours + ' hora' + (hours !== 1 ? 's' : '');
+  const days = Math.floor(hours / 24);
+  return 'hace ' + days + ' día' + (days !== 1 ? 's' : '');
+}
 
 // --- DATA (loaded from data.json; render happens in renderAll()) ---
 let topics = [], news = [], accounts = [], trends = [], virals = [];
@@ -390,47 +334,26 @@ function renderMeta(meta) {
   if (!meta) return;
   const banner = document.getElementById('metaBanner');
   const footer = document.getElementById('metaFooter');
+  // Banner superior: hora REAL de generación (no la hora local del visitante)
+  const dateEl = document.getElementById('currentDate');
+  if (dateEl && meta.generated_at) {
+    const gen = new Date(meta.generated_at);
+    if (!isNaN(gen.getTime())) {
+      dateEl.textContent = '📅 Datos actualizados ' + fmtRelTime(meta.generated_at) +
+        ' · ' + gen.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' }) +
+        ' · ' + gen.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
+    }
+  }
   if (footer) {
     footer.textContent = '🔎 Trazabilidad: datos generados ' + (meta.generated_at || '—') +
       (meta.queries ? ' · ' + meta.queries.length + ' búsquedas en X' : '') +
-      (meta.stale_topics && meta.stale_topics.length ? ' · tópicos con datos previos: ' + meta.stale_topics.join(', ') : '');
+      (meta.stale_topics && meta.stale_topics.length ? ' · ⚠️ tópicos con datos previos: ' + meta.stale_topics.join(', ') : '');
+  }
+  if (banner && meta.stale_topics && meta.stale_topics.length) {
+    banner.style.display = 'block';
+    banner.textContent = '⚠️ ' + meta.stale_topics.length + ' tópico(s) sin datos frescos en esta actualización — se muestra el valor anterior: ' + meta.stale_topics.join(', ');
   }
 }
-
-function chartColors() {
-  const light = document.documentElement.dataset.theme === 'light';
-  return {
-    tick: light ? '#3a3a52' : '#c8c8e0',
-    grid: light ? '#d8d8e4' : '#2a2a3a',
-    axis: light ? '#1a1a30' : '#ffffff',
-  };
-}
-
-function applyChartTheme() {
-  const c = chartColors();
-  const charts = [window.intensityChart, window.momentumChart, window.historyChart];
-  charts.forEach(ch => {
-    if (!ch) return;
-    const sc = ch.options.scales || {};
-    Object.keys(sc).forEach(k => {
-      const ax = sc[k];
-      if (ax.ticks) ax.ticks.color = c.axis;
-      if (ax.grid) ax.grid.color = c.grid;
-      if (ax.title) ax.title.color = c.tick;
-    });
-    if (ch.options.plugins && ch.options.plugins.legend && ch.options.plugins.legend.labels) {
-      ch.options.plugins.legend.labels.color = c.tick;
-    }
-    ch.update();
-  });
-}
-
-(function initTheme() {
-  const saved = localStorage.getItem('theme');
-  const prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
-  const theme = saved || (prefersLight ? 'light' : 'dark');
-  document.documentElement.dataset.theme = theme;
-})();
 
 (async function init() {
   try {
@@ -446,19 +369,8 @@ function applyChartTheme() {
 })();
 
 function renderAll() {
-  // Limpiar contenedores primero (evita duplicados al re-renderizar)
-  const newsGrid = document.getElementById('newsGrid');
-  const accountsGrid = document.getElementById('accountsGrid');
-  const grid = document.getElementById('topicGrid');
-  const trendingList = document.getElementById('trendingList');
-  const viralGrid = document.getElementById('viralGrid');
-  newsGrid.innerHTML = '';
-  accountsGrid.innerHTML = '';
-  grid.innerHTML = '';
-  trendingList.innerHTML = '';
-  viralGrid.innerHTML = '';
-
   // Render news
+  const newsGrid = document.getElementById('newsGrid');
   news.forEach(n => {
     newsGrid.innerHTML += `
       <div class="card">
@@ -474,11 +386,12 @@ function renderAll() {
   });
 
   // Render accounts
+  const accountsGrid = document.getElementById('accountsGrid');
   accounts.forEach(a => {
     accountsGrid.innerHTML += `
       <div class="card" style="padding:0.75rem 1rem">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.25rem">
-          <span style="font-weight:600;font-size:0.9rem"><a href="https://x.com/${a.handle.replace('@','')}" target="_blank" rel="noopener" aria-label="Ver ${a.handle} en X" style="color:var(--accent-blue);text-decoration:none">${a.handle}</a></span>
+          <span style="font-weight:600;font-size:0.9rem"><a href="https://x.com/${a.handle.replace('@','')}" target="_blank" style="color:var(--accent-blue);text-decoration:none">${a.handle}</a></span>
           <span style="font-size:0.65rem;padding:2px 8px;border-radius:4px;background:${a.color}22;color:${a.color};font-weight:500">${a.category}</span>
         </div>
         <div style="font-size:0.75rem;color:var(--text)">${a.name}</div>
@@ -488,25 +401,12 @@ function renderAll() {
   });
 
   // Render cards
+  const grid = document.getElementById('topicGrid');
   topics.forEach(t => {
-    // Barra de momentum CENTRADA: el 50% es el origen, crece hacia el lado ganador
-    const dir = t.momentumDir || 'center';
-    const momentumValue = t.momentum ?? 50;
-    const distFromCenter = Math.abs(momentumValue - 50); // 0-50
-    const fillPct = Math.min(100, distFromCenter * 2);   // 0-100% de media barra
-    let barStyle = '';
-    if (dir === 'right') {
-      // Gana la derecha: crece desde el centro hacia la derecha (azul)
-      barStyle = `left:50%;width:${fillPct}%;background:var(--accent-blue)`;
-    } else if (dir === 'left') {
-      // Gana la izquierda: crece desde el centro hacia la izquierda (rojo)
-      barStyle = `right:50%;width:${fillPct}%;background:var(--accent-red)`;
-    } else {
-      // Empate: punto pequeño centrado (naranja)
-      barStyle = `left:50%;transform:translateX(-50%);width:6px;background:var(--accent-orange)`;
-    }
-    const momentumText = dir === 'right' ? 'Gana la derecha' : dir === 'left' ? 'Gana la izquierda' : 'Empate técnico';
-    const momentumClass = dir === 'right' ? 'm-right' : dir === 'left' ? 'm-left' : 'm-center';
+    const barWidth = t.momentum;
+    const barColor = t.momentumDir === 'right' ? 'var(--accent-red)' : t.momentumDir === 'left' ? 'var(--accent-blue)' : 'var(--accent-orange)';
+    const momentumText = t.momentumDir === 'right' ? 'Gana la derecha/crítica' : t.momentumDir === 'left' ? 'Gana la izquierda/defensa' : 'Empate técnico';
+    const momentumClass = t.momentumDir === 'right' ? 'm-right' : t.momentumDir === 'left' ? 'm-left' : 'm-center';
 
     grid.innerHTML += `
       <div class="card">
@@ -524,11 +424,11 @@ function renderAll() {
         <div class="momentum">
           <span class="momentum-label">Quién lidera el debate</span>
           <div class="momentum-bar">
-            <span style="font-size:0.7rem;color:var(--accent-red)">← Izda</span>
+            <span style="font-size:0.7rem;color:var(--accent-blue)">← Izda</span>
             <div class="bar-track">
-              <div class="bar-fill" style="${barStyle}"></div>
+              <div class="bar-fill" style="width:${barWidth}%;background:${barColor};margin-left:${t.momentumDir === 'right' ? '0' : t.momentumDir === 'left' ? '0' : 'auto'};${t.momentumDir === 'center' ? 'margin:0 auto;' : ''}"></div>
             </div>
-            <span style="font-size:0.7rem;color:var(--accent-blue)">Dcha →</span>
+            <span style="font-size:0.7rem;color:var(--accent-red)">Dcha →</span>
           </div>
           <span class="momentum-text ${momentumClass}">${momentumText}</span>
         </div>
@@ -537,6 +437,7 @@ function renderAll() {
   });
 
   // Trending list
+  const trendingList = document.getElementById('trendingList');
   trends.forEach(t => {
     trendingList.innerHTML += `
       <div class="trending-item">
@@ -550,7 +451,7 @@ function renderAll() {
   });
 
   // Charts
-  window.intensityChart = new Chart(document.getElementById('intensityChart'), {
+  new Chart(document.getElementById('intensityChart'), {
     type: 'bar',
     data: {
       labels: topics.map(t => t.name),
@@ -569,47 +470,33 @@ function renderAll() {
       indexAxis: 'y',
       plugins: { legend: { display: false } },
       scales: {
-        x: { grid: { color: chartColors().grid }, ticks: { color: chartColors().tick } },
-        y: {
-          grid: { display: false },
-          ticks: {
-            color: chartColors().axis,
-            font: { size: 10.5 },
-            autoSkip: false,
-            callback: function (value) {
-              const label = this.getLabelForValue(value);
-              return label.length > 28 ? label.slice(0, 27) + '…' : label;
-            }
-          }
-        }
-      },
-      layout: {
-        padding: { left: 20 }
+        x: { grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' } },
+        y: { grid: { display: false }, ticks: { color: '#e0e0e0', font: { size: 10 } } }
       }
     }
   });
 
-  window.momentumChart = new Chart(document.getElementById('momentumChart'), {
+  new Chart(document.getElementById('momentumChart'), {
     type: 'scatter',
     data: {
       datasets: [
         {
           label: 'Gana la derecha/crítica',
-          data: topics.filter(t => t.momentumDir === 'right').map(t => ({ x: t.intensity, y: t.momentum, name: t.name, icon: t.icon })),
-          backgroundColor: '#4590ffaa',
-          borderColor: '#4590ff',
-          pointRadius: 6,
-        },
-        {
-          label: 'Gana la izquierda/defensa',
-          data: topics.filter(t => t.momentumDir === 'left').map(t => ({ x: t.intensity, y: t.momentum, name: t.name, icon: t.icon })),
+          data: topics.filter(t => t.momentumDir === 'right').map(t => ({ x: t.intensity, y: t.momentum })),
           backgroundColor: '#ff4560aa',
           borderColor: '#ff4560',
           pointRadius: 6,
         },
         {
+          label: 'Gana la izquierda/defensa',
+          data: topics.filter(t => t.momentumDir === 'left').map(t => ({ x: t.intensity, y: t.momentum })),
+          backgroundColor: '#4590ffaa',
+          borderColor: '#4590ff',
+          pointRadius: 6,
+        },
+        {
           label: 'Empate técnico',
-          data: topics.filter(t => t.momentumDir === 'center').map(t => ({ x: t.intensity, y: t.momentum, name: t.name, icon: t.icon })),
+          data: topics.filter(t => t.momentumDir === 'center').map(t => ({ x: t.intensity, y: t.momentum })),
           backgroundColor: '#ff9500aa',
           borderColor: '#ff9500',
           pointRadius: 6,
@@ -620,31 +507,23 @@ function renderAll() {
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { labels: { color: chartColors().tick, boxWidth: 10, font: { size: 10 } } },
-        tooltip: {
-          callbacks: {
-            label: (ctx) => {
-              const p = ctx.raw;
-              const lado = ctx.dataset.label;
-              return `${p.icon || ''} ${p.name} — ${lado} · Intensidad ${p.x} · Inclinación ${p.y}`;
-            }
-          }
-        }
+        legend: { labels: { color: '#8888a0', boxWidth: 10, font: { size: 10 } } },
       },
       scales: {
         x: {
-          title: { display: true, text: 'Intensidad (0-100)', color: chartColors().tick, font: { size: 10 } },
-          grid: { color: chartColors().grid }, ticks: { color: chartColors().tick }, min: 0, max: 100,
+          title: { display: true, text: 'Intensidad (0-100)', color: '#8888a0', font: { size: 10 } },
+          grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' }, min: 0, max: 100,
         },
         y: {
-          title: { display: true, text: 'Inclinación (0=Izda · 100=Dcha)', color: chartColors().tick, font: { size: 10 } },
-          grid: { color: chartColors().grid }, ticks: { color: chartColors().tick }, min: 0, max: 100,
+          title: { display: true, text: 'Inclinación (0=Izda · 100=Dcha)', color: '#8888a0', font: { size: 10 } },
+          grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' }, min: 0, max: 100,
         }
       }
     }
   });
 
   // Viral tweets
+  const viralGrid = document.getElementById('viralGrid');
   if (viralGrid) {
     virals.forEach(v => {
       viralGrid.innerHTML += `
@@ -695,15 +574,12 @@ function renderHistory() {
     alertsDiv.innerHTML = '<div style="color:var(--muted);font-size:0.8rem">✅ Sin cambios bruscos respecto al último periodo.</div>';
   }
 
-  // Ordenar por fecha ascendente y tomar los 6 más recientes
-  const sortedHistory = [...historyData].sort((a, b) => new Date(a.date) - new Date(b.date));
-  const recent = sortedHistory.slice(-6);
-  const labels = recent.map(s => new Date(s.date).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit' }));
+  const labels = historyData.slice(-6).map(s => new Date(s.date).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit' }));
   const datasets = topics.map(t => {
     const color = t.intensity >= 80 ? '#ff4560' : t.intensity >= 65 ? '#ff9500' : '#a855f7';
     return {
       label: t.name,
-      data: recent.map(s => {
+      data: historyData.slice(-6).map(s => {
         const found = s.topics.find(st => st.id === t.id);
         return found ? found.intensity : null;
       }),
@@ -714,7 +590,7 @@ function renderHistory() {
       tension: 0.3
     };
   });
-  window.historyChart = new Chart(document.getElementById('historyChart'), {
+  new Chart(document.getElementById('historyChart'), {
     type: 'line',
     data: { labels, datasets },
     options: {
@@ -722,8 +598,8 @@ function renderHistory() {
       maintainAspectRatio: false,
       plugins: { legend: { display: false } },
       scales: {
-        x: { grid: { color: chartColors().grid }, ticks: { color: chartColors().tick, font: { size: 9 } } },
-        y: { grid: { color: chartColors().grid }, ticks: { color: chartColors().tick }, min: 20, max: 100 }
+        x: { grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0', font: { size: 9 } } },
+        y: { grid: { color: '#2a2a3a' }, ticks: { color: '#8888a0' }, min: 20, max: 100 }
       }
     }
   });
