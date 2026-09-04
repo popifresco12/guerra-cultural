@@ -1,27 +1,27 @@
 {
  "meta": {
-  "generated_at": "2026-09-03T08:19:18+02:00",
+  "generated_at": "2026-09-04T08:10:00+02:00",
   "source": "cron 09f22b3f6f78",
   "queries": [
-   "sanchismo España 2026 polémica actualidad",
-   "inmigración España 2026 debate política",
-   "independentismo Cataluña procés España 2026 (degraded → reintento Diada)",
-   "cultura de la cancelación España 2026 polémica",
-   "Ceuta inmigrantes llegada masiva valla septiembre 2026 reacciones X protestas",
-   "okupas desahucio exprés vivienda ocupada noticia septiembre 2026",
-   "memoria histórica España 2026 ley polémica",
-   "feminismo España 2026 debate abolicionismo prostitución",
-   "ley trans España 2026 debate normativa comunidades autónomas política",
-   "woke ideología España 2026 debate cultura",
-   "lenguaje inclusivo España 2026 polémica",
-   "España vaciada España 2026 incendios despoblación",
-   "fachas nazis xenófobos etiqueta protestas Ceuta izquierda derecha insulto",
-   "Diada Cataluña 2026 independentismo ANC Òmnium movilización",
-   "actividad de @profsecundario @dianitanoticias @Tagelca @elxokas @TemplarExtre @geoestratego @13mescribano @VictorLapuente @EstefMolina_ @nicolasdepedro",
-   "actividad de @armesillaconde @Anujbost @billkilgore_ @elmundotoday @littleragergirl @LaBugsBunnyIA",
-   "tweets virales de @billkilgore_ @Tagelca @dianitanoticias @profsecundario @armesillaconde @geoestratego @13mescribano con enlaces y engagement"
+   "sanchismo España septiembre 2026 polémica actualidad Gobierno Sánchez",
+   "inmigración España septiembre 2026 Ceuta debate política llegadas",
+   "okupación España septiembre 2026 desahucios okupas vivienda noticias",
+   "independentismo Cataluña Diada 11-S septiembre 2026 ANC movilización procés",
+   "memoria histórica España septiembre 2026 ley de nietos concordia polémica",
+   "feminismo España septiembre 2026 abolicionismo prostitución debate",
+   "woke ideología wokismo España septiembre 2026 debate cultura (degradada, sin análisis → stale)",
+   "cultura de la cancelación España septiembre 2026 polémica caso",
+   "ley trans España septiembre 2026 debate autodeterminación menores comunidades",
+   "lenguaje inclusivo España polémica septiembre 2026 (FALLÓ límite gasto xAI → stale)",
+   "España vaciada despoblación septiembre 2026 incendios rural noticias (FALLÓ límite xAI → stale)",
+   "facha nazi xenófobo insulto etiqueta España septiembre 2026 protestas debate (FALLÓ límite xAI → stale)"
   ],
-  "stale_topics": [],
+  "stale_topics": [
+   "woke",
+   "lenguaje-inclusivo",
+   "espana-vaciada",
+   "facha"
+  ],
   "inactive_accounts": [
    "@dianitanoticias",
    "@elxokas",
@@ -29,7 +29,8 @@
    "@VictorLapuente",
    "@elmundotoday",
    "@littleragergirl"
-  ]
+  ],
+  "note": "xAI cortó por spending-limit a mitad de la tanda: 3 búsquedas fallaron y 'woke' volvió degradada sin análisis; la verificación de actividad de cuentas y la búsqueda de virals NO pudieron ejecutarse. accounts[] y virals[] heredan la ventana del 3-S sin reverificar; los 4 tópicos stale reutilizan sus valores previos (regla: nunca inventar)."
  },
  "topics": [
   {
@@ -38,23 +39,23 @@
    "icon": "👑",
    "tag": "🔥 Tendencia alta",
    "tagClass": "tag-hot",
-   "intensity": 97,
-   "momentum": 94,
+   "intensity": 96,
+   "momentum": 93,
    "momentumDir": "right",
-   "summary": "La crisis de Ceuta y el editorial de El Mundo 'Sanchismo duro hasta el final: hostilidad con el Rey y negación de la alternancia' (31 ago) marcan la agenda: oposición y calle hablan ya de 'acto final' y elecciones anticipadas, con Sánchez compareciendo en el Congreso tras las protestas masivas. El 2-S se viraliza como 'el día que España le dijo basta al sanchismo', con concentraciones en toda España y cargas policiales en Madrid. La narrativa de agotamiento y 'contrato social roto' domina el debate en X, donde las voces críticas superan ampliamente a la defensa gubernamental.",
-   "quote": "El Mundo (1-2 sep, vía @AmbersonsI): 'Sanchismo duro hasta el final: hostilidad con el Rey y negación de la alternancia' — el editorial se viraliza como acta de defunción del ciclo, con 'Ceuta no se rinde' de fondo.",
+   "summary": "La crisis de Ceuta rompe al Ejecutivo: ministros que no se hablan (choque con Robles destacado), una ministra que no aplaude, socios descontentos y asesores que abandonan. Sánchez sale debilitado de las entrevistas, 'ya no es tabú hablar de adelanto electoral' y el Gobierno investiga la filtración de informes policiales para aplicar 'todo el peso del sanchismo'. La oposición (PP, Vox) y analistas leen el pulso con Marruecos como chantaje y debilidad, con debates en el Congreso sobre endurecer la relación bilateral e incluso llevar a Sánchez a los tribunales.",
+   "quote": "'Ya no es tabú hablar de adelanto electoral': la crisis de Ceuta parte en dos al Gobierno (choque con Robles, ministra que no aplaude) y se investiga la filtración de informes para aplicar 'todo el peso del sanchismo' (vía @voz_populi, @mehuelea, @diario_red_).",
    "details": [
     [
      "Volumen en X",
-     "Máximo"
+     "Muy alto"
     ],
     [
      "Sentimiento",
-     "Crítico ~90% / fin de ciclo"
+     "Crítico mayoritario / fin de ciclo"
     ],
     [
      "Impulsado por",
-     "El Mundo + protestas Día de Ceuta"
+     "Crisis Ceuta + división interna + filtraciones"
     ]
    ]
   },
@@ -64,11 +65,11 @@
    "icon": "🚧",
    "tag": "🔥 Tendencia alta",
    "tagClass": "tag-hot",
-   "intensity": 98,
+   "intensity": 97,
    "momentum": 94,
    "momentumDir": "right",
-   "summary": "La crisis de Ceuta no da tregua: las llegadas irregulares crecen un 102% respecto a 2025 y la Fiscalía eleva a 23 las agresiones sexuales desde la entrada masiva, con la ciudad desbordada entre acogida, MENAs y tensión vecinal. El 2-S (Día de Ceuta) estalla la movilización: decenas de miles en Ceuta, Madrid, Valladolid y otras ciudades bajo 'Ceuta no se vende, Ceuta se defiende' / #CeutaNoEstáSola, con cargas policiales en Madrid. El Gobierno duplica plazas pero descarta traslados a la Península, la oposición le acusa de inacción y circulan alertas de nuevos asaltos el 23-S.",
-   "quote": "Día de Ceuta (2 sep): 'Ceuta no se vende, Ceuta se defiende' — decenas de miles en la calle; la Fiscalía eleva a 23 las agresiones sexuales y las llegadas irregulares crecen un 102% (vía @Pienso1ro, @elcierredigital).",
+   "summary": "Ceuta sigue desbordada un mes después de la entrada masiva de finales de julio: el debate se centra en si Marruecos 'preparó o ejecutó' los asaltos — Sánchez dice que no hay pruebas sólidas y defiende la relación bilateral — mientras documentos del Consejo de Seguridad Nacional (25 ago) alertaban del riesgo de nuevos asaltos. El pleno del Congreso y las voces que piden endurecer la posición ante Rabat mantienen el tema en máximos; 'Ceuta sigue invadida' es el grito recurrente.",
+   "quote": "Documentos del Consejo de Seguridad Nacional (25 ago) alertaban del riesgo de nuevos asaltos mientras Sánchez niega pruebas de que Marruecos 'preparara o ejecutara' la entrada masiva; la oposición habla de chantaje marroquí en el Congreso (vía @voz_populi, @diario_red_).",
    "details": [
     [
      "Volumen en X",
@@ -76,11 +77,11 @@
     ],
     [
      "Sentimiento",
-     "Mayoritariamente crítico / alarma"
+     "Crítico / alarma persistente"
     ],
     [
      "Impulsado por",
-     "Día de Ceuta + Fiscalía + informes"
+     "Consejo Seguridad Nacional + pleno Congreso"
     ]
    ]
   },
@@ -90,11 +91,11 @@
    "icon": "🏠",
    "tag": "🔥 Tendencia moderada",
    "tagClass": "tag-moderate",
-   "intensity": 75,
-   "momentum": 82,
+   "intensity": 76,
+   "momentum": 84,
    "momentumDir": "right",
-   "summary": "La okupación recupera espacio con casos de manual: propietarios 'desesperados' publican en Idealista pisos ocupados para deshacerse de ellos (Vozpópuli, 1 sep), la Junta de Andalucía anuncia asistencia legal urgente a afectados (2 sep) y un juzgado confirma el desahucio de los okupas del Hostal Sorrento en Palma (3 sep). En X se extiende la queja por la lentitud de los desalojos — 'Nueve identificados. Cero desalojados' — y el 'desahucio exprés' vuelve a primer plano.",
-   "quote": "Vozpópuli (1 sep): propietarios 'desesperados' venden en Idealista pisos con okupas dentro ante la imposibilidad de recuperarlos — un reportaje 'devastador', con Andalucía anunciando asistencia legal urgente al día siguiente.",
+   "summary": "La okupación suma casos de manual: un juzgado confirma el desahucio de los okupas del Hostal Sorrento (Palma, 3-S) y vecinos con Guardia Civil evitan un intento en Almudévar (Huesca, 2-S), mientras la Junta de Andalucía ofrece asistencia legal urgente a propietarios. El caso viral de la ventana: unos okupas alquilan en turístico el piso que ocupan y se hacen socios de un club de golf mientras Hacienda multa y retiene la nómina al propietario legítimo. Las comparaciones con el 'desalojo exprés' portugués siguen recorriendo X.",
+   "quote": "Caso viral (3 sep, vía @CCivicaCatalana): okupas que alquilan en turístico el piso ocupado y Hacienda que multa al propietario legítimo por falta de licencia — mientras un juzgado confirma el desahucio del Hostal Sorrento en Palma.",
    "details": [
     [
      "Volumen en X",
@@ -102,11 +103,11 @@
     ],
     [
      "Sentimiento",
-     "Frustración propietarios"
+     "Frustración propietarios / indignación"
     ],
     [
      "Impulsado por",
-     "Idealista + Junta Andalucía + Palma"
+     "Caso turístico viral + Sorrento + Andalucía"
     ]
    ]
   },
@@ -116,11 +117,11 @@
    "icon": "🗺️",
    "tag": "🔥 Tendencia moderada",
    "tagClass": "tag-moderate",
-   "intensity": 71,
-   "momentum": 60,
+   "intensity": 73,
+   "momentum": 62,
    "momentumDir": "right",
-   "summary": "A ocho días de la Diada, la maquinaria independentista se activa: la ANC convoca bajo el lema 'Hi soc. Hi som. Independència' movilizaciones descentralizadas el 11-S en Barcelona, Girona y Amposta, con el respaldo explícito de Òmnium y camisetas oficiales en preventa. El 'nuevo independentismo de masas' se debate mientras afloran tensiones internas entre los sectores de izquierda y derecha en la víspera. Sin gran gesto político, la conversación pre-Diada mantiene el tema en ebullición contenida.",
-   "quote": "ANC (@assemblea): Diada 2026 con 'Hi soc. Hi som. Independència' — columnas Present y Futur en Barcelona, Girona y Amposta el 11-S, con Òmnium pidiendo 'demostrar que HI SOM'.",
+   "summary": "A siete días de la Diada, la maquinaria se activa: la ANC convoca el 11-S bajo 'Hi soc. Hi som. Independència' con movilizaciones en Barcelona, Girona y Amposta, espot promocional ('Hi soc, hi som. I tu?') y territoriales organizando autocares. La conversación previa refleja tensión interna entre los sectores independentistas de izquierda y derecha — con crónicas que hablan de riesgo de roces la víspera — y críticas al cartel institucional del Govern de Illa, acusado de 'diluir' la singularidad catalana.",
+   "quote": "ANC (@assemblea): Diada 11-S con 'Hi soc. Hi som. Independència' en Barcelona, Girona y Amposta — espot 'Hi soc, hi som. I tu?' y territoriales movilizando autocares, con tensiones izquierda-derecha en la víspera.",
    "details": [
     [
      "Volumen en X",
@@ -132,7 +133,7 @@
     ],
     [
      "Impulsado por",
-     "ANC + Òmnium"
+     "ANC + críticas al cartel de Illa"
     ]
    ]
   },
@@ -142,23 +143,23 @@
    "icon": "📜",
    "tag": "🔥 Tendencia moderada",
    "tagClass": "tag-moderate",
-   "intensity": 65,
-   "momentum": 63,
+   "intensity": 72,
+   "momentum": 68,
    "momentumDir": "right",
-   "summary": "La batalla por la memoria se judicializa: el Tribunal Supremo cita como codemandados al Ministerio de la Presidencia y al INE por el impacto censal de la 'ley de nietos', con vista en torno al 7-S, mientras el volumen de solicitudes de nacionalidad (hasta ~2,6 millones según algunos cálculos) sigue alimentando la polémica. Los críticos denuncian una ley 'papel mojado' que no se aplica (enaltecimiento, simbología) y el boicot autonómico con las leyes de 'concordia' del PP mantiene el choque de competencias.",
-   "quote": "El TS cita a Bolaños y al INE por la 'ley de nietos' (vista ~7-S) mientras se debate el impacto de ~2,6M de solicitudes de nacionalidad en el censo (vía @eris_28, @angelvidalag).",
+   "summary": "La 'ley de nietos' se convierte en batalla demográfico-electoral: las solicitudes saltan de 876.321 a ~2,4 millones (+174%) y el censo CERA se dispara — en 123-162 municipios hay más votantes en el extranjero que empadronados — con críticas de que el voto exterior podría alterar hasta 23 escaños. El Gobierno habría 'apagado' el contador público durante los 83 días previos al vencimiento del plazo. El Tribunal Supremo admite a trámite el recurso de Hazte Oír contra la ley, con el Ministerio de la Presidencia (Bolaños) y el INE como codemandados.",
+   "quote": "El TS admite el recurso de Hazte Oír contra la 'ley de nietos' (Bolaños e INE codemandados) mientras las solicitudes pasan de 876.321 a ~2,4M y el censo CERA se dispara: hasta 23 escaños en juego según los críticos (vía @eltorotv, @josecalvogomez).",
    "details": [
     [
      "Volumen en X",
-     "Moderado"
+     "Alto"
     ],
     [
      "Sentimiento",
-     "Polarizado / 'papel mojado'"
+     "Crítico / sospecha de manipulación"
     ],
     [
      "Impulsado por",
-     "TS + censo + leyes concordia"
+     "Cifras CERA + recurso TS"
     ]
    ]
   },
@@ -169,10 +170,10 @@
    "tag": "🔥 Tendencia moderada",
    "tagClass": "tag-moderate",
    "intensity": 68,
-   "momentum": 58,
+   "momentum": 60,
    "momentumDir": "right",
-   "summary": "El feminismo abolicionista acelera su calendario: la Plataforma Abolicionista (PAP) convoca el II Congreso Estatal el 3 de octubre en Sevilla bajo 'el feminismo es abolicionista' y Jerez acoge el II Foro Abolicionista el 18-S, con la campaña #LOASPseráLEY de fondo. El BOE publica la orden de subvenciones (26 ago) para planes de inserción y 'salida' de la prostitución, confirmando el sesgo institucional abolicionista, mientras el sector pro-derechos replica con 'Desafiando el abolicionismo' y denuncia paternalismo.",
-   "quote": "PAP (@Abolicion_Prost): II Congreso Estatal Abolicionista el 3 de octubre en Sevilla — 'el feminismo es abolicionista' — mientras el BOE orienta las subvenciones a la 'salida', no a la regulación laboral.",
+   "summary": "El abolicionismo acelera hacia el II Congreso Estatal del 3 de octubre en Sevilla: la Plataforma Abolicionista (PAP) moviliza bajo 'el FEMINISMO es ABOLICIONISTA' con citas de Beauvoir, Millett y Morgan y la LOASP como objetivo legislativo (#LOASPseráLEY). El Moviment Feminista de Barcelona refuerza el marco de 'negocio criminal global'; enfrente, el sector pro-derechos responde con #elabolicionismomata y denuncia paternalismo y moralismo.",
+   "quote": "PAP (@Abolicion_Prost): II Congreso Estatal Abolicionista, 3 de octubre en Sevilla — 'el feminismo es abolicionista' — con la LOASP como objetivo y #LOASPseráLEY de fondo.",
    "details": [
     [
      "Volumen en X",
@@ -184,7 +185,7 @@
     ],
     [
      "Impulsado por",
-     "PAP + congresos + BOE"
+     "Congreso 3-Oct + campaña LOASP"
     ]
    ]
   },
@@ -220,11 +221,11 @@
    "icon": "🔇",
    "tag": "🔥 Tendencia moderada",
    "tagClass": "tag-moderate",
-   "intensity": 68,
-   "momentum": 62,
-   "momentumDir": "right",
-   "summary": "La cancelación suma frentes mediáticos: el fin de 'El show de Paz' (Paz Padilla) dispara la polémica sobre la 'crueldad descarnada' con que las redes celebran el cierre — denunciada por el presidente de RTVE — y el Met suspende la retrospectiva de John Galliano, reabriendo el debate entre genio creativo y condena moral. En paralelo, la cancelación de festivales crece un 50% (sobre todo por costes y ventas) y la discusión de fondo — ¿rendición de cuentas o linchamiento selectivo? — se reaviva con cada caso.",
-   "quote": "El presidente de RTVE critica la 'crueldad descarnada' de las redes al celebrar la cancelación de 'El show de Paz', y el Met retira la retrospectiva de Galliano (vía @Vertele, @elle_es).",
+   "intensity": 73,
+   "momentum": 55,
+   "momentumDir": "center",
+   "summary": "La cancelación cambia de bando esta semana: la Diputación de Valladolid (controlada por la derecha) suspende el mismo día de la inauguración la exposición del artista Íñigo Varona sobre la Transición, y PSOE y medios de izquierda denuncian 'censura política' — con el calificativo irónico de 'Fachadolid' — mientras la institución alega motivos técnicos. El caso se viraliza en X y reabre el debate de fondo: la cancelación también se practica desde el poder institucional, no solo desde la presión digital.",
+   "quote": "Cancelada la exposición de Íñigo Varona sobre la Transición en la Diputación de Valladolid el día de su inauguración: el PSOE denuncia 'censura política' y la institución alega motivos técnicos (vía @noticiascyl, @eldiarioes, @psoevalladolid).",
    "details": [
     [
      "Volumen en X",
@@ -232,11 +233,11 @@
     ],
     [
      "Sentimiento",
-     "Crítico con el linchamiento digital"
+     "Cruzado: censura institucional vs defensa"
     ],
     [
      "Impulsado por",
-     "Paz Padilla + Galliano + festivales"
+     "Caso Varona (Valladolid)"
     ]
    ]
   },
@@ -247,10 +248,10 @@
    "tag": "🔥 Tendencia moderada",
    "tagClass": "tag-moderate",
    "intensity": 66,
-   "momentum": 66,
+   "momentum": 65,
    "momentumDir": "right",
-   "summary": "Los casos de fraude registral vuelven a alimentar el debate: un agresor de Benidorm evita ser juzgado por violencia machista tras el cambio de sexo registral y 'Contra el Borrado de las Mujeres' actualiza su mapa de impactos (ertzaina, bomberos, oposiciones), mientras el PP mantiene un perfil pragmático — ninguna comunidad gobernada por los populares ha derogado sus leyes trans — y Vox exige la derogación total. La autodeterminación de género y sus 'efectos colaterales' concentran la crítica; los defensores denuncian el uso político de casos aislados.",
-   "quote": "'Contra el Borrado' (@ContraBorrado) documenta el caso del agresor de Benidorm que esquiva la violencia machista tras el cambio registral — el PP sin derogar y Vox pidiendo la derogación total.",
+   "summary": "Sin gran detonante legislativo, el debate se mantiene en la aplicación: 'Contra el Borrado de las Mujeres' actualiza su mapa de impactos (3-S) con los casos de fraude registral, y los protocolos autonómicos restrictivos de las comunidades del PP (evaluación multidisciplinar, límites a bloqueadores) marcan la diferencia real frente a la ley estatal. La oposición insinúa reformas parciales si cambian las mayorías y los defensores denuncian el uso político de casos aislados.",
+   "quote": "'Contra el Borrado' (@ContraBorrado, 3 sep) actualiza su mapa de casos: fraude registral (Benidorm, Bilbao) y protocolos autonómicos del PP como campo de batalla real frente a la autodeterminación estatal.",
    "details": [
     [
      "Volumen en X",
@@ -262,7 +263,7 @@
     ],
     [
      "Impulsado por",
-     "Casos fraude + mapa ContraBorrado"
+     "Mapa ContraBorrado + CCAA"
     ]
    ]
   },
@@ -347,104 +348,104 @@
  ],
  "news": [
   {
-   "title": "Día de Ceuta y 3-S: protestas masivas en toda España y cargas policiales en Madrid; 'Ceuta no se vende, Ceuta se defiende'",
-   "date": "2-3 sep 2026",
-   "summary": "Decenas de miles de personas se concentran el 2-S en Ceuta, Madrid (Cibeles/Congreso), Valladolid y otras ciudades bajo '#CeutaNoEstáSola' y 'Ceuta no se vende, Ceuta se defiende', con cargas policiales y gases en Madrid. El Gobierno duplica plazas de acogida pero descarta traslados a la Península; PP y Vox le acusan de inacción y circulan alertas de posibles nuevos asaltos el 23-S.",
-   "source": "El Debate / El Cierre Digital / La Razón / X",
-   "tags": [
-    "Inmigración",
-    "Ceuta"
-   ]
-  },
-  {
-   "title": "El Mundo: 'Sanchismo duro hasta el final: hostilidad con el Rey y negación de la alternancia'",
-   "date": "31 ago-2 sep 2026",
-   "summary": "El editorial se viraliza en X como acta de defunción del ciclo: hostilidad hacia el Rey y las instituciones no controladas por el Gobierno, negación de la alternancia y posible relato para retrasar las elecciones de 2027. En paralelo, la crisis de Ceuta —con informes policiales que apuntan a Rabat— se convierte en el detonante de las protestas y de la comparecencia de Sánchez en el Congreso.",
-   "source": "El Mundo / X",
+   "title": "Crisis de Gobierno por Ceuta: ministros que no se hablan, investigación de filtraciones y 'ya no es tabú' el adelanto electoral",
+   "date": "3-4 sep 2026",
+   "summary": "La gestión de la entrada masiva en Ceuta parte en dos al Ejecutivo: choque con Margarita Robles, una ministra que no aplaude, socios descontentos y asesores que abandonan. Sánchez niega pruebas contra Marruecos mientras el Gobierno investiga quién filtró los informes policiales para aplicar 'todo el peso del sanchismo'; PP y Vox piden endurecer la relación con Rabat.",
+   "source": "Vozpópuli / El Confidencial / X",
    "tags": [
     "Sanchismo",
     "Ceuta"
    ]
   },
   {
-   "title": "Okupación: propietarios venden en Idealista pisos con okupas dentro y Andalucía anuncia asistencia legal urgente a los afectados",
+   "title": "Cancelada la exposición de Íñigo Varona sobre la Transición en la Diputación de Valladolid; PSOE y elDiario denuncian 'censura política'",
+   "date": "3 sep 2026",
+   "summary": "La muestra del artista vallisoletano se suspende el mismo día de su inauguración en la Diputación, controlada por la derecha. El PSOE habla de 'censura previa' ideológica — algunos la llaman 'Fachadolid' — y la institución alega problemas técnicos y de calidad; el debate se viraliza en X.",
+   "source": "elDiario.es / Cadena SER / X",
+   "tags": [
+    "Cultura de la cancelación",
+    "Censura"
+   ]
+  },
+  {
+   "title": "Ley de nietos: solicitudes de ~876.000 a ~2,4 millones y censo CERA disparado; el TS admite el recurso de Hazte Oír",
    "date": "1-3 sep 2026",
-   "summary": "Vozpópuli documenta la categoría 'devastadora' de pisos ocupados puestos a la venta por propietarios desesperados. La Junta de Andalucía anuncia asistencia legal urgente para agilizar recuperaciones y un juzgado confirma el desahucio de los okupas del Hostal Sorrento (Palma). En X se extiende la queja 'Nueve identificados. Cero desalojados'.",
-   "source": "Vozpópuli / La Voz del Sur / Última Hora / X",
+   "summary": "El Supremo admite a trámite el recurso contra la 'ley de nietos' con el Ministerio de la Presidencia (Bolaños) y el INE como codemandados. Las solicitudes crecen un 174% y el voto exterior podría decidir hasta 23 escaños según los críticos, que denuncian opacidad estadística del Gobierno.",
+   "source": "El Toro TV / X / Hazte Oír",
+   "tags": [
+    "Memoria Histórica",
+    "Censo"
+   ]
+  },
+  {
+   "title": "Okupas que alquilan en turístico el piso ocupado mientras Hacienda multa al propietario; confirmado el desahucio del Hostal Sorrento (Palma)",
+   "date": "3 sep 2026",
+   "summary": "Un caso de máxima difusión muestra a okupas cobrando por el alquiler turístico de la vivienda ocupada y haciéndose socios de un club de golf, mientras el propietario legítimo ve retenida su nómina por Hacienda. En paralelo, un juzgado confirma el desalojo de los okupas del Hostal Sorrento y Andalucía ofrece asistencia legal urgente.",
+   "source": "Última Hora / X / Vozpópuli",
    "tags": [
     "Okupación",
     "Vivienda"
    ]
   },
   {
-   "title": "Ley trans: un agresor de Benidorm evita ser juzgado por violencia machista tras el cambio registral y 'Contra el Borrado' actualiza su mapa de casos",
-   "date": "1-3 sep 2026",
-   "summary": "Nuevos episodios de fraude registral alimentan la crítica a la autodeterminación de género: caso de Benidorm, el de la ertzaina que cambia de sexo y abandona el cuerpo con prestaciones, u oposiciones como bomberos en Madrid. Ninguna comunidad del PP ha derogado sus leyes trans pese a la presión de Vox; el campo de batalla está en la aplicación autonómica y los tribunales.",
-   "source": "X / Contra el Borrado / El Debate",
+   "title": "Diada 2026 a siete días: la ANC convoca 'Hi soc. Hi som. Independència' en Barcelona, Girona y Amposta con tensión interna en la víspera",
+   "date": "2-4 sep 2026",
+   "summary": "La Assemblea Nacional Catalana ultima las movilizaciones descentralizadas del 11-S con espot propio y territoriales organizando autocares. La conversación previa refleja tensiones entre los sectores independentistas de izquierda y derecha y críticas al cartel institucional del Govern de Illa por 'diluir' la singularidad catalana.",
+   "source": "ANC / VilaWeb / X",
    "tags": [
-    "Ley Trans",
-    "Violencia de género"
-   ]
-  },
-  {
-   "title": "FutPro lanza su campaña de lenguaje inclusivo en el fútbol ('jugadoras, guardameta, árbitra') y el Gobierno aprueba el RD de accesibilidad cognitiva",
-   "date": "1-3 sep 2026",
-   "summary": "El sindicato de futbolistas pide adaptar las Reglas del Juego al femenino y X responde con burlas ('¿y los salarios, los contratos y llenar estadios?'). En paralelo, el Gobierno aprueba el primer marco estatal de accesibilidad cognitiva —lenguaje claro, lectura fácil, pictogramas—, una medida celebrada por colectivos de discapacidad y sin polémica ideológica.",
-   "source": "X / RTVE / todoDISCAPACIDAD",
-   "tags": [
-    "Lenguaje inclusivo",
-    "Fútbol"
+    "Independentismo",
+    "Diada"
    ]
   }
  ],
  "trends": [
   {
-   "name": "Inmigración / Crisis de Ceuta",
+   "name": "Memoria Histórica / ley de nietos",
    "change": "up",
-   "pct": "+8%",
-   "detail": "El Día de Ceuta (2-S) dispara la movilización en toda España con cargas policiales en Madrid; +102% de llegadas irregulares, 23 agresiones según la Fiscalía y alertas de nuevos asaltos el 23-S mantienen el tema en máximos."
+   "pct": "+14%",
+   "detail": "El mayor subidón de la ventana: solicitudes de 876.321 a ~2,4M (+174%), censo CERA disparado (hasta 23 escaños según críticos) y el TS admite el recurso de Hazte Oír contra la ley."
   },
   {
-   "name": "Facha / Insulto político",
-   "change": "up",
-   "pct": "+12%",
-   "detail": "La etiqueta 'facha/nazi/xenófobo' contra los manifestantes por Ceuta —mezclando ultras reales con ciudadanos ordinarios— dispara el debate sobre el insulto como cierre de discusión. El mayor subidón de la jornada."
-  },
-  {
-   "name": "Sanchismo",
+   "name": "Cultura de la cancelación",
    "change": "up",
    "pct": "+10%",
-   "detail": "El editorial de El Mundo sobre el Rey y la negación de la alternancia se suma a las protestas: 'el día que España dijo basta al sanchismo' es el marco dominante, con la comparecencia de Sánchez en el Congreso."
+   "detail": "La cancelación de la exposición de Íñigo Varona en la Diputación de Valladolid invierte el relato habitual: ahora es la izquierda la que denuncia censura institucional de la derecha ('Fachadolid')."
+  },
+  {
+   "name": "Sanchismo / crisis de Gobierno",
+   "change": "up",
+   "pct": "+9%",
+   "detail": "Ceuta parte al Ejecutivo: ministros que no se hablan, investigación de filtraciones para aplicar 'todo el peso del sanchismo' y debates en el Congreso; ya no es tabú el adelanto electoral."
   },
   {
    "name": "Okupación",
    "change": "up",
-   "pct": "+6%",
-   "detail": "La venta de pisos con okupas en Idealista, la asistencia legal urgente de Andalucía y el desahucio confirmado del Hostal Sorrento (Palma) reabren la demanda de desalojo exprés."
-  },
-  {
-   "name": "Ley Trans",
-   "change": "up",
    "pct": "+5%",
-   "detail": "Los casos de fraude registral (Benidorm, ertzaina) y el mapa actualizado de 'Contra el Borrado' dan nuevo fuelle a la crítica; Vox pide la derogación total."
+   "detail": "El caso viral de los okupas que alquilan en turístico el piso ocupado (con Hacienda multando al propietario) se suma al desahucio confirmado del Hostal Sorrento y la asistencia legal de Andalucía."
   },
   {
    "name": "Independentismo / Diada",
    "change": "up",
    "pct": "+4%",
-   "detail": "A ocho días del 11-S, la ANC lanza 'Hi soc. Hi som. Independència' con tres focos de movilización y Òmnium detrás; afloran tensiones internas izquierda-derecha."
+   "detail": "A siete días del 11-S la ANC acelera 'Hi soc. Hi som.' con tres focos de movilización; tensión izquierda-derecha en la víspera y críticas al cartel institucional de Illa."
+  },
+  {
+   "name": "Inmigración / Ceuta",
+   "change": "stable",
+   "pct": "+2%",
+   "detail": "Sin nuevo pico tras el Día de Ceuta (2-S), la crisis se mantiene en máximos: el foco pasa a la división del Gobierno, los avisos del Consejo de Seguridad Nacional y el pleno del Congreso."
   },
   {
    "name": "Woke / Anti-woke",
    "change": "stable",
-   "pct": "+2%",
-   "detail": "El 'wokismo 2' de Quintana Paz sigue de fondo, ahora fusionado con la lectura de Ceuta como caso práctico; sin detonante nuevo, la conversación se mantiene alta pero estable."
+   "pct": "0%",
+   "detail": "Sin detonante nuevo en la ventana (búsqueda degradada por límite xAI, valor reutilizado): el marco migratorio-islámico sigue de fondo tras el 'wokismo 2' de Quintana Paz."
   },
   {
-   "name": "España Vaciada / Incendios",
-   "change": "down",
-   "pct": "-8%",
-   "detail": "El balance provisional de incendios (264.656 ha, un 30,9% menos que 2025) enfría la alarma del verano; el debate se desplaza a las ayudas de 80M€ y el Plan Forestal de CyL."
+   "name": "Facha / Insulto político",
+   "change": "stable",
+   "pct": "0%",
+   "detail": "Sin búsqueda fresca esta ventana (límite xAI, valor reutilizado); el pico del etiquetado durante las protestas del 2-S se ha enfriado sin un nuevo detonante."
   }
  ],
  "accounts": [
