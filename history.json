@@ -1,82 +1,5 @@
 [
  {
-  "date": "2026-08-28T08:18:27+02:00",
-  "topics": [
-   {
-    "id": "sanchismo",
-    "name": "Sanchismo",
-    "intensity": 96,
-    "momentumDir": "right"
-   },
-   {
-    "id": "inmigracion",
-    "name": "Inmigración",
-    "intensity": 97,
-    "momentumDir": "right"
-   },
-   {
-    "id": "okupacion",
-    "name": "Okupación",
-    "intensity": 72,
-    "momentumDir": "right"
-   },
-   {
-    "id": "independentismo",
-    "name": "Independentismo / Procés",
-    "intensity": 66,
-    "momentumDir": "right"
-   },
-   {
-    "id": "memoria",
-    "name": "Memoria Histórica",
-    "intensity": 52,
-    "momentumDir": "center"
-   },
-   {
-    "id": "feminismo",
-    "name": "Feminismo Radical",
-    "intensity": 72,
-    "momentumDir": "left"
-   },
-   {
-    "id": "woke",
-    "name": "Wokismo / Ideología Woke",
-    "intensity": 80,
-    "momentumDir": "right"
-   },
-   {
-    "id": "cultura-cancelacion",
-    "name": "Cultura de la Cancelación",
-    "intensity": 80,
-    "momentumDir": "right"
-   },
-   {
-    "id": "ley-trans",
-    "name": "Ley Trans",
-    "intensity": 80,
-    "momentumDir": "right"
-   },
-   {
-    "id": "lenguaje-inclusivo",
-    "name": "Lenguaje Inclusivo",
-    "intensity": 72,
-    "momentumDir": "right"
-   },
-   {
-    "id": "espana-vaciada",
-    "name": "España Vaciada",
-    "intensity": 83,
-    "momentumDir": "center"
-   },
-   {
-    "id": "facha",
-    "name": "Facha / Insulto Político",
-    "intensity": 56,
-    "momentumDir": "center"
-   }
-  ]
- },
- {
   "date": "2026-08-29T08:15:00+02:00",
   "topics": [
    {
@@ -901,6 +824,83 @@
     "id": "ley-trans",
     "name": "Ley Trans",
     "intensity": 73,
+    "momentumDir": "right"
+   },
+   {
+    "id": "lenguaje-inclusivo",
+    "name": "Lenguaje Inclusivo",
+    "intensity": 45,
+    "momentumDir": "right"
+   },
+   {
+    "id": "espana-vaciada",
+    "name": "España Vaciada",
+    "intensity": 66,
+    "momentumDir": "right"
+   },
+   {
+    "id": "facha",
+    "name": "Facha / Insulto Político",
+    "intensity": 80,
+    "momentumDir": "right"
+   }
+  ]
+ },
+ {
+  "date": "2026-09-11T08:35:00+02:00",
+  "topics": [
+   {
+    "id": "sanchismo",
+    "name": "Sanchismo",
+    "intensity": 96,
+    "momentumDir": "right"
+   },
+   {
+    "id": "inmigracion",
+    "name": "Inmigración",
+    "intensity": 95,
+    "momentumDir": "right"
+   },
+   {
+    "id": "okupacion",
+    "name": "Okupación",
+    "intensity": 88,
+    "momentumDir": "right"
+   },
+   {
+    "id": "independentismo",
+    "name": "Independentismo / Procés",
+    "intensity": 84,
+    "momentumDir": "right"
+   },
+   {
+    "id": "memoria",
+    "name": "Memoria Histórica",
+    "intensity": 83,
+    "momentumDir": "right"
+   },
+   {
+    "id": "feminismo",
+    "name": "Feminismo Radical",
+    "intensity": 68,
+    "momentumDir": "right"
+   },
+   {
+    "id": "woke",
+    "name": "Wokismo / Ideología Woke",
+    "intensity": 72,
+    "momentumDir": "right"
+   },
+   {
+    "id": "cultura-cancelacion",
+    "name": "Cultura de la Cancelación",
+    "intensity": 80,
+    "momentumDir": "right"
+   },
+   {
+    "id": "ley-trans",
+    "name": "Ley Trans",
+    "intensity": 74,
     "momentumDir": "right"
    },
    {
