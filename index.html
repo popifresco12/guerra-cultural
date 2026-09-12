@@ -125,11 +125,11 @@
     border-radius: 2px;
     transition: width 0.5s;
   }
-  .bar-left { background: var(--accent-blue); }
-  .bar-right { background: var(--accent-red); }
+  .bar-left { background: var(--accent-red); }
+  .bar-right { background: var(--accent-blue); }
   .momentum-text { font-weight: 600; }
-  .momentum-text.m-right { color: var(--accent-red); }
-  .momentum-text.m-left { color: var(--accent-blue); }
+  .momentum-text.m-right { color: var(--accent-blue); }
+  .momentum-text.m-left { color: var(--accent-red); }
   .momentum-text.m-center { color: var(--accent-orange); }
   .stats-row {
     display: flex;
@@ -404,7 +404,7 @@ function renderAll() {
   const grid = document.getElementById('topicGrid');
   topics.forEach(t => {
     const barWidth = t.momentum;
-    const barColor = t.momentumDir === 'right' ? 'var(--accent-red)' : t.momentumDir === 'left' ? 'var(--accent-blue)' : 'var(--accent-orange)';
+    const barColor = t.momentumDir === 'right' ? 'var(--accent-blue)' : t.momentumDir === 'left' ? 'var(--accent-red)' : 'var(--accent-orange)';
     const momentumText = t.momentumDir === 'right' ? 'Gana la derecha/crítica' : t.momentumDir === 'left' ? 'Gana la izquierda/defensa' : 'Empate técnico';
     const momentumClass = t.momentumDir === 'right' ? 'm-right' : t.momentumDir === 'left' ? 'm-left' : 'm-center';
 
@@ -424,11 +424,11 @@ function renderAll() {
         <div class="momentum">
           <span class="momentum-label">Quién lidera el debate</span>
           <div class="momentum-bar">
-            <span style="font-size:0.7rem;color:var(--accent-blue)">← Izda</span>
+            <span style="font-size:0.7rem;color:var(--accent-red)">← Izda</span>
             <div class="bar-track">
               <div class="bar-fill" style="width:${barWidth}%;background:${barColor};margin-left:${t.momentumDir === 'right' ? '0' : t.momentumDir === 'left' ? '0' : 'auto'};${t.momentumDir === 'center' ? 'margin:0 auto;' : ''}"></div>
             </div>
-            <span style="font-size:0.7rem;color:var(--accent-red)">Dcha →</span>
+            <span style="font-size:0.7rem;color:var(--accent-blue)">Dcha →</span>
           </div>
           <span class="momentum-text ${momentumClass}">${momentumText}</span>
         </div>
@@ -483,15 +483,15 @@ function renderAll() {
         {
           label: 'Gana la derecha/crítica',
           data: topics.filter(t => t.momentumDir === 'right').map(t => ({ x: t.intensity, y: t.momentum })),
-          backgroundColor: '#ff4560aa',
-          borderColor: '#ff4560',
+          backgroundColor: '#4590ffaa',
+          borderColor: '#4590ff',
           pointRadius: 6,
         },
         {
           label: 'Gana la izquierda/defensa',
           data: topics.filter(t => t.momentumDir === 'left').map(t => ({ x: t.intensity, y: t.momentum })),
-          backgroundColor: '#4590ffaa',
-          borderColor: '#4590ff',
+          backgroundColor: '#ff4560aa',
+          borderColor: '#ff4560',
           pointRadius: 6,
         },
         {
