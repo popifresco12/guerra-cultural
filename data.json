@@ -1,22 +1,23 @@
 {
   "meta": {
-    "generated_at": "2026-09-12T08:02:25+02:00",
+    "generated_at": "2026-09-13T08:02:13+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "sanchismo Sanchez Espana septiembre 2026 crisis Gobierno Ceuta CNI desclasificado dimision mocion de censura debate X 10 y 11 septiembre (desde 2026-09-08) [FALLO HOY: xAI sin creditos - limite de gasto]",
-      "inmigracion Ceuta Espana septiembre 2026 migrantes menores traslados Marruecos devoluciones debate X 10 y 11 septiembre (desde 2026-09-08) [FALLO HOY: xAI sin creditos - limite de gasto]",
-      "okupacion okupas Espana septiembre 2026 vivienda desahucios desalojos ocupacion ilegal debate X 10 y 11 septiembre (desde 2026-09-08) [FALLO HOY: xAI sin creditos - limite de gasto]",
-      "independentismo Cataluna Diada 11 septiembre 2026 manifestacion Barcelona ANC Alianza Catalana participacion debate X (desde 2026-09-08) [FALLO HOY: xAI sin creditos - limite de gasto]",
-      "memoria historica Espana septiembre 2026 Ley de Nietos CERA Tribunal Supremo franquismo debate X 10 y 11 septiembre (desde 2026-09-08) [FALLO HOY: xAI sin creditos - limite de gasto]",
-      "feminismo abolicionismo prostitucion violencia de genero Espana septiembre 2026 polemica debate X (desde 2026-09-08) [FALLO HOY: xAI sin creditos - limite de gasto]",
-      "wokismo ideologia woke anti-woke Espana septiembre 2026 polemica progresismo cultura debate X (desde 2026-09-07) [FALLO HOY: xAI sin creditos - limite de gasto]",
-      "cultura de la cancelacion censura boicot polemica Espana septiembre 2026 debate redes X (desde 2026-09-08) [FALLO HOY: xAI sin creditos - limite de gasto]",
-      "ley trans autodeterminacion de genero Espana septiembre 2026 debate Tribunal Constitucional polemica menores X (desde 2026-09-08) [FALLO HOY: xAI sin creditos - limite de gasto]",
-      "lenguaje inclusivo desdoblamiento RAE masculino generico Espana septiembre 2026 polemica debate X (desde 2026-09-08) [FALLO HOY: xAI sin creditos - limite de gasto]",
-      "despoblacion Espana vaciada pueblos septiembre 2026 incendios rurales vivienda rural medicos cobertura debate X (desde 2026-09-08) [FALLO HOY: xAI sin creditos - limite de gasto]",
-      "uso palabra facha insulto politico Espana septiembre 2026 reacciones tuits debate X (desde 2026-09-08) [FALLO HOY: xAI sin creditos - limite de gasto]",
-      "verificacion de actividad de las 16 cuentas del directorio [NO EJECUTADA: xAI sin creditos]",
-      "tweets virales del ciclo para la seccion Virales [NO EJECUTADA: xAI sin creditos - se conservan los del 09-10 sep, no se inventan nuevos]"
+      "sanchismo Sánchez España septiembre 2026 crisis Gobierno Ceuta CNI desclasificado dimisión moción de censura debate X (desde 2026-09-10) [FALLO: xAI spending-limit]",
+      "inmigración Ceuta España septiembre 2026 migrantes menores traslados Marruecos devoluciones debate X (desde 2026-09-10) [FALLO: xAI spending-limit]",
+      "okupación okupas España septiembre 2026 vivienda desahucios desalojos ocupación ilegal debate X (desde 2026-09-10) [FALLO: xAI spending-limit]",
+      "independentismo Cataluña Diada 11 septiembre 2026 manifestación Barcelona ANC Alianza Catalana debate X (desde 2026-09-10) [FALLO: xAI spending-limit]",
+      "memoria histórica España septiembre 2026 Ley de Nietos CERA Tribunal Supremo franquismo debate X (desde 2026-09-10) [FALLO: xAI spending-limit]",
+      "feminismo abolicionismo prostitución violencia de género España septiembre 2026 polémica debate X (desde 2026-09-10) [FALLO: xAI spending-limit]",
+      "wokismo ideología woke anti-woke España septiembre 2026 polémica progresismo cultura debate X (desde 2026-09-10) [FALLO: xAI spending-limit]",
+      "cultura de la cancelación censura boicot polémica España septiembre 2026 debate redes X (desde 2026-09-10) [FALLO: xAI spending-limit]",
+      "ley trans autodeterminación de género España septiembre 2026 debate Tribunal Constitucional polémica menores X (desde 2026-09-10) [FALLO: xAI spending-limit]",
+      "lenguaje inclusivo desdoblamiento RAE masculino genérico España septiembre 2026 polémica debate X (desde 2026-09-10) [FALLO: xAI spending-limit]",
+      "despoblación España vaciada pueblos septiembre 2026 incendios rurales vivienda rural médicos cobertura debate X (desde 2026-09-10) [FALLO: xAI spending-limit]",
+      "uso palabra facha insulto político España septiembre 2026 reacciones tuits debate X (desde 2026-09-10) [FALLO: xAI spending-limit]",
+      "verificación de actividad de las 16 cuentas del directorio [NO EJECUTADA: xAI spending-limit]",
+      "tweets virales del ciclo para la sección Virales [NO EJECUTADA: se conservan los virales reales del 7-10 sep, no se inventan nuevos]",
+      "ACTUALIZACIÓN ALTERNATIVA news[] vía web_search (backend keenable) sobre prensa española 11-13 sep 2026: infoLibre desclasificación Ceuta, laSexta/Antena3 PP-PSOE, Periodista Digital (Atlante 26, Vivas-Moncloa), laSexta ponencia TC amnistía [OK: 12 sep 2026]"
     ],
     "stale_topics": [
       "sanchismo",
@@ -39,7 +40,7 @@
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "notes": "xAI/x_search sin creditos (personal-team-blocked:spending-limit) durante todo el run del 2026-09-12: las 12 busquedas de topico, la verificacion de actividad de cuentas y la busqueda de virales fallaron. Se conservan integros los valores del run del 11-09-2026 para topics, news, trends, accounts y virals (fallback documentado). No se inventa ningun dato. Recargar creditos en https://grok.com/?_s=usage para reanudar la actualizacion."
+    "notes": "xAI/x_search sigue bloqueado por límite de gasto (403 personal-team-blocked:spending-limit) durante todo el run del 2026-09-13: fallaron las 12 búsquedas de tópico, la verificación de actividad de cuentas y la búsqueda de virales. Se conservan íntegros los valores del run del 11-09-2026 para topics, accounts y virals (fallback documentado, sin inventar datos). Excepción verificable: news[] SÍ está actualizada al 12-13 sep con hechos reales localizados vía búsqueda web y sus fuentes (infoLibre, laSexta, Antena 3, Periodista Digital); las cifras de intensidad/momentum de los tópicos siguen siendo las del último análisis de X disponible. Recargar créditos en https://grok.com/?_s=usage para reanudar la medición en X."
   },
   "topics": [
     {
@@ -357,10 +358,10 @@
   ],
   "news": [
     {
-      "title": "El CNI si aviso y el rebote se lleva por delante al propio Gobierno: Diego Rubio en el punto de mira",
-      "date": "9-11 sep 2026",
-      "summary": "Los papeles desclasificados por Moncloa el 9-S situan el aviso del CNI el 29 de julio, un dia antes de que unas 80.000 personas entraran en Ceuta el 30-J: el agente alerta por WhatsApp de llamamientos a «asaltar por la valla y el mar» aprovechando la Fiesta del Trono, con dos grupos de 180.000 seguidores, y el CENIF emite el mismo 29-J un aviso de probabilidad «alta» de entrada a nado. La desclasificacion, que Cadena SER tilda de parcial, abre la guerra interna: El Confidencial situa a Diego Rubio (jefe de Gabinete) en la «cadena de errores», Vozpopuli recoge que el CNI se siente usado para imponer a Marlaska y castigar a Robles, y se empuja una causa penal en la Audiencia Nacional.",
-      "source": "Euractiv / El Confidencial / Vozpopuli / El Faro de Ceuta / Cadena SER",
+      "title": "La desclasificación del CNI se lleva por delante al jefe de gabinete de la Delegación del Gobierno en Ceuta",
+      "date": "12 sep 2026",
+      "summary": "La publicación de los mensajes de WhatsApp del CNI provoca la dimisión de Gonzalo Sanz, jefe de gabinete de la Delegación del Gobierno en Ceuta, que asegura por escrito que él trasladó el aviso de Inteligencia al delegado Miguel Ángel Pérez Triano el mismo 29 de julio; su salida se produce por la «evidente incompatibilidad» con las declaraciones de su jefe, que negaba haber recibido los avisos. infoLibre subraya que los 36 documentos desclasificados dejan más incógnitas que respuestas: no consta que la entrega sea total, el CENIF atribuye la entrada sobre todo a la sentencia del Supremo que impedía los rechazos en frontera, y siguen sin aparecer los informes que probarían que los ministerios estaban alertados.",
+      "source": "infoLibre / laSexta / Antena 3",
       "tags": [
         "Sanchismo",
         "Ceuta",
@@ -368,47 +369,47 @@
       ]
     },
     {
-      "title": "Interior admite el dosier con ~280 periodistas fichados por ideologia y la AEPD abre investigacion",
-      "date": "8-10 sep 2026",
-      "summary": "El Ministerio de Interior reconoce la autenticidad del dosier de 54 paginas con unas 281 fichas de periodistas, con foto y etiquetas ideologicas («apoya al Gobierno», «claramente de izquierdas», «anti-sanchista», «ideologia radical de derechas»), elaborado en 2023-2024 por su Oficina de Comunicacion. Interior sostiene que Marlaska no lo ordeno ni lo conocio y pide disculpas a quienes se hayan sentido ofendidos; la AEPD abre investigacion de oficio porque el art. 9.1 del RGPD prohibe tratar opiniones politicas sin consentimiento, y FAPE y la APM lo denuncian como perfilado ideologico que amenaza la libertad de prensa.",
-      "source": "El Confidencial / El Correo / AEPD / ARA",
+      "title": "El PP endurece el tono por Ceuta: «negligente y dolosa» y petición de elecciones",
+      "date": "12 sep 2026",
+      "summary": "La batalla política por Ceuta sube de intensidad con el PSOE rechazando las críticas (Montse Mínguez) mientras el PP pasa al ataque abierto: Borja Sémper habla de «falta de humildad» y de que «con España no se juega», Miguel Tellado acusa a Sánchez de «negligencia» e «indolencia» y Esther Muñoz reclama que no basta con una dimisión sino que hay que «disolver las Cortes y convocar las elecciones». Sémper insiste en que, más de un mes después, la única responsabilidad asumida ha sido la de un asesor del delegado del Gobierno: «parece una broma».",
+      "source": "laSexta / Antena 3 / Periodista Digital",
       "tags": [
-        "Cancelacion",
-        "Censura",
-        "Libertad de prensa"
+        "Sanchismo",
+        "Ceuta",
+        "PP"
       ]
     },
     {
-      "title": "La ley antiokupas del PP (desalojo en 24 h) divide al Gobierno en el Congreso",
-      "date": "10 sep 2026",
-      "summary": "La proposicion del PP contra la ocupacion ilegal —desalojo voluntario en un maximo de 24 horas, veto al empadronamiento, corte de suministros y separacion entre morada y usurpacion— vuelve al Congreso y evidencia la fractura del Gobierno de coalicion: el PSOE se abstiene y Sumar vota en contra. La derecha la presenta como la via para desbloquear el alquiler («pon una ley que eche a los okupas en 24 h y ya veras como aparecen pisos») y la izquierda como legislar para fondos buitre; en paralelo, Aragon anuncia su propia ley anti-okupas y Idealista cifra en uno de cada cuatro los asociados en litigio por okupacion.",
-      "source": "Europa Press / Congreso / Idealista / El Español",
+      "title": "Vivas carga contra Moncloa: le pidieron que dejara de llamar por alertar de la presión migratoria",
+      "date": "12 sep 2026",
+      "summary": "El presidente de Ceuta, Juan Vivas, denuncia que desde la Moncloa se le pidió que dejara de llamar porque se estaba poniendo «muy pesado» al alertar de la presión migratoria previa a la entrada masiva desde Marruecos. El episodio, difundido el viernes y recogido el sábado por los diarios de referencia, se convierte en munición política para la oposición y reabre el debate sobre la responsabilidad institucional y la relación entre el Gobierno central y las ciudades autónomas.",
+      "source": "Periodista Digital / prensa nacional",
       "tags": [
-        "Okupacion",
-        "Vivienda",
-        "Congreso"
+        "Ceuta",
+        "Inmigración",
+        "Sanchismo"
       ]
     },
     {
-      "title": "Diada con cargas en el Fossar de les Moreres: la vispera se rompe por Alianca Catalana",
-      "date": "10-11 sep 2026",
-      "summary": "La concentracion previa a la Diada con Silvia Orriols en el Fossar de les Moreres acaba en cargas de los Mossos, heridos (incluidos agentes), detenidos y contramanifestaciones antifascistas, en un pulso que evidencia la fractura del independentismo. La ANC celebra este 11-S una movilizacion descentralizada (Barcelona, Girona y Amposta) con sus expresidentes unidos y reclama que ningun partido acapare la jornada; el president Illa responde que no se puede «posar en perill la convivencia a Catalunya» y el auge de Alianca Catalana —con un 32% de votantes no independentistas— sigue comiendose el relato soberanista.",
-      "source": "Diari ARA / Cronica Global / VilaWeb / EFE",
+      "title": "Maniobras Atlante 26: cazas del Ejército del Aire en el Estrecho del 13 al 18 de septiembre",
+      "date": "12-13 sep 2026",
+      "summary": "El despliegue de cazas del Ejército del Aire en aguas del sur peninsular dentro del ejercicio Atlante 26 (13-18 de septiembre) se publica en plena tensión con Marruecos por la crisis de Ceuta: el calendario de restricciones aéreas y marítimas y el tipo de aeronaves disparan el interés político y mediático. Los análisis discuten si el ejercicio es solo entrenamiento o envía un mensaje implícito a Rabat tras las tensiones migratorias.",
+      "source": "Periodista Digital / prensa nacional",
+      "tags": [
+        "Inmigración",
+        "Defensa",
+        "Marruecos"
+      ]
+    },
+    {
+      "title": "El ponente del Constitucional avala al Supremo: hubo malversación y no procede la amnistía del procés",
+      "date": "12 sep 2026",
+      "summary": "El magistrado José María Macías, del bloque conservador, da la razón al Tribunal Supremo en su rechazo a aplicar la amnistía a los dirigentes del procés al considerar que hubo malversación de caudales públicos, en la ponencia sobre el recurso de amparo de Jordi Turull: la interpretación del Supremo «no puede tildarse de sorpresiva o imprevisible», aunque no aprecia arbitrariedad sino «discrepancia con la legalidad ordinaria». La ponencia se debate el 22 de septiembre y, con la mayoría progresista del Pleno, previsiblemente cambiará de manos.",
+      "source": "laSexta",
       "tags": [
         "Independentismo",
-        "Diada",
-        "Alianca Catalana"
-      ]
-    },
-    {
-      "title": "El Supremo suspende cautelarmente el voto exterior de la 'ley de nietos' sin exilio acreditado",
-      "date": "8-11 sep 2026",
-      "summary": "La Sala de lo Contencioso-Administrativo del Supremo estima las cautelares de Vox e Iustitia Europa contra el acuerdo de la JEC del 16 de julio y suspende los efectos electorales de las inscripciones en el CERA de los nacionalizados por la ley de nietos, salvo certificacion consular de exilio politico, ideologico o de creencia. No toca la nacionalidad —ni la ya concedida ni la en tramite— pero deja sin voto a los afectados hasta sentencia: hay 2,4 millones de solicitudes, 544.722 aprobadas y 306.000 inscritos. Fiscalia y Abogacia del Estado se opusieron por vulnerar el derecho de sufragio y el Gobierno critica la medida, que cuenta con el voto particular de uno de los seis magistrados.",
-      "source": "RTVE / El Pais / Expansion / Infobae",
-      "tags": [
-        "Memoria Historica",
-        "CERA",
-        "Ley de Nietos"
+        "Amnistía",
+        "Tribunal Constitucional"
       ]
     }
   ],
@@ -456,10 +457,10 @@
       "detail": "El abolicionismo calienta el acto del 14-S con el articulo de Laura Freixas como texto de referencia, pero el volumen sigue concentrado en cuentas especializadas y no hay pico general."
     },
     {
-      "name": "Wokismo / lenguaje inclusivo / Espana Vaciada",
-      "change": "down",
-      "pct": "-5%",
-      "detail": "Sin detonantes frescos verificables: la busqueda de estos tres temas fallo hoy por agotamiento de creditos de xAI, por lo que se conservan los valores del run anterior (woke 72, lenguaje inclusivo 45, Espana Vaciada 66) marcados como stale."
+      "name": "Dato en X congelado / créditos xAI agotados",
+      "change": "stable",
+      "pct": "+0%",
+      "detail": "Segundo día consecutivo sin medición: xAI devuelve 403 «personal-team-blocked:spending-limit» en x_search y también en /v1/models, así que las 12 intensidades y los momentum siguen siendo las del run del 11-09 (marcadas como stale). Sí hay material nuevo y verificado en news[] (12-13 sep: dimisión del jefe de gabinete de la Delegación en Ceuta, ofensiva del PP, Vivas contra Moncloa, Atlante 26, ponencia del TC sobre la amnistía). Recargar créditos en grok.com/?_s=usage reanuda la medición."
     }
   ],
   "accounts": [
