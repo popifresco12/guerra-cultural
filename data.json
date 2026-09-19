@@ -1,28 +1,28 @@
 {
   "meta": {
-    "generated_at": "2026-09-18T08:15:09+02:00",
+    "generated_at": "2026-09-19T08:10:00+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "sanchismo Sánchez España septiembre 2026 crisis Gobierno UCO Cerdán moción de censura polémica tuits debate X (desde 2026-09-15)",
-      "inmigración España septiembre 2026 migrantes Ceuta menas devoluciones polémica tuits debate X (desde 2026-09-15)",
-      "okupación okupas inquiokupas España septiembre 2026 vivienda ley desahucios polémica tuits debate X (desde 2026-09-15)",
-      "independentismo Cataluña septiembre 2026 Diada ANC Aliança Catalana Illa financiación polémica tuits debate X (desde 2026-09-15)",
-      "memoria histórica franquismo España septiembre 2026 Ley de Nietos CERA censo exterior Tribunal Supremo polémica tuits debate X (desde 2026-09-15)",
-      "feminismo abolicionismo prostitución violencia de género España septiembre 2026 ley polémica tuits debate X (desde 2026-09-15)",
-      "ideología woke wokismo antiwoke España septiembre 2026 progresismo cultura polémica tuits debate X (desde 2026-09-15)",
-      "cultura de la cancelación censura boicot artista humorista España septiembre 2026 polémica tuits debate X (desde 2026-09-15)",
-      "ley trans autodeterminación de género España septiembre 2026 menores hormonas Tribunal Constitucional polémica tuits debate X (desde 2026-09-15)",
-      "lenguaje inclusivo desdoblamiento RAE masculino genérico España septiembre 2026 'las y los' todes polémica tuits debate X (desde 2026-09-15)",
-      "España vaciada despoblación pueblos sin médico sanidad rural septiembre 2026 polémica tuits debate X (desde 2026-09-15)",
-      "debate uso de la palabra facha en España tuits 17 18 septiembre 2026 banalización insulto derecha izquierda fachosfera reacciones (desde 2026-09-15)",
-      "verificación de actividad: @profsecundario @Tagelca @geoestratego [OK, con métricas de likes/RTs/views] (desde 2026-09-15)",
-      "verificación de actividad: @billkilgore_ @EstefMolina_ @TemplarExtre [truncada: solo párrafo de introducción, sin análisis] (desde 2026-09-15)",
-      "verificación de actividad: @armesillaconde @Anujbost @13mescribano [truncada: solo párrafo de introducción, sin análisis] (desde 2026-09-15)",
-      "verificación de actividad: @nicolasdepedro @LaBugsBunnyIA @dianitanoticias [NO EJECUTADA: créditos xAI agotados] (desde 2026-09-15)",
-      "verificación de actividad: @VictorLapuente @elmundotoday @littleragergirl [NO EJECUTADA: créditos xAI agotados] (desde 2026-09-15)",
-      "tweets virales de los 8 handles principales con enlaces y engagement [NO EJECUTADA: créditos xAI agotados; los 6 virales se construyen con los status y métricas reales devueltos por las búsquedas de temas y de actividad que sí se completaron] (desde 2026-09-15)"
+      "sanchismo España 2026 conversación en X (desde 2026-09-16) [FALLIDA: xAI personal-team-blocked:spending-limit]",
+      "inmigración España 2026 debate en X (desde 2026-09-16) [FALLIDA: xAI personal-team-blocked:spending-limit]",
+      "independentismo procés Cataluña España 2026 conversación en X (desde 2026-09-16) [FALLIDA: xAI personal-team-blocked:spending-limit]",
+      "cultura de la cancelación España 2026 debate en X (desde 2026-09-16) [FALLIDA: xAI personal-team-blocked:spending-limit]",
+      "NO EJECUTADAS (8 restantes: okupación, memoria, feminismo, ley trans, woke, lenguaje inclusivo, españa vaciada, facha) y NO EJECUTADAS las 2 tandas de actividad de cuentas y la búsqueda de virales: la cuenta xAI rechazó también cualquier otra llamada con el mismo error de créditos"
     ],
-    "stale_topics": [],
+    "stale_topics": [
+      "sanchismo",
+      "inmigracion",
+      "okupacion",
+      "independentismo",
+      "memoria",
+      "feminismo",
+      "woke",
+      "cultura-cancelacion",
+      "ley-trans",
+      "lenguaje-inclusivo",
+      "espana-vaciada",
+      "facha"
+    ],
     "inactive_accounts": [
       "@dianitanoticias",
       "@VictorLapuente",
@@ -30,7 +30,10 @@
       "@littleragergirl",
       "@elxokas"
     ],
-    "notes": "LOS 12 TÓPICOS SE REMIDIERON HOY EN X CON BÚSQUEDAS COMPLETAS Y CITAS: stale_topics queda vacío y ningún valor de tópico se reutiliza del commit anterior. INCIDENCIA: a mitad del run la cuenta xAI devolvió 'personal-team-blocked:spending-limit' (créditos agotados). Las 12 búsquedas de temas y la primera tanda de actividad (@profsecundario @Tagelca @geoestratego) se completaron con análisis y métricas; las tandas de @billkilgore_ @EstefMolina_ @TemplarExtre y de @armesillaconde @Anujbost @13mescribano volvieron truncadas (solo el párrafo de introducción, sin análisis) y las tres llamadas siguientes fueron rechazadas por falta de créditos, por lo que esas 6 cuentas y las 7 restantes (dianitanoticias, nicolasdepedro, LaBugsBunnyIA, VictorLapuente, elmundotoday, littleragergirl, elxokas) NO pudieron re-verificarse. Esas cuentas conservan su última descripción verificada con una nota de no re-verificación, y meta.inactive_accounts mantiene su estado anterior por ausencia de evidencia nueva, no por actividad detectada. Ninguna cuenta se elimina de accounts[]. Virals: los 6 enlazan a status reales devueltos por las búsquedas de este run, sin IDs inventados ni reutilizados. Grounding opcional (sources.json) NO regenerado: el pipeline /home/carlo/guerra-cultural-rag no existe en este entorno Windows; se conserva el sources.json anterior en el repo."
+    "notes": "SIN DATOS NUEVOS: la cuenta xAI devolvió 'personal-team-blocked:spending-limit' (créditos agotados) en los 4 primeros x_search del run (16-09-2026), los 4 con error idéntico y mensaje explícito de límite de gasto de la cuenta, no de formato de consulta. Segundo día consecutivo con el mismo bloqueo (ya ocurrió a mitad del run del 18-09). Por eso NO se remidió ningún tópico: los 12 ids quedan en meta.stale_topics y topics/news/trends/accounts/virals se reutilizan TAL CUAL del commit anterior (18-09-2026), sin inventar ni un dato. Las cuentas NO se pudieron re-verificar: meta.inactive_accounts conserva EXACTAMENTE el estado anterior (ausencia de chequeo no es evidencia ni de actividad ni de inactividad). history.json NO se modifica en este run: sin medición nueva, añadir un snapshot con la fecha de hoy sería fabricar un punto en el gráfico de evolución. Los 6 virales siguen apuntando a status reales verificados el 18-09, no se reutilizan como si fueran de hoy. Para desbloquear: recargar en https://grok.com/?_s=usage (o activar SuperGrok); el dashboard se repone solo en la siguiente pasada. Grounding (sources.json) no regenerado: el pipeline /home/carlo/guerra-cultural-rag no existe en este entorno Windows.",
+    "previous_generated_at": "2026-09-18T08:15:09+02:00",
+    "previous_source": "cron 09f22b3f6f78",
+    "fallback": "full"
   },
   "topics": [
     {
