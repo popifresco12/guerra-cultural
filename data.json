@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-09-19T08:10:00+02:00",
+    "generated_at": "2026-09-20T08:15:00+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "sanchismo España 2026 conversación en X (desde 2026-09-16) [FALLIDA: xAI personal-team-blocked:spending-limit]",
-      "inmigración España 2026 debate en X (desde 2026-09-16) [FALLIDA: xAI personal-team-blocked:spending-limit]",
-      "independentismo procés Cataluña España 2026 conversación en X (desde 2026-09-16) [FALLIDA: xAI personal-team-blocked:spending-limit]",
-      "cultura de la cancelación España 2026 debate en X (desde 2026-09-16) [FALLIDA: xAI personal-team-blocked:spending-limit]",
-      "NO EJECUTADAS (8 restantes: okupación, memoria, feminismo, ley trans, woke, lenguaje inclusivo, españa vaciada, facha) y NO EJECUTADAS las 2 tandas de actividad de cuentas y la búsqueda de virales: la cuenta xAI rechazó también cualquier otra llamada con el mismo error de créditos"
+      "sanchismo España 2026 conversación en X: caso Cerdán, UCO, PSOE, moción de censura (desde 2026-09-17) [FALLIDA: xAI personal-team-blocked:spending-limit]",
+      "inmigración España 2026 debate en X: Ceuta, MENAs, devoluciones, fronteras (desde 2026-09-17) [FALLIDA: xAI personal-team-blocked:spending-limit]",
+      "independentismo procés Cataluña España 2026 conversación en X: Aliança Catalana, Orriols, ANC, financiación singular (desde 2026-09-17) [FALLIDA: xAI personal-team-blocked:spending-limit]",
+      "cultura de la cancelación España 2026 debate en X: censura, boicots, humoristas (desde 2026-09-17) [FALLIDA: xAI personal-team-blocked:spending-limit]",
+      "NO EJECUTADAS (8 tópicos restantes: okupación, memoria, feminismo, ley trans, woke, lenguaje inclusivo, españa vaciada, facha) ni las 2 tandas de actividad de cuentas ni la búsqueda de virales: con el límite de gasto de la cuenta activo, cualquier otra llamada devuelve el mismo error en el primer intento, así que no se insiste."
     ],
     "stale_topics": [
       "sanchismo",
@@ -30,8 +30,8 @@
       "@littleragergirl",
       "@elxokas"
     ],
-    "notes": "SIN DATOS NUEVOS: la cuenta xAI devolvió 'personal-team-blocked:spending-limit' (créditos agotados) en los 4 primeros x_search del run (16-09-2026), los 4 con error idéntico y mensaje explícito de límite de gasto de la cuenta, no de formato de consulta. Segundo día consecutivo con el mismo bloqueo (ya ocurrió a mitad del run del 18-09). Por eso NO se remidió ningún tópico: los 12 ids quedan en meta.stale_topics y topics/news/trends/accounts/virals se reutilizan TAL CUAL del commit anterior (18-09-2026), sin inventar ni un dato. Las cuentas NO se pudieron re-verificar: meta.inactive_accounts conserva EXACTAMENTE el estado anterior (ausencia de chequeo no es evidencia ni de actividad ni de inactividad). history.json NO se modifica en este run: sin medición nueva, añadir un snapshot con la fecha de hoy sería fabricar un punto en el gráfico de evolución. Los 6 virales siguen apuntando a status reales verificados el 18-09, no se reutilizan como si fueran de hoy. Para desbloquear: recargar en https://grok.com/?_s=usage (o activar SuperGrok); el dashboard se repone solo en la siguiente pasada. Grounding (sources.json) no regenerado: el pipeline /home/carlo/guerra-cultural-rag no existe en este entorno Windows.",
-    "previous_generated_at": "2026-09-18T08:15:09+02:00",
+    "notes": "SIN DATOS NUEVOS (2º día consecutivo, fallback total). La cuenta xAI sigue devolviendo 'personal-team-blocked:spending-limit' —créditos agotados o sin suscripción Grok— en los 4 primeros x_search del run del 20-09-2026, con error idéntico en los 4 y mensaje explícito de límite de gasto de la cuenta, no de formato de consulta. Es la tercera jornada consecutiva afectada: 18-09 falló a mitad de run, 19-09 y 20-09 bloqueo desde la primera llamada. Por eso NO se remidió ningún tópico: los 12 ids quedan en meta.stale_topics y topics/news/trends/accounts/virals se reutilizan TAL CUAL del commit anterior (18-09-2026), sin inventar ni un dato. Las cuentas NO se pudieron re-verificar: meta.inactive_accounts conserva EXACTAMENTE el estado anterior, porque la ausencia de chequeo no es evidencia ni de actividad ni de inactividad. history.json NO se modifica: sin medición nueva, un snapshot con la fecha de hoy fabricaría un punto falso en el gráfico de evolución. Los 6 virales siguen apuntando a status reales verificados el 18-09, no se presentan como de hoy. Para desbloquear: recargar créditos o activar SuperGrok en https://grok.com/?_s=usage — el dashboard se repone solo en la siguiente pasada. Grounding (sources.json) no regenerado: el pipeline /home/carlo/guerra-cultural-rag no existe en este entorno Windows.",
+    "previous_generated_at": "2026-09-19T08:10:00+02:00",
     "previous_source": "cron 09f22b3f6f78",
     "fallback": "full"
   },
