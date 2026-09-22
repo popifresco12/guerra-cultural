@@ -1,41 +1,42 @@
 {
   "meta": {
-    "generated_at": "2026-09-21T08:26:09+02:00",
+    "generated_at": "2026-09-22T08:21:14+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "sanchismo España 2026 corrupción PSOE (desde 2026-09-18)",
-      "inmigración España Ceuta Canarias llegadas irregulares debate 2026 (desde 2026-09-18)",
-      "okupación okupas desalojo vivienda España 2026 polémica (desde 2026-09-18) [degradada sin citas; reintento OK]",
-      "Desokupa okupación okupas desalojo polémica vecinos propietarios España (desde 2026-09-17) [REINTENTO OK]",
-      "independentismo Cataluña procés 2026 (desde 2026-09-18)",
-      "memoria histórica España 2026 ley nietos exhumaciones (desde 2026-09-18)",
-      "feminismo España 2026 abolición prostitución ley libertad sexual (desde 2026-09-18) [degradada sin citas; reintento OK]",
-      "feminismo abolicionista prostitución polémica España Irene Montero tuiteros (desde 2026-09-17) [REINTENTO OK]",
-      "woke ideología woke España debate polémica 2026 (desde 2026-09-18) [degradada sin citas; 2 reintentos]",
-      "debate en X sobre la palabra woke en España: qué tuiteros la usan y para qué, ejemplos de posts (desde 2026-09-16) [REINTENTO OK]",
-      "cultura de la cancelación España 2026 censura boicot (desde 2026-09-18) [degradada sin citas]",
-      "cultura de la cancelación España humoristas monólogos censura boicot redes (desde 2026-09-17) [REINTENTO OK]",
-      "ley trans España 2026 autodeterminación de género menores (desde 2026-09-18) [degradada sin citas]",
-      "Madrid protocolo menores trans bloqueadores pubertad polémica sanidad (desde 2026-09-17) [REINTENTO OK]",
-      "lenguaje inclusivo RAE todes ayuntamientos mociones polémica España (desde 2026-09-17) [degradada sin citas]",
-      "todes lenguaje inclusivo guía institucional polémica tuiteros (desde 2026-09-16) [REINTENTO OK]",
-      "España vaciada despoblación Teruel Soria manifestación agricultores campo (desde 2026-09-17) [degradada sin citas]",
-      "Teruel Existe despoblación protesta España vaciada tuiteros debate (desde 2026-09-16) [REINTENTO OK]",
-      "facha insulto política España polémica 2026 agresión (desde 2026-09-18)",
-      "tweets virales de esta semana sobre sanchismo, inmigración en Ceuta, okupación y facha (desde 2026-09-17)",
-      "actividad de @profsecundario @dianitanoticias @Tagelca @elxokas (desde 2026-09-17)",
-      "actividad de @TemplarExtre @geoestratego @13mescribano @VictorLapuente (desde 2026-09-17)",
-      "actividad de @EstefMolina_ @nicolasdepedro @armesillaconde @Anujbost (desde 2026-09-17)",
-      "actividad de @billkilgore_ @elmundotoday @littleragergirl @LaBugsBunnyIA (desde 2026-09-17)"
+      "sanchismo corrupción PSOE Sánchez UCO Cerdán polémica tuiteros España (desde 2026-09-19)",
+      "inmigración España Ceuta Canarias llegadas irregulares debate tuiteros (desde 2026-09-19)",
+      "Desokupa okupación okupas desalojo polémica vecinos propietarios España (desde 2026-09-19) [truncada: solo preámbulo]",
+      "okupación ilegal de viviendas España inquiokupas desahucio propietarios protestas tuiteros (desde 2026-09-19) [REINTENTO con citas reales]",
+      "independentismo Cataluña procés Puigdemont Junts ERC polémica tuiteros (desde 2026-09-19)",
+      "memoria histórica ley nietos exhumaciones fosas España polémica Vox PSOE (desde 2026-09-19) [degradada sin citas]",
+      "Ley de Memoria Democrática fosas exhumaciones polémica tuiteros memoria histórica batalla cultural (desde 2026-09-19) [REINTENTO OK]",
+      "feminismo abolicionista prostitución Irene Montero ley libertad sexual polémica España (desde 2026-09-19) [degradada sin citas]",
+      "feminismo polémica España tuiteros Irene Montero Podemos debate feminista redes (desde 2026-09-19) [degradada sin citas]",
+      "feminismo España polémica Ley Trans mujeres deporte vestuarios tuiteros debate feminista (desde 2026-09-19) [2º REINTENTO OK]",
+      "woke ideología woke debate tuiteros españoles polémica ejemplos posts (desde 2026-09-19)",
+      "cultura de la cancelación España censura boicot humoristas redes polémica (desde 2026-09-19) [degradada sin citas]",
+      "Rosalía polémica censura boicot cancelación artistas España redes tuiteros (desde 2026-09-19) [REINTENTO OK]",
+      "Madrid protocolo menores trans bloqueadores pubertad polémica sanidad tuiteros (desde 2026-09-19)",
+      "lenguaje inclusivo todes RAE guía institucional polémica tuiteros (desde 2026-09-19) [degradada sin citas]",
+      "ayuntamiento guía lenguaje inclusivo todes concejales polémica España tuiteros debaten (desde 2026-09-19) [degradada sin citas]",
+      "«todes» lenguaje inclusivo colegio instituto profesores polémica padres España (desde 2026-09-19) [2º REINTENTO: análisis completo, citas genéricas]",
+      "Teruel Existe despoblación España vaciada protesta campo tuiteros debate (desde 2026-09-19)",
+      "facha insulto política España agresión polémica tuiteros Vitoria (desde 2026-09-19)",
+      "actividad de @profsecundario @dianitanoticias @Tagelca @elxokas (desde 2026-09-18)",
+      "actividad de @TemplarExtre @geoestratego @13mescribano @VictorLapuente (desde 2026-09-18)",
+      "actividad de @EstefMolina_ @nicolasdepedro @armesillaconde @Anujbost (desde 2026-09-18)",
+      "actividad de @billkilgore_ @elmundotoday @littleragergirl @LaBugsBunnyIA (desde 2026-09-18)",
+      "tweets virales de @profsecundario @Tagelca @geoestratego @dianitanoticias @armesillaconde @billkilgore_ @13mescribano con enlaces y engagement [solo preámbulo: los virales se toman de las búsquedas de tópicos y actividad del mismo run]"
     ],
     "stale_topics": [],
     "inactive_accounts": [
       "@dianitanoticias",
+      "@elxokas",
       "@VictorLapuente",
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "notes": "Créditos xAI restablecidos: primer run con datos reales de X tras el bloqueo por límite de gasto que dejó los runs de 18-20 sep en fallback. Los 12 tópicos se midieron con búsquedas propias (varias degradadas en el primer intento por falta de citas y recuperadas al reintentar con consultas ancladas a entidades concretas; las consultas que citan el año suelto devuelven ensayos genéricos). Las 4 cuentas inactivas fueron re-verificadas en este run, no arrastradas."
+    "notes": "Run completo con créditos xAI operativos: los 12 tópicos se midieron con búsqueda propia. Cuatro consultas degradaron en el primer intento por falta de citas (memoria, feminismo, cultura-cancelación, lenguaje-inclusivo) y se recuperaron reescribiendo la consulta con entidades concretas; feminismo necesitó dos reintentos y lenguaje-inclusivo devolvió análisis completo pero con enlaces genéricos (se acepta como medido, no stale). La búsqueda de virales se truncó y los 6 virales se tomaron de los status reales devueltos por las búsquedas de tópicos y actividad del mismo run. Las cinco cuentas inactivas fueron re-verificadas en este run; @elxokas entra en la lista de inactivas (sin posts detectados en la ventana) sin salir de accounts[]."
   },
   "topics": [
     {
@@ -44,11 +45,11 @@
       "icon": "👑",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 94,
-      "momentum": 91,
+      "intensity": 95,
+      "momentum": 92,
       "momentumDir": "right",
-      "summary": "El ciclo lo ordena la extensión del caso Cerdán a las cloacas del partido: un enviado de Leire Díez habría mostrado la rutina de la jueza del hermano de Sánchez a un narcotraficante conocido como «El Gitano» para presionar en la causa, mientras siguen abiertos Koldo/Ábalos, Begoña Gómez y David Sánchez. La lista de escándalos que mantiene @macroymercados supera ya las 2.345 noticias graves y la previsión de caída de donaciones al PSOE —hasta 17 veces menos— se lee como termómetro del desgaste. Sánchez aparece en foros internacionales mientras el relato nacional es de corrupción sistémica, y no se detectan contranarrativas mayoritarias en X.",
-      "quote": "«Un enviado de Leire Díez mostró la rutina de la jueza a un narcotraficante para dar un sustillo»: la pieza que convierte el caso en cloacas del PSOE y amplía el marco de corrupción sistémica (@cfcuartero01, X).",
+      "summary": "El ciclo lo domina la extensión del caso Cerdán a las cloacas del partido: los informes de la UCO sitúan a Santos Cerdán en el nivel superior de la trama y a Leire Díez en el ejecutivo, y las alegaciones apuntan a que su entorno contactó con clanes de narcotráfico para dar «un sustillo» a la jueza Biedma, que ha pedido personarse como víctima. La Audiencia Nacional indaga el «pitufeo» de comisiones disfrazadas de donaciones particulares a cambio de contratos, con la gerente también imputada, y las donaciones al PSOE se hunden tras la imputación de Cerdán. Todo se agrupa en el relato de corrupción sistémica —Koldo, Ábalos, Begoña Gómez, David Sánchez, gastos de campaña del PSC— sin contranarrativas mayoritarias en X.",
+      "quote": "«Países en el mundo cuyo gobierno envía a gitanos para extorsionar a la jueza que investiga una causa de corrupción relacionada con el hermano del presidente»: el posteo del ciclo sobre el «sustillo» a Biedma (@profsecundario, X).",
       "details": [
         [
           "Volumen en X",
@@ -56,11 +57,11 @@
         ],
         [
           "Sentimiento",
-          "Crítico mayoritario sin defensa organizada"
+          "Crítico mayoritario, sin defensa organizada"
         ],
         [
           "Impulsado por",
-          "Caso Leire Díez, UCO/Cerdán y caída de donaciones"
+          "UCO/Cerdán, la presión a la jueza Biedma y la caída de donaciones"
         ]
       ]
     },
@@ -70,23 +71,23 @@
       "icon": "🚧",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 96,
+      "intensity": 95,
       "momentum": 88,
       "momentumDir": "right",
-      "summary": "Ceuta vuelve a ser el epicentro: miles de vecinos y motoristas llegados de la península han bloqueado la frontera del Tarajal al grito de «¡Ceuta será la tumba del sanchismo!» para protestar por la entrada masiva del 30 de julio, con 70.000-72.000 llegadas contabilizadas y entre 10.000 y 13.000 personas aún en la ciudad según las cifras que se comparten. El paquete extraordinario de 309 millones y la declaración de interés para la Seguridad Nacional no rebajan las críticas por lentitud e improvisación, y el relato de la inseguridad alcanza el millón de views. El eje se desplaza del retorno legal al pulso callejero y a la sospecha de presión híbrida de Marruecos, con Canarias como frente abierto.",
-      "quote": "«¡Ceuta será la tumba del sanchismo!»: el lema de la marcha de los ceutíes hasta el Tarajal, el material más viral del ciclo (@ceuta_ahora, X).",
+      "summary": "Ceuta sigue siendo el epicentro: del asalto masivo de finales de julio, con cifras que se repiten de 70.000 a 80.000 entradas en pocos días, quedarían entre 10.000 y 20.000 personas durmiendo en playas y campamentos en una ciudad de 80.000 habitantes, con servicios y seguridad tensionados. El pico del ciclo lo firman las abogadas ceutíes que denuncian que las ONG instruyen a los entrantes para alegar ser menores, víctimas de guerra u homosexuales y evitar la expulsión, amplificado por Jorge Buxadé y extendido a toda España. En Canarias la queja se centra en la saturación de menores tutelados y sus costes, y las voces pro-acogida se limitan a denunciar discurso de odio, xenofobia y los límites legales a la deportación masiva.",
+      "quote": "«Ceuta no es un relato de violencia racista… es una ciudad de 80.000 habitantes que recibió 72.000 entradas: las fronteras existen» (@Josluis523854, X).",
       "details": [
         [
           "Volumen en X",
-          "Máximo del periodo"
+          "Muy alto en Ceuta y Canarias"
         ],
         [
           "Sentimiento",
-          "Polarizado total (invasión vs. gestión)"
+          "Crítico mayoritario con la gestión del Gobierno"
         ],
         [
           "Impulsado por",
-          "Bloqueo del Tarajal y la crisis de Ceuta"
+          "Crisis de Ceuta, acusación de fraude a las ONG y saturación de MENAs"
         ]
       ]
     },
@@ -94,25 +95,25 @@
       "id": "okupacion",
       "name": "Okupación",
       "icon": "🏠",
-      "tag": "🔥 Tendencia alta",
-      "tagClass": "tag-hot",
-      "intensity": 80,
-      "momentum": 84,
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 78,
+      "momentum": 82,
       "momentumDir": "right",
-      "summary": "Sin caso viral nuevo, el eje se sostiene con dos municiones: el abogado que denunció a Ayuso por su ático mientras vive de okupa en Madrid —más de 4.600 likes y 563.000 views— y Desokupa como actor central del ciclo, con Daniel Esteve y sus procesos judiciales convertidos en prueba del supuesto sesgo de la fiscalía. La tesis del daño a los más pobres sigue dominando el engagement: los caseros dejan de alquilar a gente vulnerable porque el Gobierno se ha apropiado «de facto» de las viviendas privadas. En el lado opuesto se denuncia justicia privada, intimidación y que el miedo se usa para vender alarmas.",
-      "quote": "«El abogado de la izquierda que ha denunciado a Ayuso por el ático vive de okupa en Madrid»: el titular que reabre el eje en clave política y supera el medio millón de views (@TheObjective_es, X).",
+      "summary": "Sin un caso viral nuevo de primer nivel, el eje se mantiene por acumulación: propietarios e inquiokupas dominan el volumen de quejas diarias con el argumento de que el desahucio se dilata años y que basta alegar vulnerabilidad para enquistar la ocupación mientras el dueño sigue pagando hipoteca, IBI y suministros. Desokupa vuelve como solución práctica para una parte del vecindario —«hacen lo que la justicia tarda años en hacer»— y se piden desalojos en 24-48 horas cuando no hay contrato ni prueba de pago. Los críticos responden que el problema de fondo son los fondos buitre y el precio de la vivienda, y que criminalizar la pobreza no resuelve la crisis habitacional.",
+      "quote": "«Si no hubiera miedo a la inquiocupación habría muchos más pisos en el mercado»: la queja que resume el giro del debate hacia el pequeño propietario (@karrellan, X).",
       "details": [
         [
           "Volumen en X",
-          "Alto y sostenido"
+          "Alto por acumulación, sin pico"
         ],
         [
           "Sentimiento",
-          "Crítico con la permisividad"
+          "Crítico con la ley y la lentitud judicial"
         ],
         [
           "Impulsado por",
-          "Caso del ático de Ayuso y la polémica Desokupa"
+          "Inquiokupas, Desokupa y el miedo a poner pisos en alquiler"
         ]
       ]
     },
@@ -120,25 +121,25 @@
       "id": "independentismo",
       "name": "Independentismo / Procés",
       "icon": "🗺️",
-      "tag": "🔥 Tendencia moderada",
-      "tagClass": "tag-moderate",
-      "intensity": 78,
-      "momentum": 65,
+      "tag": "🔥 Tendencia alta",
+      "tagClass": "tag-hot",
+      "intensity": 82,
+      "momentum": 70,
       "momentumDir": "right",
-      "summary": "El relato se engancha al «procés británico»: el pacto soberanista de Cardiff entre Escocia, Gales e Irlanda del Norte —que exige al Gobierno del Reino Unido el derecho legal a votar la secesión— se presenta desde Junts, ERC y EH Bildu como «nuevos caminos hacia la independencia», con ERC sintetizando que «el dret a decidir és europeu». En paralelo circula la queja de que el independentismo catalán vuelve a aparecer en informes de Europol sobre terrorismo, leído como ajuste de cuentas tras el enfriamiento con Junts. La pugna interna con Aliança Catalana sigue abierta y el marco queda lejos de un referéndum unilateral: la vía que se vende es europea y pactista.",
-      "quote": "«El dret a decidir és europeu»: la lectura de ERC del pacto de Cardiff como nueva palanca del independentismo (@Jomateixb1, X).",
+      "summary": "El ciclo lo ha reventado el gesto de Puigdemont: llamó «colonias dentro de Marruecos» a Ceuta y Melilla y defendió un referéndum de autodeterminación en declaraciones al The Sunday Times, lo que ha unido al unionismo español en un ataque frontal («la antiespaña ataca unida») y ha dado munición a Marruecos, cuyos medios lo recogen en positivo. En paralelo sigue la guerra interna Junts-ERC con acusaciones cruzadas de traición («botiflers», «venuts»), la propuesta de ERC de un «pacte de Cardiff» que excluye a Junts, CUP y PNB, y una cuenta de Junts centrada en atacar la corrupción del PSOE y el modelo de financiación de Illa. El independentismo aparece dividido entre la vía unilateral y la de pactos, con frustración por el estancamiento del Procés.",
+      "quote": "«Los separatistas que dieron un golpe acuden en ayuda del invasor»: la reacción unionista al tuit de Puigdemont sobre Ceuta y Melilla (@MasRazonqUnSant, X).",
       "details": [
         [
           "Volumen en X",
-          "Alto (relanzamiento del marco)"
+          "Muy alto por el gesto de Puigdemont"
         ],
         [
           "Sentimiento",
-          "Fragmentado, sin movilización de calle"
+          "Indignación unionista y cisma independentista"
         ],
         [
           "Impulsado por",
-          "Pacto de Cardiff y el informe de Europol"
+          "Puigdemont y Ceuta/Melilla, guerra Junts-ERC y «pacte de Cardiff»"
         ]
       ]
     },
@@ -148,23 +149,23 @@
       "icon": "📜",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 88,
-      "momentum": 84,
+      "intensity": 86,
+      "momentum": 82,
       "momentumDir": "right",
-      "summary": "La cautelar del Supremo se ha consumado en clave electoral: los efectos de voto de unas 400.000 personas que obtuvieron la nacionalidad por la Ley de Nietos quedan suspendidos —sin revocación de pasaporte ni nacionalidad— a la espera de resolución, con PP y Vox como impulsores del recurso. Sumar ha registrado una enmienda el 16 de septiembre para elevar a rango legal la presunción de exilio y blindar los derechos electorales de la diáspora, y Sánchez ha cargado contra los recurrentes con un «no se lo perdonaré». En el plano simbólico se añaden las exhumaciones —entrega de restos en el Barranco de Víznar 90 años después— y el documental de RTVE en las criptas de Cuelgamuros.",
-      "quote": "«No se lo perdonaré»: la reacción de Sánchez a la suspensión cautelar del voto de la diáspora que ordena el marco de la semana (@kalamdraka, X).",
+      "summary": "La polémica mantiene dos frentes abiertos: las exhumaciones —Barranco de Víznar en Granada, La Roda en Castilla-La Mancha— con familias recuperando restos noventa años después y presentadas como acto de dignidad frente al «revisionismo», y la concesión masiva de nacionalidades de la ley de nietos, con el Supremo advirtiendo de riesgos electorales y la derecha hablando de fábrica de votos exteriores. Desde la derecha se insiste en que la ley reabre heridas de la Transición y practica una memoria «de parte» que omite Paracuellos o las checas; desde la izquierda se acusa de revisionismo a Vox y hasta voces del propio campo —Antonio Maestre— dudan de su aplicación efectiva. El eje se lee como lucha por el relato oficial del pasado español.",
+      "quote": "«La ley empezó como enterrar dignamente a los de las cunetas y acabó siendo imposición ideológica»: el argumento de la derecha en el hilo de las exhumaciones (@rchamode, X).",
       "details": [
         [
           "Volumen en X",
-          "Muy alto (pico del ciclo)"
+          "Alto y sostenido"
         ],
         [
           "Sentimiento",
-          "Acusación de ingeniería electoral"
+          "Polarizado, dos Españas frente al relato"
         ],
         [
           "Impulsado por",
-          "Cautelar del TS sobre 400.000 electores y enmienda de Sumar"
+          "Exhumaciones de Víznar, ley de nietos y cautelar del Supremo"
         ]
       ]
     },
@@ -172,25 +173,25 @@
       "id": "feminismo",
       "name": "Feminismo Radical",
       "icon": "⚡",
-      "tag": "📌 Estable",
-      "tagClass": "tag-stable",
-      "intensity": 62,
-      "momentum": 56,
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 66,
+      "momentum": 60,
       "momentumDir": "right",
-      "summary": "Sin ley nueva ni detonante único, el choque sigue siendo interno: el feminismo abolicionista insiste en que la prostitución es violencia estructural y en penalizar a puteros y proxenetas, mientras el bando de la agencia defiende derechos laborales y acusa de moralismo. España se cita como «el país más putero de Europa» y el Fórum de Política Feminista sostiene que no es libertad ni derecho, señalando al Ministerio de Igualdad de Montero por haber priorizado la agenda trans y diluir la abolición. La conversación es de nicho pero constante, con insultos cruzados entre abolicionistas, regulacionistas y tuiteros anti-woke que usan el tema contra todo el feminismo institucional.",
-      "quote": "«No es libertad ni derecho: hay que abolir el sistema prostitucional»: la formulación abolicionista que ordena el ciclo español (@forumpfeminista, X).",
+      "summary": "El eje se ha desplazado de la prostitución a la fractura por la autodeterminación de género: el feminismo que se reclama de la «realidad material» —Fórum de Política Feminista, DoFemCo, @pilmagan, @Amparo__Domingo— sostiene que desvincular el sexo legal de la biología distorsiona estadísticas de violencia, prisiones, refugios, cuotas y deporte femenino. Los ejemplos que más circulan son la ventaja biológica irreversible en el deporte y el acceso a vestuarios y espacios de intimidad, con el cisma TERF/transfobia como etiqueta cruzada en cada hilo. El lado oficial cierra filas, acusa de aliarse con la derecha y denuncia pánico moral, pero el volumen crítico sigue siendo mayoritario.",
+      "quote": "«La ley trans y el precio de negar la realidad material»: el titular que ordena la crítica feminista a la autodeterminación de género (@diarioelcomun, X).",
       "details": [
         [
           "Volumen en X",
-          "Moderado y de nicho"
+          "Moderado, en ascenso por la ley trans"
         ],
         [
           "Sentimiento",
-          "Enfrentado (abolicionismo vs. autonomía)"
+          "Cisma interno del feminismo español"
         ],
         [
           "Impulsado por",
-          "Fórum de Política Feminista y la fractura con Montero"
+          "Autodeterminación de género, deporte femenino y vestuarios"
         ]
       ]
     },
@@ -200,23 +201,23 @@
       "icon": "🌿",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 78,
-      "momentum": 80,
+      "intensity": 77,
+      "momentum": 78,
       "momentumDir": "right",
-      "summary": "El término se ha consolidado como la etiqueta dominante de la batalla cultural: el grueso del volumen es de cuentas críticas que lo usan como paquete para género, feminismo radical, inmigración, cancelación y políticas del Gobierno, con ecosistemas especializados —@traslaidentidad, @eldelaoposicion— y divulgadores como Quintana Paz formulando un «wokismo 1» (identidad y género) y un «wokismo 2» (inmigracionismo y antioccidentalismo). La cita más compartida sigue siendo la de Braunstein sobre la falta de sentido del humor como rasgo totalitario, junto a la denuncia de una censura que no prohíbe sino que etiqueta. La izquierda apenas responde: niega la categoría o la usa de forma irónica, lo que refuerza el dominio del marco crítico.",
-      "quote": "«Europa es woke con retraso»: de Boghossian al «wokismo 2» de Quintana Paz, el marco que domina la conversación (@traslaidentidad, X).",
+      "summary": "El marco estrella del ciclo es la distinción entre «wokismo 1» y «wokismo 2»: el primero de identidad, género y cancelación; el segundo, con nuevos aliados, centrado en inmigración, antioccidentalismo y censura de la crítica a Israel. Quintana Paz lo usa para señalar que muchos de los que se enfrentaron al wokismo original ahora apoyan censurar a escritoras disidentes, y el argumento se replica como marco interpretativo general del debate cultural. El término sigue funcionando como etiqueta catch-all desde la crítica —Disney «deswokeada», universidades, deporte femenino— y como insulto vacío desde la defensa, con el «no tienes sentido del humor» de Braunstein circulando de nuevo.",
+      "quote": "«Que muchos que se enfrentaron al wokismo ahora apoyen censurar a una escritora demuestra que estamos ante un wokismo 2, nuevo, con nuevos aliados» (@quintanapaz, X).",
       "details": [
         [
           "Volumen en X",
-          "Medio-alto y creciente"
+          "Alto, uso peyorativo dominante"
         ],
         [
           "Sentimiento",
-          "Antiwoke mayoritario"
+          "Crítico, marco central de la batalla cultural"
         ],
         [
           "Impulsado por",
-          "Cuentas especializadas y el «wokismo 2»"
+          "El «wokismo 2», el caso Harwicz y el veto cultural"
         ]
       ]
     },
@@ -226,23 +227,23 @@
       "icon": "🔇",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 70,
-      "momentum": 66,
+      "intensity": 76,
+      "momentum": 70,
       "momentumDir": "right",
-      "summary": "El ciclo se llena de casos concretos de humor y universidad: el sketch de Dani Mateo escupiendo una bandera española en El Intermedio sigue citándose como patrón de la presión selectiva, la «expulsión» de Quequé se usa como ejemplo de veto y la posible cancelación de la conferencia de Lucía Etxebarria en la Universidad de La Laguna reabre la acusación de clientelismo y activismo en la universidad española. El mecanismo que se describe en X es siempre el mismo: clip fuera de contexto, hashtag de boicot, presión a salas y cadenas, y autocensura preventiva en lugar de prohibición formal. La conversación se solapa con los boicots por Israel y Palestina y con el debate sobre si señalar es exigir mínimos o cancelar.",
-      "quote": "«La universidad española: endogamia, activismo y clientelismo»: el quote sobre el caso Etxebarria que relanza el eje universitario (@profsecundario, X).",
+      "summary": "El caso que ordena el ciclo no es Rosalía —polémica crónica de redes por apropiación del flamenco y guerras de fandoms, sin impacto real en su carrera— sino la escritora Ariana Harwicz, desprogramada del festival Cultur-ALH de la Universidad de Granada tras no alinearse con el activismo pro-Palestina. La UGR ha derivado la responsabilidad a la dirección del festival mientras mantiene el veto, y los tuiteros lo leen como cesión al chantaje, cobardía institucional y antisemitismo disfrazado, con las comunidades judías en España condenándolo. El caso resume el patrón que se denuncia: presión activista, institución que cede «por sensibilidad» y artista disidente fuera del circuito.",
+      "quote": "«Los que menos me apoyaron fueron los de la cultura»: la denuncia de Harwicz tras ser desprogramada del festival de la Universidad de Granada (@Observador_esp, X).",
       "details": [
         [
           "Volumen en X",
-          "Medio (humor + universidad)"
+          "Moderado-alto, pico por el caso Harwicz"
         ],
         [
           "Sentimiento",
-          "Denuncia de censura selectiva"
+          "Crítico con la censura institucional en cultura"
         ],
         [
           "Impulsado por",
-          "Caso Etxebarria en la ULL y la resaca de Dani Mateo"
+          "Desprogramación de Harwicz en la UGR y el boicot cultural"
         ]
       ]
     },
@@ -252,23 +253,23 @@
       "icon": "⚧️",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 72,
+      "intensity": 74,
       "momentum": 74,
       "momentumDir": "right",
-      "summary": "La batalla se ha desplazado a los menores y a la sanidad autonómica: el protocolo de Madrid, que prioriza evaluación psicológica exhaustiva y limita bloqueadores y hormonas, se compara con las revisiones de Suecia, Finlandia, Dinamarca y Reino Unido tras la Cass Review frente a la autodeterminación española de la Ley 4/2023. En el otro flanco se repiten los 132 casos que Contra el Borrado de las Mujeres atribuye a impactos de la ley sobre violencia machista, cuotas, prisiones y deporte, y el recurso de VOX ante el Constitucional —admitido en 2023 y sin sentencia— se usa como prueba de dilación. El tono es muy confrontativo y sin evento explosivo nuevo: el material es de acumulación.",
-      "quote": "«Una intervención irreversible en un menor no puede sostenerse en evidencia débil»: el principio de precaución que ordena el bando crítico tras la Cass Review (@AForeroM, X).",
+      "summary": "El debate sigue anclado en la atención a menores: circulan análisis críticos de los datos de la Unidad de Intersexualidad y Transexualidad del Ramón y Cajal —acusados de inflar casos y manejar cifras «ficticias»— y se repite que la evidencia a largo plazo de los bloqueadores de pubertad es limitada, con el NHS inglés restringiéndolos y la Cass Review como referencia internacional. Los defensores recuerdan que los bloqueadores se usan también en pubertad precoz, exigen evaluación psicológica previa y niegan que ser trans obligue a pasar por cirugía, y denuncian criminalización de las infancias trans y sus familias. La batalla política añade el contraste entre la ley estatal y una Comunidad de Madrid más cauta en menores.",
+      "quote": "«No existe ninguna infancia trans: etiquetar y medicalizar es abuso»: el argumento que domina los hilos sobre bloqueadores en menores (@ISupparo, X).",
       "details": [
         [
           "Volumen en X",
-          "Moderado pero constante"
+          "Alto y estable"
         ],
         [
           "Sentimiento",
-          "Crítico con la ley y con el TC"
+          "Mayoritariamente crítico con la medicalización de menores"
         ],
         [
           "Impulsado por",
-          "Protocolo de Madrid y la Cass Review"
+          "Unidad del Ramón y Cajal, bloqueadores y Cass Review"
         ]
       ]
     },
@@ -278,23 +279,23 @@
       "icon": "📝",
       "tag": "📌 Estable",
       "tagClass": "tag-stable",
-      "intensity": 52,
+      "intensity": 55,
       "momentum": 62,
       "momentumDir": "right",
-      "summary": "La polémica de las guías institucionales con «todes», «elles» y «niñes» se mantiene como uno de los frentes más ridiculizados del ciclo, con el rechazo mayoritario articulado en tres ideas: suena artificial, no surge de abajo sino de púlpitos académicos y políticos, y se percibe como imposición ideológica. La RAE sigue funcionando como autoridad citada para rechazar las desinencias en -e y el desdoblamiento indiscriminado, y las administraciones que promocionan estas guías se usan como prueba del supuesto adoctrinamiento. El lado favorable —visibilización de mujeres y personas no binarias— aparece en minoría y casi siempre a la defensiva. Sigue siendo un goteo de bajo alcance, sin novedad normativa estatal.",
-      "quote": "«La porquería mal llamada lenguaje inclusivo… Todes, reemplazar la a u o por X: politizado y sexualizado»: el rechazo que domina el volumen del ciclo (@fjogrohnert1, X).",
+      "summary": "El tema sigue vivo como combustible de engagement cada vez que un ayuntamiento, un instituto o un profesor usa «todes»: las guías institucionales con desdoblamientos y neologismos neutros chocan frontalmente con la doctrina de la RAE, que rechaza la -e, la @ y la x como solución gramatical y defiende el masculino genérico como inclusivo. Las quejas de padres se centran en el adoctrinamiento y en la confusión que genera frente al español normativo de exámenes oficiales y oposiciones, y el patrón de ciclo es siempre el mismo: guía publicada, captura viral, burla masiva y eterno hilo «la RAE lo prohíbe / el idioma es de los hablantes». En el uso real sigue siendo minoritario, casi solo en documentos institucionales y círculos activistas.",
+      "quote": "«¿Todes lxs niñes?»: la burla que resume la reacción mayoritaria a las guías municipales de lenguaje inclusivo (hilos de X).",
       "details": [
         [
           "Volumen en X",
-          "Bajo (goteo constante)"
+          "Moderado, en declive"
         ],
         [
           "Sentimiento",
-          "Crítico con el desdoblamiento"
+          "Crítico y burlón mayoritario"
         ],
         [
           "Impulsado por",
-          "Guías institucionales y la autoridad de la RAE"
+          "Guías municipales, «todes» en colegios y la RAE"
         ]
       ]
     },
@@ -305,22 +306,22 @@
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
       "intensity": 70,
-      "momentum": 60,
+      "momentum": 58,
       "momentumDir": "right",
-      "summary": "El debate se organiza en torno a Teruel Existe como altavoz del abandono rural: la exigencia de doble vía electrificada en el corredor Sagunto-Teruel («nos jugamos el futuro de la provincia») se comparte frente a decretos de descarbonización que se leen como hipocresía contra el medio rural, con la sanidad rural y el censo exterior de los pueblos pequeños de fondo. El escepticismo es tan alto como el apoyo: se recuerda que cuando el movimiento llegó al Congreso se prometía convertir Teruel en «el Nueva York de Aragón» y se le acusa de asegurar sillas sin resultados. El diagnóstico dominante es que no hay oportunidades ni trabajo y que los jóvenes se largan a Madrid.",
-      "quote": "«Nos jugamos el futuro de la provincia»: la reclamación del tren Sagunto-Teruel que Teruel Existe coloca en el centro del ciclo (@TeruelExiste_, X).",
+      "summary": "Teruel Existe vuelve a marcar el paso reclamando el corredor ferroviario de doble vía —«ni PP ni PSOE defienden Teruel»— y criticando el despliegue de grandes centros de datos que esquilman agua y energía sin revertir en el territorio. El debate se ha vuelto más pragmático que sentimental: muchos matizan que no se trata de «llenar pueblos a la fuerza» sino de que sea posible vivir bien, con el diagnóstico recurrente de que la despoblación es el síntoma y la pérdida de calidad de vida la enfermedad. La protesta agraria convocada en Toledo para el 6 de octubre añade urgencia económica y la indignación por el voto exterior que infla censos de municipios pequeños completa el cuadro.",
+      "quote": "«La despoblación es el síntoma. La pérdida de calidad de vida es la enfermedad» (@raulsanto, X).",
       "details": [
         [
           "Volumen en X",
-          "Medio-alto (tren y censo)"
+          "Moderado"
         ],
         [
           "Sentimiento",
-          "Indignación por abandono, con escepticismo"
+          "Apoyo a la causa con escepticismo ante las soluciones"
         ],
         [
           "Impulsado por",
-          "Corredor Sagunto-Teruel y el censo exterior"
+          "Teruel Existe, protesta agraria del 6-O y centros de datos"
         ]
       ]
     },
@@ -330,66 +331,55 @@
       "icon": "🗣️",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 84,
-      "momentum": 76,
+      "intensity": 80,
+      "momentum": 74,
       "momentumDir": "right",
-      "summary": "El detonante de la semana es el intento de agresión a Santiago Abascal en Tarragona: un hombre con símbolos proetarras se abalanzó sobre él, le escupió y fue detenido, y el episodio se ha convertido en el test del doble rasero en las condenas de violencia política, con la solidaridad de Feijóo contestada por acusaciones de hipocresía. Sobre esa base se repite el marco de la banalización del insulto —el «facha» como comodín contra votantes de PP y Vox y contra quien critica la inmigración— y el debate sobre si llamarlo así deshumaniza y normaliza la violencia. En el otro lado se relativiza el incidente, se habla de montaje y se enumeran agresiones previas para justificar el clima.",
-      "quote": "«Inculto es ir llamando facha a la gente porque no apoya a un gobierno que está destrozando España»: la queja por banalización que domina el marco del ciclo (@THETA_ECOSYSTEM, X).",
+      "summary": "El término sigue funcionando como insulto político de uso masivo y como detonante de agresiones: la discusión de la semana mezcla el intento de agresión a Abascal en Tarragona, las denuncias de «noches de violencia» en Vitoria desde cuentas de Vox Álava y el debate sobre si llamar «facha» concede carta blanca para increpar o agredir. Ambos lados se acusan de doble rasero —que las agresiones a Vox se silencian y que lo contrario abre telediarios— y la escalera que se describe es siempre la misma: insulto, increpación en la calle y, en el peor caso, paliza. No hay un incidente único dominante: domina el clima permanente de polarización y la deshumanización mutua.",
+      "quote": "«Primero el insulto, después la increpación en la calle y al final la piedra»: la escalera que ambos bandos usan para culpar al contrario (hilos de X).",
       "details": [
         [
           "Volumen en X",
-          "Alto por comodín permanente"
+          "Muy alto, ambiente permanente"
         ],
         [
           "Sentimiento",
-          "Queja por banalización y doble rasero"
+          "Enfrentado, doble rasero cruzado"
         ],
         [
           "Impulsado por",
-          "Agresión a Abascal en Tarragona"
+          "Agresión a Abascal en Tarragona, Vitoria y el insulto como arma"
         ]
       ]
     }
   ],
   "news": [
     {
-      "title": "Miles de ceutíes y motoristas de la península bloquean la frontera del Tarajal",
-      "date": "19-20 sep 2026",
-      "summary": "Vecinos de Ceuta, acompañados por motoristas llegados de la península, han marchado hasta la frontera del Tarajal en la protesta de mayor alcance del ciclo: más de 195.000 views y 2.600 reposts en el vídeo de la caravana. El lema «Ceuta será la tumba del sanchismo» ordena el relato, junto a la exigencia de retornos inmediatos y la acusación de invasión. En paralelo siguen las cifras del pulso: entre 10.000 y 13.000 personas permanecerían en la ciudad, con un paquete estatal extraordinario de 309 millones y el Parlamento Europeo respaldando devoluciones rápidas y blindaje de fronteras.",
-      "source": "X / okdiario / CeutaAhora",
+      "title": "Puigdemont llama «colonias dentro de Marruecos» a Ceuta y Melilla y pide un referéndum",
+      "date": "21-22 sep 2026",
+      "summary": "El expresidente catalán cuestionó en declaraciones al The Sunday Times la soberanía española sobre Ceuta y Melilla, las calificó de «colonias dentro de Marruecos» y defendió un referéndum de autodeterminación. La reacción unionista ha sido inmediata y masiva en X —«la antiespaña ataca unida», «traidor por triplicado»—, los medios españoles lo han llevado a portada y los marroquíes lo recogen en positivo. El independentismo más duro le reprocha incoherencia mientras Junts centra su relato en atacar a Sánchez y a Illa.",
+      "source": "The Sunday Times vía X / informativost5",
+      "tags": [
+        "Independentismo",
+        "Ceuta y Melilla",
+        "Puigdemont"
+      ]
+    },
+    {
+      "title": "Abogadas ceutíes denuncian el fraude de las ONG con los entrantes y Buxadé pide desmantelarlas",
+      "date": "20-22 sep 2026",
+      "summary": "El pico del ciclo lo firman abogadas de Ceuta que sostienen que las ONG instruyen a los recién llegados para alegar ser menores, víctimas de guerra u homosexuales y así evitar la expulsión; Jorge Buxadé lo ha amplificado y pide desmantelar la estructura en toda España. En paralelo se repiten las cifras del pulso —entre 72.000 y 80.000 entradas en julio, 10.000-20.000 personas aún en la ciudad— y en Canarias la queja se centra en la saturación de menores tutelados y sus costes. Las protestas vecinales y el marco de «invasión» siguen ordenando el relato.",
+      "source": "X / Jorge Buxadé · cuentas ceutíes",
       "tags": [
         "Inmigración",
         "Ceuta",
-        "Protestas"
+        "ONG"
       ]
     },
     {
-      "title": "Intento de agresión a Abascal en Tarragona: un hombre con símbolos proetarras, detenido",
-      "date": "18-19 sep 2026",
-      "summary": "Un hombre se abalanzó sobre Santiago Abascal durante un acto en Tarragona, le escupió y gritó consignas antes de ser reducido por los escoltas y detenido; llevaba camiseta y símbolos proetarras. Abascal salió ileso y lo denunció en un mitin en Barcelona, y la solidaridad de Feijóo se convirtió en el tuit más respondido del episodio, con miles de respuestas acusándole de hipocresía por no haber condenado igual otras agresiones. El caso alimenta el marco del doble rasero y de la banalización del insulto político en ambos sentidos.",
-      "source": "okdiario / El Debate / X",
-      "tags": [
-        "Facha",
-        "Abascal",
-        "Violencia política"
-      ]
-    },
-    {
-      "title": "El Supremo suspende los efectos electorales de 400.000 nacionalidades de la Ley de Nietos",
-      "date": "16-20 sep 2026",
-      "summary": "El Tribunal Supremo ha adoptado medidas cautelares que paralizan los efectos electorales de unas 400.000 personas que obtuvieron la nacionalidad al amparo de la Ley de Memoria Democrática: no se revoca nacionalidad ni pasaporte, solo queda en suspenso el voto en el CERA a la espera de resolución de fondo. El origen son recursos de PP y Vox, que alegan aplicación irregular; Sumar registró el 16 de septiembre una enmienda para elevar a rango legal la presunción de exilio de la instrucción de 2022, y Sánchez ha dicho que «no se lo perdonaré» a los recurrentes. La conversación mezcla reparación histórica con acusación de pucherazo de cara a 2027.",
-      "source": "El Español / COPE / X",
-      "tags": [
-        "Memoria Histórica",
-        "Ley de Nietos",
-        "Supremo"
-      ]
-    },
-    {
-      "title": "El caso Leire Díez extiende el relato de cloacas al entorno de Cerdán",
-      "date": "19-21 sep 2026",
-      "summary": "El caso Leire Díez, con vínculos con Santos Cerdán, ha entrado con fuerza en el ciclo: se difunde que un enviado habría mostrado la rutina de la jueza que instruye la causa del hermano de Sánchez a un narcotraficante conocido como «El Gitano», en un supuesto intento de presión. El material se agrupa con Koldo/Ábalos, Begoña Gómez y la financiación irregular del PSOE dentro de un relato de corrupción sistémica que ya suma más de 2.345 noticias graves en la lista que circula. La previsión de desplome de donaciones al partido se usa como termómetro del desgaste.",
-      "source": "The Objective / X",
+      "title": "La jueza Biedma pide personarse como víctima tras el «sustillo» del entorno de Leire Díez",
+      "date": "21-22 sep 2026",
+      "summary": "Los informes de la UCO sitúan a Santos Cerdán en el nivel superior de la trama de cloacas y a Leire Díez en el ejecutivo, y las alegaciones apuntan a que su entorno contactó con clanes de narcotráfico para mostrar a la jueza que instruye la causa del hermano de Sánchez sus rutinas diarias. La jueza ha pedido personarse como víctima y el relato se agrupa con el «pitufeo» de comisiones disfrazadas de donaciones, la caída de donaciones al PSOE y la investigación sobre gastos de campaña del PSC. Todo sigue en fase de indicios, sin condenas firmes.",
+      "source": "X / UCO · Audiencia Nacional",
       "tags": [
         "Sanchismo",
         "Cerdán",
@@ -397,65 +387,76 @@
       ]
     },
     {
-      "title": "La posible cancelación de una conferencia de Lucía Etxebarria en la ULL reabre el debate universitario",
-      "date": "20-21 sep 2026",
-      "summary": "El comunicado de Lucía Etxebarria sobre la posible cancelación de su conferencia en la Universidad de La Laguna ha reactivado la acusación de adoctrinamiento y clientelismo en la universidad española, con @profsecundario como uno de los altavoces del ciclo. Se suma a la resaca del sketch de Dani Mateo escupiendo una bandera española en El Intermedio y a la «expulsión» de Quequé como ejemplos de veto en el humor. El mecanismo que se describe es siempre el mismo: presión a instituciones y marcas, retirada «por sensibilidad» y autocensura preventiva antes que prohibición formal.",
-      "source": "X / universidad",
+      "title": "Ariana Harwicz, desprogramada del festival Cultur-ALH de la Universidad de Granada",
+      "date": "20-22 sep 2026",
+      "summary": "La escritora argentina fue excluida del festival de la UGR en medio de la polémica por los boicots culturales a Israel; la universidad ha derivado la responsabilidad a la dirección del festival mientras mantiene el veto. Los tuiteros hablan de cesión al chantaje, cobardía institucional y antisemitismo disfrazado, y las comunidades judías en España lo han condenado. Harwicz ha denunciado que «los que menos me apoyaron fueron los de la cultura» y ha rechazado que se reduzca el caso a Gaza: «desprogramar es silenciar crítica».",
+      "source": "X / The Objective · UGR",
       "tags": [
         "Cultura de la cancelación",
         "Universidad",
-        "Humor"
+        "Israel"
+      ]
+    },
+    {
+      "title": "Teruel Existe exige el corredor de doble vía y el campo convoca protesta en Toledo el 6 de octubre",
+      "date": "20-22 sep 2026",
+      "summary": "Teruel Existe reclama el ferrocarril de doble vía —«ni PP ni PSOE defienden Teruel»— y critica el despliegue de macrocentros de datos que consumen agua y energía sin revertir en el territorio. El malestar agrario se suma con una movilización convocada en Toledo para el 6 de octubre por costes disparados —gasóleo—, burocracia y precios bajos de los cultivos, con ASAJA Teruel entre los impulsores bajo el lema «el campo dice basta». En el debate aparece también la indignación por el voto exterior de la ley de nietos, que infla censos de municipios pequeños de la España vaciada.",
+      "source": "X / Teruel Existe · ASAJA",
+      "tags": [
+        "España vaciada",
+        "Teruel",
+        "Campo"
       ]
     }
   ],
   "trends": [
     {
-      "name": "Inmigración / bloqueo del Tarajal y «tumba del sanchismo»",
+      "name": "Independentismo / Puigdemont y las «colonias» de Ceuta y Melilla",
       "change": "up",
-      "pct": "+14%",
-      "detail": "La protesta de ceutíes y motoristas en la frontera sustituye al pulso institucional como material dominante, con el vídeo de la caravana superando las 195.000 views y el lema «Ceuta será la tumba del sanchismo» replicado por cuentas de derecha y medios críticos."
+      "pct": "+12%",
+      "detail": "El gesto de Puigdemont en The Sunday Times ha unido al unionismo en un ataque frontal y ha metido a Marruecos en la conversación: es el pico del ciclo en el eje territorial y el que más respuestas genera desde cuentas no catalanas."
     },
     {
-      "name": "Facha / agresión a Abascal en Tarragona",
+      "name": "Cultura de la cancelación / Harwicz fuera del festival de la UGR",
       "change": "up",
       "pct": "+9%",
-      "detail": "El intento de agresión del 18-19 de septiembre aporta al término un detonante de doble filo: la derecha lo lee como prueba del doble rasero en las condenas y la izquierda relativiza el episodio, con el tuit de solidaridad de Feijóo como el más respondido del ciclo."
+      "detail": "La desprogramación de la escritora argentina sustituye al caso Etxebarria y al sketch de Dani Mateo como munición del eje: presión activista, universidad que delega la culpa en el festival y mantiene el veto, y comunidades judías condenando el episodio."
     },
     {
-      "name": "Sanchismo / caso Leire Díez y las cloacas",
+      "name": "Sanchismo / presión a la jueza Biedma y caída de donaciones",
       "change": "up",
-      "pct": "+7%",
-      "detail": "El relato de cloacas —el enviado que muestra la rutina de la jueza a un narcotraficante— añade una capa nueva al desgaste y conecta con la caída de donaciones al PSOE y con la lista de más de 2.345 noticias graves."
+      "pct": "+6%",
+      "detail": "El «sustillo» a la jueza que instruye la causa del hermano de Sánchez y el desplome de las donaciones al PSOE tras la imputación de Cerdán añaden una capa nueva al relato de cloacas, con la UCO como motor investigador."
     },
     {
-      "name": "Woke / «wokismo 1» y «wokismo 2»",
+      "name": "España vaciada / corredor de Teruel y protesta agraria del 6-O",
       "change": "up",
       "pct": "+4%",
-      "detail": "La distinción de Quintana Paz entre el wokismo de identidad y género y el de inmigración y antioccidentalismo se comparte como marco interpretativo, en un término que ya funciona como etiqueta catch-all de la batalla cultural."
+      "detail": "Teruel Existe recupera protagonismo con el doble carril ferroviario y la crítica a los macrocentros de datos, y la convocatoria de Toledo del 6 de octubre da al eje una fecha concreta en el calendario de movilizaciones."
     },
     {
-      "name": "Okupación / Desokupa y el ático de Ayuso",
+      "name": "Inmigración / ONG y fraude en Ceuta",
       "change": "stable",
       "pct": "+2%",
-      "detail": "Sin caso viral nuevo el volumen se mantiene alto por acumulación: el abogado que denunció a Ayuso viviendo de okupa supera el medio millón de views y Desokupa sigue como actor central, con sus causas judiciales usadas como prueba del sesgo de la fiscalía."
+      "detail": "Sin evento nuevo de la escala del asalto de julio, el volumen se mantiene en el máximo por acumulación: la denuncia de fraude de las abogadas ceutíes y la saturación de MENAs en Canarias sostienen la conversación sin subir el pico."
     },
     {
-      "name": "Memoria Histórica / cautelar del Supremo consumada",
+      "name": "Okupación / inquiokupas y Desokupa",
       "change": "stable",
-      "pct": "-2%",
-      "detail": "La suspensión del voto de 400.000 nacionalizados deja de ser novedad y pasa a gestión del conflicto: la enmienda de Sumar y el «no se lo perdonaré» de Sánchez marcan el paso, mientras el volumen se mantiene en el pico del periodo."
+      "pct": "-1%",
+      "detail": "El eje vive de la queja diaria del pequeño propietario y de los procesos judiciales lentos, sin caso viral nuevo; Desokupa sigue siendo el actor de referencia tanto para quienes la defienden como para quienes la denuncian."
     },
     {
-      "name": "Ley Trans / protocolo de Madrid y Cass Review",
+      "name": "Ley Trans / bloqueadores y Cass Review",
       "change": "stable",
       "pct": "-3%",
-      "detail": "Sin evento explosivo, el eje avanza por acumulación: el protocolo madrileño y las revisiones nórdicas y británicas frente a la autodeterminación, con los 132 casos y el recurso de VOX al Constitucional como munición recurrente."
+      "detail": "El debate no tiene evento explosivo esta semana y avanza por acumulación: datos cuestionados de la unidad del Ramón y Cajal, restricciones del NHS y la Cass Review como referencias, y el contraste político Madrid-Estado como ruido de fondo."
     },
     {
-      "name": "Cultura de la cancelación / Universidad de La Laguna",
+      "name": "Lenguaje inclusivo / guías y «todes» en colegios",
       "change": "down",
-      "pct": "-5%",
-      "detail": "El caso Etxebarria reactiva el eje universitario pero con poco alcance comparado con picos anteriores, y la conversación se refugia en quejas estructurales sobre listas negras, subvenciones y pensamiento único."
+      "pct": "-6%",
+      "detail": "El eje queda como combustible de engagement puntual cada vez que aparece una guía municipal o una circular escolar, pero sin novedad institucional esta semana el volumen baja y se refugia en memes y en el eterno hilo sobre la RAE."
     }
   ],
   "accounts": [
@@ -464,162 +465,162 @@
       "name": "Profe de historia",
       "category": "Muy derecha",
       "color": "#003399",
-      "desc": "Muy activo (20-21 sep) y motor del ciclo: 327 likes por el quote al comunicado de Lucía Etxebarria sobre la cancelación de su conferencia en la ULL y su crítica a la universidad española, 142 likes y 59 RTs compartiendo la caída de donaciones al PSOE tras el caso Cerdán, y quote al intento de agresión a Abascal en Tarragona. Sostiene el hilo de Ceuta y la tuberculosis en inmigrantes. Verificado activo en este run."
+      "desc": "Muy activo (21-22 sep) y motor del ciclo: 2.190 likes por «Qué alguien me explique cómo es posible que Pedro Sánchez siga siendo presidente…», 63 likes y 20 RTs por el posteo de los «gitanos para extorsionar a la jueza», y posts seguidos sobre el adoctrinamiento en colegios y los MENAs de Ceuta («secuestro de menores por parte del gobierno»). Verificado activo en este run."
     },
     {
       "handle": "@dianitanoticias",
       "name": "Dianita",
       "category": "Muy derecha",
       "color": "#003399",
-      "desc": "Ultra, alineada Vox. Inmigración, soberanía, anti-Sánchez. Quinta verificación consecutiva sin publicaciones localizadas ni por handle ni por búsquedas semánticas: se mantiene en la lista y sigue marcada como inactiva a re-verificar. Sin actividad detectable en la ventana 17-21 sep."
+      "desc": "Ultra, alineada Vox. Inmigración, soberanía, anti-Sánchez. Sexta verificación consecutiva sin publicaciones localizadas ni por handle ni por búsquedas semánticas: se mantiene en la lista y sigue marcada como inactiva a re-verificar. Sin actividad detectable en la ventana 18-22 sep."
     },
     {
       "handle": "@billkilgore_",
       "name": "Kilgore de Lezo",
       "category": "Joker 🃏",
       "color": "#996633",
-      "desc": "Humor seco (282K seguidores). Actividad baja pero con pico: 966 likes, 19 RTs y 45.000 views el 18 de septiembre por el chiste de distancias a Madrid en hora punta («que a 1h de Madrid está Alcobendas, no Segovia»). No ha vuelto a la racha de fútbol de ciclos anteriores. Verificado con actividad en este run."
+      "desc": "Humor seco (282K seguidores). Actividad moderada en replies con buen engagement: 596 likes y 24.000 views el 21 de septiembre en el hilo de la «magnífica velada» y 970 likes con 46.000 views por el chiste de las distancias a Madrid en hora punta («que a 1h de Madrid está Alcobendas, no Segovia»). Sin pico político. Verificado activo en este run."
     },
     {
       "handle": "@Tagelca",
       "name": "Tage",
       "category": "Derecha",
       "color": "#0055cc",
-      "desc": "La cuenta de mayor alcance del directorio y muy activa (19-20 sep): 2.569 likes por «Esto es surrealista» en el gol de Joselu, 1.682 likes por el quote del vídeo con canción, ~1.000 likes por el comentario de Vinicius tras el derbi y 433 likes por «Karma». Todo fútbol y humor ácido, con el derbi como motor del ciclo. Verificado activo en este run."
+      "desc": "La cuenta de mayor alcance del directorio y muy activa (21 sep): 2.073 likes por el quote de El Hormiguero sobre Ferran Torres, 1.873 likes por el vídeo anunciando que tiene COVID y 598 likes por la crítica al acoso a una seguidora. Todo humor, fútbol y vida cotidiana, sin carga política. Verificado activo en este run."
     },
     {
       "handle": "@elxokas",
       "name": "ElXokas",
       "category": "Derecha",
       "color": "#0055cc",
-      "desc": "Streamer (1,53M seguidores), anti-woke. Segunda verificación sin publicaciones en la ventana: no hay posts detectados entre el 17 y el 21 de septiembre y el último localizado era 100% gaming. Se mantiene en la lista y sigue marcado como inactivo a re-verificar por baja actividad en X frente a Twitch."
+      "desc": "Streamer (1,53M seguidores), anti-woke. Tercera verificación sin publicaciones en la ventana: no hay posts propios detectados entre el 18 y el 22 de septiembre y los resultados solo devuelven menciones de terceros, coherente con su migración a Twitch y otras plataformas. Se mantiene en la lista y entra en inactivas a re-verificar."
     },
     {
       "handle": "@TemplarExtre",
       "name": "Templar Extremeño",
       "category": "Derecha",
       "color": "#0055cc",
-      "desc": "Cristiano, hispanista (~1.015 seguidores). Activo tras varios ciclos en duda (19-20 sep): comenta España y Argelia ante un enemigo común, ataca un artículo de El País como panfleto y rechaza el marco europeo sobre inmigración. Engagement muy bajo (1-12 likes, pocas centenas de views). Verificado con actividad en este run."
+      "desc": "Cristiano, hispanista (~1.014 seguidores). Activo (18-22 sep): advierte de que Marruecos aprovechará un conflicto UE-Rusia para actuar en Ceuta, Melilla y Canarias, ataca a El País como panfleto del PSOE y recuerda los acosos a Villacís y Cifuentes (117 likes). Engagement bajo-moderado. Verificado activo en este run."
     },
     {
       "handle": "@13mescribano",
       "name": "Luis Escribano",
       "category": "Neutro",
       "color": "#666699",
-      "desc": "Crítica sistémica al régimen del 78 (~8K seguidores). Activo (20-21 sep) con hilos repetitivos contra la corrupción de PSOE y PP, la eliminación de controles previos en contratos públicos y el «régimen partidocrático» de 1978. Engagement muy bajo (0-1 likes) pero presencia constante. Verificado activo en este run."
+      "desc": "Crítica sistémica al régimen del 78 (~8K seguidores). Activo (20-22 sep) con hilos sobre la Cámara de Cuentas, las denuncias de Justicia por la Sanidad desde 2019 y las «cloacas desde 1978» en ambos partidos. Engagement muy bajo (0-1 likes) pero presencia constante y análisis institucional. Verificado activo en este run."
     },
     {
       "handle": "@VictorLapuente",
       "name": "Víctor Lapuente",
       "category": "Neutro",
       "color": "#666699",
-      "desc": "Académico (Banco de España, ~21K seguidores). Datos, instituciones, corrupción. Quinta verificación consecutiva sin publicaciones localizadas en la ventana; se mantiene en la lista y se marca como inactivo a re-verificar. Sin actividad detectable entre el 17 y el 21 de septiembre."
+      "desc": "Académico (Banco de España, ~21K seguidores). Datos, instituciones, corrupción. Sexta verificación consecutiva sin publicaciones localizadas en la ventana; se mantiene en la lista y se marca como inactivo a re-verificar. Sin actividad detectable entre el 18 y el 22 de septiembre."
     },
     {
       "handle": "@EstefMolina_",
       "name": "Estefanía Molina",
       "category": "Neutro",
       "color": "#666699",
-      "desc": "Politóloga y periodista (~61K seguidores). Muy activa (20-21 sep): 355 likes y 43 RTs por el quote a Juan Soto Ivars sobre su entrevista de pensiones, 246 likes y 33 RTs reposteando esa entrevista («Tener cosas es facha») y respuestas varias. Sostiene el eje vivienda desde el análisis. Verificado activo en este run."
+      "desc": "Politóloga y periodista (~61K seguidores). Activa (21 sep) pero en modo replies y citas breves: 36 likes por el quote a una periodista catalana y respuestas cortas en catalán y castellano. Mantiene el eje de análisis político con engagement bajo en este ciclo. Verificado activo en este run."
     },
     {
       "handle": "@nicolasdepedro",
       "name": "Nicolás de Pedro",
       "category": "Neutro",
       "color": "#666699",
-      "desc": "Analista de RRII y seguridad (~15K seguidores). Activo (19-20 sep): 77 likes y 17 RTs sobre la «estafa piramidal» de cargos, 76 likes y 14 RTs citando a Bloomberg por Nestlé y Rusia, y su capa de fútbol con la crítica a la renovación de Vinicius (63 likes). Mantiene geopolítica y actualidad con engagement medio. Verificado activo en este run."
+      "desc": "Analista de RRII y seguridad (~15K seguidores). Activo (20-22 sep): 177 likes y 27 RTs contra Francesca Albanese por su postura sobre Ucrania y la OTAN, insiste en los ataques híbridos de Marruecos en Ceuta y mantiene su capa de fútbol con la crítica a la renovación de Vinicius. Geopolítica con engagement medio. Verificado activo en este run."
     },
     {
       "handle": "@armesillaconde",
       "name": "Santiago Armesilla",
       "category": "Izquierda",
       "color": "#e84700",
-      "desc": "Socialismo patriótico. Muy activo (19-20 sep) y con el pico del directorio en carga política: 1.736 likes, 284 RTs y 43.000 views sosteniendo que el Real Madrid está «indirectamente controlado por Marruecos», 133 likes contra el Premio Nacional de Poesía a lenguas regionales («dinero público en nuestra autodestrucción como Patria») y respuestas de tono seco. Verificado activo en este run."
+      "desc": "Socialismo patriótico. Muy activo (21 sep) y con el pico del directorio: 1.468 likes y 137 RTs por la analogía entre Vox y los influencers en el Pentágono, 262 likes y 135 RTs por el vídeo del ex militar marroquí que habla de túneles secretos hacia Ceuta y 188 likes sobre el Islam y el comunismo. Verificado activo en este run."
     },
     {
       "handle": "@Anujbost",
       "name": "Anuj",
       "category": "Izquierda",
       "color": "#e84700",
-      "desc": "Socialdemócrata crítico y streamer. Activo (19-21 sep) desde China: 1.428 likes y 68.000 views por «Me voy de viaje Europa: nos vamos a la guerra», 146 likes por la cultura de ventas en el tren bala y respuestas técnicas sobre eSIM, VPN y Alipay. Buena racha tras el pico del censo. Verificado activo en este run."
+      "desc": "Socialdemócrata crítico y streamer. Activo (18-21 sep) desde China: 1.435 likes por «Me voy de viaje Europa: nos vamos a la guerra», 650 likes y 185.000 views por la «cultura de las ventas» en el tren bala y respuestas técnicas sobre eSIM, Alipay y VPN. Buena racha de alcance. Verificado activo en este run."
     },
     {
       "handle": "@geoestratego",
       "name": "Pedro Baños",
       "category": "Derecha",
       "color": "#0055cc",
-      "desc": "Coronel, geopolítica (~454K seguidores). Muy activo (18-19 sep) y su pico más alto del ciclo: 3.142 likes, 748 RTs y más de 107.000 views contra El Mundo por vender una guerra inminente con Rusia, 2.248 likes y 682 RTs apoyando a Fico, más el dron en la central de Kursk y el plan de Moncloa contra ataques híbridos («empezar por Marruecos»). Volumen alto y crítica constante al belicismo europeo. Verificado activo en este run."
+      "desc": "Coronel, geopolítica (~454K seguidores). Muy activo (18-22 sep): 3.245 likes contra El Mundo por presentar la guerra con Rusia como inevitable, 2.248 likes apoyando a Fico, el dron ucraniano en la central de Kursk y el plan de Moncloa contra ataques híbridos («podrían empezar con Marruecos, pero no se atreverán»). El mayor alcance del directorio. Verificado activo en este run."
     },
     {
       "handle": "@elmundotoday",
       "name": "El Mundo Today",
       "category": "Joker 🃏",
       "color": "#996633",
-      "desc": "Periodismo satírico (1,43M seguidores, verificado). Quinta verificación consecutiva sin publicaciones localizadas ni en modo Latest ni en el conjunto de 2026; se mantiene en la lista y sigue marcado como inactivo a re-verificar. Sin posts detectados en la ventana 17-21 sep."
+      "desc": "Periodismo satírico (1,43M seguidores, verificado). Sexta verificación consecutiva sin publicaciones localizadas ni en modo Latest ni en el conjunto del periodo; se mantiene en la lista y sigue marcado como inactivo a re-verificar. Sin posts detectados en la ventana 18-22 sep."
     },
     {
       "handle": "@littleragergirl",
       "name": "Abby",
       "category": "Joker 🃏",
       "color": "#996633",
-      "desc": "Streamer gaming, sarcástica. No política pero sale en dramas tuiteros. Sexta verificación sin resultados: solo aparecen variantes del handle con perfiles de ~100 seguidores y actividad mínima, lo que refuerza la sospecha de handle erróneo, cuenta privada o suspendida. Se mantiene en la lista y sigue marcada como inactiva."
+      "desc": "Streamer gaming, sarcástica. No política pero sale en dramas tuiteros. Séptima verificación sin resultados: solo aparecen variantes del handle con perfiles de ~100-170 seguidores y actividad mínima, lo que refuerza la sospecha de handle erróneo, cuenta privada o suspendida. Se mantiene en la lista y sigue marcada como inactiva."
     },
     {
       "handle": "@LaBugsBunnyIA",
       "name": "Fábrica de Memes",
       "category": "Joker 🃏",
       "color": "#996633",
-      "desc": "Memes e investigaciones en vídeo (~40K seguidores, verificado). Muy activa (18-21 sep) pero 100% política argentina: el informe de 13 millones de dólares en casas abandonadas de Esteban Echeverría (63 likes, 21 RTs), críticas a Gildo Insfrán y Formosa y un hilo sobre alfajores. Sin peso en la conversación española. Verificado activo en este run."
+      "desc": "Memes e investigaciones en vídeo (~40K seguidores, verificado). Muy activa (21-22 sep): hilo contra una jueza «garantista» por sobreseer a un menor y liberar a un acusado de agresión (115 likes) y el informe de 13 millones de dólares tirados en casas abandonadas de la gestión kirchnerista (133 likes). Sigue siendo 100% política argentina, sin peso en la conversación española. Verificado activo en este run."
     }
   ],
   "virals": [
     {
-      "author": "@ceuta_ahora",
-      "date": "19 sep 2026",
-      "text": "«Centenares de motoristas llegados de la península, unidos a los de Ceuta, han hecho ruta hasta la frontera del Tarajal»: el vídeo de la marcha que se convierte en el mayor alcance del ciclo, con los hashtags #InvasiónCeuta y #CeutaSeDefiende.",
-      "engagement": "~6.729 likes · 2.602 RTs · ~195.543 views",
-      "topic": "Inmigración / Ceuta",
-      "link": "https://x.com/ceuta_ahora/status/2101644521943531664"
+      "author": "@profsecundario",
+      "date": "21 sep 2026",
+      "text": "«Qué alguien me explique cómo es posible que Pedro Sánchez siga siendo presidente»: el posteo de mayor engagement del directorio en clave de corrupción, con imágenes del caso y respuestas del ciclo de Ceuta.",
+      "engagement": "~2.190 likes",
+      "topic": "Sanchismo / Corrupción",
+      "link": "https://x.com/profsecundario/status/2102013541301506172"
     },
     {
-      "author": "@amaerx",
-      "date": "18 sep 2026",
-      "text": "«Silvia Orriols promete en VIVIENDA: simplificar la burocracia. Okupas a la calle en 48h. VPO para los de aquí, no para ilegales. Esto es sentido común»: el vídeo que engancha okupación e inmigración en una sola pieza.",
-      "engagement": "~4.761 likes · 903 RTs · ~107.000 views",
-      "topic": "Okupación / Vivienda",
-      "link": "https://x.com/amaerx/status/2100930303963312262"
-    },
-    {
-      "author": "@geoestratego",
-      "date": "19 sep 2026",
-      "text": "«Critica a El Mundo por insistir en la guerra inminente contra Rusia como necesaria»: el quote del directorio con más reposts del ciclo en clave geopolítica y anti-OTAN.",
-      "engagement": "~3.142 likes · 748 RTs · ~107.000 views",
-      "topic": "Geopolítica / Anti-OTAN",
-      "link": "https://x.com/geoestratego/status/2101270208203665731"
-    },
-    {
-      "author": "@cakealatake",
-      "date": "18 sep 2026",
-      "text": "«Barcelona INVADIDA. Los asentamientos, los okupas en los lugares donde los ilegales exigen sus derechos y que nadie te cuenta»: la pieza que fusiona okupación e inmigración en el eje catalán.",
-      "engagement": "~2.990 likes · 985 RTs · ~86.000 views",
-      "topic": "Okupación / Inmigración",
-      "link": "https://x.com/cakealatake/status/2101572246590419285"
+      "author": "@Tagelca",
+      "date": "21 sep 2026",
+      "text": "«No tengo polla a ponerle sonido a este vídeo. Prefiero que me detecten algo chungo en el páncreas a darle volumen»: el quote de El Hormiguero sobre Ferran Torres que se lleva el mayor alcance del directorio en clave de humor.",
+      "engagement": "~2.073 likes",
+      "topic": "Cultura popular / Humor",
+      "link": "https://x.com/Tagelca/status/2102145639463235894"
     },
     {
       "author": "@armesillaconde",
-      "date": "20 sep 2026",
-      "text": "«Mientras Anas Laghrari controle a Florentino Pérez, controla el Real Madrid… Todo madridista debe denunciar que el club esté indirectamente controlado por Marruecos»: el post de mayor engagement político del directorio en el ciclo.",
-      "engagement": "~1.736 likes · 284 RTs · ~43.000 views",
-      "topic": "Cultura popular / Deporte",
-      "link": "https://x.com/armesillaconde/status/2101736608378622154"
+      "date": "21 sep 2026",
+      "text": "«Los influencers en el Pentágono»: el quote que compara la invitación de Vox a creadores de contenido a las Fuerzas Armadas y al CNI con la escena de Logan y Jake Paul en el Departamento de Guerra de EE.UU.",
+      "engagement": "~1.468 likes · 137 RTs",
+      "topic": "Cultura popular / Política",
+      "link": "https://x.com/armesillaconde/status/2101967596916531289"
     },
     {
-      "author": "@eduardomenoni",
+      "author": "@Anujbost",
       "date": "19 sep 2026",
-      "text": "«Miles de ceutíes marcharon hasta la frontera para defender Ceuta de la inmigración marroquí bloqueando el Tarajal: “Ellos nos invadieron. Ahora no los dejaremos entrar”»: el relato en versión internacional del bloqueo fronterizo.",
-      "engagement": "~1.238 likes · 296 RTs · ~25.455 views",
+      "text": "«Me voy de viaje / Europa: nos vamos a la guerra»: el posteo que resume el clima belicista europeo y se convierte en el pico de alcance del eje geopolítico desde la izquierda del directorio.",
+      "engagement": "~1.435 likes",
+      "topic": "Geopolítica / Europa",
+      "link": "https://x.com/Anujbost/status/2101263569761575207"
+    },
+    {
+      "author": "@armesillaconde",
+      "date": "21 sep 2026",
+      "text": "«Ex militar de Marruecos desvela que hay túneles secretos que van a Ceuta»: el vídeo-entrevista con un exiliado sobre túneles, narco e inmigración que se convierte en la pieza más replicada del eje Ceuta en el directorio.",
+      "engagement": "~262 likes · 135 RTs",
       "topic": "Inmigración / Ceuta",
-      "link": "https://x.com/eduardomenoni/status/2101742585349812499"
+      "link": "https://x.com/armesillaconde/status/2102075010445713641"
+    },
+    {
+      "author": "@MasRazonqUnSant",
+      "date": "21 sep 2026",
+      "text": "«Los separatistas que dieron un golpe acuden en ayuda del invasor»: la reacción unionista al tuit de Puigdemont llamando «colonias dentro de Marruecos» a Ceuta y Melilla, replicada de forma masiva en el ciclo.",
+      "engagement": "Sin métricas devueltas por la búsqueda · alta replicación en el ciclo",
+      "topic": "Independentismo / Ceuta y Melilla",
+      "link": "https://x.com/MasRazonqUnSant/status/2101908630379311263"
     }
   ]
 }
