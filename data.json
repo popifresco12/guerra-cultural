@@ -1,28 +1,30 @@
 {
   "meta": {
-    "generated_at": "2026-09-23T08:20:00+02:00",
+    "generated_at": "2026-09-24T08:05:00+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "sanchismo corrupción PSOE Pedro Sánchez UCO Cerdán jueza Biedma polémica tuiteros España (desde 2026-09-20)",
-      "inmigración España Ceuta Melilla Canarias llegadas irregulares ONG debate tuiteros (desde 2026-09-20)",
-      "okupación ilegal vivienda Desokupa inquiokupas desahucio propietarios España polémica tuiteros (desde 2026-09-20)",
-      "independentismo Cataluña Puigdemont Junts ERC colonias Ceuta Melilla procés polémica (desde 2026-09-20)",
-      "memoria histórica ley de nietos fosas Franco exhumaciones polémica España tuiteros (desde 2026-09-20)",
-      "feminismo abolicionista prostitución Irene Montero ley solo sí es sí polémica tuiteros España (desde 2026-09-20)",
-      "wokismo ideología woke polémica España tuiteros cultura (desde 2026-09-20) [REINTENTO: sin citas al primer intento]",
-      "adoctrinamiento ideología de género en colegios series cine español polémica tuiteros debate cultural España (desde 2026-09-20) [REINTENTO con entidades]",
-      "cultura de la cancelación Ariana Harwicz Universidad de Granada festival censura polémica (desde 2026-09-20)",
-      "ley trans menores bloqueadores hormonas Cass Review protocolo Madrid polémica España tuiteros (desde 2026-09-20)",
-      "lenguaje inclusivo todes RAE desdoblamiento ayuntamientos guías colegios polémica España (desde 2026-09-20)",
-      "España vaciada despoblación Teruel Existe protesta agraria Toledo 6 de octubre campo (desde 2026-09-20)",
-      "facha fascista insulto político agresión Vitoria polémica tuiteros España antifascistas (desde 2026-09-20) [REINTENTO: respuesta truncada]",
-      "insulto facha fachoso crispación política tuiteros España debates Parlamento izquierda derecha (desde 2026-09-20) [REINTENTO con citas reales]",
-      "publicaciones recientes y actividad de @profsecundario @dianitanoticias @billkilgore_ @Tagelca (desde 2026-09-20)",
-      "publicaciones recientes y actividad de @elxokas @TemplarExtre @13mescribano @VictorLapuente (desde 2026-09-20)",
-      "publicaciones recientes y actividad de @EstefMolina_ @nicolasdepedro @armesillaconde @Anujbost (desde 2026-09-20)",
-      "publicaciones recientes y actividad de @geoestratego @elmundotoday @littleragergirl @LaBugsBunnyIA (desde 2026-09-20) [FALLÓ: créditos xAI agotados a mitad del run]"
+      "sanchismo corrupción PSOE Pedro Sánchez UCO Cerdán jueza Biedma cloacas polémica tuiteros España (desde 2026-09-21) [FALLÓ: personal-team-blocked:spending-limit]",
+      "inmigración España Ceuta Melilla Canarias llegadas irregulares ONG debate tuiteros (desde 2026-09-21) [FALLÓ: spending-limit]",
+      "okupación ilegal vivienda Desokupa inquiokupas desahucio propietarios España polémica (desde 2026-09-21) [FALLÓ: spending-limit]",
+      "independentismo Cataluña Puigdemont Junts ERC Ceuta Melilla colonias procés polémica (desde 2026-09-21) [FALLÓ: spending-limit]",
+      "reintento de diagnóstico con consulta mínima «Sánchez» [FALLÓ: spending-limit — es crédito de cuenta, no forma de la consulta]",
+      "Tanda 2 (memoria, feminismo, woke, cultura-cancelacion) y tanda 3 (ley-trans, lenguaje-inclusivo, espana-vaciada, facha): NO EJECUTADAS — el bloqueo por créditos ya era total en la primera llamada del run",
+      "Chequeo de actividad de las 16 cuentas y búsqueda de virales: NO EJECUTADOS — créditos agotados"
     ],
-    "stale_topics": [],
+    "stale_topics": [
+      "sanchismo",
+      "inmigracion",
+      "okupacion",
+      "independentismo",
+      "memoria",
+      "feminismo",
+      "woke",
+      "cultura-cancelacion",
+      "ley-trans",
+      "lenguaje-inclusivo",
+      "espana-vaciada",
+      "facha"
+    ],
     "inactive_accounts": [
       "@dianitanoticias",
       "@elxokas",
@@ -30,7 +32,10 @@
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "notes": "Run con créditos xAI operativos hasta la cuarta tanda de actividad: los 12 tópicos se midieron con búsqueda propia (woke y facha necesitaron una reescritura de consulta cada uno tras volver sin citas o truncadas; ambos se recuperaron con análisis completo, por lo que NO son stale). El chequeo de actividad cubrió 12 de las 16 cuentas y confirmó activas a profsecundario, billkilgore_, Tagelca, TemplarExtre, 13mescribano, EstefMolina_, nicolasdepedro, armesillaconde y Anujbost; y sin actividad detectable a dianitanoticias (7ª verificación), elxokas y VictorLapuente. La cuarta tanda (@geoestratego, @elmundotoday, @littleragergirl, @LaBugsBunnyIA) falló por personal-team-blocked:spending-limit: esas cuatro cuentas quedan SIN VERIFICAR (se conserva su ficha anterior con aviso) y meta.inactive_accounts se mantiene tal cual estaba (la ausencia de chequeo no es prueba ni de actividad ni de inactividad). Los 6 virales se tomaron de status reales devueltos por las búsquedas de este mismo run, con sus métricas. Grounding (sources.json) omitido: el entorno /home/carlo/guerra-cultural-rag no existe en Windows."
+    "previous_generated_at": "2026-09-23T08:20:00+02:00",
+    "previous_source": "cron 09f22b3f6f78",
+    "fallback": "full",
+    "notes": "FALLBACK TOTAL: xAI devolvió personal-team-blocked:spending-limit en la PRIMERA llamada del run (las 4 búsquedas de la tanda 1 fallaron idénticamente y un reintento de diagnóstico con la consulta mínima «Sánchez» confirmó que es crédito de cuenta, no forma de consulta). No se pudo medir NINGÚN tópico (0/12), por lo que topics, news, trends, accounts y virals se reutilizan VERBATIM del commit anterior (generado 23-09-2026 08:20) y los 12 ids canónicos quedan en stale_topics para que el dashboard muestre su banner de aviso. Es el PRIMER día consecutivo bloqueado de esta racha (el 19 y el 20-09 hubo dos días de fallback total, el 21-09 se recargó y funcionó, y el 22 y 23-09 se midieron con normalidad). meta.inactive_accounts se mantiene EXACTAMENTE como estaba: hoy no se pudo chequear ninguna cuenta, y la ausencia de chequeo no es prueba ni de actividad ni de inactividad. NO se ha añadido snapshot a history.json: con cero medición fresca una entrada fechada hoy fabricaría un punto en el gráfico de evolución. Grounding (sources.json) omitido: el entorno /home/carlo/guerra-cultural-rag no existe en Windows."
   },
   "topics": [
     {
