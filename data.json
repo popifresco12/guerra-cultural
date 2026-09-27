@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-09-26T08:05:00+02:00",
+    "generated_at": "2026-09-27T08:01:28+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "Diagnostico con consulta minima «Sanchez» [FALLO: personal-team-blocked:spending-limit - confirma credito de cuenta, no forma de la consulta]",
-      "Tanda 1 (sanchismo, inmigracion, okupacion, independentismo) / tanda 2 (memoria, feminismo, woke, cultura-cancelacion) / tanda 3 (ley-trans, lenguaje-inclusivo, espana-vaciada, facha): NO EJECUTADAS - el bloqueo por creditos ya era total en la primera llamada del run",
-      "Chequeo de actividad de las 16 cuentas y busqueda de virales: NO EJECUTADOS - creditos agotados"
+      "Diagnostico = tanda 1 de topicos (sanchismo, inmigracion, okupacion, independentismo) con consultas ancladas a entidades («sanchismo España Sánchez UCO Cerdán Zapatero investigación judicial», «inmigración España Ceuta Canarias llegadas irregulares autorizaciones», «okupación España ocupas desalojo propietarios Desokupa vivienda», «independentismo Cataluña procés Puigdemont Illa financiación singular») [FALLO EN LAS 4: personal-team-blocked:spending-limit - patron de credito de cuenta agotado, no de forma de consulta]",
+      "Tanda 2 (memoria, feminismo, woke, cultura-cancelacion) y tanda 3 (ley-trans, lenguaje-inclusivo, espana-vaciada, facha): NO EJECUTADAS - el bloqueo por creditos ya era total e identico en la primera llamada del run",
+      "Chequeo de actividad de las 16 cuentas (2 lotes de 8 handles) y busqueda de virales con enlaces: NO EJECUTADOS - creditos agotados"
     ],
     "stale_topics": [
       "sanchismo",
@@ -28,10 +28,10 @@
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "previous_generated_at": "2026-09-25T08:05:00+02:00",
+    "previous_generated_at": "2026-09-26T08:05:00+02:00",
     "previous_source": "cron 09f22b3f6f78",
     "fallback": "full",
-    "notes": "FALLBACK TOTAL (3er dia consecutivo): xAI devolvio personal-team-blocked:spending-limit en la comprobacion minima de inicio («Sanchez»), que es el patron de credito de cuenta agotado, no un fallo de forma de la consulta. Se pudo medir 0/12 topicos, asi que topics, news, trends, accounts y virals se reutilizan VERBATIM del commit anterior (datos reales generados el 23-09-2026 08:20, ya reutilizados el 24, 25 y 26-09) y los 12 ids canonicos quedan en stale_topics para que el dashboard muestre su banner de aviso. Racha de bloqueo: 24-09 primer dia, 25-09 segundo, 26-09 tercero (precedente: fallback total el 19 y 20-09, recarga el 21-09, runs normales el 21, 22 y 23-09). La recarga del 21-09 se agoto por tanto en ~3 dias operativos. meta.inactive_accounts se mantiene EXACTAMENTE como estaba: hoy no se pudo chequear ninguna cuenta, y la ausencia de chequeo no prueba ni actividad ni inactividad. NO se ha anadido snapshot a history.json (sigue terminando el 23-09): con cero medicion fresca una entrada fechada hoy fabricaria un punto falso en el grafico de evolucion. Grounding (sources.json) omitido: el entorno /home/carlo/guerra-cultural-rag no existe en Windows."
+    "notes": "FALLBACK TOTAL (4o dia consecutivo): xAI devolvio 'personal-team-blocked:spending-limit' en TODAS las llamadas del run, empezando por la primera tanda de topicos (4 consultas ancladas a entidades, no a fechas). Ese patron identico en la primera llamada confirma credito de cuenta agotado, no un fallo de forma de la consulta. Se pudo medir 0/12 topicos, asi que topics, news, trends, accounts y virals se reutilizan VERBATIM del commit anterior: son datos reales generados el 23-09-2026 08:20, ya reciclados el 24, 25, 26 y ahora 27-09. Los 12 ids canonicos quedan en stale_topics para que el dashboard muestre su banner de aviso. RACHA DE BLOQUEO: 24-09 (1er dia), 25-09 (2o), 26-09 (3o), 27-09 (4o). Precedente: fallback total el 19 y 20-09, recarga el 21-09, runs normales el 21, 22 y 23-09 -> la recarga del 21-09 duro ~3 dias operativos antes de agotarse el 24-09. El dashboard lleva por tanto 4 dias sin medicion fresca y su ultimo dato real es del 23-09-2026. UNICA SOLUCION: recargar creditos en https://grok.com/?_s=usage. meta.inactive_accounts se mantiene EXACTAMENTE como estaba (5 handles): hoy no se pudo chequear ninguna cuenta y la ausencia de chequeo no prueba ni actividad ni inactividad. NO se ha anadido snapshot a history.json (sigue terminando el 23-09-2026T08:20): con cero medicion fresca, una entrada fechada hoy fabricaria un punto falso en el grafico de evolucion. Grounding (sources.json) omitido: el entorno /home/carlo/guerra-cultural-rag no existe en Windows (el sources.json que ya esta en el repo es de un run anterior y no se ha tocado)."
   },
   "topics": [
     {
