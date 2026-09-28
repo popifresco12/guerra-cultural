@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard Bluesky — Termómetro de la Guerra Cultural</title>
+<meta name="description" content="Los mismos temas del termómetro cultural, medidos en Bluesky. Datos reales de la API pública.">
+<style>
+  :root { color-scheme: dark; }
+  body { margin:0; padding:2rem 1rem 4rem; background:#0e0e14; color:#e8e8f0;
+         font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.5; }
+  .wrap { max-width:940px; margin:0 auto; }
+  nav { display:flex; gap:0.6rem; flex-wrap:wrap; margin-bottom:2rem; }
+  nav a { text-decoration:none; color:#e8e8f0; border:1px solid rgba(255,255,255,0.18);
+          padding:0.4rem 0.8rem; border-radius:999px; font-size:0.82rem; }
+  nav a:hover { border-color:rgba(255,255,255,0.45); }
+  nav a.aqui { background:rgba(245,158,11,0.18); border-color:#f59e0b; }
+  h1 { font-size:1.6rem; margin:0 0 0.3rem; }
+  .lead { opacity:0.72; font-size:0.9rem; margin-bottom:0.4rem; }
+  .aviso { opacity:0.6; font-size:0.78rem; margin-bottom:2rem; padding-left:0.7rem; border-left:2px solid #f59e0b; }
+  h2 { font-size:1.15rem; margin:2.2rem 0 0.8rem; }
+  .kpis { display:flex; gap:0.7rem; flex-wrap:wrap; margin-bottom:0.5rem; }
+  .kpi { background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); border-radius:10px;
+         padding:0.6rem 0.9rem; min-width:120px; }
+  .kpi .n { font-size:1.25rem; font-weight:600; }
+  .kpi .e { font-size:0.72rem; opacity:0.6; }
+  .fila { display:grid; grid-template-columns:1fr; gap:1px; margin-bottom:0.75rem; }
+  .cab { display:flex; justify-content:space-between; align-items:baseline; gap:0.6rem; font-size:0.86rem; margin-bottom:4px; }
+  .nombre { font-weight:500; }
+  .cifras { opacity:0.65; font-size:0.76rem; white-space:nowrap; }
+  .barra { height:9px; border-radius:5px; background:rgba(128,128,128,0.16); overflow:hidden; }
+  .relleno { height:100%; border-radius:5px; background:linear-gradient(90deg,#f59e0b,#fb923c); transition:width 0.4s ease; }
+  .tarjeta { background:rgba(255,255,255,0.045); border:1px solid rgba(255,255,255,0.09); border-radius:12px;
+             padding:1rem 1.1rem; margin-bottom:0.9rem; }
+  .tarjeta h3 { margin:0 0 0.35rem; font-size:0.98rem; }
+  .mini { font-size:0.74rem; opacity:0.6; margin-bottom:0.6rem; }
+  .post { font-size:0.86rem; padding-left:0.7rem; border-left:2px solid rgba(245,158,11,0.55); margin-bottom:0.55rem; }
+  .post .quien { display:block; font-size:0.73rem; opacity:0.6; margin-top:0.3rem; }
+  a.autor { color:#f59e0b; text-decoration:none; }
+  a.autor:hover { text-decoration:underline; }
+  .estado { opacity:0.6; font-size:0.85rem; }
+  footer { margin-top:3rem; opacity:0.45; font-size:0.75rem; line-height:1.6; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a href="index.html">📊 Dashboard X</a>
+    <a class="aqui" href="bluesky.html">🦋 Dashboard Bluesky</a>
+    <a href="comparativa.html">⚖️ Comparativa</a>
+  </nav>
+
+  <h1>🦋 Bluesky — Termómetro de la Guerra Cultural</h1>
+  <p class="lead">Los mismos 12 temas que medimos en X, medidos aquí en Bluesky con datos reales de su API pública.</p>
+  <p class="aviso">
+    Los volúmenes <strong>no son comparables</strong> con los del dashboard de X: son plataformas y poblaciones distintas.
+    Aquí se mide <em>engagement</em> (me gusta + reposts + respuestas) de los posts más recientes de cada tema,
+    no el total de conversación. Para ver los dos lados juntos, la <a href="comparativa.html" style="color:#f59e0b">comparativa</a>.
+  </p>
+
+  <section id="bsDash">
+    <p class="estado">Cargando datos de Bluesky…</p>
+  </section>
+
+  <footer>
+    Fuente: <code>bluesky.json</code> · API pública de Bluesky (<code>app.bsky.feed.searchPosts</code>), sin clave ni token.<br>
+    Se actualiza a diario con el cron «Guerra Cultural - capa Bluesky».
+  </footer>
+</div>
+
+<script>
+  (async function () {
+    const cont = document.getElementById('bsDash');
+    const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    const num = (n) => (n == null ? '—' : Number(n).toLocaleString('es-ES'));
+
+    try {
+      const [rb, rx] = await Promise.all([
+        fetch('bluesky.json?_=' + Date.now(), { cache: 'no-store' }),
+        fetch('data.json', { cache: 'no-store' }).catch(() => null)
+      ]);
+      if (!rb.ok) throw new Error('HTTP ' + rb.status);
+      const bs = await rb.json();
+      const temas = bs.temas || {};
+
+      // nombres e iconos: de data.json (los mismos temas), con el id como respaldo
+      const meta = {};
+      if (rx && rx.ok) {
+        try {
+          const dx = await rx.json();
+          (dx.topics || []).forEach(t => { meta[t.id] = { nombre: t.name, icono: t.icon || '•' }; });
+        } catch (e) {}
+      }
+
+      const ids = Object.keys(temas).sort((a, b) => temas[b].engagement - temas[a].engagement);
+      if (!ids.length) { cont.innerHTML = '<p class="estado">Todavía no hay datos publicados.</p>'; return; }
+
+      const totalEng = ids.reduce((s, id) => s + temas[id].engagement, 0);
+      const totalPosts = ids.reduce((s, id) => s + temas[id].posts, 0);
+      const totalLikes = ids.reduce((s, id) => s + temas[id].likes, 0);
+      const totalRep = ids.reduce((s, id) => s + temas[id].reposts, 0);
+      const maxEng = temas[ids[0]].engagement;
+      const nombreDe = (id) => (meta[id] ? meta[id].icono + ' ' + meta[id].nombre : id);
+
+      let html = '<div class="kpis">' +
+        '<div class="kpi"><div class="n">' + num(totalEng) + '</div><div class="e">engagement total</div></div>' +
+        '<div class="kpi"><div class="n">' + num(totalPosts) + '</div><div class="e">posts analizados</div></div>' +
+        '<div class="kpi"><div class="n">' + num(totalLikes) + '</div><div class="e">me gusta</div></div>' +
+        '<div class="kpi"><div class="n">' + num(totalRep) + '</div><div class="e">reposts</div></div>' +
+        '<div class="kpi"><div class="n">' + ids.length + '</div><div class="e">temas</div></div>' +
+      '</div>';
+
+      html += '<h2>📈 Ranking por engagement</h2>';
+      ids.forEach(function (id) {
+        const t = temas[id];
+        const ancho = Math.max(2, Math.round(t.engagement / maxEng * 100));
+        html += '<div class="fila">' +
+          '<div class="cab">' +
+            '<span class="nombre">' + esc(nombreDe(id)) + '</span>' +
+            '<span class="cifras">' + num(t.engagement) + ' eng · ' + num(t.posts) + ' posts · ' +
+              t.engagement_medio + '/post</span>' +
+          '</div>' +
+          '<div class="barra"><div class="relleno" style="width:' + ancho + '%"></div></div>' +
+        '</div>';
+      });
+
+      html += '<h2>🔎 Los posts que tiran de cada tema</h2>';
+      ids.forEach(function (id) {
+        const t = temas[id];
+        const top = t.top;
+        if (!top) return;
+        const url = top.autor ? 'https://bsky.app/profile/' + encodeURIComponent(top.autor) : null;
+        html += '<div class="tarjeta">' +
+          '<h3>' + esc(nombreDe(id)) + '</h3>' +
+          '<div class="mini">Consulta: «' + esc(t.consulta) + '» · ' + num(t.posts) + ' posts · ' +
+            num(t.likes) + ' me gusta · ' + num(t.reposts) + ' reposts · ' + num(t.respuestas) + ' respuestas</div>' +
+          '<div class="post">' + esc(top.texto || '(sin texto)') +
+            '<span class="quien">' +
+              (url ? '<a class="autor" href="' + url + '" target="_blank" rel="noopener">@' + esc(top.autor) + '</a>' : '') +
+              ' · ' + num(top.likes) + ' ♥ · ' + num(top.reposts) + ' ↻' +
+            '</span>' +
+          '</div>' +
+        '</div>';
+      });
+
+      html += '<p class="estado">Datos generados: ' + esc((bs.meta || {}).generated_at || 'n/d') + '</p>';
+      cont.innerHTML = html;
+    } catch (e) {
+      cont.innerHTML = '<p class="estado">No se pudieron cargar los datos de Bluesky (' + esc(e.message) + ')</p>';
+    }
+  })();
+</script>
+</body>
+</html>

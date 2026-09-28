@@ -233,6 +233,20 @@
 </style>
 </head>
 <body>
+<!-- Navegacion entre las tres vistas -->
+<style>
+  .gc-nav { max-width:1200px; margin:1.25rem auto 0; padding:0 1rem; display:flex; gap:0.6rem; flex-wrap:wrap; }
+  .gc-nav a { text-decoration:none; color:inherit; border:1px solid rgba(128,128,128,0.35);
+              padding:0.4rem 0.85rem; border-radius:999px; font-size:0.82rem; }
+  .gc-nav a:hover { border-color:rgba(128,128,128,0.75); }
+  .gc-nav a.aqui { background:rgba(29,155,240,0.16); border-color:#1d9bf0; }
+</style>
+<nav class="gc-nav">
+  <a class="aqui" href="index.html">📊 Dashboard X</a>
+  <a href="bluesky.html">🦋 Dashboard Bluesky</a>
+  <a href="comparativa.html">⚖️ Comparativa X vs Bluesky</a>
+</nav>
+
 
 <div id="metaBanner" style="display:none;max-width:1400px;margin:0 auto 1rem;background:rgba(255,149,0,0.12);border:1px solid #ff9500;border-radius:8px;padding:0.6rem 1rem;font-size:0.8rem;color:#ff9500"></div>
 <div class="header">
@@ -604,120 +618,6 @@ function renderHistory() {
     }
   });
 }
-</script>
-
-<!-- =====================================================================
-     COMPARATIVA X vs BLUESKY
-     Datos: comparativa.json (lo regenera el cron "Guerra Cultural - capa Bluesky"
-     cada dia a las 08:45, sin agente). Aqui solo se pintan.
-     AVISO: X y Bluesky son poblaciones distintas; se comparan posiciones
-     relativas normalizadas 0-100 dentro de cada plataforma. Nunca totales.
-     ===================================================================== -->
-<style>
-  #gcCross { max-width: 1200px; margin: 2.5rem auto 3rem; padding: 0 1rem; }
-  #gcCross h2 { font-size: 1.35rem; margin: 0 0 0.2rem; }
-  #gcCross .gc-sub { opacity: 0.65; font-size: 0.82rem; margin-bottom: 1rem; line-height: 1.5; }
-  #gcCross .gc-leyenda { display: flex; gap: 1.2rem; font-size: 0.8rem; margin-bottom: 1.25rem; flex-wrap: wrap; }
-  #gcCross .gc-leyenda span { display: flex; align-items: center; gap: 0.4rem; }
-  #gcCross .gc-punto { width: 11px; height: 11px; border-radius: 3px; }
-  #gcCross .gc-grupo { margin: 1.6rem 0 0.7rem; font-size: 0.95rem; font-weight: 600; }
-  #gcCross .gc-grupo .gc-cuenta { font-weight: 400; opacity: 0.6; font-size: 0.82rem; }
-  #gcCross .gc-tema { margin-bottom: 0.85rem; }
-  #gcCross .gc-cab { display: flex; justify-content: space-between; align-items: baseline; font-size: 0.83rem; margin-bottom: 3px; gap: 0.5rem; }
-  #gcCross .gc-nombre { font-weight: 500; }
-  #gcCross .gc-lectura { opacity: 0.6; font-size: 0.75rem; white-space: nowrap; }
-  #gcCross .gc-fila { display: grid; grid-template-columns: 34px 1fr 34px; align-items: center; gap: 6px; margin-bottom: 2px; }
-  #gcCross .gc-etq { font-size: 0.7rem; opacity: 0.55; text-align: right; }
-  #gcCross .gc-barra { height: 8px; border-radius: 4px; background: rgba(128,128,128,0.16); overflow: hidden; }
-  #gcCross .gc-relleno { height: 100%; border-radius: 4px; transition: width 0.4s ease; }
-  #gcCross .gc-x { background: #1d9bf0; }
-  #gcCross .gc-bs { background: #f59e0b; }
-  #gcCross .gc-estado { opacity: 0.6; font-size: 0.85rem; }
-  #gcCross .gc-pie { opacity: 0.5; font-size: 0.72rem; margin-top: 1.5rem; line-height: 1.5; }
-</style>
-
-<section id="gcCross">
-  <p class="gc-estado">Cargando comparativa X vs Bluesky…</p>
-</section>
-
-<script>
-  (async function () {
-    const cont = document.getElementById('gcCross');
-    try {
-      const res = await fetch('comparativa.json?_=' + Date.now(), { cache: 'no-store' });
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      const d = await res.json();
-      const temas = d.temas || [];
-      const porId = {};
-      temas.forEach(function (t) { porId[t.id] = t; });
-
-      function esc(s) {
-        return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
-          return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
-        });
-      }
-
-      function bloqueTema(t) {
-        let lectura = 'en ambas';
-        if (t.brecha > 20) lectura = 'solo en X';
-        else if (t.brecha < -20) lectura = 'solo en Bluesky';
-        const br = t.brecha >= 0 ? '+' + t.brecha : String(t.brecha);
-        return '' +
-          '<div class="gc-tema">' +
-            '<div class="gc-cab">' +
-              '<span class="gc-nombre">' + esc(t.icono) + ' ' + esc(t.nombre) + '</span>' +
-              '<span class="gc-lectura">' + lectura + ' (' + br + ')</span>' +
-            '</div>' +
-            '<div class="gc-fila">' +
-              '<span class="gc-etq">X</span>' +
-              '<div class="gc-barra"><div class="gc-relleno gc-x" style="width:' + t.x_rel + '%"></div></div>' +
-              '<span class="gc-etq">' + t.x_rel + '</span>' +
-            '</div>' +
-            '<div class="gc-fila">' +
-              '<span class="gc-etq">BS</span>' +
-              '<div class="gc-barra"><div class="gc-relleno gc-bs" style="width:' + t.bs_rel + '%"></div></div>' +
-              '<span class="gc-etq">' + t.bs_rel + '</span>' +
-            '</div>' +
-          '</div>';
-      }
-
-      function grupo(titulo, ids, nota) {
-        if (!ids || !ids.length) return '';
-        return '<div class="gc-grupo">' + titulo +
-          ' <span class="gc-cuenta">' + ids.length + ' tema' + (ids.length > 1 ? 's' : '') +
-          (nota ? ' · ' + nota : '') + '</span></div>' +
-          ids.map(function (id) { return porId[id] ? bloqueTema(porId[id]) : ''; }).join('');
-      }
-
-      const soloX = (d.solo_x || []).slice().sort(function (a, b) { return porId[b].brecha - porId[a].brecha; });
-      const soloBs = (d.solo_bluesky || []).slice().sort(function (a, b) { return porId[a].brecha - porId[b].brecha; });
-
-      let html = '' +
-        '<h2>⚖️ X vs Bluesky</h2>' +
-        '<p class="gc-sub">El mismo tema medido en dos plataformas. ' +
-        'Las barras son <strong>posición relativa dentro de cada plataforma</strong> (0-100), ' +
-        'no volúmenes: X y Bluesky son poblaciones distintas y sus totales no se pueden comparar ni sumar.</p>' +
-        '<div class="gc-leyenda">' +
-          '<span><i class="gc-punto gc-x"></i> X</span>' +
-          '<span><i class="gc-punto gc-bs"></i> Bluesky</span>' +
-        '</div>';
-
-      if (!temas.length) {
-        html += '<p class="gc-estado">Aún no hay datos de Bluesky publicados.</p>';
-      } else {
-        html += grupo('🔵 Solo se dispara en X', soloX, 'lo que amplifica X');
-        html += grupo('🟠 Solo se dispara en Bluesky', soloBs, 'lo que amplifica Bluesky');
-        html += grupo('🤝 Presente en ambas', (d.alineados || []).slice(), 'tema transversal');
-        html += '<p class="gc-pie">Fuente: <code>comparativa.json</code>. Bluesky vía API pública (app.bsky.feed.searchPosts, sin clave). ' +
-                'Última actualización: ' + esc((d.meta || {}).generated_at || 'n/d') + '. ' +
-                'Una brecha grande significa que el tema vive en una plataforma y no en la otra, no que sea más importante.</p>';
-      }
-      cont.innerHTML = html;
-    } catch (e) {
-      cont.innerHTML = '<h2>⚖️ X vs Bluesky</h2><p class="gc-estado">No se pudo cargar comparativa.json (' +
-        esc(e.message) + ')</p>';
-    }
-  })();
 </script>
 
 </body>
