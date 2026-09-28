@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-28T19:27:21+02:00",
+    "generated_at": "2026-09-28T19:29:23+02:00",
     "fuente_x": "2026-09-28T08:25:00+02:00",
     "aviso": "X y Bluesky son poblaciones distintas: los volumenes NO son comparables. Se comparan posiciones relativas normalizadas 0-100 dentro de cada plataforma.",
     "temas_comparados": 12
@@ -115,12 +115,12 @@
       "x_intensidad": 82.0,
       "x_momentum": 80.0,
       "bs_posts": 99,
-      "bs_engagement": 365,
-      "bs_engagement_medio": 3.7,
+      "bs_engagement": 358,
+      "bs_engagement_medio": 3.6,
       "bs_consulta": "woke",
       "x_rel": 60.6,
-      "bs_rel": 5.6,
-      "brecha": 55.0
+      "bs_rel": 5.4,
+      "brecha": 55.2
     },
     {
       "id": "memoria",
@@ -143,12 +143,12 @@
       "x_intensidad": 84.0,
       "x_momentum": 74.0,
       "bs_posts": 87,
-      "bs_engagement": 371,
+      "bs_engagement": 374,
       "bs_engagement_medio": 4.3,
       "bs_consulta": "facha",
       "x_rel": 66.7,
-      "bs_rel": 5.9,
-      "brecha": 60.8
+      "bs_rel": 6.0,
+      "brecha": 60.7
     },
     {
       "id": "independentismo",
@@ -157,7 +157,7 @@
       "x_intensidad": 84.0,
       "x_momentum": 72.0,
       "bs_posts": 99,
-      "bs_engagement": 314,
+      "bs_engagement": 315,
       "bs_engagement_medio": 3.2,
       "bs_consulta": "independentismo",
       "x_rel": 66.7,

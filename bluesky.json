@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-28T19:27:21+02:00",
+    "generated_at": "2026-09-28T19:29:23+02:00",
     "fuente": "Bluesky (app.bsky.feed.searchPosts, API publica)",
     "nota": "Volumenes NO comparables con X: son plataformas distintas. Se comparan ordenes relativos del mismo tema, no totales.",
     "temas_ok": 12,
@@ -44,12 +44,12 @@
     },
     {
       "id": "facha",
-      "engagement": 371,
+      "engagement": 374,
       "posts": 87
     },
     {
       "id": "woke",
-      "engagement": 365,
+      "engagement": 358,
       "posts": 99
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "id": "independentismo",
-      "engagement": 314,
+      "engagement": 315,
       "posts": 99
     },
     {
@@ -121,9 +121,9 @@
       "consulta": "independentismo",
       "posts": 99,
       "likes": 205,
-      "reposts": 66,
+      "reposts": 67,
       "respuestas": 43,
-      "engagement": 314,
+      "engagement": 315,
       "engagement_medio": 3.2,
       "top": {
         "texto": "Las desclasificaciones a la carta del Gobierno: Ceuta y el 23-F sí, pero no el espionaje al independentismo.  www.eldiario.es/catalunya/de...",
@@ -168,14 +168,14 @@
     "woke": {
       "consulta": "woke",
       "posts": 99,
-      "likes": 291,
-      "reposts": 33,
-      "respuestas": 41,
-      "engagement": 365,
-      "engagement_medio": 3.7,
+      "likes": 288,
+      "reposts": 27,
+      "respuestas": 43,
+      "engagement": 358,
+      "engagement_medio": 3.6,
       "top": {
         "texto": "*just woke up voice* the travellers tales mascot can kinda get it",
-        "likes": 134,
+        "likes": 136,
         "reposts": 23,
         "autor": "wolfgirl9million.bsky.social",
         "fecha": "2026-09-28T16:54:35.457Z"
@@ -248,15 +248,15 @@
     "facha": {
       "consulta": "facha",
       "posts": 87,
-      "likes": 262,
-      "reposts": 69,
+      "likes": 264,
+      "reposts": 70,
       "respuestas": 40,
-      "engagement": 371,
+      "engagement": 374,
       "engagement_medio": 4.3,
       "top": {
         "texto": "Recordatorio periódico de que muchas de las cuentas que suelen subir contenido de ese tipo en plan “observa la belleza de la arquitectura antigua” son caballos de Troya para meterte el fascismo en tu TL. Se empieza por a",
-        "likes": 51,
-        "reposts": 30,
+        "likes": 53,
+        "reposts": 31,
         "autor": "hachefilardi.bsky.social",
         "fecha": "2026-09-28T16:18:05.278Z"
       }
