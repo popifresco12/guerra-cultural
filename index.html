@@ -259,21 +259,15 @@
 <script>
   (async function () {
     const c = document.getElementById("gcOkup");
+    if (!c) return;
     try {
-      const par = await Promise.all([
-        fetch("comparativa.json?_=" + Date.now(), { cache: "no-store" }),
-        fetch("bluesky.json?_=" + Date.now(), { cache: "no-store" }).catch(function () { return null; })
-      ]);
-      const rc = par[0], rbs = par[1];
-      if (!rc.ok) throw new Error("HTTP " + rc.status);
-      const d = await rc.json();
-      const temas = (d.temas || []).filter(function (x) { return x.id === "okupacion"; });
-      if (!temas.length) { c.innerHTML = ""; return; }
-      const t = temas[0];
-      let eng = null;
-      if (rbs && rbs.ok) {
-        try { const j = await rbs.json(); if (j.temas && j.temas.okupacion) { eng = Number(j.temas.okupacion.engagement).toLocaleString("es-ES"); } } catch (e) {}
-      }
+      const r = await fetch("comparativa.json", { cache: "no-store" });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      const d = await r.json();
+      const f = (d.temas || []).filter(function (x) { return x.id === "okupacion"; });
+      if (!f.length) { c.innerHTML = ""; return; }
+      const t = f[0];
+      const eng = (t.bs_engagement != null) ? Number(t.bs_engagement).toLocaleString("es-ES") : null;
       c.innerHTML = '<div class="ok">🦋 <b>Bluesky lo ve al revés:</b> la okupación es allí <b>el tema nº1 con muchísima diferencia</b>' +
         (eng ? " (" + eng + " de engagement)" : "") +
         ', mientras en X se queda en la mitad de la tabla (' + t.x_rel + "/100 frente a " + t.bs_rel + "/100 en Bluesky). ' +
