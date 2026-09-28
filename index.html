@@ -247,6 +247,45 @@
   <a href="comparativa.html">⚖️ Comparativa X vs Bluesky</a>
 </nav>
 
+<!-- Cruce con Bluesky: el unico tema donde Bluesky va muy por encima de X -->
+<style>
+  #gcOkup { max-width:1200px; margin:1rem auto 0; padding:0 1rem; }
+  #gcOkup .ok { border:1px solid rgba(245,158,11,0.38); background:rgba(245,158,11,0.07);
+               border-radius:12px; padding:0.85rem 1.05rem; font-size:0.86rem; line-height:1.55; }
+  #gcOkup b { color:#f59e0b; }
+  #gcOkup a { color:#f59e0b; }
+</style>
+<section id="gcOkup"><div class="ok">Cargando el cruce con Bluesky…</div></section>
+<script>
+  (async function () {
+    const c = document.getElementById("gcOkup");
+    try {
+      const par = await Promise.all([
+        fetch("comparativa.json?_=" + Date.now(), { cache: "no-store" }),
+        fetch("bluesky.json?_=" + Date.now(), { cache: "no-store" }).catch(function () { return null; })
+      ]);
+      const rc = par[0], rbs = par[1];
+      if (!rc.ok) throw new Error("HTTP " + rc.status);
+      const d = await rc.json();
+      const temas = (d.temas || []).filter(function (x) { return x.id === "okupacion"; });
+      if (!temas.length) { c.innerHTML = ""; return; }
+      const t = temas[0];
+      let eng = null;
+      if (rbs && rbs.ok) {
+        try { const j = await rbs.json(); if (j.temas && j.temas.okupacion) { eng = Number(j.temas.okupacion.engagement).toLocaleString("es-ES"); } } catch (e) {}
+      }
+      c.innerHTML = '<div class="ok">🦋 <b>Bluesky lo ve al revés:</b> la okupación es allí <b>el tema nº1 con muchísima diferencia</b>' +
+        (eng ? " (" + eng + " de engagement)" : "") +
+        ', mientras en X se queda en la mitad de la tabla (' + t.x_rel + "/100 frente a " + t.bs_rel + "/100 en Bluesky). ' +
+        'Es el único tema donde la conversación vive al otro lado. ' +
+        '<a href="comparativa.html">Ver la comparativa completa →</a></div>';
+    } catch (e) {
+      c.innerHTML = "";
+    }
+  })();
+</script>
+
+
 
 <div id="metaBanner" style="display:none;max-width:1400px;margin:0 auto 1rem;background:rgba(255,149,0,0.12);border:1px solid #ff9500;border-radius:8px;padding:0.6rem 1rem;font-size:0.8rem;color:#ff9500"></div>
 <div class="header">
