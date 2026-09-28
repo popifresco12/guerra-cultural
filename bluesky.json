@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "generated_at": "2026-09-28T19:27:21+02:00",
+    "fuente": "Bluesky (app.bsky.feed.searchPosts, API publica)",
+    "nota": "Volumenes NO comparables con X: son plataformas distintas. Se comparan ordenes relativos del mismo tema, no totales.",
+    "temas_ok": 12,
+    "temas_error": []
+  },
+  "ranking": [
+    {
+      "id": "okupacion",
+      "engagement": 3106,
+      "posts": 100
+    },
+    {
+      "id": "espana-vaciada",
+      "engagement": 928,
+      "posts": 100
+    },
+    {
+      "id": "ley-trans",
+      "engagement": 908,
+      "posts": 100
+    },
+    {
+      "id": "sanchismo",
+      "engagement": 857,
+      "posts": 99
+    },
+    {
+      "id": "cultura-cancelacion",
+      "engagement": 646,
+      "posts": 100
+    },
+    {
+      "id": "memoria",
+      "engagement": 617,
+      "posts": 100
+    },
+    {
+      "id": "feminismo",
+      "engagement": 547,
+      "posts": 98
+    },
+    {
+      "id": "facha",
+      "engagement": 371,
+      "posts": 87
+    },
+    {
+      "id": "woke",
+      "engagement": 365,
+      "posts": 99
+    },
+    {
+      "id": "inmigracion",
+      "engagement": 338,
+      "posts": 99
+    },
+    {
+      "id": "independentismo",
+      "engagement": 314,
+      "posts": 99
+    },
+    {
+      "id": "lenguaje-inclusivo",
+      "engagement": 201,
+      "posts": 94
+    }
+  ],
+  "temas": {
+    "sanchismo": {
+      "consulta": "sanchismo",
+      "posts": 99,
+      "likes": 629,
+      "reposts": 165,
+      "respuestas": 63,
+      "engagement": 857,
+      "engagement_medio": 8.7,
+      "top": {
+        "texto": "Ninguno olimos los tremendos frutos del 15M, de la abdicación del rey al Procés, pasando por la total transformación de la izquierda poscomunista, o el Sanchismo doblegando al PSOE, como para que ahora juguéis a adivinar",
+        "likes": 456,
+        "reposts": 122,
+        "autor": "pvallin.bsky.social",
+        "fecha": "2026-09-28T11:04:04.761Z"
+      }
+    },
+    "inmigracion": {
+      "consulta": "inmigración España",
+      "posts": 99,
+      "likes": 212,
+      "reposts": 92,
+      "respuestas": 34,
+      "engagement": 338,
+      "engagement_medio": 3.4,
+      "top": {
+        "texto": "Está claro... #stopice #stoptrump #racismo #xenofobia #ultraderechas #pp #vox #inmigracion #ddhh #derechoshumanos #figaredo #migracion #españa #mundo",
+        "likes": 82,
+        "reposts": 34,
+        "autor": "demetrioymedio.bsky.social",
+        "fecha": "2026-09-27T17:25:52.569Z"
+      }
+    },
+    "okupacion": {
+      "consulta": "okupación",
+      "posts": 100,
+      "likes": 2091,
+      "reposts": 900,
+      "respuestas": 115,
+      "engagement": 3106,
+      "engagement_medio": 31.1,
+      "top": {
+        "texto": "A ver HIJO DE LA GRAN PUTA, si te vas de vacaciones y a la vuelta alguien ha entrado en tu vivienda, no es Okupación, es allanamiento de morada, es un delito y se soluciona al momento. Abogado el que tengo aquí colgado.",
+        "likes": 764,
+        "reposts": 234,
+        "autor": "bulldog75.bsky.social",
+        "fecha": "2026-09-24T11:34:24.663Z"
+      }
+    },
+    "independentismo": {
+      "consulta": "independentismo",
+      "posts": 99,
+      "likes": 205,
+      "reposts": 66,
+      "respuestas": 43,
+      "engagement": 314,
+      "engagement_medio": 3.2,
+      "top": {
+        "texto": "Las desclasificaciones a la carta del Gobierno: Ceuta y el 23-F sí, pero no el espionaje al independentismo.  www.eldiario.es/catalunya/de...",
+        "likes": 40,
+        "reposts": 21,
+        "autor": "eldiario.es",
+        "fecha": "2026-09-13T20:23:17.959Z"
+      }
+    },
+    "memoria": {
+      "consulta": "memoria histórica",
+      "posts": 100,
+      "likes": 440,
+      "reposts": 129,
+      "respuestas": 48,
+      "engagement": 617,
+      "engagement_medio": 6.2,
+      "top": {
+        "texto": "El PP obtuvo una mayoría absoluta histórica de 186 escaños después del 15 M. Por refrescar la memoria. El PP de Mariano Rajoy. El PP de los recortes brutales... y ahora además está  VOX.",
+        "likes": 83,
+        "reposts": 33,
+        "autor": "nosoyrubia.eurosky.social",
+        "fecha": "2026-09-26T19:59:27.163Z"
+      }
+    },
+    "feminismo": {
+      "consulta": "feminismo radical",
+      "posts": 98,
+      "likes": 421,
+      "reposts": 60,
+      "respuestas": 66,
+      "engagement": 547,
+      "engagement_medio": 5.6,
+      "top": {
+        "texto": "Isto vai para aqui um “feminismo radical” que não se aguenta",
+        "likes": 46,
+        "reposts": 12,
+        "autor": "volksvargas.pt",
+        "fecha": "2026-08-18T10:10:15.965Z"
+      }
+    },
+    "woke": {
+      "consulta": "woke",
+      "posts": 99,
+      "likes": 291,
+      "reposts": 33,
+      "respuestas": 41,
+      "engagement": 365,
+      "engagement_medio": 3.7,
+      "top": {
+        "texto": "*just woke up voice* the travellers tales mascot can kinda get it",
+        "likes": 134,
+        "reposts": 23,
+        "autor": "wolfgirl9million.bsky.social",
+        "fecha": "2026-09-28T16:54:35.457Z"
+      }
+    },
+    "cultura-cancelacion": {
+      "consulta": "cultura de la cancelación",
+      "posts": 100,
+      "likes": 458,
+      "reposts": 141,
+      "respuestas": 47,
+      "engagement": 646,
+      "engagement_medio": 6.5,
+      "top": {
+        "texto": "OPINIÓN| “Pink no está siendo criticada por ser judía, sino por amplificar una publicación dirigida contra un artista que acababa de defender públicamente a Palestina”, por Pablo Crespo    diario.publico.es/u7q…  ",
+        "likes": 172,
+        "reposts": 68,
+        "autor": "publico.es",
+        "fecha": "2026-09-20T18:31:31.167Z"
+      }
+    },
+    "ley-trans": {
+      "consulta": "ley trans",
+      "posts": 100,
+      "likes": 612,
+      "reposts": 201,
+      "respuestas": 95,
+      "engagement": 908,
+      "engagement_medio": 9.1,
+      "top": {
+        "texto": "Dos capturas que se entienden muy bien juntas.  Recordad, niñes: la persona que diga que la Jotaká no es tránsfoba, lo dice porque esa persona también es tránsfoba.",
+        "likes": 179,
+        "reposts": 98,
+        "autor": "ovimaster.eurosky.social",
+        "fecha": "2026-09-09T12:14:33.462Z"
+      }
+    },
+    "lenguaje-inclusivo": {
+      "consulta": "lenguaje inclusivo",
+      "posts": 94,
+      "likes": 142,
+      "reposts": 26,
+      "respuestas": 33,
+      "engagement": 201,
+      "engagement_medio": 2.1,
+      "top": {
+        "texto": "¿Qué pasa cuando aplicas la perspectiva de género SOLO a la realidad de las mujeres y consideras que el objetivo es que haya tantas mujeres como hombres haciendo lo que sea?  Pues que acabas destinando dinero público a q",
+        "likes": 8,
+        "reposts": 6,
+        "autor": "miguel-lazaro.es",
+        "fecha": "2026-09-01T10:42:56.499Z"
+      }
+    },
+    "espana-vaciada": {
+      "consulta": "España vaciada",
+      "posts": 100,
+      "likes": 557,
+      "reposts": 331,
+      "respuestas": 40,
+      "engagement": 928,
+      "engagement_medio": 9.3,
+      "top": {
+        "texto": "Hoy os presentamos 10 pueblos que no llegan a  los 10 habitantes. Todos ellos conservan un impresionante patrimonio que se remonta a la Edad Media. La que llaman \"España Vaciada\" rebosa de arte. ⬇️⬇️⬇️ arteviajero.com/to",
+        "likes": 96,
+        "reposts": 19,
+        "autor": "arteviajero.com",
+        "fecha": "2026-09-16T10:59:35.157Z"
+      }
+    },
+    "facha": {
+      "consulta": "facha",
+      "posts": 87,
+      "likes": 262,
+      "reposts": 69,
+      "respuestas": 40,
+      "engagement": 371,
+      "engagement_medio": 4.3,
+      "top": {
+        "texto": "Recordatorio periódico de que muchas de las cuentas que suelen subir contenido de ese tipo en plan “observa la belleza de la arquitectura antigua” son caballos de Troya para meterte el fascismo en tu TL. Se empieza por a",
+        "likes": 51,
+        "reposts": 30,
+        "autor": "hachefilardi.bsky.social",
+        "fecha": "2026-09-28T16:18:05.278Z"
+      }
+    }
+  }
+}
