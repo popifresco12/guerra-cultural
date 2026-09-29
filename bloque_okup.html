@@ -1,0 +1,47 @@
+<!-- Cruce con Bluesky: el unico tema donde Bluesky va muy por encima de X -->
+<style>
+  #gcOkup { max-width:1200px; margin:1rem auto 0; padding:0 1rem; }
+  #gcOkup .ok { border:1px solid rgba(245,158,11,0.38); background:rgba(245,158,11,0.07);
+               border-radius:12px; padding:0.85rem 1.05rem; font-size:0.86rem; line-height:1.55; }
+  #gcOkup b { color:#f59e0b; }
+  #gcOkup a { color:#f59e0b; }
+  @media (max-width: 700px) { #gcOkup { padding: 0 0.7rem; } }
+</style>
+<section id="gcOkup"><div class="ok">Cargando el cruce con Bluesky…</div></section>
+<script>
+  (async function () {
+    var caja = document.getElementById("gcOkup");
+    if (!caja) { return; }
+    try {
+      var resp = await fetch("comparativa.json", { cache: "no-store" });
+      if (!resp.ok) { throw new Error("HTTP " + resp.status); }
+      var datos = await resp.json();
+      var lista = (datos.temas || []).filter(function (x) { return x.id === "okupacion"; });
+      if (lista.length === 0) { caja.innerHTML = ""; return; }
+      var t = lista[0];
+      var eng = "";
+      if (t.bs_engagement !== null && t.bs_engagement !== undefined) {
+        eng = " (" + Number(t.bs_engagement).toLocaleString("es-ES") + " de engagement)";
+      }
+      var cuerpo = " la okupación es allí el tema nº1 con muchísima diferencia" + eng +
+        ", mientras en X se queda en la mitad de la tabla (" + t.x_rel + " de 100 frente a " +
+        t.bs_rel + " de 100 en Bluesky). Es el único tema donde la conversación vive al otro lado. ";
+
+      var interno = document.createElement("div");
+      interno.className = "ok";
+      var negrita = document.createElement("b");
+      negrita.textContent = "Bluesky lo ve al revés:";
+      interno.appendChild(document.createTextNode("\uD83E\uDD8B "));
+      interno.appendChild(negrita);
+      interno.appendChild(document.createTextNode(cuerpo));
+      var enlace = document.createElement("a");
+      enlace.href = "comparativa.html";
+      enlace.textContent = "Ver la comparativa completa \u2192";
+      interno.appendChild(enlace);
+      caja.innerHTML = "";
+      caja.appendChild(interno);
+    } catch (e) {
+      caja.innerHTML = "";
+    }
+  })();
+</script>
