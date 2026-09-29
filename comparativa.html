@@ -37,6 +37,19 @@
   .gc-estado { opacity:0.6; font-size:0.85rem; }
   .gc-pie { opacity:0.5; font-size:0.72rem; margin-top:1.5rem; line-height:1.5; }
   footer { margin-top:3rem; opacity:0.45; font-size:0.75rem; }
+<style>
+  .gc-nav { max-width:1200px; margin:1.25rem auto 0; padding:0 1rem; display:flex; gap:0.6rem; flex-wrap:wrap; }
+  .gc-nav a { text-decoration:none; color:inherit; border:1px solid rgba(128,128,128,0.35);
+              padding:0.4rem 0.85rem; border-radius:999px; font-size:0.82rem; }
+  .gc-nav a:hover { border-color:rgba(128,128,128,0.75); }
+  .gc-nav a.aqui { background:rgba(29,155,240,0.16); border-color:#1d9bf0; }
+  @media (max-width: 700px) {
+    body { padding: 0 0.7rem; }
+    .gc-card, .gc-tema, .gc-top { min-width: 0; }
+    .gc-top p, .gc-autor-ej { overflow-wrap: anywhere; }
+  }
+  html, body { max-width: 100%; overflow-x: hidden; }
+</style>
 </style>
 </head>
 <body>
