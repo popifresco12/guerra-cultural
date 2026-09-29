@@ -4,150 +4,330 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dashboard Bluesky — Termómetro de la Guerra Cultural</title>
-<meta name="description" content="Los mismos temas del termómetro cultural, medidos en Bluesky. Datos reales de la API pública.">
 <style>
-  :root { color-scheme: dark; }
-  body { margin:0; padding:2rem 1rem 4rem; background:#0e0e14; color:#e8e8f0;
-         font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.5; }
-  .wrap { max-width:940px; margin:0 auto; }
-  nav { display:flex; gap:0.6rem; flex-wrap:wrap; margin-bottom:2rem; }
-  nav a { text-decoration:none; color:#e8e8f0; border:1px solid rgba(255,255,255,0.18);
-          padding:0.4rem 0.8rem; border-radius:999px; font-size:0.82rem; }
-  nav a:hover { border-color:rgba(255,255,255,0.45); }
-  nav a.aqui { background:rgba(245,158,11,0.18); border-color:#f59e0b; }
-  h1 { font-size:1.6rem; margin:0 0 0.3rem; }
-  .lead { opacity:0.72; font-size:0.9rem; margin-bottom:0.4rem; }
-  .aviso { opacity:0.6; font-size:0.78rem; margin-bottom:2rem; padding-left:0.7rem; border-left:2px solid #f59e0b; }
-  h2 { font-size:1.15rem; margin:2.2rem 0 0.8rem; }
-  .kpis { display:flex; gap:0.7rem; flex-wrap:wrap; margin-bottom:0.5rem; }
-  .kpi { background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); border-radius:10px;
-         padding:0.6rem 0.9rem; min-width:120px; }
-  .kpi .n { font-size:1.25rem; font-weight:600; }
-  .kpi .e { font-size:0.72rem; opacity:0.6; }
-  .fila { display:grid; grid-template-columns:1fr; gap:1px; margin-bottom:0.75rem; }
-  .cab { display:flex; justify-content:space-between; align-items:baseline; gap:0.6rem; font-size:0.86rem; margin-bottom:4px; }
-  .nombre { font-weight:500; }
-  .cifras { opacity:0.65; font-size:0.76rem; white-space:nowrap; }
-  .barra { height:9px; border-radius:5px; background:rgba(128,128,128,0.16); overflow:hidden; }
-  .relleno { height:100%; border-radius:5px; background:linear-gradient(90deg,#f59e0b,#fb923c); transition:width 0.4s ease; }
-  .tarjeta { background:rgba(255,255,255,0.045); border:1px solid rgba(255,255,255,0.09); border-radius:12px;
-             padding:1rem 1.1rem; margin-bottom:0.9rem; }
-  .tarjeta h3 { margin:0 0 0.35rem; font-size:0.98rem; }
-  .mini { font-size:0.74rem; opacity:0.6; margin-bottom:0.6rem; }
-  .post { font-size:0.86rem; padding-left:0.7rem; border-left:2px solid rgba(245,158,11,0.55); margin-bottom:0.55rem; }
-  .post .quien { display:block; font-size:0.73rem; opacity:0.6; margin-top:0.3rem; }
-  a.autor { color:#f59e0b; text-decoration:none; }
-  a.autor:hover { text-decoration:underline; }
-  .estado { opacity:0.6; font-size:0.85rem; }
-  footer { margin-top:3rem; opacity:0.45; font-size:0.75rem; line-height:1.6; }
+  :root {
+    --bg: #0f0f13;
+    --card: #1a1a24;
+    --border: #2a2a3a;
+    --text: #e0e0e0;
+    --muted: #8888a0;
+    --accent-red: #ff4560;
+    --accent-blue: #4590ff;
+    --accent-green: #45d480;
+    --accent-orange: #ff9500;
+    --accent-purple: #a855f7;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, sans-serif;
+    padding: 2rem;
+    overflow-x: hidden;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #ff4560, #ff9500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+  }
+  .header .subtitle {
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .header .date {
+    color: var(--accent-green);
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(360px, 100%), 1fr));
+    gap: 1rem;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+    transition: border-color 0.2s;
+  }
+  .card:hover { border-color: #444; }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+  }
+  .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .card-tag {
+    font-size: 0.65rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .tag-hot { background: rgba(255,69,96,0.2); color: #ff4560; }
+  .tag-moderate { background: rgba(255,149,0,0.2); color: #ff9500; }
+  .tag-cooling { background: rgba(69,212,128,0.2); color: #45d480; }
+  .tag-stable { background: rgba(168,133,247,0.2); color: #a855f7; }
+  .card-body { font-size: 0.82rem; line-height: 1.6; color: var(--muted); }
+  .card-body strong { color: var(--text); }
+  .card-body .quote {
+    border-left: 2px solid var(--border);
+    padding-left: 0.75rem;
+    margin: 0.5rem 0;
+    font-style: italic;
+    color: var(--muted);
+    font-size: 0.78rem;
+  }
+  .momentum {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.78rem;
+  }
+  .momentum-label { color: var(--muted); }
+  .momentum-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .bar-track {
+    width: 100px;
+    height: 4px;
+    background: var(--border);
+    border-radius: 2px;
+    position: relative;
+  }
+  .bar-fill {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 0.5s;
+  }
+  .bar-left { background: var(--accent-red); }
+  .bar-right { background: var(--accent-blue); }
+  .momentum-text { font-weight: 600; }
+  .momentum-text.m-right { color: var(--accent-blue); }
+  .momentum-text.m-left { color: var(--accent-red); }
+  .momentum-text.m-center { color: var(--accent-orange); }
+  .stats-row {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.78rem;
+  }
+  .stat-item { color: var(--muted); }
+  .stat-item span { color: var(--text); font-weight: 500; }
+  .chart-section {
+    max-width: 1400px;
+    margin: 2rem auto;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+  }
+  .chart-section h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+  .charts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    height: 300px;
+  }
+  .chart-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .history-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .chart-box {
+    position: relative;
+    height: 300px;
+  }
+  .chart-box canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .trending-section {
+    max-width: 1400px;
+    margin: 2rem auto;
+  }
+  .trending-section h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+  .trending-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 0.75rem;
+  }
+  .trending-item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .trending-item .topic { font-size: 0.85rem; }
+  .trending-item .change { font-size: 0.8rem; font-weight: 600; }
+  .change.up { color: var(--accent-red); }
+  .change.down { color: var(--accent-blue); }
+  .change.stable { color: var(--accent-green); }
+  .footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.75rem;
+  }
+  .footer a { color: var(--accent-blue); text-decoration: none; }
+  @media (max-width: 768px) {
+    body { padding: 1rem; }
+    .grid { grid-template-columns: 1fr; }
+    .charts-grid { grid-template-columns: 1fr; height: auto; }
+    .header h1 { font-size: 1.5rem; }
+    /* Fix desborde horizontal en móvil: apilar a 1 columna */
+    .chart-pair, .history-pair {
+      grid-template-columns: 1fr !important;
+    }
+    .chart-box { height: 280px; }
+    .chart-section div[style*="repeat(auto-fill"] {
+      grid-template-columns: 1fr !important;
+    }
+    .trending-list { grid-template-columns: 1fr; }
+  }
+</style>
+<style>
+  .gc-wrap { max-width: 1200px; margin: 0 auto; padding: 1.5rem 1rem 4rem; }
+  .gc-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: .6rem; margin: 1rem 0 1.5rem; }
+  .gc-kpis > div { border: 1px solid rgba(148,163,184,.28); border-radius: 12px; padding: .7rem .8rem; }
+  .gc-kpis b { display: block; font-size: 1.3rem; }
+  .gc-kpis span { font-size: .74rem; opacity: .75; }
+  .gc-tema { margin-bottom: .75rem; }
+  .gc-fila { display: flex; justify-content: space-between; font-size: .85rem; }
+  .gc-valor { font-variant-numeric: tabular-nums; opacity: .85; }
+  .gc-pista { background: rgba(148,163,184,.18); border-radius: 99px; height: 9px; overflow: hidden; margin: .25rem 0 .15rem; }
+  .gc-relleno { background: #3b82f6; height: 100%; border-radius: 99px; }
+  .gc-naranja, .gc-relleno.gc-naranja { background: #f59e0b; }
+  .gc-sub { font-size: .72rem; opacity: .6; }
+  .gc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 1rem; }
+  .gc-card { border: 1px solid rgba(148,163,184,.28); border-radius: 14px; padding: 1rem; }
+  .gc-card h4 { margin: 0 0 .5rem; font-size: 1rem; }
+  .gc-card h5 { margin: 1rem 0 .5rem; font-size: .8rem; opacity: .8; text-transform: uppercase; letter-spacing: .04em; }
+  .gc-card .gc-kpis { display: flex; flex-wrap: wrap; gap: .5rem .9rem; margin: 0 0 .5rem; font-size: .76rem; }
+  .gc-card .gc-kpis b { display: inline; font-size: .95rem; }
+  .gc-card .gc-kpis > span { border: 0; padding: 0; }
+  .gc-consulta { font-size: .72rem; opacity: .6; margin: .2rem 0 .6rem; }
+  .gc-top { border-left: 3px solid #3b82f6; padding: .5rem .7rem; background: rgba(59,130,246,.07); border-radius: 0 10px 10px 0; margin-bottom: .5rem; }
+  .gc-top-cab { display: flex; justify-content: space-between; font-size: .74rem; gap: .6rem; }
+  .gc-top p { margin: .35rem 0 0; font-size: .82rem; line-height: 1.5; }
+  .gc-autor { margin-bottom: .55rem; }
+  .gc-autor-cab { display: flex; justify-content: space-between; font-size: .78rem; gap: .5rem; }
+  .gc-autor-eng { opacity: .7; font-size: .72rem; }
+  .gc-autor-ej { font-size: .74rem; opacity: .65; margin-top: .2rem; font-style: italic; }
+  .gc-cuentas { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .7rem; }
+  .gc-cuenta { border: 1px solid rgba(148,163,184,.25); border-radius: 12px; padding: .7rem .8rem; }
+  .gc-cuenta-cab { display: flex; justify-content: space-between; font-size: .82rem; gap: .5rem; }
+  .gc-cuenta-nombre { font-size: .76rem; opacity: .75; }
+  .gc-cuenta-meta { font-size: .72rem; opacity: .6; }
+  .gc-cuenta-temas { font-size: .72rem; opacity: .7; margin-top: .25rem; color: #f59e0b; }
+  .gc-aviso { font-size: .8rem; opacity: .75; border: 1px dashed rgba(148,163,184,.4); border-radius: 12px; padding: .7rem .9rem; }
+  h3.gc-h { margin: 2rem 0 .8rem; }
+  @media (max-width: 640px) {
+    .gc-grid { grid-template-columns: 1fr; }
+    .gc-tema .gc-nombre { font-size: .82rem; }
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <nav>
-    <a href="index.html">📊 Dashboard X</a>
-    <a class="aqui" href="bluesky.html">🦋 Dashboard Bluesky</a>
-    <a href="comparativa.html">⚖️ Comparativa</a>
-  </nav>
+<nav class="gc-nav">
+  <a class="aqui" href="index.html">📊 Dashboard X</a>
+  <a href="bluesky.html">🦋 Dashboard Bluesky</a>
+  <a href="comparativa.html">⚖️ Comparativa X vs Bluesky</a>
+</nav>
+<div class="gc-wrap">
+  <h1 style="margin:.2rem 0 .1rem">🦋 Termómetro de la Guerra Cultural</h1>
+  <p style="opacity:.7;font-size:.9rem;margin:0 0 1rem">Análisis de la conversación en Bluesky · Enfoque: España · Mismos 12 temas que el dashboard de X</p>
+  <p class="gc-aviso" style="margin-bottom:1rem">⚠️ Los volúmenes de Bluesky y de X <b>no se suman</b>: son poblaciones distintas. Lo que se compara son las posiciones relativas de cada tema dentro de cada plataforma.</p>
 
-  <h1>🦋 Bluesky — Termómetro de la Guerra Cultural</h1>
-  <p class="lead">Los mismos 12 temas que medimos en X, medidos aquí en Bluesky con datos reales de su API pública.</p>
-  <p class="aviso">
-    Los volúmenes <strong>no son comparables</strong> con los del dashboard de X: son plataformas y poblaciones distintas.
-    Aquí se mide <em>engagement</em> (me gusta + reposts + respuestas) de los posts más recientes de cada tema,
-    no el total de conversación. Para ver los dos lados juntos, la <a href="comparativa.html" style="color:#f59e0b">comparativa</a>.
-  </p>
+  <div class="gc-kpis">
+    <div><b>11,943</b><span>engagement total</span></div>
+    <div><b>1,175</b><span>posts analizados</span></div>
+    <div><b>8,354</b><span>me gusta</span></div>
+    <div><b>2,799</b><span>reposts</span></div>
+    <div><b>85</b><span>cuentas únicas</span></div>
+    <div><b>12</b><span>temas medidos</span></div>
+  </div>
 
-  <section id="bsDash">
-    <p class="estado">Cargando datos de Bluesky…</p>
-  </section>
+  <h3 class="gc-h">📊 Intensidad del debate por tema</h3>
+  <div style="height:300px"><canvas id="gcChart"></canvas></div>
 
-  <footer>
-    Fuente: <code>bluesky.json</code> · API pública de Bluesky (<code>app.bsky.feed.searchPosts</code>), sin clave ni token.<br>
-    Se actualiza a diario con el cron «Guerra Cultural - capa Bluesky».
-  </footer>
+  <h3 class="gc-h">🔥 Ranking por engagement</h3>
+  <div class="gc-tema"><div class="gc-fila"><span class="gc-nombre">1. 🏠 Okupación</span><span class="gc-valor">3.118</span></div><div class="gc-pista"><div class="gc-relleno" style="width:100.0%"></div></div><div class="gc-sub">99 posts · media 31.5 por post</div></div><div class="gc-tema"><div class="gc-fila"><span class="gc-nombre">2. 🗣️ Facha / Insulto Político</span><span class="gc-valor">2.223</span></div><div class="gc-pista"><div class="gc-relleno" style="width:71.3%"></div></div><div class="gc-sub">86 posts · media 25.8 por post</div></div><div class="gc-tema"><div class="gc-fila"><span class="gc-nombre">3. 👑 Sanchismo</span><span class="gc-valor">1.005</span></div><div class="gc-pista"><div class="gc-relleno" style="width:32.2%"></div></div><div class="gc-sub">100 posts · media 10.1 por post</div></div><div class="gc-tema"><div class="gc-fila"><span class="gc-nombre">4. 🔇 Cultura de la Cancelación</span><span class="gc-valor">966</span></div><div class="gc-pista"><div class="gc-relleno" style="width:31.0%"></div></div><div class="gc-sub">98 posts · media 9.9 por post</div></div><div class="gc-tema"><div class="gc-fila"><span class="gc-nombre">5. ⚡ Feminismo Radical</span><span class="gc-valor">798</span></div><div class="gc-pista"><div class="gc-relleno" style="width:25.6%"></div></div><div class="gc-sub">100 posts · media 8.0 por post</div></div><div class="gc-tema"><div class="gc-fila"><span class="gc-nombre">6. 🌿 Wokismo / Ideología Woke</span><span class="gc-valor">715</span></div><div class="gc-pista"><div class="gc-relleno" style="width:22.9%"></div></div><div class="gc-sub">99 posts · media 7.2 por post</div></div><div class="gc-tema"><div class="gc-fila"><span class="gc-nombre">7. 📜 Memoria Histórica</span><span class="gc-valor">665</span></div><div class="gc-pista"><div class="gc-relleno" style="width:21.3%"></div></div><div class="gc-sub">100 posts · media 6.7 por post</div></div><div class="gc-tema"><div class="gc-fila"><span class="gc-nombre">8. ⚧️ Ley Trans</span><span class="gc-valor">625</span></div><div class="gc-pista"><div class="gc-relleno" style="width:20.0%"></div></div><div class="gc-sub">100 posts · media 6.2 por post</div></div><div class="gc-tema"><div class="gc-fila"><span class="gc-nombre">9. 🏘️ España Vaciada</span><span class="gc-valor">625</span></div><div class="gc-pista"><div class="gc-relleno" style="width:20.0%"></div></div><div class="gc-sub">99 posts · media 6.3 por post</div></div><div class="gc-tema"><div class="gc-fila"><span class="gc-nombre">10. 🗺️ Independentismo / Procés</span><span class="gc-valor">422</span></div><div class="gc-pista"><div class="gc-relleno" style="width:13.5%"></div></div><div class="gc-sub">99 posts · media 4.3 por post</div></div><div class="gc-tema"><div class="gc-fila"><span class="gc-nombre">11. 🚧 Inmigración</span><span class="gc-valor">413</span></div><div class="gc-pista"><div class="gc-relleno" style="width:13.2%"></div></div><div class="gc-sub">100 posts · media 4.1 por post</div></div><div class="gc-tema"><div class="gc-fila"><span class="gc-nombre">12. 📝 Lenguaje Inclusivo</span><span class="gc-valor">368</span></div><div class="gc-pista"><div class="gc-relleno" style="width:11.8%"></div></div><div class="gc-sub">95 posts · media 3.9 por post</div></div>
+
+  <h3 class="gc-h">📈 Evolución</h3>
+  <p class="gc-aviso">La serie temporal empieza hoy: llevamos <b>1</b> día</b> de datos. Cada día a las 08:45 se añade un punto, así que en una semana ya se podrá dibujar la evolución como en el dashboard de X.</p>
+
+  <h3 class="gc-h">📰 Temas, posts más fuertes y quiénes hablan de ellos</h3>
+  <div class="gc-grid"><article class="gc-card"><h4>🏠 Okupación</h4><div class="gc-kpis"><span><b>3.118</b> engagement</span><span><b>99</b> posts</span><span><b>2.095</b> me gusta</span><span><b>901</b> reposts</span></div><p class="gc-consulta">Búsqueda: <code>okupación</code> · media 31.5 por post</p><div class="gc-top"><div class="gc-top-cab"><b>@bulldog75.bsky.social</b><span>764 me gusta · 234 reposts</span></div><p>"A ver HIJO DE LA GRAN PUTA, si te vas de vacaciones y a la vuelta alguien ha entrado en tu vivienda, no es Okupación, es allanamiento de morada, es un delito y se soluciona al momento. Abogado el que tengo aquí colgado."</p></div><h5>Quiénes hablan más de este tema</h5><div class="gc-autor"><div class="gc-autor-cab"><b>@bulldog75.bsky.social</b><span class="gc-autor-eng">1.139 eng · 2 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:100.0%"></div></div><div class="gc-autor-ej">"A ver HIJO DE LA GRAN PUTA, si te vas de vacaciones y a la vuelta alguien ha entrado en tu vivienda, no es Okupación, es allanamiento de morada, es un"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@fonsiloaizap.bsky.social</b><span class="gc-autor-eng">742 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:65.1%"></div></div><div class="gc-autor-ej">"Esto pensaban los vecinos de Barcelona sobre la okupación hace 25 años, hasta que los medios de comunicación fueron financiados por el negocio de las "</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@demetrioymedio.bsky.social</b><span class="gc-autor-eng">345 eng · 2 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:30.3%"></div></div><div class="gc-autor-ej">"#okupa #okupacion #desahucios #desokupa #violencia #iglesia #iglesiacatolica #Vaticano #leonxiv #jesus #cristo #pope #papaLeonxiv #papaLeon #roma #viv"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@eldiario.es</b><span class="gc-autor-eng">216 eng · 2 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:19.0%"></div></div><div class="gc-autor-ej">"&quot;Un desalojo, otra okupación&quot;  Concentración frente al ático del Gobierno de Ayuso tras el desahucio de Maricarmen, de 87 años  www.eldiario.es/madrid"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@guilleneuve.bsky.social</b><span class="gc-autor-eng">117 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:10.3%"></div></div><div class="gc-autor-ej">"Y qué hace la derecha mientras? VOX, callados como p*tas. Pero es que el PP es más torpe aún: Cuca Gamarra, AYER MISMO, se fue a un acto contra la oku"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@ferna1diez.bsky.social</b><span class="gc-autor-eng">98 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:8.6%"></div></div><div class="gc-autor-ej">"Manifestación frente al ático del gobierno de Ayuso: &quot;Un desalojo, otra okupación&quot;  👇🏼"</div></div></article><article class="gc-card"><h4>🗣️ Facha / Insulto Político</h4><div class="gc-kpis"><span><b>2.223</b> engagement</span><span><b>86</b> posts</span><span><b>1.467</b> me gusta</span><span><b>663</b> reposts</span></div><p class="gc-consulta">Búsqueda: <code>facha</code> · media 25.8 por post</p><div class="gc-top"><div class="gc-top-cab"><b>@pvallin.bsky.social</b><span>1.122 me gusta · 576 reposts</span></div><p>"La movilización ha roto la hoja de ruta facha hacia Moncloa, ejecutada por jueces en Madrid y uniformados en Ceuta.  Hay pánico. Gente importante ha obligado a Urbagestión a firmar la rendición (no es ningún acuerdo) par"</p></div><h5>Quiénes hablan más de este tema</h5><div class="gc-autor"><div class="gc-autor-cab"><b>@pvallin.bsky.social</b><span class="gc-autor-eng">1.755 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:100.0%"></div></div><div class="gc-autor-ej">"La movilización ha roto la hoja de ruta facha hacia Moncloa, ejecutada por jueces en Madrid y uniformados en Ceuta.  Hay pánico. Gente importante ha o"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@hachefilardi.bsky.social</b><span class="gc-autor-eng">140 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:8.0%"></div></div><div class="gc-autor-ej">"Recordatorio periódico de que muchas de las cuentas que suelen subir contenido de ese tipo en plan “observa la belleza de la arquitectura antigua” son"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@malaper.bsky.social</b><span class="gc-autor-eng">43 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:2.5%"></div></div><div class="gc-autor-ej">"Lo ultimo que recuerdo es que estábamos discutiendo si la semana laboral debería de ser de 4 jornadas-32 horas y de repente me desperté en una realida"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@javiblan.bsky.social</b><span class="gc-autor-eng">42 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:2.4%"></div></div><div class="gc-autor-ej">"Me cuelo en tu dupla para añadir: la inmensa cantidad de jóvenes que se ve en estas concentraciones y que hacen que ese relato de que “la gente joven "</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@coponnnn.bsky.social</b><span class="gc-autor-eng">38 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:2.2%"></div></div><div class="gc-autor-ej">"Si eres solo medio facha ya te llaman comunista."</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@miguelroman.bsky.social</b><span class="gc-autor-eng">18 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:1.0%"></div></div><div class="gc-autor-ej">"Lucía Etxebarría es una mala persona, pero además de eso es evidente que tiene problemas de salud mental. Que las teles la expongan así para colar un "</div></div></article><article class="gc-card"><h4>👑 Sanchismo</h4><div class="gc-kpis"><span><b>1.005</b> engagement</span><span><b>100</b> posts</span><span><b>734</b> me gusta</span><span><b>202</b> reposts</span></div><p class="gc-consulta">Búsqueda: <code>sanchismo</code> · media 10.1 por post</p><div class="gc-top"><div class="gc-top-cab"><b>@pvallin.bsky.social</b><span>548 me gusta · 156 reposts</span></div><p>"Ninguno olimos los tremendos frutos del 15M, de la abdicación del rey al Procés, pasando por la total transformación de la izquierda poscomunista, o el Sanchismo doblegando al PSOE, como para que ahora juguéis a adivinar"</p></div><h5>Quiénes hablan más de este tema</h5><div class="gc-autor"><div class="gc-autor-cab"><b>@pvallin.bsky.social</b><span class="gc-autor-eng">725 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:100.0%"></div></div><div class="gc-autor-ej">"Ninguno olimos los tremendos frutos del 15M, de la abdicación del rey al Procés, pasando por la total transformación de la izquierda poscomunista, o e"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@anxolopez.bsky.social</b><span class="gc-autor-eng">57 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:7.9%"></div></div><div class="gc-autor-ej">"🇪🇦 Durante la dana: Ataque meteorológico HAARP, chemtrails, Valencia será la tumba del sanchismo, solo el pueblo salva al pueblo. 🇪🇦 Ceuta: Invasión, "</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@fisionboy.bsky.social</b><span class="gc-autor-eng">25 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:3.4%"></div></div><div class="gc-autor-ej">"Yo voy a ir 12 horas a protestar a Sol y 12 horas a decir que eso no sirve para nada y que es una estrategia de la derecha para derribar el sanchismo."</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@jecharte.eurosky.social</b><span class="gc-autor-eng">22 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:3.0%"></div></div><div class="gc-autor-ej">"Porque el discurso del espantajo (nos invaden, el sanchismo, se rompe España) va ganando, bien alimentado por aquellos a quienes interesa y con la col"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@mannasarovar.bsky.social</b><span class="gc-autor-eng">17 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:2.3%"></div></div><div class="gc-autor-ej">"Francia: 4,57% Todo esto &quot;a pesar&quot; de la revalorización de las pensiones , subir el SMI , aumento histórico ayudas a la dependencia , escudos anticris"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@elespanol.com</b><span class="gc-autor-eng">16 eng · 4 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:2.2%"></div></div><div class="gc-autor-ej">"El puerto de Cartagena se convierte en el primero de la UE con el certificado ambiental Green Marine Europe dozz.es/wg6_c2"</div></div></article><article class="gc-card"><h4>🔇 Cultura de la Cancelación</h4><div class="gc-kpis"><span><b>966</b> engagement</span><span><b>98</b> posts</span><span><b>717</b> me gusta</span><span><b>187</b> reposts</span></div><p class="gc-consulta">Búsqueda: <code>cultura de la cancelación</code> · media 9.9 por post</p><div class="gc-top"><div class="gc-top-cab"><b>@publico.es</b><span>172 me gusta · 68 reposts</span></div><p>"OPINIÓN| “Pink no está siendo criticada por ser judía, sino por amplificar una publicación dirigida contra un artista que acababa de defender públicamente a Palestina”, por Pablo Crespo    diario.publico.es/u7q…"</p></div><h5>Quiénes hablan más de este tema</h5><div class="gc-autor"><div class="gc-autor-cab"><b>@publico.es</b><span class="gc-autor-eng">246 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:100.0%"></div></div><div class="gc-autor-ej">"OPINIÓN| “Pink no está siendo criticada por ser judía, sino por amplificar una publicación dirigida contra un artista que acababa de defender públicam"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@chuckiclampy.bsky.social</b><span class="gc-autor-eng">225 eng · 3 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:91.5%"></div></div><div class="gc-autor-ej">"Rubiales fue víctima de la cultura de la cancelación. Está tan cancelado que no para de salir en todos los medios a todas horas, y se me ha aparecido "</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@javierespinosa.bsky.social</b><span class="gc-autor-eng">79 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:32.1%"></div></div><div class="gc-autor-ej">"Sionismo no es judaísmo. Es un ideario muy reciente en la historia de un pueblo milenario. Negar esa historia y pensar que los judíos sólo pueden ser "</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@billpuerta.bsky.social</b><span class="gc-autor-eng">45 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:18.3%"></div></div><div class="gc-autor-ej">"Que se putojodan en VOX, los de la cultura de la cancelación como siempre queriendo cancelar a los demás, con ellos siempre toda acusación es una conf"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@venividicringy.eurosky.social</b><span class="gc-autor-eng">35 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:14.2%"></div></div><div class="gc-autor-ej">"Hace unos años decir estas cosas en público hacía que te tragaras tus propios dientes. Menos cultura de la cancelación y mas cultura de mandar al lobb"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@artinfantes.eurosky.social</b><span class="gc-autor-eng">31 eng · 2 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:12.6%"></div></div><div class="gc-autor-ej">"Vosotros debatiendo si hay q hacer o no cancelación de artistas, productoras y festivales. Os echáis los trastos a la cabeza. Debates interminables pa"</div></div></article><article class="gc-card"><h4>⚡ Feminismo Radical</h4><div class="gc-kpis"><span><b>798</b> engagement</span><span><b>100</b> posts</span><span><b>611</b> me gusta</span><span><b>119</b> reposts</span></div><p class="gc-consulta">Búsqueda: <code>feminismo radical</code> · media 8.0 por post</p><div class="gc-top"><div class="gc-top-cab"><b>@pelaez.bsky.social</b><span>143 me gusta · 30 reposts</span></div><p>"Yo pienso de que &quot;los jóvenes&quot; que se sienten amenazados por el 'feminismo radical&quot; les podrían preguntar al resto de sus compañeros de clase, a los que no les pasa eso, la mayoría, cómo sobreviven al tema. Eso si tienen"</p></div><h5>Quiénes hablan más de este tema</h5><div class="gc-autor"><div class="gc-autor-cab"><b>@pelaez.bsky.social</b><span class="gc-autor-eng">178 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:100.0%"></div></div><div class="gc-autor-ej">"Yo pienso de que &quot;los jóvenes&quot; que se sienten amenazados por el 'feminismo radical&quot; les podrían preguntar al resto de sus compañeros de clase, a los q"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@nosoyrubia.eurosky.social</b><span class="gc-autor-eng">93 eng · 8 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:52.2%"></div></div><div class="gc-autor-ej">"Pero es que al denunciado se le jode la vida con este feminismo radical y las feministas hemos llegado demasiado lejos."</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@andrestrasado.bsky.social</b><span class="gc-autor-eng">73 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:41.0%"></div></div><div class="gc-autor-ej">"No me gusta el feminismo radical que nos quieren imponer que prohibe a las mujeres casarse, tener hijos o cocinar si es lo que quieren, quiero un femi"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@srtagalicia.eurosky.social</b><span class="gc-autor-eng">68 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:38.2%"></div></div><div class="gc-autor-ej">"Ayer me salió un vídeo de un cabronazo maltratador en tiktok que se dedica a acosar mujeres diciendo que los hombres hacen estas cosas porque las muje"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@abeingbehaving.bsky.social</b><span class="gc-autor-eng">42 eng · 2 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:23.6%"></div></div><div class="gc-autor-ej">"Creer que las elecciones individuales son realmente libres, aisladas de determinaciones culturales, históricas, políticas, económicas, etc., es autént"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@lenkadangel.bsky.social</b><span class="gc-autor-eng">38 eng · 2 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:21.3%"></div></div><div class="gc-autor-ej">"A mí me vais a tener que explicar pero ya con un mural luminoso, por qué &quot;ACAB&quot;, &quot;Eat de rich&quot;, &quot;IsraHell&quot; o &quot;yanquis go home&quot; es bien pero &quot;no seáis "</div></div></article><article class="gc-card"><h4>🌿 Wokismo / Ideología Woke</h4><div class="gc-kpis"><span><b>715</b> engagement</span><span><b>99</b> posts</span><span><b>575</b> me gusta</span><span><b>76</b> reposts</span></div><p class="gc-consulta">Búsqueda: <code>woke</code> · media 7.2 por post</p><div class="gc-top"><div class="gc-top-cab"><b>@gatoradeew.bsky.social</b><span>105 me gusta · 21 reposts</span></div><p>"I woke Up 2"</p></div><h5>Quiénes hablan más de este tema</h5><div class="gc-autor"><div class="gc-autor-cab"><b>@gatoradeew.bsky.social</b><span class="gc-autor-eng">127 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:100.0%"></div></div><div class="gc-autor-ej">"I woke Up 2"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@kr3at0r.bsky.social</b><span class="gc-autor-eng">87 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:68.5%"></div></div><div class="gc-autor-ej">"WOKE SCORE xddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@nandomagnoxl.bsky.social</b><span class="gc-autor-eng">58 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:45.7%"></div></div><div class="gc-autor-ej">"Just woke up with a bonner 🥵✊🏼🍆 come play with me 👇🏼 Justfor.fans/nandomagnoxl"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@nosoyrubia.eurosky.social</b><span class="gc-autor-eng">44 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:34.6%"></div></div><div class="gc-autor-ej">"Tampoco me extraña que los fachis la estén llamando woke. Porque deja muy claro cosas que pasaron y por qué pasaron. Y no solo durante la guerra si no"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@tacoderes.bsky.social</b><span class="gc-autor-eng">35 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:27.6%"></div></div><div class="gc-autor-ej">"Woke up so hungry for big men kisses"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@bicicletagris.bsky.social</b><span class="gc-autor-eng">31 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:24.4%"></div></div><div class="gc-autor-ej">"—Y QUE PASAN CALOR, GENERACIÓN DE CRISTAL. —Los niños se pasan parte de abril, mayo, junio y septiembre con un calor que nunca pasaste en un aula. —ME"</div></div></article><article class="gc-card"><h4>📜 Memoria Histórica</h4><div class="gc-kpis"><span><b>665</b> engagement</span><span><b>100</b> posts</span><span><b>477</b> me gusta</span><span><b>138</b> reposts</span></div><p class="gc-consulta">Búsqueda: <code>memoria histórica</code> · media 6.7 por post</p><div class="gc-top"><div class="gc-top-cab"><b>@nosoyrubia.eurosky.social</b><span>83 me gusta · 33 reposts</span></div><p>"El PP obtuvo una mayoría absoluta histórica de 186 escaños después del 15 M. Por refrescar la memoria. El PP de Mariano Rajoy. El PP de los recortes brutales... y ahora además está  VOX."</p></div><h5>Quiénes hablan más de este tema</h5><div class="gc-autor"><div class="gc-autor-cab"><b>@nosoyrubia.eurosky.social</b><span class="gc-autor-eng">206 eng · 3 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:100.0%"></div></div><div class="gc-autor-ej">"El PP obtuvo una mayoría absoluta histórica de 186 escaños después del 15 M. Por refrescar la memoria. El PP de Mariano Rajoy. El PP de los recortes b"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@masaenfurecida.bsky.social</b><span class="gc-autor-eng">94 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:45.6%"></div></div><div class="gc-autor-ej">"A VER QUÉ CARA SE LE QUEDA A MARGARITA ROBLES CUANDO EL GOBIERNO APLIQUE LA LEY DE MEMORIA HISTÓRICA Y DISUELVA LAS FUERZAS ARMADAS POR APOLOGÍA DEL F"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@zoraidazaro.bsky.social</b><span class="gc-autor-eng">81 eng · 2 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:39.3%"></div></div><div class="gc-autor-ej">"Es una pena que en el documental &quot;Cuelgamuros, entre lo difícil y lo imposible&quot; que emitieron ayer y está a mano en RTVE alguien decidiese meter 30 se"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@nyconene.bsky.social</b><span class="gc-autor-eng">42 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:20.4%"></div></div><div class="gc-autor-ej">"Con el 15M, la misma sensación, que era ponerle más palos en la rueda al que había hecho cambios progresistas no solo lo de Irak y el matrimonio igual"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@nandolopez.es</b><span class="gc-autor-eng">28 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:13.6%"></div></div><div class="gc-autor-ej">"Si creéis, como yo, que la memoria histórica LGTBIQ+ 🏳️‍🌈 debe estar en las aulas, podéis pedir aquí la guía didáctica (para Bach y 4º ESO) de #LosEle"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@mrsparkerrogers.aldea.social</b><span class="gc-autor-eng">22 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:10.7%"></div></div><div class="gc-autor-ej">"Cosas que he leído: - Estaba en una casa en zona privilegiada por una miseria y ahora está ocupando una cama de hospital - Tenía casa gracias a una le"</div></div></article><article class="gc-card"><h4>⚧️ Ley Trans</h4><div class="gc-kpis"><span><b>625</b> engagement</span><span><b>100</b> posts</span><span><b>430</b> me gusta</span><span><b>109</b> reposts</span></div><p class="gc-consulta">Búsqueda: <code>ley trans</code> · media 6.2 por post</p><div class="gc-top"><div class="gc-top-cab"><b>@chuckiclampy.bsky.social</b><span>81 me gusta · 11 reposts</span></div><p>"A mí me hace muchísima gracia el artículo de El País hablando de cierta cantante (que no voy a nombrar) que ha estado callada porque &quot;ha pasado un infierno, ay mírala pobrecita, comprad su libro&quot;. Y luego las opiniones d"</p></div><h5>Quiénes hablan más de este tema</h5><div class="gc-autor"><div class="gc-autor-cab"><b>@chuckiclampy.bsky.social</b><span class="gc-autor-eng">103 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:100.0%"></div></div><div class="gc-autor-ej">"A mí me hace muchísima gracia el artículo de El País hablando de cierta cantante (que no voy a nombrar) que ha estado callada porque &quot;ha pasado un inf"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@victoroco.eurosky.social</b><span class="gc-autor-eng">82 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:79.6%"></div></div><div class="gc-autor-ej">"Ya alcanzó su culmen con esta foto. Todo lo que representa es pura maldad que disfruta dedicando su dinero y tiempo a joder la vida de personas que ya"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@maltita.neopaquita.es.ap.brid.gy</b><span class="gc-autor-eng">64 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:62.1%"></div></div><div class="gc-autor-ej">"La cantante de Dover, Cristina Llanos, ha dado su primera entrevista en 10 años para informarnos de que es sionista y anti ley trans así que supongo q"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@parasynthetic.bsky.social</b><span class="gc-autor-eng">44 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:42.7%"></div></div><div class="gc-autor-ej">"Cuando en UK se aprobó una ley que definía lo que es una mujer de acuerdo con criterios biologicistas (y restrictivos) e ilegalizaba los bloqueadores "</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@eldiario.es</b><span class="gc-autor-eng">40 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:38.8%"></div></div><div class="gc-autor-ej">"Cristina Llanos, cantante de Dover, rompe su silencio en unas memorias cargadas de bilis, críticas a la ley trans y defensas de Israel"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@shine-mcshine.neopaquita.es.ap.brid.gy</b><span class="gc-autor-eng">24 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:23.3%"></div></div><div class="gc-autor-ej">"Como me estáis preguntando, os dejo aquí este extracto de la entrevista:"</div></div></article><article class="gc-card"><h4>🏘️ España Vaciada</h4><div class="gc-kpis"><span><b>625</b> engagement</span><span><b>99</b> posts</span><span><b>444</b> me gusta</span><span><b>138</b> reposts</span></div><p class="gc-consulta">Búsqueda: <code>España vaciada</code> · media 6.3 por post</p><div class="gc-top"><div class="gc-top-cab"><b>@arteviajero.com</b><span>96 me gusta · 19 reposts</span></div><p>"Hoy os presentamos 10 pueblos que no llegan a  los 10 habitantes. Todos ellos conservan un impresionante patrimonio que se remonta a la Edad Media. La que llaman &quot;España Vaciada&quot; rebosa de arte. ⬇️⬇️⬇️ arteviajero.com/to"</p></div><h5>Quiénes hablan más de este tema</h5><div class="gc-autor"><div class="gc-autor-cab"><b>@arteviajero.com</b><span class="gc-autor-eng">117 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:100.0%"></div></div><div class="gc-autor-ej">"Hoy os presentamos 10 pueblos que no llegan a  los 10 habitantes. Todos ellos conservan un impresionante patrimonio que se remonta a la Edad Media. La"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@netcaterpila.bsky.social</b><span class="gc-autor-eng">85 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:72.6%"></div></div><div class="gc-autor-ej">"Aprovechemos para empezar a negociar teletrabajo al 100% siempre que sea posible, que se nos ha olvidado ya que iba a ser la gran solución a la España"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@drarodri.bsky.social</b><span class="gc-autor-eng">70 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:59.8%"></div></div><div class="gc-autor-ej">"17 empresas de fontanería llevo contactadas en esta semana y a ninguna le interesa desplazarse a 80 km de la capital para arreglarnos la filtración, n"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@donmitxel-oficial.bsky.social</b><span class="gc-autor-eng">63 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:53.8%"></div></div><div class="gc-autor-ej">"No se si hablaros de la España vaciada o de que aquí ya no cabemos más, venga, lo que digan los idiotas del PP-Vox."</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@ivant.eurosky.social</b><span class="gc-autor-eng">37 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:31.6%"></div></div><div class="gc-autor-ej">"amp.expansion.com/empresas/ban... Volvemos a la época del 2008 donde si querías trabajar, hazte autónomo..."</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@evocid.bsky.social</b><span class="gc-autor-eng">24 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:20.5%"></div></div><div class="gc-autor-ej">"Hubo hace unos años un debate sobre si &quot;España vacía&quot; o &quot;España vaciada&quot;, quedo el último porque se considero que no era algo que le pasaba, era algo "</div></div></article><article class="gc-card"><h4>🗺️ Independentismo / Procés</h4><div class="gc-kpis"><span><b>422</b> engagement</span><span><b>99</b> posts</span><span><b>280</b> me gusta</span><span><b>98</b> reposts</span></div><p class="gc-consulta">Búsqueda: <code>independentismo</code> · media 4.3 por post</p><div class="gc-top"><div class="gc-top-cab"><b>@eldiario.es</b><span>40 me gusta · 21 reposts</span></div><p>"Las desclasificaciones a la carta del Gobierno: Ceuta y el 23-F sí, pero no el espionaje al independentismo.  www.eldiario.es/catalunya/de..."</p></div><h5>Quiénes hablan más de este tema</h5><div class="gc-autor"><div class="gc-autor-cab"><b>@eldiario.es</b><span class="gc-autor-eng">127 eng · 2 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:100.0%"></div></div><div class="gc-autor-ej">"CRÓNICA | La Diada se convierte en una alerta contra Aliança: “Si Catalunya deja de ser tierra de acogida, pierde su razón de ser”"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@publico.es</b><span class="gc-autor-eng">60 eng · 4 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:47.2%"></div></div><div class="gc-autor-ej">"El independentismo resiste en la calle en una Diada marcada por el rechazo a la extrema derecha y se conjura para impulsar una gran movilización en 20"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@pabloenfermero.bsky.social</b><span class="gc-autor-eng">29 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:22.8%"></div></div><div class="gc-autor-ej">"Que la gasolina del procés fue, esencialmente, la patada p'alante que tuvo que dar Artur Mas tras la fuga en helicóptero, es algo de lo que estoy conv"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@elpais.com</b><span class="gc-autor-eng">25 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:19.7%"></div></div><div class="gc-autor-ej">"Tensión en el centro de Barcelona al coincidir las concentraciones de Aliança Catalana y la CUP en vísperas de la Diada: la coincidencia ha convertido"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@roserdemar.bsky.social</b><span class="gc-autor-eng">15 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:11.8%"></div></div><div class="gc-autor-ej">"El independentismo recupera músculo en la Diada de Catalunya y prepara un &quot;nuevo embate&quot; para los diez años del 1-O.."</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@pepsic.bsky.social</b><span class="gc-autor-eng">14 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:11.0%"></div></div><div class="gc-autor-ej">"Gracias a @casfetera.bsky.social acabo de encontrar el úlltimo desbarre de Ramón Cotarelo. Su deriva ya no es hacia el independentismo ni el republica"</div></div></article><article class="gc-card"><h4>🚧 Inmigración</h4><div class="gc-kpis"><span><b>413</b> engagement</span><span><b>100</b> posts</span><span><b>262</b> me gusta</span><span><b>114</b> reposts</span></div><p class="gc-consulta">Búsqueda: <code>inmigración España</code> · media 4.1 por post</p><div class="gc-top"><div class="gc-top-cab"><b>@demetrioymedio.bsky.social</b><span>84 me gusta · 34 reposts</span></div><p>"Está claro... #stopice #stoptrump #racismo #xenofobia #ultraderechas #pp #vox #inmigracion #ddhh #derechoshumanos #figaredo #migracion #españa #mundo"</p></div><h5>Quiénes hablan más de este tema</h5><div class="gc-autor"><div class="gc-autor-cab"><b>@demetrioymedio.bsky.social</b><span class="gc-autor-eng">225 eng · 8 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:100.0%"></div></div><div class="gc-autor-ej">"Está claro... #stopice #stoptrump #racismo #xenofobia #ultraderechas #pp #vox #inmigracion #ddhh #derechoshumanos #figaredo #migracion #españa #mundo"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@elpais.com</b><span class="gc-autor-eng">43 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:19.1%"></div></div><div class="gc-autor-ej">"📹 Vídeo | Sánchez habla de los Knicks y Mamdani cita a Lorca en su reunión en Nueva York"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@maximodaza.bsky.social</b><span class="gc-autor-eng">40 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:17.8%"></div></div><div class="gc-autor-ej">"elpais.com/espana/2026-..."</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@jesuspozo.es</b><span class="gc-autor-eng">28 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:12.4%"></div></div><div class="gc-autor-ej">"Siempre se puede titular más claro:  La Audiencia Nacional apoya y da la razón al Gobierno. Pero les cuesta.  elpais.com/espana/2026-..."</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@lavanguardia.com</b><span class="gc-autor-eng">15 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:6.7%"></div></div><div class="gc-autor-ej">"Sánchez defiende la inmigración en la ONU pese a “momentos tan difíciles como el que se vive en Ceuta&quot;  El presidente español lanza un severo ataque c"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@efe.com</b><span class="gc-autor-eng">11 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:4.9%"></div></div><div class="gc-autor-ej">"Vox culpa a Sánchez y su política de puertas abiertas del &quot;apocalipsis de la vivienda&quot;.  efe.com/espana/2026-..."</div></div></article><article class="gc-card"><h4>📝 Lenguaje Inclusivo</h4><div class="gc-kpis"><span><b>368</b> engagement</span><span><b>95</b> posts</span><span><b>262</b> me gusta</span><span><b>54</b> reposts</span></div><p class="gc-consulta">Búsqueda: <code>lenguaje inclusivo</code> · media 3.9 por post</p><div class="gc-top"><div class="gc-top-cab"><b>@loretahur.bsky.social</b><span>35 me gusta · 21 reposts</span></div><p>"A todas las personas que nunca han visto prioritario el trabajo en lenguaje inclusivo y no sexista (hay cosas más importantes que hacer): ¿se darán cuenta ahora que el lenguaje construye realidad? Y que por esa razón, la"</p></div><h5>Quiénes hablan más de este tema</h5><div class="gc-autor"><div class="gc-autor-cab"><b>@loretahur.bsky.social</b><span class="gc-autor-eng">56 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:100.0%"></div></div><div class="gc-autor-ej">"A todas las personas que nunca han visto prioritario el trabajo en lenguaje inclusivo y no sexista (hay cosas más importantes que hacer): ¿se darán cu"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@evocid.bsky.social</b><span class="gc-autor-eng">19 eng · 3 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:33.9%"></div></div><div class="gc-autor-ej">"Quién iría a decir que el uso del lenguaje inclusivo no tiene mucho que ver con las discriminaciones reales. ¿Tal vez alguien que hubiera observado qu"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@bethlazaro.bsky.social</b><span class="gc-autor-eng">19 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:33.9%"></div></div><div class="gc-autor-ej">"Mi madre se cree que hablo en valenciano cuando uso el lenguaje inclusivo.  Resulta muy gracioso. Me recuerda al vídeo ese que canta une: &quot;mis amigues"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@miguel-lazaro.es</b><span class="gc-autor-eng">16 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:28.6%"></div></div><div class="gc-autor-ej">"¿Qué pasa cuando aplicas la perspectiva de género SOLO a la realidad de las mujeres y consideras que el objetivo es que haya tantas mujeres como hombr"</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@gloriabz.bsky.social</b><span class="gc-autor-eng">14 eng · 1 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:25.0%"></div></div><div class="gc-autor-ej">"Se están pasando por la faja la Convención de los derechos del niño de la ONU, La constitución del 91,la ley 1098 (código de infancia y adolescencia, "</div></div><div class="gc-autor"><div class="gc-autor-cab"><b>@iayamatsumoto.bsky.social</b><span class="gc-autor-eng">14 eng · 2 posts</span></div><div class="gc-pista"><div class="gc-relleno gc-naranja" style="width:25.0%"></div></div><div class="gc-autor-ej">"No es necesario el lenguaje inclusivo porque es una tontería, economía del lenguaje y el masculino ya incluye el femenino... (sin analizar por qué es "</div></div></article></div>
+
+  <h3 class="gc-h">👥 Directorio de cuentas que más hablan de estos temas</h3>
+  <div class="gc-cuentas"><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@pvallin.bsky.social</b><span>2.480 eng</span></div><div class="gc-cuenta-nombre">Pedro Vallín</div><div class="gc-cuenta-meta">2 posts · 1.670 me gusta</div><div class="gc-cuenta-temas">Sanchismo, Facha / Insulto Político</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@bulldog75.bsky.social</b><span>1.139 eng</span></div><div class="gc-cuenta-nombre">Bulldog punk.</div><div class="gc-cuenta-meta">2 posts · 828 me gusta</div><div class="gc-cuenta-temas">Okupación</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@fonsiloaizap.bsky.social</b><span>742 eng</span></div><div class="gc-cuenta-nombre">Fonsi Loaiza</div><div class="gc-cuenta-meta">1 posts · 468 me gusta</div><div class="gc-cuenta-temas">Okupación</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@demetrioymedio.bsky.social</b><span>570 eng</span></div><div class="gc-cuenta-nombre">Demetrioymedio</div><div class="gc-cuenta-meta">10 posts · 334 me gusta</div><div class="gc-cuenta-temas">Inmigración, Okupación</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@eldiario.es</b><span>383 eng</span></div><div class="gc-cuenta-nombre">elDiario.es</div><div class="gc-cuenta-meta">5 posts · 252 me gusta</div><div class="gc-cuenta-temas">Okupación, Independentismo / Procés, Ley Trans</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@nosoyrubia.eurosky.social</b><span>343 eng</span></div><div class="gc-cuenta-nombre">No soy rubia por los pelos.</div><div class="gc-cuenta-meta">12 posts · 274 me gusta</div><div class="gc-cuenta-temas">Memoria Histórica, Feminismo Radical, Wokismo / Ideología Woke</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@chuckiclampy.bsky.social</b><span>328 eng</span></div><div class="gc-cuenta-nombre">Chuckiclampy</div><div class="gc-cuenta-meta">4 posts · 256 me gusta</div><div class="gc-cuenta-temas">Cultura de la Cancelación, Ley Trans</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@publico.es</b><span>327 eng</span></div><div class="gc-cuenta-nombre">Diario Público</div><div class="gc-cuenta-meta">6 posts · 225 me gusta</div><div class="gc-cuenta-temas">Independentismo / Procés, Cultura de la Cancelación, Ley Trans</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@pelaez.bsky.social</b><span>178 eng</span></div><div class="gc-cuenta-nombre">HermanosPelaez</div><div class="gc-cuenta-meta">1 posts · 143 me gusta</div><div class="gc-cuenta-temas">Feminismo Radical</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@hachefilardi.bsky.social</b><span>140 eng</span></div><div class="gc-cuenta-nombre">Ernesto Filardi 🍉</div><div class="gc-cuenta-meta">1 posts · 89 me gusta</div><div class="gc-cuenta-temas">Facha / Insulto Político</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@gatoradeew.bsky.social</b><span>127 eng</span></div><div class="gc-cuenta-nombre">Gatorade</div><div class="gc-cuenta-meta">1 posts · 105 me gusta</div><div class="gc-cuenta-temas">Wokismo / Ideología Woke</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@guilleneuve.bsky.social</b><span>117 eng</span></div><div class="gc-cuenta-nombre">Guilleneuve</div><div class="gc-cuenta-meta">1 posts · 102 me gusta</div><div class="gc-cuenta-temas">Okupación</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@arteviajero.com</b><span>117 eng</span></div><div class="gc-cuenta-nombre">Arteviajero</div><div class="gc-cuenta-meta">1 posts · 96 me gusta</div><div class="gc-cuenta-temas">España Vaciada</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@ferna1diez.bsky.social</b><span>98 eng</span></div><div class="gc-cuenta-nombre">ferna1diez</div><div class="gc-cuenta-meta">1 posts · 61 me gusta</div><div class="gc-cuenta-temas">Okupación</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@masaenfurecida.bsky.social</b><span>94 eng</span></div><div class="gc-cuenta-nombre">masaenfurecida</div><div class="gc-cuenta-meta">1 posts · 68 me gusta</div><div class="gc-cuenta-temas">Memoria Histórica</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@kr3at0r.bsky.social</b><span>87 eng</span></div><div class="gc-cuenta-nombre">Josep Maria Sempere</div><div class="gc-cuenta-meta">1 posts · 72 me gusta</div><div class="gc-cuenta-temas">Wokismo / Ideología Woke</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@netcaterpila.bsky.social</b><span>85 eng</span></div><div class="gc-cuenta-nombre">Orugrita</div><div class="gc-cuenta-meta">1 posts · 67 me gusta</div><div class="gc-cuenta-temas">España Vaciada</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@victoroco.eurosky.social</b><span>82 eng</span></div><div class="gc-cuenta-nombre">Victoroco le guillotine</div><div class="gc-cuenta-meta">1 posts · 60 me gusta</div><div class="gc-cuenta-temas">Ley Trans</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@zoraidazaro.bsky.social</b><span>81 eng</span></div><div class="gc-cuenta-nombre">zoraidazaro</div><div class="gc-cuenta-meta">2 posts · 62 me gusta</div><div class="gc-cuenta-temas">Memoria Histórica</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@javierespinosa.bsky.social</b><span>79 eng</span></div><div class="gc-cuenta-nombre">Javier Espinosa</div><div class="gc-cuenta-meta">1 posts · 53 me gusta</div><div class="gc-cuenta-temas">Cultura de la Cancelación</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@andrestrasado.bsky.social</b><span>73 eng</span></div><div class="gc-cuenta-nombre">Andrés Trasado</div><div class="gc-cuenta-meta">1 posts · 64 me gusta</div><div class="gc-cuenta-temas">Feminismo Radical</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@drarodri.bsky.social</b><span>70 eng</span></div><div class="gc-cuenta-nombre">La Rodri ✨🌈🏳️‍⚧️</div><div class="gc-cuenta-meta">1 posts · 37 me gusta</div><div class="gc-cuenta-temas">España Vaciada</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@elpais.com</b><span>68 eng</span></div><div class="gc-cuenta-nombre">EL PAÍS</div><div class="gc-cuenta-meta">2 posts · 47 me gusta</div><div class="gc-cuenta-temas">Inmigración, Independentismo / Procés</div></div><div class="gc-cuenta"><div class="gc-cuenta-cab"><b>@srtagalicia.eurosky.social</b><span>68 eng</span></div><div class="gc-cuenta-nombre">Galicia K. Méndez</div><div class="gc-cuenta-meta">1 posts · 55 me gusta</div><div class="gc-cuenta-temas">Feminismo Radical</div></div></div>
+
+  <hr style="margin:2rem 0 1rem;opacity:.2">
+  <p style="font-size:.74rem;opacity:.6">Datos: Bluesky (app.bsky.feed.searchPosts, API publica, filtro idioma es) · Actualizado: 2026-09-29T14:02:44+02:00 · Volumenes NO comparables con X: son plataformas distintas. Se comparan ordenes relativos del mismo tema, no totales.</p>
 </div>
-
+<script src="chart.js"></script>
 <script>
-  (async function () {
-    const cont = document.getElementById('bsDash');
-    const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    const num = (n) => (n == null ? '—' : Number(n).toLocaleString('es-ES'));
-
-    try {
-      const [rb, rx] = await Promise.all([
-        fetch('bluesky.json?_=' + Date.now(), { cache: 'no-store' }),
-        fetch('data.json', { cache: 'no-store' }).catch(() => null)
-      ]);
-      if (!rb.ok) throw new Error('HTTP ' + rb.status);
-      const bs = await rb.json();
-      const temas = bs.temas || {};
-
-      // nombres e iconos: de data.json (los mismos temas), con el id como respaldo
-      const meta = {};
-      if (rx && rx.ok) {
-        try {
-          const dx = await rx.json();
-          (dx.topics || []).forEach(t => { meta[t.id] = { nombre: t.name, icono: t.icon || '•' }; });
-        } catch (e) {}
+  (function () {
+    const ctx = document.getElementById('gcChart');
+    if (!ctx || typeof Chart === 'undefined') return;
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ["Okupación", "Facha", "Sanchismo", "Cultura de la Cancelación", "Feminismo Radical", "Wokismo", "Memoria Histórica", "Ley Trans", "España Vaciada", "Independentismo", "Inmigración", "Lenguaje Inclusivo"],
+        datasets: [{ label: 'Engagement', data: [3118, 2223, 1005, 966, 798, 715, 665, 625, 625, 422, 413, 368], backgroundColor: '#3b82f6' }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: { x: { beginAtZero: true }, y: { ticks: { autoSkip: false } } }
       }
-
-      const ids = Object.keys(temas).sort((a, b) => temas[b].engagement - temas[a].engagement);
-      if (!ids.length) { cont.innerHTML = '<p class="estado">Todavía no hay datos publicados.</p>'; return; }
-
-      const totalEng = ids.reduce((s, id) => s + temas[id].engagement, 0);
-      const totalPosts = ids.reduce((s, id) => s + temas[id].posts, 0);
-      const totalLikes = ids.reduce((s, id) => s + temas[id].likes, 0);
-      const totalRep = ids.reduce((s, id) => s + temas[id].reposts, 0);
-      const maxEng = temas[ids[0]].engagement;
-      const nombreDe = (id) => (meta[id] ? meta[id].icono + ' ' + meta[id].nombre : id);
-
-      let html = '<div class="kpis">' +
-        '<div class="kpi"><div class="n">' + num(totalEng) + '</div><div class="e">engagement total</div></div>' +
-        '<div class="kpi"><div class="n">' + num(totalPosts) + '</div><div class="e">posts analizados</div></div>' +
-        '<div class="kpi"><div class="n">' + num(totalLikes) + '</div><div class="e">me gusta</div></div>' +
-        '<div class="kpi"><div class="n">' + num(totalRep) + '</div><div class="e">reposts</div></div>' +
-        '<div class="kpi"><div class="n">' + ids.length + '</div><div class="e">temas</div></div>' +
-      '</div>';
-
-      html += '<h2>📈 Ranking por engagement</h2>';
-      ids.forEach(function (id) {
-        const t = temas[id];
-        const ancho = Math.max(2, Math.round(t.engagement / maxEng * 100));
-        html += '<div class="fila">' +
-          '<div class="cab">' +
-            '<span class="nombre">' + esc(nombreDe(id)) + '</span>' +
-            '<span class="cifras">' + num(t.engagement) + ' eng · ' + num(t.posts) + ' posts · ' +
-              t.engagement_medio + '/post</span>' +
-          '</div>' +
-          '<div class="barra"><div class="relleno" style="width:' + ancho + '%"></div></div>' +
-        '</div>';
-      });
-
-      html += '<h2>🔎 Los posts que tiran de cada tema</h2>';
-      ids.forEach(function (id) {
-        const t = temas[id];
-        const top = t.top;
-        if (!top) return;
-        const url = top.autor ? 'https://bsky.app/profile/' + encodeURIComponent(top.autor) : null;
-        html += '<div class="tarjeta">' +
-          '<h3>' + esc(nombreDe(id)) + '</h3>' +
-          '<div class="mini">Consulta: «' + esc(t.consulta) + '» · ' + num(t.posts) + ' posts · ' +
-            num(t.likes) + ' me gusta · ' + num(t.reposts) + ' reposts · ' + num(t.respuestas) + ' respuestas</div>' +
-          '<div class="post">' + esc(top.texto || '(sin texto)') +
-            '<span class="quien">' +
-              (url ? '<a class="autor" href="' + url + '" target="_blank" rel="noopener">@' + esc(top.autor) + '</a>' : '') +
-              ' · ' + num(top.likes) + ' ♥ · ' + num(top.reposts) + ' ↻' +
-            '</span>' +
-          '</div>' +
-        '</div>';
-      });
-
-      html += '<p class="estado">Datos generados: ' + esc((bs.meta || {}).generated_at || 'n/d') + '</p>';
-      cont.innerHTML = html;
-    } catch (e) {
-      cont.innerHTML = '<p class="estado">No se pudieron cargar los datos de Bluesky (' + esc(e.message) + ')</p>';
-    }
+    });
   })();
 </script>
 </body>
