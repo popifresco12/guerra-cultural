@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-28T19:29:23+02:00",
+    "generated_at": "2026-09-29T08:45:55+02:00",
     "fuente": "Bluesky (app.bsky.feed.searchPosts, API publica)",
     "nota": "Volumenes NO comparables con X: son plataformas distintas. Se comparan ordenes relativos del mismo tema, no totales.",
     "temas_ok": 12,
@@ -9,32 +9,37 @@
   "ranking": [
     {
       "id": "okupacion",
-      "engagement": 3106,
+      "engagement": 3009,
       "posts": 100
+    },
+    {
+      "id": "facha",
+      "engagement": 1113,
+      "posts": 86
     },
     {
       "id": "espana-vaciada",
-      "engagement": 928,
-      "posts": 100
-    },
-    {
-      "id": "ley-trans",
-      "engagement": 908,
+      "engagement": 1013,
       "posts": 100
     },
     {
       "id": "sanchismo",
-      "engagement": 857,
+      "engagement": 975,
       "posts": 99
     },
     {
+      "id": "ley-trans",
+      "engagement": 912,
+      "posts": 100
+    },
+    {
       "id": "cultura-cancelacion",
-      "engagement": 646,
+      "engagement": 649,
       "posts": 100
     },
     {
       "id": "memoria",
-      "engagement": 617,
+      "engagement": 641,
       "posts": 100
     },
     {
@@ -43,23 +48,18 @@
       "posts": 98
     },
     {
-      "id": "facha",
-      "engagement": 374,
-      "posts": 87
+      "id": "inmigracion",
+      "engagement": 341,
+      "posts": 100
     },
     {
       "id": "woke",
-      "engagement": 358,
-      "posts": 99
-    },
-    {
-      "id": "inmigracion",
-      "engagement": 338,
+      "engagement": 326,
       "posts": 99
     },
     {
       "id": "independentismo",
-      "engagement": 315,
+      "engagement": 321,
       "posts": 99
     },
     {
@@ -72,30 +72,30 @@
     "sanchismo": {
       "consulta": "sanchismo",
       "posts": 99,
-      "likes": 629,
-      "reposts": 165,
+      "likes": 716,
+      "reposts": 196,
       "respuestas": 63,
-      "engagement": 857,
-      "engagement_medio": 8.7,
+      "engagement": 975,
+      "engagement_medio": 9.8,
       "top": {
         "texto": "Ninguno olimos los tremendos frutos del 15M, de la abdicación del rey al Procés, pasando por la total transformación de la izquierda poscomunista, o el Sanchismo doblegando al PSOE, como para que ahora juguéis a adivinar",
-        "likes": 456,
-        "reposts": 122,
+        "likes": 541,
+        "reposts": 153,
         "autor": "pvallin.bsky.social",
         "fecha": "2026-09-28T11:04:04.761Z"
       }
     },
     "inmigracion": {
       "consulta": "inmigración España",
-      "posts": 99,
-      "likes": 212,
+      "posts": 100,
+      "likes": 216,
       "reposts": 92,
-      "respuestas": 34,
-      "engagement": 338,
+      "respuestas": 33,
+      "engagement": 341,
       "engagement_medio": 3.4,
       "top": {
         "texto": "Está claro... #stopice #stoptrump #racismo #xenofobia #ultraderechas #pp #vox #inmigracion #ddhh #derechoshumanos #figaredo #migracion #españa #mundo",
-        "likes": 82,
+        "likes": 84,
         "reposts": 34,
         "autor": "demetrioymedio.bsky.social",
         "fecha": "2026-09-27T17:25:52.569Z"
@@ -104,11 +104,11 @@
     "okupacion": {
       "consulta": "okupación",
       "posts": 100,
-      "likes": 2091,
-      "reposts": 900,
-      "respuestas": 115,
-      "engagement": 3106,
-      "engagement_medio": 31.1,
+      "likes": 2029,
+      "reposts": 861,
+      "respuestas": 119,
+      "engagement": 3009,
+      "engagement_medio": 30.1,
       "top": {
         "texto": "A ver HIJO DE LA GRAN PUTA, si te vas de vacaciones y a la vuelta alguien ha entrado en tu vivienda, no es Okupación, es allanamiento de morada, es un delito y se soluciona al momento. Abogado el que tengo aquí colgado.",
         "likes": 764,
@@ -120,10 +120,10 @@
     "independentismo": {
       "consulta": "independentismo",
       "posts": 99,
-      "likes": 205,
+      "likes": 210,
       "reposts": 67,
-      "respuestas": 43,
-      "engagement": 315,
+      "respuestas": 44,
+      "engagement": 321,
       "engagement_medio": 3.2,
       "top": {
         "texto": "Las desclasificaciones a la carta del Gobierno: Ceuta y el 23-F sí, pero no el espionaje al independentismo.  www.eldiario.es/catalunya/de...",
@@ -136,11 +136,11 @@
     "memoria": {
       "consulta": "memoria histórica",
       "posts": 100,
-      "likes": 440,
-      "reposts": 129,
-      "respuestas": 48,
-      "engagement": 617,
-      "engagement_medio": 6.2,
+      "likes": 461,
+      "reposts": 130,
+      "respuestas": 50,
+      "engagement": 641,
+      "engagement_medio": 6.4,
       "top": {
         "texto": "El PP obtuvo una mayoría absoluta histórica de 186 escaños después del 15 M. Por refrescar la memoria. El PP de Mariano Rajoy. El PP de los recortes brutales... y ahora además está  VOX.",
         "likes": 83,
@@ -168,26 +168,26 @@
     "woke": {
       "consulta": "woke",
       "posts": 99,
-      "likes": 288,
-      "reposts": 27,
-      "respuestas": 43,
-      "engagement": 358,
-      "engagement_medio": 3.6,
+      "likes": 242,
+      "reposts": 32,
+      "respuestas": 52,
+      "engagement": 326,
+      "engagement_medio": 3.3,
       "top": {
-        "texto": "*just woke up voice* the travellers tales mascot can kinda get it",
-        "likes": 136,
-        "reposts": 23,
-        "autor": "wolfgirl9million.bsky.social",
-        "fecha": "2026-09-28T16:54:35.457Z"
+        "texto": "radaronline.com/p/bari-weiss...",
+        "likes": 54,
+        "reposts": 12,
+        "autor": "ubiquity75.xyz",
+        "fecha": "2026-09-29T05:25:25.970Z"
       }
     },
     "cultura-cancelacion": {
       "consulta": "cultura de la cancelación",
       "posts": 100,
-      "likes": 458,
-      "reposts": 141,
+      "likes": 460,
+      "reposts": 142,
       "respuestas": 47,
-      "engagement": 646,
+      "engagement": 649,
       "engagement_medio": 6.5,
       "top": {
         "texto": "OPINIÓN| “Pink no está siendo criticada por ser judía, sino por amplificar una publicación dirigida contra un artista que acababa de defender públicamente a Palestina”, por Pablo Crespo    diario.publico.es/u7q…  ",
@@ -200,10 +200,10 @@
     "ley-trans": {
       "consulta": "ley trans",
       "posts": 100,
-      "likes": 612,
-      "reposts": 201,
+      "likes": 615,
+      "reposts": 202,
       "respuestas": 95,
-      "engagement": 908,
+      "engagement": 912,
       "engagement_medio": 9.1,
       "top": {
         "texto": "Dos capturas que se entienden muy bien juntas.  Recordad, niñes: la persona que diga que la Jotaká no es tránsfoba, lo dice porque esa persona también es tránsfoba.",
@@ -232,11 +232,11 @@
     "espana-vaciada": {
       "consulta": "España vaciada",
       "posts": 100,
-      "likes": 557,
-      "reposts": 331,
+      "likes": 625,
+      "reposts": 348,
       "respuestas": 40,
-      "engagement": 928,
-      "engagement_medio": 9.3,
+      "engagement": 1013,
+      "engagement_medio": 10.1,
       "top": {
         "texto": "Hoy os presentamos 10 pueblos que no llegan a  los 10 habitantes. Todos ellos conservan un impresionante patrimonio que se remonta a la Edad Media. La que llaman \"España Vaciada\" rebosa de arte. ⬇️⬇️⬇️ arteviajero.com/to",
         "likes": 96,
@@ -247,18 +247,18 @@
     },
     "facha": {
       "consulta": "facha",
-      "posts": 87,
-      "likes": 264,
-      "reposts": 70,
-      "respuestas": 40,
-      "engagement": 374,
-      "engagement_medio": 4.3,
+      "posts": 86,
+      "likes": 769,
+      "reposts": 271,
+      "respuestas": 73,
+      "engagement": 1113,
+      "engagement_medio": 12.9,
       "top": {
-        "texto": "Recordatorio periódico de que muchas de las cuentas que suelen subir contenido de ese tipo en plan “observa la belleza de la arquitectura antigua” son caballos de Troya para meterte el fascismo en tu TL. Se empieza por a",
-        "likes": 53,
-        "reposts": 31,
-        "autor": "hachefilardi.bsky.social",
-        "fecha": "2026-09-28T16:18:05.278Z"
+        "texto": "La movilización ha roto la hoja de ruta facha hacia Moncloa, ejecutada por jueces en Madrid y uniformados en Ceuta.  Hay pánico. Gente importante ha obligado a Urbagestión a firmar la rendición (no es ningún acuerdo) par",
+        "likes": 400,
+        "reposts": 189,
+        "autor": "pvallin.bsky.social",
+        "fecha": "2026-09-29T05:04:30.759Z"
       }
     }
   }
