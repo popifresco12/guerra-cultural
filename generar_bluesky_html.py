@@ -63,7 +63,7 @@ def main():
     datos = leer_json(DATOS, {})
     hist = leer_json(HIST, {})
 
-    estilo = extraer(r"<style>.*?</style>", html_index)
+    estilos = "\n".join(re.findall(r"<style>.*?</style>", html_index, re.S))
     nav = extraer(r"<nav class=\"gc-nav\">.*?</nav>", html_index)
     temas = datos.get("temas", {})
     meta = datos.get("meta", {})
@@ -159,10 +159,10 @@ def main():
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dashboard Bluesky — Termómetro de la Guerra Cultural</title>
-{estilo}
+{estilos}
 <style>
   .gc-wrap {{ max-width: 1200px; margin: 0 auto; padding: 1.5rem 1rem 4rem; }}
-  .gc-kpis {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: .6rem; margin: 1rem 0 1.5rem; }}
+  .gc-kpis {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 130px), 1fr)); gap: .6rem; margin: 1rem 0 1.5rem; }}
   .gc-kpis > div {{ border: 1px solid rgba(148,163,184,.28); border-radius: 12px; padding: .7rem .8rem; }}
   .gc-kpis b {{ display: block; font-size: 1.3rem; }}
   .gc-kpis span {{ font-size: .74rem; opacity: .75; }}
@@ -173,8 +173,8 @@ def main():
   .gc-relleno {{ background: #3b82f6; height: 100%; border-radius: 99px; }}
   .gc-naranja, .gc-relleno.gc-naranja {{ background: #f59e0b; }}
   .gc-sub {{ font-size: .72rem; opacity: .6; }}
-  .gc-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 1rem; }}
-  .gc-card {{ border: 1px solid rgba(148,163,184,.28); border-radius: 14px; padding: 1rem; }}
+  .gc-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 1rem; }}
+  .gc-card {{ border: 1px solid rgba(148,163,184,.28); border-radius: 14px; padding: 1rem; min-width: 0; overflow-wrap: anywhere; }}
   .gc-card h4 {{ margin: 0 0 .5rem; font-size: 1rem; }}
   .gc-card h5 {{ margin: 1rem 0 .5rem; font-size: .8rem; opacity: .8; text-transform: uppercase; letter-spacing: .04em; }}
   .gc-card .gc-kpis {{ display: flex; flex-wrap: wrap; gap: .5rem .9rem; margin: 0 0 .5rem; font-size: .76rem; }}
@@ -183,12 +183,12 @@ def main():
   .gc-consulta {{ font-size: .72rem; opacity: .6; margin: .2rem 0 .6rem; }}
   .gc-top {{ border-left: 3px solid #3b82f6; padding: .5rem .7rem; background: rgba(59,130,246,.07); border-radius: 0 10px 10px 0; margin-bottom: .5rem; }}
   .gc-top-cab {{ display: flex; justify-content: space-between; font-size: .74rem; gap: .6rem; }}
-  .gc-top p {{ margin: .35rem 0 0; font-size: .82rem; line-height: 1.5; }}
+  .gc-top p {{ margin: .35rem 0 0; font-size: .82rem; line-height: 1.5; overflow-wrap: anywhere; }}
   .gc-autor {{ margin-bottom: .55rem; }}
   .gc-autor-cab {{ display: flex; justify-content: space-between; font-size: .78rem; gap: .5rem; }}
   .gc-autor-eng {{ opacity: .7; font-size: .72rem; }}
-  .gc-autor-ej {{ font-size: .74rem; opacity: .65; margin-top: .2rem; font-style: italic; }}
-  .gc-cuentas {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: .7rem; }}
+  .gc-autor-ej {{ font-size: .74rem; opacity: .65; margin-top: .2rem; font-style: italic; overflow-wrap: anywhere; }}
+  .gc-cuentas {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: .7rem; }}
   .gc-cuenta {{ border: 1px solid rgba(148,163,184,.25); border-radius: 12px; padding: .7rem .8rem; }}
   .gc-cuenta-cab {{ display: flex; justify-content: space-between; font-size: .82rem; gap: .5rem; }}
   .gc-cuenta-nombre {{ font-size: .76rem; opacity: .75; }}
@@ -196,10 +196,16 @@ def main():
   .gc-cuenta-temas {{ font-size: .72rem; opacity: .7; margin-top: .25rem; color: #f59e0b; }}
   .gc-aviso {{ font-size: .8rem; opacity: .75; border: 1px dashed rgba(148,163,184,.4); border-radius: 12px; padding: .7rem .9rem; }}
   h3.gc-h {{ margin: 2rem 0 .8rem; }}
-  @media (max-width: 640px) {{
-    .gc-grid {{ grid-template-columns: 1fr; }}
-    .gc-tema .gc-nombre {{ font-size: .82rem; }}
+  @media (max-width: 700px) {{
+    .gc-wrap {{ padding: 1rem .7rem 3rem; }}
+    .gc-grid, .gc-cuentas, .gc-kpis {{ grid-template-columns: 1fr; }}
+    .gc-tema .gc-nombre {{ font-size: .8rem; }}
+    .gc-valor {{ font-size: .78rem; }}
+    .gc-card {{ padding: .8rem; }}
+    .gc-top-cab, .gc-autor-cab, .gc-cuenta-cab {{ flex-wrap: wrap; }}
   }}
+  html, body {{ max-width: 100%; overflow-x: hidden; }}
+  .gc-wrap, .gc-card, .gc-tema, .gc-cuenta {{ min-width: 0; }}
 </style>
 </head>
 <body>
