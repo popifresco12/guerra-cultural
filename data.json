@@ -1,29 +1,28 @@
 {
   "meta": {
-    "generated_at": "2026-09-29T08:16:58+02:00",
+    "generated_at": "2026-09-30T08:01:39+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "sanchismo UCO Cerdán Zapatero investigados PSOE imputación persona jurídica España (desde 2026-09-26) [OK]",
-      "inmigración España Ceuta Canarias llegadas irregulares autorizaciones polémica (desde 2026-09-26) [OK]",
-      "Desokupa okupación desalojo vecinos propietarios España polémica (desde 2026-09-26) [OK]",
-      "independentismo Cataluña procés Puigdemont Junts ERC investidura polémica (desde 2026-09-26) [sin citas -> REPETIDA]",
-      "Puigdemont Junts ERC Cataluña financiación singular amnistía declaraciones polémica tuiteros (desde 2026-09-26) [OK]",
-      "memoria histórica España Ley de Nietos exhumaciones fosa reclamación judicial (desde 2026-09-26) [sin citas -> REPETIDA]",
-      "Ley de Memoria Democrática fosa común exhumación Valle de Cuelgamuros víctimas franquismo polémica tuiteros (desde 2026-09-26) [OK]",
-      "feminismo abolicionista prostitución Irene Montero ley solo sí es sí polémica (desde 2026-09-26) [OK]",
-      "ideología woke wokismo España polémica Universidad subvenciones tuiteros (desde 2026-09-26) [sin citas -> REPETIDA]",
-      "adoctrinamiento universidad España subvenciones ideología de género planes de igualdad polémica tuiteros (desde 2026-09-26) [OK]",
-      "cultura de la cancelación España censura polémica tuiteros artistas boicot (desde 2026-09-26) [OK]",
-      "ley trans España menores bloqueadores hormonas protocolo Madrid autoidentificación polémica (desde 2026-09-26) [OK]",
-      "lenguaje inclusivo RAE todes ayuntamientos España polémica tuiteros (desde 2026-09-26) [sin citas -> REPETIDA]",
-      "todes elle lenguaje inclusivo colegios administración polémica España RAE respuesta (desde 2026-09-26) [OK]",
-      "España vaciada despoblación Teruel Existe manifestación pueblos abandono polémica (desde 2026-09-26) [OK]",
-      "facha insulto político España Vox PSOE agresión bronca tuiteros debate (desde 2026-09-26) [OK]",
-      "actividad de @profsecundario @dianitanoticias @Tagelca @elxokas @TemplarExtre @geoestratego @13mescribano @VictorLapuente (allowed_x_handles, desde 2026-09-26) [OK]",
-      "actividad de @EstefMolina_ @nicolasdepedro @armesillaconde @Anujbost @billkilgore_ @elmundotoday @littleragergirl @LaBugsBunnyIA (allowed_x_handles, desde 2026-09-26) [OK]",
-      "tweets virales de 10 handles del directorio con enlaces y engagement (desde 2026-09-26) [TRUNCADO - solo preambulo con URLs; virales construidos con los status reales de las busquedas de topicos y de actividad de este mismo run]"
+      "sanchismo UCO Cerdan Zapatero fundaciones PSOE imputacion persona juridica (desde 2026-09-27) [BLOQUEADO spending-limit]",
+      "inmigracion Espana Ceuta Canarias llegadas irregulares MENAS (desde 2026-09-27) [BLOQUEADO spending-limit]",
+      "okupacion Espana Desokupa desalojo vecinos acampada vivienda (desde 2026-09-27) [BLOQUEADO spending-limit]",
+      "independentismo Cataluna Puigdemont Junts ERC amnistia financiacion singular (desde 2026-09-27) [BLOQUEADO spending-limit]",
+      "Tanda 1 completa (4/4 topicos) rechazada con personal-team-blocked:spending-limit => diagnostico de credito de cuenta xAI, no de forma de query. No se lanzaron las tandas 2 y 3 ni las verificaciones de actividad."
     ],
-    "stale_topics": [],
+    "stale_topics": [
+      "sanchismo",
+      "inmigracion",
+      "okupacion",
+      "independentismo",
+      "memoria",
+      "feminismo",
+      "woke",
+      "cultura-cancelacion",
+      "ley-trans",
+      "lenguaje-inclusivo",
+      "espana-vaciada",
+      "facha"
+    ],
     "inactive_accounts": [
       "@dianitanoticias",
       "@elxokas",
@@ -31,10 +30,10 @@
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "previous_generated_at": "2026-09-28T08:25:00+02:00",
+    "previous_generated_at": "2026-09-29T08:16:58+02:00",
     "previous_source": "cron 09f22b3f6f78",
-    "fallback": null,
-    "notes": "RUN NORMAL. Creditos xAI operativos: las tres tandas de topicos y las dos tandas de actividad devolvieron analisis completo con citas (la recuperacion del 28-09 se mantiene). Los 12 topicos canonicos tienen medicion fresca. Cuatro topicos fallaron a la primera con 'no citations returned despite filters: from_date' (independentismo, memoria, woke, lenguaje-inclusivo) y se recuperaron con UNA reformulacion anclada a entidades, tal como marca la skill: ninguno quedo stale, stale_topics vacio. Cuentas: los 2 lotes de 8 handles respondieron con datos; siguen sin actividad detectable en la ventana de 3 dias los mismos 5 handles que ya venian marcados (@dianitanoticias, @elxokas, @VictorLapuente, @elmundotoday, @littleragergirl) - re-verificados hoy, se mantienen en accounts[] y en inactive_accounts[] porque la ausencia de posts es quietud, no baja. La busqueda de virales con 10 handles trunco el cuerpo (solo preambulo con URLs sueltas): los 6 virales se han construido con status URLs, autores y engagement REALES devueltos por las busquedas de topicos y de actividad de este mismo run. Ninguno se ha inventado. sources.json NO generado: el entorno guerra-cultural-rag (/home/carlo/guerra-cultural-rag) no existe en este host Windows."
+    "fallback": "full",
+    "notes": "FALLBACK COMPLETO (dia 1 de bloqueo de la racha actual). Los 4 x_search de la tanda 1 de topicos fallaron identicamente con 'personal-team-blocked:spending-limit' ya en la primera llamada: es agotamiento de creditos de la cuenta xAI, no un problema de forma de query (la tanda 1 de 4 llamadas hace de diagnostico: si las 4 fallan igual, es credito). Los 12 topicos canonicos quedan marcados como stale y se reutilizan VERBATIM los valores de topics, news, trends, accounts y virals del commit anterior (2026-09-29T08:16:58+02:00, run normal del 29-09). NO se ha inventado ningun dato. NO se ha anadido snapshot a history.json: con cero medicion fresca, un punto con fecha de hoy falsearia el grafico de evolucion (history.json queda intacto, ultimo dato real 2026-09-29). meta.inactive_accounts se conserva EXACTAMENTE igual que el run anterior: una cuenta sin comprobar no es ni inactiva ni activa. Contexto de creditos: la recarga del 28-09 dio un run normal el 28-09 y otro el 29-09; hoy 30-09 la cuenta vuelve a estar bloqueada, ~2 dias operativos despues de recargar (patron habitual: ~3 dias por recarga). Unica solucion: recargar en https://grok.com/?_s=usage . sources.json NO generado: el entorno guerra-cultural-rag (/home/carlo/guerra-cultural-rag) no existe en este host Windows."
   },
   "topics": [
     {
