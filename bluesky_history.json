@@ -41,11 +41,25 @@
       "lenguaje-inclusivo": 410,
       "espana-vaciada": 636,
       "facha": 462
+    },
+    "2026-10-02": {
+      "sanchismo": 1170,
+      "inmigracion": 458,
+      "okupacion": 3854,
+      "independentismo": 458,
+      "memoria": 1155,
+      "feminismo": 799,
+      "woke": 1386,
+      "cultura-cancelacion": 947,
+      "ley-trans": 634,
+      "lenguaje-inclusivo": 394,
+      "espana-vaciada": 509,
+      "facha": 434
     }
   },
   "meta": {
-    "actualizado": "2026-10-01T08:45:48+02:00",
+    "actualizado": "2026-10-02T08:45:49+02:00",
     "nota": "Engagement por tema y dia. Se acumula desde la primera ejecucion.",
-    "dias": 3
+    "dias": 4
   }
 }
