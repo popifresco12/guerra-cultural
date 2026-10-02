@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-10-01T08:02:00+02:00",
+    "generated_at": "2026-10-02T08:01:17+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "sanchismo Espana UCO Cerdan Zapatero investigados corrupcion (desde 2026-09-28) [BLOQUEADO spending-limit]",
-      "inmigracion Espana Ceuta Canarias llegadas irregulares regularizacion (desde 2026-09-28) [BLOQUEADO spending-limit]",
-      "independentismo Cataluna proces Puigdemont Junts ERC financiacion singular (desde 2026-09-28) [BLOQUEADO spending-limit]",
-      "cultura de la cancelacion Espana polemica Rosalia censura (desde 2026-09-28) [BLOQUEADO spending-limit]",
-      "Tanda 1 completa (4/4 topicos) rechazada con personal-team-blocked:spending-limit => diagnostico de credito de cuenta xAI, no de forma de query. No se lanzaron las tandas 2 y 3 ni las verificaciones de actividad de cuentas."
+      "sanchismo Espana UCO Cerdan Zapatero fundaciones PSOE investigados corrupcion (desde 2026-09-29) [BLOQUEADO spending-limit]",
+      "inmigracion Espana Ceuta Canarias llegadas irregulares regularizacion MENAS (desde 2026-09-29) [BLOQUEADO spending-limit]",
+      "okupacion Espana Desokupa desalojo acoso inmobiliario propietarios inquilinos (desde 2026-09-29) [BLOQUEADO spending-limit]",
+      "independentismo Cataluna proces Puigdemont Junts ERC amnistia financiacion singular (desde 2026-09-29) [BLOQUEADO spending-limit]",
+      "Tanda 1 completa (4/4 topicos) rechazada IDENTICAMENTE con personal-team-blocked:spending-limit => agotamiento de creditos de la cuenta xAI, no problema de forma de query. No se lanzaron las tandas 2 y 3 ni las verificaciones de actividad de cuentas (fallback completo)."
     ],
     "stale_topics": [
       "sanchismo",
@@ -33,7 +33,7 @@
     "previous_generated_at": "2026-09-29T08:16:58+02:00",
     "previous_source": "cron 09f22b3f6f78",
     "fallback": "full",
-    "notes": "FALLBACK COMPLETO (dia 2 de bloqueo de la racha actual). Los 4 x_search de la tanda 1 de topicos fallaron identicamente con 'personal-team-blocked:spending-limit' ya en la primera llamada: es agotamiento de creditos de la cuenta xAI, no un problema de forma de query (la tanda de 4 llamadas hace de diagnostico: si las 4 fallan igual, es credito). Los 12 topicos canonicos quedan marcados como stale y se reutilizan VERBATIM los valores de topics, news, trends, accounts y virals del ultimo run con datos reales (2026-09-29T08:16:58+02:00). NO se ha inventado ningun dato. NO se ha anadido snapshot a history.json: con cero medicion fresca un punto con fecha de hoy falsearia el grafico de evolucion (history.json intacto, ultimo dato real 2026-09-29). meta.inactive_accounts se conserva EXACTAMENTE igual que el run anterior: una cuenta sin comprobar no es ni inactiva ni activa. Contexto de creditos: la recarga del 28-09 dio runs normales el 28 y el 29-09; el 30-09 y hoy 01-10 la cuenta sigue bloqueada = 2 dias consecutivos sin medicion (racha actual). Patron habitual: ~2-3 dias operativos por recarga. Unica solucion: recargar en https://grok.com/?_s=usage . Fuente del source: este run es del cron 09f22b3f6f78 (el prompt referencia el id antiguo 09f22b3f6f78; el id del job actual es el mismo). sources.json NO generado: el entorno guerra-cultural-rag (/home/carlo/guerra-cultural-rag) no existe en este host Windows."
+    "notes": "FALLBACK COMPLETO (dia 3 de la racha de bloqueo actual: 30-09, 01-10 y 02-10). Los 4 x_search de la tanda 1 de topicos fallaron los cuatro con 'personal-team-blocked:spending-limit' ya en la primera llamada: la tanda de 4 hace de diagnostico (si las 4 fallan igual, es credito de cuenta, no forma de query). Los 12 topicos canonicos quedan marcados como stale y se reutilizan VERBATIM los valores de topics, news, trends, accounts y virals del ultimo run con datos reales (2026-09-29T08:16:58+02:00). NO se ha inventado ningun dato. NO se ha anadido snapshot a history.json: con cero medicion fresca un punto con fecha de hoy falsearia el grafico de evolucion (history.json intacto; ultimo dato real 2026-09-29, ya hay 12 snapshots y la ventana esta llena). meta.inactive_accounts se conserva EXACTAMENTE igual que el run anterior: una cuenta sin comprobar no es ni inactiva ni activa. Contexto de creditos: la recarga del 28-09 dio runs normales el 28 y el 29-09; desde el 30-09 la cuenta esta bloqueada = 3 dias consecutivos sin medicion. Patron habitual: ~2-3 dias operativos por recarga. Unica solucion: recargar en https://grok.com/?_s=usage . sources.json NO generado: el entorno /home/carlo/guerra-cultural-rag no existe en este host Windows."
   },
   "topics": [
     {
