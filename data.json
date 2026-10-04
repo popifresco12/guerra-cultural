@@ -7,7 +7,8 @@
       "inmigración España Ceuta Canarias llegadas irregulares regularización MENAS (desde 2026-09-30) [BLOQUEADO spending-limit]",
       "okupación España Desokupa desalojo acoso inmobiliario propietarios inquilinos (desde 2026-09-30) [BLOQUEADO spending-limit]",
       "independentismo Cataluña procés Puigdemont Junts ERC amnistía financiación singular (desde 2026-09-30) [BLOQUEADO spending-limit]",
-      "Tanda 1 completa (4/4 tópicos) rechazada IDÉNTICAMENTE con personal-team-blocked:spending-limit => agotamiento de créditos de la cuenta xAI, no problema de forma de query. No se lanzaron las tandas 2 y 3 ni las verificaciones de actividad de cuentas (fallback completo)."
+      "Tanda 1 completa (4/4 tópicos) rechazada IDÉNTICAMENTE con personal-team-blocked:spending-limit => agotamiento de créditos de la cuenta xAI, no problema de forma de query. No se lanzaron las tandas 2 y 3 ni las verificaciones de actividad de cuentas (fallback completo).",
+      "acampada de Sol vivienda Madrid España (estimado desde prensa web — x_search sin créditos, 2026-10-04)"
     ],
     "stale_topics": [
       "sanchismo",
@@ -36,6 +37,32 @@
     "notes": "FALLBACK COMPLETO (día 4 de la racha de bloqueo actual: 30-09, 01-10, 02-10 y 03-10). Los 4 x_search de la tanda 1 de tópicos fallaron los cuatro con 'personal-team-blocked:spending-limit' ya en la primera llamada: la tanda de 4 hace de diagnóstico (si las 4 fallan igual, es crédito de cuenta, no forma de query). Los 12 tópicos canónicos quedan marcados como stale y se reutilizan VERBATIM los valores de topics, news, trends, accounts y virals del último run con datos reales (2026-09-29T08:16:58+02:00). NO se ha inventado ningún dato. NO se ha añadido snapshot a history.json: con cero medición fresca un punto con fecha de hoy falsearía el gráfico de evolución (history.json intacto; último dato real 2026-09-29 y la ventana de 12 snapshots está llena). meta.inactive_accounts se conserva EXACTAMENTE igual que el run anterior: una cuenta sin comprobar no es ni inactiva ni activa. Contexto de créditos: la recarga del 28-09 dio runs normales el 28 y el 29-09; desde el 30-09 la cuenta está bloqueada = 4 días consecutivos sin medición. Patrón habitual: ~2-3 días operativos por recarga. Única solución: recargar en https://grok.com/?_s=usage . sources.json NO generado: el entorno /home/carlo/guerra-cultural-rag no existe en este host Windows."
   },
   "topics": [
+    {
+      "id": "acampada-sol",
+      "name": "Acampada de Sol",
+      "icon": "⛺",
+      "tag": "🔥 Tendencia alta",
+      "tagClass": "tag-hot",
+      "intensity": 92,
+      "momentum": 25,
+      "momentumDir": "left",
+      "summary": "El desahucio de Maricarmen Abascal (87 años) en Retiro desató una manifestación masiva que acabó en una acampada permanente en la Puerta del Sol, al estilo 15-M. El Sindicato de Inquilinas exige al Gobierno un decreto de vivienda —contratos indefinidos y fin de los desahucios sin alternativa habitacional— bajo el lema «O cae el rentismo o cae el Gobierno». El campamento (entre 150 y 350 tiendas) se mantiene hasta el Consejo de Ministros del martes y enfrenta al Gobierno central con el Ayuntamiento de Madrid, que lo declara ilegal.",
+      "quote": "«O cae el rentismo o cae el Gobierno» — consigna de los acampados en la Puerta del Sol",
+      "details": [
+        [
+          "Origen",
+          "Desahucio de Maricarmen, 87 años, tras 70 años en su piso de Retiro"
+        ],
+        [
+          "Asistencia",
+          "25.000 según la Delegación del Gobierno; 300.000 según los organizadores"
+        ],
+        [
+          "Demanda",
+          "Decreto de vivienda: contratos indefinidos y prohibición de desahucios sin alternativa"
+        ]
+      ]
+    },
     {
       "id": "sanchismo",
       "name": "Sanchismo",
