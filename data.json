@@ -1,16 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-10-03T08:01:37+02:00",
+    "generated_at": "2026-10-04T08:02:00+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "sanchismo España UCO Cerdán Zapatero fundaciones PSOE investigados corrupción (desde 2026-09-30) [BLOQUEADO spending-limit]",
-      "inmigración España Ceuta Canarias llegadas irregulares regularización MENAS (desde 2026-09-30) [BLOQUEADO spending-limit]",
-      "okupación España Desokupa desalojo acoso inmobiliario propietarios inquilinos (desde 2026-09-30) [BLOQUEADO spending-limit]",
-      "independentismo Cataluña procés Puigdemont Junts ERC amnistía financiación singular (desde 2026-09-30) [BLOQUEADO spending-limit]",
-      "Tanda 1 completa (4/4 tópicos) rechazada IDÉNTICAMENTE con personal-team-blocked:spending-limit => agotamiento de créditos de la cuenta xAI, no problema de forma de query. No se lanzaron las tandas 2 y 3 ni las verificaciones de actividad de cuentas (fallback completo).",
-      "acampada de Sol vivienda Madrid España (estimado desde prensa web — x_search sin créditos, 2026-10-04)"
+      "Tanda 1 de tópicos (5/5: acampada-sol, sanchismo, inmigracion, independentismo, okupacion) — TODAS rechazadas IDÉNTICAMENTE con personal-team-blocked:spending-limit en la primera llamada. La tanda de 5 hace de diagnóstico: si las 5 fallan igual, es crédito de la cuenta xAI, no forma de query.",
+      "No se lanzaron las tandas 2-3 de tópicos, ni la verificación de actividad de cuentas, ni la búsqueda de virales (fallback completo, 0/13 medidos).",
+      "acampada de Sol vivienda Madrid desahucio Maricarmen Sindicato de Inquilinas (desde 2026-10-01) [BLOQUEADO spending-limit]",
+      "sanchismo UCO Cerdán Fundación Pablo Iglesias Zapatero investigados corrupción PSOE (desde 2026-10-01) [BLOQUEADO spending-limit]",
+      "inmigración España Ceuta Canarias llegadas irregulares MENAS regularización (desde 2026-10-01) [BLOQUEADO spending-limit]",
+      "independentismo Cataluña Puigdemont Junts ERC amnistía financiación singular (desde 2026-10-01) [BLOQUEADO spending-limit]",
+      "okupación Desokupa desalojo okupas vivienda propietarios España (desde 2026-10-01) [BLOQUEADO spending-limit]"
     ],
     "stale_topics": [
+      "acampada-sol",
       "sanchismo",
       "inmigracion",
       "okupacion",
@@ -31,10 +33,10 @@
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "previous_generated_at": "2026-10-02T08:01:17+02:00",
+    "previous_generated_at": "2026-10-03T08:01:37+02:00",
     "previous_source": "cron 09f22b3f6f78",
     "fallback": "full",
-    "notes": "FALLBACK COMPLETO (día 4 de la racha de bloqueo actual: 30-09, 01-10, 02-10 y 03-10). Los 4 x_search de la tanda 1 de tópicos fallaron los cuatro con 'personal-team-blocked:spending-limit' ya en la primera llamada: la tanda de 4 hace de diagnóstico (si las 4 fallan igual, es crédito de cuenta, no forma de query). Los 12 tópicos canónicos quedan marcados como stale y se reutilizan VERBATIM los valores de topics, news, trends, accounts y virals del último run con datos reales (2026-09-29T08:16:58+02:00). NO se ha inventado ningún dato. NO se ha añadido snapshot a history.json: con cero medición fresca un punto con fecha de hoy falsearía el gráfico de evolución (history.json intacto; último dato real 2026-09-29 y la ventana de 12 snapshots está llena). meta.inactive_accounts se conserva EXACTAMENTE igual que el run anterior: una cuenta sin comprobar no es ni inactiva ni activa. Contexto de créditos: la recarga del 28-09 dio runs normales el 28 y el 29-09; desde el 30-09 la cuenta está bloqueada = 4 días consecutivos sin medición. Patrón habitual: ~2-3 días operativos por recarga. Única solución: recargar en https://grok.com/?_s=usage . sources.json NO generado: el entorno /home/carlo/guerra-cultural-rag no existe en este host Windows."
+    "notes": "FALLBACK COMPLETO (día 5 de la racha de bloqueo actual: 30-09, 01-10, 02-10, 03-10 y 04-10). La tanda 1 de tópicos (5/5: acampada-sol, sanchismo, inmigracion, independentismo, okupacion) falló IDÉNTICAMENTE en las cinco llamadas con 'personal-team-blocked:spending-limit' ya en la primera: la tanda hace de diagnóstico (si todas fallan igual, es crédito de cuenta, no forma de query). No se lanzaron las tandas 2-3, ni la verificación de actividad de cuentas, ni la búsqueda de virales (fallback completo). Los 13 tópicos canónicos quedan stale y se reutilizan VERBATIM topics, news, trends, accounts y virals del data.json en HEAD (último dato real medido en X: 2026-09-29; el tópico acampada-sol se añadió el 04-10 estimado desde prensa). NO se ha inventado ningún dato. NO se añade snapshot a history.json: con cero medición fresca un punto con fecha de hoy falsearía el gráfico de evolución (history.json intacto; ya contiene el snapshot 2026-10-04T02:30:30 del commit que añadió 'Acampada de Sol'). meta.inactive_accounts se conserva EXACTAMENTE igual que el run anterior: una cuenta sin comprobar no es ni inactiva ni activa. Contexto de créditos: la recarga del 28-09 dio runs normales el 28 y el 29-09; desde el 30-09 la cuenta está bloqueada = 5 días consecutivos sin medición. Patrón habitual: ~2-3 días operativos por recarga. Única solución: recargar en https://grok.com/?_s=usage . sources.json NO regenerado: el entorno /home/carlo/guerra-cultural-rag no existe en este host Windows."
   },
   "topics": [
     {
