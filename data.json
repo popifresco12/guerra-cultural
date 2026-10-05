@@ -1,29 +1,25 @@
 {
   "meta": {
-    "generated_at": "2026-10-04T08:02:00+02:00",
+    "generated_at": "2026-10-05T08:05:00+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "Tanda 1 de tópicos (5/5: acampada-sol, sanchismo, inmigracion, independentismo, okupacion) — TODAS rechazadas IDÉNTICAMENTE con personal-team-blocked:spending-limit en la primera llamada. La tanda de 5 hace de diagnóstico: si las 5 fallan igual, es crédito de la cuenta xAI, no forma de query.",
-      "No se lanzaron las tandas 2-3 de tópicos, ni la verificación de actividad de cuentas, ni la búsqueda de virales (fallback completo, 0/13 medidos).",
-      "acampada de Sol vivienda Madrid desahucio Maricarmen Sindicato de Inquilinas (desde 2026-10-01) [BLOQUEADO spending-limit]",
-      "sanchismo UCO Cerdán Fundación Pablo Iglesias Zapatero investigados corrupción PSOE (desde 2026-10-01) [BLOQUEADO spending-limit]",
-      "inmigración España Ceuta Canarias llegadas irregulares MENAS regularización (desde 2026-10-01) [BLOQUEADO spending-limit]",
-      "independentismo Cataluña Puigdemont Junts ERC amnistía financiación singular (desde 2026-10-01) [BLOQUEADO spending-limit]",
-      "okupación Desokupa desalojo okupas vivienda propietarios España (desde 2026-10-01) [BLOQUEADO spending-limit]"
+      "acampada Puerta del Sol Madrid vivienda decreto desahucios Sindicato de Inquilinas Maricarmen manifestación (desde 2026-10-02)",
+      "UCO registra fundaciones PSOE pitufeo comisiones constructores imputación partido persona jurídica Cerdán (desde 2026-10-02) [1er intento degradado sin citas → reintento: 'Sánchez PSOE corrupción Cerdán Ábalos imputación fundaciones']",
+      "inmigración España Ceuta Canarias llegadas irregulares cayucos MENAS regularización (desde 2026-10-02)",
+      "independentismo Cataluña Puigdemont Junts ERC amnistía Tribunal Constitucional financiación singular (desde 2026-10-02)",
+      "okupación Desokupa Daniel Esteve desalojo okupas vivienda propietarios España (desde 2026-10-02)",
+      "memoria histórica: 'Ley de Memoria Democrática exhumaciones fosas comunes Valle de Cuelgamuros' (2 intentos degradados) → 'exhumaciones Cuelgamuros restos identificados familias republicanas memoria histórica España' (truncado) → 'polémica exhumaciones Cuelgamuros familias republicanas memoria democrática Gobierno' (desde 2026-09-27) OK",
+      "feminismo: 1er intento degradado → 'feminismo abolicionista prostitución España debate Montero 8M' (desde 2026-10-02) OK",
+      "ideología woke España universidad subvenciones polémica (desde 2026-10-02)",
+      "cultura de la cancelación Savater Harwicz Granada veto artistas censura Josema Yuste cine (desde 2026-10-02)",
+      "ley trans España autodeterminación género menores bloqueadores hormonas polémica (desde 2026-10-02)",
+      "lenguaje inclusivo todes elle RAE ayuntamiento polémica (desde 2026-10-02)",
+      "espana-vaciada: 1er intento sin citas → 'despoblación España vaciada Teruel Existe reivindicaciones pueblos abandonados' (desde 2026-09-27) OK",
+      "facha: 'facha insulto político España Vox izquierda PSOE violencia doble vara' + 'facha Vox insulto política España debate redes' + 'ultraderecha España Vox Abascal agresión escrache violencia política polémica' → 3/3 degradados sin citas (desde 2026-09-27). TÓPICO STALE.",
+      "Verificación de actividad de cuentas: 4 tandas de 4 handles (allowed_x_handles + handles nombrados en el texto), desde 2026-10-01",
+      "Búsqueda de virales con enlaces y engagement (allowed_x_handles, 6 handles) → degradada (solo preámbulo). Virals construidos con las URLs reales ya devueltas por las búsquedas de tópicos y de cuentas del mismo run."
     ],
     "stale_topics": [
-      "acampada-sol",
-      "sanchismo",
-      "inmigracion",
-      "okupacion",
-      "independentismo",
-      "memoria",
-      "feminismo",
-      "woke",
-      "cultura-cancelacion",
-      "ley-trans",
-      "lenguaje-inclusivo",
-      "espana-vaciada",
       "facha"
     ],
     "inactive_accounts": [
@@ -33,10 +29,9 @@
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "previous_generated_at": "2026-10-03T08:01:37+02:00",
+    "previous_generated_at": "2026-10-04T08:02:00+02:00",
     "previous_source": "cron 09f22b3f6f78",
-    "fallback": "full",
-    "notes": "FALLBACK COMPLETO (día 5 de la racha de bloqueo actual: 30-09, 01-10, 02-10, 03-10 y 04-10). La tanda 1 de tópicos (5/5: acampada-sol, sanchismo, inmigracion, independentismo, okupacion) falló IDÉNTICAMENTE en las cinco llamadas con 'personal-team-blocked:spending-limit' ya en la primera: la tanda hace de diagnóstico (si todas fallan igual, es crédito de cuenta, no forma de query). No se lanzaron las tandas 2-3, ni la verificación de actividad de cuentas, ni la búsqueda de virales (fallback completo). Los 13 tópicos canónicos quedan stale y se reutilizan VERBATIM topics, news, trends, accounts y virals del data.json en HEAD (último dato real medido en X: 2026-09-29; el tópico acampada-sol se añadió el 04-10 estimado desde prensa). NO se ha inventado ningún dato. NO se añade snapshot a history.json: con cero medición fresca un punto con fecha de hoy falsearía el gráfico de evolución (history.json intacto; ya contiene el snapshot 2026-10-04T02:30:30 del commit que añadió 'Acampada de Sol'). meta.inactive_accounts se conserva EXACTAMENTE igual que el run anterior: una cuenta sin comprobar no es ni inactiva ni activa. Contexto de créditos: la recarga del 28-09 dio runs normales el 28 y el 29-09; desde el 30-09 la cuenta está bloqueada = 5 días consecutivos sin medición. Patrón habitual: ~2-3 días operativos por recarga. Única solución: recargar en https://grok.com/?_s=usage . sources.json NO regenerado: el entorno /home/carlo/guerra-cultural-rag no existe en este host Windows."
+    "notes": "RECUPERACIÓN tras 5 días de bloqueo por crédito: la última medición real en X fue el 2026-09-29; del 30-09 al 04-10 el tópico batch 1 falló con 'personal-team-blocked:spending-limit' (fallback completo). HOY la tanda 1 (5/5) ha devuelto análisis con citas: créditos restaurados. Se han medido 12/13 tópicos con datos frescos; 'memoria', 'sanchismo', 'feminismo' y 'espana-vaciada' requirieron reintento por degradación ('no citations returned despite filters: from_date' — fallo de forma de query, no de crédito). Solo 'facha' queda STALE: 3 intentos con queries distintas (insulto/violencia política) devolvieron 'no citations returned despite filters' sin posts medibles; se reutilizan sus valores del data.json anterior y se añade a stale_topics (el dashboard muestra el banner). El tópico 'acampada-sol', estimado desde prensa el 04-10, queda MEDIDO con datos reales de X en este run. Cuentas: 5 marcadas inactivas (dianitanoticias, elxokas, VictorLapuente, elmundotoday, littleragergirl) en la ventana 01-05 oct — una cuenta sin posts es quietud, no baja; se conservan en el directorio. Estado de créditos: recarga agotada en ~2-3 días históricamente; este run confirma crédito operativo tras el bloqueo de 5 días. sources.json NO regenerado: el entorno /home/carlo/guerra-cultural-rag no existe en este host Windows."
   },
   "topics": [
     {
@@ -45,23 +40,23 @@
       "icon": "⛺",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 92,
-      "momentum": 25,
+      "intensity": 90,
+      "momentum": 32,
       "momentumDir": "left",
-      "summary": "El desahucio de Maricarmen Abascal (87 años) en Retiro desató una manifestación masiva que acabó en una acampada permanente en la Puerta del Sol, al estilo 15-M. El Sindicato de Inquilinas exige al Gobierno un decreto de vivienda —contratos indefinidos y fin de los desahucios sin alternativa habitacional— bajo el lema «O cae el rentismo o cae el Gobierno». El campamento (entre 150 y 350 tiendas) se mantiene hasta el Consejo de Ministros del martes y enfrenta al Gobierno central con el Ayuntamiento de Madrid, que lo declara ilegal.",
-      "quote": "«O cae el rentismo o cae el Gobierno» — consigna de los acampados en la Puerta del Sol",
+      "summary": "La acampada de la Puerta del Sol por la vivienda, nacida tras el desahucio de Maricarmen Abascal (87 años) y ya en su segunda semana, se consolida como forma de presión permanente. El Sindicato de Inquilinas anunció una retirada parcial para «llevar la lucha a los barrios», pero los campistas continúan y se habla de preparar una huelga general por la vivienda. La manifestación del sábado 3 de octubre tuvo cifras disputadas (cientos de miles según los organizadores, ~70.000 según la Delegación) y hubo intentos de grupos de ultraderecha de reventar la acampada, con detenciones y carga policial.",
+      "quote": "«O cae el rentismo o cae el Gobierno»: el Sindicato de Inquilinas amplía la acampada de Sol más allá de la plaza y amaga con una huelga general por la vivienda.",
       "details": [
         [
-          "Origen",
-          "Desahucio de Maricarmen, 87 años, tras 70 años en su piso de Retiro"
+          "Estado",
+          "Acampada en su 2ª semana en Sol; retirada parcial del Sindicato para extenderla a los barrios"
         ],
         [
-          "Asistencia",
-          "25.000 según la Delegación del Gobierno; 300.000 según los organizadores"
+          "Detonante",
+          "Desahucio de Maricarmen Abascal (87 años) y rechazo de los 'decretos Maricarmen' en el Congreso"
         ],
         [
-          "Demanda",
-          "Decreto de vivienda: contratos indefinidos y prohibición de desahucios sin alternativa"
+          "Incidentes",
+          "Intentos de grupos de ultraderecha de reventar el campamento; cargas y detenciones"
         ]
       ]
     },
@@ -74,8 +69,8 @@
       "intensity": 95,
       "momentum": 92,
       "momentumDir": "right",
-      "summary": "La UCO registra la Fundación Pablo Iglesias y otras fundaciones vinculadas al PSOE en busca del 'pitufeo' (comisiones de constructores camufladas como donaciones) mientras crece la vía venezolana: cupos de petróleo, el entorno de Delcy Rodríguez y mensajes intervenidos con referencias a 'Z' y 'el 1'. El partido se acerca a su imputación como persona jurídica por triple vía —financiación irregular, pagos a cloacas y desvío de fondos europeos—, con el Tribunal de Cuentas cercando fundaciones 'fantasma'. El relato dominante en X es la cascada de corrupción del sanchismo, con Cerdán, Zapatero y Ábalos como piezas del mismo puzle.",
-      "quote": "La UCO registra fundaciones del PSOE buscando el 'pitufeo' que conecta las comisiones de constructores con la financiación del partido, y la imputación del partido como persona jurídica se acerca por triple vía.",
+      "summary": "La trama Koldo y sus derivadas dominan la conversación: la UCO investiga al entorno de Ábalos por comisiones en contratos de mascarillas y una presunta financiación ilegal del PSOE a través de reuniones con Delcy Rodríguez para blanquear dinero de mordidas y petróleo venezolano. Santos Cerdán, exsecretario de Organización, aparece imputado por organización criminal y cohecho, con el Supremo planteándose imputar al propio PSOE como persona jurídica. El relato en X agrupa a Ábalos, Cerdán, el hermano de Sánchez y Begoña Gómez en una cascada de corrupción del sanchismo.",
+      "quote": "La UCO investiga reuniones de Koldo con Delcy Rodríguez para un banco que blanqueara mordidas en contratos públicos, y el Supremo se plantea imputar al PSOE como persona jurídica.",
       "details": [
         [
           "Volumen en X",
@@ -87,7 +82,7 @@
         ],
         [
           "Impulsado por",
-          "UCO, fundaciones del PSOE y la vía venezolana"
+          "Trama Koldo, UCO, Cerdán imputado y la vía venezolana"
         ]
       ]
     },
@@ -100,8 +95,8 @@
       "intensity": 93,
       "momentum": 88,
       "momentumDir": "right",
-      "summary": "Ceuta sigue funcionando como CETI permanente meses después del salto masivo de julio y Canarias mantiene el goteo diario de cayucos, con más del 80% de las llegadas acabando en la península. El PP canario reclama un plan de choque con despliegue de Frontex y Fuerzas Armadas y rechaza redistribuir a quienes no entraron por sus fronteras. La regularización extraordinaria con más de 1,17 millones de solicitudes y las plazas para MENAs frente a la crisis de vivienda son los ejes de la bronca diaria en X.",
-      "quote": "Más del 80% de las llegadas a Canarias acaban en la península, mientras el PP canario exige Frontex y Fuerzas Armadas y rechaza la redistribución a otras comunidades.",
+      "summary": "El refuerzo del «cerrojo» en Ceuta ha desplazado el flujo a la ruta atlántica: en septiembre las llegadas a Canarias se triplicaron (~1.970-2.100), con más del 60% procedente de Marruecos, mientras el PP canario reclama «blindar» la ruta y desplegar Frontex. El Gobierno ha repartido por la península a 213 MENAS de Ceuta y hay debate sobre los costes y la reagrupación familiar. La regularización extraordinaria se defiende desde el Ejecutivo como motor económico mientras la oposición la señala como «efecto llamada».",
+      "quote": "Las llegadas a Canarias se triplican en septiembre mientras el PP exige blindar la ruta atlántica; el Gobierno reparte 213 MENAS de Ceuta por la península.",
       "details": [
         [
           "Volumen en X",
@@ -113,7 +108,7 @@
         ],
         [
           "Impulsado por",
-          "Ceuta, la ruta canaria y la regularización de 1,17M de solicitudes"
+          "Ruta canaria, reparto de MENAS de Ceuta y la regularización"
         ]
       ]
     },
@@ -123,11 +118,11 @@
       "icon": "🏠",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 84,
-      "momentum": 80,
+      "intensity": 82,
+      "momentum": 78,
       "momentumDir": "right",
-      "summary": "La crisis de vivienda ha reabierto el frente okupa: la acampada de Sol y los decretos anti-desahucios chocan con los propietarios que siguen denunciando años de espera judicial para recuperar sus casas. Desokupa y Daniel Esteve vuelven a ser el símbolo del choque —héroes necesarios para unos, negocio ultraderechista para otros—, con insultos cruzados entre Fonsi Loaiza y el entorno de la empresa. Los tuiteros enlazan okupación y crisis habitacional como una sola guerra cultural.",
-      "quote": "Daniel Esteve y Desokupa como símbolo del choque: defensores de la propiedad frente a quienes lo llaman 'gimnasio de fachas', mientras la acampada de Sol reclama vivienda pública.",
+      "summary": "La crisis de vivienda mantiene el frente okupa en primer plano: la acampada de Sol y los desahucios chocan con propietarios que denuncian años de espera judicial para recuperar sus casas. Desokupa y Daniel Esteve vuelven a ser el símbolo del choque —solución práctica para unos, violencia privada ultraderechista para otros—, con menciones incluso a un posible «partido Desokupa». La acampada de la Puerta del Sol es el escenario donde se cruzan los insultos entre Fonsi Loaiza y el entorno de la empresa.",
+      "quote": "Daniel Esteve y Desokupa como símbolo: solución práctica para propietarios ante la lentitud judicial, 'violencia privada de ultraderecha' para sus críticos.",
       "details": [
         [
           "Volumen en X",
@@ -139,7 +134,7 @@
         ],
         [
           "Impulsado por",
-          "Acampada de Sol, decretos anti-desahucios y Desokupa"
+          "Acampada de Sol, desahucios y el caso Desokupa"
         ]
       ]
     },
@@ -149,11 +144,11 @@
       "icon": "🗺️",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 82,
-      "momentum": 71,
+      "intensity": 86,
+      "momentum": 74,
       "momentumDir": "right",
-      "summary": "El independentismo vuelve a la primera línea por el calendario del Constitucional: se espera una sentencia sobre la amnistía en torno al 6-8 de octubre que podría abrir el regreso de Puigdemont. Los tuiteros leen el cambio de voto de Junts en un real decreto de vivienda como moneda de cambio y recuerdan que la ley de amnistía se aprobó por pura aritmética parlamentaria. La financiación singular catalana se trata como la otra cesión estructural del mismo paquete.",
-      "quote": "El único 'espíritu y finalidad' de la ley de amnistía fue complacer a Puigdemont para que su Sanchidad pueda seguir atornillado al sillón.",
+      "summary": "El independentismo catalán vuelve a la primera línea por el calendario del Tribunal Constitucional: se espera que en torno al 6 de octubre avale incluir la malversación en la amnistía, corrigiendo al Supremo y abriendo la puerta al regreso de Puigdemont. El unionismo lee la decisión como una concesión política al servicio del Gobierno y el propio independentismo se divide entre Junts (más confrontación y retorno de Puigdemont) y ERC (más institucionalista, con la financiación singular como bandera). La financiación singular catalana sigue siendo la otra moneda de cambio del paquete.",
+      "quote": "El TC decide en torno al 6 de octubre sobre la malversación en la amnistía: la puerta al regreso de Puigdemont se abre mientras el unionismo habla de impunidad pactada.",
       "details": [
         [
           "Volumen en X",
@@ -161,11 +156,11 @@
         ],
         [
           "Sentimiento",
-          "Crítico con el 'chantaje' de Junts"
+          "Crítico con el 'chantaje' independentista"
         ],
         [
           "Impulsado por",
-          "Sentencia del TC, regreso de Puigdemont y financiación singular"
+          "Sentencia del TC sobre la amnistía, Puigdemont y financiación singular"
         ]
       ]
     },
@@ -175,11 +170,11 @@
       "icon": "📜",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 86,
-      "momentum": 84,
+      "intensity": 84,
+      "momentum": 82,
       "momentumDir": "right",
-      "summary": "El documental de RTVE 'Cuelgamuros, entre lo difícil y lo imposible' reabre la batalla por las exhumaciones del Valle: 33.800 restos, más de 12.000 sin identificar y familias republicanas reclamando a sus muertos. El ministro Ángel Víctor Torres defiende verdad, justicia y reparación como principios irrenunciables, mientras el otro bando habla de 'remover huesos sin permiso' y de TelePedro propagandístico en RTVE. La polémica mezcla trabajo forense real —restos mezclados y deteriorados— con acusaciones de revanchismo.",
-      "quote": "Si Franco levantara la cabeza diría: 'Me han pillado... era sobre todo una fosa común para los que no quisieron mi dictadura'.",
+      "summary": "El documental de RTVE 'Cuelgamuros, entre lo difícil y lo imposible' reabre la batalla por las exhumaciones: los 33.800 restos del Valle, más de 12.000 sin identificar, y los avances forenses —cientos de cuerpos recuperados y familias que empiezan a recibir restos identificados. La Asociación de Familiares para la Exhumación de los Republicanos del Valle (AFPERV) reclama más ritmo y transparencia frente a los avances técnicos mostrados. La oposición critica las exhumaciones como «revanchismo» y cuestiona el gasto.",
+      "quote": "Los forenses recuperan cientos de restos en las criptas de Cuelgamuros mientras la AFPERV reclama más ritmo y transparencia para las familias republicanas.",
       "details": [
         [
           "Volumen en X",
@@ -191,7 +186,7 @@
         ],
         [
           "Impulsado por",
-          "Documental de Cuelgamuros y las exhumaciones reclamadas"
+          "Documental de RTVE sobre Cuelgamuros y las exhumaciones reclamadas"
         ]
       ]
     },
@@ -201,11 +196,11 @@
       "icon": "⚡",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 71,
-      "momentum": 62,
+      "intensity": 72,
+      "momentum": 65,
       "momentumDir": "right",
-      "summary": "El cisma dentro del feminismo sigue siendo el motor: abolicionistas materialistas contra el feminismo queer de la etapa Montero, con la prostitución como línea de fractura. Las críticas recuerdan que Podemos no impulsó una ley abolicionista clara y que la ley 'solo sí es sí' acabó en más de mil rebajas de condena y centenares de excarcelaciones. El volumen se mantiene moderado, lejos de los picos de otras semanas, con el sector abolicionista dominando la conversación visible.",
-      "quote": "La ley del 'solo sí es sí' se convirtió en el catalizador del cisma: abolicionistas materialistas contra el feminismo queer de Montero.",
+      "summary": "El II Congreso Estatal Abolicionista celebrado en Sevilla a principios de octubre reactiva el cisma: el sector abolicionista exige la LOASP (ley orgánica de abolición del sistema prostitucional) como ley de derechos humanos y vincula abolición con coeducación contra la cosificación. Las críticas a Irene Montero y al «feminismo de Estado» se mantienen —por no impulsar una ley abolicionista plena y diluir el sujeto «mujer» en la identidad de género—, mientras el sector pro-derechos denuncia la criminalización del trabajo sexual. El 8M sigue siendo la caja de resonancia de la fractura.",
+      "quote": "El II Congreso Estatal Abolicionista de Sevilla consagra la LOASP como bandera: abolición del sistema prostitucional frente al 'feminismo queer' de la etapa Montero.",
       "details": [
         [
           "Volumen en X",
@@ -213,11 +208,11 @@
         ],
         [
           "Sentimiento",
-          "Crítico con Montero y Podemos"
+          "Crítico con Montero y el 'feminismo de Estado'"
         ],
         [
           "Impulsado por",
-          "Debate abolicionista y balance del 'solo sí es sí'"
+          "II Congreso Abolicionista de Sevilla y la exigencia de la LOASP"
         ]
       ]
     },
@@ -225,13 +220,13 @@
       "id": "woke",
       "name": "Wokismo / Ideología Woke",
       "icon": "🌿",
-      "tag": "🔥 Tendencia alta",
-      "tagClass": "tag-hot",
-      "intensity": 80,
-      "momentum": 78,
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 78,
+      "momentum": 76,
       "momentumDir": "right",
-      "summary": "La denuncia del wokismo se sostiene por acumulación de casos más que por un escándalo único: convocatorias del Ministerio de Igualdad, premios a TFG y másteres sobre identidad sexual en la Comunidad Valenciana y 182.000 euros en Canarias para formación del profesorado son los ejemplos que circulan. Los críticos hablan de captura ideológica de la universidad pública con dinero público y de clientelismo en las subvenciones; el otro lado responde que la perspectiva de género combate discriminación real. El tema ha recuperado volumen respecto a ayer.",
-      "quote": "Se denuncian subvenciones de 'perspectiva de género' y premios a TFG con dinero público como adoctrinamiento financiado en la universidad.",
+      "summary": "La denuncia del wokismo se sostiene por acumulación de casos más que por un escándalo único: se denuncia que universidades públicas financiadas con impuestos y subvenciones de Igualdad priorizan el adoctrinamiento ideológico sobre la excelencia —estudios de género, DEI, Agenda 2030— como I+D+i encubierto. Circulan comparaciones con el «virus mental woke» y críticas a la cancelación de disidentes en las aulas. El otro lado responde que la perspectiva de género es un enfoque analítico legítimo y que el dinero público no equivale a adoctrinamiento.",
+      "quote": "Se denuncia que subvenciones públicas e Igualdad financian estudios de género y DEI 'como si fueran I+D+i', con la universidad como supuesta correa de transmisión ideológica.",
       "details": [
         [
           "Volumen en X",
@@ -243,7 +238,7 @@
         ],
         [
           "Impulsado por",
-          "Subvenciones de Igualdad y planes de igualdad universitarios"
+          "Subvenciones públicas, estudios de género y planes DEI universitarios"
         ]
       ]
     },
@@ -251,13 +246,13 @@
       "id": "cultura-cancelacion",
       "name": "Cultura de la Cancelación",
       "icon": "🔇",
-      "tag": "🔥 Tendencia alta",
-      "tagClass": "tag-hot",
-      "intensity": 81,
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 78,
       "momentum": 72,
       "momentumDir": "right",
-      "summary": "El caso de la escritora argentina Ariana Harwicz, excluida del Festival CulturAlh de Granada y con John Banville retirándose en protesta, dio a Savater su ejemplo perfecto de 'cultura de los proscritos'. Josema Yuste denuncia que no le llaman para hacer cine 'por ser de derechas', leído en X como boicot informal a los perfiles no progresistas de la industria. La polémica se solapa con los vetos cruzados por Palestina e Israel en el sector cultural y con casos de humoristas juzgados por tuits antiguos.",
-      "quote": "No me llama ni Dios para hacer cine por ser de derechas, pero me importa una mierda.",
+      "summary": "El caso de la escritora argentina Ariana Harwicz, excluida del festival CULTUR-ALH de Granada por sus posiciones sobre el boicot a Israel, sigue siendo el paradigma de la cancelación cultural: la organización lo niega como veto y lo enmarca en sus «posturas políticas», mientras la embajada argentina pidió desagravio y Harwicz lo denuncia como antisemitismo. La polémica se mezcla con las quejas de Josema Yuste sobre el cine español («no me llama ni Dios por ser de derechas») y con el debate sobre si hoy se cancelaría una película como '¡Átame!'. Savater vuelve a citarse como referente anti-cancelación.",
+      "quote": "La exclusión de Harwicz del festival de Granada, con la embajada argentina pidiendo desagravio, se lee como el caso perfecto de 'cultura de los proscritos'.",
       "details": [
         [
           "Volumen en X",
@@ -269,7 +264,7 @@
         ],
         [
           "Impulsado por",
-          "Caso Harwicz/Granada y las quejas de Josema Yuste"
+          "Caso Harwicz/Granada y las quejas de Josema Yuste sobre el cine"
         ]
       ]
     },
@@ -279,11 +274,11 @@
       "icon": "⚧️",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 77,
-      "momentum": 76,
+      "intensity": 74,
+      "momentum": 75,
       "momentumDir": "right",
-      "summary": "La Ley 4/2023 sigue en el centro del choque por los menores: autodeterminación registral desde los 16 años, de 14 a 16 con asistencia de los tutores y antes solo por vía judicial, mientras los tratamientos —bloqueadores y hormonas— quedan en manos de los protocolos autonómicos. Madrid mantiene el enfoque más cauto y el marco estatal no ha recogido el giro restrictivo europeo posterior al Informe Cass. Detransiciones, listas de espera en las unidades de género y la comparación con el cierre de Tavistock alimentan el debate.",
-      "quote": "Los tratamientos hormonales en menores dependen de protocolos autonómicos —Madrid más restrictivo— tras el giro europeo posterior al Informe Cass.",
+      "summary": "La Ley 4/2023 sigue en el centro del choque por los menores: autodeterminación registral desde los 16 años, de 14 a 16 con asistencia de los tutores y antes solo por vía judicial, mientras los tratamientos —bloqueadores de pubertad y hormonas— quedan en manos de los protocolos autonómicos y el modelo afirmativo. El giro europeo posterior al Informe Cass (Suecia, Finlandia, Inglaterra restringiendo bloqueadores fuera de ensayos) y las detransiciones alimentan las críticas, con impugnaciones ante el Constitucional aún sin pronunciamiento definitivo sobre los menores.",
+      "quote": "Los bloqueadores de pubertad y las hormonas en menores dependen de protocolos autonómicos tras el giro europeo post-Cass, mientras el TC aún no se pronuncia sobre los puntos más polémicos.",
       "details": [
         [
           "Volumen en X",
@@ -305,11 +300,11 @@
       "icon": "📝",
       "tag": "📌 Estable",
       "tagClass": "tag-stable",
-      "intensity": 60,
-      "momentum": 63,
+      "intensity": 58,
+      "momentum": 62,
       "momentumDir": "right",
-      "summary": "La RAE sigue actuando como freno normativo: el masculino genérico ya incluye a ambos sexos y formas como 'todes' o 'elle' son ajenas a la morfología del español, sin cabida en la lengua culta. La polémica se reaviva cada vez que un ayuntamiento o una administración usa 'les' o 'todes' en comunicados, carteles o guías escolares. El tema mantiene volumen estable y sin picos, con los críticos dominando la conversación visible y los defensores con mucha menos tracción viral.",
-      "quote": "'Todes' no forma parte de la morfología del español: la RAE no recomienda formas ajenas al sistema gramatical en la lengua culta ni en la administración.",
+      "summary": "La RAE mantiene su freno normativo: el masculino genérico ya incluye a ambos sexos y formas como 'todes', 'elle' o la terminación en -e son ajenas a la morfología del español y no tienen cabida en la lengua culta. La polémica se reaviva cada vez que un ayuntamiento o administración usa 'les' o 'todes' en comunicados, carteles o guías escolares, con el choque entre quienes lo ven como «justicia lingüística» y quienes lo llaman «ingeniería social». Volumen estable, sin picos, con los críticos dominando la conversación visible.",
+      "quote": "'Todes' no forma parte de la morfología del español: la RAE recuerda que ningún ayuntamiento tiene autoridad para reformar la gramática.",
       "details": [
         [
           "Volumen en X",
@@ -331,11 +326,11 @@
       "icon": "🏘️",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 70,
-      "momentum": 57,
+      "intensity": 68,
+      "momentum": 58,
       "momentumDir": "right",
-      "summary": "Teruel Existe mantiene la presión con dos caballos de batalla: los 19 meses sin tren en Teruel por las obras y la petición de bajar un 25% el tramo autonómico del IRPF para los habitantes del medio rural. El debate se ha enganchado a la crisis de vivienda —'hay casas vacías en los pueblos'— y a la implantación de centros de datos y renovables en Aragón, criticada como extractivismo sin empleo local estable. Más de 3.000 pueblos abandonados o en riesgo extremo siguen siendo el dato de fondo.",
-      "quote": "19 meses sin tren en Teruel por obras y una petición de bajada del 25% del tramo autonómico del IRPF para el medio rural frente al 0,25% actual.",
+      "summary": "Teruel Existe mantiene la presión con el Corredor Cantábrico-Mediterráneo de doble vía —prometido hace más de 20 años y con la provincia meses sin tren por obras— y la construcción de los hospitales de Teruel y Alcañiz, proponiendo reutilizar el antiguo hospital como centro sociosanitario. El movimiento engancha el debate a la regulación de plantas de biogás y a la planificación de centros de datos y renovables para que no compitan por el agua con la agricultura. Teruel, con ~9 hab/km², sigue siendo el símbolo de la «Siberia española» frente a Madrid y Zaragoza.",
+      "quote": "Teruel Existe exige el Corredor Cantábrico-Mediterráneo de doble vía —prometido hace 20 años— y los hospitales de Teruel y Alcañiz mientras la provincia encadena meses sin tren.",
       "details": [
         [
           "Volumen en X",
@@ -347,7 +342,7 @@
         ],
         [
           "Impulsado por",
-          "Teruel Existe, el tren y los centros de datos en Aragón"
+          "Teruel Existe, el Corredor ferroviario y los centros de datos en Aragón"
         ]
       ]
     },
@@ -380,30 +375,43 @@
   ],
   "news": [
     {
-      "title": "La UCO registra fundaciones del PSOE y estrecha el cerco a la imputación del partido como persona jurídica",
-      "date": "27 sep 2026",
-      "summary": "La Unidad Central Operativa busca el 'pitufeo' —comisiones de constructores camufladas como donaciones— en fundaciones vinculadas al PSOE, entre ellas la Fundación Pablo Iglesias, presidida por Santos Cerdán en el periodo investigado. A la vía de la financiación irregular se suman los pagos a cloacas y el desvío de fondos europeos, con mensajes intervenidos que conectan el entorno de Zapatero con Delcy Rodríguez. El Tribunal de Cuentas cerca además fundaciones 'fantasma' del partido.",
-      "source": "X / El Debate, Vozpópuli, ABC",
+      "title": "El Constitucional decide en torno al 6 de octubre sobre la amnistía a Puigdemont por malversación",
+      "date": "3 oct 2026",
+      "summary": "El Tribunal Constitucional, presidido por Cándido Conde-Pumpido, votaría en los primeros días de octubre corregir al Supremo e incluir la malversación en la ley de amnistía, abriendo la puerta al regreso de Puigdemont. El unionismo lo lee como una concesión política al servicio del Gobierno y el independentismo se divide entre el pragmatismo de Junts y el institucionalismo de ERC, con la financiación singular catalana como moneda de cambio del mismo paquete.",
+      "source": "X / elindepcom, edatvoficial, informativost5",
+      "tags": [
+        "Independentismo",
+        "Amnistía",
+        "Tribunal Constitucional"
+      ]
+    },
+    {
+      "title": "La acampada de Sol se extiende a los barrios y amaga con una huelga general por la vivienda",
+      "date": "4 oct 2026",
+      "summary": "En su segunda semana, la acampada de la Puerta del Sol sigue activa tras el anuncio del Sindicato de Inquilinas de una retirada parcial para «llevar la lucha a todos los barrios, bloques y casas». Hubo intentos de grupos de ultraderecha de reventar el campamento, con cargas policiales y detenciones, y la manifestación del sábado 3 de octubre registró cifras disputadas. Sobre la mesa, la exigencia de un decreto de vivienda tras el rechazo de los «decretos Maricarmen».",
+      "source": "X / Archivos_ag, anluma99, LaRocaLaSexta",
+      "tags": [
+        "Vivienda",
+        "Acampada de Sol",
+        "Sindicato de Inquilinas"
+      ]
+    },
+    {
+      "title": "La UCO estrecha la vía venezolana y el Supremo estudia imputar al PSOE como persona jurídica",
+      "date": "3 oct 2026",
+      "summary": "La UCO investiga reuniones de Koldo García con Delcy Rodríguez para crear un banco que blanqueara mordidas en contratos públicos y dinero del petróleo venezolano, en el marco de la trama que salpica a Ábalos. Santos Cerdán, exsecretario de Organización del PSOE, aparece imputado por organización criminal y cohecho, mientras el Supremo se plantea imputar al propio partido por financiación ilegal. En X se agrupan Ábalos, Cerdán, el hermano de Sánchez y Begoña Gómez en un mismo relato de corrupción.",
+      "source": "X / criaturina, extraydura, latidomalagacf",
       "tags": [
         "Sanchismo",
-        "Corrupción"
+        "Corrupción",
+        "Caso Koldo"
       ]
     },
     {
-      "title": "El documental de Cuelgamuros reabre la batalla por las exhumaciones del Valle",
-      "date": "28 sep 2026",
-      "summary": "El estreno de 'Cuelgamuros, entre lo difícil y lo imposible' en RTVE devuelve al primer plano los 33.800 restos del Valle, más de 12.000 sin identificar y las familias republicanas que reclaman a sus muertos. El ministro Ángel Víctor Torres defiende verdad, justicia y reparación; el otro bando acusa al Gobierno de 'remover huesos sin permiso' y a RTVE de propaganda. El trabajo forense sigue con restos mezclados y deteriorados que complican las identificaciones genéticas.",
-      "source": "X / RTVE, Contraprograma, tercerainfo",
-      "tags": [
-        "Memoria Histórica",
-        "Cuelgamuros"
-      ]
-    },
-    {
-      "title": "Ceuta y Canarias, entre el CETI permanente y las exigencias de Frontex y Fuerzas Armadas",
-      "date": "27 sep 2026",
-      "summary": "Meses después del salto masivo de julio, miles de migrantes siguen alojados en la ciudad de Ceuta entre CETI, CATE y viviendas particulares, mientras Canarias registra llegadas diarias de cayucos y traslada a la península a más del 80% de los que desembarcan. El PP canario reclama un plan de choque con despliegue de Frontex y Fuerzas Armadas, control de las mafias y rechazo a la redistribución. La regularización extraordinaria con 1,17 millones de solicitudes y las plazas para MENAs frente a la falta de vivienda pública completan el cuadro.",
-      "source": "X / eldigitalsur, AstridPerezBat, BeaGonzo",
+      "title": "Las llegadas a Canarias se triplican en septiembre y el Gobierno reparte 213 MENAS de Ceuta",
+      "date": "4 oct 2026",
+      "summary": "El refuerzo del «cerrojo» en Ceuta ha desplazado el flujo a la ruta atlántica: en septiembre las llegadas a Canarias se triplicaron (~1.970-2.100), con más del 60% procedente de Marruecos, y el PP canario reclama blindar la ruta y desplegar Frontex. El Gobierno ha repartido por la península a 213 MENAS de Ceuta, uno de cada tres acogido por familiares ya en España, según los posts que circulan. La regularización extraordinaria sigue siendo el eje del enfrentamiento entre Ejecutivo y oposición.",
+      "source": "X / TheObjective_es, BelenLago7, antipajarito",
       "tags": [
         "Inmigración",
         "Ceuta",
@@ -411,21 +419,10 @@
       ]
     },
     {
-      "title": "Expectación ante el Constitucional: amnistía, financiación singular y el posible regreso de Puigdemont en octubre",
-      "date": "28 sep 2026",
-      "summary": "Los tuiteros esperan una sentencia del TC sobre la amnistía en torno al 6-8 de octubre y especulan con el retorno de Puigdemont, mientras el cambio de voto de Junts en un real decreto de vivienda se lee como moneda de cambio. Los críticos recuerdan que la ley se aprobó por aritmética parlamentaria para sostener la investidura y que la financiación singular catalana es la otra cesión estructural del paquete. Economistas como Francisco de la Torre insisten en que la amnistía dio al Gobierno todo lo que necesitaba.",
-      "source": "X / frdelatorre, Espejodevillano, l_portilla",
-      "tags": [
-        "Independentismo",
-        "Amnistía",
-        "Financiación singular"
-      ]
-    },
-    {
-      "title": "Savater y Josema Yuste avivan el debate sobre la cancelación en la cultura española",
-      "date": "27 sep 2026",
-      "summary": "La exclusión de la escritora Ariana Harwicz del Festival CulturAlh de Granada, con la retirada de John Banville en protesta, sirve a Fernando Savater para hablar de 'cultura de los proscritos'. En paralelo, Josema Yuste denuncia que no le llaman para rodar cine por ser de derechas, leído en X como boicot informal en la industria. Los vetos cruzados por Palestina e Israel y las polémicas del sector cultural alimentan la sensación de hegemonía ideológica.",
-      "source": "X / Savater, larespuesta, Sibecontra",
+      "title": "El caso Harwicz en Granada reaviva el debate sobre el veto cultural y la cancelación",
+      "date": "2 oct 2026",
+      "summary": "La exclusión de la escritora argentina Ariana Harwicz del festival CULTUR-ALH de Granada por sus posiciones sobre el boicot a Israel sigue generando reacciones: la organización lo niega como veto, la embajada argentina pidió desagravio y Harwicz lo denuncia como antisemitismo. En paralelo, Josema Yuste insiste en las quejas por el cine español y Savater se cita como referente de la defensa de la libertad de expresión frente a la «cultura de los proscritos».",
+      "source": "X / cantoine, ClubdelaSerpie, ElDelAmargue",
       "tags": [
         "Cultura de la Cancelación",
         "Cultura"
@@ -434,52 +431,52 @@
   ],
   "trends": [
     {
-      "name": "Sanchismo / UCO Cerdán",
+      "name": "Independentismo / TC amnistía",
       "change": "up",
-      "pct": "+14%",
-      "detail": "Registro de fundaciones del PSOE y la triple vía hacia la imputación del partido como persona jurídica"
+      "pct": "+15%",
+      "detail": "El Constitucional decide en torno al 6 de octubre sobre la malversación y el posible regreso de Puigdemont reactiva el debate"
     },
     {
-      "name": "Vivienda / Okupación",
+      "name": "Sanchismo / Trama Koldo",
       "change": "up",
-      "pct": "+16%",
-      "detail": "La acampada de Sol y los decretos anti-desahucios reabren el frente okupa y el caso Desokupa"
+      "pct": "+13%",
+      "detail": "La vía venezolana de la UCO, Cerdán imputado y el Supremo estudiando imputar al PSOE como persona jurídica"
     },
     {
-      "name": "Memoria Histórica / Cuelgamuros",
+      "name": "Vivienda / Acampada de Sol",
       "change": "up",
-      "pct": "+12%",
-      "detail": "El documental de RTVE devuelve al primer plano las exhumaciones y las reclamaciones familiares"
+      "pct": "+11%",
+      "detail": "La acampada entra en su 2ª semana, se extiende a los barrios y se habla de huelga general por la vivienda"
     },
     {
       "name": "Inmigración / Ceuta-Canarias",
       "change": "up",
-      "pct": "+10%",
-      "detail": "Ceuta sigue en modo acogida y el PP canario exige Frontex y Fuerzas Armadas"
-    },
-    {
-      "name": "Independentismo / Calendario judicial",
-      "change": "up",
       "pct": "+9%",
-      "detail": "Expectación por la sentencia del TC sobre la amnistía y el posible regreso de Puigdemont en octubre"
+      "detail": "Las llegadas a Canarias se triplican en septiembre y el reparto de 213 MENAS de Ceuta reactiva la polémica"
     },
     {
-      "name": "Cultura de la Cancelación / Cultura",
+      "name": "Memoria Histórica / Cuelgamuros",
       "change": "up",
       "pct": "+8%",
-      "detail": "Harwicz fuera del festival de Granada y las quejas de Josema Yuste sobre el cine español"
+      "detail": "El documental de RTVE y los avances forenses devuelven las exhumaciones al primer plano con la AFPERV reclamando más ritmo"
+    },
+    {
+      "name": "Cultura de la Cancelación / Harwicz",
+      "change": "up",
+      "pct": "+6%",
+      "detail": "La embajada argentina pide desagravio por el veto a Harwicz en Granada y el caso sigue como paradigma de cancelación"
     },
     {
       "name": "Wokismo / Subvenciones",
       "change": "stable",
       "pct": "+3%",
-      "detail": "Goteo de convocatorias, premios a TFG y gasto autonómico en formación sin un escándalo único"
+      "detail": "Goteo de casos de subvenciones de Igualdad y estudios de género en la universidad sin un escándalo único"
     },
     {
       "name": "Facha / Insulto político",
       "change": "stable",
-      "pct": "+2%",
-      "detail": "Pelea de desgaste permanente entre las broncas de Vox y PSOE y la doble vara sobre la violencia"
+      "pct": "+1%",
+      "detail": "Pelea de desgaste permanente entre las broncas de Vox y PSOE y la doble vara sobre la violencia (tópico sin medición fresca: stale)"
     }
   ],
   "accounts": [
@@ -488,162 +485,162 @@
       "name": "Profe de historia",
       "category": "Muy derecha",
       "color": "#003399",
-      "desc": "Doctor en Historia y profesor de secundaria (~51,5K seguidores). Muy activo hoy (29 sep): hilo sobre la 'justicia social' como premio al incumplimiento, crítica a Almeida y a la 'prensa del régimen', impagos de inquilinos y caída del nivel educativo. Engagement bajo-moderado (0-10 likes, 120-234 views) pero volumen diario alto. Verificado activo en este run."
+      "desc": "Doctor en Historia y profesor de secundaria (~52K seguidores). Muy activo hoy (4-5 oct): comenta la acampada de Sol/Callao («hay que entrar con agua y jabón»), celebra que >1.000 inmigrantes vuelvan a Marruecos tras un desalojo e inicia reseñas de cine como La bola negra. Verificado activo en este run."
     },
     {
       "handle": "@dianitanoticias",
       "name": "Dianita",
       "category": "Muy derecha",
       "color": "#003399",
-      "desc": "Cuenta de sucesos y política con tono muy crítico al Gobierno. Marcada como INACTIVA: sin actividad detectable en la ventana 26-29 sep (segundo run consecutivo). Se mantiene en el directorio y en meta.inactive_accounts: la ausencia de posts es quietud, no baja."
+      "desc": "Cuenta de sucesos y política con tono muy crítico al Gobierno (~17K seguidores). Marcada como INACTIVA: sin actividad pública detectable en la ventana 01-05 oct (tercer run consecutivo). Se mantiene en el directorio y en meta.inactive_accounts: la ausencia de posts es quietud, no baja."
     },
     {
       "handle": "@Tagelca",
       "name": "Tage",
       "category": "Derecha",
       "color": "#0055cc",
-      "desc": "Humor, deporte y fitness con salpicaduras políticas (Ceuta/Melilla como 'invasión'). Es el mayor alcance del directorio: post viral sobre la edad del ciclista McNulty con ~37.086 likes, 934 RTs y 1,7M de views (27-28 sep). Verificado activo."
+      "desc": "Humor, fútbol y fitness con salpicaduras políticas (~69K seguidores). Activo el 3-4 oct: vídeo de actualidad, comentario sobre el vestuario del Real Madrid (Huijsen/Pitarch con el móvil al volante) y humor futbolero. Alto engagement en varios posts (miles de likes). Verificado activo."
     },
     {
       "handle": "@elxokas",
       "name": "ElXokas",
       "category": "Derecha",
       "color": "#0055cc",
-      "desc": "Streamer de gran alcance. Marcado como INACTIVO: sin posts públicos detectables en la ventana 26-29 sep. Se mantiene en el directorio y en meta.inactive_accounts."
+      "desc": "Streamer de gran alcance (~1,5M seguidores), vinculado a Knoweats. Marcado como INACTIVO: sin posts públicos detectables en la ventana 01-05 oct (más activo en Twitch/streams que en X). Se mantiene en el directorio y en meta.inactive_accounts."
     },
     {
       "handle": "@TemplarExtre",
       "name": "Templar Extremeño",
       "category": "Derecha",
       "color": "#0055cc",
-      "desc": "Cuenta conservadora-cristiana activa en replies (28 sep): doble rasero policial entre Ferraz y las manifas de izquierda, críticas a la acampada por vivienda como rédito político y seguimiento del sanchismo. Engagement muy bajo (0-8 likes, vistas de 7 a 433) pero presencia diaria en hilos. Verificado activo."
+      "desc": "Cuenta conservadora-cristiana (~1K seguidores) activa a diario en replies: vivienda y desahucios en Cataluña (culpa a 8 años de políticas de izquierda), inmigración, crítica al Gobierno PSOE y burlas a políticos de izquierda. Engagement muy bajo (0-8 likes) pero presencia diaria en hilos. Verificado activo."
     },
     {
       "handle": "@geoestratego",
       "name": "Pedro Baños",
       "category": "Derecha",
       "color": "#0055cc",
-      "desc": "Analista de geopolítica y defensa. Buen alcance este run (26-27 sep): post que desmonta la narrativa de Newtral y la Comisión Europea sobre Ceuta con ~2.447 likes y 738 RTs (44K views), y otro sobre el reclutamiento de mujeres en Ucrania con ~1.834 likes y 807 RTs (63K views). Verificado activo."
+      "desc": "Analista de geopolítica y defensa (~454K seguidores). Gran alcance este run (1-4 oct): anuncio del cierre de su cuenta de TikTok (~185K seguidores) por la Ley de Servicios Digitales europea, con hilo viral sobre censura y libertad de expresión; respuesta dura al periodista Marc Marginedas y comentarios sobre los disturbios en Francia. Verificado activo."
     },
     {
       "handle": "@13mescribano",
       "name": "Luis Escribano",
       "category": "Neutro",
       "color": "#666699",
-      "desc": "Crítica sistémica al partidocracia del 78 y a la corrupción, siempre con datos (27-28 sep): vivienda contra la propaganda de VPO y los fondos buitre, tasa AROPE de Andalucía, sanidad pública. Engagement bajo (0-11 likes) y posts densos con fuentes. Verificado activo."
+      "desc": "Crítica sistémica al partidocracia del 78 y a la corrupción, con datos (~8K seguidores). Activo (2-4 oct): hilos con esquemas sobre por qué el poder unitario y las listas de partidos impiden el control ciudadano, crítica al problema de la vivienda («buitres») y a las VPO caras de Andalucía, y activismo #YoNoVoto. Engagement bajo pero consistente. Verificado activo."
     },
     {
       "handle": "@VictorLapuente",
       "name": "Víctor Lapuente",
       "category": "Neutro",
       "color": "#666699",
-      "desc": "Politólogo (UPF) de análisis institucional. Marcado como INACTIVO: sin posts detectables en la ventana 26-29 sep. Se mantiene en el directorio y en meta.inactive_accounts."
+      "desc": "Politólogo (~21K seguidores), Oficina de Tendencias Globales del Banco de España. Marcado como INACTIVO: sin posts públicos detectables en la ventana 01-05 oct, perfil poco activo en posting público. Se mantiene en el directorio y en meta.inactive_accounts."
     },
     {
       "handle": "@EstefMolina_",
       "name": "Estefanía Molina",
       "category": "Neutro",
       "color": "#666699",
-      "desc": "Analista política que estos días se mueve en modo reply casual ('Genial!', 'Los tres, dirás.'), con engagement muy bajo (0-1 like, 30-150 views) y sin posts originales destacados en el ciclo. Verificada activa."
+      "desc": "Analista política (~62,7K seguidores). Activa el 4-5 oct en modo reply: comentarios sobre el TC y la legalidad («Recurs al TC i es pronunciarà quan ja hagi canviat el Govern»), respuestas cortas sobre la política catalana y el tono mediático. Engagement bajo-moderado. Verificada activa."
     },
     {
       "handle": "@nicolasdepedro",
       "name": "Nicolás de Pedro",
       "category": "Neutro",
       "color": "#666699",
-      "desc": "Analista de seguridad internacional. Activo (28 sep): crítica a los 'matoncillos digitales' que se victimizan al publicar libro (72 likes, 17 RTs, ~5K views) y seguimiento del incidente en la base aérea británica de Fairford. Verificado activo."
+      "desc": "Analista de seguridad internacional (~15K seguidores). Activo (1-4 oct): crítica a los fakes de canales pro-Kremlin sobre biolabs OTAN y advertencia sobre labs rusos/chinos (172 likes, 69 RTs); análisis de Ucrania y Rusia. Verificado activo."
     },
     {
       "handle": "@armesillaconde",
       "name": "Santiago Armesilla",
       "category": "Izquierda",
       "color": "#e84700",
-      "desc": "Izquierda materialista y nacional-popular. Muy activo en la madrugada del 29 sep: izquierda confederal vs. derecha antisocial, defensa de su origen obrero ante la acusación de 'pijo' y lectura de la acampada por vivienda frente al 15M. 16-100 likes y hasta 4,6K views. Verificado activo."
+      "desc": "Izquierda materialista y nacional-popular (~127K seguidores). Muy activo el 4 oct con alto engagement: «Pedro Sánchez ha de ser estudiado en las facultades de politología» (~1,7K likes) sobre el adelanto electoral y el decreto de vivienda; crítica a Silvia Orriols/Alianza Catalana y a los «autodeterministas» como «tontos útiles del separatismo». Verificado activo."
     },
     {
       "handle": "@Anujbost",
       "name": "Anuj",
       "category": "Izquierda",
       "color": "#e84700",
-      "desc": "Muy activo en el debate de vivienda: post viral contra Sánchez como 'oportunista' que capitaliza la tragedia de los desahucios que pudo evitar, con 2.432 likes, 370 RTs y 96K views. Defiende vivienda pública masiva y sitúa la acampada contra PSOE y Sumar. Verificado activo."
+      "desc": "Análisis político y movimientos sociales (~80,8K seguidores). Activo (1-4 oct): vídeo «Hace 20 años de esta serie y todo sigue igual» (~1,8K likes) y defensa de que la acampada por vivienda nace de movimientos civiles (Sindicato de Inquilinas, PAH), no de partidos de izquierda, criticando las promesas rotas del Gobierno. Verificado activo."
     },
     {
       "handle": "@billkilgore_",
       "name": "Kilgore de Lezo",
       "category": "Joker 🃏",
       "color": "#996633",
-      "desc": "Humor seco (~282K seguidores). Actividad escasa y siempre en replies: una sola respuesta detectada estos días (73 likes, ~1,9K views) al hilo de Bertrand Ndongo. Sin pico político en el ciclo. Verificado activo."
+      "desc": "Humor seco (~282K seguidores). Actividad moderada y siempre en replies (1-2 oct): respuestas con tono casual/humorístico, una con 583 likes (~32K views). Sin pico político en el ciclo. Verificado activo."
     },
     {
       "handle": "@elmundotoday",
       "name": "El Mundo Today",
       "category": "Joker 🃏",
       "color": "#996633",
-      "desc": "Satírico de referencia en X. Marcado como INACTIVO: sin posts detectables en la ventana 26-29 sep (segundo run consecutivo). Se mantiene en el directorio y en meta.inactive_accounts."
+      "desc": "Satírico de referencia en X (~1,43M seguidores). Marcado como INACTIVO: sin posts detectables en la ventana 01-05 oct (tercer run consecutivo). Se mantiene en el directorio y en meta.inactive_accounts."
     },
     {
       "handle": "@littleragergirl",
       "name": "Abby",
       "category": "Joker 🃏",
       "color": "#996633",
-      "desc": "Humor y memes. Marcada como INACTIVA: sin actividad detectable en la ventana 26-29 sep. Se mantiene en el directorio y en meta.inactive_accounts."
+      "desc": "Humor y memes. Marcada como INACTIVA: sin actividad detectable en la ventana 01-05 oct. Las búsquedas devuelven variantes de bajo perfil; se mantiene en el directorio y en meta.inactive_accounts."
     },
     {
       "handle": "@LaBugsBunnyIA",
       "name": "Fábrica de Memes",
       "category": "Joker 🃏",
       "color": "#996633",
-      "desc": "Genera memes y vídeos de actualidad con acento argentino. Su post más fuerte del ciclo es futbolero-político: 'El Chiqui Tapia simboliza la corrupción' (153 likes, 27 RTs). Poca conexión con la guerra cultural española en este run. Verificado activo."
+      "desc": "Genera memes y vídeos de actualidad (~40K seguidores). Muy activa el 3-4 oct pero centrada en política argentina (Facundo Moyano, justicia, sindicalismo; posts con 379-483 likes y ~9-14K views) y en temas como los «semáforos inclusivos». Poca conexión con la guerra cultural española en este run. Verificada activa."
     }
   ],
   "virals": [
     {
-      "author": "@Tagelca",
-      "date": "28 sep 2026",
-      "text": "Post viral sobre la edad del ciclista McNulty que se convirtió en el mayor alcance de todo el directorio, muy por encima de cualquier post político del ciclo.",
-      "engagement": "~37.086 likes · 934 RTs · 1,7M views",
-      "topic": "Actualidad / Deporte",
-      "link": "https://x.com/Tagelca/status/2104557923661680885"
-    },
-    {
       "author": "@geoestratego",
-      "date": "27 sep 2026",
-      "text": "Desmonta la narrativa de Newtral y la Comisión Europea sobre Ceuta, en plena polémica por la acogida y las devoluciones.",
-      "engagement": "~2.447 likes · 738 RTs · 44K views",
-      "topic": "Inmigración / Ceuta",
-      "link": "https://x.com/geoestratego/status/2104309184993062967"
-    },
-    {
-      "author": "@Anujbost",
-      "date": "28 sep 2026",
-      "text": "Vídeo contra Sánchez como 'oportunista' que capitaliza la tragedia de los desahucios que pudo evitar: la acampada de Sol es contra PSOE y Sumar, no por ellos.",
-      "engagement": "2.432 likes · 370 RTs · 96K views",
-      "topic": "Vivienda / Okupación",
-      "link": "https://x.com/Anujbost/status/2104623174562324489"
+      "date": "3 oct 2026",
+      "text": "Anuncia el cierre de su cuenta de TikTok (~185K seguidores) por la Ley de Servicios Digitales europea, en un hilo sobre censura digital y libertad de expresión.",
+      "engagement": "Hilo viral: miles de likes y reposts",
+      "topic": "Censura / Geopolítica",
+      "link": "https://x.com/geoestratego/status/2106783025895751725"
     },
     {
       "author": "@armesillaconde",
-      "date": "29 sep 2026",
-      "text": "Lee la acampada por vivienda en Madrid frente al 15M y defiende su origen obrero ante la acusación de 'pijo' en el debate sobre el Sindicato de Inquilinas.",
-      "engagement": "16-100 likes · hasta 4,6K views",
+      "date": "4 oct 2026",
+      "text": "«Pedro Sánchez ha de ser estudiado en las facultades de politología», quoteando el adelanto electoral y el decreto de vivienda.",
+      "engagement": "~1.700 likes",
+      "topic": "Sanchismo / Vivienda",
+      "link": "https://x.com/armesillaconde/status/2106847624280342783"
+    },
+    {
+      "author": "@Anujbost",
+      "date": "1 oct 2026",
+      "text": "Vídeo «Hace 20 años de esta serie y todo sigue igual», sobre la persistencia de los problemas de vivienda en España.",
+      "engagement": "~1.800 likes",
       "topic": "Vivienda / Izquierda",
-      "link": "https://x.com/armesillaconde/status/2104811119458107553"
+      "link": "https://x.com/Anujbost/status/2105667272656203919"
+    },
+    {
+      "author": "@profsecundario",
+      "date": "5 oct 2026",
+      "text": "Sobre la acampada de Sol/Callao y el estado de la zona: «Hay que entrar con agua y jabón», citando el enfado de los comerciantes.",
+      "engagement": "Actividad diaria de alto volumen",
+      "topic": "Acampada de Sol",
+      "link": "https://x.com/profsecundario/status/2106937596014194745"
+    },
+    {
+      "author": "@Tagelca",
+      "date": "3 oct 2026",
+      "text": "Clips de actualidad y humor: desde el vestuario del Real Madrid (Huijsen/Pitarch con el móvil al volante) hasta comentarios futboleros virales.",
+      "engagement": "Miles de likes en varios posts",
+      "topic": "Actualidad / Humor",
+      "link": "https://x.com/Tagelca/status/2106867479368941777"
     },
     {
       "author": "@nicolasdepedro",
-      "date": "28 sep 2026",
-      "text": "Crítica a los 'matoncillos digitales' que se victimizan cuando publican libro, en plena semana de polémica sobre la cancelación cultural.",
-      "engagement": "72 likes · 17 RTs · ~5K views",
-      "topic": "Cultura de la Cancelación",
-      "link": "https://x.com/nicolasdepedro/status/2104571686213632197"
-    },
-    {
-      "author": "@LaBugsBunnyIA",
-      "date": "28 sep 2026",
-      "text": "Vídeo sobre 'El Chiqui Tapia simboliza la corrupción', el post más fuerte de la cuenta memera del directorio en este ciclo (tema argentino, no español).",
-      "engagement": "153 likes · 27 RTs",
-      "topic": "Memes / Joker",
-      "link": "https://x.com/LaBugsBunnyIA/status/2104644277003301319"
+      "date": "2 oct 2026",
+      "text": "Critica los fakes de canales pro-Kremlin sobre biolabs de la OTAN y advierte del riesgo de labs rusos o chinos: «Esperemos que Rusia no provoque como China una pandemia mundial».",
+      "engagement": "~172 likes · 69 RTs",
+      "topic": "Geopolítica / Seguridad",
+      "link": "https://x.com/nicolasdepedro/status/2106800601262657784"
     }
   ]
 }
