@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-06T03:14:09+02:00",
+    "generated_at": "2026-10-06T03:20:11+02:00",
     "fuente_x": "2026-10-05T08:05:00+02:00",
     "aviso": "X y Bluesky son poblaciones distintas: los volumenes NO son comparables. Se comparan posiciones relativas normalizadas 0-100 dentro de cada plataforma.",
     "temas_comparados": 12
@@ -101,7 +101,7 @@
       "x_intensidad": 78.0,
       "x_momentum": 76.0,
       "bs_posts": 100,
-      "bs_engagement": 745,
+      "bs_engagement": 746,
       "bs_engagement_medio": 7.5,
       "bs_consulta": "woke",
       "x_rel": 35.7,
@@ -171,12 +171,12 @@
       "x_intensidad": 96.0,
       "x_momentum": 88.0,
       "bs_posts": 100,
-      "bs_engagement": 819,
+      "bs_engagement": 815,
       "bs_engagement_medio": 8.2,
       "bs_consulta": "29N",
       "x_rel": 100.0,
-      "bs_rel": 19.2,
-      "brecha": 80.8
+      "bs_rel": 19.0,
+      "brecha": 81.0
     },
     {
       "id": "inmigracion",

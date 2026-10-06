@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-10-06T03:14:09+02:00",
+    "generated_at": "2026-10-06T03:20:11+02:00",
     "fuente": "Bluesky (app.bsky.feed.searchPosts, API publica, filtro idioma es)",
     "nota": "Volumenes NO comparables con X: son plataformas distintas. Se comparan ordenes relativos del mismo tema, no totales.",
     "temas_ok": 12,
     "temas_error": [],
     "total_posts": 1179,
-    "total_engagement": 10489,
-    "total_likes": 7413,
+    "total_engagement": 10486,
+    "total_likes": 7410,
     "total_reposts": 2314,
     "total_respuestas": 762,
     "cuentas_unicas": 88
@@ -33,7 +33,7 @@
     },
     {
       "id": "elecciones",
-      "engagement": 819,
+      "engagement": 815,
       "posts": 100,
       "engagement_medio": 8.2
     },
@@ -57,7 +57,7 @@
     },
     {
       "id": "woke",
-      "engagement": 745,
+      "engagement": 746,
       "posts": 100,
       "engagement_medio": 7.5
     },
@@ -284,9 +284,9 @@
       "handle": "sugawara803.neocities.org",
       "nombre": "sugawara 🐦‍⬛",
       "posts": 1,
-      "likes": 49,
+      "likes": 50,
       "reposts": 19,
-      "engagement": 70,
+      "engagement": 71,
       "temas": [
         "woke"
       ]
@@ -969,20 +969,20 @@
     "woke": {
       "consulta": "woke",
       "posts": 100,
-      "likes": 603,
+      "likes": 604,
       "reposts": 71,
       "respuestas": 71,
-      "engagement": 745,
+      "engagement": 746,
       "engagement_medio": 7.5,
       "autores": [
         {
           "handle": "sugawara803.neocities.org",
           "nombre": "sugawara 🐦‍⬛",
           "posts": 1,
-          "likes": 49,
+          "likes": 50,
           "reposts": 19,
           "respuestas": 2,
-          "engagement": 70,
+          "engagement": 71,
           "ejemplo": "they woke up like this 😬"
         },
         {
@@ -1058,10 +1058,10 @@
       ],
       "top": {
         "texto": "they woke up like this 😬",
-        "likes": 49,
+        "likes": 50,
         "reposts": 19,
         "respuestas": 2,
-        "engagement": 70,
+        "engagement": 71,
         "autor": "sugawara803.neocities.org",
         "nombre": "sugawara 🐦‍⬛",
         "fecha": "2026-10-05T18:50:28.360Z"
@@ -1272,10 +1272,10 @@
     "elecciones": {
       "consulta": "29N",
       "posts": 100,
-      "likes": 543,
+      "likes": 539,
       "reposts": 220,
       "respuestas": 56,
-      "engagement": 819,
+      "engagement": 815,
       "engagement_medio": 8.2,
       "autores": [
         {
