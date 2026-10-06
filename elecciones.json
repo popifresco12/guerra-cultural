@@ -1,10 +1,11 @@
 {
- "generado": "2026-10-06T00:56:16+00:00",
+ "generado": "2026-10-06T01:01:39+00:00",
  "eleccion": {
   "nombre": "Elecciones Generales 2026",
   "fecha": "2026-11-29",
   "dias_restantes": 54
  },
+ "convocatoria": "2026-10-05",
  "hitos": [
   {
    "fecha": "2026-10-06",
@@ -359,36 +360,6 @@
  ],
  "bluesky": [
   {
-   "texto": "Este es Pedro Bayonas, el agresor de Román Cuesta, fue el candidato de VOX para ser alcalde en Blanes en 2019 y fue de número 2 de la provincia de Girona en las elecciones generales posteriores.",
-   "autor": "Julián Macías",
-   "usuario": "@julianmacias.bsky.social",
-   "url": "https://bsky.app/profile/julianmacias.bsky.social/post/3lxi6rb42sc2e",
-   "fecha": "2025-08-28T18:36:20.021Z",
-   "likes": 587,
-   "rts": 417,
-   "resp": 67
-  },
-  {
-   "texto": "El PP ha ido a la conferencia de presidentes para exigir elecciones anticipadas. Pero oye, el ABC dice que Sánchez ha \"dinamitado\" la conferencia porque no quiere convocar elecciones.",
-   "autor": "Iñigo Sáenz de Ugarte",
-   "usuario": "@iugarte.bsky.social",
-   "url": "https://bsky.app/profile/iugarte.bsky.social/post/3lqxqkle3xs2z",
-   "fecha": "2025-06-06T21:08:17.922Z",
-   "likes": 576,
-   "rts": 202,
-   "resp": 52
-  },
-  {
-   "texto": "Hay que hacer lo imposible, votando y concentrando el voto, para que este pedazo de mierda no llegue a tocar jamás la presidencia del Gobierno... Feijóo vuelve a exigir elecciones anticipadas y carga contra Sánchez por la corrupción: “No le amnistiaré” elpais.com/espana/2025-...",
-   "autor": "Rafa Morata 🌹 🇪🇺 🏳️‍🌈 🏳️‍⚧️ 🇵🇸",
-   "usuario": "@rafamorata.bsky.social",
-   "url": "https://bsky.app/profile/rafamorata.bsky.social/post/3m5hb4c4p2c2m",
-   "fecha": "2025-11-12T18:16:47.699Z",
-   "likes": 464,
-   "rts": 136,
-   "resp": 54
-  },
-  {
    "texto": "📹 Sánchez, tras convocar elecciones anticipadas: \"Hemos tenido que lidiar con la peor oposión de la historia de la democracia\" social.elpais.com/bbt…",
    "autor": "EL PAÍS",
    "usuario": "@elpais.com",
@@ -397,16 +368,6 @@
    "likes": 312,
    "rts": 113,
    "resp": 11
-  },
-  {
-   "texto": "“Llevan siete años exigiéndonos elecciones anticipadas, pero se niegan a convocarlas en la Comunitat Valenciana, después de la tragedia social, política e institucional que se ha vivido tras la DANA”  Pedro Sánchez en el Congreso  Si aquí tiene razón, se dice y no pasa nada",
-   "autor": "Ｊｕｄｉｔ 🔻",
-   "usuario": "@juditsinhache.bsky.social",
-   "url": "https://bsky.app/profile/juditsinhache.bsky.social/post/3m5gcwyxqvs22",
-   "fecha": "2025-11-12T09:16:58.076Z",
-   "likes": 307,
-   "rts": 112,
-   "resp": 5
   },
   {
    "texto": "Claro que sí . Y la izquierda más izquierda , a espabilar.  Sánchez convoca elecciones anticipadas el 29 de noviembre www.eldiario.es/1_ced7c1?utm...",
@@ -439,44 +400,84 @@
    "resp": 21
   },
   {
-   "texto": "La Iglesia pide elecciones anticipadas y los tuiteros no perdonan: \"No las pidieron mientras levantaban el brazo en la dictadura\"  www.publico.es/tremending/i...",
-   "autor": "Seti I.bsky.social",
-   "usuario": "@seti1.bsky.social",
-   "url": "https://bsky.app/profile/seti1.bsky.social/post/3ls5exxkocc2a",
-   "fecha": "2025-06-21T20:22:12.086Z",
-   "likes": 209,
-   "rts": 81,
-   "resp": 35
+   "texto": "Que lidere el frente amplio quien sea. DA IGUAL. NO IMPORTA. IMPORTA EL PROYECTO DE IZQUIERDAS. Vamos a criticar por una vez a las derechas guardando las piedras para después de las elecciones. Quien sea el candidato da igual. Lo importante es el discurso de unión y de que se ganará el 29N.",
+   "autor": "No soy rubia por los pelos.",
+   "usuario": "@nosoyrubia.eurosky.social",
+   "url": "https://bsky.app/profile/nosoyrubia.eurosky.social/post/3mx4w6ntjus2f",
+   "fecha": "2026-10-05T12:29:40.870Z",
+   "likes": 166,
+   "rts": 65,
+   "resp": 8
   },
   {
-   "texto": "Hay en estos momentos dos corrientes de movilizacion social en España. La que encarna Vox, partido piloto. Y la que ha acompañado a la Vuelta a España, plasmada ayer en Madrid. Las dos corrientes son profundas. Todo ello puede conducir a unas elecciones generales inéditas.",
-   "autor": "Enric Juliana",
-   "usuario": "@enricjuliana.bsky.social",
-   "url": "https://bsky.app/profile/enricjuliana.bsky.social/post/3lyudsc3ivs2q",
-   "fecha": "2025-09-15T08:03:31.803Z",
-   "likes": 214,
-   "rts": 71,
-   "resp": 16
+   "texto": "Estas elecciones del 29N tienen que servir para acabar con el negocio de la vivienda y bajar el precio de la vida. Eso es lo que la gente quiere que pase y está reclamando también en las calles, que las cosas cambien de verdad.  🎥 @irenemonterog.bsky.social",
+   "autor": "Podemos",
+   "usuario": "@ahorapodemos.bsky.social",
+   "url": "https://bsky.app/profile/ahorapodemos.bsky.social/post/3mx4ogwd4gs2f",
+   "fecha": "2026-10-05T10:11:08.270Z",
+   "likes": 135,
+   "rts": 72,
+   "resp": 18
   },
   {
-   "texto": "España  🟣 Podemos lanza a Irene Montero como candidata para las próximas elecciones generales  El anuncio ha tenido lugar en la mañana del domingo en un evento \"por la paz y contra el régimen de guerra\" que ha organizado la formación morada en Madrid",
-   "autor": "Diario Red",
-   "usuario": "@diario.red",
-   "url": "https://bsky.app/profile/diario.red/post/3lm5dexxk422y",
-   "fecha": "2025-04-06T11:22:31.465Z",
-   "likes": 180,
-   "rts": 77,
-   "resp": 27
+   "texto": "👉 Del decreto Maricarmen pasamos a las elecciones Maricarmen.  El #29N, si votamos todas y todos, las Maricarmen de España se quedan, y los buitres, que se vayan.",
+   "autor": "Pablo🔻",
+   "usuario": "@ceronegativo.bsky.social",
+   "url": "https://bsky.app/profile/ceronegativo.bsky.social/post/3mx4j7adjwk23",
+   "fecha": "2026-10-05T08:37:21.622Z",
+   "likes": 123,
+   "rts": 70,
+   "resp": 2
   },
   {
-   "texto": "Irene Montero candidata propuesta por Podemos a las elecciones generales elpais.com/espana/2025-...",
-   "autor": "Ignacio Regulez Trenado",
-   "usuario": "@ignacioregulez.bsky.social",
-   "url": "https://bsky.app/profile/ignacioregulez.bsky.social/post/3lm5gawrrek2j",
-   "fecha": "2025-04-06T12:13:57.234Z",
-   "likes": 199,
-   "rts": 63,
-   "resp": 26
+   "texto": "En el PP están ya considerando decir que el 29N es casi Navidad y las elecciones en Navidad van contra el niño Jesús.",
+   "autor": "Mauro Entrialgo",
+   "usuario": "@tyrexito.bsky.social",
+   "url": "https://bsky.app/profile/tyrexito.bsky.social/post/3mx4frpa4gs2b",
+   "fecha": "2026-10-05T07:36:06.256Z",
+   "likes": 156,
+   "rts": 33,
+   "resp": 10
+  },
+  {
+   "texto": "Sánchez convoca elecciones anticipadas el 29 de noviembre: \"Ha llegado el momento de decidir qué futuro queréis\" www.rtve.es/n/17253132/",
+   "autor": "Ernesto Ekaizer",
+   "usuario": "@ernestoekaizer.bsky.social",
+   "url": "https://bsky.app/profile/ernestoekaizer.bsky.social/post/3mx4qmlvx3227",
+   "fecha": "2026-10-05T10:50:06.160Z",
+   "likes": 125,
+   "rts": 39,
+   "resp": 6
+  },
+  {
+   "texto": "La acampada de Sol reacciona al anuncio de elecciones el 29N: “Es el momento menos malo para la izquierda”",
+   "autor": "elDiario.es",
+   "usuario": "@eldiario.es",
+   "url": "https://bsky.app/profile/eldiario.es/post/3mx4g6ohgrk2q",
+   "fecha": "2026-10-05T07:43:21.654Z",
+   "likes": 72,
+   "rts": 22,
+   "resp": 3
+  },
+  {
+   "texto": "La hostia que se va a pegar Trump el 4 de noviembre en las elecciones midterms y su previsible reacción antidemocrática no le va a venir nada bien la fascistada local de cara al 29N.",
+   "autor": "Capitán Swing",
+   "usuario": "@capitanswing.bsky.social",
+   "url": "https://bsky.app/profile/capitanswing.bsky.social/post/3mx4h6n4a5227",
+   "fecha": "2026-10-05T08:01:13.980Z",
+   "likes": 78,
+   "rts": 19,
+   "resp": 4
+  },
+  {
+   "texto": "El Sindicato de Inquilinas prepara una huelga general en noviembre tras el anuncio de elecciones anticipadas el 29N",
+   "autor": "elDiario.es",
+   "usuario": "@eldiario.es",
+   "url": "https://bsky.app/profile/eldiario.es/post/3mx4xmoqnnc2k",
+   "fecha": "2026-10-05T12:55:25.330Z",
+   "likes": 69,
+   "rts": 19,
+   "resp": 7
   }
  ]
 }

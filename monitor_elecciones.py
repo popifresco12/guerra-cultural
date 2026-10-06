@@ -20,6 +20,10 @@ from xml.etree import ElementTree as ET
 OUT = r"C:\Users\carlo\gc-deploy\elecciones.json"
 FECHA_ELECCION = date(2026, 11, 29)
 
+# Nada anterior al anuncio de la convocatoria (5-oct-2026) cuenta: si habla de
+# "elecciones" antes de ese momento, habla de otra cosa.
+CONVOCATORIA = "2026-10-05T00:00:00+00:00"
+
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
 # Medios de distinto signo editorial: el valor del panel es ver el MISMO dia
@@ -160,6 +164,19 @@ def buscar_bluesky(consulta, limite=25):
         return []
 
 
+def posterior_a_la_convocatoria(iso):
+    """True solo si el post es del dia de la convocatoria (5-oct-2026) o posterior."""
+    if not iso:
+        return False
+    try:
+        d = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+    except Exception:
+        return False
+    if d.tzinfo is None:
+        d = d.replace(tzinfo=timezone.utc)
+    return d >= datetime.fromisoformat(CONVOCATORIA)
+
+
 def vale_el_post(texto):
     tl = texto.lower()
     if any(b in tl for b in BSKY_DESCARTA):
@@ -175,7 +192,10 @@ def recolectar_bluesky():
         for p in buscar_bluesky(q):
             uri = p.get("uri")
             txt = ((p.get("record") or {}).get("text") or "").replace("\n", " ").strip()
+            fecha = (p.get("record") or {}).get("createdAt") or p.get("indexedAt") or ""
             if not uri or not txt or uri in vistos or not vale_el_post(txt):
+                continue
+            if not posterior_a_la_convocatoria(fecha):
                 continue
             au = p.get("author") or {}
             handle = au.get("handle") or ""
@@ -184,7 +204,7 @@ def recolectar_bluesky():
                 "autor": (au.get("displayName") or "").strip(),
                 "usuario": "@" + handle,
                 "url": "https://bsky.app/profile/%s/post/%s" % (handle, uri.rsplit("/", 1)[-1]),
-                "fecha": (p.get("record") or {}).get("createdAt") or p.get("indexedAt") or "",
+                "fecha": fecha,
                 "likes": p.get("likeCount") or 0,
                 "rts": p.get("repostCount") or 0,
                 "resp": p.get("replyCount") or 0,
@@ -197,7 +217,8 @@ def main():
     hoy = datetime.now(timezone.utc)
     dias = (FECHA_ELECCION - hoy.date()).days
     fuentes = [leer_feed(m, u) for (m, u) in FUENTES]
-    tweets = [leer_tweet(t) for t in TWEETS_IDS]
+    tweets = [t for t in (leer_tweet(x) for x in TWEETS_IDS)
+              if posterior_a_la_convocatoria(t.get("fecha"))]
     bluesky = recolectar_bluesky()
     data = {
         "generado": hoy.isoformat(timespec="seconds"),
@@ -206,6 +227,7 @@ def main():
             "fecha": FECHA_ELECCION.isoformat(),
             "dias_restantes": dias,
         },
+        "convocatoria": CONVOCATORIA[:10],
         "hitos": HITOS,
         "fuentes": fuentes,
         "tweets": tweets,
