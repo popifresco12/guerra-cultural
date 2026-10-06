@@ -11,6 +11,7 @@ Sin dependencias externas: urllib + xml.etree.
 """
 import json
 import re
+import urllib.parse
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone, date
@@ -63,6 +64,29 @@ HITOS = [
 TWEETS_IDS = [
     "2107213442847531148",  # The Objective: Aznar sobre el 29-N
 ]
+
+# --- Bluesky -------------------------------------------------------------
+# Busqueda publica (app.bsky.feed.searchPosts), sin clave. Se piden las
+# consultas electorales y luego se filtra: solo pasa lo que habla de estas
+# elecciones, y se cae todo lo que suene a comicios de otros paises.
+BSKY_API = "https://api.bsky.app/xrpc/app.bsky.feed.searchPosts"
+BSKY_CONSULTAS = [
+    "elecciones 29N",
+    "29-N elecciones",
+    "elecciones generales Espana",
+    "Sanchez elecciones anticipadas",
+    "Feijoo elecciones",
+    "Vox elecciones",
+]
+BSKY_REQUIERE = [
+    "29n", "29-n", "29 n", "29 de noviembre", "elecciones generales",
+    "elecciones anticipadas", "adelanto electoral", "urnas", "convocatoria electoral",
+]
+BSKY_DESCARTA = [
+    "venezuela", "machado", "portugal", "lula", "brasil", "chile", "argentina",
+    "mexico", "colombia", "peru", "eeuu", "estados unidos", "uruguay", "bolivia",
+]
+BSKY_CUANTOS = 12
 
 
 def get(url, timeout=25):
@@ -126,11 +150,55 @@ def leer_tweet(tid):
     }
 
 
+def buscar_bluesky(consulta, limite=25):
+    """Posts de una consulta en Bluesky, ordenados por relevancia."""
+    params = {"q": consulta, "limit": limite, "sort": "top", "lang": "es"}
+    url = BSKY_API + "?" + urllib.parse.urlencode(params)
+    try:
+        return json.loads(get(url).decode("utf-8", "replace")).get("posts", []) or []
+    except Exception:
+        return []
+
+
+def vale_el_post(texto):
+    tl = texto.lower()
+    if any(b in tl for b in BSKY_DESCARTA):
+        return False
+    return any(m in tl for m in BSKY_REQUIERE)
+
+
+def recolectar_bluesky():
+    """Junta las consultas, se queda con lo que habla de ESTAS elecciones y
+    ordena por engagement (un repost pesa mas que un like)."""
+    vistos = {}
+    for q in BSKY_CONSULTAS:
+        for p in buscar_bluesky(q):
+            uri = p.get("uri")
+            txt = ((p.get("record") or {}).get("text") or "").replace("\n", " ").strip()
+            if not uri or not txt or uri in vistos or not vale_el_post(txt):
+                continue
+            au = p.get("author") or {}
+            handle = au.get("handle") or ""
+            vistos[uri] = {
+                "texto": txt,
+                "autor": (au.get("displayName") or "").strip(),
+                "usuario": "@" + handle,
+                "url": "https://bsky.app/profile/%s/post/%s" % (handle, uri.rsplit("/", 1)[-1]),
+                "fecha": (p.get("record") or {}).get("createdAt") or p.get("indexedAt") or "",
+                "likes": p.get("likeCount") or 0,
+                "rts": p.get("repostCount") or 0,
+                "resp": p.get("replyCount") or 0,
+            }
+    posts = sorted(vistos.values(), key=lambda x: x["likes"] + 2 * x["rts"], reverse=True)
+    return posts[:BSKY_CUANTOS]
+
+
 def main():
     hoy = datetime.now(timezone.utc)
     dias = (FECHA_ELECCION - hoy.date()).days
     fuentes = [leer_feed(m, u) for (m, u) in FUENTES]
     tweets = [leer_tweet(t) for t in TWEETS_IDS]
+    bluesky = recolectar_bluesky()
     data = {
         "generado": hoy.isoformat(timespec="seconds"),
         "eleccion": {
@@ -141,12 +209,15 @@ def main():
         "hitos": HITOS,
         "fuentes": fuentes,
         "tweets": tweets,
+        "bluesky": bluesky,
     }
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
     total = sum(len(f["noticias"]) for f in fuentes)
     print(f"escrito {OUT}")
-    print(f"dias restantes: {dias} | noticias: {total} | tweets: {len(tweets)}")
+    print(f"dias restantes: {dias} | noticias: {total} | tweets: {len(tweets)} | bluesky: {len(bluesky)}")
+    for b in bluesky[:5]:
+        print(f"   {b['likes']:5d}L {b['rts']:4d}RT {b['usuario']}: {b['texto'][:78]}")
     for f in fuentes:
         est = f"ERROR {f['error']}" if f.get("error") else f"{len(f['noticias'])} noticias"
         print(f"  {f['medio']:16s} {est}")
