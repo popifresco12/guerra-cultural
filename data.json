@@ -295,28 +295,28 @@
       ]
     },
     {
-      "id": "lenguaje-inclusivo",
-      "name": "Lenguaje Inclusivo",
-      "icon": "📝",
-      "tag": "📌 Estable",
-      "tagClass": "tag-stable",
-      "intensity": 58,
-      "momentum": 62,
+      "id": "elecciones",
+      "name": "Elecciones",
+      "icon": "🗳️",
+      "tag": "🔥 Tendencia alta",
+      "tagClass": "tag-hot",
+      "intensity": 96,
+      "momentum": 88,
       "momentumDir": "right",
-      "summary": "La RAE mantiene su freno normativo: el masculino genérico ya incluye a ambos sexos y formas como 'todes', 'elle' o la terminación en -e son ajenas a la morfología del español y no tienen cabida en la lengua culta. La polémica se reaviva cada vez que un ayuntamiento o administración usa 'les' o 'todes' en comunicados, carteles o guías escolares, con el choque entre quienes lo ven como «justicia lingüística» y quienes lo llaman «ingeniería social». Volumen estable, sin picos, con los críticos dominando la conversación visible.",
-      "quote": "'Todes' no forma parte de la morfología del español: la RAE recuerda que ningún ayuntamiento tiene autoridad para reformar la gramática.",
+      "summary": "Sánchez ha disuelto las Cortes y convoca generales para el 29-N despues de que PP, Vox y Junts tumbaran sus decretos de vivienda, lo que convierte la campana en un plebiscito sobre su figura. Feijoo lo enmarca como «Espana contra Sanchez» y plantea «corrupcion o decencia»; Vox endurece el tono, pide voto presencial y alerta de un supuesto fraude por correo. La izquierda ha movido el eje a vivienda, pensiones y derechos. Los sondeos de arranque dan ventaja al bloque PP-Vox: PP 32,6% (~140 escanos), PSOE 25,6% (~103), Vox 18,3% (~63), con Vox duplicando sus resultados anteriores. Es el tema con mas volumen de todo el termometro.",
+      "quote": "«El 29 de noviembre vamos a hacer historia. Otra vez» — Pedro Sánchez al convocar las elecciones",
       "details": [
         [
           "Volumen en X",
-          "Estable"
+          "Pico maximo: tema nuevo, el mas comentado"
         ],
         [
           "Sentimiento",
-          "Crítico mayoritario"
+          "Euforia en PP y Vox, defensiva y movilizacion en la izquierda"
         ],
         [
           "Impulsado por",
-          "Guías de lenguaje inclusivo en ayuntamientos y colegios"
+          "Convocatoria del 29-N tras el bloqueo de los decretos de vivienda"
         ]
       ]
     },

@@ -29,7 +29,7 @@ TEMAS_UI = {
     "woke": ("Wokismo / Ideología Woke", "\U0001F33F"),
     "cultura-cancelacion": ("Cultura de la Cancelación", "\U0001F507"),
     "ley-trans": ("Ley Trans", "\u26A7\uFE0F"),
-    "lenguaje-inclusivo": ("Lenguaje Inclusivo", "\U0001F4DD"),
+    "elecciones": ("Elecciones", "\U0001F5F3\uFE0F"),
     "espana-vaciada": ("España Vaciada", "\U0001F3D8\uFE0F"),
     "facha": ("Facha / Insulto Político", "\U0001F5E3\uFE0F"),
 }

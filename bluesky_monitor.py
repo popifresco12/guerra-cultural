@@ -37,7 +37,7 @@ TEMAS = {
     "woke": "woke",
     "cultura-cancelacion": "cultura de la cancelación",
     "ley-trans": "ley trans",
-    "lenguaje-inclusivo": "lenguaje inclusivo",
+    "elecciones": "29N",
     "espana-vaciada": "España vaciada",
     "facha": "facha",
 }
