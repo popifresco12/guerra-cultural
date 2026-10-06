@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elecciones 29-N — Termómetro de la Guerra Cultural</title>
+<meta name="description" content="Cuenta atrás, calendario electoral y cómo cuenta cada medio las elecciones generales del 29 de noviembre de 2026. El mismo día según cabeceras de distinto signo.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://guerracultural.es/elecciones.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Elecciones 29-N — Termómetro de la Guerra Cultural">
+<meta property="og:description" content="Cuenta atrás y el mismo día contado por cabeceras que no coinciden en nada.">
+<meta property="og:url" content="https://guerracultural.es/elecciones.html">
+<meta name="twitter:card" content="summary">
+<style>
+  :root {
+    --bg: #0f0f13;
+    --card: #1a1a24;
+    --border: #2a2a3a;
+    --text: #e0e0e0;
+    --muted: #8888a0;
+    --accent-red: #ff4560;
+    --accent-blue: #4590ff;
+    --accent-green: #45d480;
+    --accent-orange: #ff9500;
+    --accent-purple: #a855f7;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: system-ui, -apple-system, sans-serif;
+    padding: 2rem; overflow-x: hidden;
+  }
+  a { color: inherit; }
+  .nav { display: flex; gap: 1.25rem; flex-wrap: wrap; justify-content: center;
+    margin-bottom: 2rem; font-size: .82rem; letter-spacing: .06em; text-transform: uppercase; }
+  .nav a { color: var(--muted); text-decoration: none; padding: .35rem 0;
+    border-bottom: 2px solid transparent; }
+  .nav a:hover { color: var(--text); }
+  .nav a.on { color: var(--accent-red); border-bottom-color: var(--accent-red); }
+  .header { text-align: center; margin-bottom: 2.5rem; padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border); }
+  .header h1 { font-size: clamp(1.5rem, 4vw, 2.4rem); font-weight: 700;
+    letter-spacing: -.02em; margin-bottom: .6rem; }
+  .header p { color: var(--muted); font-size: .92rem; max-width: 640px; margin: 0 auto; line-height: 1.6; }
+  .cuenta { display: flex; justify-content: center; gap: 1rem; margin: 2rem 0 1rem; flex-wrap: wrap; }
+  .cuenta .bloque { background: var(--card); border: 1px solid var(--border);
+    border-radius: 10px; padding: 1rem 1.5rem; min-width: 96px; }
+  .cuenta .num { font-size: 2.4rem; font-weight: 700; line-height: 1;
+    font-variant-numeric: tabular-nums; color: var(--accent-red); }
+  .cuenta .lbl { font-size: .68rem; text-transform: uppercase; letter-spacing: .12em;
+    color: var(--muted); margin-top: .45rem; }
+  h2 { font-size: 1.05rem; text-transform: uppercase; letter-spacing: .12em;
+    color: var(--muted); font-weight: 600; margin: 3rem 0 1.25rem; }
+  h2 span { color: var(--text); }
+  .hitos { position: relative; padding-left: 1.4rem; }
+  .hitos::before { content: ""; position: absolute; left: 5px; top: .5rem; bottom: .5rem;
+    width: 2px; background: var(--border); }
+  .hito { position: relative; margin-bottom: 1.4rem; }
+  .hito::before { content: ""; position: absolute; left: -1.4rem; top: .42rem;
+    width: 12px; height: 12px; border-radius: 50%; background: var(--bg);
+    border: 2px solid var(--border); }
+  .hito.pasado::before { border-color: var(--accent-green); background: var(--accent-green); }
+  .hito.futuro::before { border-color: var(--accent-orange); }
+  .hito.dia::before { border-color: var(--accent-red); background: var(--accent-red);
+    box-shadow: 0 0 0 4px rgba(255,69,96,.18); }
+  .hito .f { font-size: .74rem; color: var(--muted); letter-spacing: .08em;
+    text-transform: uppercase; }
+  .hito .t { font-weight: 600; margin: .18rem 0 .12rem; font-size: .98rem; }
+  .hito .d { font-size: .84rem; color: var(--muted); line-height: 1.5; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1.25rem; }
+  .medio { background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: 1.25rem; }
+  .medio h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .1em;
+    color: var(--accent-blue); margin-bottom: .9rem; padding-bottom: .6rem;
+    border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; }
+  .medio h3 b { color: var(--muted); font-weight: 400; }
+  .nota { display: block; text-decoration: none; padding: .6rem 0;
+    border-bottom: 1px solid rgba(42,42,58,.6); font-size: .88rem; line-height: 1.45; }
+  .nota:last-child { border-bottom: none; }
+  .nota:hover { color: var(--accent-blue); }
+  .nota .fe { display: block; font-size: .68rem; color: var(--muted); margin-top: .28rem;
+    text-transform: uppercase; letter-spacing: .06em; }
+  .tweets { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; }
+  .tw { background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: 1.25rem; }
+  .tw .top { display: flex; justify-content: space-between; align-items: baseline;
+    margin-bottom: .7rem; gap: .5rem; }
+  .tw .au { font-weight: 600; font-size: .9rem; }
+  .tw .us { color: var(--muted); font-size: .78rem; }
+  .tw .tx { font-size: .88rem; line-height: 1.55; white-space: pre-wrap; word-break: break-word; }
+  .tw .mt { margin-top: .8rem; font-size: .72rem; color: var(--muted);
+    display: flex; gap: 1rem; } 
+  .tw a { color: var(--accent-blue); text-decoration: none; }
+  .aviso { background: var(--card); border: 1px solid var(--border);
+    border-left: 3px solid var(--accent-purple); border-radius: 8px;
+    padding: 1rem 1.25rem; font-size: .84rem; color: var(--muted);
+    line-height: 1.6; margin-top: 1.25rem; }
+  .footer { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border);
+    text-align: center; color: var(--muted); font-size: .78rem; line-height: 1.8; }
+  .cargando { color: var(--muted); font-size: .9rem; padding: 1rem 0; }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html">Termómetro X</a>
+  <a href="elecciones.html" class="on">Elecciones 29-N</a>
+  <a href="bluesky.html">Bluesky</a>
+  <a href="comparativa.html">Comparativa</a>
+</nav>
+
+<header class="header">
+  <h1>Elecciones Generales · 29 de noviembre</h1>
+  <p>Cuenta atrás, calendario electoral y <strong>el mismo día contado por cabeceras que no coinciden en nada</strong>. Los titulares se leen directamente de los canales públicos de cada medio.</p>
+  <div class="cuenta" id="cuenta">
+    <div class="bloque"><div class="num" id="dias">—</div><div class="lbl">días</div></div>
+    <div class="bloque"><div class="num" id="horas">—</div><div class="lbl">horas</div></div>
+    <div class="bloque"><div class="num" id="min">—</div><div class="lbl">minutos</div></div>
+  </div>
+  <p id="actualizado" style="font-size:.76rem"></p>
+</header>
+
+<h2>Calendario <span>electoral</span></h2>
+<div class="hitos" id="hitos"><div class="cargando">Cargando…</div></div>
+
+<h2>El mismo día según <span>cada medio</span></h2>
+<div class="grid" id="medios"><div class="cargando">Cargando titulares…</div></div>
+<div class="aviso">
+  Los titulares son exactamente los que publica cada cabecera en su canal, sin editar. Verlos juntos es el punto: el mismo hecho, cuatro enfoques. Este panel no clasifica ni etiqueta a ningún medio.
+</div>
+
+<h2>Tweets <span>destacados</span></h2>
+<div class="tweets" id="tweets"><div class="cargando">Cargando…</div></div>
+<div class="aviso">
+  Lista curada a mano en <code>monitor_elecciones.py</code>: se añaden ids concretos y el texto se trae de la API pública de X. No hay recolección automática de la conversación.
+</div>
+
+<footer class="footer">
+  Termómetro de la Guerra Cultural — <a href="https://guerracultural.es/">guerracultural.es</a><br>
+  Titulares vía RSS público de cada medio · Tweets vía API pública de syndication de X<br>
+  <span id="pie"></span>
+</footer>
+
+<script>
+const MESES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+
+function esc(s){
+  return String(s == null ? '' : s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;');
+}
+
+function fechaCorta(iso){
+  if(!iso) return '';
+  const d = new Date(iso);
+  if(isNaN(d)) return iso;
+  return d.getDate() + ' ' + MESES[d.getMonth()].slice(0,3) + ' · ' +
+         String(d.getHours()).padStart(2,'0') + ':' + String(d.getMinutes()).padStart(2,'0');
+}
+
+function fechaLarga(iso){
+  const d = new Date(iso + 'T00:00:00');
+  if(isNaN(d)) return iso;
+  return d.getDate() + ' de ' + MESES[d.getMonth()];
+}
+
+let FECHA_ELECCION = '2026-11-29T00:00:00';
+
+function tick(){
+  const ahora = new Date();
+  const fin = new Date(FECHA_ELECCION);
+  let ms = fin - ahora;
+  const hecho = ms <= 0;
+  if(hecho) ms = 0;
+  const min = Math.floor(ms / 60000);
+  document.getElementById('dias').textContent  = Math.floor(min / 1440);
+  document.getElementById('horas').textContent = Math.floor((min % 1440) / 60);
+  document.getElementById('min').textContent   = min % 60;
+  if(hecho){
+    document.querySelector('.cuenta').innerHTML =
+      '<div class="bloque"><div class="num" style="font-size:1.3rem">Jornada electoral</div></div>';
+  }
+}
+
+function pintaHitos(hitos){
+  const hoy = new Date().toISOString().slice(0,10);
+  const diaEleccion = FECHA_ELECCION.slice(0,10);
+  document.getElementById('hitos').innerHTML = hitos.map(function(h){
+    let cls = 'futuro';
+    if(h.fecha < hoy) cls = 'pasado';
+    else if(h.fecha === hoy) cls = 'dia';
+    if(h.fecha === diaEleccion) cls = 'dia';
+    return '<div class="hito ' + cls + '">' +
+      '<div class="f">' + esc(fechaLarga(h.fecha)) + '</div>' +
+      '<div class="t">' + esc(h.titulo) + '</div>' +
+      '<div class="d">' + esc(h.detalle) + '</div></div>';
+  }).join('');
+}
+
+function pintaMedios(fuentes){
+  const vivas = fuentes.filter(function(f){ return f.noticias && f.noticias.length; });
+  if(!vivas.length){
+    document.getElementById('medios').innerHTML =
+      '<div class="cargando">No hay titulares disponibles ahora mismo.</div>';
+    return;
+  }
+  document.getElementById('medios').innerHTML = vivas.map(function(f){
+    return '<div class="medio"><h3><span>' + esc(f.medio) + '</span><b>' +
+      f.noticias.length + '</b></h3>' +
+      f.noticias.map(function(n){
+        return '<a class="nota" href="' + esc(n.url) + '" target="_blank" rel="noopener">' +
+          esc(n.titular) + '<span class="fe">' + esc(fechaCorta(n.fecha)) + '</span></a>';
+      }).join('') + '</div>';
+  }).join('');
+}
+
+function pintaTweets(tweets){
+  const ok = tweets.filter(function(t){ return t && t.texto; });
+  if(!ok.length){
+    document.getElementById('tweets').innerHTML =
+      '<div class="cargando">Todavía no hay tweets en la lista.</div>';
+    return;
+  }
+  document.getElementById('tweets').innerHTML = ok.map(function(t){
+    return '<div class="tw"><div class="top"><span class="au">' + esc(t.autor) + '</span>' +
+      '<span class="us">' + esc(t.usuario) + '</span></div>' +
+      '<div class="tx">' + esc(t.texto) + '</div>' +
+      '<div class="mt"><span>' + esc(fechaCorta(t.fecha)) + '</span>' +
+      '<span>♥ ' + (t.likes == null ? '—' : t.likes) + '</span>' +
+      '<a href="' + esc(t.url) + '" target="_blank" rel="noopener">ver en X</a></div></div>';
+  }).join('');
+}
+
+fetch('elecciones.json', {cache:'no-store'})
+  .then(function(r){ return r.json(); })
+  .then(function(d){
+    if(d.eleccion && d.eleccion.fecha){
+      FECHA_ELECCION = d.eleccion.fecha + 'T00:00:00';
+    }
+    if(Array.isArray(d.hitos)) pintaHitos(d.hitos);
+    pintaMedios(d.fuentes || []);
+    pintaTweets(d.tweets || []);
+    const gen = d.generado ? new Date(d.generado) : null;
+    if(gen && !isNaN(gen)){
+      const txt = 'Datos actualizados: ' + gen.toLocaleString('es-ES');
+      document.getElementById('actualizado').textContent = txt;
+      document.getElementById('pie').textContent = txt;
+    }
+  })
+  .catch(function(e){
+    document.getElementById('medios').innerHTML =
+      '<div class="cargando">No se pudo cargar elecciones.json (' + esc(e.message) + ').</div>';
+    document.getElementById('hitos').innerHTML = '';
+    document.getElementById('tweets').innerHTML = '';
+  });
+
+tick();
+setInterval(tick, 30000);
+</script>
+</body>
+</html>
