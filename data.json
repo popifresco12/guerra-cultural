@@ -1,30 +1,28 @@
 {
   "meta": {
-    "generated_at": "2026-10-06T08:05:00+02:00",
+    "generated_at": "2026-10-07T08:05:00+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "acampada Puerta del Sol Madrid vivienda Maricarmen Sindicato de Inquilinas desahucios huelga general (desde 2026-10-03) OK",
-      "Sánchez PSOE corrupción Cerdán Ábalos UCO imputación fundaciones comisiones (desde 2026-10-03) -> degradado sin citas; reintento 'caso Koldo Ábalos Cerdán PSOE comisiones mascarillas UCO Delcy Rodríguez Venezuela imputación' -> degradado sin citas; reintento 'Santos Cerdán declaración juez cohecho organización criminal' -> BLOQUEADO por crédito. STALE.",
-      "inmigración España Ceuta Canarias llegadas irregulares cayucos MENAS regularización (desde 2026-10-03) -> degradado; reintento 'llegadas cayucos Canarias récord PP blindar ruta atlántica Frontex MENAS Ceuta reparto península' -> degradado; reintento 'reparto menores migrantes Canarias península CCAA Gobierno' -> BLOQUEADO por crédito. STALE.",
-      "okupación Desokupa Daniel Esteve desalojo okupas vivienda propietarios España (desde 2026-10-03) -> degradado; reintento 'Desokupa Daniel Esteve acampada Sol okupación vivienda polémica' -> BLOQUEADO por crédito. STALE.",
-      "independentismo Cataluña Puigdemont Junts ERC amnistía TC malversación financiación singular (desde 2026-10-03) -> truncado; reintento 'amnistía Puigdemont Tribunal Constitucional malversación independentismo Cataluña reacción' OK",
-      "exhumaciones Cuelgamuros restos identificados familias republicanas memoria democrática Valle (desde 2026-10-03) OK",
-      "feminismo abolicionista prostitución LOASP Irene Montero congreso feminismo España (desde 2026-10-03) OK",
-      "ideología woke universidad subvenciones estudios de género crítica España (desde 2026-10-03) -> truncado (solo preámbulo); reintento 'adoctrinamiento ideológico universidad española estudios de género Vox subvenciones' -> BLOQUEADO por crédito. STALE.",
-      "cultura de la cancelación Savater Josema Yuste censura artistas veto cine español (desde 2026-10-03) -> truncado; reintento -> BLOQUEADO por crédito. STALE.",
-      "ley trans autodeterminación género menores bloqueadores hormonas protocolo Madrid (desde 2026-10-03) OK",
-      "Sánchez convoca elecciones generales anticipadas campaña Feijóo PP Vox sondeos candidatura (desde 2026-10-03) OK",
-      "despoblación España vaciada Teruel Existe reivindicaciones tren hospital comarcal (desde 2026-10-03) -> degradado; reintento -> BLOQUEADO por crédito. STALE.",
-      "facha insulto político Vox izquierda violencia doble vara redes España (desde 2026-10-03) -> truncado; reintento -> BLOQUEADO por crédito. STALE.",
-      "Verificación de actividad de cuentas (16 handles, 2 tandas) -> NO EJECUTADA: crédito agotado a mitad de run. meta.inactive_accounts se conserva idéntico.",
-      "Búsqueda de virales -> NO EJECUTADA por crédito; virals construidos con las URLs reales devueltas por las búsquedas de tópicos de este mismo run."
+      "Tanda 1 de tópicos (5/5: acampada-sol, sanchismo, inmigracion, okupacion, independentismo) — TODAS rechazadas IDÉNTICAMENTE con personal-team-blocked:spending-limit en la primera llamada. La tanda de 5 hace de diagnóstico: si las 5 fallan igual, es crédito de la cuenta xAI, no forma de query.",
+      "No se lanzaron las tandas 2-3 de tópicos (memoria, feminismo, woke, cultura-cancelacion, ley-trans, elecciones, espana-vaciada, facha), ni la verificación de actividad de cuentas, ni la búsqueda de virales (fallback completo, 0/13 medidos).",
+      "acampada Puerta del Sol Madrid vivienda Sindicato de Inquilinas huelga general desahucios (desde 2026-10-04) [BLOQUEADO spending-limit]",
+      "caso Koldo Ábalos Santos Cerdán PSOE comisiones mascarillas UCO imputación (desde 2026-10-04) [BLOQUEADO spending-limit]",
+      "inmigración España Canarias Ceuta llegadas irregulares MENAS reparto menores regularización (desde 2026-10-04) [BLOQUEADO spending-limit]",
+      "okupación Desokupa Daniel Esteve desalojo okupas vivienda propietarios España (desde 2026-10-04) [BLOQUEADO spending-limit]",
+      "amnistía Puigdemont Tribunal Constitucional malversación independentismo Cataluña reacción (desde 2026-10-04) [BLOQUEADO spending-limit]"
     ],
     "stale_topics": [
+      "acampada-sol",
       "sanchismo",
       "inmigracion",
       "okupacion",
+      "independentismo",
+      "memoria",
+      "feminismo",
       "woke",
       "cultura-cancelacion",
+      "ley-trans",
+      "elecciones",
       "espana-vaciada",
       "facha"
     ],
@@ -35,9 +33,10 @@
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "previous_generated_at": "2026-10-05T08:05:00+02:00",
+    "previous_generated_at": "2026-10-06T08:05:00+02:00",
     "previous_source": "cron 09f22b3f6f78",
-    "notes": "CRÉDITO AGOTADO A MITAD DE RUN (spending-limit): las tandas 1-3 de tópicos se completaron parcialmente (6 tópicos con análisis fresco con citas: acampada-sol, independentismo, memoria, feminismo, ley-trans, elecciones) y después las 6 llamadas de reintento fallaron TODAS con 'personal-team-blocked:spending-limit'. Es el patrón conocido: la recarga del 05-10 dio un solo run operativo. Los 7 tópicos no medidos (sanchismo, inmigracion, okupacion, woke, cultura-cancelacion, espana-vaciada, facha) reutilizan sus valores del data.json anterior y figuran en stale_topics (el dashboard muestra el banner). Nota: sanchismo/inmigracion/okupacion/espana-vaciada devolvieron 'no citations returned despite filters: from_date' en el 1er y 2º intento (fallo de forma de query) antes del bloqueo. La verificación de actividad de cuentas y la búsqueda de virales NO se ejecutaron por el bloqueo: meta.inactive_accounts se conserva EXACTAMENTE igual (una cuenta sin verificar no es ni activa ni inactiva) y los virals se construyen con URLs reales ya devueltas por las búsquedas exitosas de este run. sources.json NO generado: /home/carlo/guerra-cultural-rag no existe en este host Windows. Próximo paso del usuario: recargar crédito xAI en https://grok.com/?_s=usage."
+    "fallback": "full",
+    "notes": "FALLBACK COMPLETO (primera jornada con bloqueo total, 0/13 tópicos medidos). La tanda 1 (5/5: acampada-sol, sanchismo, inmigracion, okupacion, independentismo) falló IDÉNTICAMENTE en las cinco llamadas con 'personal-team-blocked:spending-limit' ya en la primera: la tanda hace de diagnóstico (todas iguales = crédito de la cuenta xAI, no forma de query). No se lanzaron las tandas 2-3, ni la verificación de actividad de cuentas, ni la búsqueda de virales. Los 13 tópicos canónicos quedan stale y se reutilizan VERBATIM topics, news, trends, accounts y virals del data.json en HEAD (último dato real medido en X: 06-10-2026; además, 7 de esos tópicos ya venían stale del run del 06-10). NO se añade snapshot a history.json: sin medición fresca, un punto fechado hoy falsearía el gráfico de evolución. meta.inactive_accounts se conserva EXACTAMENTE igual (una cuenta sin verificar no es ni activa ni inactiva). sources.json NO generado: /home/carlo/guerra-cultural-rag no existe en este host Windows. La racha arranca hoy: el 06-10 la cuenta se agotó a mitad de run y el último run íntegro fue el 05-10. Recargar crédito xAI en https://grok.com/?_s=usage."
   },
   "topics": [
     {
