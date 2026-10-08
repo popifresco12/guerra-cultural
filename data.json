@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-10-07T08:05:00+02:00",
+    "generated_at": "2026-10-08T08:05:00+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "Tanda 1 de tópicos (5/5: acampada-sol, sanchismo, inmigracion, okupacion, independentismo) — TODAS rechazadas IDÉNTICAMENTE con personal-team-blocked:spending-limit en la primera llamada. La tanda de 5 hace de diagnóstico: si las 5 fallan igual, es crédito de la cuenta xAI, no forma de query.",
+      "Tanda 1 de tópicos (5/5: acampada-sol, sanchismo, inmigracion, okupacion, independentismo) — TODAS rechazadas IDÉNTICAMENTE con personal-team-blocked:spending-limit en la primera llamada. La tanda de 5 hace de diagnóstico: si las 5 fallan igual, es crédito de la cuenta xAI, no forma de query (2ª jornada consecutiva de bloqueo).",
       "No se lanzaron las tandas 2-3 de tópicos (memoria, feminismo, woke, cultura-cancelacion, ley-trans, elecciones, espana-vaciada, facha), ni la verificación de actividad de cuentas, ni la búsqueda de virales (fallback completo, 0/13 medidos).",
-      "acampada Puerta del Sol Madrid vivienda Sindicato de Inquilinas huelga general desahucios (desde 2026-10-04) [BLOQUEADO spending-limit]",
-      "caso Koldo Ábalos Santos Cerdán PSOE comisiones mascarillas UCO imputación (desde 2026-10-04) [BLOQUEADO spending-limit]",
-      "inmigración España Canarias Ceuta llegadas irregulares MENAS reparto menores regularización (desde 2026-10-04) [BLOQUEADO spending-limit]",
-      "okupación Desokupa Daniel Esteve desalojo okupas vivienda propietarios España (desde 2026-10-04) [BLOQUEADO spending-limit]",
-      "amnistía Puigdemont Tribunal Constitucional malversación independentismo Cataluña reacción (desde 2026-10-04) [BLOQUEADO spending-limit]"
+      "acampada Puerta del Sol Madrid vivienda Sindicato de Inquilinas huelga general desahucios (desde 2026-10-05) [BLOQUEADO spending-limit]",
+      "caso Koldo Ábalos Santos Cerdán PSOE comisiones mascarillas UCO imputación (desde 2026-10-05) [BLOQUEADO spending-limit]",
+      "inmigración España Canarias Ceuta llegadas irregulares MENAS reparto menores regularización (desde 2026-10-05) [BLOQUEADO spending-limit]",
+      "okupación Desokupa Daniel Esteve desalojo okupas vivienda propietarios España (desde 2026-10-05) [BLOQUEADO spending-limit]",
+      "amnistía Puigdemont Tribunal Constitucional malversación independentismo Cataluña reacción (desde 2026-10-05) [BLOQUEADO spending-limit]"
     ],
     "stale_topics": [
       "acampada-sol",
@@ -33,10 +33,10 @@
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "previous_generated_at": "2026-10-06T08:05:00+02:00",
+    "previous_generated_at": "2026-10-07T08:05:00+02:00",
     "previous_source": "cron 09f22b3f6f78",
     "fallback": "full",
-    "notes": "FALLBACK COMPLETO (primera jornada con bloqueo total, 0/13 tópicos medidos). La tanda 1 (5/5: acampada-sol, sanchismo, inmigracion, okupacion, independentismo) falló IDÉNTICAMENTE en las cinco llamadas con 'personal-team-blocked:spending-limit' ya en la primera: la tanda hace de diagnóstico (todas iguales = crédito de la cuenta xAI, no forma de query). No se lanzaron las tandas 2-3, ni la verificación de actividad de cuentas, ni la búsqueda de virales. Los 13 tópicos canónicos quedan stale y se reutilizan VERBATIM topics, news, trends, accounts y virals del data.json en HEAD (último dato real medido en X: 06-10-2026; además, 7 de esos tópicos ya venían stale del run del 06-10). NO se añade snapshot a history.json: sin medición fresca, un punto fechado hoy falsearía el gráfico de evolución. meta.inactive_accounts se conserva EXACTAMENTE igual (una cuenta sin verificar no es ni activa ni inactiva). sources.json NO generado: /home/carlo/guerra-cultural-rag no existe en este host Windows. La racha arranca hoy: el 06-10 la cuenta se agotó a mitad de run y el último run íntegro fue el 05-10. Recargar crédito xAI en https://grok.com/?_s=usage."
+    "notes": "FALLBACK COMPLETO (2ª jornada consecutiva de bloqueo, 0/13 tópicos medidos; último dato real medido en X: 06-10-2026, el dashboard lleva 2 días congelado). La tanda 1 (5/5: acampada-sol, sanchismo, inmigracion, okupacion, independentismo) falló IDÉNTICAMENTE en las cinco llamadas con 'personal-team-blocked:spending-limit' ya en la primera: la tanda hace de diagnóstico (todas iguales = crédito de la cuenta xAI, no forma de query), así que no se repitió con una sonda mínima. No se lanzaron las tandas 2-3 de tópicos (memoria, feminismo, woke, cultura-cancelacion, ley-trans, elecciones, espana-vaciada, facha), ni la verificación de actividad de cuentas, ni la búsqueda de virales. Los 13 tópicos canónicos quedan stale y se reutilizan VERBATIM topics, news, trends, accounts y virals del data.json en HEAD (que a su vez ya era copia del run del 06-10). NO se añade snapshot a history.json: sin medición fresca, un punto fechado hoy falsearía el gráfico de evolución. meta.inactive_accounts se conserva EXACTAMENTE igual (una cuenta sin verificar no es ni activa ni inactiva). sources.json NO generado: /home/carlo/guerra-cultural-rag no existe en este host Windows. Recargar crédito xAI en https://grok.com/?_s=usage — la racha de bloqueo lleva 2 días (07-10 y 08-10) y el crédito se viene agotando en 1-3 días por recarga."
   },
   "topics": [
     {
