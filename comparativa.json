@@ -1,11 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-10-07T08:45:42+02:00",
-    "fuente_x": "2026-10-07T08:05:00+02:00",
+    "generated_at": "2026-10-08T08:45:45+02:00",
+    "fuente_x": "2026-10-08T08:05:00+02:00",
     "aviso": "X y Bluesky son poblaciones distintas: los volumenes NO son comparables. Se comparan posiciones relativas normalizadas 0-100 dentro de cada plataforma.",
     "temas_comparados": 12
   },
   "solo_x": [
+    "memoria",
     "facha",
     "independentismo",
     "inmigracion",
@@ -17,11 +18,10 @@
   ],
   "alineados": [
     "feminismo",
-    "espana-vaciada",
     "cultura-cancelacion",
-    "ley-trans",
+    "espana-vaciada",
     "woke",
-    "memoria"
+    "ley-trans"
   ],
   "temas": [
     {
@@ -31,8 +31,8 @@
       "x_intensidad": 82.0,
       "x_momentum": 78.0,
       "bs_posts": 96,
-      "bs_engagement": 2472,
-      "bs_engagement_medio": 25.8,
+      "bs_engagement": 1618,
+      "bs_engagement_medio": 16.9,
       "bs_consulta": "okupación",
       "x_rel": 48.3,
       "bs_rel": 100.0,
@@ -49,22 +49,8 @@
       "bs_engagement_medio": 8.0,
       "bs_consulta": "feminismo radical",
       "x_rel": 17.2,
-      "bs_rel": 26.4,
-      "brecha": -9.2
-    },
-    {
-      "id": "espana-vaciada",
-      "nombre": "España Vaciada",
-      "icono": "🏘️",
-      "x_intensidad": 68.0,
-      "x_momentum": 58.0,
-      "bs_posts": 99,
-      "bs_engagement": 379,
-      "bs_engagement_medio": 3.8,
-      "bs_consulta": "España vaciada",
-      "x_rel": 0.0,
-      "bs_rel": 7.9,
-      "brecha": -7.9
+      "bs_rel": 33.8,
+      "brecha": -16.6
     },
     {
       "id": "cultura-cancelacion",
@@ -73,12 +59,40 @@
       "x_intensidad": 78.0,
       "x_momentum": 72.0,
       "bs_posts": 99,
-      "bs_engagement": 960,
+      "bs_engagement": 961,
       "bs_engagement_medio": 9.7,
       "bs_consulta": "cultura de la cancelación",
       "x_rel": 34.5,
-      "bs_rel": 33.5,
-      "brecha": 1.0
+      "bs_rel": 46.9,
+      "brecha": -12.4
+    },
+    {
+      "id": "espana-vaciada",
+      "nombre": "España Vaciada",
+      "icono": "🏘️",
+      "x_intensidad": 68.0,
+      "x_momentum": 58.0,
+      "bs_posts": 99,
+      "bs_engagement": 381,
+      "bs_engagement_medio": 3.8,
+      "bs_consulta": "España vaciada",
+      "x_rel": 0.0,
+      "bs_rel": 0.0,
+      "brecha": 0.0
+    },
+    {
+      "id": "woke",
+      "nombre": "Wokismo / Ideología Woke",
+      "icono": "🌿",
+      "x_intensidad": 78.0,
+      "x_momentum": 76.0,
+      "bs_posts": 97,
+      "bs_engagement": 801,
+      "bs_engagement_medio": 8.3,
+      "bs_consulta": "woke",
+      "x_rel": 34.5,
+      "bs_rel": 34.0,
+      "brecha": 0.5
     },
     {
       "id": "ley-trans",
@@ -87,26 +101,12 @@
       "x_intensidad": 76.0,
       "x_momentum": 74.0,
       "bs_posts": 100,
-      "bs_engagement": 706,
-      "bs_engagement_medio": 7.1,
+      "bs_engagement": 685,
+      "bs_engagement_medio": 6.8,
       "bs_consulta": "ley trans",
       "x_rel": 27.6,
-      "bs_rel": 22.3,
-      "brecha": 5.3
-    },
-    {
-      "id": "woke",
-      "nombre": "Wokismo / Ideología Woke",
-      "icono": "🌿",
-      "x_intensidad": 78.0,
-      "x_momentum": 76.0,
-      "bs_posts": 98,
-      "bs_engagement": 774,
-      "bs_engagement_medio": 7.9,
-      "bs_consulta": "woke",
-      "x_rel": 34.5,
-      "bs_rel": 25.3,
-      "brecha": 9.2
+      "bs_rel": 24.6,
+      "brecha": 3.0
     },
     {
       "id": "memoria",
@@ -115,12 +115,12 @@
       "x_intensidad": 84.0,
       "x_momentum": 80.0,
       "bs_posts": 100,
-      "bs_engagement": 1204,
-      "bs_engagement_medio": 12.0,
+      "bs_engagement": 772,
+      "bs_engagement_medio": 7.7,
       "bs_consulta": "memoria histórica",
       "x_rel": 55.2,
-      "bs_rel": 44.2,
-      "brecha": 11.0
+      "bs_rel": 31.6,
+      "brecha": 23.6
     },
     {
       "id": "facha",
@@ -128,13 +128,13 @@
       "icono": "🗣️",
       "x_intensidad": 82.0,
       "x_momentum": 73.0,
-      "bs_posts": 95,
-      "bs_engagement": 402,
-      "bs_engagement_medio": 4.2,
+      "bs_posts": 88,
+      "bs_engagement": 685,
+      "bs_engagement_medio": 7.8,
       "bs_consulta": "facha",
       "x_rel": 48.3,
-      "bs_rel": 8.9,
-      "brecha": 39.4
+      "bs_rel": 24.6,
+      "brecha": 23.7
     },
     {
       "id": "independentismo",
@@ -143,12 +143,12 @@
       "x_intensidad": 89.0,
       "x_momentum": 76.0,
       "bs_posts": 99,
-      "bs_engagement": 456,
-      "bs_engagement_medio": 4.6,
+      "bs_engagement": 450,
+      "bs_engagement_medio": 4.5,
       "bs_consulta": "independentismo",
       "x_rel": 72.4,
-      "bs_rel": 11.3,
-      "brecha": 61.1
+      "bs_rel": 5.6,
+      "brecha": 66.8
     },
     {
       "id": "inmigracion",
@@ -157,12 +157,12 @@
       "x_intensidad": 93.0,
       "x_momentum": 88.0,
       "bs_posts": 100,
-      "bs_engagement": 498,
-      "bs_engagement_medio": 5.0,
+      "bs_engagement": 465,
+      "bs_engagement_medio": 4.7,
       "bs_consulta": "inmigración España",
       "x_rel": 86.2,
-      "bs_rel": 13.1,
-      "brecha": 73.1
+      "bs_rel": 6.8,
+      "brecha": 79.4
     },
     {
       "id": "sanchismo",
@@ -170,13 +170,13 @@
       "icono": "👑",
       "x_intensidad": 95.0,
       "x_momentum": 92.0,
-      "bs_posts": 97,
-      "bs_engagement": 412,
-      "bs_engagement_medio": 4.2,
+      "bs_posts": 98,
+      "bs_engagement": 497,
+      "bs_engagement_medio": 5.1,
       "bs_consulta": "sanchismo",
       "x_rel": 93.1,
-      "bs_rel": 9.3,
-      "brecha": 83.8
+      "bs_rel": 9.4,
+      "brecha": 83.7
     },
     {
       "id": "elecciones",
@@ -185,12 +185,12 @@
       "x_intensidad": 97.0,
       "x_momentum": 87.0,
       "bs_posts": 100,
-      "bs_engagement": 200,
-      "bs_engagement_medio": 2.0,
+      "bs_engagement": 447,
+      "bs_engagement_medio": 4.5,
       "bs_consulta": "29N",
       "x_rel": 100.0,
-      "bs_rel": 0.0,
-      "brecha": 100.0
+      "bs_rel": 5.3,
+      "brecha": 94.7
     }
   ]
 }
