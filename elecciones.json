@@ -1,9 +1,9 @@
 {
- "generado": "2026-10-11T06:45:34+00:00",
+ "generado": "2026-10-12T06:45:32+00:00",
  "eleccion": {
   "nombre": "Elecciones Generales 2026",
   "fecha": "2026-11-29",
-  "dias_restantes": 49
+  "dias_restantes": 48
  },
  "convocatoria": "2026-10-05",
  "hitos": [
@@ -49,44 +49,54 @@
    "url": "https://www.eldiario.es/rss/",
    "noticias": [
     {
+     "titular": "El giro de Rufián descoloca a la izquierda y complica el pacto entre Podemos y el Frente Amplio",
+     "url": "https://www.eldiario.es/catalunya/giro-rufian-descoloca-izquierda-complica-pacto-frente-amplio_1_13579035.html",
+     "fecha": "Sun, 11 Oct 2026 19:10:55 +0000"
+    },
+    {
+     "titular": "La Fiscalía se enreda en una investigación contra el PSOE que conduce a la guerra sucia de las cloacas del PP",
+     "url": "https://www.eldiario.es/politica/fiscalia-enreda-investigacion-psoe-conduce-guerra-sucia-cloacas-pp_129_13568309.html",
+     "fecha": "Sun, 11 Oct 2026 19:10:55 +0000"
+    },
+    {
+     "titular": "Ni agentes de la UCO ni móviles incautados: la revelación de secretos del PP no se investiga como al exfiscal general",
+     "url": "https://www.eldiario.es/politica/agentes-uco-moviles-incautados-revelacion-secretos-pp-no-investiga-exfiscal-general_1_13574778.html",
+     "fecha": "Sun, 11 Oct 2026 19:10:56 +0000"
+    },
+    {
+     "titular": "Qué han hecho los líderes de izquierda que siguen ganando elecciones en Europa",
+     "url": "https://www.eldiario.es/internacional/han-hecho-lideres-izquierda-siguen-ganando-elecciones-europa_1_13574699.html",
+     "fecha": "Sun, 11 Oct 2026 19:10:56 +0000"
+    },
+    {
+     "titular": "Ayuso, el juguete roto del Neverland de Feijóo",
+     "url": "https://www.eldiario.es/economia/ayuso-juguete-roto-neverland-feijoo_129_13575852.html",
+     "fecha": "Sun, 11 Oct 2026 19:10:56 +0000"
+    },
+    {
+     "titular": "Los acampados de Sol ironizan tras la acusación de terrorismo de Ayuso: \"Esta mañana estábamos jugando al Pokémon Go\"",
+     "url": "https://www.eldiario.es/madrid/acampados-sol-ironizan-acusacion-terrorismo-ayuso-manana-estabamos-jugando-pokemon-go_1_13578991.html",
+     "fecha": "Sun, 11 Oct 2026 19:10:57 +0000"
+    },
+    {
+     "titular": "Mertxe Aizpurua no irá en las listas de EH Bildu para las generales y no continuará en el Congreso",
+     "url": "https://www.eldiario.es/euskadi/mertxe-aizpurua-no-ira-listas-eh-bildu-generales-no-continuara-congreso_1_13578124.html",
+     "fecha": "Sun, 11 Oct 2026 07:21:11 +0000"
+    },
+    {
      "titular": "Sánchez y Feijóo encaran su duelo electoral más cruento",
      "url": "https://www.eldiario.es/politica/sanchez-feijoo-encaran-duelo-electoral-cruento_1_13574968.html",
      "fecha": "Sat, 10 Oct 2026 20:10:41 +0000"
     },
     {
-     "titular": "Padre, hijo y el voto del Espíritu Santo: la alianza entre ultraderecha y evangélicos para tumbar a la izquierda en Brasil",
-     "url": "https://www.eldiario.es/internacional/padre-hijo-voto-espiritu-santo-alianza-ultraderecha-evangelicos-tumbar-izquierda-brasil_1_13575535.html",
-     "fecha": "Sat, 10 Oct 2026 20:10:43 +0000"
+     "titular": "La permanente falta de médicos en Andoain enfrenta al Ayuntamiento de EH Bildu con el Gobierno vasco",
+     "url": "https://www.eldiario.es/euskadi/permanente-falta-medicos-andoain-enfrenta-ayuntamiento-eh-bildu-gobierno-vasco_1_13573747.html",
+     "fecha": "Sun, 11 Oct 2026 19:20:08 +0000"
     },
     {
-     "titular": "Ayuso liter eta",
-     "url": "https://www.eldiario.es/opinion/zona-critica/ayuso-liter-eta_129_13577778.html",
-     "fecha": "Sat, 10 Oct 2026 20:10:49 +0000"
-    },
-    {
-     "titular": "Feijóo promete \"un Gobierno que pedirá sacrificios\" y Ayuso tilda de \"terroristas\" a los acampados en Sol",
-     "url": "https://www.eldiario.es/politica/feijoo-promete-gobierno-pedira-sacrificios-ayuso-tilda-terroristas-acampados-sol_1_13577261.html",
-     "fecha": "Sat, 10 Oct 2026 11:19:19 +0000"
-    },
-    {
-     "titular": "Drago Canarias anuncia que concurrirá en solitario a las elecciones generales",
-     "url": "https://www.eldiario.es/canariasahora/politica/drago-canarias-anuncia-concurrira-solitario-elecciones-generales_1_13577708.html",
-     "fecha": "Sat, 10 Oct 2026 16:24:58 +0000"
-    },
-    {
-     "titular": "La abogada Miriam González anuncia su candidatura al Congreso por Democracia 21, que solo presentará listas en Madrid y Barcelona",
-     "url": "https://www.eldiario.es/politica/abogada-miriam-gonzalez-anuncia-candidatura-congreso-democracia-21-presentara-listas-madrid-barcelona_1_13577548.html",
-     "fecha": "Sat, 10 Oct 2026 13:30:39 +0000"
-    },
-    {
-     "titular": "Un pacto entre Podemos y el Frente Amplio duplicaría sus opciones para las generales",
-     "url": "https://www.eldiario.es/politica/pacto-frente-amplio-duplicaria-opciones-generales_1_13574953.html",
-     "fecha": "Fri, 09 Oct 2026 20:40:12 +0000"
-    },
-    {
-     "titular": "La campaña de Lula denuncia ante el Tribunal Electoral una supuesta interferencia de Meta en favor de Bolsonaro",
-     "url": "https://www.eldiario.es/internacional/campana-lula-denuncia-tribunal-electoral-supuesta-interferencia-meta-favor-bolsonaro_1_13577802.html",
-     "fecha": "Sat, 10 Oct 2026 17:37:51 +0000"
+     "titular": "Raphäel Glucksmann gana las primarias del Partido Socialista francés y será el candidato en las presidenciales de 2027",
+     "url": "https://www.eldiario.es/internacional/raphael-glucksmann-gana-primarias-partido-socialista-frances-sera-candidato-presidenciales-2027_1_13579013.html",
+     "fecha": "Sun, 11 Oct 2026 17:28:11 +0000"
     }
    ]
   },
@@ -95,29 +105,29 @@
    "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada",
    "noticias": [
     {
-     "titular": "Ada Colau, la exalcaldesa que puso la vivienda en la agenda pública ahora quiere dar el salto al Congreso",
-     "url": "https://elpais.com/espana/catalunya/2026-10-11/ada-colau-la-exalcaldesa-que-puso-la-vivienda-en-la-agenda-publica-ahora-quiere-dar-el-salto-al-congreso.html",
-     "fecha": "Sun, 11 Oct 2026 03:30:01 GMT"
+     "titular": "La candidatura por Madrid frena el acuerdo del Frente Amplio",
+     "url": "https://elpais.com/espana/elecciones-generales/2026-10-12/la-candidatura-por-madrid-frena-el-acuerdo-del-frente-amplio.html",
+     "fecha": "Mon, 12 Oct 2026 03:30:01 GMT"
     },
     {
-     "titular": "El gran enfado salta a las urnas",
-     "url": "https://elpais.com/espana/elecciones-generales/2026-10-11/el-gran-enfado-salta-a-las-urnas.html",
-     "fecha": "Sun, 11 Oct 2026 03:30:01 GMT"
+     "titular": "Rufián viajero, la sombra de Colau y el futuro de Junqueras: la inédita campaña que le espera a ERC",
+     "url": "https://elpais.com/espana/catalunya/2026-10-12/rufian-viajero-la-sombra-de-colau-y-el-futuro-de-junqueras-la-inedita-campana-que-le-espera-a-erc.html",
+     "fecha": "Mon, 12 Oct 2026 03:30:01 GMT"
     },
     {
-     "titular": "Cuánta Falange hay en Vox",
-     "url": "https://elpais.com/opinion/2026-10-11/cuanta-falange-hay-en-vox.html",
-     "fecha": "Sun, 11 Oct 2026 03:30:01 GMT"
+     "titular": "Bruselas teme ataques híbridos de Rusia en el superciclo electoral europeo que se abre con España",
+     "url": "https://elpais.com/internacional/2026-10-12/bruselas-teme-ataques-hibridos-de-rusia-en-el-superciclo-electoral-europeo-que-se-abre-con-espana.html",
+     "fecha": "Mon, 12 Oct 2026 03:30:01 GMT"
     },
     {
-     "titular": "Abdul El-Sayed, la apuesta más arriesgada de los demócratas para las elecciones: “Habrá que exigir responsabilidades a Trump por todo el mal que ha hecho”",
-     "url": "https://elpais.com/us/2026-10-11/abdul-el-sayed-la-apuesta-mas-arriesgada-de-los-democratas-para-las-elecciones-habra-que-exigir-responsabilidades-a-trump-por-todo-el-mal-que-ha-hecho.html",
-     "fecha": "Sun, 11 Oct 2026 04:00:00 GMT"
+     "titular": "Unos 60 políticos soberanistas aguardan su amnistía mientras llega el sí definitivo a Puigdemont",
+     "url": "https://elpais.com/espana/catalunya/2026-10-12/unos-60-politicos-soberanistas-aguardan-su-amnistia-mientras-llega-el-si-definitivo-a-puigdemont.html",
+     "fecha": "Mon, 12 Oct 2026 03:15:00 GMT"
     },
     {
-     "titular": "Junts: interés, cálculo, moralidad",
-     "url": "https://elpais.com/opinion/2026-10-11/junts-interes-calculo-moralidad.html",
-     "fecha": "Sun, 11 Oct 2026 03:30:01 GMT"
+     "titular": "De Cantora al Congreso",
+     "url": "https://elpais.com/opinion/2026-10-12/de-cantora-al-congreso.html",
+     "fecha": "Mon, 12 Oct 2026 03:30:01 GMT"
     },
     {
      "titular": "El dilema de Puigdemont sobre su regreso: entre la expectativa de bombazo electoral y el temor al pinchazo",
@@ -125,24 +135,24 @@
      "fecha": "Sun, 11 Oct 2026 03:30:01 GMT"
     },
     {
-     "titular": "El doble reto de Albiol si es candidato de Feijóo el 29-N: frenar a Vox sin olvidar Badalona",
-     "url": "https://elpais.com/espana/catalunya/2026-10-11/el-doble-reto-de-albiol-si-es-candidato-de-feijoo-el-29-n-frenar-a-vox-sin-olvidar-badalona.html",
-     "fecha": "Sun, 11 Oct 2026 03:30:00 GMT"
+     "titular": "Lula saca a la calle una marea roja para emprender la remontada y ganar las elecciones",
+     "url": "https://elpais.com/america/2026-10-11/lula-saca-a-la-calle-una-marea-roja-para-emprender-la-remontada-y-ganar-las-elecciones.html",
+     "fecha": "Sun, 11 Oct 2026 23:47:57 GMT"
     },
     {
-     "titular": "Russell se diluye; Verstappen se agiganta",
-     "url": "https://elpais.com/deportes/formula-1/2026-10-10/russell-se-diluye-verstappen-se-agiganta.html",
-     "fecha": "Sat, 10 Oct 2026 16:13:40 GMT"
+     "titular": "El Betis de Isco y de Morante golea a Osasuna y es tercero",
+     "url": "https://elpais.com/deportes/futbol/2026-10-11/el-betis-de-isco-y-de-morante-golea-a-osasuna-y-es-tercero.html",
+     "fecha": "Sun, 11 Oct 2026 19:20:42 GMT"
     },
     {
-     "titular": "Pippa York: “Las trans no somos el problema en el mundo femenino: nosotras no agredimos a otras mujeres”",
-     "url": "https://elpais.com/deportes/ciclismo/2026-10-09/pippa-york-las-trans-no-somos-el-problema-en-el-mundo-femenino-nosotras-no-agredimos-a-otras-mujeres.html",
-     "fecha": "Fri, 09 Oct 2026 03:30:01 GMT"
+     "titular": "Odio eterno al parón de selecciones",
+     "url": "https://elpais.com/deportes/futbol/2026-10-12/odio-eterno-al-paron-de-selecciones.html",
+     "fecha": "Mon, 12 Oct 2026 03:30:01 GMT"
     },
     {
-     "titular": "Qué pasó con el robo de votos por correo en Extremadura: los sospechosos están en prisión y se les acusa de llevarse el camión de la lotería",
-     "url": "https://elpais.com/espana/2026-10-10/que-paso-con-el-robo-de-votos-por-correo-en-extremadura-los-sospechosos-estan-en-prision-y-se-les-acusa-de-llevarse-el-camion-de-la-loteria.html",
-     "fecha": "Sat, 10 Oct 2026 03:30:01 GMT"
+     "titular": "Mertxe Aizpurua no repetirá como candidata de EH Bildu al Congreso el 29-N",
+     "url": "https://elpais.com/espana/elecciones-generales/2026-10-11/mertxe-aizpurua-no-repetira-como-candidata-de-eh-bildu-al-congreso-el-29-n.html",
+     "fecha": "Sun, 11 Oct 2026 15:40:30 GMT"
     }
    ]
   },
@@ -151,34 +161,24 @@
    "url": "https://www.abc.es/rss/feeds/abc_EspanaEspana.xml",
    "noticias": [
     {
-     "titular": "Las elecciones libran a Pedro Sánchez del examen de Europa en Ceuta",
-     "url": "https://www.abc.es/espana/andalucia/elecciones-libran-pedro-sanchez-examen-europa-ceuta-20261011071756-nts.html",
-     "fecha": "Sun, 11 Oct 2026 07:17:57 +0200"
+     "titular": "«Primera batalla» por la independencia de Orihuela Costa: captar entre 28.000 europeos que pueden votar",
+     "url": "https://www.abc.es/espana/comunidad-valenciana/alicante/primera-batalla-independencia-orihuela-costa-captar-28000-20261012080323-nt.html",
+     "fecha": "Mon, 12 Oct 2026 08:03:23 +0200"
     },
     {
-     "titular": "Page, sobre el resultado de las elecciones generales: «Cuando tanta gente quiere votar es porque tiene muy decidido el voto. Lo triste es que votan en contra de algo»",
-     "url": "https://www.abc.es/espana/castilla-la-mancha/page-sobre-resultado-elecciones-generales-tanta-gente-20261011053000-nt.html",
-     "fecha": "Sun, 11 Oct 2026 06:14:36 +0200"
+     "titular": "El exconcejal del PP condenado por la red de facturas infladas en el Ayuntamiento de Jaén ya duerme en prisión",
+     "url": "https://www.abc.es/espana/andalucia/jaen/exconcejal-pp-manuel-moral-duerme-prision-trama-20261012071325-nts.html",
+     "fecha": "Mon, 12 Oct 2026 07:13:25 +0200"
     },
     {
-     "titular": "Dos tercios del país aplicarían el estado de excepción en Ceuta tras la invasión",
-     "url": "https://www.abc.es/espana/dos-tercios-pais-aplicarian-estado-excepcion-ceuta-20261011021213-nt.html",
-     "fecha": "Sun, 11 Oct 2026 02:12:13 +0200"
+     "titular": "Sevilla, la última provincia que se le resiste al PP y sigue fiel al PSOE",
+     "url": "https://www.abc.es/espana/andalucia/sevilla-20261012070626-nts.html",
+     "fecha": "Mon, 12 Oct 2026 07:06:26 +0200"
     },
     {
-     "titular": "El 60% de la sociedad opina que Puigdemont no debería ser amnistiado ni volver a España",
-     "url": "https://www.abc.es/espana/sociedad-opina-puigdemont-deberia-amnistiado-volver-espana-20261011021206-nt.html",
-     "fecha": "Sun, 11 Oct 2026 02:12:06 +0200"
-    },
-    {
-     "titular": "Santiago Abascal: «Los españoles deben temerse lo peor. Van a ser unas elecciones muy complicadas y sucias»",
-     "url": "https://www.abc.es/espana/santiago-abascal-espanoles-deben-temerse-peor-van-20261011021159-nt.html",
-     "fecha": "Sun, 11 Oct 2026 02:11:59 +0200"
-    },
-    {
-     "titular": "Santiago Abascal: «La amistad con Marruecos ahora no es posible. Pedimos poco, que no nos invadan»",
-     "url": "https://www.abc.es/espana/santiago-abascal-amistad-marruecos-posible-pedimos-poco-20261011021149-nt.html",
-     "fecha": "Sun, 11 Oct 2026 02:11:49 +0200"
+     "titular": "Horarios especiales de Mercadona para hoy, lunes 12 de octubre, festivo del Pilar y el Día de la Hispanidad",
+     "url": "https://www.abc.es/espana/comunidad-valenciana/horarios-especiales-mercadona-hoy-lunes-octubre-festivo-20261012063000-nt.html",
+     "fecha": "Mon, 12 Oct 2026 06:30:04 +0200"
     }
    ]
   },
@@ -187,54 +187,54 @@
    "url": "https://e00-elmundo.uecdn.es/rss/espana.xml",
    "noticias": [
     {
-     "titular": "Feijóo lanza la precampaña prometiendo \"responder a la mafia con democracia\" y Ayuso carga contra la acampada de Sol manejada por \"un grupo con antecedentes terroristas\"",
-     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/10/6aca1a56e4d4d847628b457b.html",
-     "fecha": "Sat, 10 Oct 2026 13:00:06 +0200"
+     "titular": "Feijóo crece como futuro presidente para el 60% de los españoles y Abascal ya empata con Sánchez y Díaz",
+     "url": "https://www.elmundo.es/espana/encuestas/2026/10/12/6acba99dfc6c83803b8b457e.html",
+     "fecha": "Mon, 12 Oct 2026 00:12:16 +0200"
     },
     {
-     "titular": "El PSOE arranca la precampaña con un amplio catálogo de insultos al \"perro\" Sánchez para tratar de movilizar a sus votantes",
-     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/10/6aca5e98fc6c8301108b4571.html",
-     "fecha": "Sat, 10 Oct 2026 19:19:56 +0200"
+     "titular": "Abascal pide calma ante las \"provocaciones\" desde Estepona, pero alerta contra el \"gobierno más sucio\": \"No os fieis de una sola encuesta\"",
+     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/11/6acbac50e85ece731f8b457c.html",
+     "fecha": "Sun, 11 Oct 2026 19:11:24 +0200"
     },
     {
-     "titular": "Miriam González se lanza a la arena electoral y presenta Democracia 21: \"No podemos continuar con dos bloques sin nada que favorezca consensos\"",
-     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/10/6aca2dbdfc6c83727a8b4593.html",
-     "fecha": "Sat, 10 Oct 2026 14:41:36 +0200"
+     "titular": "La ley educativa que el PP guardó en el cajón hace seis años: un MIR y tres cursos de Bachillerato",
+     "url": "https://www.elmundo.es/espana/2026/10/12/6acbb839fdddffeb618b4581.html",
+     "fecha": "Mon, 12 Oct 2026 00:12:17 +0200"
     },
     {
-     "titular": "Indicios \"de singular importancia\": Anticorrupción atribuye al PSOE cohecho y tráfico de influencias",
-     "url": "https://www.elmundo.es/espana/2026/10/10/6ac92eade85ece5a4d8b458f.html",
-     "fecha": "Sat, 10 Oct 2026 01:10:56 +0200"
+     "titular": "Esteban agranda el esperpento al afirmar que se \"se le comunicó minutos antes\" la candidatura de Bengoetxea que ya conocía",
+     "url": "https://www.elmundo.es/pais-vasco/2026/10/11/6acbbd44fdddff80638b458c.html",
+     "fecha": "Sun, 11 Oct 2026 19:38:14 +0200"
     },
     {
-     "titular": "Junqueras valora que sea candidato Romeva, su compañero en prisión, si Rufián se va",
-     "url": "https://www.elmundo.es/cataluna/2026/10/10/6ac9129ce9cf4a351f8b4571.html",
-     "fecha": "Sat, 10 Oct 2026 00:02:25 +0200"
+     "titular": "Más Madrid coloca a Emilio Delgado por delante de Mónica García en Madrid y acepta ya que \"Podemos decida integrarse\"",
+     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/11/6acb7679e85ecec0028b4588.html",
+     "fecha": "Sun, 11 Oct 2026 13:44:06 +0200"
     },
     {
-     "titular": "Alarma por la falta de medidas contra la 'cloaca del PSOE': el ex juez de los 96 vídeos contra Biedma alardea de que \"ningún juzgado\" lo cita",
-     "url": "https://www.elmundo.es/espana/2026/10/09/6ac92ecde85ece9c278b458d.html",
-     "fecha": "Fri, 09 Oct 2026 22:40:18 +0200"
+     "titular": "Mertxe Aizpurua no repetirá en la candidatura de Bildu después de siete años siendo la portavoz 'abertzale' en el Congreso",
+     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/11/6acba629fdddff20068b457e.html",
+     "fecha": "Sun, 11 Oct 2026 17:10:36 +0200"
     },
     {
-     "titular": "Abascal volverá a ausentarse de los actos institucionales del 12 de octubre y viajará a Ceuta ese día",
-     "url": "https://www.elmundo.es/espana/2026/10/09/6ac8b0a6e85ecee9028b4592.html",
-     "fecha": "Fri, 09 Oct 2026 15:41:57 +0200"
+     "titular": "Rufián firma la paz con Junqueras para liderar ERC y negocia una alianza con Podemos que puede reventar el Frente Amplio",
+     "url": "https://www.elmundo.es/cataluna/2026/10/11/6aca79c0e9cf4a25568b45b0.html",
+     "fecha": "Sun, 11 Oct 2026 20:04:43 +0200"
     },
     {
-     "titular": "Manos Limpias denuncia al ex juez de la 'cloaca' del PSOE por \"tentativa de asesinato\" contra Biedma",
-     "url": "https://www.elmundo.es/espana/extremadura/2026/10/09/6ac8d9ddfc6c83727a8b457a.html",
-     "fecha": "Fri, 09 Oct 2026 14:24:52 +0200"
+     "titular": "El Gobierno crea otras 500 plazas de jueces y 200 de fiscales en plena precampaña del 29-N",
+     "url": "https://www.elmundo.es/espana/2026/10/12/6acb808de9cf4aa30e8b4583.html",
+     "fecha": "Mon, 12 Oct 2026 02:10:58 +0200"
     },
     {
-     "titular": "El juez Pedraz rechaza imputar al PSOE \"en este momento\" en el 'caso Cloacas'",
-     "url": "https://www.elmundo.es/espana/2026/10/09/6ac8af6efdddffc46e8b45c2.html",
-     "fecha": "Fri, 09 Oct 2026 12:48:18 +0200"
+     "titular": "La izquierda sigue KO tras el adelanto: PSOE y Sumar repiten en mínimos mientras Vox logra un récord a costa del PP",
+     "url": "https://www.elmundo.es/espana/encuestas/2026/10/11/6acba028e85ece77088b4580.html",
+     "fecha": "Sun, 11 Oct 2026 22:40:58 +0200"
     },
     {
-     "titular": "El PSOE está a solo 0,5 puntos de verse sobrepasado por Compromís en la Comunidad Valenciana antes de las generales",
-     "url": "https://www.elmundo.es/espana/encuestas/2026/10/08/6ac7db79e9cf4af0188b4583.html",
-     "fecha": "Thu, 08 Oct 2026 22:41:42 +0200"
+     "titular": "Puigdemont asiste al recital de 50 aniversario de María del Mar Bonet en el Olympia",
+     "url": "https://www.elmundo.es/espana/2026/10/11/6acbe11421efa083378b456f.html",
+     "fecha": "Sun, 11 Oct 2026 21:18:47 +0200"
     }
    ]
   },
@@ -243,29 +243,14 @@
    "url": "https://okdiario.com/feed",
    "noticias": [
     {
-     "titular": "Qué centros comerciales abren el 12 de octubre y cuál es su horario por comunidad autónoma",
-     "url": "https://okdiario.com/economia/que-centros-comerciales-abren-12-octubre-cual-horario-comunidad-autonoma-15567879",
-     "fecha": "Sun, 11 Oct 2026 08:15:47 +0200"
+     "titular": "La infancia de Ayuso en Madrid: «Me gustaba pasar grandes temporadas con mis abuelos. Antes los niños eran más educados por todos»",
+     "url": "https://okdiario.com/madrid/infancia-ayuso-madrid-gustaba-pasar-grandes-temporadas-mis-abuelos-antes-ninos-eran-mas-educados-todos-20521003",
+     "fecha": "Mon, 12 Oct 2026 08:15:47 +0200"
     },
     {
-     "titular": "Víctor Küppers, conferenciante y experto en psicología (56 años), sobre el liderazgo en el trabajo: «Si eres un líder deberías preguntarte si tu equipo te admira, porque si no es imposible que influyas en ellos»",
-     "url": "https://okdiario.com/curiosidades/victor-kuppers-conferenciante-experto-psicologia-56-anos-sobre-liderazgo-trabajo-si-eres-lider-deberias-preguntarte-si-tu-equipo-te-admira-porque-si-no-imposible-que-influy-20487491",
-     "fecha": "Sun, 11 Oct 2026 07:45:14 +0200"
-    },
-    {
-     "titular": "Encuentran bajo una calle los restos de un antiguo barco que podría estar relacionado con los vikingos y el comercio medieval",
-     "url": "https://okdiario.com/curiosidades/encuentran-bajo-calle-restos-antiguo-barco-que-podria-estar-relacionado-vikingos-comercio-medieval-20505478",
-     "fecha": "Sun, 11 Oct 2026 07:15:17 +0200"
-    },
-    {
-     "titular": "Jorge Dezcallar: «Podemos acabar en un mundo sin reglas donde las valijas diplomáticas sean violadas»",
-     "url": "https://okdiario.com/baleares/jorge-dezcallar-puede-acabar-mundo-sin-reglas-20511745",
-     "fecha": "Sun, 11 Oct 2026 05:59:44 +0200"
-    },
-    {
-     "titular": "Jorge Dezcallar: «No podemos dejar el control de nuestra frontera en manos de un país que nos quiere quitar Ceuta»",
-     "url": "https://okdiario.com/baleares/jorge-dezcallar-no-podemos-dejar-control-nuestra-frontera-manos-pais-que-nos-quiere-quitar-ceuta-20505688",
-     "fecha": "Sun, 11 Oct 2026 05:59:17 +0200"
+     "titular": "¿Qué supermercados abren hoy 12 de octubre, por el Día de la Hispanidad? Horario de Mercadona, Lidl, Aldi, Hipercor…",
+     "url": "https://okdiario.com/economia/que-supermercados-abren-hoy-12-octubre-dia-hispanidad-horario-mercadona-lidl-aldi-hipercor-20517088",
+     "fecha": "Mon, 12 Oct 2026 08:00:53 +0200"
     }
    ]
   },
@@ -274,24 +259,24 @@
    "url": "https://theobjective.com/feed/",
    "noticias": [
     {
-     "titular": "Podcast | El inventor del fraude electoral: Posada Herrera",
-     "url": "https://theobjective.com/podcasts/historia-canalla/podcast-historia-canalla-inventor-fraude-electoral-posada-herrera/",
-     "fecha": "Sun, 11 Oct 2026 03:25:56 +0000"
+     "titular": "Jen Edwards, entrenadora: «A partir de los 40, la mayoría no hace este ejercicio y no solo sirve para mejorar todo el cuerpo, sino para incrementar la fuerza y movilidad»",
+     "url": "https://theobjective.com/lifestyle/fitness/2026-10-12/jen-edwards-entrenadora-la-mayor-parte-de-las-personas-no-hacen-este-ejercicio-a-partir-de-los-40-y-sirve-para-mejorar-todo-el-cuerpo-ademas-de-incrementar-la-fuerza-y-movilidad/",
+     "fecha": "Mon, 12 Oct 2026 05:56:47 +0000"
     },
     {
-     "titular": "Elecciones, abrir o cerrar un mundo",
-     "url": "https://theobjective.com/elsubjetivo/opinion/2026-10-11/elecciones-abrir-cerrar-mundo-articulo-luis-antonio-de-villena/",
-     "fecha": "Sun, 11 Oct 2026 03:25:00 +0000"
+     "titular": "Votar al PSOE hoy",
+     "url": "https://theobjective.com/elsubjetivo/opinion/2026-10-12/votar-psoe-articulo-julio-llorente/",
+     "fecha": "Mon, 12 Oct 2026 03:25:00 +0000"
     },
     {
-     "titular": "PP y Vox: el bloque constitucionalista",
-     "url": "https://theobjective.com/elsubjetivo/opinion/2026-10-11/pp-vox-bloque-constitucionalista-articulo-gimenez-barbat/",
-     "fecha": "Sun, 11 Oct 2026 03:25:00 +0000"
+     "titular": "Por qué convoca elecciones",
+     "url": "https://theobjective.com/elsubjetivo/opinion/2026-10-12/por-que-convoca-elecciones/",
+     "fecha": "Mon, 12 Oct 2026 03:25:00 +0000"
     },
     {
-     "titular": "Las encuestas como propaganda",
-     "url": "https://theobjective.com/elsubjetivo/opinion/2026-10-11/las-encuestas-como-propaganda-articulo-arrunada/",
-     "fecha": "Sun, 11 Oct 2026 03:25:00 +0000"
+     "titular": "Votar democráticamente por el fin de la democracia",
+     "url": "https://theobjective.com/elsubjetivo/opinion/2026-10-12/votar-democraticamente-fin-democracia-articulo-cayuela/",
+     "fecha": "Mon, 12 Oct 2026 03:25:00 +0000"
     }
    ]
   }
@@ -315,8 +300,8 @@
    "usuario": "@gerardotece.bsky.social",
    "url": "https://bsky.app/profile/gerardotece.bsky.social/post/3mxebkjsj5c2y",
    "fecha": "2026-10-08T10:41:48.625Z",
-   "likes": 1361,
-   "rts": 769,
+   "likes": 1366,
+   "rts": 771,
    "resp": 41
   },
   {
@@ -328,6 +313,16 @@
    "likes": 558,
    "rts": 217,
    "resp": 32
+  },
+  {
+   "texto": "ÚLTIMA HORA | Más Madrid propone una lista de consenso liderada por Emilio Delgado para las elecciones del 29N www.eldiario.es/politica/mad...",
+   "autor": "elDiario.es",
+   "usuario": "@eldiario.es",
+   "url": "https://bsky.app/profile/eldiario.es/post/3mxlxfspths2f",
+   "fecha": "2026-10-11T12:01:30.690Z",
+   "likes": 546,
+   "rts": 175,
+   "resp": 97
   },
   {
    "texto": "Sobre las elecciones del 29N  A la derecha de este país parece que \"les ha pillado con el pie completamente cambiado, completamente desprevenidos\"  \"Les ha contrariado enormemente el anuncio\"  \"He visto velatorios con mejor ambiente que la rueda de presa (de Feijóo)\"  Óscar Puente",
@@ -345,8 +340,8 @@
    "usuario": "@demetrioymedio.bsky.social",
    "url": "https://bsky.app/profile/demetrioymedio.bsky.social/post/3mxgty3pxkc27",
    "fecha": "2026-10-09T11:16:50.452Z",
-   "likes": 428,
-   "rts": 188,
+   "likes": 436,
+   "rts": 190,
    "resp": 15
   },
   {
@@ -400,6 +395,16 @@
    "resp": 21
   },
   {
+   "texto": "#elecciones #puertadelsol #acampada #vivienda #fondosbuitre #maricarmen #29n #elecciones#eleccionesgenerales #pp #fachas #fachos #sicarios #partidopopular #feijoo #verguenza #historia #vox #abascal #voxesodio #genocidas #genocidio #asesinos #criminales",
+   "autor": "Demetrioymedio",
+   "usuario": "@demetrioymedio.bsky.social",
+   "url": "https://bsky.app/profile/demetrioymedio.bsky.social/post/3mxjfuekcuc2p",
+   "fecha": "2026-10-10T11:42:12.317Z",
+   "likes": 139,
+   "rts": 51,
+   "resp": 2
+  },
+  {
    "texto": "Sánchez convoca elecciones anticipadas el 29 de noviembre: \"Ha llegado el momento de decidir qué futuro queréis\" www.rtve.es/n/17253132/",
    "autor": "Ernesto Ekaizer",
    "usuario": "@ernestoekaizer.bsky.social",
@@ -408,26 +413,6 @@
    "likes": 140,
    "rts": 49,
    "resp": 6
-  },
-  {
-   "texto": "En el PP están ya considerando decir que el 29N es casi Navidad y las elecciones en Navidad van contra el niño Jesús.",
-   "autor": "Mauro Entrialgo",
-   "usuario": "@tyrexito.bsky.social",
-   "url": "https://bsky.app/profile/tyrexito.bsky.social/post/3mx4frpa4gs2b",
-   "fecha": "2026-10-05T07:36:06.256Z",
-   "likes": 165,
-   "rts": 36,
-   "resp": 10
-  },
-  {
-   "texto": "#29N  Porque estas elecciones confrontarán dos modelos.   El PSOE defenderá el suyo ante la ciudadanía y, junto a la fuerza de la gente, seguirá trabajando para hacer avanzar España.   Nos vamos a dejar la piel.",
-   "autor": "Juan Alberti/❤️",
-   "usuario": "@albertijuan.bsky.social",
-   "url": "https://bsky.app/profile/albertijuan.bsky.social/post/3mx5da5tofs2s",
-   "fecha": "2026-10-05T16:23:09.850Z",
-   "likes": 98,
-   "rts": 43,
-   "resp": 5
   }
  ]
 }
