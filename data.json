@@ -1,13 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-10-12T08:02:00+02:00",
+    "generated_at": "2026-10-13T08:00:30+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "Tanda 1 (4 tópicos): acampada de Sol Madrid Sindicato de Inquilinas desalojo vivienda estudiantes (desde 2026-10-08) [OK, datos frescos 8-12 oct]; sanchismo Sánchez UCO Cerdán Zapatero corrupción PSOE (desde 2026-10-08) [OK]; inmigración España Ceuta Canarias llegadas irregulares regularización (desde 2026-10-08) [OK]; independentismo Cataluña procés Puigdemont Illa referéndum (desde 2026-10-08) [degradado: Grok rechazó la ventana 'desde 08-10' por futura, sin citas].",
-      "Tanda 2 (5 tópicos): independentismo Cataluña procés Puigdemont amnistía malversación Illa (España, octubre 2026) [OK, reintento con ventana reescrita]; okupación España desahucios vivienda crisis propietarios (España, octubre 2026) [OK]; memoria histórica España Cuelgamuros exhumaciones víctimas franquismo [BLOQUEADO spending-limit]; feminismo España aborto prostitución LOASP debate mujeres [BLOQUEADO spending-limit]; wokismo ideología woke España universidad subvenciones género DEI [BLOQUEADO spending-limit].",
-      "No se lanzaron las búsquedas de cultura-cancelacion, ley-trans, elecciones, espana-vaciada ni facha (corte de crédito a mitad de tanda 2), ni la verificación de actividad de las 16 cuentas, ni virals dedicados: los virals de hoy se construyen con las citas reales devueltas por las 5 búsquedas exitosas."
+      "Tanda 1 (4 tópicos): acampada de Sol Madrid desahucio vivienda estudiantes desalojo (desde 2026-10-10) [BLOQUEADO spending-limit]; sanchismo Sánchez UCO Cerdán corrupción PSOE imputación (desde 2026-10-10) [BLOQUEADO spending-limit]; inmigración España Ceuta Canarias cayucos llegadas irregulares (desde 2026-10-10) [BLOQUEADO spending-limit]; okupación España desahucios vivienda Ley de Vivienda propietarios (desde 2026-10-10) [BLOQUEADO spending-limit].",
+      "No se lanzaron las tandas 2-4 (independentismo, memoria, feminismo, woke, cultura-cancelacion, ley-trans, elecciones, espana-vaciada, facha), ni la verificación de actividad de las 16 cuentas, ni virals dedicados: el crédito xAI seguía agotado al inicio del run (7ª jornada con corte; racha 07-13 oct)."
     ],
     "stale_topics": [
+      "acampada-sol",
+      "sanchismo",
+      "inmigracion",
+      "okupacion",
+      "independentismo",
       "memoria",
       "feminismo",
       "woke",
@@ -24,10 +28,10 @@
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "previous_generated_at": "2026-10-11T08:01:00+02:00",
+    "previous_generated_at": "2026-10-12T08:02:00+02:00",
     "previous_source": "cron 09f22b3f6f78",
-    "fallback": "partial",
-    "notes": "MEDICIÓN PARCIAL (5/13 tópicos frescos). El crédito xAI se recuperó brevemente esta madrugada: la tanda 1 devolvió datos frescos 8-12 oct para acampada-sol, sanchismo e inmigracion (independentismo salió degradado por ventana mal escrita y se reintentó OK en tanda 2 con datos frescos: Bolaños confirma 11-oct que Puigdemont puede volver). A mitad de tanda 2 el crédito se volvió a agotar ('personal-team-blocked:spending-limit', 6ª jornada con corte; racha 07-12 oct, el crédito dura 1-3 días por recarga). Los 8 tópicos sin medición (memoria, feminismo, woke, cultura-cancelacion, ley-trans, elecciones, espana-vaciada, facha) reutilizan VERBATIM los valores del data.json en HEAD (heredados a su vez del run del 06-10) y quedan en meta.stale_topics. Los 5 medidos hoy se actualizan con datos frescos y citas reales de X (Maricarmen Abascal fallecida, UCO/cloacas-narcos contra la juez del hermano de Sánchez, crisis residual de Ceuta día 74 + repunte canario, TC avala malversación 7-5, Ley de Vivienda y oferta de alquiler). No se pudo verificar actividad de cuentas: accounts[] se conserva verbatim y meta.inactive_accounts mantiene los mismos 5 nombres (tercer run consecutivo sin actividad detectable; no verificadas hoy, tampoco dadas de baja). history.json: snapshot de HOY mixto — los 5 tópicos medidos hoy llevan sus valores frescos; los 8 stale reutilizan los del último snapshot real (06-10), de modo que la serie muestra el movimiento real de hoy en 5 curvas y planitud honesta en las demás. sources.json NO generado: /home/carlo/guerra-cultural-rag no existe en este host Windows. Recargar crédito xAI en https://grok.com/?_s=usage."
+    "fallback": "full",
+    "notes": "MEDICIÓN NULA (0/13 tópicos frescos). El crédito xAI seguía agotado esta madrugada ('personal-team-blocked:spending-limit', 7ª jornada con corte; racha 07-13 oct, el crédito dura 1-3 días por recarga): las 4 búsquedas de la tanda 1 fallaron al unísono antes de poder lanzar las tandas siguientes. Los 13 tópicos reutilizan VERBATIM los valores del data.json en HEAD (última medición parcial real del 12-10, que cubrió 5 tópicos con datos frescos 8-12 oct) y quedan todos en meta.stale_topics. news/trends/accounts/virals se conservan verbatim. No se pudo verificar actividad de cuentas: meta.inactive_accounts mantiene los mismos 5 nombres del run anterior (sin verificar hoy, tampoco dadas de baja). history.json: snapshot de HOY idéntico en valores al del 12-10 (honestidad: sin medición fresca no hay movimiento que mostrar; la serie plana refleja el corte de crédito, no calma real). sources.json NO generado: /home/carlo/guerra-cultural-rag no existe en este host Windows. Recargar crédito xAI en https://grok.com/?_s=usage."
   },
   "topics": [
     {
