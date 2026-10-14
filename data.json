@@ -1,14 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-11T08:01:00+02:00",
+    "generated_at": "2026-10-14T08:00:30+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "Tanda 1 de tópicos (4/4: acampada-sol, sanchismo, inmigracion, independentismo) — TODAS rechazadas IDÉNTICAMENTE con personal-team-blocked:spending-limit ya en la primera llamada. La tanda hace de diagnóstico: si las cuatro fallan igual, es crédito de la cuenta xAI, no forma de query (5ª jornada consecutiva de bloqueo).",
-      "No se lanzaron las tandas 2-3 de tópicos (okupacion, memoria, feminismo, woke, cultura-cancelacion, ley-trans, elecciones, espana-vaciada, facha), ni la verificación de actividad de cuentas, ni la búsqueda de virales (fallback completo, 0/13 medidos).",
-      "acampada de Sol Madrid Sindicato de Inquilinas desalojo vivienda estudiantes (desde 2026-10-08) [BLOQUEADO spending-limit]",
-      "sanchismo Sánchez UCO Cerdán Zapatero corrupción PSOE (desde 2026-10-08) [BLOQUEADO spending-limit]",
-      "inmigración España Ceuta Canarias llegadas irregulares regularización (desde 2026-10-08) [BLOQUEADO spending-limit]",
-      "independentismo Cataluña procés Puigdemont Illa referéndum (desde 2026-10-08) [BLOQUEADO spending-limit]"
+      "Tanda 1 (4 tópicos): acampada de Sol Madrid desahucio vivienda estudiantes desalojo campamento (desde 2026-10-11) [BLOQUEADO spending-limit]; sanchismo Sánchez UCO Cerdán corrupción PSOE imputación cloacas (desde 2026-10-11) [BLOQUEADO spending-limit]; inmigración España Ceuta Canarias cayucos llegadas irregulares regularización (desde 2026-10-11) [BLOQUEADO spending-limit]; okupación España desahucios vivienda Ley de Vivienda propietarios okupas (desde 2026-10-11) [BLOQUEADO spending-limit].",
+      "No se lanzaron las tandas 2-4 (independentismo, memoria, feminismo, woke, cultura-cancelacion, ley-trans, elecciones, espana-vaciada, facha), ni la verificación de actividad de las 16 cuentas, ni virals dedicados: el crédito xAI seguía agotado al inicio del run (8ª jornada con corte; racha 07-14 oct)."
     ],
     "stale_topics": [
       "acampada-sol",
@@ -32,10 +28,10 @@
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "previous_generated_at": "2026-10-10T08:01:27+02:00",
+    "previous_generated_at": "2026-10-13T08:00:30+02:00",
     "previous_source": "cron 09f22b3f6f78",
     "fallback": "full",
-    "notes": "FALLBACK COMPLETO (5ª jornada consecutiva de bloqueo, 0/13 tópicos medidos; último dato real medido en X: 06-10-2026, el dashboard lleva 5 días congelado). La tanda 1 (4/4: acampada-sol, sanchismo, inmigracion, independentismo) falló IDÉNTICAMENTE en las cuatro llamadas con 'personal-team-blocked:spending-limit' ya en la primera: la tanda hace de diagnóstico (todas iguales = crédito de la cuenta xAI, no forma de query), así que no se repitió con una sonda mínima. No se lanzaron las tandas 2-3 de tópicos ni la verificación de actividad de cuentas ni la búsqueda de virales. Los 13 tópicos canónicos quedan stale y se reutilizan VERBATIM topics, news, trends, accounts y virals del data.json en HEAD (que a su vez ya era copia del run del 06-10). NO se añade snapshot a history.json: sin medición fresca, un punto fechado hoy falsearía el gráfico de evolución. meta.inactive_accounts se conserva EXACTAMENTE igual (una cuenta sin verificar no es ni activa ni inactiva). sources.json NO generado: /home/carlo/guerra-cultural-rag no existe en este host Windows. Recargar crédito xAI en https://grok.com/?_s=usage — la racha de bloqueo lleva 5 días (07, 08, 09, 10 y 11-10) y el crédito se viene agotando en 1-3 días por recarga."
+    "notes": "MEDICIÓN NULA (0/13 tópicos frescos). El crédito xAI sigue agotado esta madrugada ('personal-team-blocked:spending-limit', 8ª jornada con corte; racha 07-14 oct, el crédito dura 1-3 días por recarga): las 4 búsquedas de la tanda 1 fallaron al unísono antes de poder lanzar las tandas siguientes. Los 13 tópicos reutilizan VERBATIM los valores del data.json en HEAD (última medición parcial real del 12-10, que cubrió 5 tópicos con datos frescos 8-12 oct) y quedan todos en meta.stale_topics. news/trends/accounts/virals se conservan verbatim. No se pudo verificar actividad de cuentas: meta.inactive_accounts mantiene los mismos 5 nombres del run anterior (sin verificar hoy, tampoco dadas de baja). history.json queda INTACTO: sin medición fresca no hay movimiento que mostrar y un snapshot de hoy fabricaría un punto en el gráfico de evolución (la racha de días con valores idénticos 12→13→14 ya documenta el corte). sources.json NO generado: /home/carlo/guerra-cultural-rag no existe en este host Windows. Recargar crédito xAI en https://grok.com/?_s=usage."
   },
   "topics": [
     {
@@ -44,23 +40,23 @@
       "icon": "⛺",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 92,
-      "momentum": 30,
+      "intensity": 93,
+      "momentum": 32,
       "momentumDir": "left",
-      "summary": "La acampada de la Puerta del Sol cumple su segunda semana y da el salto a otras ciudades (Barcelona, Málaga) mientras el conflicto se nacionaliza: UGT y CCOO han anunciado una huelga general por la vivienda en otoño/noviembre —la primera en años— al calor de la presión del Sindicato de Inquilinas (@InquilinatoMad). El detonante sigue siendo el desahucio de Maricarmen Abascal a los 87 años, y el sindicato avisa de que «nos quedamos y pagamos» tras frenar la Justicia varios intentos de desalojo. El rechazo parlamentario de los decretos de vivienda y la convocatoria electoral del 29-N han politizado aún más el movimiento.",
-      "quote": "«Nos quedamos y pagamos»: el Sindicato de Inquilinas mantiene la acampada de Sol y extiende la protesta a otras ciudades mientras UGT y CCOO anuncian una huelga general por la vivienda.",
+      "summary": "La acampada de Sol entra en su tercera semana convertida en un campamento horizontal de ~2.000 tiendas y más de 40 colectivos (anticapitalistas, propalestina, okupas, anarcoecologistas), con el Sindicato de Inquilinas perdiendo el liderazgo único que tuvo al inicio. La muerte de Maricarmen Abascal (~7-11 octubre, en el Gregorio Marañón tras el deterioro físico del desahucio) ha cargado de simbolismo la protesta, mientras crecen las broncas con contramanifestaciones de derecha y la Comunidad de Madrid denuncia la interferencia en los actos del 12-O. Sigue sin visos de desalojo inminente.",
+      "quote": "«~2.000 tiendas de campaña para el 12 de octubre»: la acampada de Sol se consolida como escaparate de causas amplias tras la muerte de Maricarmen Abascal, sin liderazgo único y con contramanifestaciones frente a los cordones antifascistas.",
       "details": [
         [
           "Estado",
-          "Acampada en su 2ª semana en Sol, extendida a Barcelona, Málaga y otros puntos"
+          "3ª semana: ~2.000 tiendas, 40+ colectivos, gestión horizontal sin líder claro"
         ],
         [
-          "Detonante",
-          "Desahucio de Maricarmen Abascal (87 años) y rechazo de los decretos de vivienda"
+          "Simbolismo",
+          "Muerte de Maricarmen Abascal (~7-11 oct) en el hospital tras el desahucio"
         ],
         [
           "Escalada",
-          "UGT y CCOO anuncian huelga general por la vivienda; la Justicia frenó varios desalojos"
+          "Broncas con contramanifestaciones; la Comunidad de Madrid denuncia interferencias en el 12-O"
         ]
       ]
     },
@@ -70,23 +66,23 @@
       "icon": "👑",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 95,
+      "intensity": 96,
       "momentum": 92,
       "momentumDir": "right",
-      "summary": "La trama Koldo y sus derivadas dominan la conversación: la UCO investiga al entorno de Ábalos por comisiones en contratos de mascarillas y una presunta financiación ilegal del PSOE a través de reuniones con Delcy Rodríguez para blanquear dinero de mordidas y petróleo venezolano. Santos Cerdán, exsecretario de Organización, aparece imputado por organización criminal y cohecho, con el Supremo planteándose imputar al propio PSOE como persona jurídica. El relato en X agrupa a Ábalos, Cerdán, el hermano de Sánchez y Begoña Gómez en una cascada de corrupción del sanchismo.",
-      "quote": "La UCO investiga reuniones de Koldo con Delcy Rodríguez para un banco que blanqueara mordidas en contratos públicos, y el Supremo se plantea imputar al PSOE como persona jurídica.",
+      "summary": "El escándalo se recrudece con los informes de la UCO sobre las 'cloacas del PSOE': la Guardia Civil confirma contactos con narcotraficantes para 'eliminar' a la juez que instruye el caso del hermano de Sánchez, con reuniones clandestinas documentadas. En paralelo, la Fiscalía reclama declarar a Santos Cerdán, al exjefe de gabinete de Sánchez, a Leire Díez y a Zarrías antes de decidir la imputación del PSOE como persona jurídica por financiación ilegal. En X domina la indignación: #YoConLaUCO, #SanchezAPrisión y el PSOE calificado de 'organización criminal'.",
+      "quote": "«La UCO confirma los contactos de las cloacas del PSOE con los narcos contra la juez del caso del hermano de Sánchez: 'Había que eliminarla'» — ABC, con decenas de miles de interacciones en X.",
       "details": [
         [
           "Volumen en X",
-          "Muy alto"
+          "Máximo de la semana: informes UCO difundidos por ABC y El Debate"
         ],
         [
           "Sentimiento",
-          "Crítico mayoritario"
+          "Indignación crítica mayoritaria; minoría que relativiza como 'bulos'"
         ],
         [
           "Impulsado por",
-          "Trama Koldo, UCO, Cerdán imputado y la vía venezolana"
+          "Informe UCO cloacas-narcos, Cerdán y la posible imputación del PSOE como persona jurídica"
         ]
       ]
     },
@@ -96,23 +92,23 @@
       "icon": "🚧",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 93,
-      "momentum": 88,
+      "intensity": 90,
+      "momentum": 89,
       "momentumDir": "right",
-      "summary": "El refuerzo del «cerrojo» en Ceuta ha desplazado el flujo a la ruta atlántica: en septiembre las llegadas a Canarias se triplicaron (~1.970-2.100), con más del 60% procedente de Marruecos, mientras el PP canario reclama «blindar» la ruta y desplegar Frontex. El Gobierno ha repartido por la península a 213 MENAS de Ceuta y hay debate sobre los costes y la reagrupación familiar. La regularización extraordinaria se defiende desde el Ejecutivo como motor económico mientras la oposición la señala como «efecto llamada».",
-      "quote": "Las llegadas a Canarias se triplican en septiembre mientras el PP exige blindar la ruta atlántica; el Gobierno reparte 213 MENAS de Ceuta por la península.",
+      "summary": "La crisis de Ceuta —la entrada masiva de julio, cifrada en decenas de miles— sigue viva en su día 74: la Policía estima que quedan 16.000-18.000 migrantes en la ciudad, con el último asentamiento de playa desalojado (400 personas) 48 horas antes de la visita de los Reyes, y un +60% de infracciones penales según el TSJA. Mientras, Canarias vive un repunte agudo: 600-700 llegadas en 24 horas y 668 en varias embarcaciones, con el presidente Clavijo hablando de más de 3.800 en mes y medio. La regularización extraordinaria (~1,1 millones de solicitudes) sigue incompleta y politizada a 50 días de las elecciones.",
+      "quote": "Día 74 de la crisis de Ceuta: quedan 16.000-18.000 migrantes según la Policía, con el TSJA cifrando un +60% de infracciones penales, mientras Canarias registra 600-700 llegadas en 24 horas.",
       "details": [
         [
           "Volumen en X",
-          "Muy alto"
+          "Muy alto: réplicas diarias de la crisis de Ceuta y el repunte canario"
         ],
         [
           "Sentimiento",
-          "Crítico con la gestión del Gobierno"
+          "Crítico con la gestión del Gobierno; alarma política en Canarias"
         ],
         [
           "Impulsado por",
-          "Ruta canaria, reparto de MENAS de Ceuta y la regularización"
+          "Residual de Ceuta (16-18k migrantes), cayucos en Canarias y regularización en curso"
         ]
       ]
     },
@@ -122,23 +118,23 @@
       "icon": "🏠",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 82,
-      "momentum": 78,
+      "intensity": 81,
+      "momentum": 77,
       "momentumDir": "right",
-      "summary": "La crisis de vivienda mantiene el frente okupa en primer plano: la acampada de Sol y los desahucios chocan con propietarios que denuncian años de espera judicial para recuperar sus casas. Desokupa y Daniel Esteve vuelven a ser el símbolo del choque —solución práctica para unos, violencia privada ultraderechista para otros—, con menciones incluso a un posible «partido Desokupa». La acampada de la Puerta del Sol es el escenario donde se cruzan los insultos entre Fonsi Loaiza y el entorno de la empresa.",
-      "quote": "Daniel Esteve y Desokupa como símbolo: solución práctica para propietarios ante la lentitud judicial, 'violencia privada de ultraderecha' para sus críticos.",
+      "summary": "El frente okupa se discute ahora con datos: la okupación afectaría a menos del 0,08% del parque de viviendas, pero el miedo y la lentitud judicial (años para recuperar un piso) han sacado del mercado hasta un 30% de la oferta de alquiler permanente por la Ley de Vivienda, elevando precios. Los desahucios han bajado a ~45/día (frente a ~67/día en 2025), pero el choque se mantiene: propietarios que se sienten 'expropiados de facto' frente a la izquierda que culpa a los fondos buitre y a la falta de oferta pública. Circulan incluso casos de okupas desalojando a okupas en las acampadas.",
+      "quote": "La Ley de Vivienda habría sacado del mercado hasta un 30% de la oferta de alquiler permanente: los desahucios bajan a ~45/día, pero el miedo a la okupación (menos del 0,08% del parque real) encoge la oferta y sube precios.",
       "details": [
         [
           "Volumen en X",
-          "Alto"
+          "Alto, con pulso de cifras (CGPJ, epdata) en los hilos"
         ],
         [
           "Sentimiento",
-          "Muy polarizado"
+          "Muy polarizado: inseguridad jurídica vs. culpa estructural/fondos buitre"
         ],
         [
           "Impulsado por",
-          "Acampada de Sol, desahucios y el caso Desokupa"
+          "Datos de oferta de alquiler, desahucios a la baja y casos virales de desokupas"
         ]
       ]
     },
@@ -148,23 +144,23 @@
       "icon": "🗺️",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 89,
-      "momentum": 76,
+      "intensity": 88,
+      "momentum": 75,
       "momentumDir": "right",
-      "summary": "El Tribunal Constitucional se dispone a avalar la aplicación de la amnistía al delito de malversación del procés, corrigiendo al Supremo y despejando el principal obstáculo penal para el regreso de Puigdemont tras casi nueve años en Bélgica. La mayoría progresista de Conde-Pumpido entiende que no hubo enriquecimiento personal sino gasto político, lo que PP y Vox leen como un «coladero» politizado al servicio del Gobierno. Junts reúne a su cúpula en Waterloo para preparar el retorno y la campaña del 29-N, mientras el auge de Aliança Catalana de Orriols complica el tablero independentista.",
-      "quote": "El TC avala amnistiar la malversación y corrige al Supremo: la puerta al regreso de Puigdemont se abre mientras PP y Vox hablan de «coladero» politizado al servicio del Gobierno.",
+      "summary": "El Tribunal Constitucional ha avalado la amnistía también para la malversación del procés (7 votos a 5), y Bolaños confirmó el 11 de octubre que Puigdemont puede volver a España tras la retirada de las órdenes de detención, con el Supremo cerrando los últimos flecos a tiempo para el 29-N. El unionismo habla de 'carta blanca' y 'delincuente amnistiado' con sueldo público; el independentismo lo celebra como admisión de culpa estatal, aunque con escepticismo interno. Illa, president del PSC, asistió al desfile del 12-O en Madrid —primera vez de un president no independentista— y es llamado 'traidor' desde el independentismo.",
+      "quote": "Bolaños (11-oct): la amnistía 'ha funcionado' y Puigdemont puede volver a Cataluña; el TC avaló la malversación por 7-5 y el unionismo denuncia una 'carta blanca' al secesionismo.",
       "details": [
         [
           "Volumen en X",
-          "Alto y al alza por el pleno del TC"
+          "Alto y al alza: regreso de Puigdemont como foco de actualidad"
         ],
         [
           "Sentimiento",
-          "Muy polarizado: 'reconciliación' vs 'impunidad pactada'"
+          "Muy polarizado: 'reconciliación' vs. 'humillación a la justicia'"
         ],
         [
           "Impulsado por",
-          "Pleno del TC sobre la malversación y la cuenta atrás para el retorno de Puigdemont"
+          "TC avala malversación 7-5, órdenes retiradas e Illa en el 12-O"
         ]
       ]
     },
@@ -177,7 +173,7 @@
       "intensity": 84,
       "momentum": 80,
       "momentumDir": "right",
-      "summary": "El documental de RTVE «Cuelgamuros. Entre lo difícil y lo imposible» devuelve las exhumaciones al primer plano: las criptas albergan 33.800 restos, más de 12.000 sin identificar, y un equipo científico interdisciplinar —con la médica forense Elisa Cabrerizo— avanza con análisis de ADN para identificar y devolver a las familias republicanas. La asociación de familiares (AFPERV) y las entidades memorialistas reclaman más ritmo, transparencia y financiación pública. La derecha mantiene la crítica al supuesto «revanchismo» y al gasto.",
+      "summary": "El documental de RTVE «Cuelgamuros. Entre lo difícil y lo imposible» devuelve las exhumaciones al primer plano: las criptas albergan 33.800 restos, más de 12.000 sin identificar, y un equipo científico interdisciplinar —con la médica forense Elisa Cabrerizo— avanza con análisis de ADN para identificar y devolver a las familias Republicanas. La asociación de familiares (AFPERV) y las entidades memorialistas reclaman más ritmo, transparencia y financiación pública. La derecha mantiene la crítica al supuesto «revanchismo» y al gasto.",
       "quote": "«Entre lo difícil y lo imposible»: el documental de RTVE muestra el trabajo forense en las criptas de Cuelgamuros mientras las familias republicanas reclaman más ritmo y transparencia.",
       "details": [
         [
@@ -379,109 +375,109 @@
   ],
   "news": [
     {
-      "title": "Sánchez disuelve las Cortes y convoca elecciones generales para el 29 de noviembre",
-      "date": "5 oct 2026",
-      "summary": "El presidente del Gobierno anunció el 5 de octubre la disolución de las Cortes y la convocatoria de elecciones generales anticipadas para el 29-N, tras el rechazo en el Congreso de sus decretos de vivienda y la pérdida de apoyos de socios como Junts. Feijóo lo enmarcó como «España contra Sánchez» y el momento de elegir entre «corrupción o decencia»; Vox se perfila como socio clave de una mayoría de la derecha. Los sondeos de arranque dan al PP 31-34%, al PSOE 25-27% y a Vox ~18%, con PP+Vox por encima de los 176 escaños.",
-      "source": "X / jjmm9999, GabriPascual, acompanado_el, actuapolitica",
+      "title": "La UCO confirma contactos de las cloacas del PSOE con narcotraficantes para «eliminar» a la juez del hermano de Sánchez",
+      "date": "12 oct 2026",
+      "summary": "Informes de la Unidad Central Operativa de la Guardia Civil, difundidos por ABC y El Debate, describen reuniones clandestinas de las 'cloacas del PSOE' con narcotraficantes con el objetivo de «eliminar» a la juez que instruye el caso de David Sánchez, hermano del presidente. En X circulan con decenas de miles de interacciones bajo hashtags como #YoConLaUCO y #SanchezAPrisión, y los usuarios califican al PSOE de «organización criminal». La Fiscalía, en paralelo, reclaza declaraciones de Cerdán y otros cargos antes de decidir la imputación del partido como persona jurídica.",
+      "source": "X / ABC vía romecaldes, eldebate_com, jmsclavero, vayanata",
       "tags": [
-        "Elecciones",
-        "29-N",
-        "Campaña"
+        "Sanchismo",
+        "UCO",
+        "Corrupción"
       ]
     },
     {
-      "title": "El Tribunal Constitucional avala amnistiar la malversación del procés y allana el regreso de Puigdemont",
-      "date": "5 oct 2026",
-      "summary": "El TC, con mayoría progresista, se dispone a avalar la aplicación de la amnistía al delito de malversación, corrigiendo al Supremo y despejando el principal obstáculo penal para el retorno de Puigdemont. La izquierda lo presenta como cierre de la judicialización del conflicto catalán; PP y Vox lo leen como un «coladero» politizado al servicio del Gobierno. Junts prepara el retorno desde Waterloo en plena campaña del 29-N.",
-      "source": "X / ale_neo_, edatvoficial, gaceta_es, radio5_rne",
+      "title": "Muere Maricarmen Abascal, el símbolo del desahucio que detonó la acampada de Sol",
+      "date": "11 oct 2026",
+      "summary": "Maricarmen Abascal, la anciana de 87 años cuyo desahucio en septiembre detonó la acampada del Sindicato de Inquilinas, ha fallecido en el Hospital Gregorio Marañón tras el deterioro físico vinculado al estrés del desalojo, según entornos cercanos. Su muerte ha reforzado las movilizaciones: la acampada de Sol sigue activa con ~2.000 tiendas y más de 40 colectivos, mientras la derecha la señala como acampada ilegal que obstaculiza los actos del 12-O y la Comunidad de Madrid denuncia interferencias.",
+      "source": "X / grok, elmundoes, loimportante60, LSarusky",
+      "tags": [
+        "Acampada de Sol",
+        "Vivienda",
+        "Desahucios"
+      ]
+    },
+    {
+      "title": "El Tribunal Constitucional avala la amnistía de la malversación y Bolaños confirma que Puigdemont puede volver",
+      "date": "11 oct 2026",
+      "summary": "El TC ha avalado por 7 votos a 5 la aplicación de la amnistía al delito de malversación del procés, corrigiendo la línea del Supremo. El ministro de Justicia, Félix Bolaños, declaró el 11 de octubre que la amnistía «ha funcionado» y que Puigdemont puede regresar a Cataluña una vez retiradas las órdenes de detención, con el Supremo cerrando los últimos flecos a tiempo para el 29-N. La derecha y el unionismo hablan de «carta blanca» al secesionismo; el independentismo lo celebra con escepticismo interno.",
+      "source": "X / europapress, TerradoNews, boye_g, Cepadoble",
       "tags": [
         "Independentismo",
         "Amnistía",
-        "Tribunal Constitucional"
+        "Puigdemont"
       ]
     },
     {
-      "title": "La acampada de Sol se extiende a otras ciudades y UGT y CCOO anuncian una huelga general por la vivienda",
-      "date": "5 oct 2026",
-      "summary": "La acampada de la Puerta del Sol cumple su segunda semana y da el salto a Barcelona, Málaga y otros puntos; el Sindicato de Inquilinas mantiene la protesta pese a frenar la Justicia varios desalojos. UGT y CCOO han anunciado una huelga general por la vivienda en otoño/noviembre —la primera en años—, en pleno clima electoral tras el rechazo de los decretos de vivienda y la convocatoria del 29-N.",
-      "source": "X / LaRocaLaSexta, IrvingPineda, SilleM0, el_pais",
+      "title": "Ceuta, día 74 de la crisis: entre 16.000 y 18.000 migrantes permanecen en la ciudad mientras Canarias vive un repunte de cayucos",
+      "date": "11 oct 2026",
+      "summary": "La Policía estima que quedan entre 16.000 y 18.000 migrantes en Ceuta tras la entrada masiva de julio, con el último asentamiento de playa desalojado (unas 400 personas) 48 horas antes de la visita de los Reyes y un +60% de infracciones penales según el TSJA. En Canarias, Salvamento Marítimo registró 668 llegadas en varias embarcaciones en un día y el presidente Clavijo alerta de más de 3.800 entradas en mes y medio, pidiendo más respuesta del Gobierno central.",
+      "source": "X / lowceuta, erickprometeom, criaturina, 112canarias, RTVCes",
       "tags": [
+        "Inmigración",
+        "Ceuta",
+        "Canarias"
+      ]
+    },
+    {
+      "title": "La Ley de Vivienda habría sacado del mercado hasta el 30% de la oferta de alquiler mientras los desahucios caen a 45 diarios",
+      "date": "10 oct 2026",
+      "summary": "El debate de la vivienda se traslada a las cifras: datos citados en X (CGPJ, epdata) sitúan los desahucios en ~45/día en 2026, frente a ~67/día en 2025, y la okupación real en menos del 0,08% del parque. Sin embargo, los críticos de la Ley de Vivienda sostienen que los controles de precios han retirado hasta un 30% de la oferta de alquiler permanente, elevando precios y reduciendo rentabilidad, mientras propietarios denuncian procesos de desalojo de años y la izquierda culpa a los fondos buitre y a la falta de vivienda pública.",
+      "source": "X / xaquindashervas, CusoHugo, FrancescMoreno, asilascosasw",
+      "tags": [
+        "Okupación",
         "Vivienda",
-        "Acampada de Sol",
-        "Huelga general"
-      ]
-    },
-    {
-      "title": "El documental de RTVE sobre Cuelgamuros devuelve al primer plano las exhumaciones y el trabajo forense",
-      "date": "4 oct 2026",
-      "summary": "El estreno de «Cuelgamuros. Entre lo difícil y lo imposible» muestra el trabajo del equipo científico en las criptas del Valle, con la médica forense Elisa Cabrerizo y análisis de ADN para identificar a las víctimas republicanas. La asociación de familiares reclama más ritmo, transparencia y financiación pública, mientras la derecha mantiene la crítica al gasto y al supuesto «revanchismo».",
-      "source": "X / IndeGranada, laura_chaparro, nerealynch",
-      "tags": [
-        "Memoria Histórica",
-        "Cuelgamuros",
-        "Exhumaciones"
-      ]
-    },
-    {
-      "title": "El II Congreso Estatal Abolicionista consagra la LOASP como bandera contra el sistema prostitucional",
-      "date": "4 oct 2026",
-      "summary": "El congreso celebrado en Sevilla refuerza el lema #LOASPSeraLey: reparación integral para las supervivientes, desmantelamiento del proxenetismo y sanción a los clientes. El sector abolicionista carga contra Irene Montero y el «feminismo de Estado» por no haber impulsado una ley abolicionista plena, mientras los colectivos regulacionistas defienden los derechos del trabajo sexual.",
-      "source": "X / feministes_cat, feministas_cong, stopabolicion",
-      "tags": [
-        "Feminismo",
-        "LOASP",
-        "Abolicionismo"
+        "Ley de Vivienda"
       ]
     }
   ],
   "trends": [
     {
+      "name": "Sanchismo / UCO cloacas",
+      "change": "up",
+      "pct": "+18%",
+      "detail": "El informe de la UCO sobre cloacas-narcos contra la juez del hermano de Sánchez domina X con engagement masivo (medido hoy)"
+    },
+    {
+      "name": "Inmigración / Ceuta día 74",
+      "change": "up",
+      "pct": "+9%",
+      "detail": "Crisis residual de Ceuta (16-18k migrantes) y repunte de cayucos en Canarias: 668 llegadas en un día (medido hoy)"
+    },
+    {
+      "name": "Acampada de Sol / Maricarmen",
+      "change": "up",
+      "pct": "+8%",
+      "detail": "La muerte de Maricarmen Abascal carga de simbolismo la acampada, ya con ~2.000 tiendas y broncas del 12-O (medido hoy)"
+    },
+    {
+      "name": "Independentismo / Puigdemont vuelve",
+      "change": "up",
+      "pct": "+7%",
+      "detail": "El TC avala la malversación 7-5 y Bolaños confirma que Puigdemont puede regresar (medido hoy)"
+    },
+    {
+      "name": "Okupación / cifras de oferta",
+      "change": "up",
+      "pct": "+3%",
+      "detail": "El pulso de datos (30% de oferta retirada, desahucios a 45/día, okupación <0,08%) escala el tono del debate (medido hoy)"
+    },
+    {
       "name": "Elecciones / 29-N",
-      "change": "up",
-      "pct": "+22%",
-      "detail": "Sánchez convoca generales para el 29-N y la campaña se convierte en plebiscito sobre su figura; el tema más comentado de la jornada"
-    },
-    {
-      "name": "Independentismo / TC amnistía",
-      "change": "up",
-      "pct": "+14%",
-      "detail": "El Constitucional avala amnistiar la malversación y el posible regreso de Puigdemont reactiva el debate"
-    },
-    {
-      "name": "Vivienda / Acampada de Sol",
-      "change": "up",
-      "pct": "+10%",
-      "detail": "La acampada se extiende a otras ciudades y UGT y CCOO anuncian huelga general por la vivienda"
+      "change": "stable",
+      "pct": "+1%",
+      "detail": "Campaña en marcha con el plebiscito «España contra Sánchez» (tópico sin medición fresca hoy: stale)"
     },
     {
       "name": "Memoria Histórica / Cuelgamuros",
-      "change": "up",
-      "pct": "+5%",
-      "detail": "El documental de RTVE y los avances forenses devuelven las exhumaciones al primer plano"
-    },
-    {
-      "name": "Sanchismo / Trama Koldo",
-      "change": "up",
-      "pct": "+4%",
-      "detail": "La trama Koldo y la corrupción como eje de campaña (tópico sin medición fresca hoy: stale)"
-    },
-    {
-      "name": "Inmigración / Ceuta-Canarias",
-      "change": "stable",
-      "pct": "+2%",
-      "detail": "El reparto de MENAS y la ruta canaria siguen en el debate (tópico sin medición fresca hoy: stale)"
-    },
-    {
-      "name": "Feminismo / LOASP",
-      "change": "stable",
-      "pct": "+2%",
-      "detail": "El congreso abolicionista de Sevilla mantiene la LOASP como bandera del sector"
-    },
-    {
-      "name": "Ley Trans / Madrid",
       "change": "stable",
       "pct": "+1%",
-      "detail": "El giro del protocolo madrileño mantiene el choque sobre los menores, sin pico nuevo"
+      "detail": "El documental de RTVE mantiene las exhumaciones en el debate (tópico sin medición fresca hoy: stale)"
+    },
+    {
+      "name": "Woke / Ley Trans / Cancelación",
+      "change": "stable",
+      "pct": "0%",
+      "detail": "Los frentes ideológicos mantienen su pulso habitual sin pico nuevo (tópicos sin medición fresca hoy: stale)"
     }
   ],
   "accounts": [
@@ -600,52 +596,52 @@
   ],
   "virals": [
     {
-      "author": "@GabriPascual",
-      "date": "5 oct 2026",
-      "text": "Reacciona a la convocatoria del 29-N: Sánchez disuelve las Cortes tras el rechazo de los decretos de vivienda y llama a decidir el futuro del país.",
-      "engagement": "Post de la jornada electoral",
-      "topic": "Elecciones",
-      "link": "https://x.com/GabriPascual/status/2107007653612322853"
+      "author": "@romecaldes",
+      "date": "12 oct 2026",
+      "text": "Replica la portada de ABC: «La UCO confirma los contactos de las cloacas del PSOE con los narcos contra la juez del caso del hermano de Sánchez: 'Había que eliminarla'».",
+      "engagement": "Decenas de miles de likes/reposts (post del informe UCO)",
+      "topic": "Sanchismo",
+      "link": "https://x.com/romecaldes/status/2108840739153002931"
     },
     {
-      "author": "@acompanado_el",
-      "date": "5 oct 2026",
-      "text": "Recoge la reacción de Feijóo a la convocatoria: «Por fin decidirán los españoles» y el marco de campaña «España contra Sánchez».",
-      "engagement": "Alto alcance",
-      "topic": "Elecciones",
-      "link": "https://x.com/acompanado_el/status/2107349704174342497"
-    },
-    {
-      "author": "@ale_neo_",
-      "date": "5 oct 2026",
-      "text": "El TC avala aplicar la amnistía a la malversación y corrige al Supremo: se abre la puerta al regreso de Puigdemont.",
-      "engagement": "Alto alcance",
-      "topic": "Independentismo",
-      "link": "https://x.com/ale_neo_/status/2106810811612094631"
-    },
-    {
-      "author": "@edatvoficial",
-      "date": "5 oct 2026",
-      "text": "Cobertura del pleno del TC: la mayoría progresista da por amnistiable la malversación del procés.",
-      "engagement": "Cobertura mediática",
-      "topic": "Independentismo",
-      "link": "https://x.com/edatvoficial/status/2106836781832270242"
-    },
-    {
-      "author": "@IrvingPineda",
-      "date": "4 oct 2026",
-      "text": "La acampada de la Puerta del Sol como símbolo de la crisis de vivienda y del goteo de desahucios en España.",
-      "engagement": "Alto alcance",
+      "author": "@grok",
+      "date": "11 oct 2026",
+      "text": "Hilo sobre la muerte de Maricarmen Abascal (~7-11 oct, Hospital Gregorio Marañón) y su papel como detonante simbólico de la acampada de Sol.",
+      "engagement": "Hilo de referencia del suceso",
       "topic": "Acampada de Sol",
-      "link": "https://x.com/IrvingPineda/status/2107253196049596554"
+      "link": "https://x.com/grok/status/2109395965144605066"
     },
     {
-      "author": "@laura_chaparro",
-      "date": "4 oct 2026",
-      "text": "Sobre el documental de RTVE de Cuelgamuros: el trabajo forense en las criptas y la financiación pública de las exhumaciones.",
-      "engagement": "Debate memorialista",
-      "topic": "Memoria Histórica",
-      "link": "https://x.com/laura_chaparro/status/2107218302170960215"
+      "author": "@lowceuta",
+      "date": "12 oct 2026",
+      "text": "Día 74 de la crisis de Ceuta: la Policía estima que quedan entre 16.000 y 18.000 migrantes en la ciudad, dispersos por barrios y el monte.",
+      "engagement": "Alto alcance en el debate migratorio",
+      "topic": "Inmigración",
+      "link": "https://x.com/lowceuta/status/2109585942390673698"
+    },
+    {
+      "author": "@TerradoNews",
+      "date": "12 oct 2026",
+      "text": "El Tribunal Constitucional avala por 7-5 la amnistía de la malversación del procés; críticos lo leen como una «carta blanca» a Puigdemont.",
+      "engagement": "Alto alcance",
+      "topic": "Independentismo",
+      "link": "https://x.com/TerradoNews/status/2109412477528150483"
+    },
+    {
+      "author": "@112canarias",
+      "date": "12 oct 2026",
+      "text": "Repunte migratorio en Canarias: 668 inmigrantes rescatados en varias embarcaciones (cayucos de 219 y 212 personas, 72 en Fuerteventura) en menos de 24 horas.",
+      "engagement": "Difusión masiva del repunte canario",
+      "topic": "Inmigración",
+      "link": "https://x.com/112canarias/status/2109579855964803449"
+    },
+    {
+      "author": "@xaquindashervas",
+      "date": "10 oct 2026",
+      "text": "Análisis de mercado: la Ley de Vivienda habría sacado hasta un 30% de la oferta de alquiler permanente, elevando precios y reduciendo la rentabilidad de los propietarios.",
+      "engagement": "Hilo viral con datos CGPJ/epdata",
+      "topic": "Okupación",
+      "link": "https://x.com/xaquindashervas/status/2108996429523918984"
     }
   ]
 }
