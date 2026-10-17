@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T08:00:45+02:00",
+    "generated_at": "2026-10-17T08:01:03+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "Tanda 1 (4 tópicos, hace de diagnóstico de crédito): acampada de Sol Madrid desahucio vivienda Sindicato de Inquilinas Maricarmen Abascal acampada estudiantes desalojo España (desde 2026-10-13) [BLOQUEADO spending-limit]; sanchismo Sánchez UCO Cerdán cloacas PSOE corrupción imputación Zapatero España (desde 2026-10-13) [BLOQUEADO spending-limit]; inmigración España Ceuta Canarias cayucos llegadas irregulares regularización migrantes (desde 2026-10-13) [BLOQUEADO spending-limit]; okupación España desahucios Ley de Vivienda propietarios okupas Desokupa (desde 2026-10-13) [BLOQUEADO spending-limit].",
-      "No se lanzaron las tandas 2-4 (independentismo, memoria, feminismo, woke, cultura-cancelacion, ley-trans, elecciones, espana-vaciada, facha), ni la verificación de actividad de las 16 cuentas, ni la búsqueda de virales: el crédito xAI seguía agotado al inicio del run (10ª jornada con corte; racha 07-16 oct)."
+      "Tanda 1 (4 topicos, hace de diagnostico de credito): acampada de Sol Madrid desalojo vivienda Sindicato de Inquilinas Maricarmen Abascal estudiantes acampada Espana conversacion en X (desde 2026-10-14) [BLOQUEADO spending-limit]; sanchismo Sanchez UCO Cerdan cloacas PSOE corrupcion imputacion Zapatero Espana debate en X (desde 2026-10-14) [BLOQUEADO spending-limit]; inmigracion Espana Ceuta Canarias cayucos llegadas irregulares regularizacion migrantes debate en X (desde 2026-10-14) [BLOQUEADO spending-limit]; okupacion Espana desahucios Ley de Vivienda propietarios okupas Desokupa debate en X (desde 2026-10-14) [BLOQUEADO spending-limit].",
+      "No se lanzaron las tandas 2-4 (independentismo, memoria, feminismo, woke, cultura-cancelacion, ley-trans, elecciones, espana-vaciada, facha), ni la verificacion de actividad de las 16 cuentas, ni la busqueda de virales: el credito xAI seguia agotado al inicio del run (11a jornada con corte; racha 07-17 oct)."
     ],
     "stale_topics": [
       "acampada-sol",
@@ -28,10 +28,10 @@
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "previous_generated_at": "2026-10-15T08:00:57+02:00",
+    "previous_generated_at": "2026-10-16T08:00:45+02:00",
     "previous_source": "cron 09f22b3f6f78",
     "fallback": "full",
-    "notes": "MEDICIÓN NULA (0/13 tópicos frescos). El crédito xAI sigue agotado esta madrugada ('personal-team-blocked:spending-limit'): las 4 búsquedas de la tanda 1 —que hace de diagnóstico— fallaron de forma idéntica, sin poder llegar a las tandas siguientes. Es la 10ª jornada consecutiva con corte (racha 07-16 oct; el crédito se agota en 1-3 días tras cada recarga). Los 13 tópicos reutilizan VERBATIM los valores del data.json en HEAD (última medición parcial real: 12-10, con datos frescos del 8-12 oct) y quedan todos en meta.stale_topics. news/trends/accounts/virals se conservan verbatim. No se pudo verificar actividad de cuentas: meta.inactive_accounts mantiene exactamente los mismos 5 nombres del run anterior (sin verificar hoy; ni inactividad ni actividad). history.json queda INTACTO: sin medición fresca no hay movimiento que mostrar y un snapshot de hoy fabricaría un punto en el gráfico de evolución. sources.json NO generado: /home/carlo/guerra-cultural-rag no existe en este host Windows. Única acción útil: recargar crédito xAI en https://grok.com/?_s=usage."
+    "notes": "MEDICION NULA (0/13 topicos frescos). El credito xAI sigue agotado ('personal-team-blocked:spending-limit'): las 4 busquedas de la tanda 1 -que hace de diagnostico de credito- fallaron de forma identica, sin poder llegar a las tandas siguientes. Es la 11a jornada consecutiva con corte (racha 07-17 oct; el credito se agota en 1-3 dias tras cada recarga). Los 13 topicos reutilizan VERBATIM los valores del data.json en HEAD (ultima medicion parcial real: 12-10) y quedan todos en meta.stale_topics. news/trends/accounts/virals se conservan verbatim. No se pudo verificar actividad de cuentas: meta.inactive_accounts mantiene exactamente los mismos 5 nombres del run anterior (sin verificar hoy; ni inactividad ni actividad). history.json queda INTACTO: sin medicion fresca no hay movimiento que mostrar y un snapshot de hoy fabricaria un punto en el grafico de evolucion. sources.json NO generado: /home/carlo/guerra-cultural-rag no existe en este host Windows. Unica accion util: recargar credito xAI en https://grok.com/?_s=usage."
   },
   "topics": [
     {
