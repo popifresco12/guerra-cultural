@@ -1,9 +1,9 @@
 {
- "generado": "2026-10-17T06:45:45+00:00",
+ "generado": "2026-10-18T06:45:32+00:00",
  "eleccion": {
   "nombre": "Elecciones Generales 2026",
   "fecha": "2026-11-29",
-  "dias_restantes": 43
+  "dias_restantes": 42
  },
  "convocatoria": "2026-10-05",
  "hitos": [
@@ -49,14 +49,34 @@
    "url": "https://www.eldiario.es/rss/",
    "noticias": [
     {
-     "titular": "Frente Amplio y Podemos fracasan en las negociaciones y solo irán juntos en Canarias y la Comunitat Valenciana",
-     "url": "https://www.eldiario.es/politica/frente-amplio-fracasan-negociaciones-iran-canarias-comunitat-valenciana_1_13592471.html",
-     "fecha": "Fri, 16 Oct 2026 21:58:26 +0000"
+     "titular": "El Frente Amplio y Podemos intentan zanjar el debate de las siglas y llaman a “frenar al fascismo”",
+     "url": "https://www.eldiario.es/politica/frente-amplio-zanjar-debate-siglas-llaman-frenar-fascismo_1_13594075.html",
+     "fecha": "Sat, 17 Oct 2026 20:11:40 +0000"
     },
     {
-     "titular": "El PSOE y Frente Amplio llegan a un acuerdo para presentar listas conjuntas al Senado",
-     "url": "https://www.eldiario.es/politica/psoe-frente-amplio-llegan-acuerdo-presentar-listas-conjuntas-senado_1_13583230.html",
-     "fecha": "Fri, 16 Oct 2026 21:51:25 +0000"
+     "titular": "ERC y Comuns, historia de dos vecinos que no se pueden ni ver",
+     "url": "https://www.eldiario.es/catalunya/erc-comuns-historia-vecinos-no-ver_129_13587165.html",
+     "fecha": "Sat, 17 Oct 2026 20:11:41 +0000"
+    },
+    {
+     "titular": "Sánchez pone al PSOE a bailar al ritmo de Begoña Gómez para voltear la campaña",
+     "url": "https://www.eldiario.es/politica/sanchez-pone-psoe-bailar-ritmo-begona-gomez-voltear-campana_1_13594220.html",
+     "fecha": "Sat, 17 Oct 2026 20:11:41 +0000"
+    },
+    {
+     "titular": "El PP arranca con tropiezos la precampaña hacia las elecciones del 29N",
+     "url": "https://www.eldiario.es/politica/pp-arranca-tropiezos-precampana-elecciones-29n_1_13592479.html",
+     "fecha": "Sat, 17 Oct 2026 20:11:42 +0000"
+    },
+    {
+     "titular": "La app para aprender español que nació de la vocación de un maestro jubilado y la experiencia de un informático migrante",
+     "url": "https://www.eldiario.es/la-rioja/app-aprender-espanol-nacio-vocacion-maestro-jubilado-experiencia-informatico-migrante_1_13574228.html",
+     "fecha": "Sat, 17 Oct 2026 20:11:47 +0000"
+    },
+    {
+     "titular": "Del engaño, el autoengaño y el voto útil",
+     "url": "https://www.eldiario.es/opinion/zona-critica/engano-autoengano-voto-util_129_13594311.html",
+     "fecha": "Sat, 17 Oct 2026 20:11:49 +0000"
     },
     {
      "titular": "Así han quedado las candidaturas de la izquierda alternativa, territorio a territorio",
@@ -74,29 +94,9 @@
      "fecha": "Fri, 16 Oct 2026 22:28:19 +0000"
     },
     {
-     "titular": "Dimite la portavoz del PSOE, Montse Mínguez, tras las informaciones sobre los negocios inmobiliarios de su pareja",
-     "url": "https://www.eldiario.es/politica/dimite-portavoz-psoe-montse-minguez-informaciones-negocios-inmobiliarios-pareja_1_13592500.html",
-     "fecha": "Fri, 16 Oct 2026 16:12:42 +0000"
-    },
-    {
-     "titular": "Pedro Sánchez, sobre la renuncia de la portavoz del PSOE: \"Le dije que no dimitiera\"",
-     "url": "https://www.eldiario.es/politica/pedro-sanchez-cese-portavoz-psoe-le-dije-no-dimitiera_1_13592585.html",
-     "fecha": "Fri, 16 Oct 2026 17:02:49 +0000"
-    },
-    {
      "titular": "La medida antispam que arranca este sábado: todas las llamadas comerciales tienen que empezar con el prefijo 400",
      "url": "https://www.eldiario.es/economia/medida-antispam-arranca-sabado-llamadas-comerciales-empezar-prefijo-400_1_13587279.html",
      "fecha": "Fri, 16 Oct 2026 22:28:21 +0000"
-    },
-    {
-     "titular": "Hay un riesgo para las pensiones: un gobierno PP-Vox",
-     "url": "https://www.eldiario.es/opinion/zona-critica/hay-riesgo-pensiones-gobierno-pp-vox_129_13592312.html",
-     "fecha": "Fri, 16 Oct 2026 18:47:46 +0000"
-    },
-    {
-     "titular": "¿Qué haría el PP con la Seguridad Social?",
-     "url": "https://www.eldiario.es/opinion/tribuna-abierta/haria-pp-seguridad-social_129_13591553.html",
-     "fecha": "Fri, 16 Oct 2026 22:28:25 +0000"
     }
    ]
   },
@@ -105,54 +105,54 @@
    "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada",
    "noticias": [
     {
-     "titular": "Frente Amplio y Podemos fracasan en su intento de pactar una papeleta única para el 29-N",
-     "url": "https://elpais.com/espana/elecciones-generales/2026-10-16/frente-amplio-y-podemos-fracasan-en-su-intento-de-pactar-una-papeleta-unica-para-el-29-n.html",
-     "fecha": "Fri, 16 Oct 2026 21:54:15 GMT"
+     "titular": "La oportunidad perdida de la izquierda: razones y consecuencias de ir dividida al 29-N",
+     "url": "https://elpais.com/espana/elecciones-generales/2026-10-18/la-oportunidad-perdida-de-la-izquierda-razones-y-consecuencias-de-ir-dividida-al-29-n.html",
+     "fecha": "Sun, 18 Oct 2026 03:30:01 GMT"
     },
     {
-     "titular": "El PSOE y el Frente Amplio alcanzan un pacto nacional de listas conjuntas al Senado",
-     "url": "https://elpais.com/espana/elecciones-generales/2026-10-16/el-psoe-y-la-izquierda-alcanzan-un-pacto-nacional-de-listas-conjuntas-al-senado.html",
-     "fecha": "Fri, 16 Oct 2026 21:53:19 GMT"
+     "titular": "Un frente de izquierdas y otro de derechas se disputarán a cara de perro el control del Senado",
+     "url": "https://elpais.com/espana/2026-10-18/un-frente-de-izquierdas-y-otro-de-derechas-se-disputaran-a-cara-de-perro-el-control-del-senado.html",
+     "fecha": "Sun, 18 Oct 2026 03:30:01 GMT"
     },
     {
-     "titular": "¿Tiene razón Pablo Iglesias? Lo que dicen las encuestas sobre ir separados en Madrid",
-     "url": "https://elpais.com/actualidad/newsletter-kiko-llaneras/2026-10-17/tiene-razon-iglesias-lo-que-dicen-las-encuestas-sobre-ir-separados-en-madrid.html",
-     "fecha": "Sat, 17 Oct 2026 03:30:01 GMT"
+     "titular": "Aitor Esteban: “Nadie ha demostrado más con hechos que no queremos a Vox”",
+     "url": "https://elpais.com/espana/elecciones-generales/2026-10-18/aitor-esteban-nadie-ha-demostrado-mas-con-hechos-que-no-queremos-a-vox.html",
+     "fecha": "Sun, 18 Oct 2026 03:30:01 GMT"
     },
     {
-     "titular": "El PSOE se conjura en su comité federal para pelear por otra remontada electoral",
-     "url": "https://elpais.com/espana/elecciones-generales/2026-10-17/el-psoe-se-conjura-en-su-comite-federal-para-pelear-por-otra-remontada-electoral.html",
-     "fecha": "Sat, 17 Oct 2026 03:30:01 GMT"
+     "titular": "El debate de las pensiones entra en terreno pantanoso: ¿hay que reformar el modelo o cambiarlo por otro?",
+     "url": "https://elpais.com/economia/2026-10-18/el-debate-de-las-pensiones-entra-en-terreno-pantanoso-hay-que-reformar-el-modelo-o-cambiarlo-por-otro.html",
+     "fecha": "Sun, 18 Oct 2026 03:30:01 GMT"
     },
     {
-     "titular": "Del 15-M al 29-N: una conversación entre Ignacio Urquizu y Kiko Llaneras",
-     "url": "https://elpais.com/babelia/2026-10-17/del-15-m-al-29-n-una-conversacion-entre-ignacio-urquizu-y-kiko-llaneras.html",
-     "fecha": "Sat, 17 Oct 2026 03:30:01 GMT"
+     "titular": "El todopoderoso alcalde que llevó al PP a una crisis anunciada en Algeciras",
+     "url": "https://elpais.com/espana/2026-10-18/el-todopoderoso-alcalde-que-llevo-al-pp-a-una-crisis-anunciada-en-algeciras.html",
+     "fecha": "Sun, 18 Oct 2026 03:30:01 GMT"
     },
     {
-     "titular": "Trump suspende sanciones contra Rusia en pleno giro para que Putin le ayude a bajar el precio de la energía antes de las elecciones",
-     "url": "https://elpais.com/us/2026-10-17/trump-suspende-temporalmente-sanciones-contra-rusia-por-interes-nacional.html",
-     "fecha": "Sat, 17 Oct 2026 02:40:36 GMT"
+     "titular": "María Neira, candidata española a dirigir la OMS: “Los nuevos desafíos exigen más ciencia y mejor comunicación”",
+     "url": "https://elpais.com/planeta-futuro/2026-10-18/maria-neira-candidata-a-la-oms-los-nuevos-desafios-exigen-mas-ciencia-y-una-mejor-comunicacion-de-la-ciencia.html",
+     "fecha": "Sun, 18 Oct 2026 03:30:00 GMT"
     },
     {
-     "titular": "Montse Minguez, ascenso y caída de la portavoz del PSOE",
-     "url": "https://elpais.com/espana/catalunya/2026-10-17/montse-minguez-ascenso-y-caida-de-la-portavoz-del-psoe.html",
-     "fecha": "Sat, 17 Oct 2026 03:30:01 GMT"
+     "titular": "Elecciones que marcan el rumbo internacional",
+     "url": "https://elpais.com/opinion/2026-10-18/elecciones-que-marcan-el-rumbo-internacional.html",
+     "fecha": "Sun, 18 Oct 2026 03:30:01 GMT"
     },
     {
-     "titular": "El Defensor del Pueblo interpone un recurso de amparo ante el Constitucional por la suspensión del voto de los nacionalizados por la ‘ley de nietos’",
-     "url": "https://elpais.com/espana/2026-10-16/el-defensor-del-pueblo-interpone-un-recurso-de-amparo-ante-el-constitucional-por-la-suspension-del-derecho-al-voto-a-nacionalizados-por-la-ley-de-nietos.html",
-     "fecha": "Fri, 16 Oct 2026 19:56:42 GMT"
+     "titular": "Añoranza de listas electorales no bloqueadas",
+     "url": "https://elpais.com/opinion/2026-10-18/anoranza-de-listas-electorales-no-bloqueadas.html",
+     "fecha": "Sun, 18 Oct 2026 03:30:01 GMT"
     },
     {
-     "titular": "Patrick Radden Keefe, periodista: “Vivimos tiempos profundamente mercenarios. ¿Tienes dinero? Bienvenido”",
-     "url": "https://elpais.com/ideas/2026-10-17/patrick-radden-keefe-periodista-vivimos-tiempos-profundamente-mercenarios-tienes-dinero-bienvenido.html",
-     "fecha": "Sat, 17 Oct 2026 03:30:00 GMT"
+     "titular": "Ayuso y Vox aparcan de golpe su guerra en Madrid",
+     "url": "https://elpais.com/espana/madrid/2026-10-18/ayuso-y-vox-aparcan-de-golpe-su-guerra-en-madrid.html",
+     "fecha": "Sun, 18 Oct 2026 03:30:01 GMT"
     },
     {
-     "titular": "El Roto: basura electoral",
-     "url": "https://elpais.com/opinion/2026-10-17/el-roto-basura-electoral.html",
-     "fecha": "Sat, 17 Oct 2026 03:30:01 GMT"
+     "titular": "Reabre la estación de Metro de Sol tras el cierre de dos días ordenado por Ayuso para disuadir a los acampados por la vivienda",
+     "url": "https://elpais.com/espana/madrid/2026-10-17/reabre-la-estacion-de-metro-de-sol-tras-el-cierre-de-dos-dias-ordenado-por-ayuso-para-disuadir-a-los-acampados-por-la-vivienda.html",
+     "fecha": "Sat, 17 Oct 2026 21:48:33 GMT"
     }
    ]
   },
@@ -161,24 +161,24 @@
    "url": "https://www.abc.es/rss/feeds/abc_EspanaEspana.xml",
    "noticias": [
     {
-     "titular": "El resultado de las elecciones del 29N en España si solo votasen los estudiantes: porcentajes de PP, PSOE, Vox y el resto de partidos",
-     "url": "https://www.abc.es/espana/resultado-elecciones-29n-espana-solo-votasen-estudiantes-20261017222450-nt.html",
-     "fecha": "Sat, 17 Oct 2026 07:37:49 +0200"
+     "titular": "Cuatro escaños gallegos en el aire en las elecciones del 29-N",
+     "url": "https://www.abc.es/espana/galicia/jose-luis-jimenez-cuatro-escanos-gallegos-aire-elecciones-29n-20261015061500-nt.html",
+     "fecha": "Sun, 18 Oct 2026 06:15:00 +0200"
     },
     {
-     "titular": "Encuestas elecciones generales del 29N en Canarias: resultados de PSOE, PP, VOX y Coalición Canaria y ganador según los sondeos",
-     "url": "https://www.abc.es/espana/canarias/encuestas-elecciones-generales-29n-canarias-resultados-psoe-20261017051500-nt.html",
-     "fecha": "Sat, 17 Oct 2026 05:15:02 +0200"
+     "titular": "Encuestas elecciones generales del 29N en Cataluña: resultados de PSC, ERC, PP y Vox y ganador según el CEO",
+     "url": "https://www.abc.es/espana/cataluna/encuestas-elecciones-generales-29n-cataluna-resultados-psc-20261018215550-nt.html",
+     "fecha": "Sun, 18 Oct 2026 05:30:14 +0200"
     },
     {
-     "titular": "PSOE y la izquierda pactan una lista conjunta en el Senado para arrebatar su control al PP",
-     "url": "https://www.abc.es/espana/psoe-izquierda-pactan-lista-conjunta-senado-29n-20261017002611-nt.html",
-     "fecha": "Sat, 17 Oct 2026 00:26:11 +0200"
+     "titular": "La hemeroteca retrata a Sánchez: ni elecciones anticipadas ni más de dos mandatos",
+     "url": "https://www.abc.es/espana/perderan-2027-aburrimiento-limite-mandatos-hemeroteca-desmonta-20261006012830-nt.html",
+     "fecha": "Sun, 18 Oct 2026 01:28:30 +0200"
     },
     {
-     "titular": "Adiós a la quimera de la unidad: Podemos y los herederos de Sumar irán separados salvo en Valencia y Canarias",
-     "url": "https://www.abc.es/espana/pacto-pacto-izquierdas-enfoque-abierto-20261017000246-nt.html",
-     "fecha": "Sat, 17 Oct 2026 00:02:46 +0200"
+     "titular": "Una tele y un puente aéreo al Caribe: los que no duermen por el 29-N",
+     "url": "https://www.abc.es/espana/jose-a-perez-tele-puente-aereo-caribe-duermen-29n-20261018012641-nt.html",
+     "fecha": "Sun, 18 Oct 2026 01:26:41 +0200"
     }
    ]
   },
@@ -187,14 +187,24 @@
    "url": "https://e00-elmundo.uecdn.es/rss/espana.xml",
    "noticias": [
     {
-     "titular": "Dimite Montse Mínguez, la portavoz del PSOE, tras la polémica de los \"30 pisos\" de su pareja, y Sánchez lo lamenta: \"Está rota\"",
-     "url": "https://www.elmundo.es/espana/2026/10/16/6ad24c4ee4d4d83b2c8b4585.html",
-     "fecha": "Fri, 16 Oct 2026 20:36:42 +0200"
+     "titular": "El Frente Amplio pasa página de Podemos: \"'No more dramas', se acabó el unir a los partidos, empieza el tiempo de unir a la gente\"",
+     "url": "https://www.elmundo.es/espana/2026/10/17/6ad3671afc6c83882f8b45b5.html",
+     "fecha": "Sat, 17 Oct 2026 14:44:41 +0200"
     },
     {
-     "titular": "Las apuestas de los 3 grandes en campaña: 32 veces \"España\" de Abascal, dos \"Maricarmen\" de Sánchez y Feijóo hace tridente de \"orden, seguridad y prosperidad\"",
-     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/16/6ad24174e4d4d8f95a8b45a2.html",
-     "fecha": "Fri, 16 Oct 2026 19:36:09 +0200"
+     "titular": "Un 'procés' para el 29-N",
+     "url": "https://www.elmundo.es/espana/2026/10/18/6ad3a4b1fdddff6d168b45ab.html",
+     "fecha": "Sun, 18 Oct 2026 00:07:06 +0200"
+    },
+    {
+     "titular": "Abascal asegura que actuará \"con altura de miras\" tras el acuerdo de la izquierda para concurrir en coalición al Senado",
+     "url": "https://www.elmundo.es/espana/2026/10/17/6ad34ce5fdddff917d8b45b8.html",
+     "fecha": "Sat, 17 Oct 2026 14:51:11 +0200"
+    },
+    {
+     "titular": "La desunión de la izquierda anima al equipo de Sánchez: \"El voto útil vendrá al PSOE de forma natural\"",
+     "url": "https://www.elmundo.es/espana/2026/10/18/6ad39ef7e4d4d80d4b8b456d.html",
+     "fecha": "Sun, 18 Oct 2026 00:07:07 +0200"
     },
     {
      "titular": "IU da marcha atrás para evitar la fractura de la izquierda valenciana: se integrará en la lista de Compromís con Podemos",
@@ -207,9 +217,14 @@
      "fecha": "Fri, 16 Oct 2026 14:16:13 +0200"
     },
     {
-     "titular": "El Gobierno empieza a tramitar el nuevo decreto de universidades tras tumbarlo el Supremo y a 44 días de las elecciones",
-     "url": "https://www.elmundo.es/espana/2026/10/16/6ad20089fdddff065a8b459c.html",
-     "fecha": "Fri, 16 Oct 2026 13:13:52 +0200"
+     "titular": "138 resoluciones judiciales prueban que un diputado del PSOE hizo fortuna al servicio de los \"rentistas\"",
+     "url": "https://www.elmundo.es/murcia/2026/10/16/6ad1d299e4d4d897598b459e.html",
+     "fecha": "Sat, 17 Oct 2026 00:58:51 +0200"
+    },
+    {
+     "titular": "Las apuestas de los 3 grandes en campaña: 32 veces \"España\" de Abascal, dos \"Maricarmen\" de Sánchez y Feijóo hace tridente de \"orden, seguridad y prosperidad\"",
+     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/16/6ad24174e4d4d8f95a8b45a2.html",
+     "fecha": "Fri, 16 Oct 2026 19:36:09 +0200"
     },
     {
      "titular": "Los grupos parlamentarios hacen de la Diputación Permanente un campo de batalla electoral con acusaciones, insultos y amenazas",
@@ -217,24 +232,9 @@
      "fecha": "Fri, 16 Oct 2026 14:39:41 +0200"
     },
     {
-     "titular": "Histórico acuerdo de la izquierda para el Senado: PSOE y Frente Amplio pactan una lista única para desafiar la mayoría del PP",
-     "url": "https://www.elmundo.es/espana/2026/10/16/6ad23f39e85eced3738b45a2.html",
-     "fecha": "Fri, 16 Oct 2026 23:55:47 +0200"
-    },
-    {
-     "titular": "Alberto Núñez Feijóo busca el voto de las mujeres frente a un Gobierno que \"paga prostitutas\"",
-     "url": "https://www.elmundo.es/espana/2026/10/16/6ad21c5821efa0b35f8b4575.html",
-     "fecha": "Fri, 16 Oct 2026 14:50:01 +0200"
-    },
-    {
-     "titular": "El PSOE defiende la \"intachable\" la trayectoria de su portavoz tras la polémica de los \"30 pisos\": \"Siempre ha votado a favor de que los grandes tenedores no tengan beneficios\"",
-     "url": "https://www.elmundo.es/espana/2026/10/16/6ad1eb00e4d4d897598b45a9.html",
-     "fecha": "Fri, 16 Oct 2026 11:40:57 +0200"
-    },
-    {
-     "titular": "Cargas policiales, altercados y un detenido en Pamplona durante una protesta contra Vito Quiles",
-     "url": "https://www.elmundo.es/espana/2026/10/15/6ad10a6be85ece28098b45a2.html",
-     "fecha": "Thu, 15 Oct 2026 19:16:38 +0200"
+     "titular": "\"Pacto de no agresión\" de Feijóo y Abascal con la mirada en el Senado",
+     "url": "https://www.elmundo.es/espana/2026/10/18/6ad3a436fdddfffb408b459c.html",
+     "fecha": "Sun, 18 Oct 2026 01:25:00 +0200"
     }
    ]
   },
@@ -243,14 +243,14 @@
    "url": "https://okdiario.com/feed",
    "noticias": [
     {
-     "titular": "Vicente Vallés sobre las elecciones generales: «La derrota en el Congreso es una muestra más de que un Gobierno no puede gobernar si no tiene mayoría parlamentaria»",
-     "url": "https://okdiario.com/espana/vicente-valles-sobre-elecciones-generales-derrota-congreso-muestra-mas-que-gobierno-no-puede-gobernar-si-no-tiene-mayoria-parlamentaria-20564516",
-     "fecha": "Sat, 17 Oct 2026 07:00:06 +0200"
+     "titular": "Los whatsapps que aceleraron la instrucción de Sofía Puente: «Es la oportunidad para hacer algo grande»",
+     "url": "https://okdiario.com/espana/whatsapps-que-aceleraron-instruccion-sofia-puente-oportunidad-hacer-algo-grande-20529144",
+     "fecha": "Sun, 18 Oct 2026 05:47:42 +0200"
     },
     {
-     "titular": "Ayuso crea una comisión que recurrirá el censo de las autonómicas si concluye que hay fraude con los falsos nietos",
-     "url": "https://okdiario.com/madrid/ayuso-crea-comision-que-recurrira-censo-autonomicas-si-concluye-que-hay-fraude-falsos-nietos-20568903",
-     "fecha": "Sat, 17 Oct 2026 05:48:29 +0200"
+     "titular": "Jugar la final del 29-N como si el marcador fuera 0-4",
+     "url": "https://okdiario.com/opinion/jugar-final-del-29-n-como-si-marcador-fuera-0-4-20573763",
+     "fecha": "Sun, 18 Oct 2026 05:45:46 +0200"
     }
    ]
   },
@@ -259,19 +259,14 @@
    "url": "https://theobjective.com/feed/",
    "noticias": [
     {
-     "titular": "Frente Amplio presenta a Ada Colau como candidata sin lograr un acuerdo con Podemos",
-     "url": "https://theobjective.com/espana/politica/2026-10-17/frente-amplio-ada-colau-acuerdo-podemos/",
-     "fecha": "Sat, 17 Oct 2026 06:19:47 +0000"
+     "titular": "Podcast | La trampa que impidió un Senado en las Cortes de Cádiz",
+     "url": "https://theobjective.com/podcasts/historia-canalla/podcast-historia-canalla-trampa-senado-cortes-cadiz/",
+     "fecha": "Sun, 18 Oct 2026 03:25:35 +0000"
     },
     {
-     "titular": "Acerca de ser súbdito",
-     "url": "https://theobjective.com/elsubjetivo/opinion/2026-10-17/acerca-ser-subdito-articulo-azua/",
-     "fecha": "Sat, 17 Oct 2026 03:25:00 +0000"
-    },
-    {
-     "titular": "Lo mejor de la semana: de la visita real a Ceuta a las cloacas y negocios inmobiliarios del PSOE",
-     "url": "https://theobjective.com/espana/2026-10-17/mejor-la-semana-visita-real-ceuta-cloacas-negocios-inmobiliarios-psoe/",
-     "fecha": "Sat, 17 Oct 2026 03:25:00 +0000"
+     "titular": "La propuesta fiscal de Vox requeriría ajustes en sanidad, educación o Seguridad Social",
+     "url": "https://theobjective.com/economia/2026-10-18/propuesta-fiscal-vox-inviable-pensiones-sanidad-educacion/",
+     "fecha": "Sun, 18 Oct 2026 03:25:00 +0000"
     }
    ]
   }
@@ -315,8 +310,8 @@
    "usuario": "@europapress.es",
    "url": "https://bsky.app/profile/europapress.es/post/3mxvr3arbd22q",
    "fecha": "2026-10-15T09:34:51.253Z",
-   "likes": 253,
-   "rts": 164,
+   "likes": 264,
+   "rts": 174,
    "resp": 12
   },
   {
@@ -328,6 +323,16 @@
    "likes": 328,
    "rts": 116,
    "resp": 11
+  },
+  {
+   "texto": "La izquierda concurrirá unida y sin el Instituto de la Empresa Familiar a las elecciones del 29-N. Todo bien.",
+   "autor": "Pedro Vallín",
+   "usuario": "@pvallin.bsky.social",
+   "url": "https://bsky.app/profile/pvallin.bsky.social/post/3my2l4xrar226",
+   "fecha": "2026-10-17T07:31:45.164Z",
+   "likes": 326,
+   "rts": 79,
+   "resp": 19
   },
   {
    "texto": "#vox #lanoche24h #codigo10 #horizonte #partidopopular #mafiapp #abascal #Fascismo #voxesmierda #ultraderecha #ultimahora #hispanidad #12o #29n #elecciones #reflexion #derechos #ddhh #españa #ceuta #felipevi #arteurbano #republicaya #republica #borbonesladrones #voxesodio #xenofobia #machismo #cita",
@@ -356,7 +361,7 @@
    "url": "https://bsky.app/profile/demetrioymedio.bsky.social/post/3mxrvqpkc5c27",
    "fecha": "2026-10-13T20:47:47.409Z",
    "likes": 216,
-   "rts": 102,
+   "rts": 103,
    "resp": 22
   },
   {
@@ -368,16 +373,6 @@
    "likes": 191,
    "rts": 96,
    "resp": 21
-  },
-  {
-   "texto": "En Podemos nos financiamos con microcréditos, aportaciones que se devuelven tras las elecciones. Por eso somos libres, porque no le debemos nada a los grandes poderes económicos.  Para la campaña del 29N te volvemos a necesitar. #Microcréditos29N  Entra en microcreditos.podemos.info",
-   "autor": "Podemos",
-   "usuario": "@ahorapodemos.bsky.social",
-   "url": "https://bsky.app/profile/ahorapodemos.bsky.social/post/3mxrfohsoec2n",
-   "fecha": "2026-10-13T16:00:12.318Z",
-   "likes": 130,
-   "rts": 85,
-   "resp": 9
   },
   {
    "texto": "#elecciones #puertadelsol #acampada #vivienda #fondosbuitre #maricarmen #29n #elecciones#eleccionesgenerales #pp #fachas #fachos #sicarios #partidopopular #feijoo #verguenza #historia #vox #abascal #voxesodio #genocidas #genocidio #asesinos #criminales",
