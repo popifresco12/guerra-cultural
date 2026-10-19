@@ -1,37 +1,38 @@
 {
   "meta": {
-    "generated_at": "2026-10-18T08:05:00+02:00",
+    "generated_at": "2026-10-19T08:19:00+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "Tanda 1 (4 topicos, hace de diagnostico de credito): acampada de Sol Madrid desalojo vivienda Sindicato de Inquilinas Maricarmen Abascal estudiantes acampada Espana conversacion en X (desde 2026-10-15) [BLOQUEADO spending-limit]; sanchismo Sanchez UCO Cerdan cloacas PSOE corrupcion imputacion Zapatero Espana debate en X (desde 2026-10-15) [BLOQUEADO spending-limit]; inmigracion Espana Ceuta Canarias cayucos llegadas irregulares regularizacion migrantes debate en X (desde 2026-10-15) [BLOQUEADO spending-limit]; okupacion Espana desahucios Ley de Vivienda propietarios okupas Desokupa debate en X (desde 2026-10-15) [BLOQUEADO spending-limit].",
-      "No se lanzaron las tandas 2-4 (independentismo, memoria, feminismo, woke, cultura-cancelacion, ley-trans, elecciones, espana-vaciada, facha), ni la verificacion de actividad de las 16 cuentas, ni la busqueda de virales: el credito xAI seguia agotado al inicio del run (12a jornada con corte; racha 07-18 oct)."
+      "acampada de Sol Madrid desalojo Sindicato de Inquilinas Maricarmen Abascal estudiantes acampada conversacion en X (desde 2026-10-16)",
+      "sanchismo Sanchez UCO Cerdan cloacas PSOE corrupcion imputacion Zapatero debate en X (desde 2026-10-16)",
+      "inmigracion Espana Ceuta Canarias cayucos llegadas irregulares regularizacion migrantes debate en X (desde 2026-10-16)",
+      "okupacion Espana desahucios Ley de Vivienda propietarios okupas Desokupa debate en X (desde 2026-10-16)",
+      "independentismo Catalan procs Puigdemont Junts ERC amnistia referendum debate en X Espana (desde 2026-10-16)",
+      "memoria historica Espana Ley de Nietos exhumaciones Franco fundacion reclamacion judicial debate en X (desde 2026-10-16)",
+      "Irene Montero Podemos feminismo prostitucion abolicion criticas mujeres PSOE debate en X esta semana (desde 2026-10-16) [reintento: primer intento truncado]",
+      "ideologia woke Espana cultura identidad diversidad progresismo critica debate en X (desde 2026-10-16)",
+      "Rosalia flamenco apropiacion cultural boicot criticas cancelacion X Espana artistas polemica declaraciones (desde 2026-10-16) [reintento: 2 intentos previos degradados sin citas]",
+      "ley trans Espana autodeterminacion de genero menores bloqueadores Tribunal Supremo comunidades debate en X (desde 2026-10-16)",
+      "29N elecciones generales Espana campana PSOE PP Vox mitin sondeos escaños (desde 2026-10-16) [reintento: la primera query 'elecciones 29N convocatoria' devolvio 'no hay convocatoria' sin citas]",
+      "Espana vaciada despoblacion Teruel Existe Soria rural cierre de servicios incendios debate en X (desde 2026-10-16)",
+      "facha insulto politico Espana agresion Vitoria antifascismo ultraderecha debate redes en X (desde 2026-10-16)",
+      "actividad cuentas, tanda A: @profsecundario @dianitanoticias @Tagelca @elxokas con enlaces y engagement (desde 2026-10-16)",
+      "actividad cuentas, tanda B: @TemplarExtre @geoestratego @13mescribano @VictorLapuente con enlaces y engagement (desde 2026-10-16)",
+      "actividad cuentas, tanda C: @EstefMolina_ @nicolasdepedro @armesillaconde @Anujbost con enlaces y engagement (desde 2026-10-16)",
+      "actividad cuentas, tanda D: @billkilgore_ @elmundotoday @littleragergirl @LaBugsBunnyIA con enlaces, texto y engagement (desde 2026-10-16)",
+      "reintento tanda E: @elmundotoday @littleragergirl @Anujbost con enlaces y engagement (desde 2026-10-16) [sin posts: solo perfiles]"
     ],
-    "stale_topics": [
-      "acampada-sol",
-      "sanchismo",
-      "inmigracion",
-      "okupacion",
-      "independentismo",
-      "memoria",
-      "feminismo",
-      "woke",
-      "cultura-cancelacion",
-      "ley-trans",
-      "elecciones",
-      "espana-vaciada",
-      "facha"
-    ],
+    "stale_topics": [],
     "inactive_accounts": [
       "@dianitanoticias",
       "@elxokas",
       "@VictorLapuente",
       "@elmundotoday",
-      "@littleragergirl"
+      "@littleragergirl",
+      "@Anujbost"
     ],
-    "previous_generated_at": "2026-10-17T08:01:03+02:00",
-    "previous_source": "cron 09f22b3f6f78",
-    "fallback": "full",
-    "notes": "MEDICION NULA (0/13 topicos frescos). El credito xAI sigue agotado ('personal-team-blocked:spending-limit'): las 4 busquedas de la tanda 1 -que hace de diagnostico de credito- fallaron de forma identica, sin poder llegar a las tandas siguientes. Es la 12a jornada consecutiva con corte (racha 07-18 oct; el credito se agota en 1-3 dias tras cada recarga). Los 13 topicos reutilizan VERBATIM los valores del data.json en HEAD (ultima medicion parcial real: 12-10) y quedan todos en meta.stale_topics. news/trends/accounts/virals se conservan verbatim. No se pudo verificar actividad de cuentas: meta.inactive_accounts mantiene exactamente los mismos 5 nombres del run anterior (sin verificar hoy; ni inactividad ni actividad). history.json queda INTACTO: sin medicion fresca no hay movimiento que mostrar y un snapshot de hoy fabricaria un punto en el grafico de evolucion. sources.json NO generado: /home/carlo/guerra-cultural-rag no existe en este host Windows. Unica accion util: recargar credito xAI en https://grok.com/?_s=usage."
+    "previous_generated_at": "2026-10-18T08:05:00+02:00",
+    "notes": "MEDICION COMPLETA (13/13 topicos frescos) tras 12 jornadas de bloqueo: el credito xAI vuelve a estar operativo (la tanda 1 de 4 busquedas devolvio analisis completo). Tres topicos necesitaron reintento de query: feminismo (primer intento truncado), cultura-cancelacion (2 intentos degradados 'no citations' antes de una query anclada en Rosalia) y elecciones (la query con '29N convocatoria' devolvio 'no existe convocatoria' sin citas; reformulada como '29N elecciones generales campana' funciono). Actividad de cuentas verificada en 4 tandas + 1 reintento: @elmundotoday, @littleragergirl y @Anujbost no devolvieron posts (solo perfiles) y quedan marcadas inactivas junto a @dianitanoticias, @elxokas y @VictorLapuente; ninguna se elimina del directorio. @TemplarExtre resuelve en las busquedas como @TemplarExtrem: se mantiene el handle del directorio sin cambios. sources.json NO generado: /home/carlo/guerra-cultural-rag no existe en este host Windows."
   },
   "topics": [
     {
@@ -40,24 +41,15 @@
       "icon": "⛺",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 93,
-      "momentum": 32,
+      "intensity": 94,
+      "momentum": 36,
       "momentumDir": "left",
-      "summary": "La acampada de Sol entra en su tercera semana convertida en un campamento horizontal de ~2.000 tiendas y más de 40 colectivos (anticapitalistas, propalestina, okupas, anarcoecologistas), con el Sindicato de Inquilinas perdiendo el liderazgo único que tuvo al inicio. La muerte de Maricarmen Abascal (~7-11 octubre, en el Gregorio Marañón tras el deterioro físico del desahucio) ha cargado de simbolismo la protesta, mientras crecen las broncas con contramanifestaciones de derecha y la Comunidad de Madrid denuncia la interferencia en los actos del 12-O. Sigue sin visos de desalojo inminente.",
-      "quote": "«~2.000 tiendas de campaña para el 12 de octubre»: la acampada de Sol se consolida como escaparate de causas amplias tras la muerte de Maricarmen Abascal, sin liderazgo único y con contramanifestaciones frente a los cordones antifascistas.",
+      "summary": "La acampada de vivienda nacida del desahucio de Maricarmen Abascal cumple más de tres semanas en la Puerta del Sol y el cierre temporal de la estación de Metro por insalubridad ha reabierto la exigencia institucional de desalojo. La Comunidad de Madrid reclama que actúe el Delegado del Gobierno mientras el Sindicato de Inquilinas denuncia criminalización y niega haberse retirado. El relato oscila entre el derecho a la vivienda y la ocupación del espacio público con pérdidas para el comercio.",
+      "quote": "«La Comunidad exige desalojar la acampada de Sol por insalubridad mientras el Sindicato de Inquilinas acusa a Ayuso de criminalizar la protesta» — eje del debate en X durante el fin de semana.",
       "details": [
-        [
-          "Estado",
-          "3ª semana: ~2.000 tiendas, 40+ colectivos, gestión horizontal sin líder claro"
-        ],
-        [
-          "Simbolismo",
-          "Muerte de Maricarmen Abascal (~7-11 oct) en el hospital tras el desahucio"
-        ],
-        [
-          "Escalada",
-          "Broncas con contramanifestaciones; la Comunidad de Madrid denuncia interferencias en el 12-O"
-        ]
+        ["Volumen en X", "Muy alto y sostenido"],
+        ["Sentimiento", "Polarizado: apoyo a la vivienda vs. rechazo a la acampada"],
+        ["Impulsado por", "Cierre de Metro Sol, Sindicato de Inquilinas y el caso Maricarmen"]
       ]
     },
     {
@@ -66,24 +58,15 @@
       "icon": "👑",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 96,
-      "momentum": 92,
+      "intensity": 97,
+      "momentum": 94,
       "momentumDir": "right",
-      "summary": "El escándalo se recrudece con los informes de la UCO sobre las 'cloacas del PSOE': la Guardia Civil confirma contactos con narcotraficantes para 'eliminar' a la juez que instruye el caso del hermano de Sánchez, con reuniones clandestinas documentadas. En paralelo, la Fiscalía reclama declarar a Santos Cerdán, al exjefe de gabinete de Sánchez, a Leire Díez y a Zarrías antes de decidir la imputación del PSOE como persona jurídica por financiación ilegal. En X domina la indignación: #YoConLaUCO, #SanchezAPrisión y el PSOE calificado de 'organización criminal'.",
-      "quote": "«La UCO confirma los contactos de las cloacas del PSOE con los narcos contra la juez del caso del hermano de Sánchez: 'Había que eliminarla'» — ABC, con decenas de miles de interacciones en X.",
+      "summary": "La exclusiva de El Confidencial domina el fin de semana: la UCO habría hallado en las agendas de Santos Cerdán citas con el fiscal García Berro, que dejó de recurrir trece progresiones a tercer grado de miembros de ETA tras el apoyo de Bildu a la investidura. El relato conecta Cerdán, la cloaca de Leire Díez, la SEPI de Montero y la posible imputación del PSOE como persona jurídica. Las voces de defensa son prácticamente inexistentes en el timeline.",
+      "quote": "«La UCO halla en las agendas de Cerdán citas con el fiscal que no recurrió 13 progresiones a tercer grado de etarras tras el pacto con Bildu» — El Confidencial, replicado con miles de interacciones.",
       "details": [
-        [
-          "Volumen en X",
-          "Máximo de la semana: informes UCO difundidos por ABC y El Debate"
-        ],
-        [
-          "Sentimiento",
-          "Indignación crítica mayoritaria; minoría que relativiza como 'bulos'"
-        ],
-        [
-          "Impulsado por",
-          "Informe UCO cloacas-narcos, Cerdán y la posible imputación del PSOE como persona jurídica"
-        ]
+        ["Volumen en X", "Muy alto, pico del ciclo"],
+        ["Sentimiento", "Crítico abrumadoramente mayoritario"],
+        ["Impulsado por", "UCO, agendas de Cerdán y el caso García Berro"]
       ]
     },
     {
@@ -92,24 +75,15 @@
       "icon": "🚧",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 90,
-      "momentum": 89,
+      "intensity": 91,
+      "momentum": 90,
       "momentumDir": "right",
-      "summary": "La crisis de Ceuta —la entrada masiva de julio, cifrada en decenas de miles— sigue viva en su día 74: la Policía estima que quedan 16.000-18.000 migrantes en la ciudad, con el último asentamiento de playa desalojado (400 personas) 48 horas antes de la visita de los Reyes, y un +60% de infracciones penales según el TSJA. Mientras, Canarias vive un repunte agudo: 600-700 llegadas en 24 horas y 668 en varias embarcaciones, con el presidente Clavijo hablando de más de 3.800 en mes y medio. La regularización extraordinaria (~1,1 millones de solicitudes) sigue incompleta y politizada a 50 días de las elecciones.",
-      "quote": "Día 74 de la crisis de Ceuta: quedan 16.000-18.000 migrantes según la Policía, con el TSJA cifrando un +60% de infracciones penales, mientras Canarias registra 600-700 llegadas en 24 horas.",
+      "summary": "El foco está en Ceuta: operativos con más de 350 agentes para desalojar campamentos, más de 3.000 menores no acompañados acogidos y el pulso por su redistribución a comunidades del PP. Canarias baja (~8.970 llegadas, un 33% menos que en 2025) pero sigue con cayucos diarios y CATE saturados. Las filtraciones sobre avisos previos del CNI e Interior alimentan la acusación de dejadez deliberada.",
+      "quote": "«80.000 personas en Ceuta mientras Sánchez buceaba» — uno de los marcos virales que domina la conversación crítica.",
       "details": [
-        [
-          "Volumen en X",
-          "Muy alto: réplicas diarias de la crisis de Ceuta y el repunte canario"
-        ],
-        [
-          "Sentimiento",
-          "Crítico con la gestión del Gobierno; alarma política en Canarias"
-        ],
-        [
-          "Impulsado por",
-          "Residual de Ceuta (16-18k migrantes), cayucos en Canarias y regularización en curso"
-        ]
+        ["Volumen en X", "Muy alto, con mucho vídeo"],
+        ["Sentimiento", "Crítico al Gobierno, con defensa institucional minoritaria"],
+        ["Impulsado por", "Desalojos en Ceuta, MENAS y filtraciones CNI/Marlaska"]
       ]
     },
     {
@@ -118,24 +92,15 @@
       "icon": "🏠",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 81,
-      "momentum": 77,
+      "intensity": 84,
+      "momentum": 80,
       "momentumDir": "right",
-      "summary": "El frente okupa se discute ahora con datos: la okupación afectaría a menos del 0,08% del parque de viviendas, pero el miedo y la lentitud judicial (años para recuperar un piso) han sacado del mercado hasta un 30% de la oferta de alquiler permanente por la Ley de Vivienda, elevando precios. Los desahucios han bajado a ~45/día (frente a ~67/día en 2025), pero el choque se mantiene: propietarios que se sienten 'expropiados de facto' frente a la izquierda que culpa a los fondos buitre y a la falta de oferta pública. Circulan incluso casos de okupas desalojando a okupas en las acampadas.",
-      "quote": "La Ley de Vivienda habría sacado del mercado hasta un 30% de la oferta de alquiler permanente: los desahucios bajan a ~45/día, pero el miedo a la okupación (menos del 0,08% del parque real) encoge la oferta y sube precios.",
+      "summary": "Xavier García Albiol, por encargo de Feijóo, ha convertido la ley antiokupas exprés de 48 horas en el eje del debate, con posts de miles de interacciones. Los relatos de propietarios que pagan hipoteca y alquiler mientras su piso sigue ocupado se mezclan con la defensa de Desokupa como solución ante la lentitud judicial. Desde la izquierda se responde que el problema real son los desahucios de fondos buitre y la hipocresía del propio Gobierno.",
+      "quote": "«Se va a acabar que los okupas tengan más derechos que los propietarios» — Albiol al anunciar la ley antiokupas de 48 horas.",
       "details": [
-        [
-          "Volumen en X",
-          "Alto, con pulso de cifras (CGPJ, epdata) en los hilos"
-        ],
-        [
-          "Sentimiento",
-          "Muy polarizado: inseguridad jurídica vs. culpa estructural/fondos buitre"
-        ],
-        [
-          "Impulsado por",
-          "Datos de oferta de alquiler, desahucios a la baja y casos virales de desokupas"
-        ]
+        ["Volumen en X", "Alto y al alza"],
+        ["Sentimiento", "Pro-propietario dominante"],
+        ["Impulsado por", "Albiol/Feijóo, casos de inquiokupación y Desokupa"]
       ]
     },
     {
@@ -144,24 +109,15 @@
       "icon": "🗺️",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 88,
-      "momentum": 75,
+      "intensity": 90,
+      "momentum": 77,
       "momentumDir": "right",
-      "summary": "El Tribunal Constitucional ha avalado la amnistía también para la malversación del procés (7 votos a 5), y Bolaños confirmó el 11 de octubre que Puigdemont puede volver a España tras la retirada de las órdenes de detención, con el Supremo cerrando los últimos flecos a tiempo para el 29-N. El unionismo habla de 'carta blanca' y 'delincuente amnistiado' con sueldo público; el independentismo lo celebra como admisión de culpa estatal, aunque con escepticismo interno. Illa, president del PSC, asistió al desfile del 12-O en Madrid —primera vez de un president no independentista— y es llamado 'traidor' desde el independentismo.",
-      "quote": "Bolaños (11-oct): la amnistía 'ha funcionado' y Puigdemont puede volver a Cataluña; el TC avaló la malversación por 7-5 y el unionismo denuncia una 'carta blanca' al secesionismo.",
+      "summary": "El aval del Constitucional a la amnistía y su aplicación por el Tribunal de Cuentas —que absuelve a Puigdemont y a 34 ex altos cargos por más de cuatro millones de euros del procés— han relanzado el debate sobre el regreso del expresident. La lectura dominante en X es que la amnistía fue el precio de siete votos de Junts a la investidura. Voces independentistas critican incluso la amnistía por aceptar que el referéndum era ilegal.",
+      "quote": "«Puigdemont prepara su vuelta tras el aval del TC mientras el Tribunal de Cuentas le absuelve junto a 34 ex cargos por los gastos del procés» — resumen que circula con miles de interacciones.",
       "details": [
-        [
-          "Volumen en X",
-          "Alto y al alza: regreso de Puigdemont como foco de actualidad"
-        ],
-        [
-          "Sentimiento",
-          "Muy polarizado: 'reconciliación' vs. 'humillación a la justicia'"
-        ],
-        [
-          "Impulsado por",
-          "TC avala malversación 7-5, órdenes retiradas e Illa en el 12-O"
-        ]
+        ["Volumen en X", "Alto, reactivo a cada resolución judicial"],
+        ["Sentimiento", "Crítico con la amnistía como pago de votos"],
+        ["Impulsado por", "TC, Tribunal de Cuentas y el regreso de Puigdemont"]
       ]
     },
     {
@@ -170,24 +126,15 @@
       "icon": "📜",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 84,
-      "momentum": 80,
+      "intensity": 88,
+      "momentum": 84,
       "momentumDir": "right",
-      "summary": "El documental de RTVE «Cuelgamuros. Entre lo difícil y lo imposible» devuelve las exhumaciones al primer plano: las criptas albergan 33.800 restos, más de 12.000 sin identificar, y un equipo científico interdisciplinar —con la médica forense Elisa Cabrerizo— avanza con análisis de ADN para identificar y devolver a las familias Republicanas. La asociación de familiares (AFPERV) y las entidades memorialistas reclaman más ritmo, transparencia y financiación pública. La derecha mantiene la crítica al supuesto «revanchismo» y al gasto.",
-      "quote": "«Entre lo difícil y lo imposible»: el documental de RTVE muestra el trabajo forense en las criptas de Cuelgamuros mientras las familias republicanas reclaman más ritmo y transparencia.",
+      "summary": "El Supremo ha tumbado el voto de unos 163.000 nuevos nacionales de la Ley de Nietos al exigir acreditar el exilio real, y en X se ha impuesto el marco del «pucherazo del censo CERA». En paralelo, la demanda de la Abogacía del Estado para extinguir la Fundación Francisco Franco divide entre celebración memorialista y acusación de censura. El tono es visceral, con muy poco terreno intermedio.",
+      "quote": "«No era memoria histórica. Era cirugía electoral» — @IndonesiaMar, 17 oct, +870 likes y ~400 reposts.",
       "details": [
-        [
-          "Volumen en X",
-          "Muy alto por el estreno del documental de RTVE"
-        ],
-        [
-          "Sentimiento",
-          "Muy polarizado: reparación vs 'revanchismo'"
-        ],
-        [
-          "Impulsado por",
-          "Documental de RTVE, avances forenses (ADN) y la presión de AFPERV"
-        ]
+        ["Volumen en X", "Alto y en fuerte subida"],
+        ["Sentimiento", "Crítico: fraude de ley y censura"],
+        ["Impulsado por", "Sentencia del Supremo sobre el censo CERA y la Fundación Franco"]
       ]
     },
     {
@@ -196,24 +143,15 @@
       "icon": "⚡",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 73,
-      "momentum": 66,
+      "intensity": 74,
+      "momentum": 68,
       "momentumDir": "right",
-      "summary": "El II Congreso Estatal Abolicionista «Por los derechos de las mujeres», celebrado en Sevilla a comienzos de octubre, consagra la LOASP (Ley Orgánica de Abolición del Sistema Prostitucional) como bandera bajo el lema #LOASPSeraLey: reparación integral a las supervivientes, desmantelamiento del proxenetismo y sanción a los clientes. El sector abolicionista critica a Irene Montero y al «feminismo de Estado» por no haber impulsado una ley abolicionista plena y diluir el sujeto «mujer» en la identidad de género. Frente a ellos, los colectivos regulacionistas defienden los derechos del trabajo sexual y acusan al abolicionismo de criminalizar a las mujeres.",
-      "quote": "#LOASPSeraLey: el II Congreso Estatal Abolicionista de Sevilla consagra la exigencia de una ley orgánica contra el sistema prostitucional frente al 'feminismo de Estado'.",
+      "summary": "Las feministas abolicionistas críticas con el PSOE preparan candidatura propia para el 29-N y eso reactiva el ajuste de cuentas con Irene Montero y Podemos. Se les reprocha haber defendido la regulación de la prostitución en 2019, la ley del solo sí es sí y la ley trans. Los apoyos a Montero responden que las críticas vienen de transfobas, del PSOE o de la derecha.",
+      "quote": "«Defendieron a proxenetas y puteros negando la abolición de la prostitución y exigieron la ley trans» — @elesteve2, post recurrente esta semana.",
       "details": [
-        [
-          "Volumen en X",
-          "Moderado-alto por el congreso de Sevilla"
-        ],
-        [
-          "Sentimiento",
-          "Crítico con Montero y el 'feminismo de Estado'"
-        ],
-        [
-          "Impulsado por",
-          "II Congreso Abolicionista de Sevilla y la exigencia de la LOASP"
-        ]
+        ["Volumen en X", "Medio-alto, picos por la cita electoral"],
+        ["Sentimiento", "Crítico con Montero y con el PSOE"],
+        ["Impulsado por", "Candidatura abolicionista del 29-N y el caso solo sí es sí"]
       ]
     },
     {
@@ -222,24 +160,15 @@
       "icon": "🌿",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 78,
-      "momentum": 76,
+      "intensity": 76,
+      "momentum": 74,
       "momentumDir": "right",
-      "summary": "La denuncia del wokismo se sostiene por acumulación de casos más que por un escándalo único: se denuncia que universidades públicas financiadas con impuestos y subvenciones de Igualdad priorizan el adoctrinamiento ideológico sobre la excelencia —estudios de género, DEI, Agenda 2030— como I+D+i encubierto. Circulan comparaciones con el «virus mental woke» y críticas a la cancelación de disidentes en las aulas. El otro lado responde que la perspectiva de género es un enfoque analítico legítimo y que el dinero público no equivale a adoctrinamiento.",
-      "quote": "Se denuncia que subvenciones públicas e Igualdad financian estudios de género y DEI 'como si fueran I+D+i', con la universidad como supuesta correa de transmisión ideológica.",
+      "summary": "Los disturbios en Francia funcionan como espejo: el relato dominante avisa de que «España es el próximo» si no se corrige el buenismo. Se distingue cada vez más entre «cultura woke» (derechos e interculturalidad) y «wokismo» (fanatismo moral e inquisición), y emerge la etiqueta de «derecha woke» para las derechas que copian la lógica identitaria. El eje se desplaza de la cultura a la inmigración y la seguridad.",
+      "quote": "«El buenismo, el wokismo y el mal llamado progresismo están acabando con Europa. Próximamente en España» — @SacristaCoimbra, uno de los marcos más replicados.",
       "details": [
-        [
-          "Volumen en X",
-          "Alto"
-        ],
-        [
-          "Sentimiento",
-          "Crítico mayoritario"
-        ],
-        [
-          "Impulsado por",
-          "Subvenciones públicas, estudios de género y planes DEI universitarios"
-        ]
+        ["Volumen en X", "Medio-alto y estable"],
+        ["Sentimiento", "Crítico dominante, con matices académicos"],
+        ["Impulsado por", "Disturbios en Francia, Atenea y el debate educativo"]
       ]
     },
     {
@@ -248,24 +177,15 @@
       "icon": "🔇",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 78,
-      "momentum": 72,
+      "intensity": 72,
+      "momentum": 66,
       "momentumDir": "right",
-      "summary": "El caso de la escritora argentina Ariana Harwicz, excluida del festival CULTUR-ALH de Granada por sus posiciones sobre el boicot a Israel, sigue siendo el paradigma de la cancelación cultural: la organización lo niega como veto y lo enmarca en sus «posturas políticas», mientras la embajada argentina pidió desagravio y Harwicz lo denuncia como antisemitismo. La polémica se mezcla con las quejas de Josema Yuste sobre el cine español («no me llama ni Dios por ser de derechas») y con el debate sobre si hoy se cancelaría una película como '¡Átame!'. Savater vuelve a citarse como referente anti-cancelación.",
-      "quote": "La exclusión de Harwicz del festival de Granada, con la embajada argentina pidiendo desagravio, se lee como el caso perfecto de 'cultura de los proscritos'.",
+      "summary": "Sin un caso monstruo esta semana, el debate se fragmenta: Rosalía vuelve como símbolo recurrente de la apropiación cultural del flamenco, aunque el pico real fue 2018-2020 y hoy el ruido es residual. En paralelo se discute si hay cancelación real en España o solo «criticonismo de redes», y si el humorista debe poder molestar. El linchamiento digital se usa tanto como denuncia de acoso como descalificación de cualquier crítica masiva.",
+      "quote": "«El flamenco no es un disfraz» frente a «el arte no tiene fronteras, sin ella el flamenco seguiría siendo nicho» — las dos trincheras del hilo sobre Rosalía.",
       "details": [
-        [
-          "Volumen en X",
-          "Alto"
-        ],
-        [
-          "Sentimiento",
-          "Crítico con la hegemonía cultural"
-        ],
-        [
-          "Impulsado por",
-          "Caso Harwicz/Granada y las quejas de Josema Yuste sobre el cine"
-        ]
+        ["Volumen en X", "Medio y a la baja respecto a septiembre"],
+        ["Sentimiento", "Dividido entre accountability y censura social"],
+        ["Impulsado por", "Rosalía y el meta-debate sobre humoristas y linchamiento"]
       ]
     },
     {
@@ -274,24 +194,15 @@
       "icon": "⚧️",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 76,
-      "momentum": 74,
+      "intensity": 78,
+      "momentum": 75,
       "momentumDir": "right",
-      "summary": "La Ley 4/2023 sigue en el centro del choque por los menores: autodeterminación registral desde los 16 años y de 14 a 16 con consentimiento de los tutores, mientras los tratamientos —bloqueadores de pubertad y hormonas— dependen de los protocolos autonómicos y del modelo afirmativo. La Comunidad de Madrid ha virado hacia más evaluación psicológica y menos afirmación automática, un giro que la izquierda y los colectivos LGTBI leen como erosión de derechos y la derecha y las familias críticas como protección ante la medicalización precipitada. El Informe Cass y las restricciones europeas (Suecia, Finlandia, Inglaterra) alimentan el debate sobre los bloqueadores.",
-      "quote": "Madrid endurece su protocolo trans (más evaluación, menos afirmación automática) mientras el Informe Cass y el giro europeo siguen alimentando el choque sobre los bloqueadores en menores.",
+      "summary": "El núcleo del debate ya no es el texto de la ley —que no regula tratamientos— sino sus efectos prácticos en menores y la divergencia entre comunidades, con Madrid como referencia de retroceso para unos y de protección para otros. Se citan la Cass Review y el cierre de Tavistock, junto a reclamaciones por daños. Los defensores separan cambio registral y protocolo médico; las críticas sostienen que en la práctica no se separan.",
+      "quote": "«La Ley Trans no es un protocolo de tratamientos médicos para menores» — @rm_amparo, frente a quienes ven «medicalización de menores».",
       "details": [
-        [
-          "Volumen en X",
-          "Moderado-alto"
-        ],
-        [
-          "Sentimiento",
-          "Crítico con la autodeterminación y la medicalización en menores"
-        ],
-        [
-          "Impulsado por",
-          "Protocolo de Madrid, Informe Cass y restricciones europeas"
-        ]
+        ["Volumen en X", "Alto y estable"],
+        ["Sentimiento", "Muy confrontativo, sin terreno medio"],
+        ["Impulsado por", "Reforma de Madrid, Cass Review y menores"]
       ]
     },
     {
@@ -300,24 +211,15 @@
       "icon": "🗳️",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 97,
-      "momentum": 87,
+      "intensity": 98,
+      "momentum": 88,
       "momentumDir": "right",
-      "summary": "Sánchez disolvió las Cortes el 5 de octubre y convocó elecciones generales para el 29 de noviembre tras el rechazo de PP, Vox y Junts a sus decretos de vivienda, convirtiendo la campaña en un plebiscito sobre su figura. Feijóo lo ha enmarcado como «España contra Sánchez» y «corrupción o decencia», mientras Vox aparece como socio clave para una mayoría de la derecha. Los sondeos de arranque dan al PP 31-34%, al PSOE 25-27% y a Vox en torno al 18%, con la suma PP+Vox superando los 176 escaños e incluso los 200 en algunos escenarios. Se habla de un posible cara a cara Sánchez-Feijóo propuesto por Mediaset.",
-      "quote": "«Por fin decidirán los españoles» — Alberto Núñez Feijóo tras la convocatoria del 29-N, que Sánchez enmarca como el momento de decidir el futuro del país.",
+      "summary": "A seis semanas del 29-N, la batalla de sondeos domina X: el ElectoPanel del 18 de octubre da PP 31,8% (135 escaños), PSOE 27,1% (111) y Vox 18,8% (62), con PP+Vox en mayoría holgada, mientras el CIS es la excepción que coloca al PSOE por delante. Sánchez centra su campaña en pensiones y movilización, Feijóo en el «sanchismo» y Abascal avisa de que «no será una campaña limpia». La campaña ya gira en torno a pactos, inmigración y pensiones.",
+      "quote": "«Media de las últimas 10 encuestas: PP 132 escaños, PSOE 114, Vox 65» — @datadicto_es, uno de los datos más compartidos del ciclo.",
       "details": [
-        [
-          "Volumen en X",
-          "Pico máximo: el tema más comentado de la jornada"
-        ],
-        [
-          "Sentimiento",
-          "Euforia en PP y Vox, movilización defensiva en la izquierda"
-        ],
-        [
-          "Impulsado por",
-          "Convocatoria del 29-N tras el bloqueo de los decretos de vivienda"
-        ]
+        ["Volumen en X", "Muy alto, el pico de todo el tablero"],
+        ["Sentimiento", "Movilización y descrédito cruzado de encuestas"],
+        ["Impulsado por", "ElectoPanel, CIS y los mitines de PSOE, PP y Vox"]
       ]
     },
     {
@@ -326,24 +228,15 @@
       "icon": "🏘️",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 68,
-      "momentum": 58,
+      "intensity": 67,
+      "momentum": 60,
       "momentumDir": "right",
-      "summary": "Teruel Existe mantiene la presión con el Corredor Cantábrico-Mediterráneo de doble vía —prometido hace más de 20 años y con la provincia meses sin tren por obras— y la construcción de los hospitales de Teruel y Alcañiz, proponiendo reutilizar el antiguo hospital como centro sociosanitario. El movimiento engancha el debate a la regulación de plantas de biogás y a la planificación de centros de datos y renovables para que no compitan por el agua con la agricultura. Teruel, con ~9 hab/km², sigue siendo el símbolo de la «Siberia española» frente a Madrid y Zaragoza.",
-      "quote": "Teruel Existe exige el Corredor Cantábrico-Mediterráneo de doble vía —prometido hace 20 años— y los hospitales de Teruel y Alcañiz mientras la provincia encadena meses sin tren.",
+      "summary": "Soria y Teruel marcan la agenda: más de cien municipios sorianos podrían desaparecer en menos de cincuenta años y Soria ¡YA! convoca caceroladas contra la Zona de Bajas Emisiones. Teruel Existe insiste en que la despoblación es «de vida o muerte» y alerta de la «avalancha de eólicas». El cierre de escuelas, ambulatorios y trenes aparece como causa y efecto del abandono.",
+      "quote": "«Más de 100 municipios sorianos morirán en menos de 50 años por la despoblación» — @velilladlosajos, con fuerte circulación local.",
       "details": [
-        [
-          "Volumen en X",
-          "Moderado"
-        ],
-        [
-          "Sentimiento",
-          "Crítico con PP y PSOE por igual"
-        ],
-        [
-          "Impulsado por",
-          "Teruel Existe, el Corredor ferroviario y los centros de datos en Aragón"
-        ]
+        ["Volumen en X", "Medio, muy concentrado en cuentas locales"],
+        ["Sentimiento", "Denuncia y movilización ciudadana"],
+        ["Impulsado por", "Soria ¡YA!, Teruel Existe y las ZBE"]
       ]
     },
     {
@@ -352,132 +245,103 @@
       "icon": "🗣️",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 82,
-      "momentum": 73,
+      "intensity": 84,
+      "momentum": 74,
       "momentumDir": "right",
-      "summary": "El insulto funciona como etiqueta tribal y pelea de desgaste permanente: desde la izquierda se lanza a cualquiera que critique al Gobierno y desde la derecha se reivindica con orgullo o se devuelve señalando hipocresía. Los ejemplos que circulan son agresiones o boicots a actos de Vox frente a ataques a sedes del PSOE, con la doble vara como argumento central de ambos bandos. El resultado, según los propios tuiteros, es polarización alta, poco debate de ideas y mucho grito.",
-      "quote": "Nos llamáis fachas mientras apaleáis coches en las manifas: el insulto es barato, la patada no.",
+      "summary": "El término «facha» vuelve al centro tras los incidentes en torno a actos de Vito Quiles en Pamplona/Iruñea, con confrontaciones, presencia policial y acusaciones cruzadas de provocación. La derecha denuncia que la etiqueta deshumaniza y legitima agresiones; la izquierda antifascista defiende que el fascismo «no se debate, se combate». La asimetría —calumnia desproporcionada frente a reivindicación irónica— es el argumento de los críticos con ambos bandos.",
+      "quote": "«Llamar facha es el arma para silenciar preguntas incómodas» frente a «a los fascistas ni agua» — las dos consignas del ciclo.",
       "details": [
-        [
-          "Volumen en X",
-          "Alto"
-        ],
-        [
-          "Sentimiento",
-          "Enfrentamiento simétrico"
-        ],
-        [
-          "Impulsado por",
-          "Broncas Vox-PSOE y la doble vara sobre la violencia"
-        ]
+        ["Volumen en X", "Alto y reactivo a cada incidente callejero"],
+        ["Sentimiento", "Muy polarizado, sin espacio neutro"],
+        ["Impulsado por", "Actos de Vito Quiles en Navarra y contramanifestaciones"]
       ]
     }
   ],
   "news": [
     {
-      "title": "La UCO confirma contactos de las cloacas del PSOE con narcotraficantes para «eliminar» a la juez del hermano de Sánchez",
-      "date": "12 oct 2026",
-      "summary": "Informes de la Unidad Central Operativa de la Guardia Civil, difundidos por ABC y El Debate, describen reuniones clandestinas de las 'cloacas del PSOE' con narcotraficantes con el objetivo de «eliminar» a la juez que instruye el caso de David Sánchez, hermano del presidente. En X circulan con decenas de miles de interacciones bajo hashtags como #YoConLaUCO y #SanchezAPrisión, y los usuarios califican al PSOE de «organización criminal». La Fiscalía, en paralelo, reclaza declaraciones de Cerdán y otros cargos antes de decidir la imputación del partido como persona jurídica.",
-      "source": "X / ABC vía romecaldes, eldebate_com, jmsclavero, vayanata",
-      "tags": [
-        "Sanchismo",
-        "UCO",
-        "Corrupción"
-      ]
+      "title": "La UCO halla en las agendas de Cerdán citas con el fiscal García Berro tras las 13 progresiones a tercer grado de etarras",
+      "date": "18 oct 2026",
+      "summary": "La Unidad Central Operativa localiza en los apuntes de Santos Cerdán encuentros con el fiscal que dejó de recurrir trece progresiones consecutivas de miembros de ETA, justo después del apoyo de Bildu a la investidura de Sánchez. El hallazgo se difunde como posible contrapartida del pacto y relanza la tesis de la imputación del PSOE como persona jurídica. En X el marco crítico arrasa el timeline sin apenas contraargumentos.",
+      "source": "El Confidencial vía @elconfidencial y @nachocardero / X",
+      "tags": ["Sanchismo", "UCO", "Corrupción"]
     },
     {
-      "title": "Muere Maricarmen Abascal, el símbolo del desahucio que detonó la acampada de Sol",
-      "date": "11 oct 2026",
-      "summary": "Maricarmen Abascal, la anciana de 87 años cuyo desahucio en septiembre detonó la acampada del Sindicato de Inquilinas, ha fallecido en el Hospital Gregorio Marañón tras el deterioro físico vinculado al estrés del desalojo, según entornos cercanos. Su muerte ha reforzado las movilizaciones: la acampada de Sol sigue activa con ~2.000 tiendas y más de 40 colectivos, mientras la derecha la señala como acampada ilegal que obstaculiza los actos del 12-O y la Comunidad de Madrid denuncia interferencias.",
-      "source": "X / grok, elmundoes, loimportante60, LSarusky",
-      "tags": [
-        "Acampada de Sol",
-        "Vivienda",
-        "Desahucios"
-      ]
+      "title": "El Supremo tumba el voto de 163.000 nuevos nacionales de la Ley de Nietos al exigir acreditar el exilio",
+      "date": "17 oct 2026",
+      "summary": "El tribunal suspende el sufragio de quienes obtuvieron la nacionalidad por la vía automática del censo CERA sin prueba individual de exilio, al no aportar el Gobierno documentación justificativa. En X se impone el relato del «pucherazo» y la «cirugía electoral», con @IndonesiaMar como uno de los posts más replicados. Los defensores de la ley recuerdan que solo cubre el exilio por razones políticas.",
+      "source": "X / @IndonesiaMar, @Tusiquevales28",
+      "tags": ["Memoria Histórica", "Ley de Nietos", "Censo CERA"]
     },
     {
-      "title": "El Tribunal Constitucional avala la amnistía de la malversación y Bolaños confirma que Puigdemont puede volver",
-      "date": "11 oct 2026",
-      "summary": "El TC ha avalado por 7 votos a 5 la aplicación de la amnistía al delito de malversación del procés, corrigiendo la línea del Supremo. El ministro de Justicia, Félix Bolaños, declaró el 11 de octubre que la amnistía «ha funcionado» y que Puigdemont puede regresar a Cataluña una vez retiradas las órdenes de detención, con el Supremo cerrando los últimos flecos a tiempo para el 29-N. La derecha y el unionismo hablan de «carta blanca» al secesionismo; el independentismo lo celebra con escepticismo interno.",
-      "source": "X / europapress, TerradoNews, boye_g, Cepadoble",
-      "tags": [
-        "Independentismo",
-        "Amnistía",
-        "Puigdemont"
-      ]
+      "title": "Metro cierra Sol por insalubridad y la Comunidad exige el desalojo de la acampada de vivienda",
+      "date": "18 oct 2026",
+      "summary": "El cierre temporal de la estación por suciedad reabre la presión institucional sobre la acampada que cumple más de tres semanas, con competencia de orden público en manos del Delegado del Gobierno. El Sindicato de Inquilinas denuncia criminalización y recuerda el origen de la protesta en el desahucio y muerte de Maricarmen Abascal. Los comercios de la zona reportan pérdidas y la conversación se parte entre derecho a la vivienda y ocupación del espacio público.",
+      "source": "Europa Press / X (@baframa, @InquilinatoMad)",
+      "tags": ["Acampada de Sol", "Vivienda", "Ayuso"]
     },
     {
-      "title": "Ceuta, día 74 de la crisis: entre 16.000 y 18.000 migrantes permanecen en la ciudad mientras Canarias vive un repunte de cayucos",
-      "date": "11 oct 2026",
-      "summary": "La Policía estima que quedan entre 16.000 y 18.000 migrantes en Ceuta tras la entrada masiva de julio, con el último asentamiento de playa desalojado (unas 400 personas) 48 horas antes de la visita de los Reyes y un +60% de infracciones penales según el TSJA. En Canarias, Salvamento Marítimo registró 668 llegadas en varias embarcaciones en un día y el presidente Clavijo alerta de más de 3.800 entradas en mes y medio, pidiendo más respuesta del Gobierno central.",
-      "source": "X / lowceuta, erickprometeom, criaturina, 112canarias, RTVCes",
-      "tags": [
-        "Inmigración",
-        "Ceuta",
-        "Canarias"
-      ]
+      "title": "ElectoPanel 18-O: PP 135 escaños, PSOE 111 y Vox 62 a seis semanas del 29-N",
+      "date": "18 oct 2026",
+      "summary": "La encuesta privada da a PP y Vox mayoría holgada, con Vox como el partido que más crece, mientras la media de las últimas diez encuestas deja PP 132, PSOE 114 y Vox 65. El CIS sigue siendo el outlier que sitúa al PSOE por delante, y esa discrepancia alimenta la guerra de descrédito entre bloques. La campaña se concentra en pensiones, inmigración y posibles pactos.",
+      "source": "ElectoPanel vía @Mario_SR20 y @datadicto_es / X",
+      "tags": ["Elecciones", "29-N", "Sondeos"]
     },
     {
-      "title": "La Ley de Vivienda habría sacado del mercado hasta el 30% de la oferta de alquiler mientras los desahucios caen a 45 diarios",
-      "date": "10 oct 2026",
-      "summary": "El debate de la vivienda se traslada a las cifras: datos citados en X (CGPJ, epdata) sitúan los desahucios en ~45/día en 2026, frente a ~67/día en 2025, y la okupación real en menos del 0,08% del parque. Sin embargo, los críticos de la Ley de Vivienda sostienen que los controles de precios han retirado hasta un 30% de la oferta de alquiler permanente, elevando precios y reduciendo rentabilidad, mientras propietarios denuncian procesos de desalojo de años y la izquierda culpa a los fondos buitre y a la falta de vivienda pública.",
-      "source": "X / xaquindashervas, CusoHugo, FrancescMoreno, asilascosasw",
-      "tags": [
-        "Okupación",
-        "Vivienda",
-        "Ley de Vivienda"
-      ]
+      "title": "El Tribunal de Cuentas aplica la amnistía y absuelve a Puigdemont y 34 ex altos cargos por los gastos del procés",
+      "date": "17 oct 2026",
+      "summary": "El organismo exime de responsabilidad contable por más de cuatro millones de euros destinados al referéndum y a la acción exterior, tras el aval europeo a la malversación amnistiada. SCC anuncia recursos porque «ni siquiera han pedido perdón» y el Supremo levanta órdenes de detención sobre el expresident. La conversación en X lo lee como el precio de los votos de Junts a la investidura.",
+      "source": "RTVE vía @rtvetext y @elc_es / X",
+      "tags": ["Independentismo", "Amnistía", "Procés"]
     }
   ],
   "trends": [
     {
-      "name": "Sanchismo / UCO cloacas",
+      "name": "Sanchismo / UCO Cerdán",
       "change": "up",
-      "pct": "+18%",
-      "detail": "El informe de la UCO sobre cloacas-narcos contra la juez del hermano de Sánchez domina X con engagement masivo (medido hoy)"
+      "pct": "+21%",
+      "detail": "La exclusiva de las agendas de Cerdán con el fiscal García Berro domina el ciclo y arrastra al resto de tramas"
     },
     {
-      "name": "Inmigración / Ceuta día 74",
+      "name": "Memoria Histórica / censo CERA",
+      "change": "up",
+      "pct": "+26%",
+      "detail": "El Supremo suspende el voto de 163.000 nuevos nacionales y el marco del «pucherazo» se viraliza"
+    },
+    {
+      "name": "Acampada de Sol / desalojo",
+      "change": "up",
+      "pct": "+14%",
+      "detail": "El cierre de Metro Sol por insalubridad reactiva la exigencia institucional de desalojo"
+    },
+    {
+      "name": "Okupación / ley antiokupa 48h",
+      "change": "up",
+      "pct": "+12%",
+      "detail": "Albiol y Feijóo convierten la ley exprés en eje de precampaña con miles de interacciones"
+    },
+    {
+      "name": "Elecciones 29-N / sondeos",
       "change": "up",
       "pct": "+9%",
-      "detail": "Crisis residual de Ceuta (16-18k migrantes) y repunte de cayucos en Canarias: 668 llegadas en un día (medido hoy)"
+      "detail": "ElectoPanel y la media de diez encuestas relanzan la guerra de datos entre bloques"
     },
     {
-      "name": "Acampada de Sol / Maricarmen",
-      "change": "up",
-      "pct": "+8%",
-      "detail": "La muerte de Maricarmen Abascal carga de simbolismo la acampada, ya con ~2.000 tiendas y broncas del 12-O (medido hoy)"
+      "name": "Cultura de la cancelación / Rosalía",
+      "change": "down",
+      "pct": "-11%",
+      "detail": "Sin caso monstruo esta semana: el debate vuelve al ruido residual de la apropiación del flamenco"
     },
     {
-      "name": "Independentismo / Puigdemont vuelve",
-      "change": "up",
-      "pct": "+7%",
-      "detail": "El TC avala la malversación 7-5 y Bolaños confirma que Puigdemont puede regresar (medido hoy)"
+      "name": "Wokismo / espejo Francia",
+      "change": "down",
+      "pct": "-6%",
+      "detail": "Pierde volumen propio porque se disuelve en el debate de inmigración y seguridad"
     },
     {
-      "name": "Okupación / cifras de oferta",
-      "change": "up",
-      "pct": "+3%",
-      "detail": "El pulso de datos (30% de oferta retirada, desahucios a 45/día, okupación <0,08%) escala el tono del debate (medido hoy)"
-    },
-    {
-      "name": "Elecciones / 29-N",
+      "name": "España vaciada / ZBE Soria",
       "change": "stable",
-      "pct": "+1%",
-      "detail": "Campaña en marcha con el plebiscito «España contra Sánchez» (tópico sin medición fresca hoy: stale)"
-    },
-    {
-      "name": "Memoria Histórica / Cuelgamuros",
-      "change": "stable",
-      "pct": "+1%",
-      "detail": "El documental de RTVE mantiene las exhumaciones en el debate (tópico sin medición fresca hoy: stale)"
-    },
-    {
-      "name": "Woke / Ley Trans / Cancelación",
-      "change": "stable",
-      "pct": "0%",
-      "detail": "Los frentes ideológicos mantienen su pulso habitual sin pico nuevo (tópicos sin medición fresca hoy: stale)"
+      "pct": "+2%",
+      "detail": "Las caceroladas de Soria ¡YA! mantienen el tema en cuentas locales sin salto nacional"
     }
   ],
   "accounts": [
@@ -486,162 +350,162 @@
       "name": "Profe de historia",
       "category": "Muy derecha",
       "color": "#003399",
-      "desc": "Doctor en Historia y profesor de secundaria (~52K seguidores). Muy activo hoy (4-5 oct): comenta la acampada de Sol/Callao («hay que entrar con agua y jabón»), celebra que >1.000 inmigrantes vuelvan a Marruecos tras un desalojo e inicia reseñas de cine como La bola negra. Verificado activo en este run."
+      "desc": "Doctor en Historia y profesor de secundaria (~52K seguidores). Muy activo el 19 oct: hilo sobre incendios y violencia en Francia con advertencia para España (51 likes, 24 RTs, 963 views), crítica a la «claca sanchista» por la venta de un piso a Iván Redondo y posts sobre educación y pensiones. Verificado activo."
     },
     {
       "handle": "@dianitanoticias",
       "name": "Dianita",
       "category": "Muy derecha",
       "color": "#003399",
-      "desc": "Cuenta de sucesos y política con tono muy crítico al Gobierno (~17K seguidores). Marcada como INACTIVA: sin actividad pública detectable en la ventana 01-05 oct (tercer run consecutivo). Se mantiene en el directorio y en meta.inactive_accounts: la ausencia de posts es quietud, no baja."
+      "desc": "Cuenta de sucesos y política con tono muy crítico al Gobierno (~17K seguidores). Marcada como INACTIVA: sin publicaciones públicas detectables en la ventana 16-19 oct (cuarto run consecutivo). Se mantiene en el directorio y en meta.inactive_accounts: la ausencia de posts es quietud, no baja."
     },
     {
       "handle": "@Tagelca",
       "name": "Tage",
       "category": "Derecha",
       "color": "#0055cc",
-      "desc": "Humor, fútbol y fitness con salpicaduras políticas (~69K seguidores). Activo el 3-4 oct: vídeo de actualidad, comentario sobre el vestuario del Real Madrid (Huijsen/Pitarch con el móvil al volante) y humor futbolero. Alto engagement en varios posts (miles de likes). Verificado activo."
+      "desc": "Humor, fútbol y actualidad (~68,5K seguidores). Activo el 18 oct con dos quotes virales sobre los saqueos en Francia (864 likes y 57,5K views; 844 likes y 12,6K views) y comentario futbolero. Alto engagement en posts de actualidad. Verificado activo."
     },
     {
       "handle": "@elxokas",
       "name": "ElXokas",
       "category": "Derecha",
       "color": "#0055cc",
-      "desc": "Streamer de gran alcance (~1,5M seguidores), vinculado a Knoweats. Marcado como INACTIVO: sin posts públicos detectables en la ventana 01-05 oct (más activo en Twitch/streams que en X). Se mantiene en el directorio y en meta.inactive_accounts."
+      "desc": "Streamer de gran alcance (~1,53M seguidores), vinculado a Knoweats. Marcado como INACTIVO: sin posts públicos detectables en la ventana 16-19 oct (más activo en Twitch que en X). Se mantiene en el directorio y en meta.inactive_accounts."
     },
     {
       "handle": "@TemplarExtre",
       "name": "Templar Extremeño",
       "category": "Derecha",
       "color": "#0055cc",
-      "desc": "Cuenta conservadora-cristiana (~1K seguidores) activa a diario en replies: vivienda y desahucios en Cataluña (culpa a 8 años de políticas de izquierda), inmigración, crítica al Gobierno PSOE y burlas a políticos de izquierda. Engagement muy bajo (0-8 likes) pero presencia diaria en hilos. Verificado activo."
+      "desc": "Cuenta conservadora-cristiana (~1,2K seguidores) activa a diario en replies: etarras y Bildu, amenazas a sedes de Frente Amplio-Podemos y crítica a la inmigración. Engagement muy bajo (0-4 likes) pero presencia constante en hilos. Verificado activo (las búsquedas resuelven el handle como @TemplarExtrem)."
     },
     {
       "handle": "@geoestratego",
       "name": "Pedro Baños",
       "category": "Derecha",
       "color": "#0055cc",
-      "desc": "Analista de geopolítica y defensa (~454K seguidores). Gran alcance este run (1-4 oct): anuncio del cierre de su cuenta de TikTok (~185K seguidores) por la Ley de Servicios Digitales europea, con hilo viral sobre censura y libertad de expresión; respuesta dura al periodista Marc Marginedas y comentarios sobre los disturbios en Francia. Verificado activo."
+      "desc": "Analista de geopolítica y defensa (~454K seguidores). Activo el 12-14 oct: felicitación del 12-O con 3.363 likes y 56K views, petición de votos para los premios iVoox y recomendación de libro. Mantiene alcance alto aunque sin pico polémico este ciclo. Verificado activo."
     },
     {
       "handle": "@13mescribano",
       "name": "Luis Escribano",
       "category": "Neutro",
       "color": "#666699",
-      "desc": "Crítica sistémica al partidocracia del 78 y a la corrupción, con datos (~8K seguidores). Activo (2-4 oct): hilos con esquemas sobre por qué el poder unitario y las listas de partidos impiden el control ciudadano, crítica al problema de la vivienda («buitres») y a las VPO caras de Andalucía, y activismo #YoNoVoto. Engagement bajo pero consistente. Verificado activo."
+      "desc": "Crítica sistémica al régimen partidocrático y a la corrupción, con datos (~8K seguidores). Muy activo el 18-19 oct: entrevista en la manifestación de Justicia por la Sanidad (13 likes, 9 RTs), hilos sobre partidocracias europeas y activismo #YoNoVoto. Engagement bajo pero diario. Verificado activo."
     },
     {
       "handle": "@VictorLapuente",
       "name": "Víctor Lapuente",
       "category": "Neutro",
       "color": "#666699",
-      "desc": "Politólogo (~21K seguidores), Oficina de Tendencias Globales del Banco de España. Marcado como INACTIVO: sin posts públicos detectables en la ventana 01-05 oct, perfil poco activo en posting público. Se mantiene en el directorio y en meta.inactive_accounts."
+      "desc": "Politólogo (~21K seguidores), Oficina de Tendencias Globales del Banco de España. Marcado como INACTIVO: sin posts públicos detectables en la ventana 16-19 oct. Se mantiene en el directorio y en meta.inactive_accounts."
     },
     {
       "handle": "@EstefMolina_",
       "name": "Estefanía Molina",
       "category": "Neutro",
       "color": "#666699",
-      "desc": "Analista política (~62,7K seguidores). Activa el 4-5 oct en modo reply: comentarios sobre el TC y la legalidad («Recurs al TC i es pronunciarà quan ja hagi canviat el Govern»), respuestas cortas sobre la política catalana y el tono mediático. Engagement bajo-moderado. Verificada activa."
+      "desc": "Analista política (~63K seguidores). Activa el 16-18 oct: vídeo sobre por qué el sistema de pensiones es injusto para los jóvenes en precampaña del 29-N (170 likes, 54 RTs, 14,1K views), post sobre construir vivienda (247 likes) y promoción de su canal. Verificada activa."
     },
     {
       "handle": "@nicolasdepedro",
       "name": "Nicolás de Pedro",
       "category": "Neutro",
       "color": "#666699",
-      "desc": "Analista de seguridad internacional (~15K seguidores). Activo (1-4 oct): crítica a los fakes de canales pro-Kremlin sobre biolabs OTAN y advertencia sobre labs rusos/chinos (172 likes, 69 RTs); análisis de Ucrania y Rusia. Verificado activo."
+      "desc": "Analista de seguridad internacional (~15K seguidores). Activo el 16-18 oct: quote sobre la visita de Lavrov a Teherán y crítica a la narrativa pro-Kremlin sobre Zelensky. Volumen selectivo, centrado en geopolítica. Verificado activo."
     },
     {
       "handle": "@armesillaconde",
       "name": "Santiago Armesilla",
       "category": "Izquierda",
       "color": "#e84700",
-      "desc": "Izquierda materialista y nacional-popular (~127K seguidores). Muy activo el 4 oct con alto engagement: «Pedro Sánchez ha de ser estudiado en las facultades de politología» (~1,7K likes) sobre el adelanto electoral y el decreto de vivienda; crítica a Silvia Orriols/Alianza Catalana y a los «autodeterministas» como «tontos útiles del separatismo». Verificado activo."
+      "desc": "Izquierda materialista y nacional-popular (~127K seguidores). Muy activo el 17-18 oct con alto engagement: «las derechas españolas deberían agradecer la existencia del PSOE» por los disturbios en Francia (939 likes, 44,2K views) y quote sobre el coche volador chino (1.437 likes). Verificado activo."
     },
     {
       "handle": "@Anujbost",
       "name": "Anuj",
       "category": "Izquierda",
       "color": "#e84700",
-      "desc": "Análisis político y movimientos sociales (~80,8K seguidores). Activo (1-4 oct): vídeo «Hace 20 años de esta serie y todo sigue igual» (~1,8K likes) y defensa de que la acampada por vivienda nace de movimientos civiles (Sindicato de Inquilinas, PAH), no de partidos de izquierda, criticando las promesas rotas del Gobierno. Verificado activo."
+      "desc": "Análisis político y movimientos sociales (~81K seguidores). Marcado como INACTIVO: dos búsquedas (tanda C y reintento E) no devuelven publicaciones recientes en la ventana 16-19 oct, solo datos de perfil. Se mantiene en el directorio y en meta.inactive_accounts."
     },
     {
       "handle": "@billkilgore_",
       "name": "Kilgore de Lezo",
       "category": "Joker 🃏",
       "color": "#996633",
-      "desc": "Humor seco (~282K seguidores). Actividad moderada y siempre en replies (1-2 oct): respuestas con tono casual/humorístico, una con 583 likes (~32K views). Sin pico político en el ciclo. Verificado activo."
+      "desc": "Humor seco (~282K seguidores). Muy activo y con picos virales: «lo de la publicidad de detrás no te lo firma ni José Mota prime» (6.021 likes, 488 RTs, 92,2K views) y pulla a Vinicius (3.653 likes). Verificado activo."
     },
     {
       "handle": "@elmundotoday",
       "name": "El Mundo Today",
       "category": "Joker 🃏",
       "color": "#996633",
-      "desc": "Satírico de referencia en X (~1,43M seguidores). Marcado como INACTIVO: sin posts detectables en la ventana 01-05 oct (tercer run consecutivo). Se mantiene en el directorio y en meta.inactive_accounts."
+      "desc": "Satírico de referencia en X (~1,43M seguidores). Marcado como INACTIVO: las búsquedas de la tanda D y del reintento E solo devuelven datos de perfil, sin posts recuperables en la ventana 16-19 oct. Se mantiene en el directorio y en meta.inactive_accounts."
     },
     {
       "handle": "@littleragergirl",
       "name": "Abby",
       "category": "Joker 🃏",
       "color": "#996633",
-      "desc": "Humor y memes. Marcada como INACTIVA: sin actividad detectable en la ventana 01-05 oct. Las búsquedas devuelven variantes de bajo perfil; se mantiene en el directorio y en meta.inactive_accounts."
+      "desc": "Streamer de Twitch y jugadora de LoL, humor y memes. Marcada como INACTIVA: el reintento devuelve únicamente perfiles (variantes @LITTLCRAGERGIRL y @littleragergirl) sin posts recientes. Se mantiene en el directorio y en meta.inactive_accounts."
     },
     {
       "handle": "@LaBugsBunnyIA",
       "name": "Fábrica de Memes",
       "category": "Joker 🃏",
       "color": "#996633",
-      "desc": "Genera memes y vídeos de actualidad (~40K seguidores). Muy activa el 3-4 oct pero centrada en política argentina (Facundo Moyano, justicia, sindicalismo; posts con 379-483 likes y ~9-14K views) y en temas como los «semáforos inclusivos». Poca conexión con la guerra cultural española en este run. Verificada activa."
+      "desc": "Genera memes y vídeos de actualidad (~40K seguidores). Muy activa el 17-18 oct pero centrada en política argentina: Messi y vuelo privado (111 likes, 56 RTs), subasta de bienes narco en Santa Fe y la factura de agua de Samid (206 likes). Poca conexión con la guerra cultural española. Verificada activa."
     }
   ],
   "virals": [
     {
-      "author": "@romecaldes",
-      "date": "12 oct 2026",
-      "text": "Replica la portada de ABC: «La UCO confirma los contactos de las cloacas del PSOE con los narcos contra la juez del caso del hermano de Sánchez: 'Había que eliminarla'».",
-      "engagement": "Decenas de miles de likes/reposts (post del informe UCO)",
-      "topic": "Sanchismo",
-      "link": "https://x.com/romecaldes/status/2108840739153002931"
+      "author": "@IndonesiaMar",
+      "date": "17 oct 2026",
+      "text": "«Se les acabó el juego. El Supremo acaba de tumbar los argumentos de la Abogacía del Estado sobre la Ley de Nietos… No era memoria histórica. Era cirugía electoral. El pucherazo del censo que intentaba la mafia del PSOE ha fracasado».",
+      "engagement": "+870 likes, ~400 reposts",
+      "topic": "Memoria Histórica",
+      "link": "https://x.com/IndonesiaMar/status/2111387155834843473"
     },
     {
-      "author": "@grok",
-      "date": "11 oct 2026",
-      "text": "Hilo sobre la muerte de Maricarmen Abascal (~7-11 oct, Hospital Gregorio Marañón) y su papel como detonante simbólico de la acampada de Sol.",
-      "engagement": "Hilo de referencia del suceso",
-      "topic": "Acampada de Sol",
-      "link": "https://x.com/grok/status/2109395965144605066"
+      "author": "@billkilgore_",
+      "date": "15 oct 2026",
+      "text": "«lo de la publicidad de detrás no te lo firma ni José Mota prime».",
+      "engagement": "6.021 likes, 488 reposts, 92.225 views",
+      "topic": "Cultura de la Cancelación",
+      "link": "https://x.com/billkilgore_/status/2110873052602871846"
     },
     {
-      "author": "@lowceuta",
-      "date": "12 oct 2026",
-      "text": "Día 74 de la crisis de Ceuta: la Policía estima que quedan entre 16.000 y 18.000 migrantes en la ciudad, dispersos por barrios y el monte.",
-      "engagement": "Alto alcance en el debate migratorio",
+      "author": "@armesillaconde",
+      "date": "18 oct 2026",
+      "text": "«Las derechas españolas deberían agradecer la existencia del PSOE en España, porque esto es lo que impide que se reproduzcan aquí los disturbios de Francia, Rumanía, Albania, etc.».",
+      "engagement": "939 likes, 115 reposts, 44.200 views",
+      "topic": "Elecciones",
+      "link": "https://x.com/armesillaconde/status/2111728602689466433"
+    },
+    {
+      "author": "@criaturina",
+      "date": "17 oct 2026",
+      "text": "«80.000 en Ceuta mientras Sánchez buceaba»: marco viral de la crisis de Ceuta y los desalojos de campamentos.",
+      "engagement": "Alto engagement en el hilo de Ceuta (miles de interacciones)",
       "topic": "Inmigración",
-      "link": "https://x.com/lowceuta/status/2109585942390673698"
+      "link": "https://x.com/criaturina/status/2111170514676752578"
     },
     {
-      "author": "@TerradoNews",
-      "date": "12 oct 2026",
-      "text": "El Tribunal Constitucional avala por 7-5 la amnistía de la malversación del procés; críticos lo leen como una «carta blanca» a Puigdemont.",
-      "engagement": "Alto alcance",
-      "topic": "Independentismo",
-      "link": "https://x.com/TerradoNews/status/2109412477528150483"
+      "author": "@elesteve2",
+      "date": "17 oct 2026",
+      "text": "«Estas apéndices de Pablo Iglesias hicieron un daño enorme a las feministas. Defendieron a proxenetas y puteros negando la abolición de la prostitución y exigieron la Ley trans, que trata de borrar a las mujeres».",
+      "engagement": "Post más replicado del hilo abolicionista esta semana",
+      "topic": "Feminismo Radical",
+      "link": "https://x.com/elesteve2/status/2111211684547231846"
     },
     {
-      "author": "@112canarias",
-      "date": "12 oct 2026",
-      "text": "Repunte migratorio en Canarias: 668 inmigrantes rescatados en varias embarcaciones (cayucos de 219 y 212 personas, 72 en Fuerteventura) en menos de 24 horas.",
-      "engagement": "Difusión masiva del repunte canario",
-      "topic": "Inmigración",
-      "link": "https://x.com/112canarias/status/2109579855964803449"
-    },
-    {
-      "author": "@xaquindashervas",
-      "date": "10 oct 2026",
-      "text": "Análisis de mercado: la Ley de Vivienda habría sacado hasta un 30% de la oferta de alquiler permanente, elevando precios y reduciendo la rentabilidad de los propietarios.",
-      "engagement": "Hilo viral con datos CGPJ/epdata",
+      "author": "@Albiol_XG",
+      "date": "18 oct 2026",
+      "text": "Anuncio de la ley antiokupas exprés de 48 horas: «se va a acabar que los okupas tengan más derechos que los propietarios».",
+      "engagement": "Miles de likes y reposts",
       "topic": "Okupación",
-      "link": "https://x.com/xaquindashervas/status/2108996429523918984"
+      "link": "https://x.com/Albiol_XG/status/2111791577219616896"
     }
   ]
 }
