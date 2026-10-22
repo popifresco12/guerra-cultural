@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-10-21T08:05:00+02:00",
+    "generated_at": "2026-10-22T08:02:26+02:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "29N elecciones generales Espana campana PSOE PP Vox mitin sondeos escaños (desde 2026-10-18) [FALLO: spending-limit]",
-      "sanchismo Sanchez UCO Cerdan cloacas PSOE corrupcion imputacion Zapatero (desde 2026-10-18) [FALLO: spending-limit]",
-      "inmigracion Espana Ceuta Canarias llegadas irregulares regularizacion migrantes (desde 2026-10-18) [FALLO: spending-limit]",
-      "acampada de Sol Madrid desalojo Sindicato de Inquilinas Maricarmen Abascal estudiantes (desde 2026-10-18) [FALLO: spending-limit]",
+      "29N elecciones generales Espana campana PSOE PP Vox mitin sondeos escaños [FALLO: spending-limit]",
+      "sanchismo PSOE corrupcion UCO Cerdan Zapatero investigacion España [FALLO: spending-limit]",
+      "inmigracion España Ceuta Canarias llegadas irregulares regularizacion [FALLO: spending-limit]",
+      "acampada Sol vivienda Sindicato Inquilinas Maricarmen desalojo Madrid [FALLO: spending-limit]",
       "resto de topicos (okupacion, independentismo, memoria, feminismo, woke, cultura-cancelacion, ley-trans, espana-vaciada, facha) y tandas de actividad de cuentas: NO ejecutadas (credito xAI agotado en la primera tanda de 4)"
     ],
     "stale_topics": [
@@ -32,10 +32,10 @@
       "@littleragergirl",
       "@Anujbost"
     ],
-    "previous_generated_at": "2026-10-20T08:20:00+02:00",
+    "previous_generated_at": "2026-10-21T08:05:00+02:00",
     "previous_source": "cron 09f22b3f6f78",
     "fallback": "full",
-    "notes": "FALLBACK COMPLETO 0/13 topicos medidos. Las cuatro primeras busquedas de la tanda 1 (elecciones, sanchismo, inmigracion, acampada-sol) fallaron todas de forma identica con 'personal-team-blocked:spending-limit' en el primer intento, lo que ya confirma agotamiento de credito de la cuenta xAI: no se hicieron mas reintentos. Es la jornada 1 del nuevo bloque tras la recarga del 19-10, que rindio solo dos dias (19-10 completo, 20-10 parcial 7/13). Se reutilizan integros topics/news/trends/accounts/virals del commit anterior (41ec719): OJO, seis de esos topicos (woke, cultura-cancelacion, ley-trans, elecciones, espana-vaciada, facha) ya venian arrastrados del 19-10, asi que su antiguedad real es de dos dias. NO se anade snapshot a history.json: sin ninguna medicion fresca, una entrada con fecha de hoy inventaria un punto en el grafico de evolucion. meta.inactive_accounts se mantiene exactamente igual que ayer (una cuenta no comprobada no es ni activa ni inactiva). sources.json NO generado: el entorno RAG (/home/carlo/guerra-cultural-rag) no existe en este host Windows. Unico desbloqueo posible: recargar credito en https://grok.com/?_s=usage"
+    "notes": "FALLBACK COMPLETO 0/13 topicos medidos, jornada 2 del bloque de credito (21-10 y 22-10 sin ninguna medicion fresca). La tanda 1 de cuatro busquedas (elecciones, sanchismo, inmigracion, acampada-sol) fallo de forma identica con 'personal-team-blocked:spending-limit' en el primer intento; segun el protocolo eso ya confirma agotamiento de credito de la cuenta xAI y no se hicieron mas reintentos. Se reutilizan integros topics/news/trends/accounts/virals del commit anterior (a339ad2). ANTIGUEDAD REAL DEL DATO: seis topicos (woke, cultura-cancelacion, ley-trans, elecciones, espana-vaciada, facha) no se miden desde el 19-10, asi que acumulan TRES dias; entre ellos esta 'elecciones', el topico mas caliente del tablero y el que cubre la campana del 29-N. NO se anade snapshot a history.json: sin ninguna medicion fresca, una entrada con fecha de hoy inventaria un punto en el grafico de evolucion (el ultimo punto real sigue siendo el 20-10). meta.inactive_accounts se mantiene exactamente igual que ayer: una cuenta no comprobada no es ni activa ni inactiva. sources.json NO generado: el entorno RAG (/home/carlo/guerra-cultural-rag) no existe en este host Windows. UNICO DESBLOQUEO: recargar credito en https://grok.com/?_s=usage (la recarga del 19-10 rindio solo dos dias operativos: 19-10 completo y 20-10 parcial 7/13)."
   },
   "topics": [
     {
