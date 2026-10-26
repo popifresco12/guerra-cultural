@@ -1,41 +1,33 @@
 {
   "meta": {
-    "generated_at": "2026-10-25T08:00:00+01:00",
+    "generated_at": "2026-10-26T08:21:52+01:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "29N elecciones generales España campaña PSOE PP Vox mitin sondeos escaños [FALLO: spending-limit]",
-      "sanchismo PSOE corrupción UCO Cerdán Zapatero investigación judicial [FALLO: spending-limit]",
-      "inmigración España Ceuta Canarias llegadas irregulares regularización menas [FALLO: spending-limit]",
-      "acampada Sol vivienda Sindicato de Inquilinas desalojo Madrid Maricarmen [FALLO: spending-limit]",
-      "resto de tópicos (okupacion, independentismo, memoria, feminismo, woke, cultura-cancelacion, ley-trans, espana-vaciada, facha) y tandas de actividad de cuentas/virales: NO ejecutadas (crédito xAI agotado en la primera tanda de 4)"
+      "reacciones en X al mitin de Sánchez Feijóo Abascal esta semana campaña 29 noviembre encuestas escaños (desde 2026-10-23)",
+      "sanchismo PSOE corrupción UCO Cerdán Zapatero investigación judicial (desde 2026-10-23)",
+      "debate en X esta semana regularización inmigrantes Congreso PSOE Vox menas Canarias saturación (desde 2026-10-23)",
+      "Sindicato de Inquilinas acampada Puerta del Sol desahucio vivienda Madrid esta semana tuiteros (desde 2026-10-23)",
+      "independentismo Cataluña referéndum Puigdemont Junts ERC Illa proces (desde 2026-10-23)",
+      "okupación España Desokupa desalojo ocupas vecinos propietarios allanamiento (desde 2026-10-23)",
+      "polémica esta semana ley de concordia Aragón PP Vox memoria democrática víctimas franquismo tuiteros (desde 2026-10-23)",
+      "feminismo abolicionista prostitución Irene Montero ley trata transexuales deporte (desde 2026-10-23)",
+      "debate en X esta semana ideología woke España Vox batalla cultural censura lenguaje inclusivo tuiteros (desde 2026-10-23)",
+      "cancelación polémica esta semana España tuiteros boicot linchamiento digital humorista artista redes (desde 2026-10-23)",
+      "debate en X esta semana ley trans España autodeterminación género menores Irene Montero tuiteros (desde 2026-10-23)",
+      "despoblación España vaciada esta semana Teruel Existe agricultores manifestación tuiteros (desde 2026-10-23)",
+      "tuiteros llamando fachas a PP Vox esta semana España debate insulto fascismo campaña 29N reacciones (desde 2026-10-23)",
+      "actividad de cuentas: @elxokas @TemplarExtre @geoestratego | @13mescribano @VictorLapuente @EstefMolina_ | @profsecundario @dianitanoticias @Tagelca @nicolasdepedro | @armesillaconde @Anujbost @billkilgore_ | @elmundotoday @littleragergirl @LaBugsBunnyIA (desde 2026-10-23)",
+      "tweets virales esta semana España política con enlaces y engagement (desde 2026-10-23)"
     ],
-    "stale_topics": [
-      "acampada-sol",
-      "sanchismo",
-      "inmigracion",
-      "okupacion",
-      "independentismo",
-      "memoria",
-      "feminismo",
-      "woke",
-      "cultura-cancelacion",
-      "ley-trans",
-      "elecciones",
-      "espana-vaciada",
-      "facha"
-    ],
+    "stale_topics": [],
     "inactive_accounts": [
       "@dianitanoticias",
-      "@elxokas",
       "@VictorLapuente",
       "@elmundotoday",
-      "@littleragergirl",
-      "@Anujbost"
+      "@littleragergirl"
     ],
-    "previous_generated_at": "2026-10-24T08:01:25+02:00",
-    "previous_source": "cron 09f22b3f6f78",
-    "fallback": "full",
-    "notes": "FALLBACK COMPLETO 0/13 tópicos medidos, jornada 5 del bloque de crédito. Cronología: 21-10 fallback completo, 22-10 fallback completo, 23-10 el job no llegó a ejecutarse (GatewayUnavailableError: 'Gateway draining: update_paused'), 24-10 y 25-10 la tanda 1 de cuatro búsquedas (elecciones, sanchismo, inmigracion, acampada-sol) falló de forma idéntica con 'personal-team-blocked:spending-limit', lo que confirma agotamiento de crédito de la cuenta xAI (no es forma de query: son queries ancladas a entidad y noticia viva). ANTIGÜEDAD REAL DEL DATO = 5 días, última medición fresca el 20-10 (7/13 tópicos). Entre los datos congelados está 'elecciones' (intensidad 98), que cubre la campaña del 29-N y lleva sin medirse desde el 19-10. NO se añade snapshot a history.json: sin medición fresca una entrada con fecha de hoy inventaría un punto en el gráfico (último punto real: 20-10). meta.inactive_accounts se mantiene idéntico: una cuenta no comprobada no es ni activa ni inactiva. sources.json NO generado (el entorno RAG /home/carlo/guerra-cultural-rag no existe en este host Windows). ÚNICO DESBLOQUEO: recargar crédito en https://grok.com/?_s=usage. Ritmo observado: cada recarga rinde 1-2 días operativos, no una semana."
+    "previous_generated_at": "2026-10-25T08:00:00+01:00",
+    "notes": "Recuperación tras 5 jornadas de fallback por crédito xAI (21, 22, 24 y 25-10 completas; 23-10 el job no llegó a ejecutarse). Primera medición fresca de los 13 tópicos desde el 20-10, sin stale_topics. Varias queries devolvieron ensayos sin citas (degraded_reason: no citations) y se reescribieron ancladas a entidad/noticia viva hasta obtener análisis con citas: 'facha' necesitó tres intentos, 'elecciones' e 'inmigracion' dos. Las 16 cuentas del directorio fueron verificadas: 12 activas y 4 sin actividad detectable (dianitanoticias, VictorLapuente, elmundotoday, littleragergirl). elxokas, Anujbost, geoestratego y TemplarExtre salen de inactive_accounts al confirmarse actividad. sources.json NO generado: el entorno RAG /home/carlo/guerra-cultural-rag no existe en este host Windows."
   },
   "topics": [
     {
@@ -44,23 +36,23 @@
       "icon": "⛺",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 95,
-      "momentum": 34,
-      "momentumDir": "left",
-      "summary": "La acampada de la Puerta del Sol cumple su cuarta semana con el caso de Maricarmen Abascal como símbolo y una escalada institucional abierta: Metro de Madrid cerró indefinidamente la estación de Sol por higiene y Almeida y Ayuso redoblan la exigencia de desalojo, mientras el Gobierno central guarda silencio. En X domina el apoyo de estudiantes y colectivos de vivienda, pero crecen las críticas por suciedad, apropiación política y por quienes consideran que la protesta se ha convertido en otro frente de la campaña.",
-      "quote": "«Quienes hemos acompañado a Maricarmen los últimos siete años no vamos a permitir que destrocen su memoria… son incapaces de borrar todo lo que Maricarmen ha sembrado» — @InquilinatoMad",
+      "intensity": 88,
+      "momentum": 64,
+      "momentumDir": "right",
+      "summary": "La Acampada 26S del Sindicato de Inquilinas empieza a desmantelarse tras casi un mes en la Puerta del Sol, con un final gradual que apuntan al 11-N, día de la huelga general por la vivienda. Almeida quiere repercutir a los acampados los gastos de limpieza y desperfectos «para que no cueste un euro a los madrileños». El detenido por una agresión sexual a una joven de 22 años dentro de una tienda de campaña ha inclinado el relato hacia la crítica.",
+      "quote": "«Adiós a la acampada» — @criaturina, tras la detención y el inicio del desmontaje (317 likes)",
       "details": [
         [
           "Volumen en X",
-          "Muy alto, con vídeos del altar destrozado y del cierre de Metro"
+          "Muy alto (pico por el suceso del domingo)"
         ],
         [
           "Sentimiento",
-          "Apoyo de izquierda frente a rechazo por salubridad y orden público"
+          "Crítico mayoritario"
         ],
         [
           "Impulsado por",
-          "@InquilinatoMad, estudiantes y Marea Verde contra Almeida y Ayuso"
+          "Desmontaje, costes municipales y huelga del 11-N"
         ]
       ]
     },
@@ -70,23 +62,23 @@
       "icon": "👑",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 98,
-      "momentum": 95,
+      "intensity": 95,
+      "momentum": 90,
       "momentumDir": "right",
-      "summary": "Las agendas intervenidas a Santos Cerdán y Leire Díez por la UCO —con contactos de casi un tercio de los fiscales de la Audiencia Nacional— han reabierto el debate con más fuerza que ninguna otra polémica de la semana, y se cruzan con las anotaciones de reuniones con el fiscal de Vigilancia Penitenciaria que dejó de recurrir trece progresiones a tercer grado de etarras. La conversación es abrumadoramente crítica: se habla ya de «cloaca» del PSOE y de la posibilidad de que el partido acabe imputado, con Pedraz criticado por supuestos retrasos antes del 29-N.",
-      "quote": "«Cerdán, Leire y las cloacas del PSOE tenían en sus agendas a casi un tercio de los fiscales»",
+      "summary": "La UCO detecta facturas desaparecidas en la contabilidad del PSOE al rastrear financiación ilegal, y Anticorrupción considera «inevitable» imputar al partido por un Excel de pagos en efectivo a Ábalos, Cerdán y Koldo desde 2017. El juez Pedraz rechaza las alegaciones socialistas y les da plazos para entregar contratos. En paralelo, la Fiscalía pide imputar a Zapatero por malversación por joyas y regalos institucionales valorados en unos 1,3 millones.",
+      "quote": "«El juez Pedraz rechaza las alegaciones del PSOE y le da plazos para entregar contratos y documentación» — @eltorotv",
       "details": [
         [
           "Volumen en X",
-          "Muy alto: el tema más comentado de la semana"
+          "Muy alto"
         ],
         [
           "Sentimiento",
-          "Crítico casi unánime; la defensa es residual"
+          "Crítico con el Gobierno"
         ],
         [
           "Impulsado por",
-          "Filtraciones de la UCO, @PacoCastanares y cuentas anti-PSOE"
+          "UCO, Pedraz y la imputación de Zapatero"
         ]
       ]
     },
@@ -97,22 +89,22 @@
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
       "intensity": 93,
-      "momentum": 91,
+      "momentum": 84,
       "momentumDir": "right",
-      "summary": "El debate escala en dos frentes simultáneos: la saturación de llegadas a Canarias —con repunte de cayucos y presión en El Hierro y La Palma— y la ofensiva europea contra la regularización extraordinaria de Sánchez, con Meloni, Frederiksen y varios gobiernos pidiendo a la Comisión que investigue lo que describen como sustitución demográfica. El asalto a Ceuta de julio sigue alimentando vídeos y acusaciones cruzadas, mientras el bando oficialista responde con el coste económico de la irregularidad y las agresiones denunciadas en la frontera.",
-      "quote": "«Meloni, Frederiksen y otros líderes de la UE acusan a Sánchez de 'sustituir población para seguir en el poder'»",
+      "summary": "La regularización extraordinaria es el choque central: el Tribunal Supremo rechaza suspenderla, lo que supone un varapalo para Ayuso y Vox, que pedían paralizarla. Canarias sigue en el foco con más de 2.300 llegadas irregulares solo en octubre y saturación de recursos y centros de menores. Vox capitaliza el malestar con el discurso de la «remigración», mientras el PSOE acusa a la derecha de votar contra el reparto de MENAs.",
+      "quote": "«El Tribunal Supremo rechaza suspender la regularización: varapalo a Ayuso y Vox» — @CalpenaCarmen",
       "details": [
         [
           "Volumen en X",
-          "Muy alto, sostenido por vídeos de llegadas diarias"
+          "Muy alto"
         ],
         [
           "Sentimiento",
-          "Crítico mayoritario, con volumen creciente en clave europea"
+          "Muy polarizado, derecha al alza"
         ],
         [
           "Impulsado por",
-          "@FelixATena, @TheObjective_es, @Jorgebuxade y cuentas canarias"
+          "Regularización, Supremo y saturación en Canarias"
         ]
       ]
     },
@@ -120,25 +112,25 @@
       "id": "okupacion",
       "name": "Okupación",
       "icon": "🏠",
-      "tag": "🔥 Tendencia alta",
-      "tagClass": "tag-hot",
-      "intensity": 86,
-      "momentum": 81,
+      "tag": "📌 Estable",
+      "tagClass": "tag-stable",
+      "intensity": 62,
+      "momentum": 76,
       "momentumDir": "right",
-      "summary": "La okupación se ha convertido en pieza central del discurso electoral del PP y Vox —desalojo exprés en 24-48 horas, tipificación como delito, un millón de viviendas— frente a la defensa de la Ley de Vivienda de 2023 desde la izquierda. Lo más compartido son casos concretos: un propietario que cambia la cerradura y es amenazado con detención porque los okupas «tienen posesión», y el contraste con la Seguridad Social y Defensa, que sí desahucian por impago en tres meses. El intento fallido de ilegalizar a Desokupa por la abstención del PSOE sigue vivo como munición.",
-      "quote": "«La policía le advierte de que no puede detener a los okupas: tienen posesión. Al propietario sí se le puede detener»",
+      "summary": "La conversación de la semana es más explicativa que de escándalo: se viralizan hilos que distinguen allanamiento de morada (art. 202, cárcel y desalojo rápido si se denuncia en 24-48 h) de usurpación (art. 245, multa y meses de espera), con 14.875 casos contabilizados en 2025 y los juicios rápidos en vigor desde abril. Desokupa vuelve a aparecer como solución privada polémica. No hay un caso mediático nuevo que haya prendido.",
+      "quote": "«En 2025 se registraron 14.875 casos de allanamiento y usurpación en toda España» — @elcronista_es",
       "details": [
         [
           "Volumen en X",
-          "Alto, con picos en cada caso viral"
+          "Medio"
         ],
         [
           "Sentimiento",
-          "Crítico con el marco legal vigente"
+          "Frustración de propietarios"
         ],
         [
           "Impulsado por",
-          "@RaraqueR, @daniesdsk y abogados que explican allanamiento vs usurpación"
+          "Diferencia allanamiento/usurpación y juicios rápidos"
         ]
       ]
     },
@@ -146,25 +138,25 @@
       "id": "independentismo",
       "name": "Independentismo / Procés",
       "icon": "🗺️",
-      "tag": "🔥 Tendencia alta",
-      "tagClass": "tag-hot",
-      "intensity": 93,
-      "momentum": 78,
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 78,
+      "momentum": 62,
       "momentumDir": "right",
-      "summary": "El juez Llarena ha levantado las órdenes de detención nacionales contra Puigdemont, Comín y Puig acatando la doctrina del Constitucional, y el Tribunal de Cuentas ha aplicado la amnistía a gastos del 1-O y de acción exterior: el procés judicial encara su cierre tras nueve años. El independentismo lo lee como victoria de la resistencia en el exilio, con debate interno sobre si aceptar la amnistía equivale a admitir que el referéndum era ilegal; el unionismo responde con indignación por la impunidad y por el precio político que atribuye a Sánchez.",
-      "quote": "«Le ha dado a Puigdemont la amnistía y ha eliminado el delito de malversación para seguir okupando Moncloa» — @miluka69",
+      "summary": "La amnistía ha archivado las causas contra Puigdemont y levantado las órdenes de detención, y Junts prepara un recibimiento institucional a la manera de Tarradellas con posible gira municipal. El tono dominante en X es de balance crítico: el procés negoció autonomía y no construyó estructuras de Estado, dejando división social y fuga de empresas. ERC y Junts se reprochan mutuamente los pactos con Madrid.",
+      "quote": "«El procés se centró más en negociar más autonomía o un referéndum pactado que en construir estructuras de Estado» — @PoMaOl",
       "details": [
         [
           "Volumen en X",
-          "Muy alto: cobertura informativa continua del Supremo"
+          "Alto"
         ],
         [
           "Sentimiento",
-          "Polarizado, con enfado unionista dominante en volumen"
+          "Crítico con el procés"
         ],
         [
           "Impulsado por",
-          "Auto de Llarena, @miluka69, @dpb_org y cuentas de Junts"
+          "Retorno de Puigdemont tras la amnistía"
         ]
       ]
     },
@@ -172,25 +164,25 @@
       "id": "memoria",
       "name": "Memoria Histórica",
       "icon": "📜",
-      "tag": "🔥 Tendencia alta",
-      "tagClass": "tag-hot",
-      "intensity": 90,
-      "momentum": 86,
+      "tag": "📌 Estable",
+      "tagClass": "tag-stable",
+      "intensity": 58,
+      "momentum": 68,
       "momentumDir": "right",
-      "summary": "La suspensión cautelar de los efectos electorales de unas 163.000 altas del censo CERA por el Supremo ha convertido la Ley de Nietos en el epicentro del choque preelectoral: la derecha habla sin ambages de «cirugía electoral» y de pucherazo con el voto exterior, y analistas como Garicano diseccionan cómo una instrucción administrativa de 2022 expandió la ley más allá de lo que aprobó el Parlamento. En paralelo, la demanda de la Abogacía del Estado para extinguir la Fundación Francisco Franco mantiene abierta la otra mitad del debate.",
-      "quote": "«No era memoria histórica. Era cirugía electoral» — @IndonesiaMar",
+      "summary": "El marco sigue siendo el choque de las leyes de concordia autonómicas de PP y Vox frente a la Ley de Memoria Democrática estatal, con la equiparación de víctimas y el freno a exhumaciones como eje. Los críticos hablan de blanqueamiento del franquismo y los defensores de una norma «sectaria» que impone un relato de parte. Esta semana no hay una polémica nueva: el tema recircula por la campaña, no por un hecho propio.",
+      "quote": "«No hay ningún político del PP+Vox que condene los crímenes de la Dictadura franquista… han usurpado la Memoria Histórica con una Ley de Concordia» — @Javier88587896",
       "details": [
         [
           "Volumen en X",
-          "Alto, impulsado por el calendario del voto exterior"
+          "Medio-bajo"
         ],
         [
           "Sentimiento",
-          "Crítico mayoritario con el uso electoral de la ley"
+          "Muy polarizado"
         ],
         [
           "Impulsado por",
-          "@IndonesiaMar, el hilo de @lugaricano y @elmundoes"
+          "Leyes de concordia autonómicas"
         ]
       ]
     },
@@ -200,23 +192,23 @@
       "icon": "⚡",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 73,
-      "momentum": 67,
+      "intensity": 72,
+      "momentum": 70,
       "momentumDir": "right",
-      "summary": "La conversación gira alrededor de Irene Montero como símbolo: sus defensores reivindican la ley del solo sí es sí y el consentimiento frente al «linchamiento» y a un PSOE que pactó reformas con el PP, mientras las críticas —incluidas feministas abolicionistas y mujeres de izquierda— la acusan de haber dividido a las mujeres, de beneficiar a agresores con la rebaja de penas y de abandonar la abolición de la prostitución al tocar poder. No hay un pico único: es un goteo constante de cruces de acusaciones con muy desigual engagement.",
-      "quote": "«La traición de Podemos a todas sus votantes: iba de abolicionista, de súper radical, y en cuanto tocó sillón, adiós a la abolición» — @verketal",
+      "summary": "El cisma sigue abierto entre abolicionistas y el sector transincluyente: la prostitución y la ley de trata son la línea de fractura, con el modelo nórdico como bandera frente a quienes defienden regular el trabajo sexual. Irene Montero vuelve al centro del debate por la Ley Trans y el «solo sí es sí», con las rebajas de condenas como argumento recurrente de la crítica. El deporte femenino aparece como escenario de choque recurrente.",
+      "quote": "«La de la ley trans que ha fracturado al feminismo» — @silviafranco0 sobre Irene Montero",
       "details": [
         [
           "Volumen en X",
-          "Moderado, sostenido por el ciclo electoral"
+          "Alto"
         ],
         [
           "Sentimiento",
-          "Dividido entre defensa podemita y crítica abolicionista"
+          "Cisma abolicionista vs. transincluyente"
         ],
         [
           "Impulsado por",
-          "@Scarlett_GJ y @verketal en los dos extremos del debate"
+          "Ley Trans, «solo sí es sí» y deporte femenino"
         ]
       ]
     },
@@ -224,25 +216,25 @@
       "id": "woke",
       "name": "Wokismo / Ideología Woke",
       "icon": "🌿",
-      "tag": "🔥 Tendencia moderada",
-      "tagClass": "tag-moderate",
-      "intensity": 76,
-      "momentum": 74,
+      "tag": "🔥 Tendencia alta",
+      "tagClass": "tag-hot",
+      "intensity": 84,
+      "momentum": 58,
       "momentumDir": "right",
-      "summary": "Los disturbios en Francia funcionan como espejo: el relato dominante avisa de que «España es el próximo» si no se corrige el buenismo. Se distingue cada vez más entre «cultura woke» (derechos e interculturalidad) y «wokismo» (fanatismo moral e inquisición), y emerge la etiqueta de «derecha woke» para las derechas que copian la lógica identitaria. El eje se desplaza de la cultura a la inmigración y la seguridad.",
-      "quote": "«El buenismo, el wokismo y el mal llamado progresismo están acabando con Europa. Próximamente en España» — @SacristaCoimbra, uno de los marcos más replicados.",
+      "summary": "El frente caliente es la cultura: Vox, en coalición con el PP en Castilla y León, impulsa criterios para excluir de subvenciones audiovisuales las obras con «adoctrinamiento ideológico», y en las Corts Valencianes PP y Vox eliminaron la comisión LGTBI y el lenguaje inclusivo, un reglamento que ahora examina el Tribunal Constitucional. La izquierda lo llama censura y domina los virales; la derecha responde que es parar el adoctrinamiento pagado con dinero público.",
+      "quote": "«Vox ya ha dicho que va a prohibir cultura, el orgullo… La involución que se nos viene es tremenda» — @lajuliabarish (2,3K likes)",
       "details": [
         [
           "Volumen en X",
-          "Medio-alto y estable"
+          "Muy alto"
         ],
         [
           "Sentimiento",
-          "Crítico dominante, con matices académicos"
+          "Censura vs. antiadoctrinamiento"
         ],
         [
           "Impulsado por",
-          "Disturbios en Francia, Atenea y el debate educativo"
+          "Veto a subvenciones en Castilla y León y las Corts"
         ]
       ]
     },
@@ -252,23 +244,23 @@
       "icon": "🔇",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 72,
-      "momentum": 66,
-      "momentumDir": "right",
-      "summary": "Sin un caso monstruo esta semana, el debate se fragmenta: Rosalía vuelve como símbolo recurrente de la apropiación cultural del flamenco, aunque el pico real fue 2018-2020 y hoy el ruido es residual. En paralelo se discute si hay cancelación real en España o solo «criticonismo de redes», y si el humorista debe poder molestar. El linchamiento digital se usa tanto como denuncia de acoso como descalificación de cualquier crítica masiva.",
-      "quote": "«El flamenco no es un disfraz» frente a «el arte no tiene fronteras, sin ella el flamenco seguiría siendo nicho» — las dos trincheras del hilo sobre Rosalía.",
+      "intensity": 76,
+      "momentum": 44,
+      "momentumDir": "left",
+      "summary": "La polémica de la semana es la cancelación de una obra sobre García Lorca en Valladolid por la Junta de Castilla y León, que lo atribuye a «obras» y niega motivos ideológicos. La compañía ha denunciado ante la Fiscalía, el reestreno en espacios alternativos ha agotado entradas y Mieres la programará en 2027. En X se cruzan la acusación de censura («ya no se puede representar a Lorca») con la de victimismo subvencionado.",
+      "quote": "«Han cancelado una obra de teatro sobre Lorca… Pero de “La Bola Negra” no se ha dicho nada» — @LuisPastor__",
       "details": [
         [
           "Volumen en X",
-          "Medio y a la baja respecto a septiembre"
+          "Alto"
         ],
         [
           "Sentimiento",
-          "Dividido entre accountability y censura social"
+          "Indignación del sector cultural"
         ],
         [
           "Impulsado por",
-          "Rosalía y el meta-debate sobre humoristas y linchamiento"
+          "Obra de Lorca cancelada en Valladolid"
         ]
       ]
     },
@@ -278,23 +270,23 @@
       "icon": "⚧️",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 78,
-      "momentum": 75,
+      "intensity": 74,
+      "momentum": 76,
       "momentumDir": "right",
-      "summary": "El núcleo del debate ya no es el texto de la ley —que no regula tratamientos— sino sus efectos prácticos en menores y la divergencia entre comunidades, con Madrid como referencia de retroceso para unos y de protección para otros. Se citan la Cass Review y el cierre de Tavistock, junto a reclamaciones por daños. Los defensores separan cambio registral y protocolo médico; las críticas sostienen que en la práctica no se separan.",
-      "quote": "«La Ley Trans no es un protocolo de tratamientos médicos para menores» — @rm_amparo, frente a quienes ven «medicalización de menores».",
+      "summary": "El debate vuelve por la autodeterminación registral a los 14-17 años y por la hormonación de menores, en plena campaña: Feijóo, Gamarra y Tellado hablan de derogar o reformar la ley, Vox exige informes psicológicos y el Partido Feministas al Congreso la incluye entre sus prioridades. Los defensores, con Mar Cambrollé al frente, enmarcan los ataques como parte de la ofensiva de la ultraderecha contra los derechos LGTBI.",
+      "quote": "«Un menor no debería decidir intervenciones irreversibles sin sus padres» — @michealtadonham",
       "details": [
         [
           "Volumen en X",
-          "Alto y estable"
+          "Alto"
         ],
         [
           "Sentimiento",
-          "Muy confrontativo, sin terreno medio"
+          "Crítico dominante"
         ],
         [
           "Impulsado por",
-          "Reforma de Madrid, Cass Review y menores"
+          "Promesas de derogación de PP/Vox y PFAC"
         ]
       ]
     },
@@ -305,22 +297,22 @@
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
       "intensity": 98,
-      "momentum": 88,
+      "momentum": 84,
       "momentumDir": "right",
-      "summary": "A seis semanas del 29-N, la batalla de sondeos domina X: el ElectoPanel del 18 de octubre da PP 31,8% (135 escaños), PSOE 27,1% (111) y Vox 18,8% (62), con PP+Vox en mayoría holgada, mientras el CIS es la excepción que coloca al PSOE por delante. Sánchez centra su campaña en pensiones y movilización, Feijóo en el «sanchismo» y Abascal avisa de que «no será una campaña limpia». La campaña ya gira en torno a pactos, inmigración y pensiones.",
-      "quote": "«Media de las últimas 10 encuestas: PP 132 escaños, PSOE 114, Vox 65» — @datadicto_es, uno de los datos más compartidos del ciclo.",
+      "summary": "La campaña del 29-N ya está en marcha: Sánchez recitó a Lorca en Granada y bailó «La antigua judería»; Feijóo pidió en Vigo «darnos la mano» sin apedrear; Abascal llenó Palma y la Policía interceptó a un hombre con una navaja oculta en el acceso. Los sondeos de esta semana (Sigma Dos, Wiston, SocioMétrica) sitúan a PP y Vox cerca o por encima de los 200 escaños, con Vox disparado hasta el 19-20%.",
+      "quote": "«Feijóo es el envoltorio, pero Abascal es el regalo. Y hay regalos que no merece la pena abrir» — Pedro Sánchez, mitin de Granada (24 oct)",
       "details": [
         [
           "Volumen en X",
-          "Muy alto, el pico de todo el tablero"
+          "Máximo"
         ],
         [
           "Sentimiento",
-          "Movilización y descrédito cruzado de encuestas"
+          "Derecha optimista, PSOE movilizado"
         ],
         [
           "Impulsado por",
-          "ElectoPanel, CIS y los mitines de PSOE, PP y Vox"
+          "Mítines del 24-26 oct y encuestas Sigma Dos/Wiston"
         ]
       ]
     },
@@ -328,25 +320,25 @@
       "id": "espana-vaciada",
       "name": "España Vaciada",
       "icon": "🏘️",
-      "tag": "🔥 Tendencia moderada",
-      "tagClass": "tag-moderate",
-      "intensity": 67,
-      "momentum": 60,
-      "momentumDir": "right",
-      "summary": "Soria y Teruel marcan la agenda: más de cien municipios sorianos podrían desaparecer en menos de cincuenta años y Soria ¡YA! convoca caceroladas contra la Zona de Bajas Emisiones. Teruel Existe insiste en que la despoblación es «de vida o muerte» y alerta de la «avalancha de eólicas». El cierre de escuelas, ambulatorios y trenes aparece como causa y efecto del abandono.",
-      "quote": "«Más de 100 municipios sorianos morirán en menos de 50 años por la despoblación» — @velilladlosajos, con fuerte circulación local.",
+      "tag": "📌 Estable",
+      "tagClass": "tag-stable",
+      "intensity": 64,
+      "momentum": 55,
+      "momentumDir": "center",
+      "summary": "La Revuelta de la España Vaciada celebró su VIII Asamblea en Segovia bajo el lema «Resistencia Rural» y «ser pocos no resta derechos», centrada en vivienda, servicios públicos, incendios y macroproyectos (renovables y centros de datos). A eso se suma la tractorada convocada en Madrid para el 28-O por Asaja y Unión de Uniones. Teruel Existe mantiene su agenda propia: retrasos de la A-68, tren sin servicio desde febrero de 2025 y tope a las viviendas turísticas en Albarracín.",
+      "quote": "«Ser pocos no resta derechos» — lema de la VIII Asamblea de la Revuelta de la España Vaciada (Segovia)",
       "details": [
         [
           "Volumen en X",
-          "Medio, muy concentrado en cuentas locales"
+          "Moderado"
         ],
         [
           "Sentimiento",
-          "Denuncia y movilización ciudadana"
+          "Reivindicativo transversal"
         ],
         [
           "Impulsado por",
-          "Soria ¡YA!, Teruel Existe y las ZBE"
+          "Asamblea de Segovia y tractorada del 28-O"
         ]
       ]
     },
@@ -354,129 +346,129 @@
       "id": "facha",
       "name": "Facha / Insulto Político",
       "icon": "🗣️",
-      "tag": "🔥 Tendencia alta",
-      "tagClass": "tag-hot",
-      "intensity": 84,
-      "momentum": 74,
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 70,
+      "momentum": 72,
       "momentumDir": "right",
-      "summary": "El término «facha» vuelve al centro tras los incidentes en torno a actos de Vito Quiles en Pamplona/Iruñea, con confrontaciones, presencia policial y acusaciones cruzadas de provocación. La derecha denuncia que la etiqueta deshumaniza y legitima agresiones; la izquierda antifascista defiende que el fascismo «no se debate, se combate». La asimetría —calumnia desproporcionada frente a reivindicación irónica— es el argumento de los críticos con ambos bandos.",
-      "quote": "«Llamar facha es el arma para silenciar preguntas incómodas» frente a «a los fascistas ni agua» — las dos consignas del ciclo.",
+      "summary": "El insulto funciona como arma de campaña: cuentas de izquierda llaman «fachas» y «fascistas» a PP y Vox y llaman a movilizarse el 29-N «contra el fascismo». La derecha responde que el término es una descalificación vacía que vacía el significado histórico y que sirve para justificar cualquier ataque, y recuerda los altercados y la navaja interceptada en el mitin de Palma. El tono es de trinchera, con poca argumentación.",
+      "quote": "«Ser de derechas no convierte a nadie en fascista» — @GiorgiaVat en un hilo sobre el uso del insulto",
       "details": [
         [
           "Volumen en X",
-          "Alto y reactivo a cada incidente callejero"
+          "Alto"
         ],
         [
           "Sentimiento",
-          "Muy polarizado, sin espacio neutro"
+          "Insulto cruzado, máxima polarización"
         ],
         [
           "Impulsado por",
-          "Actos de Vito Quiles en Navarra y contramanifestaciones"
+          "Campaña del 29-N y altercados en mítines"
         ]
       ]
     }
   ],
   "news": [
     {
-      "title": "Llarena levanta las órdenes de detención contra Puigdemont tras acatar la doctrina del Constitucional",
-      "date": "19 oct 2026",
-      "summary": "El magistrado del Supremo retira las órdenes nacionales contra Puigdemont, Comín y Puig por la malversación del procés, con críticas explícitas a la falta de «mesura» del TC. El Tribunal de Cuentas aplica además la amnistía a gastos del 1-O y de acción exterior.",
-      "source": "El País / X",
+      "title": "Sánchez y Feijóo cruzan mítines con Abascal en Palma a cinco semanas del 29-N",
+      "date": "25 oct 2026",
+      "summary": "Sánchez recitó a Lorca y bailó «La antigua judería» en Granada; Feijóo pidió en Vigo discrepar «sin apedrear» y Abascal llenó Palma, donde la Policía interceptó a un hombre con una navaja oculta en el acceso. Los tres actos dominaron el timeline del fin de semana.",
+      "source": "X / el_pais / Santi_ABASCAL",
       "tags": [
-        "Independentismo",
-        "Amnistía"
+        "Elecciones",
+        "Campaña"
       ]
     },
     {
-      "title": "La UCO halla en las agendas de Cerdán y Leire Díez contactos con casi un tercio de los fiscales de la Audiencia Nacional",
-      "date": "19 oct 2026",
-      "summary": "La documentación incautada al exnúmero tres del PSOE revela reuniones con el fiscal coordinador de Vigilancia Penitenciaria que dejó de recurrir trece progresiones a tercer grado de etarras tras el apoyo de Bildu a la investidura.",
-      "source": "El Confidencial / X",
+      "title": "La UCO detecta facturas desaparecidas en la contabilidad del PSOE y Anticorrupción ve «inevitable» imputar al partido",
+      "date": "25 oct 2026",
+      "summary": "El rastreo de financiación ilegal apunta a un Excel de pagos en efectivo a Ábalos, Cerdán y Koldo desde 2017. El juez Pedraz rechaza las alegaciones socialistas y fija plazos para entregar contratos del «caso cloacas».",
+      "source": "X / El Mundo / Gaceta",
       "tags": [
         "Sanchismo",
         "Corrupción"
       ]
     },
     {
-      "title": "El Supremo suspende cautelarmente los efectos electorales de 163.000 altas del censo CERA",
-      "date": "18 oct 2026",
-      "summary": "La Sala Tercera exige acreditar exilio real y cuestiona la instrucción de 2022 que presumía la condición de exiliado a quien salió de España entre 1936 y 1955. El impacto se concentra en provincias pequeñas por el reparto D'Hondt.",
-      "source": "El Mundo / X",
+      "title": "El Supremo rechaza suspender la regularización extraordinaria: varapalo a Ayuso y Vox",
+      "date": "24 oct 2026",
+      "summary": "El tribunal no paraliza el proceso de regularización, mientras Canarias acumula más de 2.300 llegadas irregulares en octubre y sigue la saturación de centros de menores. Vox insiste en la «remigración» y el PSOE acusa a la derecha de bloquear el reparto de MENAs.",
+      "source": "X / CalpenaCarmen",
       "tags": [
-        "Memoria Histórica",
-        "Censo"
+        "Inmigración",
+        "Justicia"
       ]
     },
     {
-      "title": "Metro de Madrid cierra indefinidamente la estación de Sol por higiene mientras Almeida y Ayuso redoblan la exigencia de desalojo",
-      "date": "19 oct 2026",
-      "summary": "El cierre por limpieza y desratización —imposible sin levantar la acampada— añade presión sobre una protesta que cumple su cuarta semana y que el Ayuntamiento atribuye al silencio del Gobierno central en orden público.",
-      "source": "20minutos / X",
+      "title": "La Junta de Castilla y León cancela una obra sobre Lorca en Valladolid y la compañía denuncia ante la Fiscalía",
+      "date": "24 oct 2026",
+      "summary": "La Junta atribuye la suspensión a «obras» y niega motivos ideológicos. El reestreno en espacios alternativos agota entradas, Mieres la programará en 2027 y el caso se cruza con el veto de PP-Vox a subvenciones a películas «ideologizadas».",
+      "source": "X / infobaees / DiarioVLL",
+      "tags": [
+        "Cultura de la Cancelación",
+        "Castilla y León"
+      ]
+    },
+    {
+      "title": "Detenido un hombre por agredir sexualmente a una joven en la acampada de Sol, que empieza a desmantelarse",
+      "date": "25 oct 2026",
+      "summary": "El suceso dentro de una tienda de campaña acelera las críticas a la Acampada 26S tras casi un mes en la Puerta del Sol. Almeida quiere repercutir los gastos de limpieza y desperfectos, y el Sindicato de Inquilinas desplaza el foco a los barrios y a la huelga del 11-N.",
+      "source": "X / elboletinmadrid / criaturina",
       "tags": [
         "Acampada de Sol",
         "Vivienda"
-      ]
-    },
-    {
-      "title": "Líderes europeos cargan contra la regularización de Sánchez y piden a la Comisión que la investigue",
-      "date": "18 oct 2026",
-      "summary": "Meloni, Frederiksen y los gobiernos de Chequia, Austria y Polonia critican en Bruselas una regularización que consideran unilateral, mientras Von der Leyen reclama más coordinación Schengen y en Canarias se encadenan llegadas por cayuco.",
-      "source": "The Objective / X",
-      "tags": [
-        "Inmigración",
-        "Unión Europea"
       ]
     }
   ],
   "trends": [
     {
-      "name": "Amnistía a Puigdemont",
-      "change": "up",
-      "pct": "+14%",
-      "detail": "Llarena levanta las órdenes de detención y reactiva el debate territorial a tres semanas del 29-N"
+      "name": "Elecciones 29-N",
+      "change": "stable",
+      "pct": "0%",
+      "detail": "Ya en campaña: tres mítines el fin de semana y cuatro encuestas nuevas. PP y Vox rondan los 200 escaños."
     },
     {
-      "name": "Ley de Nietos / censo CERA",
+      "name": "Wokismo / censura Vox",
       "change": "up",
-      "pct": "+9%",
-      "detail": "La suspensión de 163.000 altas electorales por el Supremo dispara la conversación sobre el voto exterior"
+      "pct": "+11%",
+      "detail": "Veto a subvenciones audiovisuales en Castilla y León y supresión de la comisión LGTBI en las Corts Valencianes."
+    },
+    {
+      "name": "Cultura de la cancelación",
+      "change": "up",
+      "pct": "+6%",
+      "detail": "Obra sobre Lorca cancelada en Valladolid: denuncia ante la Fiscalía y reestreno que agota entradas."
     },
     {
       "name": "Sanchismo / UCO Cerdán",
-      "change": "up",
-      "pct": "+6%",
-      "detail": "Las agendas con fiscales de la Audiencia Nacional y el fiscal de ETA mantienen el tema como número uno"
-    },
-    {
-      "name": "Inmigración / regularización",
-      "change": "up",
-      "pct": "+7%",
-      "detail": "La ofensiva de líderes europeos contra Sánchez suma un frente nuevo al de Canarias y Ceuta"
+      "change": "stable",
+      "pct": "-3%",
+      "detail": "La UCO y el caso Zapatero mantienen el tema, pero el foco mediático se desplaza a la campaña."
     },
     {
       "name": "Acampada de Sol",
-      "change": "up",
-      "pct": "+5%",
-      "detail": "El cierre de la estación de Sol por higiene y la presión de Almeida y Ayuso reactivan el pulso"
-    },
-    {
-      "name": "Okupación / Ley de Vivienda",
-      "change": "up",
-      "pct": "+4%",
-      "detail": "Casos virales de propietarios y el choque de propuestas de PP y Vox entran en campaña"
-    },
-    {
-      "name": "Feminismo / Irene Montero",
       "change": "down",
-      "pct": "-3%",
-      "detail": "Debate estable pero sin pico nuevo: goteo de cruces entre defensa podemita y crítica abolicionista"
+      "pct": "-7%",
+      "detail": "El desmontaje y la agresión sexual del domingo bajan el volumen de apoyo y disparan la crítica."
     },
     {
-      "name": "Ley Trans / Woke / Cancelación",
-      "change": "stable",
-      "pct": "0%",
-      "detail": "Sin medición fresca hoy: el crédito de xAI se agotó tras el séptimo tópico"
+      "name": "Independentismo",
+      "change": "down",
+      "pct": "-16%",
+      "detail": "El retorno de Puigdemont pierde fuelle tras la amnistía y sin choque nuevo con Madrid."
+    },
+    {
+      "name": "Okupación",
+      "change": "down",
+      "pct": "-28%",
+      "detail": "Sin caso mediático nuevo: la conversación se queda en hilos explicativos sobre allanamiento y usurpación."
+    },
+    {
+      "name": "Memoria histórica",
+      "change": "down",
+      "pct": "-36%",
+      "detail": "Las leyes de concordia siguen vigentes pero no hay polémica nueva esta semana."
     }
   ],
   "accounts": [
@@ -485,162 +477,162 @@
       "name": "Profe de historia",
       "category": "Muy derecha",
       "color": "#003399",
-      "desc": "Doctor en Historia y profesor de secundaria (~52K seguidores). Muy activo el 19 oct: hilo sobre incendios y violencia en Francia con advertencia para España (51 likes, 24 RTs, 963 views), crítica a la «claca sanchista» por la venta de un piso a Iván Redondo y posts sobre educación y pensiones. Verificado activo."
+      "desc": "Doctor en Historia y profesor de secundaria (~52,5K seguidores). Muy activo el 26 oct: hilo sobre fanatismo y educación, crítica a la enseñanza de religión y comentario sobre política venezolana. Verificado activo."
     },
     {
       "handle": "@dianitanoticias",
       "name": "Dianita",
       "category": "Muy derecha",
       "color": "#003399",
-      "desc": "Cuenta de sucesos y política con tono muy crítico al Gobierno (~17K seguidores). Marcada como INACTIVA: sin publicaciones públicas detectables en la ventana 16-19 oct (cuarto run consecutivo). Se mantiene en el directorio y en meta.inactive_accounts: la ausencia de posts es quietud, no baja."
+      "desc": "Cuenta de sucesos y política con tono muy crítico al Gobierno (~17K seguidores). Marcada como INACTIVA: sin publicaciones públicas detectables en la ventana 23-26 oct. Se mantiene en el directorio y en meta.inactive_accounts: la ausencia de posts es quietud, no baja."
     },
     {
       "handle": "@Tagelca",
       "name": "Tage",
       "category": "Derecha",
       "color": "#0055cc",
-      "desc": "Humor, fútbol y actualidad (~68,5K seguidores). Activo el 18 oct con dos quotes virales sobre los saqueos en Francia (864 likes y 57,5K views; 844 likes y 12,6K views) y comentario futbolero. Alto engagement en posts de actualidad. Verificado activo."
+      "desc": "Humor, fútbol y actualidad (~68,6K seguidores). Activo el 25 oct con quotes y memes (hasta 421 likes en un quote sobre un post japonés). Verificado activo."
     },
     {
       "handle": "@elxokas",
       "name": "ElXokas",
       "category": "Derecha",
       "color": "#0055cc",
-      "desc": "Streamer de gran alcance (~1,53M seguidores), vinculado a Knoweats. Marcado como INACTIVO: sin posts públicos detectables en la ventana 16-19 oct (más activo en Twitch que en X). Se mantiene en el directorio y en meta.inactive_accounts."
+      "desc": "Streamer de gran alcance (~1,53M seguidores), vinculado a Knoweats. Verificado activo el 26 oct: reply a Sánchez por su ida al podcast de Jordi Wild («Este hombre va a intentar el comeback de cualquier forma después de estos 8 años») con ~13K likes y 430K views."
     },
     {
       "handle": "@TemplarExtre",
       "name": "Templar Extremeño",
       "category": "Derecha",
       "color": "#0055cc",
-      "desc": "Cuenta conservadora-cristiana (~1,2K seguidores) activa a diario en replies: etarras y Bildu, amenazas a sedes de Frente Amplio-Podemos y crítica a la inmigración. Engagement muy bajo (0-4 likes) pero presencia constante en hilos. Verificado activo (las búsquedas resuelven el handle como @TemplarExtrem)."
+      "desc": "Cuenta conservadora-cristiana (~1,3K seguidores) activa a diario en replies: PACMA, etarras, izquierda y catolicismo. Engagement muy bajo pero presencia constante en hilos. Verificado activo el 23 oct (las búsquedas resuelven el handle como @TemplarExtrem)."
     },
     {
       "handle": "@geoestratego",
       "name": "Pedro Baños",
       "category": "Derecha",
       "color": "#0055cc",
-      "desc": "Analista de geopolítica y defensa (~454K seguidores). Activo el 12-14 oct: felicitación del 12-O con 3.363 likes y 56K views, petición de votos para los premios iVoox y recomendación de libro. Mantiene alcance alto aunque sin pico polémico este ciclo. Verificado activo."
+      "desc": "Analista de geopolítica y defensa (~454K seguidores). Verificado activo el 20 oct con reply de apoyo a un colaborador tras su directo de análisis (engagement bajo). Sin pico polémico este ciclo."
     },
     {
       "handle": "@13mescribano",
       "name": "Luis Escribano",
       "category": "Neutro",
       "color": "#666699",
-      "desc": "Crítica sistémica al régimen partidocrático y a la corrupción, con datos (~8K seguidores). Muy activo el 18-19 oct: entrevista en la manifestación de Justicia por la Sanidad (13 likes, 9 RTs), hilos sobre partidocracias europeas y activismo #YoNoVoto. Engagement bajo pero diario. Verificado activo."
+      "desc": "Crítica sistémica al régimen partidocrático y a la corrupción, con datos (~8K seguidores). Muy activo el 25-26 oct: opacidad del PP andaluz, devolución de 18 M€ de UGT y defensa del distrito uninominal. Verificado activo."
     },
     {
       "handle": "@VictorLapuente",
       "name": "Víctor Lapuente",
       "category": "Neutro",
       "color": "#666699",
-      "desc": "Politólogo (~21K seguidores), Oficina de Tendencias Globales del Banco de España. Marcado como INACTIVO: sin posts públicos detectables en la ventana 16-19 oct. Se mantiene en el directorio y en meta.inactive_accounts."
+      "desc": "Politólogo (~21K seguidores), Oficina de Tendencias Globales del Banco de España. Marcado como INACTIVO: sin posts públicos detectables en la ventana 23-26 oct (segunda marca consecutiva). Se mantiene en el directorio y en meta.inactive_accounts."
     },
     {
       "handle": "@EstefMolina_",
       "name": "Estefanía Molina",
       "category": "Neutro",
       "color": "#666699",
-      "desc": "Analista política (~63K seguidores). Activa el 16-18 oct: vídeo sobre por qué el sistema de pensiones es injusto para los jóvenes en precampaña del 29-N (170 likes, 54 RTs, 14,1K views), post sobre construir vivienda (247 likes) y promoción de su canal. Verificada activa."
+      "desc": "Politóloga y columnista (~63K seguidores). Activa el 24-25 oct: tribuna en EL PAÍS sobre la «motosierra» y el gasto público (631 likes), análisis del CIS y de la estrategia de Sánchez. Verificado activo."
     },
     {
       "handle": "@nicolasdepedro",
       "name": "Nicolás de Pedro",
       "category": "Neutro",
       "color": "#666699",
-      "desc": "Analista de seguridad internacional (~15K seguidores). Activo el 16-18 oct: quote sobre la visita de Lavrov a Teherán y crítica a la narrativa pro-Kremlin sobre Zelensky. Volumen selectivo, centrado en geopolítica. Verificado activo."
+      "desc": "Analista de geopolítica (~14,9K seguidores, IStatecraft/Sciences Po). Activo el 23-26 oct: plan de paz para Ucrania, aviso de viaje de Bielorrusia y tribunas en El Confidencial. Verificado activo."
     },
     {
       "handle": "@armesillaconde",
       "name": "Santiago Armesilla",
       "category": "Izquierda",
       "color": "#e84700",
-      "desc": "Izquierda materialista y nacional-popular (~127K seguidores). Muy activo el 17-18 oct con alto engagement: «las derechas españolas deberían agradecer la existencia del PSOE» por los disturbios en Francia (939 likes, 44,2K views) y quote sobre el coche volador chino (1.437 likes). Verificado activo."
+      "desc": "Rector y divulgador (~127K seguidores). Muy activo el 24-25 oct: crítica a las listas electorales y a Vox (4,2K likes, 757 RTs) y defensa de Lula por los BRICS (1,2K likes). Verificado activo."
     },
     {
       "handle": "@Anujbost",
       "name": "Anuj",
       "category": "Izquierda",
       "color": "#e84700",
-      "desc": "Análisis político y movimientos sociales (~81K seguidores). Marcado como INACTIVO: dos búsquedas (tanda C y reintento E) no devuelven publicaciones recientes en la ventana 16-19 oct, solo datos de perfil. Se mantiene en el directorio y en meta.inactive_accounts."
+      "desc": "Cobertura en directo de actualidad internacional y análisis de inmigración y criminalidad con datos (~82K seguidores). Verificado activo el 25 oct: directos sobre Brasil, Barcelona y datos de criminalidad multifactorial (136-261 likes)."
     },
     {
       "handle": "@billkilgore_",
       "name": "Kilgore de Lezo",
       "category": "Joker 🃏",
       "color": "#996633",
-      "desc": "Humor seco (~282K seguidores). Muy activo y con picos virales: «lo de la publicidad de detrás no te lo firma ni José Mota prime» (6.021 likes, 488 RTs, 92,2K views) y pulla a Vinicius (3.653 likes). Verificado activo."
+      "desc": "Humor y fútbol (~283K seguidores). Muy activo el 23-25 oct: «Venga a linea de cal, presidente» con 17,8K likes y 829K views, su pico más viral del ciclo. Verificado activo."
     },
     {
       "handle": "@elmundotoday",
       "name": "El Mundo Today",
       "category": "Joker 🃏",
       "color": "#996633",
-      "desc": "Satírico de referencia en X (~1,43M seguidores). Marcado como INACTIVO: las búsquedas de la tanda D y del reintento E solo devuelven datos de perfil, sin posts recuperables en la ventana 16-19 oct. Se mantiene en el directorio y en meta.inactive_accounts."
+      "desc": "Medio satírico (~1,43M seguidores). Marcado como INACTIVO: sin publicaciones recientes recuperables en la ventana 23-26 oct. Se mantiene en el directorio y en meta.inactive_accounts."
     },
     {
       "handle": "@littleragergirl",
       "name": "Abby",
       "category": "Joker 🃏",
       "color": "#996633",
-      "desc": "Streamer de Twitch y jugadora de LoL, humor y memes. Marcada como INACTIVA: el reintento devuelve únicamente perfiles (variantes @LITTLCRAGERGIRL y @littleragergirl) sin posts recientes. Se mantiene en el directorio y en meta.inactive_accounts."
+      "desc": "Cuenta pequeña de streamer (~108 seguidores en el handle exacto). Marcada como INACTIVA: sin publicaciones recientes en ninguna de sus variantes de handle. Se mantiene en el directorio y en meta.inactive_accounts."
     },
     {
       "handle": "@LaBugsBunnyIA",
       "name": "Fábrica de Memes",
       "category": "Joker 🃏",
       "color": "#996633",
-      "desc": "Genera memes y vídeos de actualidad (~40K seguidores). Muy activa el 17-18 oct pero centrada en política argentina: Messi y vuelo privado (111 likes, 56 RTs), subasta de bienes narco en Santa Fe y la factura de agua de Samid (206 likes). Poca conexión con la guerra cultural española. Verificada activa."
+      "desc": "Fábrica de memes (~40K seguidores). Muy activa el 24-26 oct, aunque su contenido es casi todo política argentina y brasileña (Larreta, Chubut, Lula) más que española. Verificada activa."
     }
   ],
   "virals": [
     {
-      "author": "@InquilinatoMad",
-      "date": "18 oct 2026",
-      "text": "Quienes hemos acompañado a Maricarmen los últimos siete años no vamos a permitir que destrocen su memoria. Son incapaces de borrar todo lo que Maricarmen ha sembrado.",
-      "engagement": "Miles de likes y reposts (alta tracción de la cuenta del Sindicato)",
-      "topic": "Acampada de Sol",
-      "link": "https://x.com/InquilinatoMad/status/2111418273694732474"
-    },
-    {
-      "author": "@PedroCostaFern1",
-      "date": "19 oct 2026",
-      "text": "Cerdán, Leire y las cloacas del PSOE tenían en sus agendas a casi un tercio de los fiscales de la Audiencia Nacional.",
-      "engagement": "Uno de los posts más replicados del hilo de la UCO",
+      "author": "@elxokas",
+      "date": "23 oct 2026",
+      "text": "Este hombre va a intentar el comeback de cualquier forma después de estos 8 años 💀💀💀",
+      "engagement": "+13.000 likes · 430K views",
       "topic": "Sanchismo",
-      "link": "https://x.com/PedroCostaFern1/status/2112401391461581185"
+      "link": "https://x.com/elxokas/status/2113722859453567135"
     },
     {
-      "author": "@FelixATena",
-      "date": "19 oct 2026",
-      "text": "La regularización masiva de Sánchez ya no es solo un debate español: los socios europeos exigen explicaciones en Bruselas.",
-      "engagement": "Alto engagement en el hilo de cifras y regularización",
-      "topic": "Inmigración",
-      "link": "https://x.com/FelixATena/status/2112226212588204411"
+      "author": "@Santi_ABASCAL",
+      "date": "25 oct 2026",
+      "text": "¡Gracias Palma de Mallorca! Acto abarrotadísimo.",
+      "engagement": "+4.680 likes · 1.300 RTs",
+      "topic": "Elecciones",
+      "link": "https://x.com/Santi_ABASCAL/status/2114003962630213867"
     },
     {
-      "author": "@RaraqueR",
-      "date": "19 oct 2026",
-      "text": "La Ley de Vivienda ha convertido la okupación en un negocio sin riesgo para el okupa y en una pesadilla para el propietario que paga la hipoteca.",
-      "engagement": "Post incendiario con cientos de interacciones en el hilo de vivienda",
-      "topic": "Okupación",
-      "link": "https://x.com/RaraqueR/status/2112422025239093307"
+      "author": "@el_pais",
+      "date": "24 oct 2026",
+      "text": "Sánchez recita un poema de Lorca en el mitin de Granada: «Esta es la España que no tiene miedo a su cultura».",
+      "engagement": "+3.068 likes · 482 RTs · 463K views",
+      "topic": "Elecciones",
+      "link": "https://x.com/el_pais/status/2113942146361512390"
     },
     {
-      "author": "@IndonesiaMar",
-      "date": "17 oct 2026",
-      "text": "No era memoria histórica. Era cirugía electoral. El Supremo tumba el pucherazo del censo del PSOE: 163.000 altas en el aire.",
-      "engagement": "El post de mayor engagement del hilo de Memoria Histórica",
-      "topic": "Memoria Histórica",
-      "link": "https://x.com/IndonesiaMar/status/2111387155834843473"
+      "author": "@VanyaValentine",
+      "date": "25 oct 2026",
+      "text": "Crítica a la redacción de los medios sobre el detenido en la acampada: «UN HOMBRE... UNA JOVEN».",
+      "engagement": "+2.521 likes",
+      "topic": "Acampada de Sol",
+      "link": "https://x.com/VanyaValentine/status/2114493818447786048"
     },
     {
-      "author": "@miluka69",
-      "date": "18 oct 2026",
-      "text": "Le ha dado a Puigdemont la amnistía y ha eliminado el delito de malversación para seguir okupando Moncloa. Entre delincuentes anda el juego.",
-      "engagement": "Post de referencia del enfado unionista tras el auto de Llarena",
-      "topic": "Independentismo",
-      "link": "https://x.com/miluka69/status/2112149253984239920"
+      "author": "@lajuliabarish",
+      "date": "24 oct 2026",
+      "text": "Vox ya ha dicho que va a prohibir cultura, el orgullo… La involución que se nos viene es tremenda.",
+      "engagement": "+2.300 likes",
+      "topic": "Wokismo",
+      "link": "https://x.com/lajuliabarish/status/2113929004231065839"
+    },
+    {
+      "author": "@DiarioVLL",
+      "date": "24 oct 2026",
+      "text": "La obra de Lorca cancelada por la Junta renace en Al Norte y agota entradas.",
+      "engagement": "+314 likes · 45K views",
+      "topic": "Cultura de la Cancelación",
+      "link": "https://x.com/DiarioVLL/status/2113949905245159636"
     }
   ]
 }
