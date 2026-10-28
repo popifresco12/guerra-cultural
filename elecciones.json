@@ -1,9 +1,9 @@
 {
- "generado": "2026-10-27T22:55:13+00:00",
+ "generado": "2026-10-28T07:45:46+00:00",
  "eleccion": {
   "nombre": "Elecciones Generales 2026",
   "fecha": "2026-11-29",
-  "dias_restantes": 33
+  "dias_restantes": 32
  },
  "convocatoria": "2026-10-05",
  "hitos": [
@@ -49,7 +49,7 @@
    "url": "https://www.eldiario.es/rss/",
    "noticias": [
     {
-     "titular": "Netanyahu gana, pero la oposición suma más escaños en las primeras elecciones en Israel tras el genocidio, según los sondeos",
+     "titular": "Netanyahu gana las elecciones en Israel, pero no logra la mayoría para formar gobierno",
      "url": "https://www.eldiario.es/internacional/netanyahu-gana-primeras-elecciones-israel-genocidio-no-podra-formar-gobierno-sondeos_1_13619855.html",
      "fecha": "Tue, 27 Oct 2026 20:17:34 +0000"
     },
@@ -59,19 +59,24 @@
      "fecha": "Tue, 27 Oct 2026 16:50:11 +0000"
     },
     {
-     "titular": "El PP sale en tromba a acusar al Gobierno de \"incendiar las calles\" por los disturbios en Bilbao y Barcelona",
-     "url": "https://www.eldiario.es/politica/feijoo-presenta-lista-madrid-29n-no-ganar-quieren-hacerlo-cambiando-reglas-incendiando-calle_1_13618566.html",
-     "fecha": "Tue, 27 Oct 2026 13:17:45 +0000"
+     "titular": "Trump, sobre el visado para acoger al fugado Flávio Bolsonaro: \"Me parece bien, las elecciones fueron realmente extrañas, horribles\"",
+     "url": "https://www.eldiario.es/internacional/trump-visado-fugado-flavio-bolsonaro-parece-elecciones-realmente-extranas-parecieron-horribles_1_13620432.html",
+     "fecha": "Wed, 28 Oct 2026 05:18:20 +0000"
     },
     {
-     "titular": "El Gobierno condena los actos de violencia y tacha de \"barbaridad\" la acusación del PP de que los alienta",
-     "url": "https://www.eldiario.es/politica/gobierno-condena-actos-violencia-tacha-barbaridad-acusacion-pp-alienta_1_13618735.html",
-     "fecha": "Tue, 27 Oct 2026 13:17:22 +0000"
+     "titular": "Begoña Gómez denuncia al PP por utilizar su imagen para un vídeo realizado con inteligencia artificial",
+     "url": "https://www.eldiario.es/politica/begona-gomez-denuncia-pp-utilizar-imagen-video-realizado-inteligencia-artificial_1_13620349.html",
+     "fecha": "Wed, 28 Oct 2026 07:25:29 +0000"
     },
     {
-     "titular": "Los Comuns retiran sus candidaturas al Senado en Girona, Tarragona y Lleida tras pactar con el PSC",
-     "url": "https://www.eldiario.es/catalunya/comuns-retiran-candidaturas-senado-girona-tarragona-lleida-pactar-psc_1_13618026.html",
-     "fecha": "Tue, 27 Oct 2026 11:04:24 +0000"
+     "titular": "Feijóo convierte los disturbios en material de campaña ante el auge de Vox en las encuestas",
+     "url": "https://www.eldiario.es/politica/feijoo-convierte-disturbios-material-campana-auge-vox-encuestas_1_13619429.html",
+     "fecha": "Tue, 27 Oct 2026 21:30:41 +0000"
+    },
+    {
+     "titular": "Listas separadas, integración o candidaturas retiradas: el mapa que muestra cómo se presentará cada partido al Senado",
+     "url": "https://www.eldiario.es/politica/listas-separadas-integracion-candidaturas-retiradas-mapa-muestra-presentara-partido-senado_1_13616113.html",
+     "fecha": "Tue, 27 Oct 2026 21:30:41 +0000"
     },
     {
      "titular": "Irene Montero y Gabriel Rufián, en 'La Revuelta': \"El PSOE jamás se va a atrever a expropiar o nacionalizar, nosotras sí\"",
@@ -79,24 +84,19 @@
      "fecha": "Tue, 27 Oct 2026 22:25:16 +0000"
     },
     {
-     "titular": "Quiénes son los candidatos de Vox al Senado integrados en las listas del PP",
-     "url": "https://www.eldiario.es/politica/son-candidatos-vox-senado-integrados-listas-pp_1_13617335.html",
-     "fecha": "Tue, 27 Oct 2026 06:42:53 +0000"
+     "titular": "La lista de espera oculta del Gobierno de Ayuso se desboca: 360.000 pruebas y visitas médicas guardadas en un cajón",
+     "url": "https://www.eldiario.es/madrid/lista-espera-oculta-gobierno-ayuso-desboca-360-000-pruebas-visitas-medicas-guardadas-cajon_1_13607358.html",
+     "fecha": "Tue, 27 Oct 2026 21:30:42 +0000"
     },
     {
-     "titular": "Un concejal de Vox en Tenerife, a otro de Podemos durante un pleno: \"Me tienes hasta los cojones, eres un hijo de puta\"",
-     "url": "https://www.eldiario.es/canariasahora/politica/concejal-vox-tenerife-podemos-durante-pleno-tienes-cojones-hijo-puta_1_13618736.html",
-     "fecha": "Tue, 27 Oct 2026 17:14:28 +0000"
+     "titular": "El PP sale en tromba a acusar al Gobierno de \"incendiar las calles\" por los disturbios en Bilbao y Barcelona",
+     "url": "https://www.eldiario.es/politica/feijoo-presenta-lista-madrid-29n-no-ganar-quieren-hacerlo-cambiando-reglas-incendiando-calle_1_13618566.html",
+     "fecha": "Tue, 27 Oct 2026 13:17:45 +0000"
     },
     {
-     "titular": "La Audiencia Nacional rechaza la querella de Leire Díez contra el PP por incluirla en un vídeo hecho con IA: \"Es un tema personal\"",
-     "url": "https://www.eldiario.es/politica/audiencia-nacional-inadmite-querella-leire-diez-pp-incluirle-video-hecho-ia-tema-personal_1_13619533.html",
-     "fecha": "Tue, 27 Oct 2026 16:50:43 +0000"
-    },
-    {
-     "titular": "La suspensión de partidos de LaLiga en China obliga a Mbappé a pedir disculpas por llamar dictador a Mao: “Entiendo que he hecho daño”",
-     "url": "https://www.eldiario.es/rastreador/china-suspende-emision-partidos-futbol-aparezca-mbappe-llamar-dictador-mao_132_13617716.html",
-     "fecha": "Tue, 27 Oct 2026 10:07:53 +0000"
+     "titular": "El barrio de Paquita: 144 pisos turísticos ilegales denunciados por los vecinos que Almeida y Ayuso mantienen abiertos",
+     "url": "https://www.eldiario.es/economia/vecinos-madrid-denuncian-144-pisos-turisticos-bloque-paquita-ayuso-almeida-mantienen-abiertos_1_13565555.html",
+     "fecha": "Tue, 27 Oct 2026 21:30:43 +0000"
     }
    ]
   },
@@ -105,54 +105,54 @@
    "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada",
    "noticias": [
     {
-     "titular": "Elecciones en Israel 2026, en directo | Los sondeos a pie de urna dan un resultado muy ajustado entre Netanyahu y la oposición con un castigo al Gobierno",
-     "url": "https://elpais.com/internacional/2026-10-27/elecciones-en-israel-votaciones-escrutinio-y-resultados-en-directo.html",
-     "fecha": "Tue, 27 Oct 2026 22:31:16 GMT"
+     "titular": "Netanyahu gana las elecciones en Israel, pero su coalición no logra la mayoría",
+     "url": "https://elpais.com/internacional/2026-10-27/netanyahu-gana-las-elecciones-en-israel-pero-su-coalicion-queda-lejos-de-la-mayoria.html",
+     "fecha": "Wed, 28 Oct 2026 07:41:30 GMT"
     },
     {
-     "titular": "Flávio Bolsonaro huye a Estados Unidos tras su derrota electoral ante Lula",
+     "titular": "Resultados de las elecciones en Israel 2026, en directo | Trump se otorga el mérito de que Netanyahu no sufriera una “derrota contundente”",
+     "url": "https://elpais.com/internacional/2026-10-28/resultados-y-reacciones-de-las-elecciones-en-israel-en-directo.html",
+     "fecha": "Wed, 28 Oct 2026 07:38:23 GMT"
+    },
+    {
+     "titular": "Abascal teme que Feijóo descuide al votante de centroderecha por disputarle su electorado",
+     "url": "https://elpais.com/espana/elecciones-generales/2026-10-28/abascal-teme-que-feijoo-descuide-al-votante-de-centro-por-disputarle-el-electorado-de-vox.html",
+     "fecha": "Wed, 28 Oct 2026 04:30:01 GMT"
+    },
+    {
+     "titular": "José María Ridao: “El temor de una incidencia de la ley de nietos en el resultado electoral es difícil de sostener con las cifras”",
+     "url": "https://elpais.com/espana/2026-10-28/jose-maria-ridao-el-temor-de-una-incidencia-de-la-ley-de-nietos-en-el-resultado-electoral-es-dificil-de-sostener-con-las-cifras.html",
+     "fecha": "Wed, 28 Oct 2026 04:30:01 GMT"
+    },
+    {
+     "titular": "Última hora de la actualidad política, en directo | Begoña Gómez denunciará al PP por suplantación de identidad por los vídeos del PP con IA",
+     "url": "https://elpais.com/actualidad/2026-10-28/ultima-hora-de-la-actualidad-politica-en-directo.html",
+     "fecha": "Wed, 28 Oct 2026 07:38:43 GMT"
+    },
+    {
+     "titular": "¿Cómo se reparten los escaños en el Congreso y en el Senado?",
+     "url": "https://elpais.com/videos/2026-10-28/como-se-reparten-los-escanos-en-el-congreso-y-en-el-senado.html",
+     "fecha": "Wed, 28 Oct 2026 04:30:01 GMT"
+    },
+    {
+     "titular": "Flávio Bolsonaro huye a Estados Unidos a través de Argentina tras su derrota electoral ante Lula",
      "url": "https://elpais.com/america/2026-10-27/flavio-bolsonaro-huye-a-estados-unidos-tras-su-derrota-electoral-ante-lula.html",
-     "fecha": "Tue, 27 Oct 2026 21:39:24 GMT"
+     "fecha": "Wed, 28 Oct 2026 07:40:46 GMT"
     },
     {
-     "titular": "Comuns acuerda con el PSC retirar sus candidaturas al Senado en Girona, Lleida y Tarragona",
-     "url": "https://elpais.com/espana/elecciones-generales/2026-10-27/comuns-acuerda-con-el-psc-retirar-sus-candidaturas-al-senado-en-girona-lleida-y-tarragona.html",
-     "fecha": "Tue, 27 Oct 2026 12:21:46 GMT"
+     "titular": "Andrea Ropero (’El intermedio’): “Me alegra la expulsión de Vito Quiles del Congreso, a mí no me acreditan”",
+     "url": "https://elpais.com/television/2026-10-28/andrea-ropero-el-intermedio-me-alegra-la-expulsion-de-vito-quiles-del-congreso-a-mi-no-me-acreditan.html",
+     "fecha": "Wed, 28 Oct 2026 04:30:01 GMT"
     },
     {
-     "titular": "La televisión china suspende las emisiones de LaLiga tras la polémica con un meme y Mbappé, que se refirió a Mao Zedong como “dictador”",
-     "url": "https://elpais.com/deportes/futbol/2026-10-27/la-television-estatal-china-suspende-las-emisiones-de-laliga-tras-la-polemica-con-mbappe-y-su-gobierno-destaca-que-ha-herido-los-sentimientos-nacionales.html",
-     "fecha": "Tue, 27 Oct 2026 13:20:32 GMT"
+     "titular": "Ramón Espinar, exdirigente de Podemos: “La vivienda no es una agenda de la izquierda, es un problema de país”",
+     "url": "https://elpais.com/espana/2026-10-28/ramon-espinar-exdirigente-de-podemos-la-vivienda-no-es-una-agenda-de-la-izquierda-es-un-problema-de-pais.html",
+     "fecha": "Wed, 28 Oct 2026 04:30:01 GMT"
     },
     {
-     "titular": "Solo 10 diputados de Sumar repiten en las listas de Frente Amplio",
-     "url": "https://elpais.com/espana/elecciones-generales/2026-10-27/solo-10-diputados-de-sumar-repiten-en-las-listas-de-frente-amplio.html",
-     "fecha": "Tue, 27 Oct 2026 12:45:35 GMT"
-    },
-    {
-     "titular": "La Policía investiga un robo con fuerza en un despacho de abogados ligado al PP de Madrid",
-     "url": "https://elpais.com/espana/madrid/2026-10-27/la-policia-investiga-un-robo-con-fuerza-en-un-despacho-de-abogados-ligado-al-pp-de-madrid.html",
-     "fecha": "Tue, 27 Oct 2026 20:58:08 GMT"
-    },
-    {
-     "titular": "PP y Vox, una alianza clarificadora",
-     "url": "https://elpais.com/espana/elecciones-generales/2026-10-27/pp-y-vox-una-alianza-clarificadora.html",
-     "fecha": "Tue, 27 Oct 2026 04:30:01 GMT"
-    },
-    {
-     "titular": "El PP vota en contra de que el comité de huelga de educación comparezca en la Asamblea de Madrid",
-     "url": "https://elpais.com/espana/madrid/2026-10-27/el-pp-vota-en-contra-de-que-el-comite-de-huelga-de-educacion-comparezca-en-la-asamblea-de-madrid.html",
-     "fecha": "Tue, 27 Oct 2026 15:02:51 GMT"
-    },
-    {
-     "titular": "El PP de Almeida y Vox votan en contra de poner una placa en homenaje a Maricarmen",
-     "url": "https://elpais.com/espana/madrid/2026-10-27/el-pp-de-almeida-y-vox-votan-en-contra-de-poner-una-placa-en-homenaje-a-maricarmen.html",
-     "fecha": "Tue, 27 Oct 2026 12:40:46 GMT"
-    },
-    {
-     "titular": "Una senadora acusada de distribuir marihuana y otras maniobras inusuales de la Fiscalía de Trump antes de las ‘midterms’",
-     "url": "https://elpais.com/us/2026-10-27/una-senadora-acusada-de-distribuir-marihuana-y-otras-maniobras-inusuales-de-la-fiscalia-de-trump-antes-de-las-midterms.html",
-     "fecha": "Tue, 27 Oct 2026 14:26:40 GMT"
+     "titular": "PP y Vox, en coalición",
+     "url": "https://elpais.com/opinion/2026-10-28/pp-y-vox-en-coalicion.html",
+     "fecha": "Wed, 28 Oct 2026 04:30:01 GMT"
     }
    ]
   },
@@ -161,34 +161,34 @@
    "url": "https://www.abc.es/rss/feeds/abc_EspanaEspana.xml",
    "noticias": [
     {
-     "titular": "Velázquez reivindica a los 104 alcaldes toledanos del PP como «aval» para gobernar España",
-     "url": "https://www.abc.es/espana/castilla-la-mancha/toledo/pueblos/velazquez-reivindica-104-alcaldes-toledanos-pp-aval-20261027214737-nt.html",
-     "fecha": "Tue, 27 Oct 2026 21:47:38 +0100"
+     "titular": "Begoña Gómez denuncia al PP por suplantar su imagen con IA",
+     "url": "https://www.abc.es/espana/begona-denuncia-pp-suplantar-imagen-ia-20261028083843-nt.html",
+     "fecha": "Wed, 28 Oct 2026 08:38:43 +0100"
     },
     {
-     "titular": "Un abogado ligado al PP de Madrid denuncia un robo de documentación sobre disputas de afiliados",
-     "url": "https://www.abc.es/espana/abogado-ligado-pp-madrid-denuncia-robo-documentacion-20261027214016-nt.html",
-     "fecha": "Tue, 27 Oct 2026 21:40:17 +0100"
+     "titular": "El Gobierno andaluz aprueba este miércoles el presupuesto de 54.716 millones, el primero del PP y Vox",
+     "url": "https://www.abc.es/espana/andalucia/gobierno-andaluz-aprueba-miercoles-presupuesto-54716-millones-20261028071853-nts.html",
+     "fecha": "Wed, 28 Oct 2026 07:18:53 +0100"
     },
     {
-     "titular": "El Bono Activa Comercio se lanza este miércoles: cómo adquirirlo y dónde utilizarlo",
-     "url": "https://www.abc.es/espana/galicia/bono-activa-comercio-lanza-miercoles-adquirirlo-utilizarlo-20261027210000-nt.html",
-     "fecha": "Tue, 27 Oct 2026 21:00:00 +0100"
+     "titular": "Ignacio Dancusa, líder de NNGG del PP: «Somos la generación más antisocialista de la historia porque son los que nos han traído a la ruina»",
+     "url": "https://www.abc.es/espana/andalucia/cordoba/ignacio-dancusa-lider-nngg-pp-generacion-antisocialista-20261028064631-nts.html",
+     "fecha": "Wed, 28 Oct 2026 06:46:32 +0100"
     },
     {
-     "titular": "Abascal anuncia una querella contra el subdelegado del Gobierno en Zamora por «actos de intimidación» durante su mitin",
-     "url": "https://www.abc.es/espana/castilla-leon/abascal-anuncia-querella-subdelegado-gobierno-zamora-actos-20261027203917-nt.html",
-     "fecha": "Tue, 27 Oct 2026 20:41:16 +0100"
+     "titular": "Iván Redondo, sobre la importancia de Cataluña en las elecciones generales: «Puede ser decisiva. Vox supera al PP y, solo en Barcelona, el PSC le saca ocho escaños al PP»",
+     "url": "https://www.abc.es/espana/cataluna/ivan-redondo-sobre-importancia-cataluna-elecciones-generales-20261028053000-nt.html",
+     "fecha": "Wed, 28 Oct 2026 05:31:39 +0100"
     },
     {
-     "titular": "Abascal anuncia una querella contra el subdelegado del Gobierno en Zamora por los «actos de intimidación» durante su mitin",
-     "url": "https://www.abc.es/espana/castilla-leon/abascal-anuncia-querella-subdelegado-gobierno-zamora-actos-20261027203458-nt.html",
-     "fecha": "Tue, 27 Oct 2026 20:34:58 +0100"
+     "titular": "Encuestas elecciones generales en Galicia: resultados de PP, PSOE, Vox, Sumar y BNG y ganador según los sondeos el 29N",
+     "url": "https://www.abc.es/espana/galicia/encuestas-elecciones-generales-galicia-resultados-pp-psoe-20261028051500-nt.html",
+     "fecha": "Wed, 28 Oct 2026 05:15:06 +0100"
     },
     {
-     "titular": "El acuerdo con Frente Amplio al Senado deja fuera a Tierraseca y a los alcaldes de Cañete, Carrizosa y Consuegra",
-     "url": "https://www.abc.es/espana/castilla-la-mancha/toledo/acuerdo-frente-amplio-senado-deja-tierraseca-alcaldes-20261027202644-nt.html",
-     "fecha": "Tue, 27 Oct 2026 20:26:45 +0100"
+     "titular": "Horarios especiales de Mercadona por el festivo de Todos los Santos: dónde abre sus supermercados",
+     "url": "https://www.abc.es/espana/comunidad-valenciana/horarios-especiales-mercadona-festivo-santos-abre-supermercados-20261028051500-nt.html",
+     "fecha": "Wed, 28 Oct 2026 05:15:00 +0100"
     }
    ]
   },
@@ -197,34 +197,19 @@
    "url": "https://e00-elmundo.uecdn.es/rss/espana.xml",
    "noticias": [
     {
-     "titular": "Los \"independientes\" de Vox que irán en la papeleta del PP: seis perfiles vinculados al partido de Abascal y organizaciones satélite",
-     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/27/6ae07c9321efa071288b456e.html",
-     "fecha": "Tue, 27 Oct 2026 12:24:25 +0100"
+     "titular": "La obsesión centralista de Podemos pone en fuga a sus referentes andaluces y condena al partido a la irrelevancia en la comunidad más poblada",
+     "url": "https://www.elmundo.es/andalucia/2026/10/28/6ae0c09ce9cf4a3f278b4578.html",
+     "fecha": "Wed, 28 Oct 2026 00:00:37 +0100"
     },
     {
-     "titular": "El Frente Amplio cambia la cara a Sumar: renovación profunda, IU lidera más de la mitad de las listas y el fichaje sorpresa de una ex líder de Podemos",
-     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/27/6ae07d26fdddff7b268b456e.html",
-     "fecha": "Tue, 27 Oct 2026 12:47:34 +0100"
-    },
-    {
-     "titular": "Feijóo lanza con Ayuso la lista electoral de Madrid: \"Vamos a gobernar. Calentad, que salís\"",
-     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/27/6ae0a2f7e4d4d80d248b457d.html",
-     "fecha": "Tue, 27 Oct 2026 14:36:01 +0100"
-    },
-    {
-     "titular": "EH Bildu se niega a condenar los sabotajes de cientos de jóvenes que gritaban \"¡Gora ETA militarra!\" en Bilbao",
-     "url": "https://www.elmundo.es/pais-vasco/2026/10/27/6ae07acafc6c8371778b4579.html",
-     "fecha": "Tue, 27 Oct 2026 11:37:20 +0100"
+     "titular": "Segundo intento de prohibir el burka en Lérida: el PSC impulsa el veto junto a Junts y Vox",
+     "url": "https://www.elmundo.es/cataluna/2026/10/28/6adb80b5e85ece09208b456e.html",
+     "fecha": "Wed, 28 Oct 2026 00:00:45 +0100"
     },
     {
      "titular": "La UCO acredita los 300.000 euros que Aldama vincula a la financiación ilegal del PSOE",
      "url": "https://www.elmundo.es/espana/2026/10/26/6ade3a9dfc6c8337488b4597.html",
      "fecha": "Tue, 27 Oct 2026 08:50:03 +0100"
-    },
-    {
-     "titular": "El caótico mapa de la izquierda ante su gran examen el 29-N: división en 45 de las 52 circunscripciones",
-     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/10/27/6adfa55221efa0451e8b45a3.html",
-     "fecha": "Tue, 27 Oct 2026 00:03:22 +0100"
     },
     {
      "titular": "Hazte Oír pide al Supremo que extienda la suspensión del voto a los hijos de los beneficiados por la 'ley de nietos'",
@@ -253,44 +238,19 @@
    "url": "https://okdiario.com/feed",
    "noticias": [
     {
-     "titular": "Las chinches de cama llegan en otoño, pero podemos mantenerlas alejadas con algunos métodos caseros y sencillos",
-     "url": "https://okdiario.com/curiosidades/avisan-insisten-chinches-cama-otono-podemos-mantenerlas-alejadas-algunos-metodos-caseros-bastante-sencillos-20414654",
-     "fecha": "Tue, 27 Oct 2026 23:46:35 +0100"
+     "titular": "Rufián aprovecha para politizar a Lamine Yamal: «Abascal le quería echar del país»",
+     "url": "https://okdiario.com/deportes/rufian-aprovecha-politizar-lamine-yamal-abascal-queria-echar-del-pais-20646083",
+     "fecha": "Wed, 28 Oct 2026 08:17:59 +0100"
     },
     {
-     "titular": "El Sestao River pega la primera campanada de la Copa con un gol contra el Espanyol en el 120′ de la prórroga",
-     "url": "https://okdiario.com/deportes/sestao-river-pega-primera-campanada-copa-gol-contra-espanyol-120-prorroga-20645140",
-     "fecha": "Tue, 27 Oct 2026 21:46:25 +0100"
+     "titular": "Última hora de las elecciones generales del 29-N y actualidad política hoy | Se acaba el plazo del Tribunal Supremo para entregar las listas de la Ley de Nietos",
+     "url": "https://okdiario.com/espana/ultima-hora-elecciones-generales-del-29-n-actualidad-politica-hoy-acaba-plazo-del-tribunal-supremo-entregar-listas-ley-nietos-20645948",
+     "fecha": "Wed, 28 Oct 2026 08:02:10 +0100"
     },
     {
-     "titular": "Isabel Díaz Ayuso, (48 años): «Me levanto a las cinco de la mañana y a las seis ya estoy trabajando. A las ocho voy al gimnasio para hacer máquinas, pesas y correr»",
-     "url": "https://okdiario.com/cool/famosos/isabel-diaz-ayuso-48-anos-levanto-cinco-manana-seis-ya-estoy-trabajando-ocho-voy-gimnasio-hacer-maquinas-pesas-correr-20639443",
-     "fecha": "Tue, 27 Oct 2026 21:45:36 +0100"
-    },
-    {
-     "titular": "El jefe del voto CERA que implantó la orden de Puente y la jefa de gabinete del nº 2 de Exteriores dimiten en plena polémica por los nietos",
-     "url": "https://okdiario.com/espana/jefe-del-voto-cera-que-implanto-orden-puente-jefa-gabinete-del-no-2-exteriores-dimiten-plena-polemica-nietos-20640233",
-     "fecha": "Tue, 27 Oct 2026 21:14:01 +0100"
-    },
-    {
-     "titular": "Última hora de las huelgas, elecciones generales del 29-N y actualidad política hoy: Junts se abre a investir al PSOE si Sánchez no se presenta",
-     "url": "https://okdiario.com/espana/ultima-hora-huelgas-elecciones-generales-del-29-n-actualidad-politica-hoy-alberto-nunez-feijoo-presenta-candidatura-madrid-20637431",
-     "fecha": "Tue, 27 Oct 2026 21:00:15 +0100"
-    },
-    {
-     "titular": "Junts se abre a investir a un Gobierno del PSOE sin Sánchez y sí se beneficia a Cataluña",
-     "url": "https://okdiario.com/espana/junts-abre-investir-psoe-si-sanchez-no-presenta-20644846",
-     "fecha": "Tue, 27 Oct 2026 20:55:06 +0100"
-    },
-    {
-     "titular": "Inda: «Sánchez dijo que lo de Brasil se repetirá en España, ¿está diciendo que aquí habrá pucherazo y exilio de Feijóo y Abascal?»",
-     "url": "https://okdiario.com/opinion/inda-sanchez-dijo-que-lo-brasil-repetira-espana-esta-diciendo-que-aqui-habra-pucherazo-exilio-feijoo-abascal-20644671",
-     "fecha": "Tue, 27 Oct 2026 20:20:06 +0100"
-    },
-    {
-     "titular": "Tres concejales de Madrid se hacen eco de la noticia de OKDIARIO: la Sareb vende 3.000 viviendas de lujo en el mercado libre",
-     "url": "https://okdiario.com/economia/vivienda/informacion-okdiario-sobre-viviendas-venta-sareb-ocupa-debate-madrid-20644179",
-     "fecha": "Tue, 27 Oct 2026 19:09:25 +0100"
+     "titular": "Es oficial y está confirmado por la Seguridad Social: se permite sumar 3 años de cotización a los trabajadores que pidan una excedencia para cuidar de un familiar",
+     "url": "https://okdiario.com/economia/oficial-esta-confirmado-seguridad-social-permite-sumar-3-anos-cotizacion-trabajadores-que-pidan-excedencia-cuidar-familiar-20639166",
+     "fecha": "Wed, 28 Oct 2026 07:30:28 +0100"
     }
    ]
   },
@@ -299,24 +259,24 @@
    "url": "https://theobjective.com/feed/",
    "noticias": [
     {
-     "titular": "Puente ve a la derecha «desesperada» con «girar la campaña» del 29-N hacia los disturbios",
-     "url": "https://theobjective.com/espana/politica/2026-10-27/puente-derecha-desesperada-campana-29-n-disturbios/",
-     "fecha": "Tue, 27 Oct 2026 22:04:17 +0000"
+     "titular": "Sánchez decidió adelantar las elecciones tras una comida con sus padres y Begoña Gómez",
+     "url": "https://theobjective.com/espana/politica/2026-10-28/sanchez-elecciones-comida-padres-begona-gomez/",
+     "fecha": "Wed, 28 Oct 2026 07:38:22 +0000"
     },
     {
-     "titular": "Abascal asegura que el candidato de Sánchez en Ceuta que fue denunciado por «salafismo»",
-     "url": "https://theobjective.com/espana/politica/2026-10-27/abascal-candidato-sanchez-ceuta-salafismo/",
-     "fecha": "Tue, 27 Oct 2026 20:32:30 +0000"
+     "titular": "Trump se atribuye que Netanyahu evite una «derrota decisiva» en las elecciones de Israel",
+     "url": "https://theobjective.com/internacional/2026-10-28/trump-netanyahu-elecciones-israel/",
+     "fecha": "Wed, 28 Oct 2026 06:40:35 +0000"
     },
     {
-     "titular": "Puente pide a las autonomías del PP dejar el «partidismo» y adoptar las ayudas al transporte",
-     "url": "https://theobjective.com/economia/2026-10-27/puente-autonomias-pp-partidismo-ayudas-transporte/",
-     "fecha": "Tue, 27 Oct 2026 20:27:27 +0000"
+     "titular": "Delcy Rodríguez pide que las futuras elecciones en Venezuela sirvan para «resolver problemas»",
+     "url": "https://theobjective.com/internacional/2026-10-28/delcy-rodriguez-elecciones-venezuela-problemas/",
+     "fecha": "Wed, 28 Oct 2026 06:14:09 +0000"
     },
     {
-     "titular": "Tebas busca «soluciones» con el embajador de China en España tras la polémica con Mbappé",
-     "url": "https://theobjective.com/deportes/futbol/2026-10-27/tebas-soluciones-embajador-china-polemica-mbappe/",
-     "fecha": "Tue, 27 Oct 2026 19:47:59 +0000"
+     "titular": "VÍDEO | El PSOE designa al Senado por Ceuta a un musulmán que llamó «hijo de puta» a Sánchez",
+     "url": "https://theobjective.com/videos/espana/2026-10-28/video-el-psoe-designa-al-senado-por-ceuta-a-un-musulman-que-llamo-hijo-de-puta-a-sanchez/",
+     "fecha": "Wed, 28 Oct 2026 04:30:00 +0000"
     }
    ]
   }
@@ -335,6 +295,16 @@
  ],
  "bluesky": [
   {
+   "texto": "\"Si el PSOE vuelve a sumar escaños con otras fuerzas para gobernar tras el #29N, la reacción de la #ultraderecha será furibunda, porque han perdido algo que consideran suyo de cuna, el poder. Y ya calientan motores\".  Escribo 🗳️   #elecciones  www.publico.es/opinion/colu...",
+   "autor": "Ana Pardo de Vera P.",
+   "usuario": "@pardodevera.bsky.social",
+   "url": "https://bsky.app/profile/pardodevera.bsky.social/post/3mypzprbdxc27",
+   "fecha": "2026-10-25T20:18:42.776Z",
+   "likes": 236,
+   "rts": 109,
+   "resp": 20
+  },
+  {
    "texto": "Flavio bolsonaro pide anular las elecciones  No reconoce la victoria Esta canción queremos que nos la cante usted el 29N señor feijóo.",
    "autor": "Pereblu🔻",
    "usuario": "@fauronet.bsky.social",
@@ -343,6 +313,26 @@
    "likes": 260,
    "rts": 78,
    "resp": 12
+  },
+  {
+   "texto": "Se avecina una ofensiva judicial de aquí al 29N. Los jueces no tienen huevos a presentarse a las elecciones, eso sí, van a hacer su campaña.",
+   "autor": "Bulldog punk.",
+   "usuario": "@bulldog75.bsky.social",
+   "url": "https://bsky.app/profile/bulldog75.bsky.social/post/3myl4gblrgc2l",
+   "fecha": "2026-10-23T21:23:46.886Z",
+   "likes": 200,
+   "rts": 89,
+   "resp": 19
+  },
+  {
+   "texto": "“Israel es una dictadura fascista. No como lo fueron Italia, Alemania o España, porque el fascismo del siglo XXI es diferente y las circunstancias también, pero básicamente las ideas son las mismas.”  — Ofer Cassif, diputado y candidato de izquierdas a las elecciones generales de Israel.",
+   "autor": "El Psicoanalista",
+   "usuario": "@elpsicoanalista.bsky.social",
+   "url": "https://bsky.app/profile/elpsicoanalista.bsky.social/post/3mytm6hab522y",
+   "fecha": "2026-10-27T06:27:02.131Z",
+   "likes": 111,
+   "rts": 58,
+   "resp": 3
   },
   {
    "texto": "\"Tengo una noticia para PP y para Vox\"  \"El 29 N van a perder las elecciones\"  \"Me parece [...] peligroso lo que anuncian que harían si llegaran a gobernar este país... con el recorte, por ej., de las pensiones...\"  Pilar Alegría  ⬇️",
@@ -355,16 +345,6 @@
    "resp": 2
   },
   {
-   "texto": "“Israel es una dictadura fascista. No como lo fueron Italia, Alemania o España, porque el fascismo del siglo XXI es diferente y las circunstancias también, pero básicamente las ideas son las mismas.”  — Ofer Cassif, diputado y candidato de izquierdas a las elecciones generales de Israel.",
-   "autor": "El Psicoanalista",
-   "usuario": "@elpsicoanalista.bsky.social",
-   "url": "https://bsky.app/profile/elpsicoanalista.bsky.social/post/3mytm6hab522y",
-   "fecha": "2026-10-27T06:27:02.131Z",
-   "likes": 96,
-   "rts": 51,
-   "resp": 3
-  },
-  {
    "texto": "#españa #elecciones #eleccionesgenerales #29n #ultraderechas #democracia #abascal #feijoo #noolvidamos #nopasaran #niolvidoniperdon #voto #vota #espanya #racismo #xenofobia #ultraderechas #Negacionistas #sionismo #sionistas #stopgenocide #freegaza #lgtbiq+ #niunamas #bastaya #ecologia #transgenero",
    "autor": "Demetrioymedio",
    "usuario": "@demetrioymedio.bsky.social",
@@ -373,6 +353,26 @@
    "likes": 100,
    "rts": 44,
    "resp": 1
+  },
+  {
+   "texto": "#isidoro #gonzalez #felipe #felipegonzalez #traidor #espanha #espanya #psoe #elecciones #españa #eleccionesgenerales #29n #ultraderechas #democracia #franquismo #verguenza #cateto #viral #dato #gal #foto #selfie #retrato #exclusiva #hemeroteca #ultraderecha 🤦💩💩💩💩💩👇😵😵🤧🤧🤧🤮🤮🤢🤢🥶🥶🥵🥵",
+   "autor": "Demetrioymedio",
+   "usuario": "@demetrioymedio.bsky.social",
+   "url": "https://bsky.app/profile/demetrioymedio.bsky.social/post/3mynnrpyusc2v",
+   "fecha": "2026-10-24T21:39:44.177Z",
+   "likes": 99,
+   "rts": 44,
+   "resp": 7
+  },
+  {
+   "texto": "Lecciones para el 29N:  ✅️ Hay tiempo de sobra para votar por correo (es seguro). ✅️ Si no quieres/puedes votar por correo, acude temprano a tu colegio electoral el día de las elecciones. ✅️ Vota izquierda si quieres conservar el Estado de bienestar y tus derechos.  Sentíos libres de ir añadiendo más.",
+   "autor": "Garrincha #7291",
+   "usuario": "@garrinchacf.bsky.social",
+   "url": "https://bsky.app/profile/garrinchacf.bsky.social/post/3myr6sqax2k2x",
+   "fecha": "2026-10-26T07:22:30.826Z",
+   "likes": 97,
+   "rts": 42,
+   "resp": 8
   },
   {
    "texto": "#genova13 #feijoo #verguenza #historia #noolvido #ppesmierda #partidopopular #salarios #sanidadpublica #educaciónpublica #pensiones #desahucios #vivienda #pp #narcos #cocaleros #cocaina #narcotrafico #interpol #policia #crimenorganizado #mafiapp #mafias #vox #galicia #historia #29n #elecciones 😡🤬😵💩😱",
@@ -390,69 +390,29 @@
    "usuario": "@obdriftwood.bsky.social",
    "url": "https://bsky.app/profile/obdriftwood.bsky.social/post/3mymcxejtjs2t",
    "fecha": "2026-10-24T08:53:22.358Z",
-   "likes": 104,
+   "likes": 105,
    "rts": 20,
    "resp": 7
   },
   {
-   "texto": "🇧🇷 Javier Milei apoyó públicamente a Flávio Bolsonaro y participó en un acto de su candidatura en São Paulo el 25 de julio de 2026.   🇪🇸 En octubre de 2026, Milei viajó a España para respaldar al PP y a Vox en la precampaña de las elecciones generales del 29 de noviembre.",
-   "autor": "Democracia real YA! #7292",
-   "usuario": "@democraciarealya.bsky.social",
-   "url": "https://bsky.app/profile/democraciarealya.bsky.social/post/3myronw6qbk2i",
-   "fecha": "2026-10-26T12:06:09.134Z",
-   "likes": 33,
-   "rts": 16,
-   "resp": 1
+   "texto": "«Al #fascismo se le reconoce mejor en la adversidad que en la victoria, porque resulta aun más despreciable cuando huye desnudo, en estado puro, con todas las vergüenzas al aire e importándole nada lo que deja atrás».   Escribo ✍🏼   #Bolsonaro  #29N  #Elecciones   www.publico.es/opinion/colu...",
+   "autor": "Ana Pardo de Vera P.",
+   "usuario": "@pardodevera.bsky.social",
+   "url": "https://bsky.app/profile/pardodevera.bsky.social/post/3myvccwixlk2i",
+   "fecha": "2026-10-27T22:35:54.426Z",
+   "likes": 80,
+   "rts": 26,
+   "resp": 4
   },
   {
-   "texto": "ACOM, el lobby de Israel en España que presume de influencia en Vox y celebra los disturbios en Barcelona. La injerencia sionista se agrava con la convocatoria de elecciones generales www.elplural.com/politica/esp...",
-   "autor": "Panic Orfila [IS]🔻🌹✊💜🏞️📖🚲",
-   "usuario": "@panicorfila.bsky.social",
-   "url": "https://bsky.app/profile/panicorfila.bsky.social/post/3mytlt4muk22w",
-   "fecha": "2026-10-27T06:20:41.921Z",
-   "likes": 21,
-   "rts": 21,
-   "resp": 1
-  },
-  {
-   "texto": "Perder unas elecciones es normal en democracia. Perder las democracia en unas elecciones es una tragedia.  Recuérdalo el #29N, votar PP o VOX es arriesgarte a perder lo que 43 años de sufrimientos nos costó conseguir. #ZurdasYOrgullosas #ZurdosYOrgullosos #LaFuerzaDeLaGente",
-   "autor": "Guillem #FreePalestine🇵🇸",
-   "usuario": "@guillemcristo.bsky.social",
-   "url": "https://bsky.app/profile/guillemcristo.bsky.social/post/3mykgml5vts2s",
-   "fecha": "2026-10-23T14:53:35.922Z",
-   "likes": 20,
-   "rts": 18,
-   "resp": 1
-  },
-  {
-   "texto": "El Figaredo parecía muy idiota, bueno lo es, pero le está marcando la agenda Electoral a Núñez Feijoo, que es más idiota aún 😱😂😂🙊😜😝 #vox #pp #nuñezfeijoo #elecciones #eleccionesgenerales #29n #partidopopular #pensiones #nopasaran #smi #empleo #aborto #eutanasia #diversidad",
-   "autor": "Demetrioymedio",
-   "usuario": "@demetrioymedio.bsky.social",
-   "url": "https://bsky.app/profile/demetrioymedio.bsky.social/post/3myq6ef7gxk2d",
-   "fecha": "2026-10-25T21:41:49.743Z",
-   "likes": 21,
-   "rts": 6,
-   "resp": 1
-  },
-  {
-   "texto": "El \"emotivo\" regalo de Jaime Lorente a Broncano a las puertas de las elecciones generales: \"Es un regalo para España\"",
-   "autor": "Cadena SER",
-   "usuario": "@cadenaser.com",
-   "url": "https://bsky.app/profile/cadenaser.com/post/3myfpah335r24",
-   "fecha": "2026-10-21T17:44:33+00:00",
-   "likes": 11,
-   "rts": 8,
-   "resp": 0
-  },
-  {
-   "texto": "Las del 29-N no son unas elecciones cualquiera. Nos jugamos mucho: la agenda reaccionaria de Feivox o extender derechos y garantizar vidas dignas.  El mejor antídoto contra la ultraderecha son políticas que frenen la emergencia habitacional y avancen en igualdad.  @nereakortajarena.bsky.social",
-   "autor": "EH Bildu",
-   "usuario": "@ehbildu.bsky.social",
-   "url": "https://bsky.app/profile/ehbildu.bsky.social/post/3mymgsklqhs2r",
-   "fecha": "2026-10-24T10:02:16.095Z",
-   "likes": 13,
-   "rts": 5,
-   "resp": 0
+   "texto": "Marcando el camino para el 29N… gana la izquierda y la derecha no reconoce el resultado.",
+   "autor": "Julio Lleonart",
+   "usuario": "@juliolleonart.com",
+   "url": "https://bsky.app/profile/juliolleonart.com/post/3myqxgddrdc2a",
+   "fecha": "2026-10-26T05:10:18.440Z",
+   "likes": 68,
+   "rts": 14,
+   "resp": 3
   }
  ]
 }
