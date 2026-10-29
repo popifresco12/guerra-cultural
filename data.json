@@ -1,13 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-10-28T08:01:27+01:00",
+    "generated_at": "2026-10-29T08:06:00+01:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "reacciones en X al mitin de Sánchez Feijóo Abascal esta semana campaña elecciones generales 29N sondeos escaños (desde 2026-10-25)",
-      "debate en X esta semana sanchismo UCO Cerdán Zapatero corrupción PSOE (desde 2026-10-25)",
-      "debate en X esta semana inmigración España Ceuta Canarias llegadas irregulares regularización (desde 2026-10-25)",
-      "polémica esta semana Sindicato de Inquilinas acampada Puerta del Sol vivienda alquiler (desde 2026-10-25)",
-      "debate en X esta semana ideología woke polémica medios cultura España (desde 2026-10-25)"
+      "reacciones en X al mitin de Sánchez Feijóo Abascal esta semana campaña elecciones generales 29N sondeos escaños (desde 2026-10-26) -> FALLIDA: personal-team-blocked:spending-limit",
+      "debate en X esta semana sanchismo UCO Cerdán Zapatero corrupción PSOE (desde 2026-10-26) -> FALLIDA: personal-team-blocked:spending-limit",
+      "debate en X esta semana inmigración España Ceuta Canarias llegadas irregulares regularización (desde 2026-10-26) -> FALLIDA: personal-team-blocked:spending-limit",
+      "polémica esta semana Sindicato de Inquilinas acampada Puerta del Sol vivienda alquiler (desde 2026-10-26) -> FALLIDA: personal-team-blocked:spending-limit"
     ],
     "stale_topics": [
       "acampada-sol",
@@ -30,10 +29,11 @@
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "previous_generated_at": "2026-10-26T08:21:52+01:00",
+    "previous_generated_at": "2026-10-28T08:01:27+01:00",
     "previous_source": "cron 09f22b3f6f78",
     "fallback": "full",
-    "notes": "Fallback completo: crédito xAI agotado (personal-team-blocked:spending-limit). Las 5 primeras búsquedas de tópicos fallaron de forma idéntica, lo que confirma crédito de cuenta y no forma de query; no se hicieron reintentos en bucle. Jornada 1 del nuevo bloqueo tras la recarga del 26-10 (que dio una sola jornada operativa: 26-10; el 27-10 no hubo actualización de datos, el generated_at seguía en 26-10). Los 13 tópicos, noticias, tendencias, cuentas y virales se reutilizan literalmente del commit anterior; meta.inactive_accounts se mantiene exactamente igual porque una cuenta sin verificar no es ni activa ni inactiva. No se añade snapshot a history.json para no fabricar un punto en el gráfico de evolución. Recarga en https://grok.com/?_s=usage — el patrón observado es de 1-2 jornadas operativas por recarga. sources.json NO generado: el entorno RAG /home/carlo/guerra-cultural-rag no existe en este host Windows."
+    "blocked_days": 2,
+    "notes": "Fallback completo (jornada 2 del bloqueo de crédito xAI). Las 4 primeras búsquedas de la tanda 1 (elecciones, sanchismo, inmigracion, acampada-sol) fallaron de forma idéntica con personal-team-blocked:spending-limit, lo que confirma crédito de cuenta agotado y no forma de query; no se hicieron reintentos en bucle ni se gastaron las 9 búsquedas restantes. Los 13 tópicos, noticias, tendencias, cuentas y virales se reutilizan literalmente del commit anterior; meta.inactive_accounts se mantiene exactamente igual porque una cuenta sin verificar no es ni activa ni inactiva. NO se añade snapshot a history.json para no fabricar un punto en el gráfico de evolución. Recarga en https://grok.com/?_s=usage — patrón observado: 1-2 jornadas operativas por recarga. sources.json NO generado: el entorno RAG /home/carlo/guerra-cultural-rag no existe en este host Windows."
   },
   "topics": [
     {
