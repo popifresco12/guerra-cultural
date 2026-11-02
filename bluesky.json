@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-11-02T08:46:04+01:00",
+    "generated_at": "2026-11-02T09:27:33+01:00",
     "fuente": "Bluesky (app.bsky.feed.searchPosts, API publica, filtro idioma es)",
     "nota": "Volumenes NO comparables con X: son plataformas distintas. Se comparan ordenes relativos del mismo tema, no totales.",
     "temas_ok": 12,
     "temas_error": [],
     "total_posts": 1178,
-    "total_engagement": 9815,
-    "total_likes": 6537,
-    "total_reposts": 2544,
-    "total_respuestas": 734,
+    "total_engagement": 9828,
+    "total_likes": 6555,
+    "total_reposts": 2540,
+    "total_respuestas": 733,
     "cuentas_unicas": 88
   },
   "ranking": [
@@ -27,7 +27,7 @@
     },
     {
       "id": "woke",
-      "engagement": 1077,
+      "engagement": 1082,
       "posts": 100,
       "engagement_medio": 10.8
     },
@@ -39,37 +39,37 @@
     },
     {
       "id": "ley-trans",
-      "engagement": 766,
+      "engagement": 770,
       "posts": 99,
-      "engagement_medio": 7.7
+      "engagement_medio": 7.8
     },
     {
       "id": "facha",
-      "engagement": 565,
+      "engagement": 585,
       "posts": 93,
-      "engagement_medio": 6.1
+      "engagement_medio": 6.3
     },
     {
       "id": "sanchismo",
-      "engagement": 545,
+      "engagement": 547,
       "posts": 99,
       "engagement_medio": 5.5
     },
     {
-      "id": "elecciones",
-      "engagement": 453,
-      "posts": 100,
-      "engagement_medio": 4.5
-    },
-    {
       "id": "memoria",
-      "engagement": 438,
+      "engagement": 441,
       "posts": 91,
       "engagement_medio": 4.8
     },
     {
+      "id": "elecciones",
+      "engagement": 429,
+      "posts": 100,
+      "engagement_medio": 4.3
+    },
+    {
       "id": "independentismo",
-      "engagement": 422,
+      "engagement": 425,
       "posts": 100,
       "engagement_medio": 4.2
     },
@@ -136,8 +136,8 @@
       "nombre": "Diario Público",
       "posts": 3,
       "likes": 191,
-      "reposts": 79,
-      "engagement": 281,
+      "reposts": 80,
+      "engagement": 282,
       "temas": [
         "cultura-cancelacion",
         "elecciones"
@@ -147,23 +147,11 @@
       "handle": "ugosinhache.bsky.social",
       "nombre": "Ugo Sin Hache",
       "posts": 3,
-      "likes": 221,
-      "reposts": 35,
-      "engagement": 265,
+      "likes": 225,
+      "reposts": 36,
+      "engagement": 270,
       "temas": [
         "sanchismo",
-        "facha"
-      ]
-    },
-    {
-      "handle": "mse09.bsky.social",
-      "nombre": "MSevilla✊🏻🌹",
-      "posts": 23,
-      "likes": 150,
-      "reposts": 75,
-      "engagement": 229,
-      "temas": [
-        "elecciones",
         "facha"
       ]
     },
@@ -176,6 +164,18 @@
       "engagement": 217,
       "temas": [
         "ley-trans"
+      ]
+    },
+    {
+      "handle": "mse09.bsky.social",
+      "nombre": "MSevilla✊🏻🌹",
+      "posts": 21,
+      "likes": 139,
+      "reposts": 67,
+      "engagement": 210,
+      "temas": [
+        "elecciones",
+        "facha"
       ]
     },
     {
@@ -212,6 +212,17 @@
       ]
     },
     {
+      "handle": "carlosbardem.bsky.social",
+      "nombre": "Carlos Bardem",
+      "posts": 1,
+      "likes": 110,
+      "reposts": 56,
+      "engagement": 169,
+      "temas": [
+        "memoria"
+      ]
+    },
+    {
       "handle": "burakcrow.bsky.social",
       "nombre": "Bura_k_crow",
       "posts": 1,
@@ -220,17 +231,6 @@
       "engagement": 169,
       "temas": [
         "woke"
-      ]
-    },
-    {
-      "handle": "carlosbardem.bsky.social",
-      "nombre": "Carlos Bardem",
-      "posts": 1,
-      "likes": 108,
-      "reposts": 55,
-      "engagement": 166,
-      "temas": [
-        "memoria"
       ]
     },
     {
@@ -260,9 +260,9 @@
       "handle": "donmitxel-oficial.bsky.social",
       "nombre": "Don Mitxel I de Euskadi y V del Secarral",
       "posts": 1,
-      "likes": 94,
-      "reposts": 25,
-      "engagement": 126,
+      "likes": 95,
+      "reposts": 27,
+      "engagement": 129,
       "temas": [
         "independentismo"
       ]
@@ -316,9 +316,9 @@
       "handle": "meriendismo.bsky.social",
       "nombre": "Meriendismo 🍉",
       "posts": 3,
-      "likes": 66,
+      "likes": 67,
       "reposts": 10,
-      "engagement": 85,
+      "engagement": 86,
       "temas": [
         "independentismo",
         "espana-vaciada",
@@ -363,10 +363,10 @@
     "sanchismo": {
       "consulta": "sanchismo",
       "posts": 99,
-      "likes": 347,
-      "reposts": 140,
-      "respuestas": 58,
-      "engagement": 545,
+      "likes": 349,
+      "reposts": 141,
+      "respuestas": 57,
+      "engagement": 547,
       "engagement_medio": 5.5,
       "autores": [
         {
@@ -383,10 +383,10 @@
           "handle": "ugosinhache.bsky.social",
           "nombre": "Ugo Sin Hache",
           "posts": 1,
-          "likes": 85,
-          "reposts": 16,
+          "likes": 87,
+          "reposts": 17,
           "respuestas": 4,
-          "engagement": 105,
+          "engagement": 108,
           "ejemplo": "La cantidad de gente que dice \"sanchismo\" a un gobierno que no ha podido hacer demasiado porque los votos en el Congreso no le favorecen.   El gobierno de ZP por ejemplo es más rec"
         },
         {
@@ -666,20 +666,20 @@
     "independentismo": {
       "consulta": "independentismo",
       "posts": 100,
-      "likes": 283,
-      "reposts": 73,
+      "likes": 284,
+      "reposts": 75,
       "respuestas": 66,
-      "engagement": 422,
+      "engagement": 425,
       "engagement_medio": 4.2,
       "autores": [
         {
           "handle": "donmitxel-oficial.bsky.social",
           "nombre": "Don Mitxel I de Euskadi y V del Secarral",
           "posts": 1,
-          "likes": 94,
-          "reposts": 25,
+          "likes": 95,
+          "reposts": 27,
           "respuestas": 7,
-          "engagement": 126,
+          "engagement": 129,
           "ejemplo": "Pues si aquí gana Bildu y en España logran gobernar PPVox, mi única duda es si la izquierda española seguirá sin entender al independentismo, porque estaríamos hablando no de dos p"
         },
         {
@@ -755,10 +755,10 @@
       ],
       "top": {
         "texto": "Pues si aquí gana Bildu y en España logran gobernar PPVox, mi única duda es si la izquierda española seguirá sin entender al independentismo, porque estaríamos hablando no de dos países, sino de dos planetas distintos.",
-        "likes": 94,
-        "reposts": 25,
+        "likes": 95,
+        "reposts": 27,
         "respuestas": 7,
-        "engagement": 126,
+        "engagement": 129,
         "autor": "donmitxel-oficial.bsky.social",
         "nombre": "Don Mitxel I de Euskadi y V del Secarral",
         "fecha": "2026-11-01T12:33:05.797Z"
@@ -767,20 +767,20 @@
     "memoria": {
       "consulta": "memoria histórica",
       "posts": 91,
-      "likes": 302,
-      "reposts": 119,
+      "likes": 304,
+      "reposts": 120,
       "respuestas": 17,
-      "engagement": 438,
+      "engagement": 441,
       "engagement_medio": 4.8,
       "autores": [
         {
           "handle": "carlosbardem.bsky.social",
           "nombre": "Carlos Bardem",
           "posts": 1,
-          "likes": 108,
-          "reposts": 55,
+          "likes": 110,
+          "reposts": 56,
           "respuestas": 3,
-          "engagement": 166,
+          "engagement": 169,
           "ejemplo": "Yo fui a hablar de mi libro, TRIÁNGULO 🔺(II), pero: los Nazis Pocoyó entre Franco y Bob Esponja, la Insuficiente Memoria Histórica y la Ley de punto final (amnistía) del 77 (atado "
         },
         {
@@ -856,10 +856,10 @@
       ],
       "top": {
         "texto": "Yo fui a hablar de mi libro, TRIÁNGULO 🔺(II), pero: los Nazis Pocoyó entre Franco y Bob Esponja, la Insuficiente Memoria Histórica y la Ley de punto final (amnistía) del 77 (atado y bien atado).",
-        "likes": 108,
-        "reposts": 55,
+        "likes": 110,
+        "reposts": 56,
         "respuestas": 3,
-        "engagement": 166,
+        "engagement": 169,
         "autor": "carlosbardem.bsky.social",
         "nombre": "Carlos Bardem",
         "fecha": "2026-11-01T09:19:56.574Z"
@@ -969,10 +969,10 @@
     "woke": {
       "consulta": "woke",
       "posts": 100,
-      "likes": 861,
+      "likes": 866,
       "reposts": 141,
       "respuestas": 75,
-      "engagement": 1077,
+      "engagement": 1082,
       "engagement_medio": 10.8,
       "autores": [
         {
@@ -1171,11 +1171,11 @@
     "ley-trans": {
       "consulta": "ley trans",
       "posts": 99,
-      "likes": 509,
-      "reposts": 183,
+      "likes": 512,
+      "reposts": 184,
       "respuestas": 74,
-      "engagement": 766,
-      "engagement_medio": 7.7,
+      "engagement": 770,
+      "engagement_medio": 7.8,
       "autores": [
         {
           "handle": "ekain-arq.bsky.social",
@@ -1272,40 +1272,30 @@
     "elecciones": {
       "consulta": "29N",
       "posts": 100,
-      "likes": 272,
-      "reposts": 160,
+      "likes": 264,
+      "reposts": 144,
       "respuestas": 21,
-      "engagement": 453,
-      "engagement_medio": 4.5,
+      "engagement": 429,
+      "engagement_medio": 4.3,
       "autores": [
         {
           "handle": "mse09.bsky.social",
           "nombre": "MSevilla✊🏻🌹",
-          "posts": 22,
-          "likes": 136,
-          "reposts": 70,
+          "posts": 20,
+          "likes": 125,
+          "reposts": 62,
           "respuestas": 3,
-          "engagement": 209,
+          "engagement": 190,
           "ejemplo": "Socialistas vamos a seguirnos, #EjercitoRojo  #EjercitoRojo  #29N  #YoConPedroSanchez #LaFuerzaDeLaGente #Psoe"
-        },
-        {
-          "handle": "riverovictor.bsky.social",
-          "nombre": "Víctor Rivero🔻🍉 #7291",
-          "posts": 4,
-          "likes": 15,
-          "reposts": 22,
-          "respuestas": 2,
-          "engagement": 39,
-          "ejemplo": "🔴Ley D'Hondt: Tu voto no es igual en toda España •En provincias pequeñas, dividir la izquierda regala escaños a la derecha •En las grandes, puedes elegir tu opción  Infórmate!!  #E"
         },
         {
           "handle": "publico.es",
           "nombre": "Diario Público",
           "posts": 2,
           "likes": 19,
-          "reposts": 11,
+          "reposts": 12,
           "respuestas": 5,
-          "engagement": 35,
+          "engagement": 36,
           "ejemplo": "Falange convertirá el aniversario de la muerte de Primo de Rivera en una de sus principales movilizaciones antes de las elecciones del 29N    ✍️ Por Danilo Albin   diario.publico.e"
         },
         {
@@ -1319,6 +1309,16 @@
           "ejemplo": "En #Málaga nuestra candidata es: Micaela Jiménez 💜  Trabajadora social. Activista del movimiento feminista y defensora del derecho a la vivienda, los servicios públicos, la paz y l"
         },
         {
+          "handle": "enasarre.bsky.social",
+          "nombre": "e_nasarre",
+          "posts": 1,
+          "likes": 14,
+          "reposts": 11,
+          "respuestas": 1,
+          "engagement": 26,
+          "ejemplo": "www.elbonaerense.news/2026/10/29/d... El modelo a seguir si ganan PP y VOX #29N 🗳️"
+        },
+        {
           "handle": "nosoyrubia.eurosky.social",
           "nombre": "No soy rubia por los pelos.",
           "posts": 1,
@@ -1329,23 +1329,13 @@
           "ejemplo": "Y aquí link al canal de WhatsApp de Frente Amplio.   www.whatsapp.com/channel/0029..."
         },
         {
-          "handle": "enasarre.bsky.social",
-          "nombre": "e_nasarre",
-          "posts": 1,
-          "likes": 9,
-          "reposts": 7,
-          "respuestas": 1,
-          "engagement": 17,
-          "ejemplo": "www.elbonaerense.news/2026/10/29/d... El modelo a seguir si ganan PP y VOX #29N 🗳️"
-        },
-        {
           "handle": "ignacioregulez.bsky.social",
           "nombre": "Ignacio Regulez Trenado",
           "posts": 1,
-          "likes": 8,
+          "likes": 9,
           "reposts": 7,
           "respuestas": 0,
-          "engagement": 15,
+          "engagement": 16,
           "ejemplo": "La ultraderecha desafía la ley de memoria democrática en plena campaña electoral con otro 20N franquista www.publico.es/politica/ult..."
         },
         {
@@ -1357,17 +1347,27 @@
           "respuestas": 0,
           "engagement": 13,
           "ejemplo": "PP y Vox: el sudor frío del miedo www.infolibre.es/129_222aa6"
+        },
+        {
+          "handle": "josepjanton.bsky.social",
+          "nombre": "Josep-Julià Antón /❤️",
+          "posts": 2,
+          "likes": 6,
+          "reposts": 6,
+          "respuestas": 0,
+          "engagement": 12,
+          "ejemplo": "Los fichajes de Inda: estos son los jueces y fiscales 'reclutados' por OkDiario #29N #LaFuerzaDeLaGente barrera la carcundia mediatico-judicial de la derecha extrema www.elplural.c"
         }
       ],
       "top": {
-        "texto": "🔴Ley D'Hondt: Tu voto no es igual en toda España •En provincias pequeñas, dividir la izquierda regala escaños a la derecha •En las grandes, puedes elegir tu opción  Infórmate!!  #EleccionesGenerales #29Noviembre #29N🗳  #",
-        "likes": 13,
-        "reposts": 19,
-        "respuestas": 1,
-        "engagement": 33,
-        "autor": "riverovictor.bsky.social",
-        "nombre": "Víctor Rivero🔻🍉 #7291",
-        "fecha": "2026-11-01T19:12:35.074Z"
+        "texto": "Socialistas vamos a seguirnos, #EjercitoRojo  #EjercitoRojo  #29N  #YoConPedroSanchez #LaFuerzaDeLaGente #Psoe",
+        "likes": 23,
+        "reposts": 7,
+        "respuestas": 0,
+        "engagement": 30,
+        "autor": "mse09.bsky.social",
+        "nombre": "MSevilla✊🏻🌹",
+        "fecha": "2026-11-01T19:45:03.774Z"
       }
     },
     "espana-vaciada": {
@@ -1474,20 +1474,20 @@
     "facha": {
       "consulta": "facha",
       "posts": 93,
-      "likes": 420,
-      "reposts": 71,
+      "likes": 433,
+      "reposts": 78,
       "respuestas": 74,
-      "engagement": 565,
-      "engagement_medio": 6.1,
+      "engagement": 585,
+      "engagement_medio": 6.3,
       "autores": [
         {
           "handle": "ugosinhache.bsky.social",
           "nombre": "Ugo Sin Hache",
           "posts": 2,
-          "likes": 136,
+          "likes": 138,
           "reposts": 19,
           "respuestas": 5,
-          "engagement": 160,
+          "engagement": 162,
           "ejemplo": "Nunca dejará de sorprenderme que hay un montón de gente claramente de derechas que cree que es \"neutral\".   Lo del tipo de The Objective es una exageración pero este perfil de \"yo "
         },
         {
@@ -1514,11 +1514,21 @@
           "handle": "meriendismo.bsky.social",
           "nombre": "Meriendismo 🍉",
           "posts": 1,
-          "likes": 37,
+          "likes": 38,
           "reposts": 5,
           "respuestas": 7,
-          "engagement": 49,
+          "engagement": 50,
           "ejemplo": "Trapiello ha sido siempre más facha que un hacha."
+        },
+        {
+          "handle": "vitorepublica.bsky.social",
+          "nombre": "Victorio",
+          "posts": 1,
+          "likes": 17,
+          "reposts": 12,
+          "respuestas": 0,
+          "engagement": 29,
+          "ejemplo": "Sufre el síndrome de la maldad del DERROTADO, ve que NO llegará a la Moncloa ni podrá vengarse del GOBIERNO PROGRESISTA, tendrá toda la violencia del mundo apoyándole detrás, con l"
         },
         {
           "handle": "mgavir.bsky.social",
@@ -1549,24 +1559,14 @@
           "respuestas": 1,
           "engagement": 20,
           "ejemplo": "😡 Pequeño de estatura, pero enorme en mezquindad. Otro de los que viven de las cloacas de la desinformación: difunden bulos, manipulan y engañan para confundir a la ciudadanía.  ¡¡"
-        },
-        {
-          "handle": "vitorepublica.bsky.social",
-          "nombre": "Victorio",
-          "posts": 1,
-          "likes": 8,
-          "reposts": 6,
-          "respuestas": 0,
-          "engagement": 14,
-          "ejemplo": "Sufre el síndrome de la maldad del DERROTADO, ve que NO llegará a la Moncloa ni podrá vengarse del GOBIERNO PROGRESISTA, tendrá toda la violencia del mundo apoyándole detrás, con l"
         }
       ],
       "top": {
         "texto": "Nunca dejará de sorprenderme que hay un montón de gente claramente de derechas que cree que es \"neutral\".   Lo del tipo de The Objective es una exageración pero este perfil de \"yo soy objetivo y neutral\" siendo facha lo ",
-        "likes": 90,
+        "likes": 92,
         "reposts": 17,
         "respuestas": 2,
-        "engagement": 109,
+        "engagement": 111,
         "autor": "ugosinhache.bsky.social",
         "nombre": "Ugo Sin Hache",
         "fecha": "2026-11-01T16:16:08.686Z"
