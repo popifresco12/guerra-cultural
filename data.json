@@ -1,39 +1,36 @@
 {
   "meta": {
-    "generated_at": "2026-11-01T08:01:40+01:00",
+    "generated_at": "2026-11-02T08:16:14+01:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "debate en X esta semana elecciones generales España 29N campaña Sánchez Feijóo Abascal mítines sondeos escaños (desde 2026-10-29) -> FALLIDA: personal-team-blocked:spending-limit",
-      "debate en X esta semana sanchismo Sánchez UCO Cerdán Zapatero corrupción PSOE imputación (desde 2026-10-29) -> FALLIDA: personal-team-blocked:spending-limit",
-      "debate en X esta semana inmigración España Ceuta Canarias llegadas irregulares regularización (desde 2026-10-29) -> FALLIDA: personal-team-blocked:spending-limit",
-      "debate en X esta semana acampada Puerta del Sol Sindicato de Inquilinas vivienda alquiler desalojo (desde 2026-10-29) -> FALLIDA: personal-team-blocked:spending-limit"
+      "reacciones en X esta semana al mitin de Sánchez Feijóo Abascal campaña elecciones generales 29N sondeos escaños (desde 2026-10-30)",
+      "debate en X esta semana sanchismo Sánchez UCO Cerdán Zapatero corrupción PSOE imputación (desde 2026-10-30)",
+      "debate en X esta semana inmigración España Ceuta Canarias llegadas irregulares regularización (desde 2026-10-30)",
+      "debate en X esta semana acampada Puerta del Sol Sindicato de Inquilinas vivienda alquiler desalojo (desde 2026-10-30)",
+      "polémica en X esta semana okupación Desokupa desalojo ocupas vecinos propietarios allanamiento (desde 2026-10-30)",
+      "debate en X esta semana independentismo Cataluña procesistas Puigdemont Junts ERC amnistía referéndum (desde 2026-10-30)",
+      "polémica en X esta semana memoria histórica ley de concordia Aragón PP Vox exhumación Franco víctimas (desde 2026-10-30)",
+      "debate en X esta semana feminismo abolicionista prostitución Irene Montero ley trata mujeres (desde 2026-10-30)",
+      "polémica en X esta semana ideología woke censura universidad progresismo España debate cultural (desde 2026-10-30)",
+      "polémica en X esta semana cultura de la cancelación Rosalía flamenco apropiación cultural boicot linchamiento digital (desde 2026-10-30)",
+      "polémica en X esta semana ley trans menores bloqueadores Madrid protocolo autodeterminación género debate (desde 2026-10-30)",
+      "polémica en X esta semana despoblación Teruel Existe España vaciada incendios servicios zona rural (desde 2026-10-30)",
+      "tuiteros llamando fachas a PP Vox esta semana debate insulto facha España redes (desde 2026-10-30)",
+      "actividad: @profsecundario @dianitanoticias @Tagelca @elxokas @TemplarExtre @geoestratego @13mescribano @VictorLapuente (desde 2026-10-30)",
+      "actividad: @EstefMolina_ @nicolasdepedro @armesillaconde @Anujbost @billkilgore_ @elmundotoday @littleragergirl @LaBugsBunnyIA (desde 2026-10-30)",
+      "actividad: @dianitanoticias @TemplarExtre @VictorLapuente @13mescribano (desde 2026-10-30)",
+      "virales: @billkilgore_ @Tagelca @profsecundario @armesillaconde @geoestratego @13mescribano @elxokas con enlaces y engagement"
     ],
-    "stale_topics": [
-      "acampada-sol",
-      "sanchismo",
-      "inmigracion",
-      "okupacion",
-      "independentismo",
-      "memoria",
-      "feminismo",
-      "woke",
-      "cultura-cancelacion",
-      "ley-trans",
-      "elecciones",
-      "espana-vaciada",
-      "facha"
-    ],
+    "stale_topics": [],
     "inactive_accounts": [
       "@dianitanoticias",
       "@VictorLapuente",
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "previous_generated_at": "2026-10-31T08:01:43+01:00",
+    "previous_generated_at": "2026-11-01T08:01:40+01:00",
     "previous_source": "cron 09f22b3f6f78",
-    "fallback": "full",
-    "blocked_days": 5,
-    "notes": "Fallback completo (jornada 5 del bloqueo de credito xAI). La tanda 1 de 4 topicos (elecciones, sanchismo, inmigracion, acampada-sol) fallo de forma identica con personal-team-blocked:spending-limit; no se reintento en bucle ni se gastaron las 9 busquedas restantes. El bloqueo arranco el 28-10-2026 y sigue activo: no es un problema de query ni de credencial caducada, la cuenta no tiene credito/suscripcion Grok activa. Los 13 topicos, noticias, tendencias, cuentas y virales se reutilizan literalmente del commit anterior; meta.inactive_accounts se mantiene igual porque una cuenta sin verificar no es ni activa ni inactiva. NO se anade snapshot a history.json para no fabricar un punto en el grafico de evolucion. Recarga en https://grok.com/?_s=usage . sources.json NO generado: el entorno RAG /home/carlo/guerra-cultural-rag no existe en este host Windows."
+    "notes": "Recuperacion tras 5 dias de bloqueo por credito xAI (28-10 a 01-11): las 13 busquedas de topicos devolvieron analisis completo con citas reales. @dianitanoticias y @VictorLapuente siguen sin actividad (ultimos posts de julio 2026 y enero 2026); @elmundotoday y @littleragergirl siguen sin resultados indexados. @TemplarExtre aparece en X como @TemplarExtrem (variante de handle, se mantiene la entrada del directorio). sources.json NO generado: el entorno RAG /home/carlo/guerra-cultural-rag no existe en este host Windows."
   },
   "topics": [
     {
@@ -42,15 +39,15 @@
       "icon": "⛺",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 88,
-      "momentum": 64,
+      "intensity": 82,
+      "momentum": 78,
       "momentumDir": "right",
-      "summary": "La Acampada 26S del Sindicato de Inquilinas empieza a desmantelarse tras casi un mes en la Puerta del Sol, con un final gradual que apuntan al 11-N, día de la huelga general por la vivienda. Almeida quiere repercutir a los acampados los gastos de limpieza y desperfectos «para que no cueste un euro a los madrileños». El detenido por una agresión sexual a una joven de 22 años dentro de una tienda de campaña ha inclinado el relato hacia la crítica.",
-      "quote": "«Adiós a la acampada» — @criaturina, tras la detención y el inicio del desmontaje (317 likes)",
+      "summary": "La Acampada 26S se disuelve por su cuenta tras 36 días en la Puerta del Sol: las comisiones se «mudan» a los barrios para preparar la huelga general del 11-N y dejan lonas vacías y personas sin hogar en la plaza. La crítica domina el relato («globo pinchado», «desalojo de sus propios inquilinos») y del lado pro-vivienda el foco pasa a la huelga y al caso del desahucio de Maricarmen, de 87 años.",
+      "quote": "«La batalla no se va a ganar con un partido súper chulo que conquiste el Congreso» — Alicia del Río, Sindicato de Inquilinas",
       "details": [
         [
           "Volumen en X",
-          "Muy alto (pico por el suceso del domingo)"
+          "Alto, en descenso"
         ],
         [
           "Sentimiento",
@@ -58,7 +55,7 @@
         ],
         [
           "Impulsado por",
-          "Desmontaje, costes municipales y huelga del 11-N"
+          "Desmontaje del 31-O y convocatoria de huelga del 11-N"
         ]
       ]
     },
@@ -68,11 +65,11 @@
       "icon": "👑",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 95,
+      "intensity": 94,
       "momentum": 90,
       "momentumDir": "right",
-      "summary": "La UCO detecta facturas desaparecidas en la contabilidad del PSOE al rastrear financiación ilegal, y Anticorrupción considera «inevitable» imputar al partido por un Excel de pagos en efectivo a Ábalos, Cerdán y Koldo desde 2017. El juez Pedraz rechaza las alegaciones socialistas y les da plazos para entregar contratos. En paralelo, la Fiscalía pide imputar a Zapatero por malversación por joyas y regalos institucionales valorados en unos 1,3 millones.",
-      "quote": "«El juez Pedraz rechaza las alegaciones del PSOE y le da plazos para entregar contratos y documentación» — @eltorotv",
+      "summary": "La UCO sigue alimentando el relato anticorrupción: Cerdán en prisión provisional por los banquetes de la trama Koldo, Ábalos condenado a 24 años y Zapatero señalado por contactos con accionistas de Plus Ultra antes del rescate. En X se impone el marco «PSOE = corrupción estructural» y el 29-N se plantea como referéndum contra el sanchismo.",
+      "quote": "«El PSOE es una organización criminal» — @hord_7, uno de los hilos con más réplicas de la semana",
       "details": [
         [
           "Volumen en X",
@@ -80,11 +77,11 @@
         ],
         [
           "Sentimiento",
-          "Crítico con el Gobierno"
+          "Indignación dominante, defensa minoritaria"
         ],
         [
           "Impulsado por",
-          "UCO, Pedraz y la imputación de Zapatero"
+          "UCO, Cerdán, Ábalos y Zapatero"
         ]
       ]
     },
@@ -94,11 +91,11 @@
       "icon": "🚧",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 93,
-      "momentum": 84,
+      "intensity": 94,
+      "momentum": 88,
       "momentumDir": "right",
-      "summary": "La regularización extraordinaria es el choque central: el Tribunal Supremo rechaza suspenderla, lo que supone un varapalo para Ayuso y Vox, que pedían paralizarla. Canarias sigue en el foco con más de 2.300 llegadas irregulares solo en octubre y saturación de recursos y centros de menores. Vox capitaliza el malestar con el discurso de la «remigración», mientras el PSOE acusa a la derecha de votar contra el reparto de MENAs.",
-      "quote": "«El Tribunal Supremo rechaza suspender la regularización: varapalo a Ayuso y Vox» — @CalpenaCarmen",
+      "summary": "Ceuta sigue abierta tres meses después: al menos 10.000 personas permanecen en la ciudad y su coste ronda los 450.000 € diarios, mientras Canarias, Baleares y Murcia suman más de 1.600 llegadas irregulares en una semana. La Comisión Europea ha abierto expediente a la regularización masiva española, lo que reactiva el marco de «invasión» y el pulso electoral de Vox.",
+      "quote": "«Ninguna regularización masiva bajo ningún concepto» — Vox, tras conocerse la investigación de Bruselas",
       "details": [
         [
           "Volumen en X",
@@ -106,11 +103,11 @@
         ],
         [
           "Sentimiento",
-          "Muy polarizado, derecha al alza"
+          "Crítico mayoritario"
         ],
         [
           "Impulsado por",
-          "Regularización, Supremo y saturación en Canarias"
+          "Ceuta, Canarias y expediente europeo"
         ]
       ]
     },
@@ -118,25 +115,25 @@
       "id": "okupacion",
       "name": "Okupación",
       "icon": "🏠",
-      "tag": "📌 Estable",
-      "tagClass": "tag-stable",
-      "intensity": 62,
-      "momentum": 76,
-      "momentumDir": "right",
-      "summary": "La conversación de la semana es más explicativa que de escándalo: se viralizan hilos que distinguen allanamiento de morada (art. 202, cárcel y desalojo rápido si se denuncia en 24-48 h) de usurpación (art. 245, multa y meses de espera), con 14.875 casos contabilizados en 2025 y los juicios rápidos en vigor desde abril. Desokupa vuelve a aparecer como solución privada polémica. No hay un caso mediático nuevo que haya prendido.",
-      "quote": "«En 2025 se registraron 14.875 casos de allanamiento y usurpación en toda España» — @elcronista_es",
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 70,
+      "momentum": 42,
+      "momentumDir": "left",
+      "summary": "El intento de Brigada Desokupa de desalojar sin orden judicial a familias con contrato en vigor en Usera (Madrid) ha reventado el tema: un centenar de vecinos y el Sindicato de Inquilinas bloquearon el acceso y las familias siguen dentro. La narrativa dominante es que no eran okupas sino inquilinos al corriente de pago a merced de un fondo buitre, aunque la derecha reabre el debate sobre morosidad y lentitud judicial.",
+      "quote": "«No son ocupas, son vecinos con contratos: el fondo buitre envió un matón de desokupa» — @InquilinatoMad",
       "details": [
         [
           "Volumen en X",
-          "Medio"
+          "Alto, pico por el caso Usera"
         ],
         [
           "Sentimiento",
-          "Frustración de propietarios"
+          "Crítico con Desokupa y el fondo"
         ],
         [
           "Impulsado por",
-          "Diferencia allanamiento/usurpación y juicios rápidos"
+          "Caso Usera y Brigada Desokupa"
         ]
       ]
     },
@@ -144,13 +141,13 @@
       "id": "independentismo",
       "name": "Independentismo / Procés",
       "icon": "🗺️",
-      "tag": "🔥 Tendencia moderada",
-      "tagClass": "tag-moderate",
-      "intensity": 78,
-      "momentum": 62,
+      "tag": "🔥 Tendencia alta",
+      "tagClass": "tag-hot",
+      "intensity": 80,
+      "momentum": 66,
       "momentumDir": "right",
-      "summary": "La amnistía ha archivado las causas contra Puigdemont y levantado las órdenes de detención, y Junts prepara un recibimiento institucional a la manera de Tarradellas con posible gira municipal. El tono dominante en X es de balance crítico: el procés negoció autonomía y no construyó estructuras de Estado, dejando división social y fuga de empresas. ERC y Junts se reprochan mutuamente los pactos con Madrid.",
-      "quote": "«El procés se centró más en negociar más autonomía o un referéndum pactado que en construir estructuras de Estado» — @PoMaOl",
+      "summary": "El tuit de Illa contra Feijóo («nunca serás presidente de España») se convierte en el catalizador de la semana: la derecha le recuerda su oposición previa a la amnistía y Feijóo promete derogarla aunque «no tenga efecto jurídico». En la base independentista crece la queja de que la amnistía no es autodeterminación y de que Junts y ERC «traicionaron» el 1-O.",
+      "quote": "«Voy a derogar la ley de amnistía aunque no tenga ningún efecto jurídico concreto» — Feijóo, replicado masivamente en X",
       "details": [
         [
           "Volumen en X",
@@ -158,11 +155,11 @@
         ],
         [
           "Sentimiento",
-          "Crítico con el procés"
+          "Polarizado, anti-amnistía dominante"
         ],
         [
           "Impulsado por",
-          "Retorno de Puigdemont tras la amnistía"
+          "Tuit de Illa, Feijóo y malestar independentista"
         ]
       ]
     },
@@ -170,25 +167,25 @@
       "id": "memoria",
       "name": "Memoria Histórica",
       "icon": "📜",
-      "tag": "📌 Estable",
-      "tagClass": "tag-stable",
-      "intensity": 58,
-      "momentum": 68,
-      "momentumDir": "right",
-      "summary": "El marco sigue siendo el choque de las leyes de concordia autonómicas de PP y Vox frente a la Ley de Memoria Democrática estatal, con la equiparación de víctimas y el freno a exhumaciones como eje. Los críticos hablan de blanqueamiento del franquismo y los defensores de una norma «sectaria» que impone un relato de parte. Esta semana no hay una polémica nueva: el tema recircula por la campaña, no por un hecho propio.",
-      "quote": "«No hay ningún político del PP+Vox que condene los crímenes de la Dictadura franquista… han usurpado la Memoria Histórica con una Ley de Concordia» — @Javier88587896",
+      "tag": "🔥 Tendencia moderada",
+      "tagClass": "tag-moderate",
+      "intensity": 68,
+      "momentum": 44,
+      "momentumDir": "left",
+      "summary": "El Día de la Memoria Democrática (31-O) reactiva en X la derogación de la ley aragonesa por PP y Vox y el abandono de memoriales como el de Torrero. Las asociaciones de víctimas —PAMA— reclaman verdad, justicia y reparación para los más de 3.500 asesinados en Aragón mientras se habla de fosas y exhumaciones pendientes en Todos los Santos.",
+      "quote": "«En Aragón PP y Vox derogaron la ley de Memoria Democrática, pero las víctimas siguen reclamando verdad, justicia y reparación» — @igoiz17",
       "details": [
         [
           "Volumen en X",
-          "Medio-bajo"
+          "Medio-alto"
         ],
         [
           "Sentimiento",
-          "Muy polarizado"
+          "Crítico con PP-Vox"
         ],
         [
           "Impulsado por",
-          "Leyes de concordia autonómicas"
+          "31-O, Aragón y memorial de Torrero"
         ]
       ]
     },
@@ -198,23 +195,23 @@
       "icon": "⚡",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 72,
-      "momentum": 70,
+      "intensity": 68,
+      "momentum": 62,
       "momentumDir": "right",
-      "summary": "El cisma sigue abierto entre abolicionistas y el sector transincluyente: la prostitución y la ley de trata son la línea de fractura, con el modelo nórdico como bandera frente a quienes defienden regular el trabajo sexual. Irene Montero vuelve al centro del debate por la Ley Trans y el «solo sí es sí», con las rebajas de condenas como argumento recurrente de la crítica. El deporte femenino aparece como escenario de choque recurrente.",
-      "quote": "«La de la ley trans que ha fracturado al feminismo» — @silviafranco0 sobre Irene Montero",
+      "summary": "El abolicionismo exige la ley de trata que sigue «en el cajón» y Mabel Lozano lo convierte en el hilo de referencia, con Vicky Rosell recordando el frenazo de 2023 y la posible sanción europea. Enfrente, cuentas pro-derechos de las trabajadoras sexuales acusan a Irene Montero de restaurar el decreto franquista de 1956 y de no escuchar a las propias mujeres.",
+      "quote": "«Tenemos una ley de trata en el cajón que supuestamente iba a salir esta legislatura y nada» — Mabel Lozano",
       "details": [
         [
           "Volumen en X",
-          "Alto"
+          "Medio-alto"
         ],
         [
           "Sentimiento",
-          "Cisma abolicionista vs. transincluyente"
+          "Abolicionistas contra sex work"
         ],
         [
           "Impulsado por",
-          "Ley Trans, «solo sí es sí» y deporte femenino"
+          "Ley de trata y críticas a Montero"
         ]
       ]
     },
@@ -224,37 +221,11 @@
       "icon": "🌿",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 84,
-      "momentum": 58,
+      "intensity": 80,
+      "momentum": 76,
       "momentumDir": "right",
-      "summary": "El frente caliente es la cultura: Vox, en coalición con el PP en Castilla y León, impulsa criterios para excluir de subvenciones audiovisuales las obras con «adoctrinamiento ideológico», y en las Corts Valencianes PP y Vox eliminaron la comisión LGTBI y el lenguaje inclusivo, un reglamento que ahora examina el Tribunal Constitucional. La izquierda lo llama censura y domina los virales; la derecha responde que es parar el adoctrinamiento pagado con dinero público.",
-      "quote": "«Vox ya ha dicho que va a prohibir cultura, el orgullo… La involución que se nos viene es tremenda» — @lajuliabarish (2,3K likes)",
-      "details": [
-        [
-          "Volumen en X",
-          "Muy alto"
-        ],
-        [
-          "Sentimiento",
-          "Censura vs. antiadoctrinamiento"
-        ],
-        [
-          "Impulsado por",
-          "Veto a subvenciones en Castilla y León y las Corts"
-        ]
-      ]
-    },
-    {
-      "id": "cultura-cancelacion",
-      "name": "Cultura de la Cancelación",
-      "icon": "🔇",
-      "tag": "🔥 Tendencia moderada",
-      "tagClass": "tag-moderate",
-      "intensity": 76,
-      "momentum": 44,
-      "momentumDir": "left",
-      "summary": "La polémica de la semana es la cancelación de una obra sobre García Lorca en Valladolid por la Junta de Castilla y León, que lo atribuye a «obras» y niega motivos ideológicos. La compañía ha denunciado ante la Fiscalía, el reestreno en espacios alternativos ha agotado entradas y Mieres la programará en 2027. En X se cruzan la acusación de censura («ya no se puede representar a Lorca») con la de victimismo subvencionado.",
-      "quote": "«Han cancelado una obra de teatro sobre Lorca… Pero de “La Bola Negra” no se ha dicho nada» — @LuisPastor__",
+      "summary": "El TSJ valenciano ha tumbado el reglamento de la Universitat de València que imponía el valenciano como única lengua interna, y el fallo se ha convertido en el gran hilo antiwoke de la semana. La conversación mezcla «adoctrinamiento» universitario, censura blanda y el argumento progresista de que filtrar «discursos discriminatorios» protege la pluralidad.",
+      "quote": "«El TSJ tumba el reglamento de la Universidad de Valencia que excluye el castellano… no podían ser más fascistas» — @Pableraso (252 likes, 143 RTs)",
       "details": [
         [
           "Volumen en X",
@@ -262,11 +233,37 @@
         ],
         [
           "Sentimiento",
-          "Indignación del sector cultural"
+          "Crítico con el progresismo"
         ],
         [
           "Impulsado por",
-          "Obra de Lorca cancelada en Valladolid"
+          "Sentencia del TSJ-CV y debate universitario"
+        ]
+      ]
+    },
+    {
+      "id": "cultura-cancelacion",
+      "name": "Cultura de la Cancelación",
+      "icon": "🔇",
+      "tag": "📌 Estable",
+      "tagClass": "tag-stable",
+      "intensity": 55,
+      "momentum": 48,
+      "momentumDir": "center",
+      "summary": "Sin caso nuevo de cancelación: el octavo aniversario de El Mal Querer reactiva el debate sobre Rosalía y la apropiación del flamenco, pero con tono celebratorio y nostálgico. La crítica purista queda como ruido de fondo frente a los hilos que reivindican el disco como tesis doctoral y como renovación del género.",
+      "quote": "«Inventó un lane y nadie lo ha superado» — @sergioopina_, en el hilo del octavo aniversario de El Mal Querer",
+      "details": [
+        [
+          "Volumen en X",
+          "Medio, en descenso"
+        ],
+        [
+          "Sentimiento",
+          "Celebratorio mayoritario"
+        ],
+        [
+          "Impulsado por",
+          "Aniversario de El Mal Querer"
         ]
       ]
     },
@@ -276,15 +273,15 @@
       "icon": "⚧️",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 74,
-      "momentum": 76,
+      "intensity": 70,
+      "momentum": 74,
       "momentumDir": "right",
-      "summary": "El debate vuelve por la autodeterminación registral a los 14-17 años y por la hormonación de menores, en plena campaña: Feijóo, Gamarra y Tellado hablan de derogar o reformar la ley, Vox exige informes psicológicos y el Partido Feministas al Congreso la incluye entre sus prioridades. Los defensores, con Mar Cambrollé al frente, enmarcan los ataques como parte de la ofensiva de la ultraderecha contra los derechos LGTBI.",
-      "quote": "«Un menor no debería decidir intervenciones irreversibles sin sus padres» — @michealtadonham",
+      "summary": "El debate vuelve por la vía de las subvenciones (unos 42.000 € a Chrysalis para familias de menores trans) y por la evidencia: la Cass Review y la desistencia alimentan el discurso crítico con los bloqueadores, mientras el lado afirmativo defiende reversibilidad, evaluación psicológica y apoyo familiar. No hay documento nuevo de la Comunidad de Madrid, pero el marco «proteger a la infancia» domina el timeline.",
+      "quote": "«Mejor hija trans que muerta» — testimonio de madre citado en los hilos pro-derechos y replicado como ejemplo de alerta temprana",
       "details": [
         [
           "Volumen en X",
-          "Alto"
+          "Medio-alto"
         ],
         [
           "Sentimiento",
@@ -292,7 +289,7 @@
         ],
         [
           "Impulsado por",
-          "Promesas de derogación de PP/Vox y PFAC"
+          "Subvenciones, Cass Review y bloqueadores"
         ]
       ]
     },
@@ -302,23 +299,23 @@
       "icon": "🗳️",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 98,
-      "momentum": 84,
+      "intensity": 97,
+      "momentum": 86,
       "momentumDir": "right",
-      "summary": "La campaña del 29-N ya está en marcha: Sánchez recitó a Lorca en Granada y bailó «La antigua judería»; Feijóo pidió en Vigo «darnos la mano» sin apedrear; Abascal llenó Palma y la Policía interceptó a un hombre con una navaja oculta en el acceso. Los sondeos de esta semana (Sigma Dos, Wiston, SocioMétrica) sitúan a PP y Vox cerca o por encima de los 200 escaños, con Vox disparado hasta el 19-20%.",
-      "quote": "«Feijóo es el envoltorio, pero Abascal es el regalo. Y hay regalos que no merece la pena abrir» — Pedro Sánchez, mitin de Granada (24 oct)",
+      "summary": "La precampaña del 29-N queda redefinida por el choque de trenes de Urda (Toledo): Sánchez llega a la defensiva y blinda a Óscar Puente, Feijóo busca perfil institucional con su primer mitin andaluz el 8-N en Málaga y Abascal convierte la tragedia en eje de campaña («Óscar Muerte») tras no suspender su mitin de Ávila. Los sondeos que circulan en X —SocioMétrica, Supermedia— dan PP y Vox entre 190 y 203 escaños frente a un PSOE por debajo de 110.",
+      "quote": "«Frenar al fascismo les gusta, pero frenar un tren no» — @jesusvazquezb, uno de los vídeos más compartidos del mitin de Abascal",
       "details": [
         [
           "Volumen en X",
-          "Máximo"
+          "Muy alto (pico diario por Urda y encuestas)"
         ],
         [
           "Sentimiento",
-          "Derecha optimista, PSOE movilizado"
+          "Crítico con el Gobierno, movilización de derecha"
         ],
         [
           "Impulsado por",
-          "Mítines del 24-26 oct y encuestas Sigma Dos/Wiston"
+          "Accidente de Urda, mitin de Ávila y encuestas PP-Vox"
         ]
       ]
     },
@@ -328,23 +325,23 @@
       "icon": "🏘️",
       "tag": "📌 Estable",
       "tagClass": "tag-stable",
-      "intensity": 64,
-      "momentum": 55,
-      "momentumDir": "center",
-      "summary": "La Revuelta de la España Vaciada celebró su VIII Asamblea en Segovia bajo el lema «Resistencia Rural» y «ser pocos no resta derechos», centrada en vivienda, servicios públicos, incendios y macroproyectos (renovables y centros de datos). A eso se suma la tractorada convocada en Madrid para el 28-O por Asaja y Unión de Uniones. Teruel Existe mantiene su agenda propia: retrasos de la A-68, tren sin servicio desde febrero de 2025 y tope a las viviendas turísticas en Albarracín.",
-      "quote": "«Ser pocos no resta derechos» — lema de la VIII Asamblea de la Revuelta de la España Vaciada (Segovia)",
+      "intensity": 60,
+      "momentum": 58,
+      "momentumDir": "right",
+      "summary": "El choque Vox–Teruel Existe por llamar «inmigrante» a un español de otra provincia domina la conversación rural, con reproches por el cierre de la térmica de Andorra y la supuesta inutilidad de sus pactos. En paralelo, la paradoja de vivienda vacía frente a alquiler inasequible y la batalla de Pozondón contra las macro-renovables ponen el foco en servicios y territorio.",
+      "quote": "«Renovables sí, pero no así» — @TeruelExiste_, tras la sentencia de Pozondón",
       "details": [
         [
           "Volumen en X",
-          "Moderado"
+          "Medio"
         ],
         [
           "Sentimiento",
-          "Reivindicativo transversal"
+          "Crítico con la despoblación, choque político"
         ],
         [
           "Impulsado por",
-          "Asamblea de Segovia y tractorada del 28-O"
+          "Vox contra Guitarte y vivienda rural"
         ]
       ]
     },
@@ -354,11 +351,11 @@
       "icon": "🗣️",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 70,
-      "momentum": 72,
+      "intensity": 72,
+      "momentum": 68,
       "momentumDir": "right",
-      "summary": "El insulto funciona como arma de campaña: cuentas de izquierda llaman «fachas» y «fascistas» a PP y Vox y llaman a movilizarse el 29-N «contra el fascismo». La derecha responde que el término es una descalificación vacía que vacía el significado histórico y que sirve para justificar cualquier ataque, y recuerda los altercados y la navaja interceptada en el mitin de Palma. El tono es de trinchera, con poca argumentación.",
-      "quote": "«Ser de derechas no convierte a nadie en fascista» — @GiorgiaVat en un hilo sobre el uso del insulto",
+      "summary": "El insulto vuelve al centro del debate tras el tuit viral de una exvotante del PSOE harta de que la llamen «facha» por criticar al Gobierno. La derecha lo usa como prueba de que la descalificación radicaliza, y la izquierda mantiene el marco antifascista para PP y, sobre todo, Vox.",
+      "quote": "«¿En qué momento alguien que votó a Pedro tiene que aguantar que le llamen facha por estar hasta los huevos?» — @Lau14mg (≈435 likes, miles de views)",
       "details": [
         [
           "Volumen en X",
@@ -366,115 +363,115 @@
         ],
         [
           "Sentimiento",
-          "Insulto cruzado, máxima polarización"
+          "Polarizado"
         ],
         [
           "Impulsado por",
-          "Campaña del 29-N y altercados en mítines"
+          "Desgaste del Gobierno y campaña del 29-N"
         ]
       ]
     }
   ],
   "news": [
     {
-      "title": "Sánchez y Feijóo cruzan mítines con Abascal en Palma a cinco semanas del 29-N",
-      "date": "25 oct 2026",
-      "summary": "Sánchez recitó a Lorca y bailó «La antigua judería» en Granada; Feijóo pidió en Vigo discrepar «sin apedrear» y Abascal llenó Palma, donde la Policía interceptó a un hombre con una navaja oculta en el acceso. Los tres actos dominaron el timeline del fin de semana.",
-      "source": "X / el_pais / Santi_ABASCAL",
-      "tags": [
-        "Elecciones",
-        "Campaña"
-      ]
-    },
-    {
-      "title": "La UCO detecta facturas desaparecidas en la contabilidad del PSOE y Anticorrupción ve «inevitable» imputar al partido",
-      "date": "25 oct 2026",
-      "summary": "El rastreo de financiación ilegal apunta a un Excel de pagos en efectivo a Ábalos, Cerdán y Koldo desde 2017. El juez Pedraz rechaza las alegaciones socialistas y fija plazos para entregar contratos del «caso cloacas».",
-      "source": "X / El Mundo / Gaceta",
-      "tags": [
-        "Sanchismo",
-        "Corrupción"
-      ]
-    },
-    {
-      "title": "El Supremo rechaza suspender la regularización extraordinaria: varapalo a Ayuso y Vox",
-      "date": "24 oct 2026",
-      "summary": "El tribunal no paraliza el proceso de regularización, mientras Canarias acumula más de 2.300 llegadas irregulares en octubre y sigue la saturación de centros de menores. Vox insiste en la «remigración» y el PSOE acusa a la derecha de bloquear el reparto de MENAs.",
-      "source": "X / CalpenaCarmen",
+      "title": "Bruselas abre expediente a la regularización masiva de inmigrantes en España",
+      "date": "2 nov 2026",
+      "summary": "La Comisión Europea investiga si el procedimiento español vulneró el Derecho de la UE, justo cuando Interior mantiene su balance de descenso anual sin incluir Ceuta. En X el expediente se lee como prueba de «fraude» y Vox lo usa para cerrar filas contra cualquier regularización.",
+      "source": "X / elespanolcom",
       "tags": [
         "Inmigración",
-        "Justicia"
+        "Europa"
       ]
     },
     {
-      "title": "La Junta de Castilla y León cancela una obra sobre Lorca en Valladolid y la compañía denuncia ante la Fiscalía",
-      "date": "24 oct 2026",
-      "summary": "La Junta atribuye la suspensión a «obras» y niega motivos ideológicos. El reestreno en espacios alternativos agota entradas, Mieres la programará en 2027 y el caso se cruza con el veto de PP-Vox a subvenciones a películas «ideologizadas».",
-      "source": "X / infobaees / DiarioVLL",
+      "title": "Urda reordena la campaña: Sánchez blinda a Puente y Abascal pide su dimisión como «Óscar Muerte»",
+      "date": "1 nov 2026",
+      "summary": "El choque de trenes en Toledo, con decenas de muertos, domina el timeline: Sánchez evita cuestionar a su ministro, Feijóo busca tono institucional y Abascal convierte la tragedia en lema. Los sondeos difundidos esta semana consolidan la mayoría de PP y Vox.",
+      "source": "X / elespanolcom / ElNuevoPais2026",
       "tags": [
-        "Cultura de la Cancelación",
-        "Castilla y León"
+        "Elecciones",
+        "Tragedia ferroviaria"
       ]
     },
     {
-      "title": "Detenido un hombre por agredir sexualmente a una joven en la acampada de Sol, que empieza a desmantelarse",
-      "date": "25 oct 2026",
-      "summary": "El suceso dentro de una tienda de campaña acelera las críticas a la Acampada 26S tras casi un mes en la Puerta del Sol. Almeida quiere repercutir los gastos de limpieza y desperfectos, y el Sindicato de Inquilinas desplaza el foco a los barrios y a la huelga del 11-N.",
-      "source": "X / elboletinmadrid / criaturina",
+      "title": "El TSJ valenciano tumba el reglamento de la Universitat de València que excluía el castellano",
+      "date": "30 oct 2026",
+      "summary": "El tribunal estima el recurso de un grupo de catedráticos de Derecho Constitucional contra la norma que imponía el valenciano en las comunicaciones internas. El fallo se convierte en el gran hilo antiwoke de la semana, con reproches cruzados sobre pluralidad y adoctrinamiento.",
+      "source": "X / levante_emv / Pableraso",
+      "tags": [
+        "Wokismo",
+        "Universidad"
+      ]
+    },
+    {
+      "title": "La acampada de Sol se disuelve tras 36 días y convoca huelga general de vivienda el 11-N",
+      "date": "31 oct 2026",
+      "summary": "Las comisiones de la Acampada 26S anuncian su retirada «hacia los barrios» y reconocen desgaste, dejando tiendas vacías y personas sin hogar en la plaza. El Sindicato de Inquilinas reorienta la presión a la huelga del 11 de noviembre.",
+      "source": "X / eldiarioes / InquilinatoMad",
       "tags": [
         "Acampada de Sol",
+        "Vivienda"
+      ]
+    },
+    {
+      "title": "Brigada Desokupa intenta desalojar sin orden judicial a familias con contrato en Usera",
+      "date": "1 nov 2026",
+      "summary": "Un fondo buitre envió a la brigada a un edificio de la calle Madridejos donde vivían inquilinos al corriente de pago; un centenar de vecinos y el Sindicato de Inquilinas bloquearon el acceso y las familias siguen dentro. El caso reabre el debate sobre violencia privada y derechos de propietarios.",
+      "source": "X / diario_red_ / InquilinatoMad",
+      "tags": [
+        "Okupación",
         "Vivienda"
       ]
     }
   ],
   "trends": [
     {
-      "name": "Elecciones 29-N",
-      "change": "stable",
-      "pct": "0%",
-      "detail": "Ya en campaña: tres mítines el fin de semana y cuatro encuestas nuevas. PP y Vox rondan los 200 escaños."
+      "name": "Elecciones 29-N / Urda",
+      "change": "up",
+      "pct": "+9%",
+      "detail": "El accidente ferroviario de Toledo y las encuestas de SocioMétrica y Supermedia monopolizan la campaña."
     },
     {
-      "name": "Wokismo / censura Vox",
+      "name": "Inmigración / Ceuta",
       "change": "up",
-      "pct": "+11%",
-      "detail": "Veto a subvenciones audiovisuales en Castilla y León y supresión de la comisión LGTBI en las Corts Valencianes."
+      "pct": "+14%",
+      "detail": "Bruselas abre expediente a la regularización y Ceuta sigue con 10.000 personas y 450.000 € diarios de coste."
+    },
+    {
+      "name": "Okupación / Desokupa Usera",
+      "change": "up",
+      "pct": "+22%",
+      "detail": "Intento de desalojo sin orden judicial a inquilinos con contrato: el caso más compartido de la semana."
+    },
+    {
+      "name": "Memoria histórica",
+      "change": "up",
+      "pct": "+17%",
+      "detail": "El 31-O reabre la derogación aragonesa y el abandono del memorial de Torrero."
     },
     {
       "name": "Cultura de la cancelación",
-      "change": "up",
-      "pct": "+6%",
-      "detail": "Obra sobre Lorca cancelada en Valladolid: denuncia ante la Fiscalía y reestreno que agota entradas."
-    },
-    {
-      "name": "Sanchismo / UCO Cerdán",
-      "change": "stable",
-      "pct": "-3%",
-      "detail": "La UCO y el caso Zapatero mantienen el tema, pero el foco mediático se desplaza a la campaña."
+      "change": "down",
+      "pct": "-24%",
+      "detail": "Sin caso nuevo: el aniversario de El Mal Querer convierte el debate en celebración nostálgica."
     },
     {
       "name": "Acampada de Sol",
       "change": "down",
-      "pct": "-7%",
-      "detail": "El desmontaje y la agresión sexual del domingo bajan el volumen de apoyo y disparan la crítica."
+      "pct": "-8%",
+      "detail": "El desmontaje por desgaste traslada el foco a la huelga del 11-N y a los sin techo que quedan en la plaza."
     },
     {
       "name": "Independentismo",
       "change": "down",
-      "pct": "-16%",
-      "detail": "El retorno de Puigdemont pierde fuelle tras la amnistía y sin choque nuevo con Madrid."
+      "pct": "-6%",
+      "detail": "El tuit de Illa anima el choque PP-PSOE, pero la base procesista se queda en la queja interna."
     },
     {
-      "name": "Okupación",
-      "change": "down",
-      "pct": "-28%",
-      "detail": "Sin caso mediático nuevo: la conversación se queda en hilos explicativos sobre allanamiento y usurpación."
-    },
-    {
-      "name": "Memoria histórica",
-      "change": "down",
-      "pct": "-36%",
-      "detail": "Las leyes de concordia siguen vigentes pero no hay polémica nueva esta semana."
+      "name": "Sanchismo / UCO",
+      "change": "stable",
+      "pct": "+3%",
+      "detail": "Cerdán, Ábalos y Zapatero mantienen el volumen, aunque la campaña le roba el primer plano."
     }
   ],
   "accounts": [
@@ -594,51 +591,51 @@
   "virals": [
     {
       "author": "@elxokas",
-      "date": "23 oct 2026",
-      "text": "Este hombre va a intentar el comeback de cualquier forma después de estos 8 años 💀💀💀",
-      "engagement": "+13.000 likes · 430K views",
+      "date": "28 oct 2026",
+      "text": "«Hijos de la grandísima perra, no tenéis vergüenza.» Reacción sin contexto que se convirtió en el post más visto del ecosistema español esta semana.",
+      "engagement": "+40.400 likes · 983 RTs · 652K views",
       "topic": "Sanchismo",
-      "link": "https://x.com/elxokas/status/2113722859453567135"
+      "link": "https://x.com/elxokas/status/2115080727565861109"
     },
     {
-      "author": "@Santi_ABASCAL",
-      "date": "25 oct 2026",
-      "text": "¡Gracias Palma de Mallorca! Acto abarrotadísimo.",
-      "engagement": "+4.680 likes · 1.300 RTs",
+      "author": "@billkilgore_",
+      "date": "29 oct 2026",
+      "text": "Lista de improperios dirigida a Óscar Puente («te lo digo yo gratis…») tras el accidente ferroviario de Urda.",
+      "engagement": "+9.100 likes · 1.254 RTs · 150K views",
+      "topic": "Sanchismo",
+      "link": "https://x.com/billkilgore_/status/2115968835832492173"
+    },
+    {
+      "author": "@profsecundario",
+      "date": "29 oct 2026",
+      "text": "«Lo País.» Una foto y dos palabras sobre el tratamiento mediático del accidente: 845 reposts.",
+      "engagement": "+4.200 likes · 845 RTs · 379K views",
       "topic": "Elecciones",
-      "link": "https://x.com/Santi_ABASCAL/status/2114003962630213867"
+      "link": "https://x.com/profsecundario/status/2115965750448132121"
     },
     {
-      "author": "@el_pais",
-      "date": "24 oct 2026",
-      "text": "Sánchez recita un poema de Lorca en el mitin de Granada: «Esta es la España que no tiene miedo a su cultura».",
-      "engagement": "+3.068 likes · 482 RTs · 463K views",
-      "topic": "Elecciones",
-      "link": "https://x.com/el_pais/status/2113942146361512390"
-    },
-    {
-      "author": "@VanyaValentine",
-      "date": "25 oct 2026",
-      "text": "Crítica a la redacción de los medios sobre el detenido en la acampada: «UN HOMBRE... UNA JOVEN».",
-      "engagement": "+2.521 likes",
-      "topic": "Acampada de Sol",
-      "link": "https://x.com/VanyaValentine/status/2114493818447786048"
-    },
-    {
-      "author": "@lajuliabarish",
-      "date": "24 oct 2026",
-      "text": "Vox ya ha dicho que va a prohibir cultura, el orgullo… La involución que se nos viene es tremenda.",
-      "engagement": "+2.300 likes",
-      "topic": "Wokismo",
-      "link": "https://x.com/lajuliabarish/status/2113929004231065839"
-    },
-    {
-      "author": "@DiarioVLL",
-      "date": "24 oct 2026",
-      "text": "La obra de Lorca cancelada por la Junta renace en Al Norte y agota entradas.",
-      "engagement": "+314 likes · 45K views",
+      "author": "@Tagelca",
+      "date": "1 nov 2026",
+      "text": "Quote sobre el tiktoker Clerss, Burger King y ElXokas: «la hipocresía de los que ahora piden cabeza».",
+      "engagement": "+5.440 likes · 393 RTs · 177K views",
       "topic": "Cultura de la Cancelación",
-      "link": "https://x.com/DiarioVLL/status/2113949905245159636"
+      "link": "https://x.com/Tagelca/status/2116897771881980022"
+    },
+    {
+      "author": "@Lau14mg",
+      "date": "1 nov 2026",
+      "text": "«¿En qué momento una persona que votó a Pedro tiene que aguantar que le llamen facha por estar hasta los huevos del PSOE?»",
+      "engagement": "≈435 likes · miles de views",
+      "topic": "Facha",
+      "link": "https://x.com/Lau14mg/status/2116908419647143977"
+    },
+    {
+      "author": "@Pableraso",
+      "date": "30 oct 2026",
+      "text": "«El TSJ tumba el reglamento de la Universidad de Valencia que excluye el castellano… al menos se han quitado la careta.»",
+      "engagement": "252 likes · 143 RTs",
+      "topic": "Wokismo",
+      "link": "https://x.com/Pableraso/status/2116118260735152506"
     }
   ]
 }
