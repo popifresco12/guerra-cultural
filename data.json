@@ -1,36 +1,39 @@
 {
   "meta": {
-    "generated_at": "2026-11-02T08:16:14+01:00",
+    "generated_at": "2026-11-03T08:03:11+01:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "reacciones en X esta semana al mitin de Sánchez Feijóo Abascal campaña elecciones generales 29N sondeos escaños (desde 2026-10-30)",
-      "debate en X esta semana sanchismo Sánchez UCO Cerdán Zapatero corrupción PSOE imputación (desde 2026-10-30)",
-      "debate en X esta semana inmigración España Ceuta Canarias llegadas irregulares regularización (desde 2026-10-30)",
-      "debate en X esta semana acampada Puerta del Sol Sindicato de Inquilinas vivienda alquiler desalojo (desde 2026-10-30)",
-      "polémica en X esta semana okupación Desokupa desalojo ocupas vecinos propietarios allanamiento (desde 2026-10-30)",
-      "debate en X esta semana independentismo Cataluña procesistas Puigdemont Junts ERC amnistía referéndum (desde 2026-10-30)",
-      "polémica en X esta semana memoria histórica ley de concordia Aragón PP Vox exhumación Franco víctimas (desde 2026-10-30)",
-      "debate en X esta semana feminismo abolicionista prostitución Irene Montero ley trata mujeres (desde 2026-10-30)",
-      "polémica en X esta semana ideología woke censura universidad progresismo España debate cultural (desde 2026-10-30)",
-      "polémica en X esta semana cultura de la cancelación Rosalía flamenco apropiación cultural boicot linchamiento digital (desde 2026-10-30)",
-      "polémica en X esta semana ley trans menores bloqueadores Madrid protocolo autodeterminación género debate (desde 2026-10-30)",
-      "polémica en X esta semana despoblación Teruel Existe España vaciada incendios servicios zona rural (desde 2026-10-30)",
-      "tuiteros llamando fachas a PP Vox esta semana debate insulto facha España redes (desde 2026-10-30)",
-      "actividad: @profsecundario @dianitanoticias @Tagelca @elxokas @TemplarExtre @geoestratego @13mescribano @VictorLapuente (desde 2026-10-30)",
-      "actividad: @EstefMolina_ @nicolasdepedro @armesillaconde @Anujbost @billkilgore_ @elmundotoday @littleragergirl @LaBugsBunnyIA (desde 2026-10-30)",
-      "actividad: @dianitanoticias @TemplarExtre @VictorLapuente @13mescribano (desde 2026-10-30)",
-      "virales: @billkilgore_ @Tagelca @profsecundario @armesillaconde @geoestratego @13mescribano @elxokas con enlaces y engagement"
+      "reacciones en X esta semana al mitin de Sánchez Feijóo Abascal campaña elecciones generales 29N sondeos escaños (desde 2026-10-31)",
+      "debate en X esta semana sanchismo Sánchez UCO Cerdán Zapatero corrupción PSOE imputación (desde 2026-10-31)",
+      "debate en X esta semana inmigración España Ceuta Canarias llegadas irregulares regularización (desde 2026-10-31)",
+      "debate en X esta semana acampada Puerta del Sol Sindicato de Inquilinas vivienda alquiler desalojo (desde 2026-10-31)",
+      "polémica en X esta semana okupación Desokupa desalojo ocupas vecinos propietarios allanamiento (desde 2026-10-31)"
     ],
-    "stale_topics": [],
+    "stale_topics": [
+      "acampada-sol",
+      "sanchismo",
+      "inmigracion",
+      "okupacion",
+      "independentismo",
+      "memoria",
+      "feminismo",
+      "woke",
+      "cultura-cancelacion",
+      "ley-trans",
+      "elecciones",
+      "espana-vaciada",
+      "facha"
+    ],
     "inactive_accounts": [
       "@dianitanoticias",
       "@VictorLapuente",
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "previous_generated_at": "2026-11-01T08:01:40+01:00",
+    "previous_generated_at": "2026-11-02T08:16:14+01:00",
     "previous_source": "cron 09f22b3f6f78",
-    "notes": "Recuperacion tras 5 dias de bloqueo por credito xAI (28-10 a 01-11): las 13 busquedas de topicos devolvieron analisis completo con citas reales. @dianitanoticias y @VictorLapuente siguen sin actividad (ultimos posts de julio 2026 y enero 2026); @elmundotoday y @littleragergirl siguen sin resultados indexados. @TemplarExtre aparece en X como @TemplarExtrem (variante de handle, se mantiene la entrada del directorio). sources.json NO generado: el entorno RAG /home/carlo/guerra-cultural-rag no existe en este host Windows."
+    "fallback": "full",
+    "notes": "Fallback completo: credito xAI agotado (personal-team-blocked:spending-limit). Las 5 primeras busquedas de topicos (elecciones, sanchismo, inmigracion, acampada-sol, okupacion) fallaron de forma identica y el diagnostico con un unico GET a https://api.x.ai/v1/models devolvio el mismo error 403 spending-limit, lo que confirma credito de cuenta y no forma de query; no se hicieron reintentos en bucle. Jornada 1 del nuevo bloqueo: la recarga del 01-11 dio una sola jornada operativa (02-11, 13/13 topicos frescos). Los 13 topicos, noticias, tendencias, cuentas y virales se reutilizan literalmente del commit anterior (b4e6aab, 02-11-2026). meta.inactive_accounts se mantiene exactamente igual porque una cuenta sin verificar no es ni activa ni inactiva. No se anade snapshot a history.json para no fabricar un punto en el grafico de evolucion. Recarga en https://grok.com/?_s=usage — el patron observado es de 1-3 jornadas operativas por recarga. sources.json NO generado: el entorno RAG /home/carlo/guerra-cultural-rag no existe en este host Windows."
   },
   "topics": [
     {
