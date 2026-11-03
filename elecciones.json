@@ -1,9 +1,9 @@
 {
- "generado": "2026-11-02T08:27:34+00:00",
+ "generado": "2026-11-03T07:46:05+00:00",
  "eleccion": {
   "nombre": "Elecciones Generales 2026",
   "fecha": "2026-11-29",
-  "dias_restantes": 27
+  "dias_restantes": 26
  },
  "convocatoria": "2026-10-05",
  "hitos": [
@@ -49,14 +49,14 @@
    "url": "https://www.eldiario.es/rss/",
    "noticias": [
     {
-     "titular": "El bloque progresista del Poder Judicial carga contra el vocal de Sumar: \"Entrega el Consejo a la derecha\"",
-     "url": "https://www.eldiario.es/politica/bloque-progresista-judicial-carga-vocal-sumar-entrega-consejo-derecha_1_13622220.html",
-     "fecha": "Wed, 28 Oct 2026 15:07:25 +0000"
+     "titular": "Óscar Puente se enfrenta a un Congreso hostil que pide su dimisión y más explicaciones sobre la tragedia de Urda",
+     "url": "https://www.eldiario.es/politica/oscar-puente-enfrenta-congreso-hostil-pide-dimision-explicaciones-tragedia-urda_1_13631514.html",
+     "fecha": "Mon, 02 Nov 2026 21:07:07 +0000"
     },
     {
-     "titular": "Diez altos cargos de la Generalitat cobran sobresueldos por dar clases sin que el Gobierno valenciano detalle cuánto perciben",
-     "url": "https://www.eldiario.es/comunitat-valenciana/diez-altos-cargos-generalitat-cobran-sobresueldos-dar-clases-gobierno-valenciano-detalle-perciben_1_13628441.html",
-     "fecha": "Sun, 01 Nov 2026 21:07:45 +0000"
+     "titular": "La investigación del caso Leire Díez destapa nuevos indicios que apuntan a las cloacas del PP",
+     "url": "https://www.eldiario.es/politica/investigacion-caso-leire-diez-destapa-nuevos-indicios-apuntan-cloacas-pp_129_13631614.html",
+     "fecha": "Mon, 02 Nov 2026 21:07:08 +0000"
     },
     {
      "titular": "Las claves de las 'midterms': batallas decisivas y temas fundamentales para seguir las elecciones legislativas de EEUU",
@@ -64,14 +64,19 @@
      "fecha": "Sun, 01 Nov 2026 21:07:46 +0000"
     },
     {
-     "titular": "“Es una fuerza extraordinaria”: Obama responde a la llamada para impulsar a los candidatos demócratas y vapulea a Trump",
-     "url": "https://www.eldiario.es/internacional/theguardian/fuerza-extraordinaria-obama-responde-llamada-impulsar-candidatos-democratas-vapulea-trump_1_13630917.html",
-     "fecha": "Sun, 01 Nov 2026 21:07:46 +0000"
+     "titular": "Nuevo revés judicial para las teorías conspirativas de Trump: el Supremo rechaza anular 20.000 votos en California antes de las legislativas",
+     "url": "https://www.eldiario.es/internacional/nuevo-reves-judicial-teorias-conspirativas-trump-supremo-rechaza-anular-20-000-votos-california-legislativas_1_13632677.html",
+     "fecha": "Mon, 02 Nov 2026 23:08:44 +0000"
     },
     {
-     "titular": "El laberinto del PP en Gipuzkoa: de tener a Sémper y Lezama criticando a Vox a pedir el voto para la ultraderecha en el Senado",
-     "url": "https://www.eldiario.es/euskadi/laberinto-pp-gipuzkoa-semper-lezama-criticando-vox-pedir-voto-ultraderecha-senado_1_13628135.html",
-     "fecha": "Sun, 01 Nov 2026 20:45:16 +0000"
+     "titular": "EEUU reanuda los ataques contra Irán en el estrecho de Ormuz en vísperas de las elecciones legislativas",
+     "url": "https://www.eldiario.es/internacional/eeuu-reanuda-ataques-iran-estrecho-ormuz-visperas-elecciones-legislativas_1_13632715.html",
+     "fecha": "Tue, 03 Nov 2026 02:15:30 +0000"
+    },
+    {
+     "titular": "La globalización se resquebraja por varias costuras: de la energía y la IA al comercio y el capital",
+     "url": "https://www.eldiario.es/economia/globalizacion-resquebraja-costuras-energia-ia-comercio-capital_129_13631516.html",
+     "fecha": "Mon, 02 Nov 2026 21:07:13 +0000"
     },
     {
      "titular": "El nido nazi reducido a cenizas: Alemania debate si debe reconstruir el refugio alpino de Hitler",
@@ -79,24 +84,19 @@
      "fecha": "Sun, 01 Nov 2026 17:15:42 +0000"
     },
     {
+     "titular": "Diez altos cargos de la Generalitat cobran sobresueldos por dar clases sin que el Gobierno valenciano detalle cuánto perciben",
+     "url": "https://www.eldiario.es/comunitat-valenciana/diez-altos-cargos-generalitat-cobran-sobresueldos-dar-clases-gobierno-valenciano-detalle-perciben_1_13628441.html",
+     "fecha": "Sun, 01 Nov 2026 21:07:45 +0000"
+    },
+    {
+     "titular": "Ayuso entrega la medalla de Madrid al presidente de Chile, el ultra Kast: \"Por todo lo que has hecho\"",
+     "url": "https://www.eldiario.es/madrid/ayuso-entrega-medalla-madrid-presidente-chile-ultra-kast-has-hecho_1_13632365.html",
+     "fecha": "Mon, 02 Nov 2026 18:09:19 +0000"
+    },
+    {
      "titular": "Ayuso cambia la protección de la Casa de Campo para permitir corridas de toros y ferias en la Venta del Batán",
      "url": "https://www.eldiario.es/madrid/somos/ayuso-cambia-proteccion-casa-campo-permitir-corridas-toros-ferias-venta-batan_1_13608492.html",
      "fecha": "Sun, 01 Nov 2026 21:07:49 +0000"
-    },
-    {
-     "titular": "La Fúmiga, el grupo en valenciano que PP y Vox apartan de la programación musical, reúne a 36.000 personas en su despedida en València",
-     "url": "https://www.eldiario.es/comunitat-valenciana/cultura/fumiga-grupo-valenciano-pp-vox-apartan-programacion-musical-reune-36-000-personas-despedida-valencia_1_13630624.html",
-     "fecha": "Sun, 01 Nov 2026 22:01:18 +0000"
-    },
-    {
-     "titular": "La Fiscalía presenta una querella contra el vicepresidente de Vox en Mallorca por el uso de los coches oficiales",
-     "url": "https://www.eldiario.es/illes-balears/fiscalia-presenta-querella-vicepresidente-vox-mallorca-coches-oficiales_1_13630593.html",
-     "fecha": "Sun, 01 Nov 2026 12:57:53 +0000"
-    },
-    {
-     "titular": "Miguel Ángel Revilla: \"Feijóo va a ser un presidente con las manos atadas por Vox\"",
-     "url": "https://www.eldiario.es/cantabria/miguel-angel-revilla-feijoo-presidente-manos-atadas-vox_1_13627618.html",
-     "fecha": "Sat, 31 Oct 2026 21:12:17 +0000"
     }
    ]
   },
@@ -105,19 +105,44 @@
    "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada",
    "noticias": [
     {
-     "titular": "La mayoría de la Diputación Permanente del Congreso exige la dimisión de Puente por el accidente de Urda",
-     "url": "https://elpais.com/espana/2026-11-02/la-mayoria-de-la-diputacion-permanente-del-congreso-exige-la-dimision-de-puente-por-el-accidente-de-urda.html",
-     "fecha": "Mon, 02 Nov 2026 04:30:01 GMT"
+     "titular": "Estados Unidos vota en unas ‘midterms’ decisivas para el poder de Trump: siete claves de las elecciones",
+     "url": "https://elpais.com/us/2026-11-03/estados-unidos-vota-en-unas-midterms-decisivas-para-el-poder-de-trump-siete-claves-de-las-elecciones.html",
+     "fecha": "Tue, 03 Nov 2026 05:00:00 GMT"
     },
     {
-     "titular": "Mary Austin, la exprometida de Freddie Mercury que lleva años guardando su legado: “Nuestro amor era mucho más poderoso de lo que llegué a imaginar”",
-     "url": "https://elpais.com/gente/2026-11-02/mary-austin-la-exprometida-de-freddie-mercury-que-lleva-anos-guardando-su-legado-nuestro-amor-era-mucho-mas-poderoso-de-lo-que-llegue-a-imaginar.html",
-     "fecha": "Mon, 02 Nov 2026 04:30:00 GMT"
+     "titular": "Videoanálisis | “Los hispanos elegibles para votar pueden determinar la dirección del país o si habrá una ‘ola azul”",
+     "url": "https://elpais.com/us/2026-11-03/videoanalisis-los-hispanos-elegibles-para-votar-pueden-determinar-la-direccion-del-pais-o-si-habra-una-ola-azul.html",
+     "fecha": "Tue, 03 Nov 2026 05:00:00 GMT"
     },
     {
-     "titular": "Adiós pantallas, hola anillos: los nuevos dispositivos de actividad apuestan por pasar desapercibidos",
-     "url": "https://elpais.com/icon/2026-11-02/adios-pantallas-hola-anillos-los-nuevos-dispositivos-de-actividad-apuestan-por-pasar-desapercibidos.html",
-     "fecha": "Mon, 02 Nov 2026 04:30:00 GMT"
+     "titular": "¿Y si fallan las encuestas? Cómo la “ola azul” demócrata podría pasar a tsunami o quedarse en marejada",
+     "url": "https://elpais.com/us/2026-11-02/y-si-fallan-las-encuestas-como-la-ola-azul-democrata-podria-pasar-a-tsunami-o-quedarse-en-marejada.html",
+     "fecha": "Mon, 02 Nov 2026 12:25:05 GMT"
+    },
+    {
+     "titular": "Por qué la segunda oleada de ‘hackeos’ a las neveras en supermercados avisa de los riesgos que vienen",
+     "url": "https://elpais.com/tecnologia/2026-11-03/por-que-la-segunda-oleada-de-hackeos-a-las-neveras-avisa-de-lo-que-viene.html",
+     "fecha": "Tue, 03 Nov 2026 04:30:01 GMT"
+    },
+    {
+     "titular": "Del miedo a la ultraderecha al regreso a los derechos básicos: Frente Amplio y Podemos afinan sus estrategias para el 29-N tras el accidente",
+     "url": "https://elpais.com/espana/elecciones-generales/2026-11-03/del-miedo-a-la-ultraderecha-al-regreso-a-los-derechos-basicos-frente-amplio-y-podemos-afinan-sus-estrategias-para-el-29-n-tras-el-accidente.html",
+     "fecha": "Tue, 03 Nov 2026 04:30:01 GMT"
+    },
+    {
+     "titular": "La Universidad Rey Juan Carlos necesita un préstamo de 40 millones de Ayuso para no colapsar",
+     "url": "https://elpais.com/educacion/2026-11-03/la-universidad-rey-juan-carlos-necesita-un-prestamo-de-40-millones-de-ayuso-para-no-colapsar.html",
+     "fecha": "Tue, 03 Nov 2026 04:30:01 GMT"
+    },
+    {
+     "titular": "Estados Unidos ataca la isla iraní de Qeshm en la víspera de sus elecciones de medio mandato",
+     "url": "https://elpais.com/internacional/2026-11-03/estados-unidos-la-isla-irani-de-qeshm-en-la-vispera-de-sus-elecciones-de-medio-mandato.html",
+     "fecha": "Tue, 03 Nov 2026 07:35:01 GMT"
+    },
+    {
+     "titular": "Apple logra ingresos récord apoyada en la fortaleza del iPhone y presume de su remuneración a los accionistas",
+     "url": "https://elpais.com/economia/2026-11-02/apple-eleva-sus-ingresos-un-12-y-presume-de-su-remuneracion-a-los-accionistas.html",
+     "fecha": "Mon, 02 Nov 2026 22:11:33 GMT"
     },
     {
      "titular": "Raquel Catalá, la jueza de la vivienda que aprieta las tuercas a la Administración para que no desahucie sin dar una alternativa estable",
@@ -125,34 +150,9 @@
      "fecha": "Mon, 02 Nov 2026 04:30:01 GMT"
     },
     {
-     "titular": "Omar Ayuso, actor: “Yo concibo el sexo como un juego en el que puede caber el amor”",
-     "url": "https://elpais.com/cultura/2026-11-02/omar-ayuso-actor-yo-concibo-el-sexo-como-un-juego-en-el-que-puede-caber-el-amor.html",
-     "fecha": "Mon, 02 Nov 2026 04:30:01 GMT"
-    },
-    {
-     "titular": "El fondo soberano de Noruega se lanza a por el macrocentro comercial de Diagonal Mar en Barcelona",
-     "url": "https://cincodias.elpais.com/companias/2026-11-02/el-fondo-soberano-de-noruega-se-lanza-a-por-el-macrocentro-comercial-de-diagonal-mar-en-barcelona.html",
-     "fecha": "Mon, 02 Nov 2026 04:15:00 GMT"
-    },
-    {
-     "titular": "Édouard Philippe: “Francia es hoy más débil económicamente y la sociedad es más violenta y crispada”",
-     "url": "https://elpais.com/internacional/2026-11-01/edouard-philippe-francia-es-hoy-mas-debil-economicamente-y-la-sociedad-es-mas-violenta-y-crispada.html",
-     "fecha": "Sun, 01 Nov 2026 04:30:01 GMT"
-    },
-    {
-     "titular": "La española María Neira y otros seis candidatos competirán por la dirección de la OMS",
-     "url": "https://elpais.com/sociedad/2026-10-30/la-espanola-maria-neira-y-otros-seis-candidatos-competiran-por-la-direccion-de-la-oms.html",
-     "fecha": "Fri, 30 Oct 2026 12:48:28 GMT"
-    },
-    {
-     "titular": "El plan contra el fuego andaluz cierra el ejercicio con el mayor gasto histórico y el peor balance en 30 años",
-     "url": "https://elpais.com/espana/andalucia/2026-10-31/el-plan-contra-el-fuego-andaluz-cierra-el-ejercicio-con-el-mayor-gasto-historico-y-el-peor-balance-en-30-anos.html",
-     "fecha": "Sat, 31 Oct 2026 04:30:01 GMT"
-    },
-    {
-     "titular": "37 millones de caballitos de mar al año: el comercio de vida silvestre es mucho mayor de lo que se creía",
-     "url": "https://elpais.com/clima-y-medio-ambiente/2026-10-30/37-millones-de-caballitos-de-mar-al-ano-el-comercio-de-vida-silvestre-es-mucho-mayor-de-lo-que-se-creia.html",
-     "fecha": "Fri, 30 Oct 2026 18:00:05 GMT"
+     "titular": "Ayuso condecora al presidente de Chile, el ultraderechista José Antonio Kast: “Defendemos lo mismo”",
+     "url": "https://elpais.com/espana/madrid/2026-11-02/ayuso-condecora-al-presidente-de-chile-el-ultraderechista-jose-antonio-kast-defendemos-lo-mismo.html",
+     "fecha": "Mon, 02 Nov 2026 18:46:54 GMT"
     }
    ]
   },
@@ -161,14 +161,19 @@
    "url": "https://www.abc.es/rss/feeds/abc_EspanaEspana.xml",
    "noticias": [
     {
-     "titular": "Mercadona cierra más de 800 supermercados este lunes 2 de noviembre por Todos los Santos",
-     "url": "https://www.abc.es/espana/comunidad-valenciana/horarios-especiales-hoy-mercadona-festivo-santos-abre-20261102053000-nt.html",
-     "fecha": "Mon, 02 Nov 2026 05:30:09 +0100"
+     "titular": "Encuestas elecciones generales en Madrid: resultados de PSOE, PP y Vox y ganador según los sondeos el 29N",
+     "url": "https://www.abc.es/espana/madrid/encuestas-elecciones-generales-madrid-resultados-psoe-pp-20261103051500-nt.html",
+     "fecha": "Tue, 03 Nov 2026 08:37:58 +0100"
     },
     {
-     "titular": "Encuestas elecciones generales en la Comunidad Valenciana: resultados de PSOE, PP y Vox y ganador según los sondeos el 29N",
-     "url": "https://www.abc.es/espana/comunidad-valenciana/encuestas-elecciones-generales-comunidad-valenciana-resultados-psoe-20261102051500-nt.html",
-     "fecha": "Mon, 02 Nov 2026 05:15:00 +0100"
+     "titular": "El impacto invisible de la dana en los comercios: 2.000 tuvieron que cambiar de proveedores",
+     "url": "https://www.abc.es/espana/comunidad-valenciana/impacto-invisible-dana-comercios-2000-cambiar-proveedores-20261103053000-nt.html",
+     "fecha": "Tue, 03 Nov 2026 07:47:03 +0100"
+    },
+    {
+     "titular": "Procesados cinco excargos del PSOE por gastarse 1,8 millones de los andaluces en «becas» para desempleados de Delphi",
+     "url": "https://www.abc.es/espana/andalucia/procesados-cinco-excargos-psoe-gastarse-millones-andaluces-20261103070819-nts.html",
+     "fecha": "Tue, 03 Nov 2026 07:08:19 +0100"
     }
    ]
   },
@@ -177,19 +182,24 @@
    "url": "https://e00-elmundo.uecdn.es/rss/espana.xml",
    "noticias": [
     {
-     "titular": "Unos 244.000 votantes de Sánchez apoyan al PP tras la segunda tragedia ferroviaria en nueve meses",
-     "url": "https://www.elmundo.es/espana/encuestas/2026/11/02/6ae77482e4d4d8283b8b4576.html",
-     "fecha": "Mon, 02 Nov 2026 00:13:37 +0100"
+     "titular": "Pedro Sánchez retoma la campaña electoral tras el accidente ferroviario con actos en Valencia y Bilbao",
+     "url": "https://www.elmundo.es/comunidad-valenciana/2026/11/02/6ae8bc7afc6c837f528b4577.html",
+     "fecha": "Mon, 02 Nov 2026 17:56:00 +0100"
     },
     {
-     "titular": "15 millones de votos para el cambio",
-     "url": "https://www.elmundo.es/espana/2026/11/02/6ae77999e85ece9b088b4584.html",
-     "fecha": "Mon, 02 Nov 2026 00:13:38 +0100"
+     "titular": "El PSOE pierde 450.000 votos y cae por debajo de 100 escaños en la primera encuesta tras la tragedia de Urda",
+     "url": "https://www.elmundo.es/espana/encuestas/2026/11/01/6ae77446e4d4d8f3698b458a.html",
+     "fecha": "Mon, 02 Nov 2026 09:42:32 +0100"
     },
     {
-     "titular": "La izquierda arma a su \"ejército\" inspirado en la remontada de Lula: \"El candidato eres tú\"",
-     "url": "https://www.elmundo.es/espana/2026/11/02/6ae76f91e85ece854c8b456e.html",
-     "fecha": "Mon, 02 Nov 2026 00:13:39 +0100"
+     "titular": "Feijóo puede ganar en 36 provincias y Vox desbanca al PSOE en Madrid tras la tragedia de Urda",
+     "url": "https://www.elmundo.es/espana/encuestas/2026/11/03/6ae8d3cefdddffb1178b4574.html",
+     "fecha": "Tue, 03 Nov 2026 00:04:26 +0100"
+    },
+    {
+     "titular": "Feijóo cambia el guion de su campaña tras el accidente y reúne a la cúpula del PP para rehacer la estrategia",
+     "url": "https://www.elmundo.es/espana/2026/10/31/6ae4e88dfc6c83f5568b4590.html",
+     "fecha": "Sat, 31 Oct 2026 01:13:28 +0100"
     },
     {
      "titular": "El PP reanudará los mítines en Valladolid: \"Que nadie olvide que votar al PSOE es votar a Óscar Puente\"",
@@ -197,50 +207,71 @@
      "fecha": "Mon, 02 Nov 2026 00:13:45 +0100"
     },
     {
-     "titular": "Golpe policial a Blocus ante un sábado de máxima alerta: blindaje de comercios en las grandes ciudades por temor a disturbios",
-     "url": "https://www.elmundo.es/cataluna/2026/10/31/6ae4feeafdddffa83e8b45ab.html",
-     "fecha": "Sat, 31 Oct 2026 01:13:28 +0100"
+     "titular": "La izquierda arma a su \"ejército\" inspirado en la remontada de Lula: \"El candidato eres tú\"",
+     "url": "https://www.elmundo.es/espana/2026/11/02/6ae76f91e85ece854c8b456e.html",
+     "fecha": "Mon, 02 Nov 2026 00:13:39 +0100"
     },
     {
-     "titular": "La continuidad de Puente en el Gobierno divide al PSOE mientras el ministro rechaza dimitir: \"Los audios lo ponen más contra las cuerdas\"",
-     "url": "https://www.elmundo.es/espana/2026/10/29/6ae38952fc6c83c1278b4597.html",
-     "fecha": "Thu, 29 Oct 2026 22:50:51 +0100"
+     "titular": "Unos 244.000 votantes de Sánchez apoyan al PP tras la segunda tragedia ferroviaria en nueve meses",
+     "url": "https://www.elmundo.es/espana/encuestas/2026/11/02/6ae77482e4d4d8283b8b4576.html",
+     "fecha": "Mon, 02 Nov 2026 00:13:37 +0100"
     },
     {
-     "titular": "El PSOE pierde 450.000 votos y cae por debajo de 100 escaños en la primera encuesta tras la tragedia de Urda",
-     "url": "https://www.elmundo.es/espana/encuestas/2026/11/01/6ae77446e4d4d8f3698b458a.html",
-     "fecha": "Mon, 02 Nov 2026 00:07:14 +0100"
+     "titular": "Los votantes del PSOE también se alejan de Puente: el 41% pide su dimisión por la tragedia de Urda",
+     "url": "https://www.elmundo.es/espana/encuestas/2026/11/02/6ae8b293e9cf4a904c8b4572.html",
+     "fecha": "Mon, 02 Nov 2026 22:45:13 +0100"
     },
     {
-     "titular": "Aleix Sanmartín gana por tercera vez el premio a Consultor Político del Año en Washington",
-     "url": "https://www.elmundo.es/espana/2026/11/01/6ae73de321efa029738b4579.html",
-     "fecha": "Sun, 01 Nov 2026 14:58:58 +0100"
+     "titular": "Dos intoxicados, tres familias desalojadas y dos confinadas por el humo de un incendio cerca del Acueducto de Segovia",
+     "url": "https://www.elmundo.es/espana/2026/11/02/6ae873d7fdddffee318b457a.html",
+     "fecha": "Mon, 02 Nov 2026 12:30:51 +0100"
     },
     {
-     "titular": "El PP se personará en la causa por el accidente de Urda y exige al Gobierno que asuma responsabilidades",
-     "url": "https://www.elmundo.es/espana/2026/11/01/6ae73220fdddffea328b459a.html",
-     "fecha": "Sun, 01 Nov 2026 13:48:09 +0100"
-    },
-    {
-     "titular": "Santiago Abascal: \"El crecimiento de Vox es lo que asegura la alternativa\"",
-     "url": "https://www.elmundo.es/espana/2026/10/31/6ae5d63221efa081798b4597.html",
-     "fecha": "Sun, 01 Nov 2026 09:56:11 +0100"
+     "titular": "15 millones de votos para el cambio",
+     "url": "https://www.elmundo.es/espana/2026/11/02/6ae77999e85ece9b088b4584.html",
+     "fecha": "Mon, 02 Nov 2026 00:13:38 +0100"
     }
    ]
   },
   {
    "medio": "OKDiario",
    "url": "https://okdiario.com/feed",
-   "noticias": []
+   "noticias": [
+    {
+     "titular": "En 2012, Boeing sustituyó a decenas de voluntarios por sacos de patatas en un avión retirado: el experimento le permitió solucionar el problema de la cobertura WiFi en los aviones",
+     "url": "https://okdiario.com/curiosidades/2012-boeing-sustituyo-decenas-voluntarios-sacos-patatas-avion-retirado-experimento-permitio-solucionar-problema-cobertura-wifi-aviones-20683404",
+     "fecha": "Tue, 03 Nov 2026 08:41:23 +0100"
+    },
+    {
+     "titular": "El de Majadahonda está bien pero este mercadillo de Madrid casi nadie lo conoce y tiene las mejores gangas jamás vistas",
+     "url": "https://okdiario.com/madrid/majadahonda-esta-bien-pero-este-mercadillo-madrid-casi-nadie-lo-conoce-tiene-mejores-gangas-jamas-vistas-20681690",
+     "fecha": "Tue, 03 Nov 2026 08:15:43 +0100"
+    },
+    {
+     "titular": "Apple bate su récord de ventas, pero cada vez depende más del iPhone",
+     "url": "https://okdiario.com/tecnologia/apple-bate-record-ventas-pero-cada-vez-depende-mas-del-iphone-20686688",
+     "fecha": "Tue, 03 Nov 2026 07:45:53 +0100"
+    },
+    {
+     "titular": "Es oficial y está confirmado: se sumarán 3 años de cotización a los trabajadores que hayan pedido una excedencia para cuidar a un familiar",
+     "url": "https://okdiario.com/economia/oficial-esta-confirmado-sumaran-3-anos-cotizacion-trabajadores-que-hayan-pedido-excedencia-cuidar-familiar-20681870",
+     "fecha": "Tue, 03 Nov 2026 07:30:41 +0100"
+    }
+   ]
   },
   {
    "medio": "The Objective",
    "url": "https://theobjective.com/feed/",
    "noticias": [
     {
-     "titular": "29-N: trenes, urnas y supervivencia",
-     "url": "https://theobjective.com/elsubjetivo/opinion/2026-11-02/29-n-trenes-urnas-supervivencia-articulo-cayuela-gally/",
-     "fecha": "Mon, 02 Nov 2026 04:25:00 +0000"
+     "titular": "Podcast | Trump se juega el Congreso y América Latina mira las consecuencias",
+     "url": "https://theobjective.com/podcasts/dos-orillas-podcast/podcast-trump-america-latina-midterm-las-dos-orillas/",
+     "fecha": "Tue, 03 Nov 2026 04:25:20 +0000"
+    },
+    {
+     "titular": "La macroeconomía como arma electoral",
+     "url": "https://theobjective.com/elsubjetivo/opinion/2026-11-03/macroeconomia-arma-electoral-articulo-martin-seco/",
+     "fecha": "Tue, 03 Nov 2026 04:25:00 +0000"
     }
    ]
   }
@@ -264,8 +295,8 @@
    "usuario": "@esantiago.bsky.social",
    "url": "https://bsky.app/profile/esantiago.bsky.social/post/3mzadu476gk2t",
    "fecha": "2026-11-01T08:02:41.687Z",
-   "likes": 314,
-   "rts": 220,
+   "likes": 359,
+   "rts": 242,
    "resp": 6
   },
   {
@@ -284,8 +315,8 @@
    "usuario": "@eldiario.es",
    "url": "https://bsky.app/profile/eldiario.es/post/3mz72xzahac25",
    "fecha": "2026-10-31T19:51:09.389Z",
-   "likes": 165,
-   "rts": 107,
+   "likes": 168,
+   "rts": 108,
    "resp": 2
   },
   {
@@ -314,8 +345,8 @@
    "usuario": "@demetrioymedio.bsky.social",
    "url": "https://bsky.app/profile/demetrioymedio.bsky.social/post/3mzajjrjm522k",
    "fecha": "2026-11-01T09:44:17.402Z",
-   "likes": 86,
-   "rts": 43,
+   "likes": 93,
+   "rts": 46,
    "resp": 2
   },
   {
@@ -324,19 +355,9 @@
    "usuario": "@htejero.eurosky.social",
    "url": "https://bsky.app/profile/htejero.eurosky.social/post/3mzaith6pr22i",
    "fecha": "2026-11-01T09:31:48.363Z",
-   "likes": 72,
+   "likes": 75,
    "rts": 41,
    "resp": 1
-  },
-  {
-   "texto": "Y por eso las elecciones del 29-N son, seguramente, las de mayor importancia y trascendencia en las que vamos a votar en nuestra vida. /Ende",
-   "autor": "Otis B. Driftwood",
-   "usuario": "@obdriftwood.bsky.social",
-   "url": "https://bsky.app/profile/obdriftwood.bsky.social/post/3mymcxejtjs2t",
-   "fecha": "2026-10-24T08:53:22.358Z",
-   "likes": 106,
-   "rts": 20,
-   "resp": 7
   },
   {
    "texto": "#españa #espanha #espanya #elecciones #eleccionesgenerales #29n #stopfascismo #noolvidamos #nopasaran #niolvidoniperdon #recuerda #stoppp #ppesmierda #stopvox #voxesodio #voxesmierda #prioridadnacional #vota #voto #reflexion #frasedeldia #citadeldia",
@@ -344,7 +365,7 @@
    "usuario": "@demetrioymedio.bsky.social",
    "url": "https://bsky.app/profile/demetrioymedio.bsky.social/post/3mz6dxo2qvk2s",
    "fecha": "2026-10-31T12:59:21.604Z",
-   "likes": 49,
+   "likes": 50,
    "rts": 25,
    "resp": 0
   },
@@ -369,14 +390,24 @@
    "resp": 1
   },
   {
-   "texto": "🇧🇷 Javier Milei apoyó públicamente a Flávio Bolsonaro y participó en un acto de su candidatura en São Paulo el 25 de julio de 2026.   🇪🇸 En octubre de 2026, Milei viajó a España para respaldar al PP y a Vox en la precampaña de las elecciones generales del 29 de noviembre.",
-   "autor": "Democracia real YA! #7292",
-   "usuario": "@democraciarealya.bsky.social",
-   "url": "https://bsky.app/profile/democraciarealya.bsky.social/post/3myronw6qbk2i",
-   "fecha": "2026-10-26T12:06:09.134Z",
-   "likes": 34,
-   "rts": 17,
-   "resp": 1
+   "texto": "Falange convertirá el aniversario de la muerte de Primo de Rivera en una de sus principales movilizaciones antes de las elecciones del 29N    ✍️ Por Danilo Albin   diario.publico.es/wms…",
+   "autor": "Diario Público",
+   "usuario": "@publico.es",
+   "url": "https://bsky.app/profile/publico.es/post/3mzbs3gx5os2g",
+   "fecha": "2026-11-01T21:49:59+00:00",
+   "likes": 16,
+   "rts": 11,
+   "resp": 6
+  },
+  {
+   "texto": "Me preocupa profundamente que, ante la crisis de credibilidad del #ferrocarril en mi país, vayamos a reaccionar en las próximas elecciones del #29N pasando el mando a quienes recortaron gastos, detuvieron inversiones necesarias e instauraron la mentalidad de privatizaciones a todo trance. Porque […]",
+   "autor": "Iván Rivera",
+   "usuario": "@ivan.brucknerite.net",
+   "url": "https://bsky.app/profile/ivan.brucknerite.net/post/3mzdate3xjwy2",
+   "fecha": "2026-11-02T11:46:25.000Z",
+   "likes": 11,
+   "rts": 12,
+   "resp": 0
   }
  ]
 }
