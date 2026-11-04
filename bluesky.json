@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-11-03T08:46:04+01:00",
+    "generated_at": "2026-11-04T08:46:04+01:00",
     "fuente": "Bluesky (app.bsky.feed.searchPosts, API publica, filtro idioma es)",
     "nota": "Volumenes NO comparables con X: son plataformas distintas. Se comparan ordenes relativos del mismo tema, no totales.",
     "temas_ok": 12,
     "temas_error": [],
-    "total_posts": 1185,
-    "total_engagement": 11264,
-    "total_likes": 7487,
-    "total_reposts": 3039,
-    "total_respuestas": 738,
-    "cuentas_unicas": 91
+    "total_posts": 1182,
+    "total_engagement": 11556,
+    "total_likes": 7858,
+    "total_reposts": 2994,
+    "total_respuestas": 704,
+    "cuentas_unicas": 89
   },
   "ranking": [
     {
@@ -21,27 +21,27 @@
     },
     {
       "id": "cultura-cancelacion",
-      "engagement": 2043,
+      "engagement": 2044,
       "posts": 99,
       "engagement_medio": 20.6
     },
     {
       "id": "woke",
-      "engagement": 1295,
-      "posts": 100,
-      "engagement_medio": 12.9
+      "engagement": 1465,
+      "posts": 99,
+      "engagement_medio": 14.8
     },
     {
       "id": "memoria",
-      "engagement": 1134,
-      "posts": 96,
-      "engagement_medio": 11.8
+      "engagement": 1258,
+      "posts": 99,
+      "engagement_medio": 12.7
     },
     {
       "id": "elecciones",
-      "engagement": 1134,
+      "engagement": 1184,
       "posts": 100,
-      "engagement_medio": 11.3
+      "engagement_medio": 11.8
     },
     {
       "id": "feminismo",
@@ -51,42 +51,53 @@
     },
     {
       "id": "ley-trans",
-      "engagement": 771,
+      "engagement": 772,
       "posts": 99,
       "engagement_medio": 7.8
     },
     {
       "id": "sanchismo",
-      "engagement": 558,
-      "posts": 99,
+      "engagement": 552,
+      "posts": 98,
       "engagement_medio": 5.6
     },
     {
       "id": "facha",
-      "engagement": 461,
-      "posts": 94,
-      "engagement_medio": 4.9
+      "engagement": 416,
+      "posts": 90,
+      "engagement_medio": 4.6
     },
     {
       "id": "independentismo",
-      "engagement": 412,
+      "engagement": 413,
       "posts": 100,
       "engagement_medio": 4.1
     },
     {
       "id": "espana-vaciada",
-      "engagement": 313,
+      "engagement": 310,
       "posts": 100,
       "engagement_medio": 3.1
     },
     {
       "id": "inmigracion",
-      "engagement": 240,
+      "engagement": 239,
       "posts": 99,
       "engagement_medio": 2.4
     }
   ],
   "directorio": [
+    {
+      "handle": "pbustinduy.bsky.social",
+      "nombre": "Pablo Bustinduy",
+      "posts": 1,
+      "likes": 572,
+      "reposts": 232,
+      "engagement": 812,
+      "temas": [
+        "elecciones"
+      ]
+    },
     {
       "handle": "bulldog75.bsky.social",
       "nombre": "Bulldog punk.",
@@ -107,17 +118,6 @@
       "engagement": 735,
       "temas": [
         "okupacion"
-      ]
-    },
-    {
-      "handle": "pbustinduy.bsky.social",
-      "nombre": "Pablo Bustinduy",
-      "posts": 1,
-      "likes": 342,
-      "reposts": 206,
-      "engagement": 559,
-      "temas": [
-        "elecciones"
       ]
     },
     {
@@ -143,47 +143,59 @@
       ]
     },
     {
+      "handle": "whiskyshot.bsky.social",
+      "nombre": "Mezcal Barks! (Comms open!)",
+      "posts": 1,
+      "likes": 447,
+      "reposts": 87,
+      "engagement": 535,
+      "temas": [
+        "woke"
+      ]
+    },
+    {
       "handle": "anxolopez.bsky.social",
       "nombre": "ANXO LOPEZ🔻",
       "posts": 1,
-      "likes": 238,
-      "reposts": 93,
-      "engagement": 334,
+      "likes": 323,
+      "reposts": 123,
+      "engagement": 450,
       "temas": [
         "memoria"
+      ]
+    },
+    {
+      "handle": "juanroures.bsky.social",
+      "nombre": "Juan Roures",
+      "posts": 1,
+      "likes": 336,
+      "reposts": 91,
+      "engagement": 429,
+      "temas": [
+        "woke"
       ]
     },
     {
       "handle": "wilma78.bsky.social",
       "nombre": "Wilma",
       "posts": 1,
-      "likes": 196,
-      "reposts": 92,
-      "engagement": 305,
+      "likes": 204,
+      "reposts": 97,
+      "engagement": 319,
       "temas": [
         "memoria"
       ]
     },
     {
-      "handle": "whiskyshot.bsky.social",
-      "nombre": "Mezcal Barks! (Comms open!)",
-      "posts": 1,
-      "likes": 213,
-      "reposts": 33,
-      "engagement": 247,
-      "temas": [
-        "woke"
-      ]
-    },
-    {
       "handle": "publico.es",
       "nombre": "Diario Público",
-      "posts": 1,
-      "likes": 172,
-      "reposts": 68,
-      "engagement": 246,
+      "posts": 3,
+      "likes": 199,
+      "reposts": 89,
+      "engagement": 294,
       "temas": [
-        "cultura-cancelacion"
+        "cultura-cancelacion",
+        "elecciones"
       ]
     },
     {
@@ -231,18 +243,6 @@
       ]
     },
     {
-      "handle": "mse09.bsky.social",
-      "nombre": "MSevilla✊🏻🌹",
-      "posts": 28,
-      "likes": 119,
-      "reposts": 56,
-      "engagement": 179,
-      "temas": [
-        "elecciones",
-        "facha"
-      ]
-    },
-    {
       "handle": "pelaez.bsky.social",
       "nombre": "HermanosPelaez",
       "posts": 1,
@@ -254,70 +254,38 @@
       ]
     },
     {
-      "handle": "burakcrow.bsky.social",
-      "nombre": "Bura_k_crow",
-      "posts": 1,
-      "likes": 143,
-      "reposts": 26,
-      "engagement": 171,
-      "temas": [
-        "woke"
-      ]
-    },
-    {
-      "handle": "ugosinhache.bsky.social",
-      "nombre": "Ugo Sin Hache",
-      "posts": 2,
-      "likes": 138,
-      "reposts": 19,
-      "engagement": 164,
-      "temas": [
-        "sanchismo",
-        "facha"
-      ]
-    },
-    {
-      "handle": "nndgg.bsky.social",
-      "nombre": "Nuevas Degeneraciones",
-      "posts": 1,
-      "likes": 129,
-      "reposts": 23,
-      "engagement": 153,
-      "temas": [
-        "woke"
-      ]
-    },
-    {
-      "handle": "mrshipderiparia.bsky.social",
-      "nombre": "Emilio Rodriguez-Diaz / Mr. Ship",
-      "posts": 1,
-      "likes": 76,
-      "reposts": 71,
-      "engagement": 153,
-      "temas": [
-        "elecciones"
-      ]
-    },
-    {
-      "handle": "vitorepublica.bsky.social",
-      "nombre": "Victorio",
-      "posts": 1,
-      "likes": 98,
-      "reposts": 46,
-      "engagement": 150,
-      "temas": [
-        "facha"
-      ]
-    },
-    {
       "handle": "donmitxel-oficial.bsky.social",
       "nombre": "Don Mitxel I de Euskadi y V del Secarral",
       "posts": 1,
-      "likes": 101,
+      "likes": 102,
       "reposts": 27,
-      "engagement": 135,
+      "engagement": 136,
       "temas": [
         "independentismo"
+      ]
+    },
+    {
+      "handle": "xandasbolas8.bsky.social",
+      "nombre": "xandasbolas8 #7291 🏳️‍⚧️🏳️‍🌈🍉",
+      "posts": 2,
+      "likes": 96,
+      "reposts": 17,
+      "engagement": 134,
+      "temas": [
+        "inmigracion",
+        "facha"
+      ]
+    },
+    {
+      "handle": "carmenlazare.bsky.social",
+      "nombre": "Carmen Lazare",
+      "posts": 2,
+      "likes": 86,
+      "reposts": 30,
+      "engagement": 133,
+      "temas": [
+        "feminismo",
+        "facha"
       ]
     },
     {
@@ -343,25 +311,60 @@
       ]
     },
     {
-      "handle": "maximodaza.bsky.social",
-      "nombre": "M.D.R",
+      "handle": "ugosinhache.bsky.social",
+      "nombre": "Ugo Sin Hache",
       "posts": 1,
-      "likes": 65,
-      "reposts": 49,
-      "engagement": 118,
+      "likes": 93,
+      "reposts": 17,
+      "engagement": 114,
       "temas": [
-        "elecciones"
+        "sanchismo"
+      ]
+    },
+    {
+      "handle": "andrestrasado.bsky.social",
+      "nombre": "Andrés Trasado",
+      "posts": 2,
+      "likes": 87,
+      "reposts": 4,
+      "engagement": 97,
+      "temas": [
+        "feminismo",
+        "woke"
+      ]
+    },
+    {
+      "handle": "canalredtv.bsky.social",
+      "nombre": "Canal Red",
+      "posts": 1,
+      "likes": 46,
+      "reposts": 39,
+      "engagement": 88,
+      "temas": [
+        "cultura-cancelacion"
+      ]
+    },
+    {
+      "handle": "senorcito.bsky.social",
+      "nombre": "Darío Gael  🇵🇸",
+      "posts": 5,
+      "likes": 76,
+      "reposts": 3,
+      "engagement": 86,
+      "temas": [
+        "woke",
+        "facha"
       ]
     }
   ],
   "temas": {
     "sanchismo": {
       "consulta": "sanchismo",
-      "posts": 99,
-      "likes": 359,
-      "reposts": 142,
-      "respuestas": 57,
-      "engagement": 558,
+      "posts": 98,
+      "likes": 357,
+      "reposts": 145,
+      "respuestas": 50,
+      "engagement": 552,
       "engagement_medio": 5.6,
       "autores": [
         {
@@ -378,10 +381,10 @@
           "handle": "ugosinhache.bsky.social",
           "nombre": "Ugo Sin Hache",
           "posts": 1,
-          "likes": 92,
+          "likes": 93,
           "reposts": 17,
           "respuestas": 4,
-          "engagement": 113,
+          "engagement": 114,
           "ejemplo": "La cantidad de gente que dice \"sanchismo\" a un gobierno que no ha podido hacer demasiado porque los votos en el Congreso no le favorecen.   El gobierno de ZP por ejemplo es más rec"
         },
         {
@@ -405,14 +408,14 @@
           "ejemplo": "Lulismo esotérico 🫱🏽 🫲🏽 Sanchismo solarpunk"
         },
         {
-          "handle": "ppmadrid.bsky.social",
-          "nombre": "Partido Popular de la Comunidad de Madrid",
-          "posts": 3,
-          "likes": 3,
+          "handle": "labalasnchz.bsky.social",
+          "nombre": "",
+          "posts": 10,
+          "likes": 12,
           "reposts": 2,
-          "respuestas": 18,
-          "engagement": 23,
-          "ejemplo": "El sanchismo está destruido y solo necesita, con engaños y con la utilización de los medios públicos, intentar comprar unas elecciones para no perder el poder.  No acepta las regla"
+          "respuestas": 8,
+          "engagement": 22,
+          "ejemplo": "Si hoy no t indigna q se muera gente por una negligente gestión homicida de la red ferroviaria rematada x el sanchismo y perpetrada por los 2 partidos q han gobernado es q no tiene"
         },
         {
           "handle": "lacaneli.bsky.social",
@@ -461,8 +464,8 @@
       "posts": 99,
       "likes": 142,
       "reposts": 62,
-      "respuestas": 36,
-      "engagement": 240,
+      "respuestas": 35,
+      "engagement": 239,
       "engagement_medio": 2.4,
       "autores": [
         {
@@ -518,11 +521,11 @@
         {
           "handle": "neighinghorse.bsky.social",
           "nombre": "🐎 El Relinchador",
-          "posts": 10,
-          "likes": 1,
+          "posts": 12,
+          "likes": 2,
           "reposts": 1,
           "respuestas": 7,
-          "engagement": 9,
+          "engagement": 10,
           "ejemplo": "Una nueva oleada masiva de inmigración ilegal está golpeando España, con más de 800 inmigrantes que han llegado en botes a las Islas Canarias en las últimas 48 horas. Solo en la jo"
         },
         {
@@ -661,20 +664,20 @@
     "independentismo": {
       "consulta": "independentismo",
       "posts": 100,
-      "likes": 279,
+      "likes": 280,
       "reposts": 69,
       "respuestas": 64,
-      "engagement": 412,
+      "engagement": 413,
       "engagement_medio": 4.1,
       "autores": [
         {
           "handle": "donmitxel-oficial.bsky.social",
           "nombre": "Don Mitxel I de Euskadi y V del Secarral",
           "posts": 1,
-          "likes": 101,
+          "likes": 102,
           "reposts": 27,
           "respuestas": 7,
-          "engagement": 135,
+          "engagement": 136,
           "ejemplo": "Pues si aquí gana Bildu y en España logran gobernar PPVox, mi única duda es si la izquierda española seguirá sin entender al independentismo, porque estaríamos hablando no de dos p"
         },
         {
@@ -750,10 +753,10 @@
       ],
       "top": {
         "texto": "Pues si aquí gana Bildu y en España logran gobernar PPVox, mi única duda es si la izquierda española seguirá sin entender al independentismo, porque estaríamos hablando no de dos países, sino de dos planetas distintos.",
-        "likes": 101,
+        "likes": 102,
         "reposts": 27,
         "respuestas": 7,
-        "engagement": 135,
+        "engagement": 136,
         "autor": "donmitxel-oficial.bsky.social",
         "nombre": "Don Mitxel I de Euskadi y V del Secarral",
         "fecha": "2026-11-01T12:33:05.797Z"
@@ -761,31 +764,31 @@
     },
     "memoria": {
       "consulta": "memoria histórica",
-      "posts": 96,
-      "likes": 773,
-      "reposts": 323,
-      "respuestas": 38,
-      "engagement": 1134,
-      "engagement_medio": 11.8,
+      "posts": 99,
+      "likes": 866,
+      "reposts": 355,
+      "respuestas": 37,
+      "engagement": 1258,
+      "engagement_medio": 12.7,
       "autores": [
         {
           "handle": "anxolopez.bsky.social",
           "nombre": "ANXO LOPEZ🔻",
           "posts": 1,
-          "likes": 238,
-          "reposts": 93,
-          "respuestas": 3,
-          "engagement": 334,
+          "likes": 323,
+          "reposts": 123,
+          "respuestas": 4,
+          "engagement": 450,
           "ejemplo": "Es que nunca fuimos la ciudad del Caudillo. Aquí solo parió su madre, pero los dolores no los comimos los demás. 714 fusilados en la comarca, fíjate lo que la quería. Y hubo repres"
         },
         {
           "handle": "wilma78.bsky.social",
           "nombre": "Wilma",
           "posts": 1,
-          "likes": 196,
-          "reposts": 92,
-          "respuestas": 17,
-          "engagement": 305,
+          "likes": 204,
+          "reposts": 97,
+          "respuestas": 18,
+          "engagement": 319,
           "ejemplo": "El programa electoral de PPVox es sencillo:  *Bajar los impuestos a los que más tienen.  *Recortar en servicios públicos, sanidad, educación, pensiones etc. para compensar los impu"
         },
         {
@@ -799,6 +802,16 @@
           "ejemplo": "Yo fui a hablar de mi libro, TRIÁNGULO 🔺(II), pero: los Nazis Pocoyó entre Franco y Bob Esponja, la Insuficiente Memoria Histórica y la Ley de punto final (amnistía) del 77 (atado "
         },
         {
+          "handle": "manuelrivas.bsky.social",
+          "nombre": "Manuel Rivas",
+          "posts": 2,
+          "likes": 39,
+          "reposts": 16,
+          "respuestas": 0,
+          "engagement": 55,
+          "ejemplo": "Ferrol, corazón de la rebelión obrera contra Franco: \"Nunca fuimos la ciudad del Caudillo\" elpais.com/espana/galic..."
+        },
+        {
           "handle": "frikidelcine.bsky.social",
           "nombre": "Nacho Fernández",
           "posts": 1,
@@ -807,16 +820,6 @@
           "respuestas": 1,
           "engagement": 44,
           "ejemplo": "¿Que han hecho un drama homosexual relacionado con la memoria histórica partiendo de un homosexual que fue asesinado por los golpistas y su cadáver aún ni se ha podido localizar? ¡"
-        },
-        {
-          "handle": "manuelrivas.bsky.social",
-          "nombre": "Manuel Rivas",
-          "posts": 2,
-          "likes": 25,
-          "reposts": 13,
-          "respuestas": 0,
-          "engagement": 38,
-          "ejemplo": "Ferrol, corazón de la rebelión obrera contra Franco: \"Nunca fuimos la ciudad del Caudillo\" elpais.com/espana/galic..."
         },
         {
           "handle": "barrocopardo.bsky.social",
@@ -839,22 +842,22 @@
           "ejemplo": "La Asociación por la Memoria Histórica de Arucas rinde homenaje a las víctimas del franquismo en 'los pozos del olvido'  www.eldiario.es/1_cffb3b?utm..."
         },
         {
-          "handle": "armharagon.bsky.social",
-          "nombre": "Armha",
-          "posts": 5,
+          "handle": "casvifactory.bsky.social",
+          "nombre": "🏴𝐉𝐨𝐬𝐞𝐛Ⓐ 𝐌𝐢𝐫𝐞𝐧Ⓐ🏴",
+          "posts": 1,
           "likes": 10,
-          "reposts": 8,
+          "reposts": 6,
           "respuestas": 0,
-          "engagement": 18,
-          "ejemplo": "🔔 ¿Por quién doblan las campanas?  Memorial de Torrero, la dignidad de las víctimas del franquismo y la defensa de la Memoria Democrática frente al abandono institucional.  \"Cada n"
+          "engagement": 16,
+          "ejemplo": "𝐄𝐋 𝟑𝟏 𝐃𝐄 𝐎𝐂𝐓𝐔𝐁𝐑𝐄...  El Día de Recuerdo y Homenaje a todas las Víctimas cumple 4 años en 2026  -Su fecha remite a la Constitución de 1978 y a la Ley de Memoria Histórica de 2007, p"
         }
       ],
       "top": {
         "texto": "Es que nunca fuimos la ciudad del Caudillo. Aquí solo parió su madre, pero los dolores no los comimos los demás. 714 fusilados en la comarca, fíjate lo que la quería. Y hubo represión hasta que murió el HDP. Solo nos com",
-        "likes": 238,
-        "reposts": 93,
-        "respuestas": 3,
-        "engagement": 334,
+        "likes": 323,
+        "reposts": 123,
+        "respuestas": 4,
+        "engagement": 450,
         "autor": "anxolopez.bsky.social",
         "nombre": "ANXO LOPEZ🔻",
         "fecha": "2026-11-02T19:50:24.380Z"
@@ -963,100 +966,100 @@
     },
     "woke": {
       "consulta": "woke",
-      "posts": 100,
-      "likes": 1051,
-      "reposts": 167,
-      "respuestas": 77,
-      "engagement": 1295,
-      "engagement_medio": 12.9,
+      "posts": 99,
+      "likes": 1195,
+      "reposts": 219,
+      "respuestas": 51,
+      "engagement": 1465,
+      "engagement_medio": 14.8,
       "autores": [
         {
           "handle": "whiskyshot.bsky.social",
           "nombre": "Mezcal Barks! (Comms open!)",
           "posts": 1,
-          "likes": 213,
-          "reposts": 33,
+          "likes": 447,
+          "reposts": 87,
           "respuestas": 1,
-          "engagement": 247,
+          "engagement": 535,
           "ejemplo": "(Yes, I'll take november to finish this challenge, LOL) CW: Implied incest! #Kinktober2026 day 4 Body writting!  The biggest dog in the house fell asleep first! and their brothers "
         },
         {
-          "handle": "burakcrow.bsky.social",
-          "nombre": "Bura_k_crow",
+          "handle": "juanroures.bsky.social",
+          "nombre": "Juan Roures",
           "posts": 1,
-          "likes": 143,
-          "reposts": 26,
+          "likes": 336,
+          "reposts": 91,
           "respuestas": 2,
-          "engagement": 171,
-          "ejemplo": "This post was the first thing I saw when I woke up today."
+          "engagement": 429,
+          "ejemplo": "«La bola negra» ya es la película más taquillera del año en España.  Sí, por encima de «Spider-Man: Brand New Day» y «La Odisea».  Go woke, go broke."
         },
         {
-          "handle": "nndgg.bsky.social",
-          "nombre": "Nuevas Degeneraciones",
-          "posts": 1,
-          "likes": 129,
-          "reposts": 23,
-          "respuestas": 1,
-          "engagement": 153,
-          "ejemplo": "Palpatine: “Madre mía Anakin el Consejo está corrompido por lo woke y el Senado no se preocupa por los problemas reales y está jodiéndote la vida con la excusa del clima cambiático"
+          "handle": "senorcito.bsky.social",
+          "nombre": "Darío Gael  🇵🇸",
+          "posts": 4,
+          "likes": 59,
+          "reposts": 3,
+          "respuestas": 6,
+          "engagement": 68,
+          "ejemplo": "Encumbramos a una peña encantadísima de escucharse y claramente instalada en una burbuja que paradójicamente vive de criticarlas y hacerse la radical. Qué coño tiene de punk decir "
         },
         {
-          "handle": "slbskyland.bsky.social",
-          "nombre": "🔞 ☁︎⋆𝕊𝕃𝔹'𝕤 𝕊𝕜𝕪 𝕃𝕒𝕟𝕕⋆☁︎ 🔞",
-          "posts": 1,
-          "likes": 82,
-          "reposts": 19,
-          "respuestas": 2,
-          "engagement": 103,
-          "ejemplo": "~ Sorry old chap, Chara woke up ~ (2015)  #Art #Fanart #Undertale"
-        },
-        {
-          "handle": "elbooki.bsky.social",
-          "nombre": "Booki's horny ramblings🔞",
-          "posts": 1,
-          "likes": 63,
-          "reposts": 11,
-          "respuestas": 10,
-          "engagement": 84,
-          "ejemplo": "If you woke up as your favorite pokemon one day what would you do cuz I would just start smelling my own balls"
-        },
-        {
-          "handle": "hqmat.bsky.social",
-          "nombre": "HQMAT",
-          "posts": 2,
-          "likes": 49,
-          "reposts": 13,
-          "respuestas": 1,
-          "engagement": 63,
-          "ejemplo": "¿POR QUÉ TIENES RAM EN TU PC EN VEZ DE DÁRSELA A SAM ALTMAN PARA QUE IMPLEMENTE LA IA QUE NOS SALVARÁ DE LA DICTADURA WOKE FEMINAZI ECOLOJETA, TÍA PUTA?"
-        },
-        {
-          "handle": "ritsukaxan.bsky.social",
-          "nombre": "RITSUKAXAN",
-          "posts": 2,
-          "likes": 37,
-          "reposts": 5,
+          "handle": "mapugavalera.org.pe",
+          "nombre": "Mario Augusto Puga Valera ♾️🇵🇪",
+          "posts": 3,
+          "likes": 32,
+          "reposts": 0,
           "respuestas": 4,
-          "engagement": 46,
-          "ejemplo": "Many people i know had not a problem of step on artists …  What i find kinda weird is to see many woke up against ai when softwares of pay like adobe, games, coding  etc  are being"
+          "engagement": 36,
+          "ejemplo": "RW Star Wars \"fans\": The sequel trilogy is not canon! Kathleen Kennedy and Dave Filoni ruined white men's legacy! The prequel trilogy wasn't polluted by the woke mind virus!"
         },
         {
-          "handle": "drowsykaiju064.bsky.social",
-          "nombre": "Gab",
+          "handle": "noveasestapeli.bsky.social",
+          "nombre": "Txus Sanchester",
           "posts": 1,
-          "likes": 31,
-          "reposts": 14,
+          "likes": 23,
+          "reposts": 6,
+          "respuestas": 3,
+          "engagement": 32,
+          "ejemplo": "Mi imperio romano es que si esta serie saliera hoy se tirarían al cuello porque es \"woke\""
+        },
+        {
+          "handle": "andreatome.bsky.social",
+          "nombre": "andrea 🪬",
+          "posts": 1,
+          "likes": 23,
+          "reposts": 6,
+          "respuestas": 0,
+          "engagement": 29,
+          "ejemplo": "woke: cuántos yanquis verán la bola negra pensando que es la segunda guerra mundial   bespoke: la bola negra *es* la segunda guerra mundial porque no podemos desligar el despliegue"
+        },
+        {
+          "handle": "andrestrasado.bsky.social",
+          "nombre": "Andrés Trasado",
+          "posts": 1,
+          "likes": 24,
+          "reposts": 0,
           "respuestas": 1,
-          "engagement": 46,
-          "ejemplo": "It seems like someone woke up in a bad mood from their millennia-long nap, and right on spooky day, happy halloween!  #art #vlzart #oc #furry #furryart #halloween"
+          "engagement": 25,
+          "ejemplo": "Los viejos del lugar tampoco toleran la situación. \"En mis tiempos a los adolescentes se les mataba, sin tanto drama. A esto nos ha llevado la cultura woke\""
+        },
+        {
+          "handle": "nucleodejuego.bsky.social",
+          "nombre": "Núcleo de Juego",
+          "posts": 1,
+          "likes": 18,
+          "reposts": 2,
+          "respuestas": 0,
+          "engagement": 20,
+          "ejemplo": "Alan Woke"
         }
       ],
       "top": {
         "texto": "(Yes, I'll take november to finish this challenge, LOL) CW: Implied incest! #Kinktober2026 day 4 Body writting!  The biggest dog in the house fell asleep first! and their brothers took advantage of it! here's how he woke",
-        "likes": 213,
-        "reposts": 33,
+        "likes": 447,
+        "reposts": 87,
         "respuestas": 1,
-        "engagement": 247,
+        "engagement": 535,
         "autor": "whiskyshot.bsky.social",
         "nombre": "Mezcal Barks! (Comms open!)",
         "fecha": "2026-11-03T02:40:59.871Z"
@@ -1065,10 +1068,10 @@
     "cultura-cancelacion": {
       "consulta": "cultura de la cancelación",
       "posts": 99,
-      "likes": 1300,
+      "likes": 1299,
       "reposts": 655,
-      "respuestas": 88,
-      "engagement": 2043,
+      "respuestas": 90,
+      "engagement": 2044,
       "engagement_medio": 20.6,
       "autores": [
         {
@@ -1167,9 +1170,9 @@
       "consulta": "ley trans",
       "posts": 99,
       "likes": 512,
-      "reposts": 184,
+      "reposts": 185,
       "respuestas": 75,
-      "engagement": 771,
+      "engagement": 772,
       "engagement_medio": 7.8,
       "autores": [
         {
@@ -1267,111 +1270,111 @@
     "elecciones": {
       "consulta": "29N",
       "posts": 100,
-      "likes": 674,
-      "reposts": 423,
-      "respuestas": 37,
-      "engagement": 1134,
-      "engagement_medio": 11.3,
+      "likes": 835,
+      "reposts": 323,
+      "respuestas": 26,
+      "engagement": 1184,
+      "engagement_medio": 11.8,
       "autores": [
         {
           "handle": "pbustinduy.bsky.social",
           "nombre": "Pablo Bustinduy",
           "posts": 1,
-          "likes": 342,
-          "reposts": 206,
-          "respuestas": 11,
-          "engagement": 559,
-          "ejemplo": "Después de Milei traen a Kast. “Defendemos lo mismo” dice Ayuso. Abascal le recibe entusiasmado. En unos meses de motosierra ha conseguido disparar el desempleo, anunciar recortes "
+          "likes": 572,
+          "reposts": 232,
+          "respuestas": 8,
+          "engagement": 812,
+          "ejemplo": "Perdió Bolsonaro, y se dio a la fuga como un delincuente vulgar.  Perdió Netanyahu, y acabará sentado ante un tribunal por sus crímenes contra la humanidad.  Perdió ayer Trump, y e"
         },
         {
-          "handle": "mse09.bsky.social",
-          "nombre": "MSevilla✊🏻🌹",
-          "posts": 27,
-          "likes": 104,
-          "reposts": 50,
-          "respuestas": 3,
-          "engagement": 157,
-          "ejemplo": "🗳️ ¡SALDREMOS A VOTAR EN MASA! ❤️🌹 VOTA PSOE ✊🏻 🌹  VOTA PSOE ✊🏻 🌹  VOTA PSOE ✊🏻 🌹  #EjercitoRojo  #29N  #YoConPedroSanchez #LaFuerzaDeLaGente #PSOE"
-        },
-        {
-          "handle": "mrshipderiparia.bsky.social",
-          "nombre": "Emilio Rodriguez-Diaz / Mr. Ship",
+          "handle": "frenteamplio.info",
+          "nombre": "Frente Amplio",
           "posts": 1,
-          "likes": 76,
-          "reposts": 71,
-          "respuestas": 6,
-          "engagement": 153,
-          "ejemplo": "En contra del criterio científico.   Para eliminar el gasto público generado por “… imponer un contenido ideológico”.   Como si actuar contra natura no fuera solo IDEOLOGÍA.  Votad"
-        },
-        {
-          "handle": "maximodaza.bsky.social",
-          "nombre": "M.D.R",
-          "posts": 1,
-          "likes": 65,
-          "reposts": 49,
-          "respuestas": 4,
-          "engagement": 118,
-          "ejemplo": "El PP esta avisando y nos está  diciendo que si ganan acabaran con el escudo antidesahucios, sin la posibilidad de prorrogar dos años el alquiles, sin el préstamo de 50.000 euros a"
-        },
-        {
-          "handle": "esantiago.bsky.social",
-          "nombre": "Emilio Santiago Muíño",
-          "posts": 1,
-          "likes": 21,
-          "reposts": 9,
-          "respuestas": 2,
-          "engagement": 32,
-          "ejemplo": "El miércoles 4, @htejero.eurosky.social y yo presentaremos en Madrid \"España contra el desierto\". Spoiler: compartiremos algunas las claves para construir un bloque histórico climá"
-        },
-        {
-          "handle": "tonisolmor.bsky.social",
-          "nombre": "Antonio Solano 🦋 🇪🇺",
-          "posts": 1,
-          "likes": 14,
-          "reposts": 9,
+          "likes": 40,
+          "reposts": 20,
           "respuestas": 1,
-          "engagement": 24,
-          "ejemplo": "El 29N nos va la vida..."
+          "engagement": 61,
+          "ejemplo": "La derrota de Trump en Estados Unidos es una derrota de los tecno-oligarcas y de las politicas de recortes y motosierra.  Lo hemos visto en Brasil, ahora en EEUU y el 29N lo demost"
         },
         {
-          "handle": "lurgabe.bsky.social",
-          "nombre": "Lur Gabe",
+          "handle": "juliolleonart.com",
+          "nombre": "Julio Lleonart",
           "posts": 1,
-          "likes": 8,
-          "reposts": 8,
-          "respuestas": 0,
-          "engagement": 16,
-          "ejemplo": "Mujeres que el 29N vais a ir a acercaros a una urna a VOTAR ¿Queréis volver a esto?"
-        },
-        {
-          "handle": "stoicomoderno.bsky.social",
-          "nombre": "Mr. Teflón",
-          "posts": 1,
-          "likes": 8,
-          "reposts": 3,
+          "likes": 45,
+          "reposts": 7,
           "respuestas": 2,
-          "engagement": 13,
-          "ejemplo": "Si el 29N sale un Gobierno del PP y Vox, en 4 años volveremos al chabolismo en los extrarradios de las grandes ciudades, como en los tiempos de Franco."
+          "engagement": 54,
+          "ejemplo": "Es demasiado aguerrida la ignorancia, demasiado valiente… y estamos trufados de escandalosos ignorantes en primera línea política y de estupidos aplaudidores en la retaguardia y en"
+        },
+        {
+          "handle": "publico.es",
+          "nombre": "Diario Público",
+          "posts": 2,
+          "likes": 27,
+          "reposts": 21,
+          "respuestas": 0,
+          "engagement": 48,
+          "ejemplo": "El vídeo viral que desmonta el \"contrato basura\" de Feijóo con España: \"12 puntos, cero ideas nuevas y un par de perlas\"\r \r Vía @tremending.bsky.social"
+        },
+        {
+          "handle": "beatrizgallardop.eurosky.social",
+          "nombre": "Beatriz Gallardo-Paúls🇪🇺",
+          "posts": 1,
+          "likes": 36,
+          "reposts": 3,
+          "respuestas": 1,
+          "engagement": 40,
+          "ejemplo": "Que la oleada reaccionaria internacional vaya encontrando frenos es para celebrar. Que deje de asumirse como un rodillo ineludible. Y con los dedos cruzados hasta el 29N"
+        },
+        {
+          "handle": "panicorfila.bsky.social",
+          "nombre": "Panic Orfila [IS]🔻🌹✊💜🏞️📖🚲",
+          "posts": 3,
+          "likes": 15,
+          "reposts": 12,
+          "respuestas": 0,
+          "engagement": 27,
+          "ejemplo": "La letra pequeña del Feijóo \"buen gestor\": rescates, sobrecostes y contratos bajo sospecha en la Xunta. El legado del líder del PP sostiene ante la plana mayor del PP que él sí sab"
+        },
+        {
+          "handle": "movimientosumar.es",
+          "nombre": "Sumar",
+          "posts": 1,
+          "likes": 15,
+          "reposts": 4,
+          "respuestas": 0,
+          "engagement": 19,
+          "ejemplo": "Ni siquiera los bastiones conservadores aguantan ya a Trump.  Lo hemos visto en Brasil, ahora en EEUU y lo veremos también en España el 29N.  El Frente Amplio es la alternativa par"
+        },
+        {
+          "handle": "taniasanchezm.bsky.social",
+          "nombre": "Tania Sánchez Melero",
+          "posts": 1,
+          "likes": 10,
+          "reposts": 5,
+          "respuestas": 0,
+          "engagement": 15,
+          "ejemplo": "Frente a las políticas del ICE de Trump, millones de personas han hecho historia en las urnas llevando al Congreso, Senado y  gobernaciones mujeres como Deb Haaland, Gina Hinojosa "
         }
       ],
       "top": {
-        "texto": "Después de Milei traen a Kast. “Defendemos lo mismo” dice Ayuso. Abascal le recibe entusiasmado. En unos meses de motosierra ha conseguido disparar el desempleo, anunciar recortes en pensiones y hundir la actividad econó",
-        "likes": 342,
-        "reposts": 206,
-        "respuestas": 11,
-        "engagement": 559,
+        "texto": "Perdió Bolsonaro, y se dio a la fuga como un delincuente vulgar.  Perdió Netanyahu, y acabará sentado ante un tribunal por sus crímenes contra la humanidad.  Perdió ayer Trump, y es una de las derrotas más humillantes qu",
+        "likes": 572,
+        "reposts": 232,
+        "respuestas": 8,
+        "engagement": 812,
         "autor": "pbustinduy.bsky.social",
         "nombre": "Pablo Bustinduy",
-        "fecha": "2026-11-02T21:59:01.281Z"
+        "fecha": "2026-11-04T05:57:27.074Z"
       }
     },
     "espana-vaciada": {
       "consulta": "España vaciada",
       "posts": 100,
-      "likes": 215,
+      "likes": 213,
       "reposts": 45,
-      "respuestas": 53,
-      "engagement": 313,
+      "respuestas": 52,
+      "engagement": 310,
       "engagement_medio": 3.1,
       "autores": [
         {
@@ -1468,103 +1471,103 @@
     },
     "facha": {
       "consulta": "facha",
-      "posts": 94,
-      "likes": 327,
-      "reposts": 89,
-      "respuestas": 45,
-      "engagement": 461,
-      "engagement_medio": 4.9,
+      "posts": 90,
+      "likes": 304,
+      "reposts": 56,
+      "respuestas": 56,
+      "engagement": 416,
+      "engagement_medio": 4.6,
       "autores": [
         {
-          "handle": "vitorepublica.bsky.social",
-          "nombre": "Victorio",
+          "handle": "carmenlazare.bsky.social",
+          "nombre": "Carmen Lazare",
           "posts": 1,
-          "likes": 98,
-          "reposts": 46,
-          "respuestas": 6,
-          "engagement": 150,
-          "ejemplo": "Sufre el síndrome de la maldad del DERROTADO, ve que NO llegará a la Moncloa ni podrá vengarse del GOBIERNO PROGRESISTA, tendrá toda la violencia del mundo apoyándole detrás, con l"
+          "likes": 64,
+          "reposts": 26,
+          "respuestas": 7,
+          "engagement": 97,
+          "ejemplo": "Christian Gálvez es un facha ultracatólico, cómo se les ocurre ir allí?   Una representación dela huelga entró en su programa  Mira que buena oportunidad tenía aquí para tener algo"
+        },
+        {
+          "handle": "xandasbolas8.bsky.social",
+          "nombre": "xandasbolas8 #7291 🏳️‍⚧️🏳️‍🌈🍉",
+          "posts": 1,
+          "likes": 53,
+          "reposts": 11,
+          "respuestas": 13,
+          "engagement": 77,
+          "ejemplo": "Me juego las pelotillas a que Broncano va a hacer una entrevista a Abascal de jijijajaj. En vez de entrar a cuchillo a humillarlo como haría cualquier programa facha con un candida"
+        },
+        {
+          "handle": "yporai.bsky.social",
+          "nombre": "Dani Espectador  🏳️‍🌈🏳️‍⚧️🇵🇸🇪🇺🇱🇧🇺🇦#7291",
+          "posts": 2,
+          "likes": 21,
+          "reposts": 4,
+          "respuestas": 1,
+          "engagement": 26,
+          "ejemplo": "Gente, hoy desayunamos lágrimas de facha gringo:"
+        },
+        {
+          "handle": "fichi.eurosky.social",
+          "nombre": "Fichi 🔻",
+          "posts": 1,
+          "likes": 17,
+          "reposts": 4,
+          "respuestas": 0,
+          "engagement": 21,
+          "ejemplo": "Cuando hables con un facha"
+        },
+        {
+          "handle": "senorcito.bsky.social",
+          "nombre": "Darío Gael  🇵🇸",
+          "posts": 1,
+          "likes": 17,
+          "reposts": 0,
+          "respuestas": 1,
+          "engagement": 18,
+          "ejemplo": "Amor, no es 'la policía woke'. Es que os gusta un capital social y un lucir guay más que a un facha el dinero público. Y eso solo se consigue a costa de pisar cabezas, cerrar puert"
         },
         {
           "handle": "jesucristocolega.eurosky.social",
           "nombre": "Jesucristo Colega Planchabragas",
-          "posts": 1,
-          "likes": 37,
-          "reposts": 15,
-          "respuestas": 9,
-          "engagement": 61,
-          "ejemplo": "Atención, facha avistada!"
-        },
-        {
-          "handle": "ugosinhache.bsky.social",
-          "nombre": "Ugo Sin Hache",
-          "posts": 1,
-          "likes": 46,
-          "reposts": 2,
-          "respuestas": 3,
-          "engagement": 51,
-          "ejemplo": "Mi pareja está en un grupo de Telegram del lugar donde vivimos y hay mucho facha. Cuando alguien de izquierdas dice algo de izquierdas, la mayoría del grupo dice que aquí no se hab"
-        },
-        {
-          "handle": "mse09.bsky.social",
-          "nombre": "MSevilla✊🏻🌹",
-          "posts": 1,
-          "likes": 15,
-          "reposts": 6,
-          "respuestas": 1,
-          "engagement": 22,
-          "ejemplo": "😡 Pequeño de estatura, pero enorme en mezquindad. Otro de los que viven de las cloacas de la desinformación: difunden bulos, manipulan y engañan para confundir a la ciudadanía.  ¡¡"
-        },
-        {
-          "handle": "joaquinsevilla.bsky.social",
-          "nombre": "Joaquín Sevilla",
-          "posts": 1,
-          "likes": 7,
-          "reposts": 3,
-          "respuestas": 1,
-          "engagement": 11,
-          "ejemplo": "No sé si 50, pero hay diversos tonos de facha Día 27 del diario joaquinsevilla.blogspot.com/2026/11/las-..."
-        },
-        {
-          "handle": "teshtv.bsky.social",
-          "nombre": "TeshTV en Youtube",
-          "posts": 1,
-          "likes": 10,
+          "posts": 2,
+          "likes": 8,
           "reposts": 0,
-          "respuestas": 0,
-          "engagement": 10,
-          "ejemplo": "Me gusta como Dune trata sobre un extranjero adopta la cultura local para ganarse la simpatía de un grupo y convertirlos en fanáticos para una causa con promesas    Me gusta porque"
+          "respuestas": 6,
+          "engagement": 14,
+          "ejemplo": "Otra facha avistada. Y si antes de bloquear os dais una vuelta entre quien la sigue y a quien sigue os podéis poner la botas bloqueando!"
         },
         {
-          "handle": "brucewayne1978.bsky.social",
-          "nombre": "Bruce Wayne 🏳️‍🌈🏳️‍⚧️🍉",
+          "handle": "pollitopum.bsky.social",
+          "nombre": "Pollito Pum!",
+          "posts": 1,
+          "likes": 12,
+          "reposts": 1,
+          "respuestas": 0,
+          "engagement": 13,
+          "ejemplo": "De fulminado nada, si había algún facha escuchando ahora sabe que fue culpa de Sánchez, porque además lo han dicho en la 1."
+        },
+        {
+          "handle": "tiberiograco.eurosky.social",
+          "nombre": "Tiberio",
           "posts": 1,
           "likes": 9,
           "reposts": 0,
-          "respuestas": 0,
-          "engagement": 9,
-          "ejemplo": "Recordad que está noche sale de hibernación esta señora facha,avisen si la ven para cargar contra ella ESTO NO ES UN SIMULACRO"
-        },
-        {
-          "handle": "trotaora79.bsky.social",
-          "nombre": "Esther de Gea Muñoz🇵🇸🇻🇪🇸🇩🇨🇩",
-          "posts": 1,
-          "likes": 4,
-          "reposts": 3,
-          "respuestas": 1,
-          "engagement": 8,
-          "ejemplo": "Cuidaos de este facha aburrido recién llegado."
+          "respuestas": 2,
+          "engagement": 11,
+          "ejemplo": "Teniendo en cuenta que una de las \"minorías\" de las que hablamos son las mujeres, creo que la internacional facha no está haciendo bien sus cálculos electorales."
         }
       ],
       "top": {
-        "texto": "Sufre el síndrome de la maldad del DERROTADO, ve que NO llegará a la Moncloa ni podrá vengarse del GOBIERNO PROGRESISTA, tendrá toda la violencia del mundo apoyándole detrás, con las espaldas cubiertas, pero no tiene lo ",
-        "likes": 98,
-        "reposts": 46,
-        "respuestas": 6,
-        "engagement": 150,
-        "autor": "vitorepublica.bsky.social",
-        "nombre": "Victorio",
-        "fecha": "2026-11-02T06:22:50.677Z"
+        "texto": "Christian Gálvez es un facha ultracatólico, cómo se les ocurre ir allí?   Una representación dela huelga entró en su programa  Mira que buena oportunidad tenía aquí para tener algo de audiencia por qué tiene 0 patatero",
+        "likes": 64,
+        "reposts": 26,
+        "respuestas": 7,
+        "engagement": 97,
+        "autor": "carmenlazare.bsky.social",
+        "nombre": "Carmen Lazare",
+        "fecha": "2026-11-04T00:02:38.982Z"
       }
     }
   }
