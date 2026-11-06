@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-05T08:45:36+01:00",
-    "fuente_x": "2026-11-05T08:01:44+01:00",
+    "generated_at": "2026-11-06T08:46:15+01:00",
+    "fuente_x": "2026-11-06T08:02:00+01:00",
     "aviso": "X y Bluesky son poblaciones distintas: los volumenes NO son comparables. Se comparan posiciones relativas normalizadas 0-100 dentro de cada plataforma.",
     "temas_comparados": 12
   },
@@ -19,9 +19,9 @@
     "memoria"
   ],
   "alineados": [
-    "feminismo",
     "ley-trans",
-    "espana-vaciada"
+    "espana-vaciada",
+    "feminismo"
   ],
   "temas": [
     {
@@ -31,12 +31,12 @@
       "x_intensidad": 55.0,
       "x_momentum": 48.0,
       "bs_posts": 99,
-      "bs_engagement": 2043,
-      "bs_engagement_medio": 20.6,
+      "bs_engagement": 2049,
+      "bs_engagement_medio": 20.7,
       "bs_consulta": "cultura de la cancelación",
       "x_rel": 0.0,
-      "bs_rel": 96.1,
-      "brecha": -96.1
+      "bs_rel": 96.4,
+      "brecha": -96.4
     },
     {
       "id": "okupacion",
@@ -45,7 +45,7 @@
       "x_intensidad": 70.0,
       "x_momentum": 42.0,
       "bs_posts": 99,
-      "bs_engagement": 2116,
+      "bs_engagement": 2120,
       "bs_engagement_medio": 21.4,
       "bs_consulta": "okupación",
       "x_rel": 35.7,
@@ -59,26 +59,12 @@
       "x_intensidad": 68.0,
       "x_momentum": 44.0,
       "bs_posts": 99,
-      "bs_engagement": 1268,
-      "bs_engagement_medio": 12.8,
+      "bs_engagement": 1280,
+      "bs_engagement_medio": 12.9,
       "bs_consulta": "memoria histórica",
       "x_rel": 31.0,
-      "bs_rel": 54.7,
-      "brecha": -23.7
-    },
-    {
-      "id": "feminismo",
-      "nombre": "Feminismo Radical",
-      "icono": "⚡",
-      "x_intensidad": 68.0,
-      "x_momentum": 62.0,
-      "bs_posts": 100,
-      "bs_engagement": 786,
-      "bs_engagement_medio": 7.9,
-      "bs_consulta": "feminismo radical",
-      "x_rel": 31.0,
-      "bs_rel": 28.9,
-      "brecha": 2.1
+      "bs_rel": 57.4,
+      "brecha": -26.4
     },
     {
       "id": "ley-trans",
@@ -87,12 +73,12 @@
       "x_intensidad": 70.0,
       "x_momentum": 74.0,
       "bs_posts": 99,
-      "bs_engagement": 760,
-      "bs_engagement_medio": 7.7,
+      "bs_engagement": 787,
+      "bs_engagement_medio": 7.9,
       "bs_consulta": "ley trans",
       "x_rel": 35.7,
-      "bs_rel": 27.5,
-      "brecha": 8.2
+      "bs_rel": 32.4,
+      "brecha": 3.3
     },
     {
       "id": "espana-vaciada",
@@ -101,12 +87,26 @@
       "x_intensidad": 60.0,
       "x_momentum": 58.0,
       "bs_posts": 100,
-      "bs_engagement": 278,
-      "bs_engagement_medio": 2.8,
+      "bs_engagement": 289,
+      "bs_engagement_medio": 2.9,
       "bs_consulta": "España vaciada",
       "x_rel": 11.9,
-      "bs_rel": 1.8,
-      "brecha": 10.1
+      "bs_rel": 7.2,
+      "brecha": 4.7
+    },
+    {
+      "id": "feminismo",
+      "nombre": "Feminismo Radical",
+      "icono": "⚡",
+      "x_intensidad": 68.0,
+      "x_momentum": 62.0,
+      "bs_posts": 100,
+      "bs_engagement": 608,
+      "bs_engagement_medio": 6.1,
+      "bs_consulta": "feminismo radical",
+      "x_rel": 31.0,
+      "bs_rel": 23.3,
+      "brecha": 7.7
     },
     {
       "id": "facha",
@@ -114,13 +114,13 @@
       "icono": "🗣️",
       "x_intensidad": 72.0,
       "x_momentum": 68.0,
-      "bs_posts": 87,
-      "bs_engagement": 331,
-      "bs_engagement_medio": 3.8,
+      "bs_posts": 90,
+      "bs_engagement": 148,
+      "bs_engagement_medio": 1.6,
       "bs_consulta": "facha",
       "x_rel": 40.5,
-      "bs_rel": 4.6,
-      "brecha": 35.9
+      "bs_rel": 0.0,
+      "brecha": 40.5
     },
     {
       "id": "independentismo",
@@ -129,12 +129,12 @@
       "x_intensidad": 80.0,
       "x_momentum": 66.0,
       "bs_posts": 100,
-      "bs_engagement": 413,
-      "bs_engagement_medio": 4.1,
+      "bs_engagement": 388,
+      "bs_engagement_medio": 3.9,
       "bs_consulta": "independentismo",
       "x_rel": 59.5,
-      "bs_rel": 9.0,
-      "brecha": 50.5
+      "bs_rel": 12.2,
+      "brecha": 47.3
     },
     {
       "id": "woke",
@@ -143,12 +143,12 @@
       "x_intensidad": 80.0,
       "x_momentum": 76.0,
       "bs_posts": 96,
-      "bs_engagement": 398,
-      "bs_engagement_medio": 4.1,
+      "bs_engagement": 381,
+      "bs_engagement_medio": 4.0,
       "bs_consulta": "woke",
       "x_rel": 59.5,
-      "bs_rel": 8.2,
-      "brecha": 51.3
+      "bs_rel": 11.8,
+      "brecha": 47.7
     },
     {
       "id": "sanchismo",
@@ -156,13 +156,13 @@
       "icono": "👑",
       "x_intensidad": 94.0,
       "x_momentum": 90.0,
-      "bs_posts": 96,
-      "bs_engagement": 698,
-      "bs_engagement_medio": 7.3,
+      "bs_posts": 94,
+      "bs_engagement": 960,
+      "bs_engagement_medio": 10.2,
       "bs_consulta": "sanchismo",
       "x_rel": 92.9,
-      "bs_rel": 24.2,
-      "brecha": 68.7
+      "bs_rel": 41.2,
+      "brecha": 51.7
     },
     {
       "id": "elecciones",
@@ -171,12 +171,12 @@
       "x_intensidad": 97.0,
       "x_momentum": 86.0,
       "bs_posts": 100,
-      "bs_engagement": 476,
-      "bs_engagement_medio": 4.8,
+      "bs_engagement": 618,
+      "bs_engagement_medio": 6.2,
       "bs_consulta": "29N",
       "x_rel": 100.0,
-      "bs_rel": 12.3,
-      "brecha": 87.7
+      "bs_rel": 23.8,
+      "brecha": 76.2
     },
     {
       "id": "inmigracion",
@@ -185,12 +185,12 @@
       "x_intensidad": 94.0,
       "x_momentum": 88.0,
       "bs_posts": 99,
-      "bs_engagement": 245,
+      "bs_engagement": 252,
       "bs_engagement_medio": 2.5,
       "bs_consulta": "inmigración España",
       "x_rel": 92.9,
-      "bs_rel": 0.0,
-      "brecha": 92.9
+      "bs_rel": 5.3,
+      "brecha": 87.6
     }
   ]
 }
