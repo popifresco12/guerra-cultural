@@ -1,13 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-07T08:05:00+01:00",
+    "generated_at": "2026-11-08T12:15:00+01:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "reacciones en X al mitin de Sánchez Feijóo Abascal esta semana campaña elecciones generales 29N sondeos escaños (desde 2026-11-04)",
-      "debate en X esta semana UCO Cerdán Zapatero sanchismo corrupción PSOE (desde 2026-11-04)",
-      "debate en X esta semana inmigración Ceuta Canarias llegadas irregulares regularización (desde 2026-11-04)",
-      "debate en X esta semana Sindicato de Inquilinas acampada Puerta del Sol vivienda Maricarmen (desde 2026-11-04)",
-      "diagnostico: 4/4 llamadas del primer batch devolvieron 403 personal-team-blocked:spending-limit (sin reintento, sin bucle)"
+      "reacciones en X al mitin de Sánchez Feijóo Abascal esta semana campaña elecciones generales 29N sondeos escaños (desde 2026-11-05)",
+      "debate en X esta semana UCO Cerdán Zapatero sanchismo corrupción PSOE (desde 2026-11-05)",
+      "debate en X esta semana inmigración Ceuta Canarias llegadas irregulares regularización (desde 2026-11-05)",
+      "polémica en X esta semana Sindicato de Inquilinas acampada Puerta del Sol vivienda Maricarmen (desde 2026-11-05)",
+      "debate en X esta semana Desokupa okupación desalojo vecinos propietarios allanamiento (desde 2026-11-05)",
+      "diagnostico: 5/5 llamadas del primer batch devolvieron 403 personal-team-blocked:spending-limit (sin reintento, sin bucle)"
     ],
     "stale_topics": [
       "acampada-sol",
@@ -30,12 +31,12 @@
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "previous_generated_at": "2026-11-06T08:02:00+01:00",
+    "previous_generated_at": "2026-11-07T08:05:00+01:00",
     "previous_source": "cron 09f22b3f6f78",
     "last_valid_generated_at": "2026-11-02T08:16:14+01:00",
     "fallback": "full",
-    "blocked_streak_days": 5,
-    "notes": "Fallback completo (jornada 5): credito xAI agotado (personal-team-blocked:spending-limit). Las 4 busquedas del primer batch (elecciones, sanchismo, inmigracion, acampada-sol) fallaron de forma identica, lo que confirma saldo de cuenta y no forma de query; no se reintento en bucle. topics, news, trends, accounts y virals se reutilizan sin cambios del ultimo run valido (2026-11-02T08:16:14+01:00). history.json NO se toca: sin medicion nueva un punto de hoy falsearia el grafico de evolucion. inactive_accounts se mantiene igual (sin comprobacion no hay evidencia ni de actividad ni de inactividad). El dashboard lleva 5 dias congelado. Recarga en https://grok.com/?_s=usage"
+    "blocked_streak_days": 6,
+    "notes": "Fallback completo (jornada 6): credito xAI agotado (personal-team-blocked:spending-limit). Las 5 busquedas del primer batch (elecciones, sanchismo, inmigracion, acampada-sol, okupacion) fallaron de forma identica, lo que confirma saldo de cuenta y no forma de query; no se reintento en bucle. topics, news, trends, accounts y virals se reutilizan sin cambios del ultimo run valido (2026-11-02T08:16:14+01:00). history.json NO se toca: sin medicion nueva un punto de hoy falsearia el grafico de evolucion. inactive_accounts se mantiene igual (sin comprobacion no hay evidencia ni de actividad ni de inactividad). El dashboard lleva 6 dias congelado. Recarga en https://grok.com/?_s=usage"
   },
   "topics": [
     {
