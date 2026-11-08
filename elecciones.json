@@ -1,9 +1,9 @@
 {
- "generado": "2026-11-07T07:45:51+00:00",
+ "generado": "2026-11-08T11:13:27+00:00",
  "eleccion": {
   "nombre": "Elecciones Generales 2026",
   "fecha": "2026-11-29",
-  "dias_restantes": 22
+  "dias_restantes": 21
  },
  "convocatoria": "2026-10-05",
  "hitos": [
@@ -49,9 +49,34 @@
    "url": "https://www.eldiario.es/rss/",
    "noticias": [
     {
-     "titular": "Sánchez reinicia la campaña con la \"ejemplaridad\" de Puente como antítesis de la política de PP y Vox",
-     "url": "https://www.eldiario.es/politica/sanchez-reinicia-campana-ejemplaridad-puente-antitesis-politica-pp-vox_1_13644941.html",
-     "fecha": "Fri, 06 Nov 2026 21:22:05 +0000"
+     "titular": "Los ataques de Ayuso contra quienes se manifiestan: de los profesores \"violentos\" a la \"poca sensibilidad\" de los bomberos",
+     "url": "https://www.eldiario.es/madrid/ataques-ayuso-manifiestan-profesores-violentos-sensibilidad-bomberos_1_13640466.html",
+     "fecha": "Sat, 07 Nov 2026 21:41:34 +0000"
+    },
+    {
+     "titular": "Agresión racista en Ceuta a una odontóloga musulmana por mirar un cartel del candidato local del Frente Amplio: “Trabaja, que cobras el IMV”",
+     "url": "https://www.eldiario.es/desalambre/agresion-racista-ceuta-odontologa-musulmana-cartel-candidato-local-frente-amplio-trabaja-cobras-imv_1_13647015.html",
+     "fecha": "Sat, 07 Nov 2026 21:04:12 +0000"
+    },
+    {
+     "titular": "El Frente Amplio se fija como meta alcanzar la barrera del 10% de los votos para iniciar la \"remontada\"",
+     "url": "https://www.eldiario.es/politica/frente-amplio-fija-meta-alcanzar-barrera-10-votos-iniciar-remontada_1_13616315.html",
+     "fecha": "Sat, 07 Nov 2026 21:41:34 +0000"
+    },
+    {
+     "titular": "La borrasca Bruna ya se nota en Canarias: vientos de más de 100 kilómetros por hora tiran dos contenedores de mercancías en La Palma",
+     "url": "https://www.eldiario.es/canariasahora/islas/borrasca-bruna-nota-canarias-vientos-100-kilometros-hora-tiran-contenedores-palma_1_13647597.html",
+     "fecha": "Sun, 08 Nov 2026 09:57:29 +0000"
+    },
+    {
+     "titular": "Las marcas chinas sacuden ahora el mercado de los coches de lujo",
+     "url": "https://www.eldiario.es/motor/sector_y_mercado/marcas-chinas-sacuden-ahora-mercado-coches-lujo_1_13644250.html",
+     "fecha": "Sat, 07 Nov 2026 21:41:38 +0000"
+    },
+    {
+     "titular": "PP y Vox contra la huelga",
+     "url": "https://www.eldiario.es/opinion/pp-vox-huelga_131_13647239.html",
+     "fecha": "Sat, 07 Nov 2026 21:41:40 +0000"
     },
     {
      "titular": "Alberto Durán, el todopoderoso abogado del PP en horas bajas señalado por Koldo",
@@ -62,41 +87,6 @@
      "titular": "El Gobierno decreta la retirada de aceite de oliva del mercado por primera vez para evitar un desplome de precios",
      "url": "https://www.eldiario.es/economia/gobierno-decreta-retirada-aceite-oliva-mercado-primera-vez-evitar-desplome-precios_1_13642909.html",
      "fecha": "Fri, 06 Nov 2026 08:03:00 +0000"
-    },
-    {
-     "titular": "El Gobierno estudia aprobar antes de las elecciones que el salario mínimo de 2027 siga sin pagar IRPF",
-     "url": "https://www.eldiario.es/economia/gobierno-estudia-aprobar-elecciones-salario-minimo-2027-siga-pagar-irpf_1_13643546.html",
-     "fecha": "Fri, 06 Nov 2026 11:34:54 +0000"
-    },
-    {
-     "titular": "Ayuso ataca a CCOO y UGT por las huelgas en una entrevista con Ana Rosa: \"Estamos secuestrados por una mafia sindical\"",
-     "url": "https://www.eldiario.es/madrid/ayuso-ataca-ccoo-ugt-huelgas-entrevista-ana-rosa-secuestrados-mafia-sindical_1_13643452.html",
-     "fecha": "Fri, 06 Nov 2026 11:21:08 +0000"
-    },
-    {
-     "titular": "Yolanda Díaz llama a secundar la huelga general del 11N y convertirla en una \"marea de esperanza\" para las elecciones",
-     "url": "https://www.eldiario.es/economia/yolanda-diaz-llama-secundar-huelga-general-11n-convertirla-marea-esperanza-elecciones_1_13643921.html",
-     "fecha": "Fri, 06 Nov 2026 12:34:30 +0000"
-    },
-    {
-     "titular": "Sánchez: \"La ejemplaridad que ha ejercido Óscar Puente jamás la practican PP y Vox”",
-     "url": "https://www.eldiario.es/politica/sanchez-ejemplaridad-ejercido-oscar-puente-practican-pp-vox_1_13645643.html",
-     "fecha": "Fri, 06 Nov 2026 19:53:56 +0000"
-    },
-    {
-     "titular": "La media de encuestas tras la dimisión de Óscar Puente: así afecta al voto del PSOE",
-     "url": "https://www.eldiario.es/politica/media-encuestas-dimision-oscar-puente-afecta-voto-psoe_1_13640327.html",
-     "fecha": "Thu, 05 Nov 2026 22:43:35 +0000"
-    },
-    {
-     "titular": "El juez Pedraz llama a declarar a la testigo del supuesto plan para atentar contra Biedma y la cita a cinco días de las elecciones",
-     "url": "https://www.eldiario.es/politica/juez-pedraz-llama-declarar-testigo-supuesto-plan-atentar-biedma-cita-cinco-dias-elecciones_1_13644224.html",
-     "fecha": "Fri, 06 Nov 2026 13:25:50 +0000"
-    },
-    {
-     "titular": "Podemos pone condiciones para investir a Sánchez: bajar alquileres y alimentos y prohibir la especulación con la vivienda",
-     "url": "https://www.eldiario.es/politica/pone-condiciones-investir-sanchez-bajar-alquileres-alimentos-prohibir-especulacion-vivienda_1_13643371.html",
-     "fecha": "Fri, 06 Nov 2026 10:46:31 +0000"
     }
    ]
   },
@@ -105,54 +95,54 @@
    "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada",
    "noticias": [
     {
-     "titular": "¿Se mueven las encuestas? Desde la convocatoria y tras el accidente de tren",
-     "url": "https://elpais.com/espana/2026-11-07/se-mueven-las-encuestas-que-ha-cambiado-desde-la-convocatoria-y-tras-el-accidente-de-tren.html",
-     "fecha": "Sat, 07 Nov 2026 04:30:01 GMT"
+     "titular": "Alberto Núñez Feijóo: “Hacer una coalición de Gobierno con Vox no depende de mí”",
+     "url": "https://elpais.com/espana/2026-11-08/alberto-nunez-feijoo-hacer-una-coalicion-de-gobierno-con-vox-no-depende-de-mi.html",
+     "fecha": "Sun, 08 Nov 2026 04:30:01 GMT"
     },
     {
-     "titular": "La inflación diluye el impacto electoral de los buenos datos macroeconómicos y el ‘efecto Cuerpo’",
-     "url": "https://elpais.com/espana/2026-11-07/la-inflacion-diluye-el-impacto-electoral-de-los-buenos-datos-macroeconomicos-y-el-efecto-cuerpo.html",
-     "fecha": "Sat, 07 Nov 2026 04:30:01 GMT"
+     "titular": "Los deberes económicos tras el 29-N: vivienda, infraestructuras, Presupuestos y pensiones, entre los más urgentes",
+     "url": "https://elpais.com/economia/negocios/2026-11-07/los-deberes-economicos-tras-el-29-n-vivienda-infraestructuras-presupuestos-y-pensiones-entre-los-mas-urgentes.html",
+     "fecha": "Sat, 07 Nov 2026 16:30:00 GMT"
     },
     {
-     "titular": "Trump, de aliado a rémora: los ultras europeos se alejan de su antiguo socio tras la debacle en las urnas",
-     "url": "https://elpais.com/internacional/2026-11-07/trump-de-aliado-a-remora-los-ultras-europeos-se-alejan-de-su-antiguo-socio-tras-la-debacle-en-las-urnas.html",
-     "fecha": "Sat, 07 Nov 2026 04:30:01 GMT"
+     "titular": "Trump cae derrotado en las urnas, pero aún es poderoso (e impredecible) en política exterior",
+     "url": "https://elpais.com/us/2026-11-08/trump-cae-derrotado-en-las-urnas-pero-aun-es-poderoso-e-impredecible-en-politica-exterior.html",
+     "fecha": "Sun, 08 Nov 2026 04:30:01 GMT"
     },
     {
-     "titular": "El Consejo de Estado da vía libre al decreto de los centros de datos y podrá aprobarse antes del 29-N",
-     "url": "https://elpais.com/economia/2026-11-06/el-consejo-de-estado-da-via-libre-al-decreto-de-los-centros-de-datos-y-podra-aprobarse-antes-del-29-n.html",
-     "fecha": "Fri, 06 Nov 2026 20:31:00 GMT"
+     "titular": "Entre la muerte MAGA y la radicalización del trumpismo: los republicanos buscan su sitio tras la debacle electoral",
+     "url": "https://elpais.com/us/2026-11-08/entre-la-muerte-maga-y-la-radicalizacion-del-trumpismo-los-republicanos-buscan-su-sitio-tras-la-debacle-electoral.html",
+     "fecha": "Sun, 08 Nov 2026 04:30:01 GMT"
     },
     {
-     "titular": "Correos, ‘whatsapps’, alertas, reuniones... por qué el nuevo lujo laboral es mantener la concentración más de una hora",
-     "url": "https://elpais.com/economia/negocios/2026-11-07/correos-whatsapps-alertas-reuniones-por-que-el-nuevo-lujo-laboral-es-mantener-la-concentracion-mas-de-una-hora.html",
-     "fecha": "Sat, 07 Nov 2026 04:30:00 GMT"
+     "titular": "‘La revuelta’ cancela la presencia de su público previsto para la entrevista con Santiago Abascal, según personas invitadas al programa",
+     "url": "https://elpais.com/television/2026-11-07/la-revuelta-cancela-la-presencia-de-su-publico-previsto-para-la-entrevista-con-santiago-abascal-se-va-a-grabar-en-condiciones-distintas.html",
+     "fecha": "Sat, 07 Nov 2026 16:06:36 GMT"
     },
     {
-     "titular": "Apocalipsis zombi en la campaña electoral",
-     "url": "https://elpais.com/opinion/2026-11-07/apocalipsis-zombi-en-la-campana-electoral.html",
-     "fecha": "Sat, 07 Nov 2026 04:30:01 GMT"
+     "titular": "Mucho debate y pocas risas: El humor político no logra el salto televisivo nacional desde ‘Polònia’ o ‘Vaya semanita’",
+     "url": "https://elpais.com/television/2026-11-08/mucho-debate-y-pocas-risas-el-humor-politico-no-logra-el-salto-televisivo-nacional-desde-polonia-o-vaya-semanita.html",
+     "fecha": "Sun, 08 Nov 2026 04:30:01 GMT"
     },
     {
-     "titular": "Vecinos anclados en una calefacción contaminante que este invierno saldrá muy cara: qué alternativas hay en el mercado",
-     "url": "https://elpais.com/economia/negocios/2026-11-07/vecinos-anclados-en-una-calefaccion-contaminante-que-este-invierno-saldra-muy-cara-que-alternativas-hay-en-el-mercado.html",
-     "fecha": "Sat, 07 Nov 2026 04:30:00 GMT"
+     "titular": "Muere un soldado durante unos ejercicios en el campo de maniobras de San Gregorio (Zaragoza)",
+     "url": "https://elpais.com/espana/2026-11-08/muere-un-soldado-durante-unos-ejercicios-en-el-campo-de-maniobras-de-san-gregorio.html",
+     "fecha": "Sun, 08 Nov 2026 09:37:20 GMT"
     },
     {
-     "titular": "Ayuso reta a Koldo a mostrar las pruebas de que el PP pagó su defensa: “No tengo ni idea, han dicho que no. Que lo demuestre”",
-     "url": "https://elpais.com/espana/madrid/2026-11-06/ayuso-reta-a-koldo-a-mostrar-las-pruebas-de-que-el-pp-pago-su-defensa-no-tengo-ni-idea-han-dicho-que-no-que-lo-demuestre.html",
-     "fecha": "Fri, 06 Nov 2026 10:50:49 GMT"
+     "titular": "Las ‘ranas’ de Aguirre y otros acusados de corrupción del PP se benefician del colapso de la Audiencia Nacional",
+     "url": "https://elpais.com/espana/2026-11-08/las-ranas-de-aguirre-y-otros-acusados-de-corrupcion-del-pp-se-benefician-del-colapso-de-la-audiencia-nacional.html",
+     "fecha": "Sun, 08 Nov 2026 04:30:01 GMT"
     },
     {
-     "titular": "Comercio ilegal de ajolotes desde Meco a toda España",
-     "url": "https://elpais.com/espana/madrid/2026-11-06/comercio-ilegal-de-ajolotes-desde-meco-a-toda-espana.html",
-     "fecha": "Fri, 06 Nov 2026 14:19:53 GMT"
+     "titular": "Que rueguen por nosotras en las elecciones",
+     "url": "https://elpais.com/ideas/2026-11-08/que-rueguen-por-nosotras-en-las-elecciones.html",
+     "fecha": "Sun, 08 Nov 2026 04:30:00 GMT"
     },
     {
-     "titular": "Tres escenarios de guerra golpean al comercio marítimo mundial",
-     "url": "https://elpais.com/internacional/2026-11-07/tres-escenarios-de-guerra-golpean-al-comercio-maritimo-mundial.html",
-     "fecha": "Sat, 07 Nov 2026 04:30:01 GMT"
+     "titular": "Este calefactor portátil con asa integrada cuesta menos de 22 euros y no deja de sumar ventas",
+     "url": "https://elpais.com/escaparate/estilo-de-vida/calefactor-de-bajo-consumo-con-asa.html",
+     "fecha": "Sun, 08 Nov 2026 05:30:00 GMT"
     }
    ]
   },
@@ -161,14 +151,29 @@
    "url": "https://www.abc.es/rss/feeds/abc_EspanaEspana.xml",
    "noticias": [
     {
-     "titular": "Encuestas elecciones generales en Galicia: resultados de PP, PSOE, Vox, Sumar y BNG y ganador el 29N según los sondeos",
-     "url": "https://www.abc.es/espana/galicia/encuestas-elecciones-generales-galicia-resultados-pp-psoe-20261107050017-nt.html",
-     "fecha": "Sat, 07 Nov 2026 05:00:17 +0100"
+     "titular": "Albiol replica a Álvarez de Toledo con los pinganillos del Congreso: «No molestan a nadie»",
+     "url": "https://www.abc.es/espana/cataluna/albiol-replica-alvarez-toledo-pinganillos-congreso-molestan-20261108115340-nt.html",
+     "fecha": "Sun, 08 Nov 2026 11:53:40 +0100"
     },
     {
-     "titular": "«Votar por tierra, mar y aire»: fechas, trámites y garantías del voto por correo para el 29N",
-     "url": "https://www.abc.es/espana/votar-por-correo-fechas-tramites-garantias-20261105011536-nt.html",
-     "fecha": "Sat, 07 Nov 2026 01:15:36 +0100"
+     "titular": "El hito histórico de Jordi Wild: así serán las entrevistas a Sánchez, Feijóo, Abascal y Colau en plena campaña del 29-N",
+     "url": "https://www.abc.es/espana/entrevistas-jordi-wild-sanchez-feijoo-abascal-colau-20261026104234-nt.html",
+     "fecha": "Sun, 08 Nov 2026 11:36:53 +0100"
+    },
+    {
+     "titular": "Albert Rivera alerta a España sobre las elecciones del 29N: «Es momento de que el voto sea seguro y no podemos jugar. Hay millones de votos que se van a la basura»",
+     "url": "https://www.abc.es/espana/albert-rivera-alerta-espana-sobre-elecciones-29n-20261108110000-nt.html",
+     "fecha": "Sun, 08 Nov 2026 11:00:00 +0100"
+    },
+    {
+     "titular": "Las claves de la campaña en Galicia: voto útil, vídeos de 20 segundos e indecisos hasta el minuto final",
+     "url": "https://www.abc.es/espana/galicia/claves-campana-galicia-voto-util-videos-segundos-20261108103318-nt.html",
+     "fecha": "Sun, 08 Nov 2026 10:33:18 +0100"
+    },
+    {
+     "titular": "Muere un militar durante un ejercicio de instrucción en el campo de maniobras de San Gregorio (Zaragoza)",
+     "url": "https://www.abc.es/espana/aragon/muere-militar-ejercicio-instruccion-campo-maniobras-san-20261108092912-nt.html",
+     "fecha": "Sun, 08 Nov 2026 09:29:13 +0100"
     }
    ]
   },
@@ -177,19 +182,34 @@
    "url": "https://e00-elmundo.uecdn.es/rss/espana.xml",
    "noticias": [
     {
-     "titular": "El PSOE convierte a Valencia en el revulsivo de la campaña para confrontar con el PP de la dana tras Urda: \"No somos iguales\"",
-     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/06/6aedeebee9cf4a41148b457b.html",
-     "fecha": "Fri, 06 Nov 2026 21:17:09 +0100"
+     "titular": "Sánchez busca movilizar el voto en Cataluña, una plaza \"decisiva\" en la que también se vuelca el PP",
+     "url": "https://www.elmundo.es/cataluna/2026/11/08/6aef6799e85ece1d568b457d.html",
+     "fecha": "Sun, 08 Nov 2026 01:17:25 +0100"
     },
     {
-     "titular": "Feijóo defiende poner fecha a la celebración de elecciones en Venezuela durante una videoconferencia con María Corina Machado",
-     "url": "https://www.elmundo.es/espana/2026/11/05/6aecc228fc6c83f6498b4577.html",
-     "fecha": "Thu, 05 Nov 2026 19:53:33 +0100"
+     "titular": "Puente, una dimisión que rompe algo en el PSOE",
+     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/08/6aef6a30e85eced81a8b4598.html",
+     "fecha": "Sun, 08 Nov 2026 00:01:41 +0100"
     },
     {
-     "titular": "La Junta Electoral permite tachar a mano el nombre de Óscar Puente en las papeletas de Valladolid",
-     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/05/6aec9fd8e9cf4ac24d8b4575.html",
-     "fecha": "Thu, 05 Nov 2026 16:25:34 +0100"
+     "titular": "Montero y Rufián hacen campaña antiSánchez: huelga \"contra el Gobierno\" y la corrupción de Ábalos, por ser \"cercano\" al presidente",
+     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/07/6aef020de85ecea1368b456e.html",
+     "fecha": "Sat, 07 Nov 2026 18:50:25 +0100"
+    },
+    {
+     "titular": "José Ignacio García, líder de Adelante Andalucía: \"Para qué sirve la izquierda si vamos todos en la papeleta del PSOE\"",
+     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/06/6aeb009c21efa02d2f8b4597.html",
+     "fecha": "Fri, 06 Nov 2026 22:46:01 +0100"
+    },
+    {
+     "titular": "Díaz Ayuso contra el \"miedo al cambio\" que agita Sánchez: \"Será de cambiar La Moncloa por Soto del Real. Lo colonizaron todo para su mafia\"",
+     "url": "https://www.elmundo.es/comunidad-valenciana/2026/11/07/6aef0a09fc6c8390798b45a7.html",
+     "fecha": "Sat, 07 Nov 2026 14:42:59 +0100"
+    },
+    {
+     "titular": "El PP prohibirá que la Abogacía del Estado defienda \"los intereses particulares\" de altos cargos tras el escándalo de García Ortiz",
+     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/06/6aee347ce85ece452b8b458d.html",
+     "fecha": "Fri, 06 Nov 2026 22:46:09 +0100"
     },
     {
      "titular": "El Rey Felipe VI reivindica el valor de Iberoamérica: «Podemos tener aún más voz en los grandes temas globales»",
@@ -202,29 +222,14 @@
      "fecha": "Thu, 05 Nov 2026 22:51:11 +0100"
     },
     {
+     "titular": "Feijóo defiende poner fecha a la celebración de elecciones en Venezuela durante una videoconferencia con María Corina Machado",
+     "url": "https://www.elmundo.es/espana/2026/11/05/6aecc228fc6c83f6498b4577.html",
+     "fecha": "Thu, 05 Nov 2026 19:53:33 +0100"
+    },
+    {
      "titular": "La \"desregulación\", a debate: dos 'think tanks' españoles abogan por derogar una de cada cinco leyes aprobadas desde 2004",
      "url": "https://www.elmundo.es/espana/2026/11/05/6aec92c021efa066668b45b0.html",
      "fecha": "Thu, 05 Nov 2026 16:54:23 +0100"
-    },
-    {
-     "titular": "Cristian Corvillo, la caída del conductor de Sánchez en su gira de reconquista del PSOE que ya anunció: \"Lo voy a aprovechar\"",
-     "url": "https://www.elmundo.es/espana/2026/11/05/6aec5aa821efa07f108b45a2.html",
-     "fecha": "Thu, 05 Nov 2026 12:40:22 +0100"
-    },
-    {
-     "titular": "El PSOE necesita una derrota dura de Pedro Sánchez",
-     "url": "https://www.elmundo.es/espana/2026/11/05/6aeb73cbe85ecedd468b4581.html",
-     "fecha": "Thu, 05 Nov 2026 00:49:12 +0100"
-    },
-    {
-     "titular": "Alivio en el Frente Amplio por \"pasar página\" de Puente, \"dejar sin argumentos\" al PP y girar el debate hacia \"más Cercanías\"",
-     "url": "https://www.elmundo.es/espana/2026/11/05/6aeb6f1de9cf4aa86d8b4587.html",
-     "fecha": "Thu, 05 Nov 2026 00:00:20 +0100"
-    },
-    {
-     "titular": "Así purgó la Policía al comisario acusado por el PSOE de no proteger a Santaolalla en el Senado: \"Poco recorrido para su labor. Instrucciones recibidas\"",
-     "url": "https://www.elmundo.es/espana/2026/11/04/6aeb8687e4d4d8453d8b45c8.html",
-     "fecha": "Wed, 04 Nov 2026 22:41:23 +0100"
     }
    ]
   },
@@ -233,34 +238,14 @@
    "url": "https://okdiario.com/feed",
    "noticias": [
     {
-     "titular": "Ni se te ocurra plantar un chopo en el jardín cerca de tu piscina: sus raíces buscan el agua constantemente y podrían romper las tuberías",
-     "url": "https://okdiario.com/curiosidades/ni-te-ocurra-plantar-chopo-jardin-cerca-tu-piscina-sus-raices-buscan-agua-constantemente-podrian-romper-tuberias-20223065",
-     "fecha": "Sat, 07 Nov 2026 08:30:35 +0100"
+     "titular": "La única condición de Johnny Depp para interpretar a Jack Sparrow en la sexta película de ‘Piratas del Caribe’",
+     "url": "https://okdiario.com/cool/television/unica-condicion-johnny-depp-interpretar-jack-sparrow-sexta-pelicula-piratas-del-caribe-20717763",
+     "fecha": "Sun, 08 Nov 2026 12:00:05 +0100"
     },
     {
-     "titular": "Se buscan voluntarios para vivir gratis en Portugal cerca de la playa a cambio de ayudar un máximo de 4 horas al día con la limpieza y la tarea del hogar",
-     "url": "https://okdiario.com/curiosidades/buscan-voluntarios-vivir-gratis-portugal-cerca-playa-cambio-ayudar-maximo-4-horas-dia-limpieza-tarea-del-hogar-20691205",
-     "fecha": "Sat, 07 Nov 2026 08:00:40 +0100"
-    },
-    {
-     "titular": "José Luis Sampedro, escritor y economista, lanzó esta reflexión sobre España: «Es un país del tercer mundo»",
-     "url": "https://okdiario.com/economia/jose-luis-sampedro-escritor-economista-lanzo-esta-reflexion-sobre-espana-pais-del-tercer-mundo-20708631",
-     "fecha": "Sat, 07 Nov 2026 08:00:26 +0100"
-    },
-    {
-     "titular": "El Gobierno se reúne con los asesores del voto exterior una semana antes de la campaña para «analizar retos y oportunidades»",
-     "url": "https://okdiario.com/espana/gobierno-reune-asesores-del-voto-exterior-semana-antes-campana-analizar-retos-oportunidades-20717526",
-     "fecha": "Sat, 07 Nov 2026 05:52:47 +0100"
-    },
-    {
-     "titular": "OKDIARIO con las votantes del PSOE y Sánchez en el mitin de Valencia: «Zurdas con orgullo y perras sin amo»",
-     "url": "https://okdiario.com/espana/okdiario-votantes-del-psoe-sanchez-mitin-valencia-zurdas-orgullo-perras-sin-amo-20720448",
-     "fecha": "Sat, 07 Nov 2026 05:48:12 +0100"
-    },
-    {
-     "titular": "Al final, quienes no podrán votar son los españoles de verdad",
-     "url": "https://okdiario.com/opinion/final-quienes-no-podran-votar-son-espanoles-verdad-20718449",
-     "fecha": "Sat, 07 Nov 2026 05:48:12 +0100"
+     "titular": "El corsario de la Corona: Amaro Pargo y sus operaciones comerciales con patente de corso en el Atlántico",
+     "url": "https://okdiario.com/historia/corsario-corona-amaro-pargo-sus-operaciones-comerciales-patente-corso-atlantico-20710884",
+     "fecha": "Sun, 08 Nov 2026 11:00:08 +0100"
     }
    ]
   },
@@ -269,19 +254,14 @@
    "url": "https://theobjective.com/feed/",
    "noticias": [
     {
-     "titular": "Delcy Rodríguez y EEUU inauguran una plaza en Caracas en un nuevo gesto de acercamiento",
-     "url": "https://theobjective.com/internacional/2026-11-07/delcy-rodriguez-eeuu-caracas-gesto-acercamiento/",
-     "fecha": "Sat, 07 Nov 2026 07:15:44 +0000"
+     "titular": "Albiol se desmarca de Cayetana y rechaza eliminar los pinganillos del Congreso",
+     "url": "https://theobjective.com/espana/politica/2026-11-08/albiol-desmarca-cayetana-pinganillos-congreso/",
+     "fecha": "Sun, 08 Nov 2026 10:07:39 +0000"
     },
     {
-     "titular": "Sánchez contraprogramará a Abascal y Broncano con una entrevista en La Séptima",
-     "url": "https://theobjective.com/espana/politica/2026-11-07/sanchez-septima-abascal-broncano-revuelta/",
-     "fecha": "Sat, 07 Nov 2026 04:25:00 +0000"
-    },
-    {
-     "titular": "Steve Jobs, fundador de Apple: «Las personas son mucho más felices cuando descubren que la vida no solo está ahí, sino que puedes cambiarla y mejorarla»",
-     "url": "https://theobjective.com/lifestyle/2026-11-07/steve-jobs-fundador-de-apple-las-personas-son-mucho-mas-felices-cuando-descubren-que-la-vida-no-solo-esta-ahi-sino-que-puedes-cambiarla-y-mejorarla/",
-     "fecha": "Sat, 07 Nov 2026 04:25:00 +0000"
+     "titular": "«Es sentido común»: Vox presenta su lema para la campaña electoral del 29-N",
+     "url": "https://theobjective.com/espana/politica/2026-11-08/vox-lema-29-n-sentido-comun/",
+     "fecha": "Sun, 08 Nov 2026 08:59:51 +0000"
     }
    ]
   }
@@ -305,7 +285,7 @@
    "usuario": "@pbustinduy.bsky.social",
    "url": "https://bsky.app/profile/pbustinduy.bsky.social/post/3mzkhhktobc2i",
    "fecha": "2026-11-05T08:33:53.185Z",
-   "likes": 484,
+   "likes": 485,
    "rts": 208,
    "resp": 22
   },
@@ -320,23 +300,13 @@
    "resp": 6
   },
   {
-   "texto": "MANO A MANO | 'Vértigo constitucional'. En las elecciones generales del próximo 29N nos jugamos un cambio de modelo, porque Vox, que podría entrar en el gobierno de la mano del Partido Popular, supone una enmienda a la totalidad a la Constitución www.eldiario.es/blog/mano-a-...",
-   "autor": "elDiario.es",
-   "usuario": "@eldiario.es",
-   "url": "https://bsky.app/profile/eldiario.es/post/3mz72xzahac25",
-   "fecha": "2026-10-31T19:51:09.389Z",
-   "likes": 168,
-   "rts": 108,
-   "resp": 2
-  },
-  {
    "texto": "#29n #elecciones #eleccionesgenerales #espanha #espanya #niñas #españa #mujeres #mujer #dones #dona #mulher #mulheres #frenaraladerecha #nopasaran #noolvidamos #viral #feminismo #feministas #niunamas #noesno #niunamenos #solosiessi #noestassola #antifascista #antifascistas #antifascismo ✊🙌👌✌️💪👏🏳️‍⚧️⚧️♀️♀️💜",
    "autor": "Demetrioymedio",
    "usuario": "@demetrioymedio.bsky.social",
    "url": "https://bsky.app/profile/demetrioymedio.bsky.social/post/3mznqz6ksos2o",
    "fecha": "2026-11-06T16:02:47.178Z",
-   "likes": 159,
-   "rts": 77,
+   "likes": 192,
+   "rts": 89,
    "resp": 9
   },
   {
@@ -345,7 +315,7 @@
    "usuario": "@ahorapodemos.bsky.social",
    "url": "https://bsky.app/profile/ahorapodemos.bsky.social/post/3mzkqgpdvjc2i",
    "fecha": "2026-11-05T11:14:28.033Z",
-   "likes": 109,
+   "likes": 110,
    "rts": 64,
    "resp": 4
   },
@@ -355,19 +325,9 @@
    "usuario": "@institutomeridiano.org",
    "url": "https://bsky.app/profile/institutomeridiano.org/post/3mzknm4fsuk25",
    "fecha": "2026-11-05T10:23:48.272Z",
-   "likes": 81,
+   "likes": 82,
    "rts": 56,
    "resp": 1
-  },
-  {
-   "texto": "#halloween #miedo #pánico #reflexion #derechos #ddhh #españa #lawfare #madrid #ultraderechas #democracia #abascal #feijoo #noolvidamos #nopasaran #niolvidoniperdon #ayuda #Izquierdas #ultraderechas #29n #elecciones #andalucia #lgtbiq #feminismo #trump #racismo #xenofobia #milei #bolsonaro #meloni 👇",
-   "autor": "Demetrioymedio",
-   "usuario": "@demetrioymedio.bsky.social",
-   "url": "https://bsky.app/profile/demetrioymedio.bsky.social/post/3mzajjrjm522k",
-   "fecha": "2026-11-01T09:44:17.402Z",
-   "likes": 94,
-   "rts": 46,
-   "resp": 2
   },
   {
    "texto": "#Puente Dimite como ministro y como cabeza de lista por Valladolid a las elecciones del 29-N",
@@ -418,6 +378,26 @@
    "likes": 74,
    "rts": 13,
    "resp": 4
+  },
+  {
+   "texto": "¿Creéis que los votantes de #Podemos estamos acabados? Decíais lo mismo en las anteriores elecciones y seguimos aquí, más fuertes. El #29N se verá la verdad. ¡La base es resiliente y no se rinde! 💪🏼 @ahorapodemos.bsky.social  #IreneMontero #rufian",
+   "autor": "TvZurda 💔✊💜 🔻💪 🏳️‍🌈Q+",
+   "usuario": "@tvzurda.bsky.social",
+   "url": "https://bsky.app/profile/tvzurda.bsky.social/post/3mzlqyjfkkk2o",
+   "fecha": "2026-11-05T20:57:05.511Z",
+   "likes": 38,
+   "rts": 20,
+   "resp": 1
+  },
+  {
+   "texto": "El 29N va de elegir democracia o fascismo ultracapitalista  youtube.com/shorts/BKLaR...",
+   "autor": "Democraceitor",
+   "usuario": "@democraceitor.bsky.social",
+   "url": "https://bsky.app/profile/democraceitor.bsky.social/post/3mzgujrcmac2w",
+   "fecha": "2026-11-03T22:17:06.748Z",
+   "likes": 20,
+   "rts": 19,
+   "resp": 1
   }
  ]
 }
