@@ -1,34 +1,33 @@
 {
   "meta": {
-    "generated_at": "2026-11-09T08:20:00+01:00",
+    "generated_at": "2026-11-10T08:15:00+01:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "reacciones en X al mitin de Sánchez Feijóo Abascal esta semana campaña elecciones generales 29N sondeos escaños (desde 2026-11-06)",
-      "debate en X esta semana UCO Cerdán Zapatero sanchismo corrupción PSOE (desde 2026-11-06)",
-      "debate en X esta semana inmigración Ceuta Canarias llegadas irregulares regularización (desde 2026-11-06)",
-      "polémica en X esta semana Sindicato de Inquilinas acampada Puerta del Sol vivienda Maricarmen (desde 2026-11-06)",
-      "debate en X esta semana Desokupa okupación desalojo allanamiento vecinos propietarios (desde 2026-11-06)",
-      "debate en X esta semana independentismo Cataluña procés Puigdemont Junts ERC amnistía (desde 2026-11-06)",
-      "debate en X esta semana memoria histórica ley de concordia Aragón PP Vox exhumación Franco (desde 2026-11-06)",
-      "debate en X esta semana feminismo abolicionista prostitución Irene Montero ley trata (desde 2026-11-06)",
-      "debate en X esta semana ideología woke Podemos Ministerio Igualdad polémica cultural (desde 2026-11-06)",
-      "polémica en X esta semana Rosalía apropiación cultural boicot críticas cancelación flamenco (desde 2026-11-06)",
-      "debate en X esta semana ley trans menores bloqueadores hormonas protocolo Madrid (desde 2026-11-06)",
-      "debate en X esta semana despoblación España vaciada Teruel Existe pueblos abandono (desde 2026-11-06)",
-      "tuiteros llamando fachas a PP Vox esta semana insulto facha política campaña electoral (desde 2026-11-06)",
-      "actividad: 3 tandas de 3-4 handles con allowed_x_handles (16 cuentas del directorio) (desde 2026-11-04)",
-      "tweets virales de @billkilgore_ @Tagelca @profsecundario @armesillaconde @geoestratego @13mescribano con enlaces y engagement (desde 2026-11-05)"
+      "reacciones en X al mitin de Sánchez Feijóo Abascal esta semana campaña elecciones generales 29N sondeos escaños (desde 2026-11-07)",
+      "debate en X esta semana UCO Cerdán Zapatero sanchismo corrupción PSOE (desde 2026-11-07)",
+      "debate en X esta semana inmigración Ceuta Canarias El Hierro llegadas irregulares (desde 2026-11-07)",
+      "polémica en X esta semana Sindicato de Inquilinas acampada Puerta del Sol vivienda huelga general 11-N Maricarmen (desde 2026-11-07)",
+      "debate en X esta semana Desokupa okupación desalojo allanamiento vecinos propietarios (desde 2026-11-07)",
+      "debate en X esta semana independentismo Cataluña procés Puigdemont Junts ERC amnistía Llarena (desde 2026-11-07)"
     ],
-    "stale_topics": [],
+    "stale_topics": [
+      "memoria",
+      "feminismo",
+      "woke",
+      "cultura-cancelacion",
+      "ley-trans",
+      "espana-vaciada",
+      "facha"
+    ],
     "inactive_accounts": [
       "@dianitanoticias",
       "@VictorLapuente",
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "previous_generated_at": "2026-11-08T12:15:00+01:00",
+    "previous_generated_at": "2026-11-09T08:20:00+01:00",
     "previous_source": "cron 09f22b3f6f78",
-    "notes": "Recuperacion tras 6 dias de fallback: el credito xAI vuelve a funcionar y se miden los 13 topicos en fresco (13/13). Snapshot nuevo en history.json (el run anterior no lo anadio por falta de medicion). inactive_accounts se mantiene igual: las 4 cuentas siguen sin actividad detectable en la ventana 4-9 nov, ninguna eliminada del directorio."
+    "notes": "Credito xAI agotado a mitad de run: 6 topicos medidos en fresco (elecciones, sanchismo, inmigracion, acampada-sol, okupacion, independentismo) y 7 con valores del 09-11 en stale_topics. El bloqueo se confirmo con un reintento minimo; es limite de cuenta, no de query. La verificacion de actividad de cuentas y la busqueda de virales NO pudieron ejecutarse: se mantiene el directorio con sus descripciones del 09-11 y inactive_accounts queda exactamente igual (sin chequeo no hay evidencia ni de actividad ni de inactividad); los 6 virales son los tuits reales verificados del run anterior (4-8 nov), sin alterar engagement. Recarga en https://grok.com/?_s=usage."
   },
   "topics": [
     {
@@ -37,23 +36,23 @@
       "icon": "⛺",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 88,
-      "momentum": 42,
+      "intensity": 95,
+      "momentum": 44,
       "momentumDir": "left",
-      "summary": "La acampada de la Puerta del Sol ya no es una tienda de campaña: se ha convertido en la antesala de la huelga general del 11-N, la primera en catorce años, con la vivienda como eje. El mes de la muerte de Maricarmen reactiva el relato del desahucio y el Sindicato de Inquilinas capitaliza el marco, mientras la derecha responde acusándolo de «instrumentalizar» a una anciana de 87 años y de convertir el problema en espectáculo.",
-      "quote": "«Hoy hace un mes que nos dejó Maricarmen… enfrentó cuatro intentos de desahucio y jamás se rindió» — @InquilinatoMad",
+      "summary": "La huelga general del 11-N es mañana y el foco ya no es la acampada sino su portavoz: Alicia del Río dijo que con PP-Vox «compañeras acabarían deportadas o con un tiro en la nuca» y el ciclo se partió en dos. La derecha convierte el exabrupto en el titular del movimiento —calumnia, propaganda del miedo, guiño a ETA— mientras la izquierda intenta devolver el foco al «Decreto Maricarmen», los desahucios y las más de 130 localidades convocadas. El Sindicato de Inquilinas, con CCOO y UGT sumados después, afronta su prueba de fuerza real con la legitimidad de la convocatoria en discusión.",
+      "quote": "«Compañeras acabarían deportadas o con un tiro en la nuca» — Alicia del Río, Sindicato de Inquilinas, en elDiario.es",
       "details": [
         [
           "Volumen en X",
-          "Alto y al alza"
+          "Muy alto, pico del ciclo"
         ],
         [
           "Sentimiento",
-          "Enfrentado: duelo y acusación de instrumentalización"
+          "Enfrentado: vivienda contra el «tiro en la nuca»"
         ],
         [
           "Impulsado por",
-          "Huelga general del 11-N, homenajes a Maricarmen, acampada de Sol"
+          "Huelga general del 11-N y las declaraciones de Alicia del Río"
         ]
       ]
     },
@@ -63,11 +62,11 @@
       "icon": "👑",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 95,
-      "momentum": 94,
+      "intensity": 96,
+      "momentum": 93,
       "momentumDir": "right",
-      "summary": "La UCO entra en campaña: Cerdán, Ábalos-Koldo y los contratos de ADIF y Renfe se leen en X como una sola trama, con el exchófer de Sánchez como testaferro y Zapatero sumado al paquete por la UDEF y sus hijas. La conversación es prácticamente unidireccional: «organización criminal», «marca España» y llamada al castigo en las urnas, con la tragedia de Urda usada como combustible moral.",
-      "quote": "«TODOS LOS CASOS SON UNO» — @criaturina, hilo sobre UCO, ADIF y el entorno de Sánchez",
+      "summary": "La UCO sigue tirando del hilo y en X todo confluye: Cerdán, los contratos de ADIF a Azvi, la condena de Ábalos y Koldo y las joyas de Zapatero se leen como una sola trama, con los hermanos Corvillo como pieza que enlaza las primarias de 2017 con el comisionista Aldama. La pieza más compartida es la de Libertad Digital sobre las «excusas» del PSOE al juez Pedraz, interpretada como pista de nuevas ramificaciones de la cloaca. El «me produce asco la corrupción» de Sánchez se responde con timelines de casos desde 2014 y la pregunta de quién paga los muertos de la vía.",
+      "quote": "«¿Se llevó el PSOE las mordidas y nos dejó los muertos?» — @criaturina, sobre ADIF, Azvi y los accidentes ferroviarios",
       "details": [
         [
           "Volumen en X",
@@ -79,7 +78,7 @@
         ],
         [
           "Impulsado por",
-          "UCO Cerdán, ADIF/Ábalos-Koldo, UDEF a Zapatero, tragedia de Urda"
+          "UCO-Cerdán, ADIF/Azvi, Ábalos-Koldo y Zapatero"
         ]
       ]
     },
@@ -89,23 +88,23 @@
       "icon": "🚧",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 96,
-      "momentum": 90,
+      "intensity": 97,
+      "momentum": 91,
       "momentumDir": "right",
-      "summary": "El Hierro se convierte en el nuevo epicentro: entre 4.500 y 5.800 llegadas en los primeros días de noviembre y unos 8.000 en cinco semanas en una isla de 12.000 habitantes, con el Ejército trasladando a cientos en A330 a Torrejón. Ceuta cumple cien días de presión y el «efecto llamada» —regularización, traslados y ayudas— es el concepto que domina un debate abrumadoramente crítico con Interior.",
-      "quote": "«Cada cayuco exitoso es publicidad» — hilo viral sobre el efecto llamada y los traslados a la Península",
+      "summary": "El Hierro deja de ser epicentro y pasa a emergencia declarada: más de 6.700 llegadas en nueve días a una isla de unos 11.000 habitantes, picos de 441 en unas horas y un Cabildo que declara emergencia social con sanidad, puertos y alojamiento saturados. El dato que más circula es que la Guardia Civil solo localizó 10 de 67 cayucos, munición para el relato de «colapso» y de infiltración por la ruta atlántica. Ceuta se usa como espejo —«Ceuta 2.0»— y Abascal lleva el marco a la tele: reemigración de irregulares y una bandera de Ceuta como regalo en La Revuelta.",
+      "quote": "«El Hierro es la nueva Ceuta» — hilo viral comparando la presión de ambas rutas",
       "details": [
         [
           "Volumen en X",
-          "Muy alto"
+          "Muy alto, al alza"
         ],
         [
           "Sentimiento",
-          "Crítico mayoritario"
+          "Alarma y crítica al Gobierno"
         ],
         [
           "Impulsado por",
-          "Llegadas a El Hierro, traslados militares, cien días de Ceuta"
+          "Emergencia social en El Hierro, 10 de 67 cayucos detectados, Ceuta"
         ]
       ]
     },
@@ -115,23 +114,23 @@
       "icon": "🏠",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 74,
-      "momentum": 84,
+      "intensity": 78,
+      "momentum": 78,
       "momentumDir": "right",
-      "summary": "El debate serio sobre allanamiento, usurpación e inquiokupación convive con el culebrón del ciclo: el desafío a pelear entre Desokupa y Desokupacyl, que se lleva cientos de miles de visualizaciones y divide a los propios antiokupas entre el ridículo y la utilidad. En paralelo circula el programa del PP de juicios rápidos y «poder a los vecinos», con la cifra de unas 14.875 denuncias por usurpación y allanamiento en 2025.",
-      "quote": "«A ostias como gente civilizada» — reply viral al reto entre Desokupa y Desokupacyl",
+      "summary": "El debate de fondo —allanamiento con desalojo en 24-48 horas frente a usurpación que se eterniza en los juzgados, con unas 14.875 denuncias en 2025 y Cataluña concentrando cerca del 40%— queda tapado por el culebrón: Desokupacyl reta a pelear a Desokupa y el vídeo se lleva cientos de miles de visualizaciones entre memes de Mayweather-Pacquiao. El escándalo de Valladolid remata el ciclo: una policía local da positivo en cocaína tras volcar e incendiar el coche y se marcha del lugar en el Porsche Panamera del líder de Desokupacyl, Luis Núñez «Mané». La izquierda lo usa para deslegitimar al sector entero; la derecha, para volver a pedir juicios rápidos y «poder a los vecinos».",
+      "quote": "«Un día más en el extremo centro patriota» — @danialgo_, sobre el accidente y el Porsche de Desokupacyl",
       "details": [
         [
           "Volumen en X",
-          "Medio-alto"
+          "Medio-alto, al alza"
         ],
         [
           "Sentimiento",
-          "Pro-propietario con burla al espectáculo"
+          "Pro-propietario con descrédito al sector desokupa"
         ],
         [
           "Impulsado por",
-          "Reto Desokupa-Desokupacyl y propuestas del PP"
+          "Reto Desokupa-Desokupacyl y el escándalo de Valladolid"
         ]
       ]
     },
@@ -141,11 +140,11 @@
       "icon": "🗺️",
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
-      "intensity": 84,
-      "momentum": 78,
+      "intensity": 88,
+      "momentum": 76,
       "momentumDir": "right",
-      "summary": "Llarena aplica la amnistía y deja sin efecto el procesamiento de Puigdemont, que reaparece a trece kilómetros de la frontera en la Casa Macià junto a Pujol y Aragonès y concede una entrevista con «jo el que vull és deixar de ser espanyol». El independentismo, mientras tanto, se mira al espejo: «fa 1.087 dies» de Sánchez presidente sin reforma que reconozca la autodeterminación, y la rivalidad ERC-Junts por el relato del procés se agria.",
-      "quote": "«Fa 1.087 dies que Sánchez, gràcies a ERC i Junts, és president… i encara no hi ha cap reforma legal que reconega el dret d’autodeterminació» — @Mireiagalindo",
+      "summary": "Llarena levanta la orden de detención tras el aval del Constitucional a la amnistía y Puigdemont reaparece en Prats de Molló, a trece kilómetros de la frontera, con Pujol y Aragonès en la inauguración de la Casa Macià. Sus declaraciones marcan el ciclo: le «violenta» ser español, compara ese deseo con el de una persona trans atrapada en otro cuerpo —crítica incluso de colectivos trans catalanes— y avisa de que el independentismo no renunciará a actos unilaterales. Junts y ERC se colocan para el 29-N con la amnistía como moneda de cambio permanente y la división interna por el rédito real del acuerdo.",
+      "quote": "«Me violenta ser español» — Carles Puigdemont, en su reaparición de Prats de Molló",
       "details": [
         [
           "Volumen en X",
@@ -153,11 +152,11 @@
         ],
         [
           "Sentimiento",
-          "Indignación unionista y frustración independentista"
+          "Indignación unionista y división independentista"
         ],
         [
           "Impulsado por",
-          "Amnistía de Llarena, reaparición de Puigdemont, pulso ERC-Junts"
+          "Amnistía avalada por el TC, reaparición de Puigdemont y pulso Junts-ERC"
         ]
       ]
     },
@@ -298,10 +297,10 @@
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
       "intensity": 99,
-      "momentum": 80,
+      "momentum": 82,
       "momentumDir": "right",
-      "summary": "Campaña del 29-N a plena confrontación: Sánchez en Valencia, Tarragona y Bilbao con promesas de SMI y pensiones; Feijóo en Valladolid y Abascal en Guadalajara cargando contra la gestión y contra el olvido de la tragedia de Urda. Las encuestas dan mayoría cómoda a PP-Vox —entre 189 y 196 escaños en los modelos más citados— y el «pinchazo» de buses de jubilados para llenar el mitin de Valencia se convierte en meme de campaña.",
-      "quote": "«Si votamos en masa, mandamos a casa a Feijóo y Abascal» — Pedro Sánchez, mitin de Bilbao",
+      "summary": "La campaña del 29-N la rompe Abascal en La Revuelta: el público «de agencia», los gritos de «¡presidente!» y el email a los asistentes habituales se comen el ciclo televisivo, con Broncano comentando en antena que la mitad de la grada parecía un mitin. Sánchez llena Valencia, Bilbao y Tarragona con promesas de SMI, pensiones blindadas y vivienda, mientras Feijóo endurece el discurso migratorio en Palma («si es extranjero, se le expulsará») para competir con Vox. El relato lo mueve Urda: Sánchez no mencionó a las víctimas en Bilbao y varias porras hunden al PSOE por debajo de los 100 escaños, con PP-Vox sumando en torno a 203.",
+      "quote": "«Un antisistema que no aguanta abucheos» — @ross64x, sobre el casting de público para Abascal en La Revuelta",
       "details": [
         [
           "Volumen en X",
@@ -309,11 +308,11 @@
         ],
         [
           "Sentimiento",
-          "Bloque contra bloque, ventaja derecha en sondeos"
+          "Bloque contra bloque; PSOE a la baja en sondeos"
         ],
         [
           "Impulsado por",
-          "Mítines del 29-N, encuestas PP-Vox y la tragedia de Urda"
+          "Abascal en La Revuelta, mítines de los tres líderes y la tragedia de Urda"
         ]
       ]
     },
@@ -372,104 +371,104 @@
   ],
   "news": [
     {
-      "title": "Feijóo promete derogar la Ley de Memoria y sustituirla por una «Ley de Concordia»",
-      "date": "7 nov 2026",
-      "summary": "El líder del PP anuncia que derogará la Ley de Memoria Democrática si llega a Moncloa y la reemplazará por una norma de «concordia» que, según su presentación, mantendría la búsqueda de fosas. En X el anuncio se lee junto al precedente valenciano y a los pactos PP-Vox en Aragón, donde la derogación ya es un hecho.",
-      "source": "El Independiente / X",
-      "tags": [
-        "Memoria Histórica",
-        "PP-Vox"
-      ]
-    },
-    {
-      "title": "El Hierro, al límite: casi 8.000 llegadas en cinco semanas y traslados en aviones militares",
-      "date": "8 nov 2026",
-      "summary": "La isla, de unos 12.000 habitantes, declara emergencia migratoria mientras el Ejército del Aire mueve a cientos de personas a Torrejón. Octubre cerró con unas 6.194 llegadas al archipiélago y la oposición exige frenar el «efecto llamada» de regularizaciones, ayudas y traslados a la Península.",
-      "source": "Interior / X",
+      "title": "El Hierro declara la emergencia social: más de 6.700 llegadas en nueve días",
+      "date": "9 nov 2026",
+      "summary": "El Cabildo herreño activa la emergencia social con sanidad, puertos y alojamiento desbordados: picos de 441 personas en unas horas y una isla de unos 11.000 habitantes como único filtro de la ruta atlántica. La Guardia Civil solo localizó 10 de 67 cayucos, el Gobierno de Canarias exige seguimiento semanal y más Frontex y la oposición habla de «colapso» y de efecto llamada.",
+      "source": "Cabildo de El Hierro / 112 Canarias / X",
       "tags": [
         "Inmigración",
         "Canarias"
       ]
     },
     {
-      "title": "Llarena aplica la amnistía y deja sin efecto el procesamiento de Puigdemont",
-      "date": "6 nov 2026",
-      "summary": "El juez aplica la ley de amnistía al expresident, que reaparece a trece kilómetros de la frontera española en la inauguración de la Casa Macià junto a Jordi Pujol y Pere Aragonès. La oposición habla de «amnistía a la carta» e «impunidad» mientras el independentismo discute el rédito real del acuerdo.",
-      "source": "Medios / X",
-      "tags": [
-        "Independentismo",
-        "Amnistía"
-      ]
-    },
-    {
-      "title": "AMANDA convoca el 13-N en Madrid contra la transición médica de menores",
+      "title": "Abascal convierte La Revuelta en mitin y estalla la polémica del público",
       "date": "8 nov 2026",
-      "summary": "El acto reúne a Paula Fraga sobre la constitucionalidad de la Ley Trans y al doctor Carlos Sardinero sobre responsabilidad médica de bloqueadores y hormonas. Enfrente, PSOE y el Ministerio de Igualdad acusan al PP de recortar derechos en Madrid y la Comunidad Valenciana y de abrir la puerta a terapias de conversión.",
-      "source": "X / AMANDA",
+      "summary": "Vox pidió gestionar la grada habitual ante el temor a abucheos, hubo casting mediante agencia y gritos de «¡presidente, presidente!» en la entrada, con Broncano comentando en antena que la mitad parecía un mitin. La controversia se parte entre quienes ven «bajada de pantalones» de RTVE y quienes creen que un antisistema no debería tener derecho a un público a medida.",
+      "source": "RTVE / X",
       "tags": [
-        "Ley Trans",
-        "Menores"
+        "Elecciones",
+        "Vox"
       ]
     },
     {
-      "title": "La acampada de Sol se convierte en antesala de la huelga general del 11-N",
-      "date": "7 nov 2026",
-      "summary": "La protesta por la vivienda en la Puerta del Sol enlaza con la primera huelga general en catorce años, centrada en alquileres y desahucios. El mes de la muerte de Maricarmen, desahuciada a los 87 años, da al movimiento su relato más potente y a la derecha su diana: la acusación de instrumentalizar a una anciana.",
-      "source": "RTVE / X",
+      "title": "Alicia del Río: «compañeras acabarían deportadas o con un tiro en la nuca»",
+      "date": "8 nov 2026",
+      "summary": "La portavoz del Sindicato de Inquilinas convierte la antesala de la huelga del 11-N en un campo de batalla con una advertencia sobre lo que pasaría si gobiernan PP y Vox. La derecha pide denuncias por calumnias y habla de propaganda del miedo; la izquierda defiende la alerta y reclama volver al «Decreto Maricarmen» y a los desahucios.",
+      "source": "elDiario.es / X",
       "tags": [
         "Vivienda",
         "Acampada de Sol"
+      ]
+    },
+    {
+      "title": "Una policía local de Valladolid da positivo en cocaína y se va en el Porsche del líder de Desokupacyl",
+      "date": "9 nov 2026",
+      "summary": "Tras volcar e incendiar el vehículo, la agente abandona el lugar en el Porsche Panamera de Luis Núñez «Mané» y regresa después con él, según testigos y prensa local. El caso se suma al reto a pelear entre Desokupa y Desokupacyl y alimenta el descrédito de los grupos privados de desokupación en plena campaña.",
+      "source": "El Norte de Castilla / X",
+      "tags": [
+        "Okupación",
+        "Desokupa"
+      ]
+    },
+    {
+      "title": "Puigdemont reaparece en Prats de Molló tras el aval del Constitucional a la amnistía",
+      "date": "7 nov 2026",
+      "summary": "Llarena deja sin efecto la orden de detención y el expresident inaugura la museización de la Casa Macià a trece kilómetros de la frontera, junto a Jordi Pujol y Pere Aragonès. Anuncia que no volverá durante la campaña del 29-N, dice que le «violenta» ser español y defiende que la amnistía no cierra la vía unilateral.",
+      "source": "ARA / El Debate / X",
+      "tags": [
+        "Independentismo",
+        "Amnistía"
       ]
     }
   ],
   "trends": [
     {
-      "name": "Elecciones 29-N / campaña",
-      "change": "up",
-      "pct": "+14%",
-      "detail": "Mítines de Sánchez, Feijóo y Abascal y sondeos de 189-196 escaños para PP-Vox."
-    },
-    {
       "name": "Inmigración / El Hierro",
       "change": "up",
-      "pct": "+22%",
-      "detail": "Emergencia migratoria en El Hierro, traslados en A330 militares y cien días de Ceuta."
+      "pct": "+19%",
+      "detail": "Emergencia social declarada, 6.700 llegadas en nueve días y solo 10 de 67 cayucos detectados."
+    },
+    {
+      "name": "Acampada de Sol / 11-N",
+      "change": "up",
+      "pct": "+16%",
+      "detail": "La huelga general es mañana y el «tiro en la nuca» de Alicia del Río duplica el volumen."
+    },
+    {
+      "name": "Elecciones 29-N / La Revuelta",
+      "change": "up",
+      "pct": "+15%",
+      "detail": "Abascal en TVE con público de agencia domina el engagement de la precampaña."
+    },
+    {
+      "name": "Independentismo / Puigdemont",
+      "change": "up",
+      "pct": "+9%",
+      "detail": "Amnistía avalada por el TC, reaparición en Prats de Molló y salida unilateral en el discurso."
+    },
+    {
+      "name": "Okupación / Desokupa-Desokupacyl",
+      "change": "up",
+      "pct": "+8%",
+      "detail": "El reto a pelear y el escándalo del Porsche en Valladolid sustituyen al debate legal."
     },
     {
       "name": "Sanchismo / UCO Cerdán",
       "change": "up",
-      "pct": "+9%",
-      "detail": "ADIF, Ábalos-Koldo y la UDEF sobre Zapatero entran de lleno en la campaña."
+      "pct": "+6%",
+      "detail": "ADIF-Azvi, la condena de Ábalos y la pieza de LD sobre Pedraz reactivan el hilo."
     },
     {
       "name": "Ley Trans / 13-N",
-      "change": "up",
-      "pct": "+11%",
-      "detail": "El acto de AMANDA en Madrid reactiva el eje menores-bloqueadores."
+      "change": "stable",
+      "pct": "0%",
+      "detail": "Sin medición fresca hoy (crédito xAI agotado): se mantiene el valor del 09-11 ante el acto de AMANDA."
     },
     {
-      "name": "Okupación / Desokupa",
-      "change": "up",
-      "pct": "+6%",
-      "detail": "El reto a pelear entre Desokupa y Desokupacyl dispara las visualizaciones."
-    },
-    {
-      "name": "Feminismo abolicionista",
-      "change": "down",
-      "pct": "-12%",
-      "detail": "Sin polémica única: el eje se disuelve dentro de la campaña del 29-N."
-    },
-    {
-      "name": "España Vaciada",
-      "change": "down",
-      "pct": "-7%",
-      "detail": "SAREB y sarcasmo rural, pero sin foco nacional ni líder político que lo empuje."
-    },
-    {
-      "name": "Cultura de la Cancelación",
-      "change": "down",
-      "pct": "-5%",
-      "detail": "Rosalía se reaviva como guerra de fandom, no como boicot real."
+      "name": "Wokismo / Ministerio de Igualdad",
+      "change": "stable",
+      "pct": "0%",
+      "detail": "Sin medición fresca hoy (crédito xAI agotado): se conserva el dato del 09-11."
     }
   ],
   "accounts": [
