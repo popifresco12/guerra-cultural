@@ -1,9 +1,9 @@
 {
- "generado": "2026-11-11T07:45:50+00:00",
+ "generado": "2026-11-12T07:45:48+00:00",
  "eleccion": {
   "nombre": "Elecciones Generales 2026",
   "fecha": "2026-11-29",
-  "dias_restantes": 18
+  "dias_restantes": 17
  },
  "convocatoria": "2026-10-05",
  "hitos": [
@@ -49,14 +49,24 @@
    "url": "https://www.eldiario.es/rss/",
    "noticias": [
     {
-     "titular": "El PP se lanza con todo contra la huelga por la vivienda",
-     "url": "https://www.eldiario.es/politica/pp-lanza-huelga-vivienda_1_13653785.html",
-     "fecha": "Tue, 10 Nov 2026 20:28:10 +0000"
+     "titular": "La primera huelga general por la vivienda moviliza a millones de personas y eleva la tensión con PP y Vox",
+     "url": "https://www.eldiario.es/economia/primera-huelga-general-vivienda-moviliza-millones-personas-eleva-tension-pp-vox_1_13656244.html",
+     "fecha": "Wed, 11 Nov 2026 22:10:44 +0000"
     },
     {
-     "titular": "La huelga que retrata a PP y Vox",
-     "url": "https://www.eldiario.es/opinion/zona-critica/huelga-retrata-pp-vox_129_13653229.html",
-     "fecha": "Tue, 10 Nov 2026 20:28:15 +0000"
+     "titular": "Medio centenar de detenidos por los disturbios y ataques a comercios tras la manifestación en Barcelona",
+     "url": "https://www.eldiario.es/catalunya/manifestacion-vivienda-barcelona-acaba-disturbios-barricadas-cargas-mossos_1_13656622.html",
+     "fecha": "Wed, 11 Nov 2026 19:51:25 +0000"
+    },
+    {
+     "titular": "Leire Díez afirma que abogados afines al PP le ofrecieron dos millones por mentir contra Sánchez",
+     "url": "https://www.eldiario.es/politica/leire-diez-afirma-abogados-afines-pp-le-ofrecieron-millones-mentir-sanchez_1_13656894.html",
+     "fecha": "Thu, 12 Nov 2026 07:00:13 +0000"
+    },
+    {
+     "titular": "La huelga general en un barrio obrero con el alquiler disparado: comercios cerrados y bares abiertos bajo la lluvia",
+     "url": "https://www.eldiario.es/castilla-la-mancha/social/huelga-general-barrio-obrero-alquiler-disparado-comercios-cerrados-bares-abiertos-lluvia_1_13655396.html",
+     "fecha": "Wed, 11 Nov 2026 17:34:12 +0000"
     },
     {
      "titular": "Sánchez duplica los Consejos de Ministros en campaña para aprobar más medidas sociales antes de las elecciones",
@@ -64,14 +74,14 @@
      "fecha": "Tue, 10 Nov 2026 20:28:12 +0000"
     },
     {
+     "titular": "Los demócratas ganan en Misisipi y Scott Colom será el primer senador afroamericano del estado desde el siglo XIX",
+     "url": "https://www.eldiario.es/internacional/democratas-ganan-misisipi-scott-colom-sera-primer-senador-afroamericano-siglo-xix_1_13656860.html",
+     "fecha": "Thu, 12 Nov 2026 06:02:28 +0000"
+    },
+    {
      "titular": "El Congreso de EEUU \"mata\" el 'impeachment' contra Pete Hegseth por las ilegalidades cometidas en los ataques a Irán y Venezuela",
      "url": "https://www.eldiario.es/internacional/congreso-eeuu-vota-impeachment-pete-hegseth-ilegalidades-cometidas-ataques-iran-venezuela_1_13653792.html",
      "fecha": "Tue, 10 Nov 2026 21:31:08 +0000"
-    },
-    {
-     "titular": "Colau en 'La Revuelta': “Una prioridad es que no haya Gobierno facha, y otra que el PSOE no sea connivente con la especulación\"",
-     "url": "https://www.eldiario.es/politica/colau-revuelta-prioridad-no-haya-gobierno-facha-psoe-no-tenga-connivencia-especulacion_1_13654090.html",
-     "fecha": "Tue, 10 Nov 2026 22:55:31 +0000"
     },
     {
      "titular": "Cómo responder a Abascal cuando miente sobre la violencia machista",
@@ -79,24 +89,14 @@
      "fecha": "Tue, 10 Nov 2026 16:31:01 +0000"
     },
     {
-     "titular": "El PP y Vox aprovechan la huelga general y la ausencia de Compromís en las Corts para avanzar en la polémica ley del suelo",
-     "url": "https://www.eldiario.es/comunitat-valenciana/pp-vox-aprovechan-huelga-general-ausencia-compromis-corts-avanzar-polemica-ley-suelo_1_13653413.html",
-     "fecha": "Tue, 10 Nov 2026 20:28:15 +0000"
+     "titular": "Colau en 'La Revuelta': “Una prioridad es que no haya Gobierno facha, y otra que el PSOE no sea connivente con la especulación\"",
+     "url": "https://www.eldiario.es/politica/colau-revuelta-prioridad-no-haya-gobierno-facha-psoe-no-tenga-connivencia-especulacion_1_13654090.html",
+     "fecha": "Tue, 10 Nov 2026 22:55:31 +0000"
     },
     {
-     "titular": "El Gobierno vasco anuncia el abono de ayudas pendientes a 7.000 familias a 48 horas del inicio de la campaña electoral",
-     "url": "https://www.eldiario.es/euskadi/gobierno-vasco-anuncia-abono-ayudas-pendientes-7-000-familias-48-horas-inicio-campana-electoral_1_13651955.html",
-     "fecha": "Tue, 10 Nov 2026 20:28:16 +0000"
-    },
-    {
-     "titular": "La cultura pide \"movilización\" ante la huelga general y las elecciones: \"Que no vuelvan la censura y el miedo\"",
-     "url": "https://www.eldiario.es/cultura/cultura-pide-movilizacion-huelga-general-elecciones-no-vuelvan-censura-miedo_1_13653488.html",
-     "fecha": "Tue, 10 Nov 2026 19:35:45 +0000"
-    },
-    {
-     "titular": "El PP asume en su programa electoral la prioridad nacional de Vox, modificar el IMV y atajar el \"absentismo injustificado\"",
-     "url": "https://www.eldiario.es/politica/pp-asume-programa-electoral-prioridad-nacional-vox-modificar-imv-atajar-absentismo-injustificado_1_13652361.html",
-     "fecha": "Tue, 10 Nov 2026 13:05:44 +0000"
+     "titular": "¿Estamos cerca del fin de la guerra de Ucrania?",
+     "url": "https://www.eldiario.es/opinion/tribuna-abierta/cerca-guerra-ucrania_129_13656484.html",
+     "fecha": "Thu, 12 Nov 2026 04:59:47 +0000"
     }
    ]
   },
@@ -105,54 +105,54 @@
    "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada",
    "noticias": [
     {
-     "titular": "Broncano está de luto y Colau no es humorista: el día después del ‘abascalazo’ en ‘La Revuelta’",
-     "url": "https://elpais.com/espana/elecciones-generales/2026-11-10/broncano-esta-de-luto-y-colau-no-es-humorista-el-dia-despues-del-abascalazo-en-la-revuelta.html",
-     "fecha": "Tue, 10 Nov 2026 22:28:56 GMT"
+     "titular": "El mapa electoral: ¿Qué dicen las encuestas en cada provincia?",
+     "url": "https://elpais.com/espana/elecciones-generales/2026-11-12/el-mapa-electoral-los-escanos-en-juego-en-cada-provincia-segun-las-encuestas.html",
+     "fecha": "Thu, 12 Nov 2026 04:30:01 GMT"
     },
     {
-     "titular": "Un perro en el plató, un candidato en el plasma",
-     "url": "https://elpais.com/espana/2026-11-10/un-perro-en-el-plato-un-candidato-en-el-plasma.html",
-     "fecha": "Tue, 10 Nov 2026 22:03:34 GMT"
+     "titular": "¿Puede ganar el PSOE? Lo que dicen las encuestas",
+     "url": "https://elpais.com/podcasts/2026-11-12/puede-ganar-el-psoe-lo-que-dicen-las-encuestas.html",
+     "fecha": "Thu, 12 Nov 2026 04:45:01 GMT"
     },
     {
-     "titular": "El debate | ¿Es ‘La bola negra’ una obra maestra?",
-     "url": "https://elpais.com/opinion/2026-11-11/el-debate-es-la-bola-negra-una-obra-maestra.html",
-     "fecha": "Wed, 11 Nov 2026 04:30:01 GMT"
+     "titular": "Néstor Rego, candidato del BNG: “PP y PSOE llevan años alternándose en la discriminación a Galicia, pero no son exactamente lo mismo”",
+     "url": "https://elpais.com/espana/2026-11-12/nestor-rego-candidato-del-bng-pp-y-psoe-llevan-anos-alternandose-en-la-discriminacion-a-galicia-pero-no-son-exactamente-lo-mismo.html",
+     "fecha": "Thu, 12 Nov 2026 04:30:01 GMT"
     },
     {
-     "titular": "José Ignacio García, líder de Adelante Andalucía: “Lo mejor que tiene el PSOE es que no gobierne el PP”",
-     "url": "https://elpais.com/espana/elecciones-generales/2026-11-11/jose-ignacio-garcia-lider-de-adelante-andalucia-lo-mejor-que-tiene-el-psoe-es-que-no-gobierne-el-pp.html",
-     "fecha": "Wed, 11 Nov 2026 04:30:01 GMT"
+     "titular": "Scott Colom gana en Misisipi y será el primer senador demócrata de ese Estado en casi cuatro décadas",
+     "url": "https://elpais.com/us/2026-11-11/scott-colom-gana-en-misisipi-el-primer-democrata-que-manda-el-estado-al-senado-en-casi-cuatro-decadas.html",
+     "fecha": "Wed, 11 Nov 2026 23:08:25 GMT"
     },
     {
-     "titular": "Los guiños a Vox en el programa electoral del PP",
-     "url": "https://elpais.com/videos/2026-11-11/las-concesiones-a-vox-del-programa-electoral-del-pp.html",
-     "fecha": "Wed, 11 Nov 2026 04:30:01 GMT"
+     "titular": "Los lectores apoyan la huelga general: “Se acerca la revolución del cansancio y del descontento”",
+     "url": "https://elpais.com/opinion/2026-11-12/los-lectores-apoyan-la-huelga-general-se-acerca-la-revolucion-del-cansancio-y-del-descontento.html",
+     "fecha": "Thu, 12 Nov 2026 04:30:01 GMT"
     },
     {
-     "titular": "Broncano y Abascal: catástrofe y muerte del periodismo político",
-     "url": "https://elpais.com/opinion/2026-11-11/broncano-y-abascal-catastrofe-y-muerte-del-periodismo-politico.html",
-     "fecha": "Tue, 10 Nov 2026 17:31:42 GMT"
+     "titular": "El miedo a perder el sueldo y el trabajo mantiene abiertos la mayoría de comercios y bares de Madrid, que recibe menos clientes",
+     "url": "https://elpais.com/espana/madrid/2026-11-11/el-miedo-a-perder-el-sueldo-y-el-trabajo-mantiene-abiertos-la-mayoria-de-comercios-y-hosteleria-de-madrid-que-recibe-menos-clientes.html",
+     "fecha": "Wed, 11 Nov 2026 17:26:12 GMT"
     },
     {
-     "titular": "El Roto: votar según el viento",
-     "url": "https://elpais.com/opinion/2026-11-11/el-roto-votar-segun-el-viento.html",
-     "fecha": "Wed, 11 Nov 2026 04:30:01 GMT"
+     "titular": "Souto de Moura y Chipperfield, dos premios Pritzker debaten sobre la crisis de la vivienda: “Es el principal problema político”",
+     "url": "https://elpais.com/cultura/2026-11-12/souto-de-moura-y-chipperfield-dos-premios-pritzker-debaten-sobre-la-crisis-de-la-vivienda-es-el-principal-problema-politico.html",
+     "fecha": "Thu, 12 Nov 2026 04:30:01 GMT"
     },
     {
-     "titular": "Amar y matar en Noviercas",
-     "url": "https://elpais.com/opinion/2026-11-11/amar-y-matar-en-noviercas.html",
-     "fecha": "Wed, 11 Nov 2026 04:30:01 GMT"
+     "titular": "Todo el mundo pega el pelotazo en el número 57 de la calle de José Abascal de Madrid",
+     "url": "https://elpais.com/espana/madrid/2026-11-10/todo-el-mundo-pega-el-pelotazo-en-el-numero-57-de-la-calle-jose-abascal.html",
+     "fecha": "Tue, 10 Nov 2026 04:30:01 GMT"
     },
     {
-     "titular": "Ayuso pide a Feijóo acabar “con toda la basura sindical”",
-     "url": "https://elpais.com/espana/madrid/2026-11-10/ayuso-pide-a-feijoo-acabar-con-toda-la-basura-sindical.html",
-     "fecha": "Tue, 10 Nov 2026 12:26:12 GMT"
+     "titular": "PP y Vox arremeten contra la izquierda por su plante en el pleno de Presupuestos de Andalucía el día de la huelga",
+     "url": "https://elpais.com/espana/2026-11-11/pp-y-vox-arremeten-contra-la-izquierda-por-su-plante-en-el-pleno-de-presupuestos-de-andalucia-el-dia-de-la-huelga.html",
+     "fecha": "Wed, 11 Nov 2026 17:35:51 GMT"
     },
     {
-     "titular": "Un magma de 39 candidatos para sustituir a Macron en Francia",
-     "url": "https://elpais.com/internacional/2026-11-11/un-magma-de-39-candidatos-para-sustituir-a-macron-en-francia.html",
-     "fecha": "Wed, 11 Nov 2026 04:40:00 GMT"
+     "titular": "El PP se compromete a convocar elecciones si prorroga los Presupuestos en dos ocasiones",
+     "url": "https://elpais.com/economia/2026-11-10/el-pp-se-compromete-a-convocar-elecciones-si-prorroga-los-presupuestos-en-dos-ocasiones.html",
+     "fecha": "Tue, 10 Nov 2026 17:48:18 GMT"
     }
    ]
   },
@@ -161,24 +161,39 @@
    "url": "https://www.abc.es/rss/feeds/abc_EspanaEspana.xml",
    "noticias": [
     {
-     "titular": "Las caras de las listas de Frente Amplio por Córdoba al Congreso y el Senado para las elecciones del 29N",
-     "url": "https://www.abc.es/espana/andalucia/cordoba/caras-listas-frente-amplio-cordoba-congreso-senado-20261111073402-nts.html",
-     "fecha": "Wed, 11 Nov 2026 07:34:02 +0100"
+     "titular": "'Elecciones 29N': La campaña arranca con doblete de Mañueco, pegada a medianoche de Carlos Martínez e inicio virtual de Pollán",
+     "url": "https://www.abc.es/espana/castilla-leon/campana-arranca-doblete-manueco-pegada-medianoche-carlos-20261112083528-nt.html",
+     "fecha": "Thu, 12 Nov 2026 08:37:48 +0100"
     },
     {
-     "titular": "Los afectados del incendio de Campanar no dan por cerrado el caso: «Necesitamos un relato real»",
-     "url": "https://www.abc.es/espana/comunidad-valenciana/afectados-incendio-campanar-dan-cerrado-necesitamos-relato-20261111072014-nt.html",
-     "fecha": "Wed, 11 Nov 2026 07:20:14 +0100"
+     "titular": "Cien mil toneladas de limón español fuera del mercado frente a la importación masiva con 11 sustancias químicas",
+     "url": "https://www.abc.es/espana/comunidad-valenciana/alicante/cien-mil-toneladas-limon-espanol-mercado-frente-20261112075831-nt.html",
+     "fecha": "Thu, 12 Nov 2026 07:58:32 +0100"
     },
     {
-     "titular": "Críticos del PSOE andaluz cuestionan la huelga como eje de la campaña",
-     "url": "https://www.abc.es/espana/andalucia/criticos-psoe-andaluz-cuestionan-huelga-eje-campana-20261111070310-nts.html",
-     "fecha": "Wed, 11 Nov 2026 07:03:10 +0100"
+     "titular": "Andalucía, una sola voz en las urnas",
+     "url": "https://www.abc.es/espana/andalucia/cordoba/andalucia-sola-voz-urnas-20261112072923-nts.html",
+     "fecha": "Thu, 12 Nov 2026 07:29:24 +0100"
     },
     {
-     "titular": "Encuestas elecciones generales 29N en Castilla-La Mancha: resultados de PSOE, PP y Vox y ganador según los sondeos",
-     "url": "https://www.abc.es/espana/castilla-la-mancha/encuestas-elecciones-generales-29n-castillala-mancha-resultados-20261111051500-nt.html",
-     "fecha": "Wed, 11 Nov 2026 05:15:20 +0100"
+     "titular": "Encuestas elecciones generales 29N: resultados de PSOE, PP, Vox y Frente Amplio y ganador según los sondeos",
+     "url": "https://www.abc.es/espana/encuestas-elecciones-generales-29n-resultados-psoe-pp-20261112050000-nt.html",
+     "fecha": "Thu, 12 Nov 2026 05:00:07 +0100"
+    },
+    {
+     "titular": "Puigdemont ultima su retorno para el 12 de diciembre",
+     "url": "https://www.abc.es/espana/cataluna/puigdemont-ultima-retorno-diciembre-20261111013624-nt.html",
+     "fecha": "Thu, 12 Nov 2026 01:36:24 +0100"
+    },
+    {
+     "titular": "Sánchez abre campaña en Sevilla ante el peligro de perder el último bastión histórico del PSOE",
+     "url": "https://www.abc.es/espana/sanchez-abre-campana-sevilla-ante-peligro-perder-20261112013554-nt.html",
+     "fecha": "Thu, 12 Nov 2026 01:35:54 +0100"
+    },
+    {
+     "titular": "La estrategia mediática de Feijóo: «Buscar votos en todas partes»",
+     "url": "https://www.abc.es/espana/estrategia-mediatica-feijoo-buscar-votos-partes-20261112013535-nt.html",
+     "fecha": "Thu, 12 Nov 2026 01:35:35 +0100"
     }
    ]
   },
@@ -187,49 +202,54 @@
    "url": "https://e00-elmundo.uecdn.es/rss/espana.xml",
    "noticias": [
     {
+     "titular": "PP y Vox acusan al Gobierno de haber promovido una \"huelga preventiva\": \"Es un instrumento electoral al servicio de Sánchez\"",
+     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/11/6af4c60021efa0de228b4591.html",
+     "fecha": "Wed, 11 Nov 2026 20:48:30 +0100"
+    },
+    {
+     "titular": "Feijóo espera de partidos y sindicatos una condena de la agresión a dos afiliados del PP en Barakaldo",
+     "url": "https://www.elmundo.es/espana/2026/11/11/6af4e0aae4d4d84a5d8b45b5.html",
+     "fecha": "Wed, 11 Nov 2026 22:44:30 +0100"
+    },
+    {
+     "titular": "La desesperada lucha de Frente Amplio contra el voto útil al PSOE: \"Sólo nos queda votar 'al Perro' y cruzar los dedos\"",
+     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/11/6af352d121efa0855e8b45aa.html",
+     "fecha": "Wed, 11 Nov 2026 23:52:34 +0100"
+    },
+    {
+     "titular": "La crisis migratoria costó a Ceuta entre el 3,5 y el 4% del PIB y 198 millones en pérdida de imagen de la ciudad, según la Cámara de Comercio",
+     "url": "https://www.elmundo.es/espana/2026/11/11/6af491b1e9cf4a396f8b458e.html",
+     "fecha": "Wed, 11 Nov 2026 19:04:49 +0100"
+    },
+    {
+     "titular": "El Frente Amplio se aferra a la huelga para \"movilizar a la izquierda\" en las elecciones: \"El PP está nervioso por los efectos\"",
+     "url": "https://www.elmundo.es/espana/2026/11/11/6af4aad2e9cf4af3268b45b6.html",
+     "fecha": "Wed, 11 Nov 2026 20:17:06 +0100"
+    },
+    {
+     "titular": "Abascal sigue explotando el filón de La Revuelta: \"Broncano pide perdón porque al que iban a fusilar salió vivo\"",
+     "url": "https://www.elmundo.es/cataluna/2026/11/11/6af4c868fc6c83d6248b4590.html",
+     "fecha": "Wed, 11 Nov 2026 20:58:43 +0100"
+    },
+    {
+     "titular": "El juez del 'caso Cloacas' detecta un pago de 105.000 euros entre un ex abogado del PSOE y el histórico socialista Gaspar Zarrías, imputados por financiar a la 'fontanera'",
+     "url": "https://www.elmundo.es/espana/2026/11/11/6af462a5e9cf4a0e668b4575.html",
+     "fecha": "Wed, 11 Nov 2026 14:43:27 +0100"
+    },
+    {
+     "titular": "El PP arremete contra la huelga general por \"electoral\", \"preventiva\" y por \"trabajar\" para la campaña de Sánchez",
+     "url": "https://www.elmundo.es/espana/2026/11/11/6af43da8e4d4d8f8248b45a8.html",
+     "fecha": "Wed, 11 Nov 2026 11:10:17 +0100"
+    },
+    {
      "titular": "No es la encuesta, es el encuestador",
      "url": "https://www.elmundo.es/espana/2026/11/11/6af36d8afdddffc3368b4570.html",
      "fecha": "Wed, 11 Nov 2026 00:00:31 +0100"
     },
     {
-     "titular": "El voto útil no compra todas las conciencias en Teruel: \"Yo no votaré al PSOE\"",
-     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/09/6af1f5cde4d4d8c61f8b4579.html",
-     "fecha": "Mon, 09 Nov 2026 22:42:24 +0100"
-    },
-    {
-     "titular": "El corazón del 'sorpasso' de Vox al PSOE en Torre Pacheco: \"Hay que poner todo en su sitio\"",
-     "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/08/6af0bb62fc6c83752d8b4585.html",
-     "fecha": "Mon, 09 Nov 2026 02:23:04 +0100"
-    },
-    {
      "titular": "La abogada Leticia de la Hoz, imputada en el 'Caso cloacas' del PSOE, renuncia a continuar defendiendo a Koldo García",
      "url": "https://www.elmundo.es/espana/2026/11/10/6af32af121efa002098b4587.html",
      "fecha": "Tue, 10 Nov 2026 19:01:33 +0100"
-    },
-    {
-     "titular": "La angustia de probar que Abascal no es un monstruo",
-     "url": "https://www.elmundo.es/espana/2026/11/09/6af2456bfc6c8308488b458a.html",
-     "fecha": "Mon, 09 Nov 2026 23:27:22 +0100"
-    },
-    {
-     "titular": "Gamarra denuncia su expulsión y la de parlamentarios del PP en la frontera de Melilla y responsabiliza de ello a la Delegación del Gobierno y a Interior",
-     "url": "https://www.elmundo.es/espana/2026/11/09/6af1bb8021efa0996a8b45a0.html",
-     "fecha": "Mon, 09 Nov 2026 13:30:01 +0100"
-    },
-    {
-     "titular": "Delcy Rodríguez se querella por injurias contra Aldama y niega la financiación ilegal del PSOE",
-     "url": "https://www.elmundo.es/espana/2026/11/09/6af1a8eee85ece28168b4584.html",
-     "fecha": "Mon, 09 Nov 2026 12:31:20 +0100"
-    },
-    {
-     "titular": "Autohuelga contra las encuestas",
-     "url": "https://www.elmundo.es/espana/2026/11/09/6af0a687e4d4d835568b4591.html",
-     "fecha": "Mon, 09 Nov 2026 00:27:26 +0100"
-    },
-    {
-     "titular": "PP y Vox suman 199 diputados con un 50,4% de los votos y Sánchez no remonta la tragedia de los trenes",
-     "url": "https://www.elmundo.es/espana/encuestas/2026/11/08/6af066bee85eceae5a8b4598.html",
-     "fecha": "Sun, 08 Nov 2026 22:43:36 +0100"
     }
    ]
   },
@@ -238,26 +258,42 @@
    "url": "https://okdiario.com/feed",
    "noticias": [
     {
-     "titular": "Ultima hora de la huelga general y actualidad de las elecciones generales del 29-N, en directo",
-     "url": "https://okdiario.com/espana/ultima-hora-huelga-general-actualidad-elecciones-generales-del-29-n-directo-20748233",
-     "fecha": "Wed, 11 Nov 2026 08:40:41 +0100"
+     "titular": "¿Cómo se escribe correctamente en español, ‘táper’ o ‘tupper’? La RAE lo deja claro, y también su plural",
+     "url": "https://okdiario.com/curiosidades/como-escribe-correctamente-espanol-taper-o-tupper-rae-lo-deja-claro-tambien-plural-20711693",
+     "fecha": "Thu, 12 Nov 2026 08:00:50 +0100"
     },
     {
-     "titular": "El refugio de José Coronado en Toledo: «Me ha permitido ejercer de jardinero»",
-     "url": "https://okdiario.com/cool/famosos/refugio-jose-coronado-toledo-permitido-ejercer-jardinero-20744959",
-     "fecha": "Wed, 11 Nov 2026 08:00:28 +0100"
+     "titular": "Los expertos en longevidad coinciden: «Las personas que viven más tiempo no hacen ejercicio, sino que viven en zonas donde todos los desplazamientos al trabajo se realizan caminando»",
+     "url": "https://okdiario.com/curiosidades/expertos-longevidad-coinciden-personas-que-viven-mas-tiempo-no-hacen-ejercicio-sino-que-viven-zonas-donde-todos-desplazamientos-trabajo-realizan-caminando-20753575",
+     "fecha": "Thu, 12 Nov 2026 08:00:46 +0100"
     },
     {
-     "titular": "Colas kilométricas en Lidl por la cubertería SILVERCREST dorada, moderna y elegante para triunfar en Navidad",
-     "url": "https://okdiario.com/economia/consumo/colas-kilometricas-lidl-cuberteria-silvercrest-dorada-moderna-elegante-triunfar-navidad-20745926",
-     "fecha": "Wed, 11 Nov 2026 07:30:03 +0100"
+     "titular": "Elecciones generales del 29-N y actualidad política, en directo: último día de la precampaña electoral y valoraciones de la huelga general",
+     "url": "https://okdiario.com/espana/elecciones-generales-del-29-n-actualidad-politica-directo-ultimo-dia-precampana-electoral-valoraciones-huelga-general-20757084",
+     "fecha": "Thu, 12 Nov 2026 07:24:08 +0100"
+    },
+    {
+     "titular": "Cuándo se publican las entrevistas de Jordi Wild con los candidatos a las elecciones del 29-N: horario y dónde verlas en directo",
+     "url": "https://okdiario.com/espana/cuando-publican-entrevistas-jordi-wild-candidatos-elecciones-del-29-n-horario-donde-verlas-directo-20745315",
+     "fecha": "Thu, 12 Nov 2026 07:00:35 +0100"
     }
    ]
   },
   {
    "medio": "The Objective",
    "url": "https://theobjective.com/feed/",
-   "noticias": []
+   "noticias": [
+    {
+     "titular": "Junts pide a Illa aplazar la Comisión Bilateral por «propaganda electoral» del PSC y PSOE",
+     "url": "https://theobjective.com/espana/politica/2026-11-12/junts-illa-comision-bilateral-propaganda-psc-psoe/",
+     "fecha": "Thu, 12 Nov 2026 07:44:01 +0000"
+    },
+    {
+     "titular": "Las raíces valencianas de Juan Roig y su mujer, Hortensia Herrero, están muy cerca de Mercadona: es una ciudad abierta al mar, con historia y muy vibrante",
+     "url": "https://theobjective.com/gente/2026-11-12/raices-valencianas-juan-roig-hortensia-herrero-mercadona/",
+     "fecha": "Thu, 12 Nov 2026 06:30:00 +0000"
+    }
+   ]
   }
  ],
  "tweets": [
@@ -274,14 +310,24 @@
  ],
  "bluesky": [
   {
-   "texto": "Abascal no sabe cómo pagar las pensiones. Las elecciones de Trump le pillan lejos. Pero sí tiene tiempo para hacerse la foto con Milei.  El 29N, pensiones, vivienda y salarios. Y los de la motosierra al rincón de pensar.",
-   "autor": "Pablo Bustinduy",
-   "usuario": "@pbustinduy.bsky.social",
-   "url": "https://bsky.app/profile/pbustinduy.bsky.social/post/3mzkhhktobc2i",
-   "fecha": "2026-11-05T08:33:53.185Z",
-   "likes": 486,
-   "rts": 208,
-   "resp": 22
+   "texto": "\"Las movilizaciones seguirán produciéndose en Occidente mientras no surja un sentido común económico que sustituya al fracasado neoliberalismo\".  Esto no va de elecciones, no empieza ni acaba el 29N, sino de las exequias del medio siglo de credo neoliberal.",
+   "autor": "Pedro Vallín",
+   "usuario": "@pvallin.bsky.social",
+   "url": "https://bsky.app/profile/pvallin.bsky.social/post/3n2256r5jic23",
+   "fecha": "2026-11-11T14:12:36.205Z",
+   "likes": 560,
+   "rts": 215,
+   "resp": 19
+  },
+  {
+   "texto": "Un elemento fundamental de una democracia es la libertad sindical. Sin ella no hay democracia. Por eso, que Ayuso llame basura a los sindicatos es puro fascismo y nos anuncia lo que puede llegar si esta ultraderecha gana las elecciones el 29N. Mañana hay que hacer Huelga General y votar bien el #29N",
+   "autor": "Agustín Moreno",
+   "usuario": "@agustinmoreno.bsky.social",
+   "url": "https://bsky.app/profile/agustinmoreno.bsky.social/post/3mzy5dkidrs2u",
+   "fecha": "2026-11-10T19:09:57.508Z",
+   "likes": 201,
+   "rts": 131,
+   "resp": 9
   },
   {
    "texto": "#29n #elecciones #eleccionesgenerales #espanha #espanya #niñas #españa #mujeres #mujer #dones #dona #mulher #mulheres #frenaraladerecha #nopasaran #noolvidamos #viral #feminismo #feministas #niunamas #noesno #niunamenos #solosiessi #noestassola #antifascista #antifascistas #antifascismo ✊🙌👌✌️💪👏🏳️‍⚧️⚧️♀️♀️💜",
@@ -292,16 +338,6 @@
    "likes": 192,
    "rts": 89,
    "resp": 9
-  },
-  {
-   "texto": "Un elemento fundamental de una democracia es la libertad sindical. Sin ella no hay democracia. Por eso, que Ayuso llame basura a los sindicatos es puro fascismo y nos anuncia lo que puede llegar si esta ultraderecha gana las elecciones el 29N. Mañana hay que hacer Huelga General y votar bien el #29N",
-   "autor": "Agustín Moreno",
-   "usuario": "@agustinmoreno.bsky.social",
-   "url": "https://bsky.app/profile/agustinmoreno.bsky.social/post/3mzy5dkidrs2u",
-   "fecha": "2026-11-10T19:09:57.508Z",
-   "likes": 156,
-   "rts": 106,
-   "resp": 7
   },
   {
    "texto": "#koldo #ultraderechas #democracia #abascal #feijoo #noolvidamos #nopasaran #premio #ceuta #racismo #xenofobia #ultraderecha #okdiario #prensacorrupta #mafiapp #prensabaSura #basura #madrid #vox #partidopopular #ayuso #franquismo #29n #elecciones #psoe #pedrosanchez #reflexion #ddhh #españa #recuerda",
@@ -344,23 +380,13 @@
    "resp": 13
   },
   {
-   "texto": "La eurodiputada y cabeza d lista d Podemos a las elecciones generales,Irene Montero,ha reclamado este lunes revertir la liberalización del sector ferroviario y aplicar el artículo 128 de la Constitución para recuperar el control público y renacionalizar el sistema  www.diario-red.com/espana/irene...",
-   "autor": "Orlando Guiomar BdLG",
-   "usuario": "@orlandoguiomar.bsky.social",
-   "url": "https://bsky.app/profile/orlandoguiomar.bsky.social/post/3mzfin5l2s22j",
-   "fecha": "2026-11-03T09:11:35.647Z",
-   "likes": 63,
-   "rts": 33,
-   "resp": 1
-  },
-  {
    "texto": "01:19:47 | ❌ FALSO Invitado:  «Pedro Sánchez es un dictador». Freedom House 2026 da a España 91/100 («Libre») y hay elecciones el 29-N. Los contrapesos funcionan: la JEC le abre expedientes y el Supremo condenó a Ábalos. Abascal admite que «hay poderes que le resisten».",
    "autor": "Marcelino Madrigal",
    "usuario": "@mmadrigal.bsky.social",
    "url": "https://bsky.app/profile/mmadrigal.bsky.social/post/3mzxdmm5ap726",
    "fecha": "2026-11-10T11:29:43.342Z",
-   "likes": 73,
-   "rts": 16,
+   "likes": 76,
+   "rts": 17,
    "resp": 1
   },
   {
@@ -374,22 +400,32 @@
    "resp": 1
   },
   {
-   "texto": "El 29N va de elegir democracia o fascismo ultracapitalista  youtube.com/shorts/BKLaR...",
-   "autor": "Democraceitor",
-   "usuario": "@democraceitor.bsky.social",
-   "url": "https://bsky.app/profile/democraceitor.bsky.social/post/3mzgujrcmac2w",
-   "fecha": "2026-11-03T22:17:06.748Z",
-   "likes": 20,
-   "rts": 19,
-   "resp": 1
+   "texto": "Feijóo: las elecciones se han adelantado para parar los casos pendientes del PSOE.   ¿Estos no habían pedido adelanto electoral para el 15 de noviembre?",
+   "autor": "El Insus",
+   "usuario": "@mrinsustancial.bsky.social",
+   "url": "https://bsky.app/profile/mrinsustancial.bsky.social/post/3n22jqkaar22y",
+   "fecha": "2026-11-11T17:57:17.836Z",
+   "likes": 41,
+   "rts": 11,
+   "resp": 4
   },
   {
-   "texto": "Si ganan las elecciones PP y VOX será la última subida,porque ellos quieren bajar el SMI. Esto también se vota el #29N🗳️👇👇",
-   "autor": "e_nasarre",
-   "usuario": "@enasarre.bsky.social",
-   "url": "https://bsky.app/profile/enasarre.bsky.social/post/3mzkg3kbl6c22",
-   "fecha": "2026-11-05T08:09:16.188Z",
-   "likes": 30,
+   "texto": "Sáhara Occidental | Sumar exige al PSOE aprobar por decreto la nacionalidad saharaui antes de las elecciones del 29-N noteolvidesdelsaharaoccidental.org/sumar-psoe-n...",
+   "autor": "NoTeOlvidesDelSaharaOccidental",
+   "usuario": "@carlos1951.bsky.social",
+   "url": "https://bsky.app/profile/carlos1951.bsky.social/post/3mzy4tsm74s27",
+   "fecha": "2026-11-10T19:01:09.159Z",
+   "likes": 23,
+   "rts": 15,
+   "resp": 0
+  },
+  {
+   "texto": "Tenemos una Huelga General mañana y unas Elecciones Generales que ganar el 29N. No tenemos ni un minuto que perder.  A esta gente se la frena con movilización popular en la calle y con una izquierda fuerte y con proyecto de país en las instituciones.",
+   "autor": "Toni Valero",
+   "usuario": "@tonivalero.bsky.social",
+   "url": "https://bsky.app/profile/tonivalero.bsky.social/post/3mzwxc2d5q22l",
+   "fecha": "2026-11-10T07:49:04.819Z",
+   "likes": 19,
    "rts": 13,
    "resp": 0
   }
