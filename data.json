@@ -1,36 +1,41 @@
 {
   "meta": {
-    "generated_at": "2026-11-16T08:18:21+01:00",
+    "generated_at": "2026-11-17T08:00:00+01:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "reacciones en X al mitin de Sánchez Feijóo Abascal esta semana campaña elecciones generales 29N sondeos escaños (desde 2026-11-13)",
-      "debate en X esta semana UCO Cerdán Zapatero sanchismo corrupción PSOE (desde 2026-11-13)",
-      "debate en X esta semana inmigración Ceuta Canarias El Hierro llegadas irregulares (desde 2026-11-13)",
-      "polémica en X esta semana Sindicato de Inquilinas acampada Puerta del Sol vivienda alquiler (desde 2026-11-13)",
-      "Desokupa okupación desalojo vecinos propietarios debate en X esta semana (desde 2026-11-13)",
-      "debate en X esta semana independentismo Cataluña procés Puigdemont presupuestos autodeterminación (desde 2026-11-13)",
-      "polémica en X esta semana memoria histórica ley nietos exhumación Franco concordia (desde 2026-11-13)",
-      "debate en X esta semana feminismo abolicionista prostitución Irene Montero ley solo sí es sí (desde 2026-11-13)",
-      "debate en X esta semana ideología woke corrección política cultura polémica (desde 2026-11-13)",
-      "polémica en X esta semana cultura de la cancelación linchamiento digital censura Lorca Valladolid (desde 2026-11-13)",
-      "debate en X esta semana ley trans autodeterminación menores bloqueadores protocolo Madrid (desde 2026-11-13)",
-      "debate en X esta semana despoblación España vaciada Teruel Existe incendios mundo rural (desde 2026-11-13)",
-      "tuiteros llamando fachas a PP Vox esta semana insulto político España campaña (desde 2026-11-13)",
-      "actividad: @profsecundario @dianitanoticias @Tagelca @elxokas (desde 2026-11-12)",
-      "actividad: @TemplarExtre @geoestratego @13mescribano @VictorLapuente (desde 2026-11-12)",
-      "actividad: @EstefMolina_ @nicolasdepedro @armesillaconde @Anujbost @billkilgore_ @elmundotoday @littleragergirl @LaBugsBunnyIA (desde 2026-11-12)",
-      "virales: @profsecundario @Tagelca @13mescribano @dianitanoticias con enlaces y engagement (desde 2026-11-12)"
+      "reacciones en X al mitin de Sanchez Feijoo Abascal esta semana campana elecciones generales 29N sondeos escanos (desde 2026-11-14)",
+      "debate en X esta semana UCO Cerdan Zapatero sanchismo corrupcion PSOE (desde 2026-11-14)",
+      "debate en X esta semana inmigracion Ceuta Canarias El Hierro llegadas irregulares (desde 2026-11-14)",
+      "debate en X esta semana Desokupa okupacion desalojo vecinos propietarios (desde 2026-11-14)",
+      "diagnostico: 4/4 llamadas del primer batch devolvieron personal-team-blocked:spending-limit (sin reintento en bucle)"
     ],
-    "stale_topics": [],
+    "stale_topics": [
+      "acampada-sol",
+      "sanchismo",
+      "inmigracion",
+      "okupacion",
+      "independentismo",
+      "memoria",
+      "feminismo",
+      "woke",
+      "cultura-cancelacion",
+      "ley-trans",
+      "elecciones",
+      "espana-vaciada",
+      "facha"
+    ],
     "inactive_accounts": [
       "@dianitanoticias",
       "@VictorLapuente",
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "previous_generated_at": "2026-11-13T08:00:00+01:00",
+    "previous_generated_at": "2026-11-16T08:18:21+01:00",
     "previous_source": "cron 09f22b3f6f78",
-    "notes": "Primera medición fresca completa (13/13) tras cuatro días de fallback por crédito xAI agotado (11-13 nov). Crédito recargado y operativo: los 13 tópicos y las 3 tandas de actividad devolvieron análisis con citas. Cuentas verificadas en la ventana 12-16 nov; las 4 inactivas siguen siéndolo."
+    "last_valid_generated_at": "2026-11-16T08:18:21+01:00",
+    "fallback": "full",
+    "blocked_streak_days": 1,
+    "notes": "Fallback completo (jornada 1 del bloqueo actual): credito xAI agotado (personal-team-blocked:spending-limit). Las 4 busquedas del primer batch (elecciones, sanchismo, inmigracion, okupacion) fallaron de forma identica, lo que confirma saldo de cuenta y no forma de query; no se reintento en bucle. La recarga del 15-11 solo dio un dia operativo (run completo del 16-11, 13/13): hoy el credito ya esta gastado. topics, news, trends, accounts y virals se reutilizan sin cambios desde la medicion fresca de 2026-11-16T08:18:21+01:00. history.json NO se toca: sin medicion nueva un punto de hoy falsearia el grafico de evolucion. inactive_accounts se mantiene igual (sin comprobacion no hay evidencia ni de actividad ni de inactividad). Recarga en https://grok.com/?_s=usage"
   },
   "topics": [
     {
