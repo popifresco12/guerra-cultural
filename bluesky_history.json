@@ -685,11 +685,25 @@
       "elecciones": 505,
       "espana-vaciada": 429,
       "facha": 301
+    },
+    "2026-11-19": {
+      "sanchismo": 1429,
+      "inmigracion": 444,
+      "okupacion": 1672,
+      "independentismo": 344,
+      "memoria": 616,
+      "feminismo": 629,
+      "woke": 841,
+      "cultura-cancelacion": 1768,
+      "ley-trans": 2118,
+      "elecciones": 403,
+      "espana-vaciada": 445,
+      "facha": 382
     }
   },
   "meta": {
-    "actualizado": "2026-11-18T08:45:37+01:00",
+    "actualizado": "2026-11-19T08:45:36+01:00",
     "nota": "Engagement por tema y dia. Se acumula desde la primera ejecucion.",
-    "dias": 49
+    "dias": 50
   }
 }
