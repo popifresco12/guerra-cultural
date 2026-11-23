@@ -1,88 +1,5 @@
 [
   {
-    "date": "2026-10-04T02:30:30+02:00",
-    "topics": [
-      {
-        "id": "acampada-sol",
-        "name": "Acampada de Sol",
-        "intensity": 92,
-        "momentumDir": "left"
-      },
-      {
-        "id": "sanchismo",
-        "name": "Sanchismo",
-        "intensity": 95,
-        "momentumDir": "right"
-      },
-      {
-        "id": "inmigracion",
-        "name": "Inmigración",
-        "intensity": 93,
-        "momentumDir": "right"
-      },
-      {
-        "id": "okupacion",
-        "name": "Okupación",
-        "intensity": 84,
-        "momentumDir": "right"
-      },
-      {
-        "id": "independentismo",
-        "name": "Independentismo / Procés",
-        "intensity": 82,
-        "momentumDir": "right"
-      },
-      {
-        "id": "memoria",
-        "name": "Memoria Histórica",
-        "intensity": 86,
-        "momentumDir": "right"
-      },
-      {
-        "id": "feminismo",
-        "name": "Feminismo Radical",
-        "intensity": 71,
-        "momentumDir": "right"
-      },
-      {
-        "id": "woke",
-        "name": "Wokismo / Ideología Woke",
-        "intensity": 80,
-        "momentumDir": "right"
-      },
-      {
-        "id": "cultura-cancelacion",
-        "name": "Cultura de la Cancelación",
-        "intensity": 81,
-        "momentumDir": "right"
-      },
-      {
-        "id": "ley-trans",
-        "name": "Ley Trans",
-        "intensity": 77,
-        "momentumDir": "right"
-      },
-      {
-        "id": "elecciones",
-        "name": "Elecciones",
-        "intensity": 60,
-        "momentumDir": "right"
-      },
-      {
-        "id": "espana-vaciada",
-        "name": "España Vaciada",
-        "intensity": 70,
-        "momentumDir": "right"
-      },
-      {
-        "id": "facha",
-        "name": "Facha / Insulto Político",
-        "intensity": 82,
-        "momentumDir": "right"
-      }
-    ]
-  },
-  {
     "date": "2026-10-05T08:05:00+02:00",
     "topics": [
       {
@@ -991,6 +908,89 @@
         "id": "facha",
         "name": "Facha / Insulto Político",
         "intensity": 76,
+        "momentumDir": "left"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-23T08:05:00+01:00",
+    "topics": [
+      {
+        "id": "acampada-sol",
+        "name": "Acampada de Sol",
+        "intensity": 72,
+        "momentumDir": "left"
+      },
+      {
+        "id": "sanchismo",
+        "name": "Sanchismo",
+        "intensity": 96,
+        "momentumDir": "right"
+      },
+      {
+        "id": "inmigracion",
+        "name": "Inmigración",
+        "intensity": 97,
+        "momentumDir": "right"
+      },
+      {
+        "id": "okupacion",
+        "name": "Okupación",
+        "intensity": 84,
+        "momentumDir": "right"
+      },
+      {
+        "id": "independentismo",
+        "name": "Independentismo / Procés",
+        "intensity": 83,
+        "momentumDir": "right"
+      },
+      {
+        "id": "memoria",
+        "name": "Memoria Histórica",
+        "intensity": 85,
+        "momentumDir": "right"
+      },
+      {
+        "id": "feminismo",
+        "name": "Feminismo Radical",
+        "intensity": 70,
+        "momentumDir": "right"
+      },
+      {
+        "id": "woke",
+        "name": "Wokismo / Ideología Woke",
+        "intensity": 78,
+        "momentumDir": "right"
+      },
+      {
+        "id": "cultura-cancelacion",
+        "name": "Cultura de la Cancelación",
+        "intensity": 68,
+        "momentumDir": "center"
+      },
+      {
+        "id": "ley-trans",
+        "name": "Ley Trans",
+        "intensity": 77,
+        "momentumDir": "right"
+      },
+      {
+        "id": "elecciones",
+        "name": "Elecciones",
+        "intensity": 99,
+        "momentumDir": "right"
+      },
+      {
+        "id": "espana-vaciada",
+        "name": "España Vaciada",
+        "intensity": 55,
+        "momentumDir": "center"
+      },
+      {
+        "id": "facha",
+        "name": "Facha / Insulto Político",
+        "intensity": 77,
         "momentumDir": "left"
       }
     ]
