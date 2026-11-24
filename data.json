@@ -1,34 +1,38 @@
 {
   "meta": {
-    "generated_at": "2026-11-23T08:05:00+01:00",
+    "generated_at": "2026-11-24T08:12:00+01:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "debate en X esta semana reacciones al mitin de Sánchez Feijóo Abascal campaña elecciones generales 29N sondeos escaños (desde 2026-11-20)",
-      "debate en X esta semana Sindicato de Inquilinas acampada Puerta del Sol vivienda alquiler (desde 2026-11-20)",
-      "polémica en X esta semana UCO Cerdán Zapatero sanchismo corrupción PSOE (desde 2026-11-20)",
-      "debate en X esta semana inmigración Ceuta Canarias El Hierro llegadas irregulares (desde 2026-11-20)",
-      "debate en X esta semana Desokupa okupación desalojo vecinos propietarios (desde 2026-11-20)",
-      "debate en X esta semana independentismo Cataluña procés Puigdemont presupuestos autodeterminación (desde 2026-11-20)",
-      "debate en X esta semana memoria histórica ley nietos exhumación Franco concordia (desde 2026-11-20)",
-      "debate en X esta semana feminismo abolicionista prostitución Irene Montero ley solo sí es sí (desde 2026-11-20)",
-      "debate en X esta semana ideología woke corrección política cultura polémica (desde 2026-11-20)",
-      "debate en X esta semana cultura de la cancelación linchamiento digital censura Lorca Valladolid (desde 2026-11-20)",
-      "debate en X esta semana ley trans autodeterminación menores bloqueadores protocolo Madrid (desde 2026-11-20)",
-      "debate en X esta semana despoblación España vaciada Teruel Existe incendios mundo rural (desde 2026-11-20)",
-      "debate en X esta semana tuiteros llamando fachas a PP Vox insulto político España campaña (desde 2026-11-20)",
-      "actividad @profsecundario @dianitanoticias @Tagelca @elxokas",
-      "actividad @TemplarExtre @geoestratego @13mescribano @VictorLapuente",
-      "actividad @EstefMolina_ @nicolasdepedro @armesillaconde @Anujbost",
-      "actividad @billkilgore_ @elmundotoday @littleragergirl @LaBugsBunnyIA"
+      "debate en X esta semana reacciones al mitin de Sánchez Feijóo Abascal campaña elecciones generales 29N sondeos escaños (desde 2026-11-21)",
+      "debate en X esta semana inmigración Ceuta Canarias El Hierro llegadas irregulares (desde 2026-11-21)",
+      "debate en X esta semana Sindicato de Inquilinas acampada Puerta del Sol vivienda alquiler (desde 2026-11-21)",
+      "polémica en X esta semana UCO Cerdán Zapatero sanchismo corrupción PSOE (desde 2026-11-21) — respuesta truncada, reintento fallido: spending-limit",
+      "debate en X esta semana Desokupa okupación desalojo vecinos propietarios (desde 2026-11-21) — spending-limit",
+      "debate en X esta semana independentismo Cataluña procés Puigdemont presupuestos autodeterminación (desde 2026-11-21) — spending-limit",
+      "debate en X esta semana memoria histórica ley nietos exhumación Franco concordia (desde 2026-11-21) — spending-limit",
+      "debate en X esta semana feminismo abolicionista prostitución Irene Montero ley solo sí es sí (desde 2026-11-21) — spending-limit",
+      "reacciones en X Santos Cerdán UCO declaración jueza Ábalos Zapatero comisión investigación PSOE esta semana (desde 2026-11-21) — spending-limit"
     ],
-    "stale_topics": [],
+    "stale_topics": [
+      "sanchismo",
+      "okupacion",
+      "independentismo",
+      "memoria",
+      "feminismo",
+      "woke",
+      "cultura-cancelacion",
+      "ley-trans",
+      "espana-vaciada",
+      "facha"
+    ],
     "inactive_accounts": [
       "@dianitanoticias",
       "@elxokas",
       "@VictorLapuente",
       "@elmundotoday",
       "@littleragergirl"
-    ]
+    ],
+    "notes": "Run parcial (3/13 tópicos frescos: elecciones, inmigracion, acampada-sol). Los créditos xAI se agotaron al inicio de la segunda tanda (personal-team-blocked:spending-limit, 5 llamadas idénticas). Los otros 10 tópicos conservan los valores medidos el 23-11 y están en stale_topics; trends de esos temas marcadas stable 0%. No se pudo ejecutar la verificación de actividad de cuentas: accounts[] se mantiene íntegro con sus fechas de verificación previas e inactive_accounts queda EXACTAMENTE como estaba (sin chequeo = ni activo ni inactivo). virals[] se reutilizan del commit anterior: son tweets reales de la misma semana con engagement real; inventar métricas nuevas sería fabricación."
   },
   "topics": [
     {
@@ -37,23 +41,23 @@
       "icon": "⛺",
       "tag": "🔥 Tendencia moderada",
       "tagClass": "tag-moderate",
-      "intensity": 72,
-      "momentum": 44,
+      "intensity": 66,
+      "momentum": 45,
       "momentumDir": "left",
-      "summary": "El Sindicato de Inquilinas mantiene la movilización pese a que la acampada de Sol ya no existe: protestas el 21-N en Madrid, Barcelona, Zaragoza y Valencia, coordinadas con más de 600 ciudades europeas bajo el lema «La vida por encima de sus beneficios», y una ILP contra el sinhogarismo anunciada desde la Asociación de Personas Sin Hogar nacida de la acampada 26S. Los críticos viralizan la baja afluencia («ni 300 personas»), acusan de «expropiar pisos» y difunden una carta abierta que les reprocha escalar sin asumir consecuencias, mientras la acción de Boadilla contra un casero con una VPO alquilada en negro ejemplifica la vía de la denuncia.",
-      "quote": "«La vida por encima de sus beneficios» — lema de las movilizaciones coordinadas en más de 600 ciudades europeas",
+      "summary": "Sin nueva acampada en Puerta del Sol: la conversación vive de los ecos de la huelga de vivienda (~115 detenidos y oleada represiva), de la ILP contra el sinhogarismo nacida del 26S y de una carta abierta en El Salto que exige responsabilidad al Sindicato de Inquilinas por quienes sufrieron las consecuencias. La derecha rentabiliza la baja asistencia a las manifestaciones.",
+      "quote": "«Invocar a la huelga y a una escalada en la presión debería conllevar una responsabilidad equivalente con quienes sufren las consecuencias» — carta abierta en El Salto.",
       "details": [
         [
           "Volumen en X",
-          "Moderado-alto, con pico en la jornada del 21-N"
+          "Moderado, en descenso"
         ],
         [
           "Sentimiento",
-          "Enfrentado: derecho a la vivienda contra «falso sindicato»"
+          "Dividido; crítica interna en la izquierda"
         ],
         [
           "Impulsado por",
-          "Movilizaciones del 21-N y la ILP contra el sinhogarismo"
+          "Huelga de vivienda, ILP y carta en El Salto"
         ]
       ]
     },
@@ -90,22 +94,22 @@
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
       "intensity": 97,
-      "momentum": 91,
+      "momentum": 92,
       "momentumDir": "right",
-      "summary": "El Hierro vuelve a ser el símbolo del desborde: 5-6 cayucos con unos 294-361 migrantes en un solo día, cerca de 10.000 llegadas solo en noviembre para una isla de ~11.000 habitantes y la inmigración irregular un +39,4% interanual. Feijóo visita la isla («la inmigración irregular no puede producir derechos», mando único) y Vox habla de «Ceuta y El Hierro invadidas», mientras los cálculos logísticos sobre cómo llegan cayucos desde Senegal alimentan las sospechas de tráfico organizado y Ceuta reaparece con fugas hacia la Península interceptadas por la Policía.",
-      "quote": "«La inmigración irregular no puede producir derechos» — Alberto Núñez Feijóo en El Hierro",
+      "summary": "El Hierro y Ceuta monopolizan la conversación: cinco cayucos en un solo domingo en La Restinga, casi 13.000 llegadas en noviembre y un +39,4% de inmigración irregular que contradice el relato del Gobierno. Circulan los traslados a la Península en «aviones-patera» (28 en noviembre) y las acusaciones de que Interior no contabiliza los saltos de Ceuta.",
+      "quote": "«Ceuta sigue invadida. Y El Hierro no puede soportar más presión migratoria. Mientras tanto, Sánchez y Víctor Torres bailan sobre el drama» — @rosadiezglez.",
       "details": [
         [
           "Volumen en X",
-          "Muy alto, con vídeos de cayucos y escoltas"
+          "Muy alto, sostenido toda la semana"
         ],
         [
           "Sentimiento",
-          "Alarma y crítica al Gobierno; pocas defensas visibles"
+          "Crítico dominante"
         ],
         [
           "Impulsado por",
-          "Récord de llegadas a El Hierro, visita de Feijóo y la ruta canaria"
+          "Cayucos en El Hierro y saltos en Ceuta"
         ]
       ]
     },
@@ -298,22 +302,22 @@
       "tag": "🔥 Tendencia alta",
       "tagClass": "tag-hot",
       "intensity": 99,
-      "momentum": 86,
+      "momentum": 87,
       "momentumDir": "right",
-      "summary": "Recta final hacia el 29-N y el volumen es el más alto del tablero: el cara a cara Sánchez-Feijóo (~20 nov) domina X con lecturas cruzadas —Feijóo «más agresivo y con datos» para unos, Sánchez «firme» y con verificaciones a favor para otros— y los sondeos que circulan dan mayoría holgada a PP+Vox (180-202 escaños según Cluster17, Sigma Dos o las agregaciones, con Vox a veces subiendo hasta 64-68). Abascal queda como referencia del «estilo duro» que Feijóo imita, mientras las acusaciones de mítines con buses fletados y la expulsión de activistas saharauis alimentan la polarización.",
-      "quote": "«Feijóo lo ha machacado con DATOS y HECHOS… Sánchez solo vaguedades» — @Punto_Sobrelai sobre el cara a cara",
+      "summary": "Recta final del 29-N con la campaña en máximos: Sánchez llenó el Centro de Convenciones de Córdoba (~5.000 personas, gente fuera) con el «soy garrapatero y zurdo» y la actuación de la cantante palestina Miriam Toukan, mientras Feijóo cancela actos para ir a platós y Abascal llama a una «movilización gigantesca» el 29-N.",
+      "quote": "«Soy garrapatero y zurdo» — Sánchez en Córdoba, el clip más compartido del mitin, contestado por la derecha con el baile de la pancarta de Adamuz y la presencia de Toukan.",
       "details": [
         [
           "Volumen en X",
-          "Máximo del ciclo, con el cara a cara del 20-N"
+          "Máximo del ciclo electoral"
         ],
         [
           "Sentimiento",
-          "Polarización total: derecha celebra, izquierda defiende logros"
+          "Muy polarizado; euforia de la derecha con los sondeos"
         ],
         [
           "Impulsado por",
-          "Cara a cara Sánchez-Feijóo y los sondeos con PP+Vox en 180-202"
+          "Sondeos PP+Vox 190-197 y mitin de Córdoba"
         ]
       ]
     },
@@ -372,104 +376,104 @@
   ],
   "news": [
     {
-      "title": "El Hierro se desborda: 5-6 cayucos y casi 300 migrantes en un día, ~10.000 en noviembre",
-      "date": "22 nov 2026",
-      "summary": "La ruta canaria encadena récords con unos 294-361 migrantes desembarcados en La Restinga en una sola jornada y cerca de 10.000 llegadas en lo que va de mes para una isla de ~11.000 habitantes. Feijóo visita la isla y pide un mando único mientras Vox habla de «Ceuta y El Hierro invadidas»; los cálculos logísticos sobre cómo llegan cayucos desde Senegal alimentan las sospechas de tráfico organizado.",
-      "source": "RTVE / Informativos Telecinco / X",
+      "title": "Sánchez llena Córdoba en el mitin más comentado de la campaña: «soy garrapatero y zurdo»",
+      "date": "23 nov 2026",
+      "summary": "El Centro de Convenciones de Córdoba se quedó pequeño (~5.000 personas, gente fuera) en el acto central del PSOE, con la actuación de la cantante palestina Miriam Toukan y el lema «Córdoba no vuelve atrás». La derecha respondió con el vídeo del baile junto a la pancarta de Adamuz, acusaciones de blanquear «terrorismo yihadista» y el lapsus de las urnas «verdes».",
+      "source": "ABC / La Voz del Sur / X",
+      "tags": [
+        "Elecciones",
+        "PSOE"
+      ]
+    },
+    {
+      "title": "Sondeos de la recta final: PP ~20 escaños por delante y PP+Vox en 190-197",
+      "date": "23 nov 2026",
+      "summary": "Sociométrica-El Español, El Debate y el votómetro de The Objective coinciden en dar al PP unos 3 puntos y ~20 escaños de ventaja sobre el PSOE, con Vox en tercera posición con ~62 escaños y ~18% del voto. PP+Vox superarían la mayoría absoluta de 176 y algunos análisis hablan de más de 200 escaños, mientras el PSOE repunta levemente y se abre el debate sobre voto útil y el CERA.",
+      "source": "El Debate / El Español / X",
+      "tags": [
+        "Elecciones",
+        "Sondeos"
+      ]
+    },
+    {
+      "title": "El Hierro encadena cayucos y la ruta canaria roza las 13.000 llegadas en noviembre",
+      "date": "23 nov 2026",
+      "summary": "Cinco cayucos llegaron a La Restinga en un solo domingo y otros cuatro a Tenerife, con más de 800 personas en siete embarcaciones en una jornada. La inmigración irregular sube un 39,4% (sin Ceuta) frente al relato de reducción del Gobierno, y se documentan 28 «aviones-patera» de traslado a la Península solo en noviembre.",
+      "source": "Alerta Global 24H / RTVE / X",
       "tags": [
         "Inmigración",
         "Canarias"
       ]
     },
     {
-      "title": "Puigdemont llama «amoral» a Sánchez y presume de «derrotar a España» con la amnistía",
-      "date": "21 nov 2026",
-      "summary": "En una entrevista en El Mundo, el líder de Junts describe a Sánchez como «amoral» y con «ambición desmedida» y reconoce que se aprovechó de ello para arrancar la amnistía con 7 votos. Vox anuncia denuncias ante la Fiscalía del Supremo por cohecho, prevaricación y traición, mientras el constitucionalismo lo lee como confesión del «pacto bastardo» y parte del independentismo lo critica como «tiro en el pie» en campaña.",
-      "source": "El Mundo / La Hora de La 1 / X",
+      "title": "Ceuta: la derecha acusa a Interior de no contabilizar los saltos de la valla",
+      "date": "22 nov 2026",
+      "summary": "Rosa Díez y cuentas de alerta local denuncian un goteo constante de entradas irregulares en Ceuta que no aparecería en las estadísticas oficiales, con intentos de colarse en autobuses y saltos a la valla. En el debate a ocho de RTVE, Vox fue acusado de monotema por repetir «Ceuta, inmigración» en cada intervención.",
+      "source": "El Faro de Ceuta / X",
       "tags": [
-        "Independentismo",
-        "Elecciones"
+        "Inmigración",
+        "Ceuta"
       ]
     },
     {
-      "title": "Cara a cara Sánchez-Feijóo: lecturas cruzadas y sondeos que dan mayoría a PP+Vox",
-      "date": "20 nov 2026",
-      "summary": "El debate (~20 nov) domina X: afines al PP lo ven «machacando con datos» y a Sánchez «absentista», mientras el PSOE celebra un Sánchez «firme» y fact-checks a favor. Los sondeos que circulan dan a PP+Vox entre 180 y 202 escaños (Cluster17, Sigma Dos, agregaciones), con Abascal como referencia del «estilo duro» que Feijóo imita y acusaciones de mítines con buses fletados.",
-      "source": "La Voz de Galicia / Agenda Pública / X",
+      "title": "Huelga de vivienda: ~115 detenidos y carta abierta al Sindicato de Inquilinas",
+      "date": "22 nov 2026",
+      "summary": "La escalada por la vivienda deja una oleada represiva con unos 115 detenidos y movilizaciones en Madrid, Zaragoza, Barcelona, Alicante, Valencia y Castelló bajo el lema «la vida por encima del beneficio». Una carta abierta en El Salto reprocha al sindicato la responsabilidad sobre quienes sufrieron las consecuencias, mientras del entorno del 26S sale una ILP contra el sinhogarismo.",
+      "source": "Público / El Salto / X",
       "tags": [
-        "Elecciones",
-        "Campaña"
-      ]
-    },
-    {
-      "title": "La UCO destapa las joyas de Zapatero y el caso Plus Ultra: 530.000 € en comisiones",
-      "date": "21 nov 2026",
-      "summary": "El expresidente aparece con las joyas halladas en su despacho y el rescate de 53 millones a Plus Ultra —empresa vinculada a intereses chavistas— por el que habría cobrado ~530.000 € en comisiones. Sánchez lo defiende como «inocente» y admite en Salvados que lo de Cerdán fue «un golpe muy duro»; la oposición lo enmarca en un «patrón» de corrupción sistémica del sanchismo.",
-      "source": "OKDIARIO / La Vanguardia / X",
-      "tags": [
-        "Sanchismo",
-        "Corrupción"
-      ]
-    },
-    {
-      "title": "Censura de Lorca: suspenden obras en Valladolid y Pinto y Lola Herrera alerta",
-      "date": "20 nov 2026",
-      "summary": "Valladolid (PP-Vox) habría tumbado la obra «Federico» sobre la muerte de Lorca y Pinto (PP) retirado cinco piezas apalabradas (Lorca, «Mujeres Libres», Berlanga...). La actriz Lola Herrera alerta del «peligro de la vuelta a la censura» y la izquierda denuncia cancelación ideológica, mientras el Ayuntamiento de Pinto desmiente y la derecha lo tacha de bulo electoral de la «sanchosfera».",
-      "source": "Europa Press / eldiario.es / X",
-      "tags": [
-        "Cultura de la Cancelación",
-        "Censura"
+        "Vivienda",
+        "Acampada de Sol"
       ]
     }
   ],
   "trends": [
     {
-      "name": "Independentismo / Puigdemont",
+      "name": "Elecciones 29-N / sondeos",
       "change": "up",
-      "pct": "+18%",
-      "detail": "La entrevista de El Mundo («amoral», «derrotar a España») y las denuncias de Vox a la Fiscalía."
+      "pct": "+4%",
+      "detail": "Sondeos de PP+Vox en 190-197 y el mitin de Córdoba de Sánchez como pico del ciclo."
     },
     {
-      "name": "Elecciones 29-N / cara a cara",
+      "name": "Inmigración / El Hierro y Ceuta",
       "change": "up",
-      "pct": "+16%",
-      "detail": "El cara a cara del 20-N y los sondeos con PP+Vox en 180-202 escaños."
-    },
-    {
-      "name": "Sanchismo / UCO-Zapatero",
-      "change": "up",
-      "pct": "+14%",
-      "detail": "Joyas y Plus Ultra de Zapatero (530.000 €) y la admisión de Sánchez en Salvados."
-    },
-    {
-      "name": "Cultura cancelación / Lorca",
-      "change": "up",
-      "pct": "+12%",
-      "detail": "Suspensión de obras de Lorca en Valladolid y Pinto, con Lola Herrera como altavoz."
-    },
-    {
-      "name": "Inmigración / El Hierro",
-      "change": "up",
-      "pct": "+11%",
-      "detail": "Récord de llegadas, la visita de Feijóo con «mando único» y la ruta canaria disparada."
-    },
-    {
-      "name": "Memoria / Ley de Nietos",
-      "change": "up",
-      "pct": "+9%",
-      "detail": "El 20-N, la marcha de Falange ante Ferraz y el voto exterior de los «nietos»."
-    },
-    {
-      "name": "Okupación / Desokupa",
-      "change": "up",
-      "pct": "+7%",
-      "detail": "Resolución judicial que facilita desahucios y el desalojo en 48h de Feijóo."
+      "pct": "+3%",
+      "detail": "Cinco cayucos en un domingo en La Restinga y el +39,4% de inmigración irregular."
     },
     {
       "name": "Acampada de Sol / Inquilinas",
       "change": "down",
-      "pct": "-8%",
-      "detail": "La acampada ya no existe; queda la jornada del 21-N y la ILP contra el sinhogarismo."
+      "pct": "-9%",
+      "detail": "Sin acampada activa: quedan la huelga de vivienda, la ILP y la carta abierta en El Salto."
+    },
+    {
+      "name": "Sanchismo / UCO-Cerdán",
+      "change": "stable",
+      "pct": "0%",
+      "detail": "Sin medición fresca este run (créditos xAI agotados a media ejecución); se mantiene el valor del 23-N."
+    },
+    {
+      "name": "Independentismo / Puigdemont",
+      "change": "stable",
+      "pct": "0%",
+      "detail": "Sin medición fresca este run (créditos xAI agotados a media ejecución); se mantiene el valor del 23-N."
+    },
+    {
+      "name": "Memoria histórica / Ley de Nietos",
+      "change": "stable",
+      "pct": "0%",
+      "detail": "Sin medición fresca este run (créditos xAI agotados a media ejecución); se mantiene el valor del 23-N."
+    },
+    {
+      "name": "Okupación / Desokupa",
+      "change": "stable",
+      "pct": "0%",
+      "detail": "Sin medición fresca este run (créditos xAI agotados a media ejecución); se mantiene el valor del 23-N."
+    },
+    {
+      "name": "Facha / insulto político",
+      "change": "stable",
+      "pct": "0%",
+      "detail": "Sin medición fresca este run (créditos xAI agotados a media ejecución); se mantiene el valor del 23-N."
     }
   ],
   "accounts": [
