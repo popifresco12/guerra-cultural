@@ -1,20 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-11-24T08:12:00+01:00",
+    "generated_at": "2026-11-25T08:00:00+01:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "debate en X esta semana reacciones al mitin de Sánchez Feijóo Abascal campaña elecciones generales 29N sondeos escaños (desde 2026-11-21)",
-      "debate en X esta semana inmigración Ceuta Canarias El Hierro llegadas irregulares (desde 2026-11-21)",
-      "debate en X esta semana Sindicato de Inquilinas acampada Puerta del Sol vivienda alquiler (desde 2026-11-21)",
-      "polémica en X esta semana UCO Cerdán Zapatero sanchismo corrupción PSOE (desde 2026-11-21) — respuesta truncada, reintento fallido: spending-limit",
-      "debate en X esta semana Desokupa okupación desalojo vecinos propietarios (desde 2026-11-21) — spending-limit",
-      "debate en X esta semana independentismo Cataluña procés Puigdemont presupuestos autodeterminación (desde 2026-11-21) — spending-limit",
-      "debate en X esta semana memoria histórica ley nietos exhumación Franco concordia (desde 2026-11-21) — spending-limit",
-      "debate en X esta semana feminismo abolicionista prostitución Irene Montero ley solo sí es sí (desde 2026-11-21) — spending-limit",
-      "reacciones en X Santos Cerdán UCO declaración jueza Ábalos Zapatero comisión investigación PSOE esta semana (desde 2026-11-21) — spending-limit"
+      "debate en X esta semana reacciones al mitin de Sánchez Feijóo Abascal campaña elecciones generales 29N sondeos escaños (desde 2026-11-22) — spending-limit",
+      "polémica en X esta semana UCO Cerdán Zapatero sanchismo corrupción PSOE (desde 2026-11-22) — spending-limit",
+      "debate en X esta semana inmigración Ceuta Canarias El Hierro llegadas irregulares (desde 2026-11-22) — spending-limit",
+      "debate en X esta semana independentismo Cataluña procés Puigdemont presupuestos autodeterminación (desde 2026-11-22) — spending-limit"
     ],
     "stale_topics": [
+      "acampada-sol",
       "sanchismo",
+      "inmigracion",
       "okupacion",
       "independentismo",
       "memoria",
@@ -22,6 +19,7 @@
       "woke",
       "cultura-cancelacion",
       "ley-trans",
+      "elecciones",
       "espana-vaciada",
       "facha"
     ],
@@ -32,7 +30,11 @@
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "notes": "Run parcial (3/13 tópicos frescos: elecciones, inmigracion, acampada-sol). Los créditos xAI se agotaron al inicio de la segunda tanda (personal-team-blocked:spending-limit, 5 llamadas idénticas). Los otros 10 tópicos conservan los valores medidos el 23-11 y están en stale_topics; trends de esos temas marcadas stable 0%. No se pudo ejecutar la verificación de actividad de cuentas: accounts[] se mantiene íntegro con sus fechas de verificación previas e inactive_accounts queda EXACTAMENTE como estaba (sin chequeo = ni activo ni inactivo). virals[] se reutilizan del commit anterior: son tweets reales de la misma semana con engagement real; inventar métricas nuevas sería fabricación."
+    "previous_generated_at": "2026-11-24T08:12:00+01:00",
+    "previous_source": "cron 09f22b3f6f78",
+    "fallback": "full",
+    "blocked_streak_days": 2,
+    "notes": "Fallback completo (0/13): las 4 llamadas de la primera tanda devolvieron identicamente personal-team-blocked:spending-limit, lo que confirma que el bloqueo es de cuenta (sin credito Grok / sin suscripcion), no de forma de query; se ahorro la sonda de diagnostico. Dia 2 del bloqueo (empezo a media run el 24-11 con 3/13 medidos; hoy 0/13). topics, news, trends, accounts y virals se reutilizan VERBATIM del commit anterior (10 de los 13 topicos ya eran valores del 23-11). meta.inactive_accounts queda EXACTAMENTE como estaba: sin chequeo no hay evidencia ni de actividad ni de inactividad. NO se anade snapshot a history.json: con cero medicion fresca un punto de hoy falsearia la grafica de evolucion. Recarga en https://grok.com/?_s=usage (un recarga rinde 1-2 dias operativos)."
   },
   "topics": [
     {
