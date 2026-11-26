@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-11-25T08:00:00+01:00",
+    "generated_at": "2026-11-26T08:00:00+01:00",
     "source": "cron 09f22b3f6f78",
     "queries": [
-      "debate en X esta semana reacciones al mitin de Sánchez Feijóo Abascal campaña elecciones generales 29N sondeos escaños (desde 2026-11-22) — spending-limit",
-      "polémica en X esta semana UCO Cerdán Zapatero sanchismo corrupción PSOE (desde 2026-11-22) — spending-limit",
-      "debate en X esta semana inmigración Ceuta Canarias El Hierro llegadas irregulares (desde 2026-11-22) — spending-limit",
-      "debate en X esta semana independentismo Cataluña procés Puigdemont presupuestos autodeterminación (desde 2026-11-22) — spending-limit"
+      "debate en X esta semana reacciones a la campaña electoral Sánchez Feijóo Abascal elecciones generales 29N sondeos escaños pactos (desde 2026-11-23) — spending-limit",
+      "polémica en X esta semana UCO Cerdán Zapatero sanchismo corrupción PSOE (desde 2026-11-23) — spending-limit",
+      "debate en X esta semana inmigración Ceuta Canarias El Hierro llegadas irregulares (desde 2026-11-23) — spending-limit",
+      "debate en X esta semana independentismo Cataluña procés Puigdemont autodeterminación (desde 2026-11-23) — spending-limit"
     ],
     "stale_topics": [
       "acampada-sol",
@@ -30,11 +30,11 @@
       "@elmundotoday",
       "@littleragergirl"
     ],
-    "previous_generated_at": "2026-11-24T08:12:00+01:00",
+    "previous_generated_at": "2026-11-25T08:00:00+01:00",
     "previous_source": "cron 09f22b3f6f78",
     "fallback": "full",
-    "blocked_streak_days": 2,
-    "notes": "Fallback completo (0/13): las 4 llamadas de la primera tanda devolvieron identicamente personal-team-blocked:spending-limit, lo que confirma que el bloqueo es de cuenta (sin credito Grok / sin suscripcion), no de forma de query; se ahorro la sonda de diagnostico. Dia 2 del bloqueo (empezo a media run el 24-11 con 3/13 medidos; hoy 0/13). topics, news, trends, accounts y virals se reutilizan VERBATIM del commit anterior (10 de los 13 topicos ya eran valores del 23-11). meta.inactive_accounts queda EXACTAMENTE como estaba: sin chequeo no hay evidencia ni de actividad ni de inactividad. NO se anade snapshot a history.json: con cero medicion fresca un punto de hoy falsearia la grafica de evolucion. Recarga en https://grok.com/?_s=usage (un recarga rinde 1-2 dias operativos)."
+    "blocked_streak_days": 3,
+    "notes": "Fallback completo (0/13): las 4 llamadas de la primera tanda devolvieron identicamente personal-team-blocked:spending-limit, lo que confirma que el bloqueo es de cuenta (sin credito Grok / sin suscripcion), no de forma de query; se ahorro la sonda de diagnostico. Dia 3 del bloqueo (24-11 a media run con 3/13, 25-11 y 26-11 con 0/13). topics, news, trends, accounts y virals se reutilizan VERBATIM del commit anterior (los 13 topicos miden como mucho el 23-11). meta.inactive_accounts queda EXACTAMENTE como estaba: sin chequeo no hay evidencia ni de actividad ni de inactividad. NO se anade snapshot a history.json: con cero medicion fresca un punto de hoy falsearia la grafica de evolucion. Recarga en https://grok.com/?_s=usage (una recarga rinde 1-2 dias operativos)."
   },
   "topics": [
     {
